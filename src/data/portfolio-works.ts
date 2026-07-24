@@ -5,7 +5,7 @@ import { PROJECT_PLACEHOLDER } from "@/data/portfolio-placeholder";
 
 import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
-import portfolioGame from "@/assets/portfolio-game.jpg";
+import portfolioIndustrial from "@/assets/portfolio-industrial.jpg";
 import portfolioMotion from "@/assets/portfolio-motion.jpg";
 import portfolioTrailer from "@/assets/portfolio-trailer.jpg";
 
@@ -888,7 +888,7 @@ const rawWorkCategories: WorkCategory[] = [
     tagline: "Technical storytelling for products and manufacturing",
     description:
       "Brand films, identity motion, and launch assets that define how audiences remember your name.",
-    coverImage: portfolioGame,
+    coverImage: portfolioIndustrial,
     clients: [
       client(
         {
