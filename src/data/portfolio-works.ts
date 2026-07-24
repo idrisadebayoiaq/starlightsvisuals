@@ -4,7 +4,7 @@ import { applyPortfolioYoutube } from "@/lib/apply-portfolio-youtube";
 import { PROJECT_PLACEHOLDER } from "@/data/portfolio-placeholder";
 
 import portfolio2d from "@/assets/portfolio-2d.jpg";
-import portfolioCharacter from "@/assets/portfolio-character.jpg";
+import portfolio3d from "@/assets/portfolio-3d.jpg";
 import portfolioIndustrial from "@/assets/portfolio-industrial.jpg";
 import portfolioMotion from "@/assets/portfolio-motion.jpg";
 import portfolioProduct from "@/assets/portfolio-product.jpg";
@@ -317,7 +317,7 @@ const rawWorkCategories: WorkCategory[] = [
     tagline: "Stylized and photoreal 3D for film and brands",
     description:
       "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series.",
-    coverImage: portfolioCharacter,
+    coverImage: portfolio3d,
     clients: [
       client(
         {

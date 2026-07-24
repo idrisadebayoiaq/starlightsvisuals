@@ -55,11 +55,13 @@ function CategoryClientsPage() {
             className={
               slug === "2d-animation"
                 ? "h-full w-full object-cover object-[center_22%] opacity-25"
-                : slug === "video-editing"
-                  ? "h-full w-full object-cover object-[center_40%] opacity-25"
-                  : slug === "branding"
-                    ? "h-full w-full object-cover object-[center_35%] opacity-25"
-                    : "h-full w-full object-cover opacity-25"
+                : slug === "3d-animation"
+                  ? "h-full w-full object-cover object-[center_35%] opacity-25"
+                  : slug === "video-editing"
+                    ? "h-full w-full object-cover object-[center_40%] opacity-25"
+                    : slug === "branding"
+                      ? "h-full w-full object-cover object-[center_35%] opacity-25"
+                      : "h-full w-full object-cover opacity-25"
             }
           />
           <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background to-background" />
