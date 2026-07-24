@@ -46,7 +46,10 @@ export function SelectedWorkCard({
             width={800}
             height={1000}
             loading="lazy"
-            className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+            className={cn(
+              "h-full w-full object-cover transition-transform duration-700 group-hover:scale-105",
+              slug === "2d-animation" && "object-[center_22%]",
+            )}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent opacity-90 transition group-hover:opacity-80" />
         </div>

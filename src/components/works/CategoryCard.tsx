@@ -4,6 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 import type { WorkCategory } from "@/types/portfolio-works";
+import { cn } from "@/lib/utils";
 
 type CategoryCardProps = {
   category: WorkCategory;
@@ -30,7 +31,10 @@ export function CategoryCard({ category, index = 0 }: CategoryCardProps) {
           <img
             src={category.coverImage}
             alt={category.title}
-            className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+            className={cn(
+              "h-full w-full object-cover transition-transform duration-700 group-hover:scale-105",
+              category.slug === "2d-animation" && "object-[center_22%]",
+            )}
             loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent" />

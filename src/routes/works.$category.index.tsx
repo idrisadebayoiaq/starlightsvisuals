@@ -49,7 +49,15 @@ function CategoryClientsPage() {
         className="relative isolate border-b border-border/40"
       >
         <div className="absolute inset-0 -z-10">
-          <img src={category.coverImage} alt="" className="h-full w-full object-cover opacity-25" />
+          <img
+            src={category.coverImage}
+            alt=""
+            className={
+              slug === "2d-animation"
+                ? "h-full w-full object-cover object-[center_22%] opacity-25"
+                : "h-full w-full object-cover opacity-25"
+            }
+          />
           <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background to-background" />
         </div>
         <div className="mx-auto max-w-7xl px-6 pb-16 pt-28 md:px-14 md:pt-32">
