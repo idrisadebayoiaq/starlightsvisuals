@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Menu, PanelLeftClose, PanelLeftOpen, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -54,15 +54,15 @@ export function SiteHeader() {
           aria-expanded={desktopOpen}
           aria-controls="site-sidebar"
           className={cn(
-            "fixed top-8 z-[60] hidden items-center justify-center rounded border border-border bg-background p-2 text-foreground shadow-sm backdrop-blur transition-[left] duration-300 ease-out hover:border-neon-green hover:text-neon-green md:flex",
+            "fixed top-8 z-[60] hidden size-8 items-center justify-center rounded border border-border bg-background text-foreground shadow-sm backdrop-blur transition-[left] duration-300 ease-out hover:border-neon-green hover:text-neon-green md:flex",
             desktopOpen ? "-translate-x-1/2" : "translate-x-0",
           )}
           style={{ left: desktopOpen ? sidebarWidth : 16 }}
         >
           {desktopOpen ? (
-            <PanelLeftClose className="h-5 w-5" aria-hidden />
+            <X className="h-3.5 w-3.5" aria-hidden />
           ) : (
-            <PanelLeftOpen className="h-5 w-5" aria-hidden />
+            <Menu className="h-3.5 w-3.5" aria-hidden />
           )}
         </button>
       )}

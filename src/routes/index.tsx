@@ -3,6 +3,7 @@ import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { HomeFaqSection } from "@/components/HomeFaqSection";
 import { TextTestimonialsSection } from "@/components/TextTestimonialsSection";
 import { TrustedBySection } from "@/components/TrustedBySection";
 import { VideoTestimonialsSection } from "@/components/VideoTestimonialsSection";
@@ -166,6 +167,7 @@ function Home() {
 
       <TextTestimonialsSection />
       <VideoTestimonialsSection />
+      <HomeFaqSection />
 
       <section className="relative isolate overflow-hidden border-b border-border/40">
         <div className="absolute inset-0 -z-10 grid-bg" />

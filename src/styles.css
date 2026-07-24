@@ -250,11 +250,6 @@
       max-width: none;
     }
   }
-  .testimonial-marquee-shell:hover .testimonial-marquee-track,
-  .testimonial-marquee-shell:focus-within .testimonial-marquee-track,
-  .testimonial-marquee-shell.is-paused .testimonial-marquee-track {
-    animation-play-state: paused;
-  }
   @media (prefers-reduced-motion: reduce) {
     .testimonial-marquee-track {
       animation: none;
