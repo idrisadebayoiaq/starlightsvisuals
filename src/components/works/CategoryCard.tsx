@@ -34,6 +34,7 @@ export function CategoryCard({ category, index = 0 }: CategoryCardProps) {
             className={cn(
               "h-full w-full object-cover transition-transform duration-700 group-hover:scale-105",
               category.slug === "2d-animation" && "object-[center_22%]",
+              category.slug === "video-editing" && "object-[center_40%]",
               category.slug === "branding" && "object-[center_35%]",
             )}
             loading="lazy"

@@ -49,6 +49,7 @@ export function SelectedWorkCard({
             className={cn(
               "h-full w-full object-cover transition-transform duration-700 group-hover:scale-105",
               slug === "2d-animation" && "object-[center_22%]",
+              slug === "video-editing" && "object-[center_40%]",
               slug === "branding" && "object-[center_35%]",
             )}
           />

@@ -7,6 +7,7 @@ import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
 import portfolioIndustrial from "@/assets/portfolio-industrial.jpg";
 import portfolioMotion from "@/assets/portfolio-motion.jpg";
+import portfolioProduct from "@/assets/portfolio-product.jpg";
 import portfolioTrailer from "@/assets/portfolio-trailer.jpg";
 
 export type WorkCategorySlug =
@@ -555,7 +556,7 @@ const rawWorkCategories: WorkCategory[] = [
     tagline: "Photoreal product films and cinematic packshots",
     description:
       "Editorial finishing, rhythm, and story structure for commercials, documentaries, and brand films.",
-    coverImage: portfolioTrailer,
+    coverImage: portfolioProduct,
     clients: [
       client(
         {
