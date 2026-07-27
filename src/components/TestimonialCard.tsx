@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { BadgeCheck, Star, X } from "lucide-react";
+import { BadgeCheck, Star } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -29,74 +29,45 @@ function avatarSrc(testimonial: TextTestimonial) {
 type TestimonialCardProps = {
   testimonial: TextTestimonial;
   className?: string;
-  expanded?: boolean;
-  onToggle?: () => void;
+  onOpen?: () => void;
 };
 
-export function TestimonialCard({
-  testimonial,
-  className,
-  expanded = false,
-  onToggle,
-}: TestimonialCardProps) {
+export function TestimonialCard({ testimonial, className, onOpen }: TestimonialCardProps) {
   const { t } = useTranslation();
   const rating = testimonial.rating ?? 5;
   const verified = testimonial.verified ?? true;
 
   const needsTruncate = testimonial.quote.length > QUOTE_PREVIEW_CHARS;
-  const displayQuote =
-    expanded || !needsTruncate
-      ? testimonial.quote
-      : `${testimonial.quote.slice(0, QUOTE_PREVIEW_CHARS).trimEnd()}…`;
+  const displayQuote = needsTruncate
+    ? `${testimonial.quote.slice(0, QUOTE_PREVIEW_CHARS).trimEnd()}…`
+    : testimonial.quote;
 
   return (
     <motion.figure
       variants={staggerItem}
-      layout
-      onClick={onToggle}
-      role={onToggle ? "button" : undefined}
-      tabIndex={onToggle ? 0 : undefined}
+      onClick={onOpen}
+      role={onOpen ? "button" : undefined}
+      tabIndex={onOpen ? 0 : undefined}
       onKeyDown={
-        onToggle
+        onOpen
           ? (e) => {
               if (e.key === "Enter" || e.key === " ") {
                 e.preventDefault();
-                onToggle();
+                onOpen();
               }
             }
           : undefined
       }
-      aria-expanded={onToggle ? expanded : undefined}
-      animate={{
-        scale: expanded ? 1.08 : 1,
-        y: expanded ? -12 : 0,
-        zIndex: expanded ? 30 : 1,
-      }}
-      whileHover={!expanded ? { y: -6, scale: 1.03 } : undefined}
-      transition={{ type: "spring", stiffness: 320, damping: 24 }}
+      whileHover={{ y: -4 }}
+      transition={{ type: "spring", stiffness: 320, damping: 28 }}
       className={cn(
-        "group relative flex h-full origin-center cursor-pointer flex-col rounded-xl border border-border bg-card p-6 md:p-8",
+        "group relative flex h-full cursor-pointer flex-col rounded-xl border border-border bg-card p-6 md:p-8",
         "shadow-sm outline-none transition-[border-color,box-shadow] duration-300",
-        "hover:border-neon-green/40 hover:shadow-[0_24px_70px_-24px_oklch(0.88_0.27_142/0.28)]",
+        "hover:border-neon-green/40 hover:shadow-[0_20px_60px_-24px_oklch(0.88_0.27_142/0.28)]",
         "focus-visible:border-neon-green focus-visible:ring-2 focus-visible:ring-neon-green/40",
-        expanded && "border-neon-green/50 shadow-[0_28px_80px_-20px_oklch(0.88_0.27_142/0.35)]",
         className,
       )}
     >
-      {expanded && (
-        <button
-          type="button"
-          aria-label={t("testimonials.seeLess")}
-          onClick={(e) => {
-            e.stopPropagation();
-            onToggle?.();
-          }}
-          className="absolute right-3 top-3 rounded border border-border bg-background p-1.5 text-muted-foreground transition hover:border-neon-green hover:text-neon-green"
-        >
-          <X className="h-3.5 w-3.5" aria-hidden />
-        </button>
-      )}
-
       <div className="flex items-start justify-between gap-4">
         <div
           className="inline-flex gap-0.5 rounded-md bg-secondary px-2.5 py-1.5"
@@ -127,7 +98,7 @@ export function TestimonialCard({
 
       <blockquote className="mt-4 flex-1 text-sm leading-relaxed text-muted-foreground md:text-[15px]">
         <p>{displayQuote}</p>
-        {needsTruncate && !expanded && (
+        {needsTruncate && (
           <span className="mt-2 inline-block font-display text-[11px] uppercase tracking-[0.14em] text-neon-green">
             {t("testimonials.tapToRead")}
           </span>
