@@ -13,12 +13,12 @@ export const Route = createFileRoute("/about")({
       {
         name: "description",
         content:
-          "Starlights Visuals is a passionate creative studio specializing in cinematic 2D animation, high-quality 3D animation, and VFX.",
+          "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, product visualization, and 2D & 3D character animation.",
       },
       { property: "og:title", content: "About Starlights Visuals" },
       {
         property: "og:description",
-        content: "Meet the creative studio behind cinematic 2D & 3D animation and VFX.",
+        content: "World-class animation that captivates, educates, and inspires.",
       },
     ],
   }),
@@ -43,7 +43,7 @@ function AboutPage() {
       { k: "120+", l: t("aboutPage.stats.projects") },
       { k: "40+", l: t("aboutPage.stats.clients") },
       { k: "15", l: t("aboutPage.stats.awards") },
-      { k: "8", l: t("aboutPage.stats.years") },
+      { k: "4", l: t("aboutPage.stats.years") },
     ],
     [t],
   );
