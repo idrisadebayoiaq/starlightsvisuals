@@ -49,7 +49,9 @@
     "explore": "استكشف",
     "follow": "تابعنا",
     "social": "رابط اجتماعي",
-    "copyright": "© {{year}} Starlights Visuals. صُنع بالضوء والكود."
+    "copyright": "© {{year}} Starlights Visuals. صُنع بالضوء والكود.",
+    "joining": "Joining…",
+    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
     "metaTitle": "Starlights Visuals | استوديو الرسوم المتحركة والمؤثرات البصرية وفن الألعاب",
@@ -275,7 +277,9 @@
       "character": "تصميم الشخصيات",
       "motion": "رسوم متحركة للحركة and مؤثرات بصرية",
       "other": "أخرى"
-    }
+    },
+    "sending": "Sending…",
+    "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "معرض الأعمال | Starlights Visuals",

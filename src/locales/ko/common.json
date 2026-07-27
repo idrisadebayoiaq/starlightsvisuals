@@ -49,7 +49,9 @@
     "explore": "탐색",
     "follow": "팔로우",
     "social": "소셜 링크",
-    "copyright": "© {{year}} Starlights Visuals. 빛과 코드로 제작."
+    "copyright": "© {{year}} Starlights Visuals. 빛과 코드로 제작.",
+    "joining": "Joining…",
+    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
     "metaTitle": "Starlights Visuals | 애니메이션 | VFX & 게임 아트 스튜디오",
@@ -275,7 +277,9 @@
       "character": "캐릭터 디자인",
       "motion": "모션 그래픽 and VFX",
       "other": "기타"
-    }
+    },
+    "sending": "Sending…",
+    "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "포트폴리오 | Starlights Visuals",

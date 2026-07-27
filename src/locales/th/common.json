@@ -49,7 +49,9 @@
     "explore": "สำรวจ",
     "follow": "ติดตาม",
     "social": "ลิงก์โซเชียล",
-    "copyright": "© {{year}} Starlights Visuals. สร้างด้วยแสงและโค้ด"
+    "copyright": "© {{year}} Starlights Visuals. สร้างด้วยแสงและโค้ด",
+    "joining": "Joining…",
+    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
     "metaTitle": "Starlights Visuals | สตูดิโอแอนิเมชัน VFX และ Game Art",
@@ -275,7 +277,9 @@
       "character": "ออกแบบตัวละคร",
       "motion": "Motion Graphics and VFX",
       "other": "อื่นๆ"
-    }
+    },
+    "sending": "Sending…",
+    "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "ผลงาน | Starlights Visuals",

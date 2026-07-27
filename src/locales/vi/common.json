@@ -49,7 +49,9 @@
     "explore": "Khám phá",
     "follow": "Theo dõi",
     "social": "Liên kết mạng xã hội",
-    "copyright": "© {{year}} Starlights Visuals. Được tạo bằng ánh sáng & code."
+    "copyright": "© {{year}} Starlights Visuals. Được tạo bằng ánh sáng & code.",
+    "joining": "Joining…",
+    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
     "metaTitle": "Starlights Visuals | Studio Hoạt Hình | VFX & Game Art",
@@ -275,7 +277,9 @@
       "character": "Character Design",
       "motion": "Motion Graphics and VFX",
       "other": "Khác"
-    }
+    },
+    "sending": "Sending…",
+    "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "Portfolio | Starlights Visuals",

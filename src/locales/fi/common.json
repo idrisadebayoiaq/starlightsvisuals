@@ -49,7 +49,9 @@
     "explore": "Tutustu",
     "follow": "Seuraa",
     "social": "Linkki sosiaaliseen mediaan",
-    "copyright": "© {{year}} Starlights Visuals. Luotu valolla & koodilla."
+    "copyright": "© {{year}} Starlights Visuals. Luotu valolla & koodilla.",
+    "joining": "Joining…",
+    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
     "metaTitle": "Starlights Visuals | Animaatio | VFX & Game Art -studio",
@@ -275,7 +277,9 @@
       "character": "Hahmosuunnittelu",
       "motion": "Motion Graphics and VFX",
       "other": "Muu"
-    }
+    },
+    "sending": "Sending…",
+    "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "Portfolio | Starlights Visuals",

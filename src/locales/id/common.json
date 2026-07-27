@@ -49,7 +49,9 @@
     "explore": "Jelajahi",
     "follow": "Ikuti",
     "social": "Tautan sosial",
-    "copyright": "© {{year}} Starlights Visuals. Dibuat dengan cahaya & kode."
+    "copyright": "© {{year}} Starlights Visuals. Dibuat dengan cahaya & kode.",
+    "joining": "Joining…",
+    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
     "metaTitle": "Starlights Visuals | Studio Animasi | VFX & Game Art",
@@ -275,7 +277,9 @@
       "character": "Character Design",
       "motion": "Motion Graphics and VFX",
       "other": "Lainnya"
-    }
+    },
+    "sending": "Sending…",
+    "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "Portofolio | Starlights Visuals",

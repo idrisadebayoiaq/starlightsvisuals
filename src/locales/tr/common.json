@@ -49,7 +49,9 @@
     "explore": "Keşfet",
     "follow": "Takip et",
     "social": "Sosyal medya bağlantısı",
-    "copyright": "© {{year}} Starlights Visuals. Işık ve kodla üretildi."
+    "copyright": "© {{year}} Starlights Visuals. Işık ve kodla üretildi.",
+    "joining": "Joining…",
+    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
     "metaTitle": "Starlights Visuals | Animasyon | VFX ve Oyun Sanatı Stüdyosu",
@@ -275,7 +277,9 @@
       "character": "Karakter tasarımı",
       "motion": "Motion graphics and VFX",
       "other": "Diğer"
-    }
+    },
+    "sending": "Sending…",
+    "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "Portfolyo | Starlights Visuals",

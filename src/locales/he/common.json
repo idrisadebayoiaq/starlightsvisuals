@@ -49,7 +49,9 @@
     "explore": "גלו",
     "follow": "עקבו",
     "social": "קישור חברתי",
-    "copyright": "© {{year}} Starlights Visuals. נוצר באור ובקוד."
+    "copyright": "© {{year}} Starlights Visuals. נוצר באור ובקוד.",
+    "joining": "Joining…",
+    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
     "metaTitle": "Starlights Visuals | סטודיו לאנימציה | VFX ו-Game Art",
@@ -275,7 +277,9 @@
       "character": "Character Design",
       "motion": "Motion Graphics and VFX",
       "other": "אחר"
-    }
+    },
+    "sending": "Sending…",
+    "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "תיק עבודות | Starlights Visuals",

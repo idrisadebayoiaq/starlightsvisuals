@@ -1,14 +1,17 @@
 import { Link } from "@tanstack/react-router";
 import { Instagram, Youtube, Twitter, Linkedin, Mail, Send } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useMemo, useState, type FormEvent } from "react";
 import { useTranslation } from "react-i18next";
 
 import { SiteLogo } from "@/components/SiteLogo";
+import { submitStudioForm } from "@/lib/submit-form";
 
 export function SiteFooter() {
   const { t } = useTranslation();
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const exploreLinks = useMemo(
     () => [
@@ -23,6 +26,25 @@ export function SiteFooter() {
     [t],
   );
 
+  async function onSubscribe(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setError(null);
+    setSubmitting(true);
+    try {
+      await submitStudioForm({
+        kind: "newsletter",
+        email: email.trim(),
+      });
+      setSubscribed(true);
+      setEmail("");
+    } catch (err) {
+      console.error(err);
+      setError(t("footer.subscribeError"));
+    } finally {
+      setSubmitting(false);
+    }
+  }
+
   return (
     <footer className="relative border-t border-border/40 bg-card/40 overflow-hidden">
       <div className="absolute inset-0 -z-10 grid-bg opacity-40" />
@@ -35,10 +57,7 @@ export function SiteFooter() {
           </h3>
           <p className="mt-3 text-muted-foreground">{t("footer.newsletterDesc")}</p>
           <form
-            onSubmit={(e) => {
-              e.preventDefault();
-              if (email) setSubscribed(true);
-            }}
+            onSubmit={onSubscribe}
             className="mt-6 mx-auto flex max-w-md gap-2"
           >
             <input
@@ -51,11 +70,13 @@ export function SiteFooter() {
             />
             <button
               type="submit"
-              className="inline-flex items-center gap-2 rounded-md neon-gradient px-5 py-3 text-sm font-display uppercase tracking-widest text-background transition hover:glow-purple"
+              disabled={submitting}
+              className="inline-flex items-center gap-2 rounded-md neon-gradient px-5 py-3 text-sm font-display uppercase tracking-widest text-background transition hover:glow-purple disabled:cursor-not-allowed disabled:opacity-60"
             >
-              <Send className="h-4 w-4" /> {t("footer.join")}
+              <Send className="h-4 w-4" /> {submitting ? t("footer.joining") : t("footer.join")}
             </button>
           </form>
+          {error && <p className="mt-3 text-sm text-destructive">{error}</p>}
           {subscribed && (
             <p className="mt-3 text-sm text-neon-blue">{t("footer.subscribed")}</p>
           )}

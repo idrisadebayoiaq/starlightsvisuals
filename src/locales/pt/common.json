@@ -49,7 +49,9 @@
     "explore": "Explorar",
     "follow": "Seguir",
     "social": "Link social",
-    "copyright": "© {{year}} Starlights Visuals. Criado com luz e código."
+    "copyright": "© {{year}} Starlights Visuals. Criado com luz e código.",
+    "joining": "Joining…",
+    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
     "metaTitle": "Starlights Visuals | Estúdio de Animação | VFX e Game Art",
@@ -275,7 +277,9 @@
       "character": "Design de Personagens",
       "motion": "Motion Graphics and VFX",
       "other": "Outro"
-    }
+    },
+    "sending": "Sending…",
+    "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "Portfólio | Starlights Visuals",

@@ -49,7 +49,9 @@
     "explore": "探索",
     "follow": "关注",
     "social": "社交链接",
-    "copyright": "© {{year}} Starlights Visuals. 以光与代码精心打造。"
+    "copyright": "© {{year}} Starlights Visuals. 以光与代码精心打造。",
+    "joining": "Joining…",
+    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
     "metaTitle": "Starlights Visuals | 动画、VFX 与游戏美术工作室",
@@ -275,7 +277,9 @@
       "character": "角色设计",
       "motion": "动态图形 and VFX",
       "other": "其他"
-    }
+    },
+    "sending": "Sending…",
+    "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "作品集 | Starlights Visuals",

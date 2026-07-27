@@ -49,7 +49,9 @@
     "explore": "Udforsk",
     "follow": "Følg",
     "social": "Link til sociale medier",
-    "copyright": "© {{year}} Starlights Visuals. Skabt med lys & kode."
+    "copyright": "© {{year}} Starlights Visuals. Skabt med lys & kode.",
+    "joining": "Joining…",
+    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
     "metaTitle": "Starlights Visuals | Animation | VFX & Game Art Studio",
@@ -275,7 +277,9 @@
       "character": "Karakterdesign",
       "motion": "Motion Graphics and VFX",
       "other": "Andet"
-    }
+    },
+    "sending": "Sending…",
+    "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "Portfolio | Starlights Visuals",
