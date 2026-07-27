@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { motion, useInView } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
-import { useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import { TestimonialCard, type TextTestimonial } from "@/components/TestimonialCard";
@@ -16,10 +16,12 @@ export function TextTestimonialsSection() {
   const sectionRef = useRef<HTMLDivElement>(null);
   const inView = useInView(sectionRef, { once: true, margin: "-5% 0px" });
   const approvedFromClients = useApprovedTestimonials();
+  const [expandedId, setExpandedId] = useState<string | null>(null);
 
   const staticTestimonials: TextTestimonial[] = useMemo(
     () => [
       {
+        id: "hauke",
         headline: t("testimonials.items.hauke.headline"),
         quote: t("testimonials.items.hauke.quote"),
         name: "Hauke",
@@ -29,30 +31,73 @@ export function TextTestimonialsSection() {
         rating: 5,
       },
       {
-        headline: t("testimonials.items.elena.headline"),
-        quote: t("testimonials.items.elena.quote"),
-        name: "Elena Vasquez",
-        company: "Raycon",
-        role: t("testimonials.items.elena.role"),
-        initials: "EV",
+        id: "jeremy",
+        headline: t("testimonials.items.jeremy.headline"),
+        quote: t("testimonials.items.jeremy.quote"),
+        name: "Jeremy Canfyn",
+        company: "iJockey",
+        role: t("testimonials.items.jeremy.role"),
+        initials: "JC",
         rating: 5,
       },
       {
-        headline: t("testimonials.items.james.headline"),
-        quote: t("testimonials.items.james.quote"),
-        name: "James Whitfield",
-        company: "Crossrope",
-        role: t("testimonials.items.james.role"),
-        initials: "JW",
+        id: "raiv",
+        headline: t("testimonials.items.raiv.headline"),
+        quote: t("testimonials.items.raiv.quote"),
+        name: "Raiv",
+        company: "Eroraiv",
+        role: t("testimonials.items.raiv.role"),
+        initials: "RA",
         rating: 5,
       },
       {
-        headline: t("testimonials.items.amara.headline"),
-        quote: t("testimonials.items.amara.quote"),
-        name: "Amara Okonkwo",
-        company: "Depology",
-        role: t("testimonials.items.amara.role"),
-        initials: "AO",
+        id: "ilija",
+        headline: t("testimonials.items.ilija.headline"),
+        quote: t("testimonials.items.ilija.quote"),
+        name: "Ilija Marovic",
+        company: "Novatorq",
+        role: t("testimonials.items.ilija.role"),
+        initials: "IM",
+        rating: 5,
+      },
+      {
+        id: "luigi",
+        headline: t("testimonials.items.luigi.headline"),
+        quote: t("testimonials.items.luigi.quote"),
+        name: "Luigi Commisso",
+        company: "Mintec",
+        role: t("testimonials.items.luigi.role"),
+        initials: "LC",
+        rating: 5,
+      },
+      {
+        id: "jason",
+        headline: t("testimonials.items.jason.headline"),
+        quote: t("testimonials.items.jason.quote"),
+        name: "Jason Kintzler",
+        company: "Drop band",
+        role: t("testimonials.items.jason.role"),
+        initials: "JK",
+        rating: 5,
+      },
+      {
+        id: "burkhard",
+        headline: t("testimonials.items.burkhard.headline"),
+        quote: t("testimonials.items.burkhard.quote"),
+        name: "Burkhard Kahl-Pfeiffer",
+        company: "INTEGRA-pw",
+        role: t("testimonials.items.burkhard.role"),
+        initials: "BK",
+        rating: 5,
+      },
+      {
+        id: "robert",
+        headline: t("testimonials.items.robert.headline"),
+        quote: t("testimonials.items.robert.quote"),
+        name: "Robert",
+        company: "Rifari's Wrist Watch",
+        role: t("testimonials.items.robert.role"),
+        initials: "RO",
         rating: 5,
       },
     ],
@@ -60,12 +105,28 @@ export function TextTestimonialsSection() {
   );
 
   const testimonials = useMemo(() => {
-    const staticNames = new Set(staticTestimonials.map((item) => item.name.toLowerCase()));
-    const uniqueClient = approvedFromClients.filter(
-      (item) => !staticNames.has(item.name.toLowerCase()),
-    );
-    return [...uniqueClient, ...staticTestimonials];
+    const staticIds = new Set(staticTestimonials.map((item) => item.id));
+    const uniqueClient = approvedFromClients
+      .map((item, index) => ({
+        ...item,
+        id: item.id || `client-${item.name}-${index}`,
+      }))
+      .filter((item) => !staticIds.has(item.id));
+    return [...staticTestimonials, ...uniqueClient];
   }, [approvedFromClients, staticTestimonials]);
+
+  useEffect(() => {
+    if (!expandedId) return;
+    function onKeyDown(e: KeyboardEvent) {
+      if (e.key === "Escape") setExpandedId(null);
+    }
+    document.addEventListener("keydown", onKeyDown);
+    return () => document.removeEventListener("keydown", onKeyDown);
+  }, [expandedId]);
+
+  function toggleExpand(id: string) {
+    setExpandedId((current) => (current === id ? null : id));
+  }
 
   return (
     <section className="relative isolate overflow-hidden border-b border-border/40 bg-background">
@@ -100,20 +161,35 @@ export function TextTestimonialsSection() {
         transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
         className="pb-20 md:pb-28"
       >
-        <div className="mx-auto hidden max-w-7xl gap-5 px-6 motion-reduce:grid motion-reduce:grid-cols-1 md:px-14 motion-reduce:sm:grid-cols-2 motion-reduce:lg:grid-cols-4">
+        {expandedId && (
+          <button
+            type="button"
+            aria-label={t("testimonials.seeLess")}
+            className="fixed inset-0 z-20 bg-background/50 backdrop-blur-[2px]"
+            onClick={() => setExpandedId(null)}
+          />
+        )}
+
+        <div className="relative z-30 mx-auto hidden max-w-7xl gap-5 px-6 motion-reduce:grid motion-reduce:grid-cols-1 md:px-14 motion-reduce:sm:grid-cols-2 motion-reduce:lg:grid-cols-4">
           {testimonials.map((item) => (
-            <TestimonialCard key={`${item.name}-${item.company}`} testimonial={item} />
+            <TestimonialCard
+              key={item.id}
+              testimonial={item}
+              expanded={expandedId === item.id}
+              onToggle={() => toggleExpand(item.id)}
+            />
           ))}
         </div>
 
         <div
           className={cn(
-            "testimonial-marquee-shell relative w-full overflow-visible motion-reduce:hidden",
+            "testimonial-marquee-shell relative z-30 w-full overflow-visible motion-reduce:hidden",
+            expandedId && "is-paused",
             "before:pointer-events-none before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-10 before:bg-gradient-to-r before:from-background before:to-transparent md:before:w-20",
             "after:pointer-events-none after:absolute after:right-0 after:top-0 after:z-10 after:h-full after:w-10 after:bg-gradient-to-l after:from-background after:to-transparent md:after:w-20",
           )}
         >
-          <div className="testimonial-marquee-track flex w-max flex-nowrap py-4 will-change-transform">
+          <div className="testimonial-marquee-track flex w-max flex-nowrap py-6 will-change-transform">
             {Array.from({ length: MARQUEE_COPIES }, (_, copyIndex) => (
               <div
                 key={copyIndex}
@@ -122,13 +198,17 @@ export function TextTestimonialsSection() {
               >
                 {testimonials.map((item) => (
                   <div
-                    key={`${copyIndex}-${item.name}-${item.company}`}
+                    key={`${copyIndex}-${item.id}`}
                     className={cn(
-                      "testimonial-marquee-card shrink-0 transition-transform duration-300",
+                      "testimonial-marquee-card shrink-0",
                       copyIndex > 0 && "pointer-events-none",
                     )}
                   >
-                    <TestimonialCard testimonial={item} />
+                    <TestimonialCard
+                      testimonial={item}
+                      expanded={copyIndex === 0 && expandedId === item.id}
+                      onToggle={copyIndex === 0 ? () => toggleExpand(item.id) : undefined}
+                    />
                   </div>
                 ))}
               </div>

@@ -138,25 +138,45 @@
     "videoModalDefault": "视频评价",
     "playAria": "播放 {{name}} 的视频评价",
     "items": {
-      "elena": {
-        "headline": "真正交付成果的专业团队",
-        "quote": "电影级品质瞬间提升了我们的品牌认知。主视觉战役的互动率在首周便大幅攀升, 画面质感高级、意图明确，令人无法划走。",
-        "role": "VP of Brand Marketing"
-      },
-      "james": {
-        "headline": "如同院线预告的发布片",
-        "quote": "Starlights 交付的发布片如同院线预告，而非产品广告。付费社交留存率翻倍，该创意成为此后每场战役的标杆。",
-        "role": "Founder & CEO"
-      },
-      "amara": {
-        "headline": "全球截止日下的精准工艺",
-        "quote": "从分镜到最终调色，团队对工艺与期限把控精准如手术。我们发布了全球战役，播放量超 200 万，品牌提升至今仍被领导层在董事会引用。",
-        "role": "Head of Creative"
-      },
       "hauke": {
         "headline": "Efficient, reliable, and highly recommended",
-        "quote": "Starlight Visuals supported us in creating a CGI video for SmarAct Automation, with the goal of presenting our core competencies in a clear, professional, and visually engaging way. The collaboration was highly efficient and reliable from start to finish. We especially appreciated the fast response times, quick turnaround, strong communication, and dependable delivery of the final files. Our requirements were understood quickly and implemented professionally. We are very satisfied with the result and can confidently recommend Starlight Visuals for high quality CGI and visual content projects.",
+        "quote": "Starlight Visuals supported us in creating a CGI video for SmarAct Automation, with the goal of presenting our core competencies in a clear, professional, and visually engaging way. The collaboration was highly efficient and reliable from start to finish. We especially appreciated the fast response times, quick turnaround, strong communication, and dependable delivery of the final files. Our requirements were understood quickly and implemented professionally. We are very satisfied with the result and can confidently recommend Starlight Visuals for high-quality CGI and visual content projects.",
         "role": "Digital Marketing & Content Manager"
+      },
+      "jeremy": {
+        "headline": "From sketches to a finished helmet film",
+        "quote": "Working with Starlight Visuals was a great experience from start to finish. They didn't just create an animation they were involved throughout the entire process, from refining our initial sketches to supporting the CAD development and delivering a final helmet animation that brought our concept to life. What stood out most was how quickly they understood the product and translated technical details into visuals that were both accurate and engaging. The final presentation video gave us a professional way to showcase our helmet design to partners and stakeholders. They were responsive, easy to collaborate with, and genuinely cared about getting every detail right. I'd gladly recommend them to anyone looking for high-quality product animation and visualization.",
+        "role": "Founder"
+      },
+      "raiv": {
+        "headline": "They genuinely cared about every character",
+        "quote": "I really enjoyed working with the team. It felt like they genuinely cared about the project and wanted the characters to look and feel right. Communication was always easy, they were open to feedback, and every revision was handled without any hassle. Seeing our NSFW characters come to life was exciting.",
+        "role": "Game Director"
+      },
+      "ilija": {
+        "headline": "Clear visuals for electric vehicle technology",
+        "quote": "They helped shape our PHR concept creatively and deliver amazing video making sure the visuals clearly communicate how our electric vehicle technology works. Their attention to detail, creativity, and willingness to iterate made the entire process smooth. The final animation gave us a much clearer way to present our product to partners and stakeholders.",
+        "role": "Founder"
+      },
+      "luigi": {
+        "headline": "Exactly what we needed for M12 and B12",
+        "quote": "We needed a clear way to show the differences between our M12 and B12 products, and Starlight Visuals delivered exactly what we were looking for. The animations were high quality, easy to understand, and captured every important detail.",
+        "role": "Production Manager"
+      },
+      "jason": {
+        "headline": "Outstanding quality beyond what we imagined",
+        "quote": "The quality of the animation was outstanding. Starlight Visuals helped us present our product in a way that was clear, engaging, and memorable. The final presentation looked far better than we had imagined.",
+        "role": "CEO"
+      },
+      "burkhard": {
+        "headline": "Made a complex product easy to explain",
+        "quote": "We knew our product was strong, but explaining it clearly to customers was always the challenge. The team at Starlight Visuals took the time to understand how everything works and turned it into an animation that made the message much easier to communicate. It looks professional, keeps people's attention, and helps us present the product with much more confidence. The whole process was straightforward, and they were easy to work with. We're very happy with the result.",
+        "role": "Head of Sales"
+      },
+      "robert": {
+        "headline": "Premium watch films beyond what we imagined",
+        "quote": "There was a clear vision for how we wanted our watches to be presented, but Starlight Visuals took it beyond what we imagined. They didn't just animate our product they captured the details, precision, and premium quality that define our brand. The final presentation gave our collection a level of sophistication that instantly elevated how customers perceived it. The entire process was smooth, collaborative, and professionally handled from start to finish.",
+        "role": "Founder"
       }
     },
     "videoRoles": {
@@ -169,7 +189,8 @@
     },
     "seeMore": "See more",
     "seeLess": "See less",
-    "writeYours": "Write yours"
+    "writeYours": "Write yours",
+    "tapToRead": "Tap to read full review"
   },
   "servicesPage": {
     "metaTitle": "Services | Starlights Visuals",

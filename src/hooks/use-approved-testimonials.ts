@@ -16,6 +16,7 @@ function initialsFromName(name: string) {
 
 function mapRow(row: ClientTestimonialRow): TextTestimonial {
   return {
+    id: row.id,
     headline: row.headline,
     quote: row.quote,
     name: row.name,

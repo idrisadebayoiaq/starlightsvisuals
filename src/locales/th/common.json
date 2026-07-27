@@ -138,25 +138,45 @@
     "videoModalDefault": "คำรับรองวิดีโอ",
     "playAria": "เล่นคำรับรองวิดีโอจาก {{name}}",
     "items": {
-      "elena": {
-        "headline": "มืออาชีพตัวจริงที่ส่งมอบผลลัพธ์",
-        "quote": "คุณภาพแบบภาพยนตร์ยกระดับการรับรู้แบรนด์ของเราทันที การมีส่วนร่วมในแคมเปญ hero พุ่งขึ้นภายในสัปดาห์แรก, ภาพดูพรีเมียม ตั้งใจ และเลื่อนผ่านไม่ได้",
-        "role": "VP Brand Marketing"
-      },
-      "james": {
-        "headline": "ภาพยนตร์เปิดตัวที่รู้สึกเหมือนโรงภาพยนตร์",
-        "quote": "Starlights ส่งมอบภาพยนตร์เปิดตัวที่รู้สึกเหมือนตัวอย่างโรงภาพยนตร์ ไม่ใช่โฆษณาสินค้า อัตราการรับชมต่อใน paid social เพิ่มเป็นสองเท่า และงานครีเอทีฟกลายเป็นมาตรฐานของทุกแคมเปญถัดไป",
-        "role": "Founder & CEO"
-      },
-      "amara": {
-        "headline": "ฝีมือแม่นยำภายใต้เดดไลน์ระดับโลก",
-        "quote": "จากสตอรีบอร์ดถึง color grade สุดท้าย ทีมทำงานอย่างแม่นยำเรื่องฝีมือและเดดไลน์ เราเปิดตัวแคมเปญระดับโลกที่มียอดวิว 2 ล้าน+ และ brand lift ที่ผู้บริหารยังอ้างอิงในการประชุมคณะกรรมการ",
-        "role": "Head of Creative"
-      },
       "hauke": {
         "headline": "Efficient, reliable, and highly recommended",
-        "quote": "Starlight Visuals supported us in creating a CGI video for SmarAct Automation, with the goal of presenting our core competencies in a clear, professional, and visually engaging way. The collaboration was highly efficient and reliable from start to finish. We especially appreciated the fast response times, quick turnaround, strong communication, and dependable delivery of the final files. Our requirements were understood quickly and implemented professionally. We are very satisfied with the result and can confidently recommend Starlight Visuals for high quality CGI and visual content projects.",
+        "quote": "Starlight Visuals supported us in creating a CGI video for SmarAct Automation, with the goal of presenting our core competencies in a clear, professional, and visually engaging way. The collaboration was highly efficient and reliable from start to finish. We especially appreciated the fast response times, quick turnaround, strong communication, and dependable delivery of the final files. Our requirements were understood quickly and implemented professionally. We are very satisfied with the result and can confidently recommend Starlight Visuals for high-quality CGI and visual content projects.",
         "role": "Digital Marketing & Content Manager"
+      },
+      "jeremy": {
+        "headline": "From sketches to a finished helmet film",
+        "quote": "Working with Starlight Visuals was a great experience from start to finish. They didn't just create an animation they were involved throughout the entire process, from refining our initial sketches to supporting the CAD development and delivering a final helmet animation that brought our concept to life. What stood out most was how quickly they understood the product and translated technical details into visuals that were both accurate and engaging. The final presentation video gave us a professional way to showcase our helmet design to partners and stakeholders. They were responsive, easy to collaborate with, and genuinely cared about getting every detail right. I'd gladly recommend them to anyone looking for high-quality product animation and visualization.",
+        "role": "Founder"
+      },
+      "raiv": {
+        "headline": "They genuinely cared about every character",
+        "quote": "I really enjoyed working with the team. It felt like they genuinely cared about the project and wanted the characters to look and feel right. Communication was always easy, they were open to feedback, and every revision was handled without any hassle. Seeing our NSFW characters come to life was exciting.",
+        "role": "Game Director"
+      },
+      "ilija": {
+        "headline": "Clear visuals for electric vehicle technology",
+        "quote": "They helped shape our PHR concept creatively and deliver amazing video making sure the visuals clearly communicate how our electric vehicle technology works. Their attention to detail, creativity, and willingness to iterate made the entire process smooth. The final animation gave us a much clearer way to present our product to partners and stakeholders.",
+        "role": "Founder"
+      },
+      "luigi": {
+        "headline": "Exactly what we needed for M12 and B12",
+        "quote": "We needed a clear way to show the differences between our M12 and B12 products, and Starlight Visuals delivered exactly what we were looking for. The animations were high quality, easy to understand, and captured every important detail.",
+        "role": "Production Manager"
+      },
+      "jason": {
+        "headline": "Outstanding quality beyond what we imagined",
+        "quote": "The quality of the animation was outstanding. Starlight Visuals helped us present our product in a way that was clear, engaging, and memorable. The final presentation looked far better than we had imagined.",
+        "role": "CEO"
+      },
+      "burkhard": {
+        "headline": "Made a complex product easy to explain",
+        "quote": "We knew our product was strong, but explaining it clearly to customers was always the challenge. The team at Starlight Visuals took the time to understand how everything works and turned it into an animation that made the message much easier to communicate. It looks professional, keeps people's attention, and helps us present the product with much more confidence. The whole process was straightforward, and they were easy to work with. We're very happy with the result.",
+        "role": "Head of Sales"
+      },
+      "robert": {
+        "headline": "Premium watch films beyond what we imagined",
+        "quote": "There was a clear vision for how we wanted our watches to be presented, but Starlight Visuals took it beyond what we imagined. They didn't just animate our product they captured the details, precision, and premium quality that define our brand. The final presentation gave our collection a level of sophistication that instantly elevated how customers perceived it. The entire process was smooth, collaborative, and professionally handled from start to finish.",
+        "role": "Founder"
       }
     },
     "videoRoles": {
@@ -169,7 +189,8 @@
     },
     "seeMore": "See more",
     "seeLess": "See less",
-    "writeYours": "Write yours"
+    "writeYours": "Write yours",
+    "tapToRead": "Tap to read full review"
   },
   "servicesPage": {
     "metaTitle": "Services | Starlights Visuals",
