@@ -17,6 +17,7 @@ export function SiteFooter() {
       { to: "/portfolio", label: t("nav.portfolio") },
       { to: "/blog", label: t("nav.blog") },
       { to: "/faq", label: t("nav.faq") },
+      { to: "/write-review", label: t("nav.writeReview") },
       { to: "/contact", label: t("nav.contact") },
     ],
     [t],

@@ -1,9 +1,12 @@
+import { Link } from "@tanstack/react-router";
 import { motion, useInView } from "framer-motion";
+import { ArrowUpRight } from "lucide-react";
 import { useMemo, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
 import { TestimonialCard, type TextTestimonial } from "@/components/TestimonialCard";
 import { SectionReveal } from "@/components/SectionReveal";
+import { useApprovedTestimonials } from "@/hooks/use-approved-testimonials";
 import { cn } from "@/lib/utils";
 
 const MARQUEE_COPIES = 2;
@@ -12,8 +15,9 @@ export function TextTestimonialsSection() {
   const { t, i18n } = useTranslation();
   const sectionRef = useRef<HTMLDivElement>(null);
   const inView = useInView(sectionRef, { once: true, margin: "-5% 0px" });
+  const approvedFromClients = useApprovedTestimonials();
 
-  const testimonials: TextTestimonial[] = useMemo(
+  const staticTestimonials: TextTestimonial[] = useMemo(
     () => [
       {
         headline: t("testimonials.items.hauke.headline"),
@@ -55,6 +59,14 @@ export function TextTestimonialsSection() {
     [t, i18n.language],
   );
 
+  const testimonials = useMemo(() => {
+    const staticNames = new Set(staticTestimonials.map((item) => item.name.toLowerCase()));
+    const uniqueClient = approvedFromClients.filter(
+      (item) => !staticNames.has(item.name.toLowerCase()),
+    );
+    return [...uniqueClient, ...staticTestimonials];
+  }, [approvedFromClients, staticTestimonials]);
+
   return (
     <section className="relative isolate overflow-hidden border-b border-border/40 bg-background">
       <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_60%_40%_at_50%_100%,oklch(0.88_0.27_142/0.06),transparent)]" />
@@ -70,6 +82,14 @@ export function TextTestimonialsSection() {
             <span className="text-foreground">{t("testimonials.title1")}</span>{" "}
             <span className="neon-text text-glow">{t("testimonials.title2")}</span>
           </h2>
+
+          <Link
+            to="/write-review"
+            className="mt-8 inline-flex items-center gap-2 rounded-full border border-neon-green/40 bg-neon-green/10 px-6 py-3 font-display text-xs uppercase tracking-[0.18em] text-neon-green transition hover:border-neon-green hover:bg-neon-green hover:text-background"
+          >
+            {t("testimonials.writeYours")}
+            <ArrowUpRight className="h-4 w-4" />
+          </Link>
         </SectionReveal>
       </div>
 
@@ -82,18 +102,18 @@ export function TextTestimonialsSection() {
       >
         <div className="mx-auto hidden max-w-7xl gap-5 px-6 motion-reduce:grid motion-reduce:grid-cols-1 md:px-14 motion-reduce:sm:grid-cols-2 motion-reduce:lg:grid-cols-4">
           {testimonials.map((item) => (
-            <TestimonialCard key={item.name} testimonial={item} />
+            <TestimonialCard key={`${item.name}-${item.company}`} testimonial={item} />
           ))}
         </div>
 
         <div
           className={cn(
-            "testimonial-marquee-shell relative w-full motion-reduce:hidden",
+            "testimonial-marquee-shell relative w-full overflow-visible motion-reduce:hidden",
             "before:pointer-events-none before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-10 before:bg-gradient-to-r before:from-background before:to-transparent md:before:w-20",
             "after:pointer-events-none after:absolute after:right-0 after:top-0 after:z-10 after:h-full after:w-10 after:bg-gradient-to-l after:from-background after:to-transparent md:after:w-20",
           )}
         >
-          <div className="testimonial-marquee-track flex w-max flex-nowrap will-change-transform">
+          <div className="testimonial-marquee-track flex w-max flex-nowrap py-4 will-change-transform">
             {Array.from({ length: MARQUEE_COPIES }, (_, copyIndex) => (
               <div
                 key={copyIndex}
@@ -102,9 +122,9 @@ export function TextTestimonialsSection() {
               >
                 {testimonials.map((item) => (
                   <div
-                    key={`${copyIndex}-${item.name}`}
+                    key={`${copyIndex}-${item.name}-${item.company}`}
                     className={cn(
-                      "testimonial-marquee-card shrink-0",
+                      "testimonial-marquee-card shrink-0 transition-transform duration-300",
                       copyIndex > 0 && "pointer-events-none",
                     )}
                   >

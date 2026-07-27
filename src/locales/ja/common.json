@@ -15,7 +15,8 @@
     "about": "私たちについて",
     "contact": "お問い合わせ",
     "portfolioCta": "ポートフォリオ →",
-    "faq": "よくある質問"
+    "faq": "よくある質問",
+    "writeReview": "Write a review"
   },
   "header": {
     "closeMenu": "メニューを閉じる",
@@ -165,7 +166,8 @@
       "coFounder": "Co Founder"
     },
     "seeMore": "See more",
-    "seeLess": "See less"
+    "seeLess": "See less",
+    "writeYours": "Write yours"
   },
   "servicesPage": {
     "metaTitle": "サービス | Starlights Visuals",
@@ -1408,5 +1410,28 @@
     "ctaTitle": "まだご質問はありますか？",
     "ctaDesc": "お打ち合わせでブリーフ内容を丁寧にご案内します。",
     "ctaButton": "お問い合わせ"
+  },
+  "writeReviewPage": {
+    "label": "Client reviews",
+    "title": "WRITE YOURS",
+    "subtitle": "Worked with Starlights Visuals? Share your experience so other brands can see the results.",
+    "name": "Your name",
+    "email": "Email",
+    "emailOptional": "Optional, not shown publicly",
+    "role": "Your role",
+    "company": "Company",
+    "rating": "Rating",
+    "headline": "Headline",
+    "headlinePlaceholder": "A short line that captures your experience",
+    "quote": "Your review",
+    "quotePlaceholder": "Tell us about the collaboration, communication, quality, and results…",
+    "submit": "Submit review",
+    "submitting": "Submitting…",
+    "successTitle": "Thank you",
+    "successDesc": "Your review was received. It will appear on the site after a quick approval check.",
+    "backHome": "Back to home",
+    "errorConfig": "Review submissions are temporarily unavailable. Please try again later.",
+    "errorQuoteShort": "Please write at least 20 characters in your review.",
+    "errorGeneric": "Something went wrong while sending your review. Please try again."
   }
 }

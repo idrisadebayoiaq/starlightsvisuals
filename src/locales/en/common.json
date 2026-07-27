@@ -15,6 +15,7 @@
     "about": "About",
     "contact": "Contact",
     "faq": "FAQ",
+    "writeReview": "Write a review",
     "portfolioCta": "Portfolio →"
   },
   "header": {
@@ -128,6 +129,7 @@
     "verifiedClient": "Verified client",
     "seeMore": "See more",
     "seeLess": "See less",
+    "writeYours": "Write yours",
     "starsAria": "{{rating}} out of 5 stars",
     "videoBadge": "Video testimonials",
     "videoTitle1": "Hear",
@@ -244,6 +246,29 @@
       "awards": "Awards Won",
       "years": "Years Crafting"
     }
+  },
+  "writeReviewPage": {
+    "label": "Client reviews",
+    "title": "WRITE YOURS",
+    "subtitle": "Worked with Starlights Visuals? Share your experience so other brands can see the results.",
+    "name": "Your name",
+    "email": "Email",
+    "emailOptional": "Optional, not shown publicly",
+    "role": "Your role",
+    "company": "Company",
+    "rating": "Rating",
+    "headline": "Headline",
+    "headlinePlaceholder": "A short line that captures your experience",
+    "quote": "Your review",
+    "quotePlaceholder": "Tell us about the collaboration, communication, quality, and results…",
+    "submit": "Submit review",
+    "submitting": "Submitting…",
+    "successTitle": "Thank you",
+    "successDesc": "Your review was received. It will appear on the site after a quick approval check.",
+    "backHome": "Back to home",
+    "errorConfig": "Review submissions are temporarily unavailable. Please try again later.",
+    "errorQuoteShort": "Please write at least 20 characters in your review.",
+    "errorGeneric": "Something went wrong while sending your review. Please try again."
   },
   "contactPage": {
     "metaTitle": "Contact | Starlights Visuals",

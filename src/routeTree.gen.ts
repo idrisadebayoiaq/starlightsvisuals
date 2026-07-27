@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as WriteReviewRouteImport } from './routes/write-review'
 import { Route as ServicesRouteImport } from './routes/services'
 import { Route as PortfolioRouteImport } from './routes/portfolio'
 import { Route as FaqRouteImport } from './routes/faq'
@@ -22,6 +23,11 @@ import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as WorksCategoryIndexRouteImport } from './routes/works.$category.index'
 import { Route as WorksCategoryClientRouteImport } from './routes/works.$category.$client'
 
+const WriteReviewRoute = WriteReviewRouteImport.update({
+  id: '/write-review',
+  path: '/write-review',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ServicesRoute = ServicesRouteImport.update({
   id: '/services',
   path: '/services',
@@ -91,6 +97,7 @@ export interface FileRoutesByFullPath {
   '/faq': typeof FaqRoute
   '/portfolio': typeof PortfolioRoute
   '/services': typeof ServicesRoute
+  '/write-review': typeof WriteReviewRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/works/$category': typeof WorksCategoryRouteWithChildren
   '/blog/': typeof BlogIndexRoute
@@ -104,6 +111,7 @@ export interface FileRoutesByTo {
   '/faq': typeof FaqRoute
   '/portfolio': typeof PortfolioRoute
   '/services': typeof ServicesRoute
+  '/write-review': typeof WriteReviewRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/blog': typeof BlogIndexRoute
   '/works/$category/$client': typeof WorksCategoryClientRoute
@@ -118,6 +126,7 @@ export interface FileRoutesById {
   '/faq': typeof FaqRoute
   '/portfolio': typeof PortfolioRoute
   '/services': typeof ServicesRoute
+  '/write-review': typeof WriteReviewRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/works/$category': typeof WorksCategoryRouteWithChildren
   '/blog/': typeof BlogIndexRoute
@@ -134,6 +143,7 @@ export interface FileRouteTypes {
     | '/faq'
     | '/portfolio'
     | '/services'
+    | '/write-review'
     | '/blog/$slug'
     | '/works/$category'
     | '/blog/'
@@ -147,6 +157,7 @@ export interface FileRouteTypes {
     | '/faq'
     | '/portfolio'
     | '/services'
+    | '/write-review'
     | '/blog/$slug'
     | '/blog'
     | '/works/$category/$client'
@@ -160,6 +171,7 @@ export interface FileRouteTypes {
     | '/faq'
     | '/portfolio'
     | '/services'
+    | '/write-review'
     | '/blog/$slug'
     | '/works/$category'
     | '/blog/'
@@ -175,11 +187,19 @@ export interface RootRouteChildren {
   FaqRoute: typeof FaqRoute
   PortfolioRoute: typeof PortfolioRoute
   ServicesRoute: typeof ServicesRoute
+  WriteReviewRoute: typeof WriteReviewRoute
   WorksCategoryRoute: typeof WorksCategoryRouteWithChildren
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/write-review': {
+      id: '/write-review'
+      path: '/write-review'
+      fullPath: '/write-review'
+      preLoaderRoute: typeof WriteReviewRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/services': {
       id: '/services'
       path: '/services'
@@ -301,6 +321,7 @@ const rootRouteChildren: RootRouteChildren = {
   FaqRoute: FaqRoute,
   PortfolioRoute: PortfolioRoute,
   ServicesRoute: ServicesRoute,
+  WriteReviewRoute: WriteReviewRoute,
   WorksCategoryRoute: WorksCategoryRouteWithChildren,
 }
 export const routeTree = rootRouteImport

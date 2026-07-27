@@ -318,6 +318,12 @@ html.light {
   .testimonial-marquee-card {
     width: min(85vw, 300px);
   }
+  .testimonial-marquee-shell {
+    overflow: visible;
+  }
+  .testimonial-marquee-card:hover {
+    z-index: 5;
+  }
   @media (min-width: 768px) {
     .testimonial-marquee-card {
       width: calc((100vw - 4rem - 1.25rem) / 2);

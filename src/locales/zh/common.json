@@ -15,7 +15,8 @@
     "about": "关于我们",
     "contact": "联系",
     "portfolioCta": "作品集 →",
-    "faq": "常见问题"
+    "faq": "常见问题",
+    "writeReview": "Write a review"
   },
   "header": {
     "closeMenu": "关闭菜单",
@@ -165,7 +166,8 @@
       "coFounder": "Co Founder"
     },
     "seeMore": "See more",
-    "seeLess": "See less"
+    "seeLess": "See less",
+    "writeYours": "Write yours"
   },
   "servicesPage": {
     "metaTitle": "服务 | Starlights Visuals",
@@ -1408,5 +1410,28 @@
     "ctaTitle": "还有其他问题吗？",
     "ctaDesc": "我们很乐意通过通话详细了解你的项目简报。",
     "ctaButton": "联系我们"
+  },
+  "writeReviewPage": {
+    "label": "Client reviews",
+    "title": "WRITE YOURS",
+    "subtitle": "Worked with Starlights Visuals? Share your experience so other brands can see the results.",
+    "name": "Your name",
+    "email": "Email",
+    "emailOptional": "Optional, not shown publicly",
+    "role": "Your role",
+    "company": "Company",
+    "rating": "Rating",
+    "headline": "Headline",
+    "headlinePlaceholder": "A short line that captures your experience",
+    "quote": "Your review",
+    "quotePlaceholder": "Tell us about the collaboration, communication, quality, and results…",
+    "submit": "Submit review",
+    "submitting": "Submitting…",
+    "successTitle": "Thank you",
+    "successDesc": "Your review was received. It will appear on the site after a quick approval check.",
+    "backHome": "Back to home",
+    "errorConfig": "Review submissions are temporarily unavailable. Please try again later.",
+    "errorQuoteShort": "Please write at least 20 characters in your review.",
+    "errorGeneric": "Something went wrong while sending your review. Please try again."
   }
 }

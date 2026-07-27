@@ -60,12 +60,12 @@ export function TestimonialCard({
   return (
     <motion.figure
       variants={staggerItem}
-      whileHover={{ y: -4 }}
-      transition={{ type: "spring", stiffness: 320, damping: 28 }}
+      whileHover={{ y: -8, scale: 1.06 }}
+      transition={{ type: "spring", stiffness: 320, damping: 24 }}
       className={cn(
-        "group flex h-full flex-col rounded-xl border border-white/[0.08] bg-[oklch(0.11_0_0)] p-6 md:p-8",
-        "transition-[border-color,box-shadow] duration-400",
-        "hover:border-neon-green/25 hover:shadow-[0_20px_60px_-24px_oklch(0.88_0.27_142/0.2)]",
+        "group flex h-full origin-center flex-col rounded-xl border border-white/[0.08] bg-[oklch(0.11_0_0)] p-6 md:p-8",
+        "transition-[border-color,box-shadow,z-index] duration-400",
+        "hover:z-20 hover:border-neon-green/40 hover:shadow-[0_24px_70px_-20px_oklch(0.88_0.27_142/0.35)]",
         className,
       )}
     >
