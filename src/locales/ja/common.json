@@ -45,7 +45,7 @@
     "emailPlaceholder": "your@email.com",
     "join": "登録する",
     "subscribed": "✦ 登録完了。Starlights へようこそ。",
-    "tagline": "没入型ゲーム開発、シネマティック2Dアニメーション、高品質3D体験を通じて、想像力に命を吹き込むクリエイティブスタジオ。",
+    "tagline": "A creative studio bringing imagination to life through cinematic 2D animation, high quality 3D experiences, and VFX.",
     "explore": "探索",
     "follow": "フォロー",
     "social": "ソーシャルリンク",
@@ -54,41 +54,42 @@
     "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
-    "metaTitle": "Starlights Visuals | アニメーション・VFX・ゲームアートスタジオ",
-    "metaDescription": "2D and 3Dアニメーション、VFX、ゲームアートのクリエイティブスタジオ。ファンタジーの世界、キャラクター、シネマティックに命を吹き込みます。",
-    "heroScript": "動く物語 —",
-    "heroTitle1": "アニメーション",
+    "metaTitle": "Starlights Visuals | Animation & VFX Studio",
+    "metaDescription": "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
+    "heroScript": "Stories in motion,",
+    "heroTitle1": "ANIMATION",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visualsは、アニメーションとビジュアルエフェクトで物語に命を吹き込み、観客を魅了し、すべてのフレームを高めます。ファンタジーの生き物、人間キャラクター、乗り物、環境、小道具、ハードサーフェスオブジェクトをアニメーション化 — 映画、シリーズ、広告、ブランドキャンペーン向けに。",
-    "heroAlt": "Starlights Visuals シネマティックヒーロー",
-    "seePortfolio": "ポートフォリオを見る",
-    "startProject": "プロジェクトを始める",
-    "servicesLabel": "私たちの仕事",
-    "servicesTitle": "サービス",
-    "allServices": "すべてのサービス",
-    "showcaseLabel": "最近の作品",
-    "showcaseTitle1": "厳選",
-    "showcaseTitle2": "作品",
-    "fullPortfolio": "フルポートフォリオ",
-    "ctaScript": "一緒に創りましょう,",
-    "ctaTitle1": "コラボレーション",
-    "ctaTitle2": "の準備は？",
+    "heroBody": "Starlights Visuals brings stories to life with animation and visual effects that captivate audiences and elevate every frame. We animate fantasy creatures, human characters, vehicles, environments, props, and hard surface objects for film, series, advertising, and brand campaigns.",
+    "heroAlt": "Starlights Visuals cinematic hero",
+    "seePortfolio": "See Portfolio",
+    "startProject": "Start a Project",
+    "servicesLabel": "What we do",
+    "servicesTitle": "SERVICES",
+    "allServices": "All Services",
+    "showcaseLabel": "Recent work",
+    "showcaseTitle1": "SELECTED",
+    "showcaseTitle2": "WORK",
+    "fullPortfolio": "Full Portfolio",
+    "viewAllFaq": "View all FAQ",
+    "ctaScript": "Let's build something,",
+    "ctaTitle1": "READY TO",
+    "ctaTitle2": "COLLABORATE?",
     "services": {
       "01": {
-        "title": "アニメーション & VFX",
-        "desc": "ゲームと映画向けのシネマティック2D & 3Dアニメーション、キャラクターリグ、ビジュアルエフェクト。"
+        "title": "Animation & VFX",
+        "desc": "Cinematic 2D & 3D animation, character rigs, and visual effects for film, series, and brands."
       },
       "02": {
-        "title": "ゲーム開発",
-        "desc": "フルサイクル制作, コンセプト、アート、コード、オーディオ、リリース。"
+        "title": "Product Animation",
+        "desc": "Photoreal product films, packshots, and CGI that make every detail sell."
       },
       "03": {
-        "title": "コンセプト & キャラクターアート",
-        "desc": "IPの核となるオリジナルキャラクター、クリーチャー、環境、小道具。"
+        "title": "Concept & Character Art",
+        "desc": "Original characters, creatures, environments, and props that anchor your IP."
       },
       "04": {
-        "title": "シネマティックトレーラー",
-        "desc": "ゲームやフランチャイズのローンチに特化したストーリー主導のトレーラー。"
+        "title": "Cinematic Trailers",
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns."
       }
     },
     "showcase": {
@@ -97,12 +98,12 @@
         "title": "3D Animation"
       },
       "gameArt": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "animation2d": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "2D Animation",
+        "title": "2D Animation"
       },
       "cinematic": {
         "tag": "VFX",
@@ -116,8 +117,7 @@
         "tag": "3D",
         "title": "Product Animation"
       }
-    },
-    "viewAllFaq": "View all FAQ"
+    }
   },
   "trustedBy": {
     "badge": "200+ COMPANY",
@@ -172,86 +172,82 @@
     "writeYours": "Write yours"
   },
   "servicesPage": {
-    "metaTitle": "サービス | Starlights Visuals",
-    "metaDescription": "2Dアニメーション、3Dアニメーション、ゲーム開発、キャラクターデザイン、モーショングラフィックス、VFX、シネマティックトレーラー。",
-    "label": "私たちが創るもの",
-    "title": "サービス",
-    "subtitle": "一つのスタジオで、最初のスケッチから最終ピクセルまで、制作のすべての段階を。",
-    "ctaTitle1": "プロジェクトを",
-    "ctaTitle2": "お考え",
-    "ctaTitle3": "ですか？",
-    "ctaDesc": "ビジョンをお聞かせください, 私たちが火力を提供します。",
-    "ctaButton": "お問い合わせ",
+    "metaTitle": "Services | Starlights Visuals",
+    "metaDescription": "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
+    "label": "What We Build",
+    "title": "SERVICES",
+    "subtitle": "One studio, every stage of production, from first sketch to final pixel.",
+    "ctaTitle1": "HAVE A",
+    "ctaTitle2": "PROJECT",
+    "ctaTitle3": "IN MIND?",
+    "ctaDesc": "Tell us your vision, we'll bring the firepower.",
+    "ctaButton": "Get In Touch",
     "items": {
       "2d": {
-        "title": "2Dアニメーション",
-        "desc": "シリーズ、ショート、エクスプレイナー、ゲーム向けのフレームバイフレーム & リグ2D。クラシックなクラフトとデジタルパイプラインを融合。"
+        "title": "2D Animation",
+        "desc": "Frame by frame & rigged 2D for series, shorts, explainers, and brand films. We blend classic craft with digital pipelines."
       },
       "3d": {
-        "title": "3Dアニメーション",
-        "desc": "スタイライズドからフォトリアルまで, キャラクター、環境、フィーチャー級の仕上がりのフルシネマティックシーケンス。"
-      },
-      "game": {
-        "title": "ゲーム開発",
-        "desc": "エンドツーエンドのゲーム制作：コンセプト、アート、コード、オーディオ、ローンチ。Unreal、Unity、カスタムパイプライン。"
+        "title": "3D Animation",
+        "desc": "Stylized and photoreal 3D, characters, environments, and full cinematic sequences with feature quality polish."
       },
       "character": {
-        "title": "キャラクターデザイン",
-        "desc": "IPとマーチャンダイジングの可能性を支えるオリジナルキャラクター、クリーチャー、コンセプトアート。"
+        "title": "Character Design",
+        "desc": "Original characters, creatures, and concept art that anchor your IP and merch potential."
       },
       "motion": {
-        "title": "モーショングラフィックス",
-        "desc": "ブランドモーション、UIアニメーション、放送パッケージ、シネマティックな仕上がりのエクスプレイナー動画。"
+        "title": "Motion Graphics",
+        "desc": "Branded motion, UI animation, broadcast packages, and explainer videos with cinematic polish."
       },
       "vfx": {
-        "title": "ビジュアルエフェクト (VFX)",
-        "desc": "ゲーム、映画、デジタルキャンペーン向けのコンポジット、パーティクルFX、CG統合。"
+        "title": "Visual Effects (VFX)",
+        "desc": "Compositing, particle FX, and CG integration for film, advertising, and digital campaigns."
       },
       "trailer": {
-        "title": "シネマティックトレーラー",
-        "desc": "ゲーム、IP、ブランドを最大のインパクトでローンチするストーリー主導のトレーラー。"
+        "title": "Cinematic Trailers",
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns with maximum impact."
       }
     }
   },
   "aboutPage": {
-    "metaTitle": "私たちについて | Starlights Visuals",
-    "metaDescription": "Starlights Visuals は、没入型ゲーム開発、シネマティック2Dアニメーション、高品質3Dアニメーション体験を専門とする情熱的なクリエイティブスタジオです。",
-    "label": "私たちについて",
-    "title1": "光・コード・ストーリーで",
-    "title2": "築かれたスタジオ",
-    "p1": "Starlights Visuals は、ゲーム、アニメーション、シネマティックストーリーテリングの交差点に立つ情熱的なクリエイティブスタジオです。壮大なオープンワールドゲーム、手作りの2Dシリーズ、フォトリアル3Dトレーラー, 想像力に命を吹き込むために存在しています。",
-    "p2": "コンセプトアーティストや3Dスカルプターから、ゲームプレイエンジニア、モーションデザイナーまで、チーム全員が一つのことに夢中です：観客に何かを感じさせること。美しいピクセルを作るだけでなく、人々が住みたいと思う世界を創ります。",
-    "p3": "インディークリエイター、AAAスタジオ、グローバルブランドと提携し、期待を超える成果、妥協のない期限遵守、予算の2倍かかったように見える作品を届けます。",
-    "valuesLabel": "コアバリュー",
-    "valuesTitle": "私たちを動かすもの",
+    "metaTitle": "About | Starlights Visuals",
+    "metaDescription": "Starlights Visuals is a passionate creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
+    "label": "Who We Are",
+    "title1": "A STUDIO BUILT ON",
+    "title2": "LIGHT, CODE & STORY",
+    "p1": "Starlights Visuals is a passionate creative studio at the intersection of animation, VFX, and cinematic storytelling. We exist to bring imagination to life, whether that is a hand crafted 2D series, a photoreal 3D trailer, or a brand campaign that needs to feel premium.",
+    "p2": "From our concept artists and 3D sculptors to our motion designers and compositors, every member of our team is obsessed with one thing: making audiences feel something. We do not just build pretty pixels, we build worlds people want to live in.",
+    "p3": "We partner with indie creators, AAA studios, and global brands to deliver work that punches above its weight, hits deadlines without compromise, and looks like it cost twice the budget.",
+    "valuesLabel": "Core Values",
+    "valuesTitle": "WHAT DRIVES US",
     "values": {
       "imagination": {
-        "title": "想像力ファースト",
-        "desc": "すべてのプロジェクトは大胆なアイデアと白紙のキャンバスから始まります。"
+        "title": "Imagination First",
+        "desc": "Every project starts with a bold idea and a blank canvas."
       },
       "craft": {
-        "title": "クラフトへの執着",
-        "desc": "フレームごと、ピクセルごと, 品質は譲れません。"
+        "title": "Craft Obsessed",
+        "desc": "Frame by frame, pixel by pixel, quality is non negotiable."
       },
       "energy": {
-        "title": "シネマティックエネルギー",
-        "desc": "鳥肌を追い求めます。心が動かなければ、磨き込みます。"
+        "title": "Cinematic Energy",
+        "desc": "We chase the goosebumps. If it doesn't move us, we refine."
       },
       "story": {
-        "title": "ストーリー主導",
-        "desc": "テクノロジーはストーリーのために。常に。"
+        "title": "Story Driven",
+        "desc": "Tech serves story. Always."
       }
     },
     "stats": {
-      "projects": "リリースしたプロジェクト",
-      "clients": "グローバルクライアント",
-      "awards": "受賞数",
-      "years": "クラフトの年数"
+      "projects": "Projects Shipped",
+      "clients": "Global Clients",
+      "awards": "Awards Won",
+      "years": "Years Crafting"
     }
   },
   "contactPage": {
     "metaTitle": "お問い合わせ | Starlights Visuals",
-    "metaDescription": "ゲーム開発、2D & 3Dアニメーション、モーショングラフィックス、VFX、シネマティックトレーラープロジェクトについて Starlights Visuals へお問い合わせください。",
+    "metaDescription": "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
     "label": "お話しましょう",
     "title": "お問い合わせ",
     "subtitle": "制作のご相談、コラボレーション、またはご挨拶, シグナルをお送りください。",
@@ -270,60 +266,59 @@
     "responseTime": "返信時間",
     "responseDesc": "24時間以内、月, 金。",
     "projectTypes": {
-      "game": "ゲーム開発",
-      "2d": "2Dアニメーション",
-      "3d": "3Dアニメーション",
-      "trailer": "シネマティックトレーラー",
-      "character": "キャラクターデザイン",
-      "motion": "モーショングラフィックス and VFX",
-      "other": "その他"
+      "2d": "2D Animation",
+      "3d": "3D Animation",
+      "trailer": "Cinematic Trailer",
+      "character": "Character Design",
+      "motion": "Motion Graphics and VFX",
+      "other": "Other"
     },
     "sending": "Sending…",
     "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "ポートフォリオ | Starlights Visuals",
-    "metaDescription": "厳選プロジェクト：アニメーションシリーズ、ゲームトレーラー、キャラクターデザイン、Starlights Visuals のスタジオショーケースリール。",
+    "metaDescription": "Selected projects: animated series, cinematic trailers, character designs, and studio showcase reels by Starlights Visuals.",
     "label": "厳選作品",
     "title1": "ポート",
     "title2": "フォリオ",
     "subtitle": "私たちが命を吹き込んだ世界、キャラクター、ストーリーの一端。",
     "projects": {
       "trailer": {
-        "tag": "シネマティックトレーラー",
+        "tag": "Cinematic Trailer",
         "title": "Iron Sentinel",
-        "desc": "AAAゲームローンチトレーラー。"
+        "desc": "Cinematic brand launch trailer."
       },
       "character": {
-        "tag": "キャラクターデザイン",
+        "tag": "Character Design",
         "title": "Nova Vanguard",
-        "desc": "ヒーロー主人公シート。"
-      },
-      "game": {
-        "tag": "ゲームアート",
-        "title": "Lumen Worlds",
-        "desc": "オープンワールド環境アート。"
+        "desc": "Hero protagonist sheet."
       },
       "2d": {
-        "tag": "2Dアニメーション",
+        "tag": "2D Animation",
         "title": "Neon Skyline",
-        "desc": "アニメ風パイロットエピソード。"
+        "desc": "Anime inspired pilot episode."
       },
       "creature": {
-        "tag": "クリーチャーデザイン",
+        "tag": "Creature Design",
         "title": "Crystal Wyrm",
-        "desc": "ボスクリーチャーコンセプト。"
+        "desc": "Boss creature concept."
       },
       "motion": {
-        "tag": "モーショングラフィックス",
+        "tag": "Motion Graphics",
         "title": "Pulse Identity",
-        "desc": "ブランドモーションシステム。"
+        "desc": "Brand motion system."
+      },
+      "motionEnv": {
+        "tag": "Motion Graphics",
+        "title": "Pulse Worlds",
+        "desc": "Immersive brand environment art."
       }
     }
   },
   "blogPage": {
     "metaTitle": "ブログ | Starlights Visuals",
-    "metaDescription": "Starlights Visuals によるアニメーション、VFX、ゲームアート、シネマティックトレーラー、プレミアムブランドストーリーテリングに関するインサイト。",
+    "metaDescription": "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
     "label": "スタジオジャーナル",
     "title1": "ブ",
     "title2": "ログ",
@@ -333,50 +328,50 @@
     "startProject": "プロジェクトを始める",
     "moreFromJournal": "ジャーナルの他の記事",
     "postBody1": "Starlights Visuals では、すべてのフレームを美しい画像ではなく、コンバージョンの機会として扱います。この記事では、{{category}} 作品の背景にある思考と、優れたクリエイティブとローンチ準備完了のクリエイティブを分ける判断について掘り下げます。",
-    "postBody2": "トレーラーのリリース、ブランドモーションシステムのスケール、ライブプロダクト向けゲームアートの制作, いずれも同じ原則が当てはまります：ストーリーの明確さが第一、仕上げが第二、容赦ない編集が最後。この規律こそが、チームが「あと少し」の感覚なしに期限を守る方法です。",
+    "postBody2": "Whether you are shipping a trailer, scaling a brand motion system, or building campaign visuals for a live product, the same principle applies: clarity of story first, polish second, and ruthless editing last. That discipline is how teams hit deadlines without the almost there feeling.",
     "postBody3": "次のプロジェクトにこの考え方を適用したいですか？あなたが創っているものをぜひお聞かせください, ブリーフをお送りいただければ、コンセプトから納品までのシネマティックな道筋を描きます。",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "シネマティックトレーラーがプロダクトデモよりコンバートする理由",
-        "excerpt": "ストーリーファーストのローンチフィルムはCTAの前に感情的な緊張感を構築。最大リテンションのためのフック、ペーシング、グレーディングの構造。",
-        "category": "戦略",
-        "date": "2026年5月12日",
-        "readTime": "6分で読める"
+        "title": "Why cinematic trailers convert better than product demos",
+        "excerpt": "Story first launch films build emotional stakes before the CTA. Here is how we structure hooks, pacing, and grade for maximum retention.",
+        "category": "Strategy",
+        "date": "May 12, 2026",
+        "readTime": "6 min read"
       },
       "character-design-for-ip": {
-        "title": "あらゆるチャネルでIPを支えるキャラクターデザイン",
-        "excerpt": "シルエットの可読性からマーチ対応ターンアラウンドまで, ヒーローが制作に入る前に使うチェックリスト。",
-        "category": "クラフト",
-        "date": "2026年5月3日",
-        "readTime": "5分で読める"
-      },
-      "game-art-pipeline": {
-        "title": "ゲームアートパイプラインの内部：コンセプトから納品アセットまで",
-        "excerpt": "アートディレクション、技術的制約、マイルストーンレビューをどう整合させ、仕上げを犠牲にせず期限通りにリリースするか。",
-        "category": "制作",
-        "date": "2026年4月21日",
-        "readTime": "8分で読める"
+        "title": "Character design that anchors your IP across every channel",
+        "excerpt": "From silhouette readability to merch ready turnarounds, the checklist we use before a hero goes into production.",
+        "category": "Craft",
+        "date": "May 3, 2026",
+        "readTime": "5 min read"
       },
       "motion-systems-for-brands": {
-        "title": "ブランドが実際に再利用できるモーションシステムの構築",
-        "excerpt": "モジュラーなモーションライブラリ、ロゴスティング、UIマイクロインタラクションで大規模キャンペーンの一貫性を維持。",
-        "category": "モーション",
-        "date": "2026年4月8日",
-        "readTime": "4分で読める"
+        "title": "Building motion systems brands can actually reuse",
+        "excerpt": "Modular motion libraries, logo stings, and UI micro interactions that keep campaigns consistent at scale.",
+        "category": "Motion",
+        "date": "Apr 8, 2026",
+        "readTime": "4 min read"
       },
       "2d-animation-in-2026": {
-        "title": "2026年の2Dアニメーション：手作り感を保つハイブリッドパイプライン",
-        "excerpt": "リグの効率とフレームバイフレームのアクセントを組み合わせる, プレミアムな結果のために各技法をいつ押し出すか。",
-        "category": "アニメーション",
-        "date": "2026年3月29日",
-        "readTime": "7分で読める"
+        "title": "2D animation in 2026: hybrid pipelines that still feel handmade",
+        "excerpt": "Combining rigged efficiency with frame by frame accents, when to push each technique for premium results.",
+        "category": "Animation",
+        "date": "Mar 29, 2026",
+        "readTime": "7 min read"
       },
       "creature-design-breakdown": {
-        "title": "クリーチャーデザイン解説：ムードボードから最終リグまで",
-        "excerpt": "読みやすいシルエット、マテリアルストーリーテリング、シネマティックな存在感を持つボスクリーチャーの開発方法。",
-        "category": "クラフト",
-        "date": "2026年3月14日",
-        "readTime": "6分で読める"
+        "title": "Creature design breakdown: from mood board to final rig",
+        "excerpt": "A look at how we develop boss creatures with readable silhouettes, material storytelling, and cinematic presence.",
+        "category": "Craft",
+        "date": "Mar 14, 2026",
+        "readTime": "6 min read"
+      },
+      "production-pipelines-that-ship": {
+        "title": "Production pipelines that ship: concept to final delivery",
+        "excerpt": "How we align art direction, technical constraints, and milestone reviews so teams ship on time without sacrificing polish.",
+        "category": "Production",
+        "date": "Apr 21, 2026",
+        "readTime": "8 min read"
       }
     }
   },
@@ -393,8 +388,8 @@
     "goHome": "ホームへ"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals | ゲーム開発 & アニメーションスタジオ",
-    "rootDescription": "Starlights Visuals は、ゲーム開発、シネマティック2Dアニメーション、高品質3Dアニメーションを専門とするクリエイティブスタジオです。",
+    "rootTitle": "Starlights Visuals | Animation & VFX Studio",
+    "rootDescription": "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -439,8 +434,8 @@
         "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
       },
       "motion-graphics": {
-        "title": "Game Environment",
-        "tagline": "Immersive worlds and playable spaces in motion",
+        "title": "Motion Graphics",
+        "tagline": "Design led motion systems for launches and brand worlds",
         "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
       },
       "vfx": {
@@ -459,8 +454,8 @@
         "title": "3Dアニメーション"
       },
       "motion-graphics": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "vfx": {
         "tag": "ビジュアルエフェクト (VFX)",
@@ -1364,7 +1359,7 @@
         "items": {
           "01": {
             "question": "どのような種類のプロジェクトに対応していますか？",
-            "answer": "ゲーム、映画、シリーズ作品、広告、DTCブランド向けに、アニメーション、VFX、ゲームアート、シネマティクス、モーショングラフィックス、ブランドフィルムを制作しています。単体のヒーローアセットからキャンペーン一式まで対応可能です。"
+            "answer": "We produce animation, VFX, cinematics, motion graphics, product films, and brand films for film, series, advertising, and DTC brands. Briefs range from single hero assets to full campaign packages."
           },
           "02": {
             "question": "Starlights Visuals の拠点はどこですか？",
@@ -1381,15 +1376,15 @@
         "items": {
           "01": {
             "question": "提供しているサービスは何ですか？",
-            "answer": "主なサービスは、2D/3Dアニメーション、VFX、キャラクター/コンセプトアート、ゲーム開発サポート、モーショングラフィックス、シネマティックトレーラーです。個別工程にも、全パイプライン制作にも対応します。"
+            "answer": "Our core services include 2D and 3D animation, VFX, character and concept art, motion graphics, product animation, and cinematic trailers. We can handle individual disciplines or full pipeline production."
           },
           "02": {
             "question": "インディーチームや大規模スタジオとも仕事をしますか？",
-            "answer": "はい。インディークリエイター、中規模スタジオ、グローバルブランドと協業しています。品質を損なうことなく、予算とスケジュールに合わせて体制とスコープを柔軟に調整します。"
+            "answer": "Yes. We partner with indie creators, mid size studios, and global brands. Scope and team size flex to match your budget and timeline without compromising craft."
           },
           "03": {
             "question": "既存のアートスタイルに合わせることはできますか？",
-            "answer": "もちろん可能です。まずスタイルフレームと、ブランドガイドラインまたはゲーム世界観に合わせたルックデブを行い、その後に本制作へ進みます。"
+            "answer": "Absolutely. We start with style frames and a look development pass aligned to your brand guidelines or visual world before committing to full production."
           }
         }
       },

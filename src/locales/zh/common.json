@@ -45,7 +45,7 @@
     "emailPlaceholder": "your@email.com",
     "join": "订阅",
     "subscribed": "✦ 欢迎加入 Starlights。",
-    "tagline": "一家创意工作室，通过沉浸式游戏开发、电影级 2D 动画和高质量 3D 体验，将想象力化为现实。",
+    "tagline": "A creative studio bringing imagination to life through cinematic 2D animation, high quality 3D experiences, and VFX.",
     "explore": "探索",
     "follow": "关注",
     "social": "社交链接",
@@ -54,41 +54,42 @@
     "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
-    "metaTitle": "Starlights Visuals | 动画、VFX 与游戏美术工作室",
-    "metaDescription": "专注 2D and 3D 动画、VFX 与游戏美术的创意工作室。我们为奇幻世界、角色与电影镜头注入生命。",
-    "heroScript": "故事在动 —",
-    "heroTitle1": "动画",
+    "metaTitle": "Starlights Visuals | Animation & VFX Studio",
+    "metaDescription": "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
+    "heroScript": "Stories in motion,",
+    "heroTitle1": "ANIMATION",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals 用动画与视觉特效让故事鲜活起来，吸引观众并提升每一帧。我们为电影、剧集、广告与品牌活动制作奇幻生物、人物、载具、环境、道具与硬表面物体的动画。",
-    "heroAlt": "Starlights Visuals 电影级主视觉",
-    "seePortfolio": "查看作品集",
-    "startProject": "启动项目",
-    "servicesLabel": "我们的服务",
-    "servicesTitle": "服务",
-    "allServices": "全部服务",
-    "showcaseLabel": "近期作品",
-    "showcaseTitle1": "精选",
-    "showcaseTitle2": "作品",
-    "fullPortfolio": "完整作品集",
-    "ctaScript": "一起创造,",
-    "ctaTitle1": "准备好",
-    "ctaTitle2": "合作了吗？",
+    "heroBody": "Starlights Visuals brings stories to life with animation and visual effects that captivate audiences and elevate every frame. We animate fantasy creatures, human characters, vehicles, environments, props, and hard surface objects for film, series, advertising, and brand campaigns.",
+    "heroAlt": "Starlights Visuals cinematic hero",
+    "seePortfolio": "See Portfolio",
+    "startProject": "Start a Project",
+    "servicesLabel": "What we do",
+    "servicesTitle": "SERVICES",
+    "allServices": "All Services",
+    "showcaseLabel": "Recent work",
+    "showcaseTitle1": "SELECTED",
+    "showcaseTitle2": "WORK",
+    "fullPortfolio": "Full Portfolio",
+    "viewAllFaq": "View all FAQ",
+    "ctaScript": "Let's build something,",
+    "ctaTitle1": "READY TO",
+    "ctaTitle2": "COLLABORATE?",
     "services": {
       "01": {
-        "title": "动画与 VFX",
-        "desc": "面向游戏与电影的电影级 2D 与 3D 动画、角色绑定及视觉特效。"
+        "title": "Animation & VFX",
+        "desc": "Cinematic 2D & 3D animation, character rigs, and visual effects for film, series, and brands."
       },
       "02": {
-        "title": "游戏开发",
-        "desc": "全周期制作, 概念、美术、代码、音频、上线。"
+        "title": "Product Animation",
+        "desc": "Photoreal product films, packshots, and CGI that make every detail sell."
       },
       "03": {
-        "title": "概念与角色美术",
-        "desc": "原创角色、生物、环境与道具，锚定您的 IP。"
+        "title": "Concept & Character Art",
+        "desc": "Original characters, creatures, environments, and props that anchor your IP."
       },
       "04": {
-        "title": "电影级预告片",
-        "desc": "以故事驱动的预告片，助力游戏与 IP 发布。"
+        "title": "Cinematic Trailers",
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns."
       }
     },
     "showcase": {
@@ -97,12 +98,12 @@
         "title": "3D Animation"
       },
       "gameArt": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "animation2d": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "2D Animation",
+        "title": "2D Animation"
       },
       "cinematic": {
         "tag": "VFX",
@@ -116,8 +117,7 @@
         "tag": "3D",
         "title": "Product Animation"
       }
-    },
-    "viewAllFaq": "View all FAQ"
+    }
   },
   "trustedBy": {
     "badge": "200+ COMPANY",
@@ -172,86 +172,82 @@
     "writeYours": "Write yours"
   },
   "servicesPage": {
-    "metaTitle": "服务 | Starlights Visuals",
-    "metaDescription": "2D 动画、3D 动画、游戏开发、角色设计、动态图形、VFX 与电影级预告片。",
-    "label": "我们打造什么",
-    "title": "服务",
-    "subtitle": "一个工作室，覆盖从第一笔草图到最终像素的每个制作阶段。",
-    "ctaTitle1": "有",
-    "ctaTitle2": "项目",
-    "ctaTitle3": "想法？",
-    "ctaDesc": "告诉我们您的愿景, 我们提供火力支持。",
-    "ctaButton": "联系我们",
+    "metaTitle": "Services | Starlights Visuals",
+    "metaDescription": "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
+    "label": "What We Build",
+    "title": "SERVICES",
+    "subtitle": "One studio, every stage of production, from first sketch to final pixel.",
+    "ctaTitle1": "HAVE A",
+    "ctaTitle2": "PROJECT",
+    "ctaTitle3": "IN MIND?",
+    "ctaDesc": "Tell us your vision, we'll bring the firepower.",
+    "ctaButton": "Get In Touch",
     "items": {
       "2d": {
-        "title": "2D 动画",
-        "desc": "面向系列、短片、解说与游戏的逐帧与绑定 2D。融合经典工艺与数字流程。"
+        "title": "2D Animation",
+        "desc": "Frame by frame & rigged 2D for series, shorts, explainers, and brand films. We blend classic craft with digital pipelines."
       },
       "3d": {
-        "title": "3D 动画",
-        "desc": "风格化与照片级 3D, 角色、环境与完整电影序列，具备院线级打磨。"
-      },
-      "game": {
-        "title": "游戏开发",
-        "desc": "端到端游戏制作：概念、美术、代码、音频与上线。Unreal、Unity 及定制流程。"
+        "title": "3D Animation",
+        "desc": "Stylized and photoreal 3D, characters, environments, and full cinematic sequences with feature quality polish."
       },
       "character": {
-        "title": "角色设计",
-        "desc": "原创角色、生物与概念美术，锚定 IP 与周边潜力。"
+        "title": "Character Design",
+        "desc": "Original characters, creatures, and concept art that anchor your IP and merch potential."
       },
       "motion": {
-        "title": "动态图形",
-        "desc": "品牌动态、UI 动画、广播包装与电影级解说视频。"
+        "title": "Motion Graphics",
+        "desc": "Branded motion, UI animation, broadcast packages, and explainer videos with cinematic polish."
       },
       "vfx": {
-        "title": "视觉特效 (VFX)",
-        "desc": "面向游戏、电影与数字战役的合成、粒子特效与 CG 集成。"
+        "title": "Visual Effects (VFX)",
+        "desc": "Compositing, particle FX, and CG integration for film, advertising, and digital campaigns."
       },
       "trailer": {
-        "title": "电影级预告片",
-        "desc": "以故事驱动的预告片，以最大影响力发布游戏、IP 与品牌。"
+        "title": "Cinematic Trailers",
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns with maximum impact."
       }
     }
   },
   "aboutPage": {
-    "metaTitle": "关于我们 | Starlights Visuals",
-    "metaDescription": "Starlights Visuals 是一家充满热情的创意工作室，专注于沉浸式游戏开发、电影级 2D 动画与高质量 3D 动画体验。",
-    "label": "我们是谁",
-    "title1": "以光、代码与",
-    "title2": "故事构建的工作室",
-    "p1": "Starlights Visuals 是一家位于游戏、动画与电影叙事交汇处的创意工作室。我们存在的意义，是将想象力化为现实, 无论是宏大的开放世界游戏、手工打造的 2D 系列，还是照片级 3D 预告片。",
-    "p2": "从概念艺术家与 3D 雕刻师，到 gameplay 工程师与动态设计师，团队每一位成员都痴迷于一件事：让观众有所感受。我们不仅打造精美的像素, 更构建人们想要栖居的世界。",
-    "p3": "我们与独立创作者、AAA 工作室与全球品牌合作，交付超越预期的作品，在绝不妥协的前提下按时完成，且看起来像是预算翻倍的效果。",
-    "valuesLabel": "核心价值观",
-    "valuesTitle": "驱动我们的力量",
+    "metaTitle": "About | Starlights Visuals",
+    "metaDescription": "Starlights Visuals is a passionate creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
+    "label": "Who We Are",
+    "title1": "A STUDIO BUILT ON",
+    "title2": "LIGHT, CODE & STORY",
+    "p1": "Starlights Visuals is a passionate creative studio at the intersection of animation, VFX, and cinematic storytelling. We exist to bring imagination to life, whether that is a hand crafted 2D series, a photoreal 3D trailer, or a brand campaign that needs to feel premium.",
+    "p2": "From our concept artists and 3D sculptors to our motion designers and compositors, every member of our team is obsessed with one thing: making audiences feel something. We do not just build pretty pixels, we build worlds people want to live in.",
+    "p3": "We partner with indie creators, AAA studios, and global brands to deliver work that punches above its weight, hits deadlines without compromise, and looks like it cost twice the budget.",
+    "valuesLabel": "Core Values",
+    "valuesTitle": "WHAT DRIVES US",
     "values": {
       "imagination": {
-        "title": "想象力优先",
-        "desc": "每个项目都始于大胆的想法与空白画布。"
+        "title": "Imagination First",
+        "desc": "Every project starts with a bold idea and a blank canvas."
       },
       "craft": {
-        "title": "工艺至上",
-        "desc": "逐帧、逐像素, 品质不可妥协。"
+        "title": "Craft Obsessed",
+        "desc": "Frame by frame, pixel by pixel, quality is non negotiable."
       },
       "energy": {
-        "title": "电影级能量",
-        "desc": "我们追逐鸡皮疙瘩。若无法打动自己，便继续打磨。"
+        "title": "Cinematic Energy",
+        "desc": "We chase the goosebumps. If it doesn't move us, we refine."
       },
       "story": {
-        "title": "故事驱动",
-        "desc": "技术服务于故事。永远如此。"
+        "title": "Story Driven",
+        "desc": "Tech serves story. Always."
       }
     },
     "stats": {
-      "projects": "已交付项目",
-      "clients": "全球客户",
-      "awards": "获奖数量",
-      "years": "匠心岁月"
+      "projects": "Projects Shipped",
+      "clients": "Global Clients",
+      "awards": "Awards Won",
+      "years": "Years Crafting"
     }
   },
   "contactPage": {
     "metaTitle": "联系 | Starlights Visuals",
-    "metaDescription": "联系 Starlights Visuals，洽谈游戏开发、2D 与 3D 动画、动态图形、VFX 及电影级预告片项目。",
+    "metaDescription": "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
     "label": "聊聊吧",
     "title": "联系",
     "subtitle": "制作咨询、合作意向，或只是打个招呼, 给我们发个信号。",
@@ -270,60 +266,59 @@
     "responseTime": "回复时间",
     "responseDesc": "24 小时内，周一至周五。",
     "projectTypes": {
-      "game": "游戏开发",
-      "2d": "2D 动画",
-      "3d": "3D 动画",
-      "trailer": "电影级预告片",
-      "character": "角色设计",
-      "motion": "动态图形 and VFX",
-      "other": "其他"
+      "2d": "2D Animation",
+      "3d": "3D Animation",
+      "trailer": "Cinematic Trailer",
+      "character": "Character Design",
+      "motion": "Motion Graphics and VFX",
+      "other": "Other"
     },
     "sending": "Sending…",
     "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "作品集 | Starlights Visuals",
-    "metaDescription": "精选项目：动画系列、游戏预告片、角色设计与 Starlights Visuals 工作室展示片。",
+    "metaDescription": "Selected projects: animated series, cinematic trailers, character designs, and studio showcase reels by Starlights Visuals.",
     "label": "精选作品",
     "title1": "作品",
     "title2": "集",
     "subtitle": "一窥我们助力诞生的世界、角色与故事。",
     "projects": {
       "trailer": {
-        "tag": "电影级预告片",
+        "tag": "Cinematic Trailer",
         "title": "Iron Sentinel",
-        "desc": "AAA 游戏发布预告片。"
+        "desc": "Cinematic brand launch trailer."
       },
       "character": {
-        "tag": "角色设计",
+        "tag": "Character Design",
         "title": "Nova Vanguard",
-        "desc": "主角设定表。"
-      },
-      "game": {
-        "tag": "游戏美术",
-        "title": "Lumen Worlds",
-        "desc": "开放世界环境美术。"
+        "desc": "Hero protagonist sheet."
       },
       "2d": {
-        "tag": "2D 动画",
+        "tag": "2D Animation",
         "title": "Neon Skyline",
-        "desc": "动漫风格试播集。"
+        "desc": "Anime inspired pilot episode."
       },
       "creature": {
-        "tag": "生物设计",
+        "tag": "Creature Design",
         "title": "Crystal Wyrm",
-        "desc": "Boss 生物概念。"
+        "desc": "Boss creature concept."
       },
       "motion": {
-        "tag": "动态图形",
+        "tag": "Motion Graphics",
         "title": "Pulse Identity",
-        "desc": "品牌动态系统。"
+        "desc": "Brand motion system."
+      },
+      "motionEnv": {
+        "tag": "Motion Graphics",
+        "title": "Pulse Worlds",
+        "desc": "Immersive brand environment art."
       }
     }
   },
   "blogPage": {
     "metaTitle": "博客 | Starlights Visuals",
-    "metaDescription": "Starlights Visuals 关于动画、VFX、游戏美术、电影级预告片与高端品牌叙事的见解。",
+    "metaDescription": "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
     "label": "工作室日志",
     "title1": "博",
     "title2": "客",
@@ -333,50 +328,50 @@
     "startProject": "启动项目",
     "moreFromJournal": "更多日志文章",
     "postBody1": "在 Starlights Visuals，我们将每一帧视为转化机会, 而非仅仅是精美画面。本文深入探讨我们 {{category}} 作品背后的思路，以及区分优秀创意与可上线创意的关键决策。",
-    "postBody2": "无论您是在发布预告片、扩展品牌动态系统，还是为上线产品制作游戏美术，原则相同：故事清晰第一，打磨第二，严苛剪辑最后。正是这份纪律，让团队按时交付而不留「差一点」的遗憾。",
+    "postBody2": "Whether you are shipping a trailer, scaling a brand motion system, or building campaign visuals for a live product, the same principle applies: clarity of story first, polish second, and ruthless editing last. That discipline is how teams hit deadlines without the almost there feeling.",
     "postBody3": "想将这一思路应用于您的下一个项目？我们很乐意了解您正在打造的内容, 发送简报，我们将规划从概念到交付的电影级路径。",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "电影级预告片为何比产品演示更易转化",
-        "excerpt": "故事优先的发布片在 CTA 之前建立情感张力。我们如何构建钩子、节奏与调色以实现最大留存。",
-        "category": "策略",
-        "date": "2026年5月12日",
-        "readTime": "6 分钟阅读"
+        "title": "Why cinematic trailers convert better than product demos",
+        "excerpt": "Story first launch films build emotional stakes before the CTA. Here is how we structure hooks, pacing, and grade for maximum retention.",
+        "category": "Strategy",
+        "date": "May 12, 2026",
+        "readTime": "6 min read"
       },
       "character-design-for-ip": {
-        "title": "锚定 IP 跨渠道的角色设计",
-        "excerpt": "从轮廓可读性到周边就绪三视图, 英雄进入制作前我们使用的清单。",
-        "category": "工艺",
-        "date": "2026年5月3日",
-        "readTime": "5 分钟阅读"
-      },
-      "game-art-pipeline": {
-        "title": "游戏美术流程揭秘：从概念到交付资产",
-        "excerpt": "如何对齐美术方向、技术约束与里程碑评审，使团队按时交付而不牺牲打磨品质。",
-        "category": "制作",
-        "date": "2026年4月21日",
-        "readTime": "8 分钟阅读"
+        "title": "Character design that anchors your IP across every channel",
+        "excerpt": "From silhouette readability to merch ready turnarounds, the checklist we use before a hero goes into production.",
+        "category": "Craft",
+        "date": "May 3, 2026",
+        "readTime": "5 min read"
       },
       "motion-systems-for-brands": {
-        "title": "构建品牌可真正复用的动态系统",
-        "excerpt": "模块化动态库、Logo 片头与 UI 微交互，保持大规模战役的一致性。",
-        "category": "动态",
-        "date": "2026年4月8日",
-        "readTime": "4 分钟阅读"
+        "title": "Building motion systems brands can actually reuse",
+        "excerpt": "Modular motion libraries, logo stings, and UI micro interactions that keep campaigns consistent at scale.",
+        "category": "Motion",
+        "date": "Apr 8, 2026",
+        "readTime": "4 min read"
       },
       "2d-animation-in-2026": {
-        "title": "2026 年的 2D 动画：仍具手工感的混合流程",
-        "excerpt": "结合绑定效率与逐帧点缀, 何时推进每种技法以获得高端成果。",
-        "category": "动画",
-        "date": "2026年3月29日",
-        "readTime": "7 分钟阅读"
+        "title": "2D animation in 2026: hybrid pipelines that still feel handmade",
+        "excerpt": "Combining rigged efficiency with frame by frame accents, when to push each technique for premium results.",
+        "category": "Animation",
+        "date": "Mar 29, 2026",
+        "readTime": "7 min read"
       },
       "creature-design-breakdown": {
-        "title": "生物设计解析：从情绪板到最终绑定",
-        "excerpt": "我们如何开发具有清晰轮廓、材质叙事与电影级存在感的 Boss 生物。",
-        "category": "工艺",
-        "date": "2026年3月14日",
-        "readTime": "6 分钟阅读"
+        "title": "Creature design breakdown: from mood board to final rig",
+        "excerpt": "A look at how we develop boss creatures with readable silhouettes, material storytelling, and cinematic presence.",
+        "category": "Craft",
+        "date": "Mar 14, 2026",
+        "readTime": "6 min read"
+      },
+      "production-pipelines-that-ship": {
+        "title": "Production pipelines that ship: concept to final delivery",
+        "excerpt": "How we align art direction, technical constraints, and milestone reviews so teams ship on time without sacrificing polish.",
+        "category": "Production",
+        "date": "Apr 21, 2026",
+        "readTime": "8 min read"
       }
     }
   },
@@ -393,8 +388,8 @@
     "goHome": "返回首页"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals | 游戏开发与动画工作室",
-    "rootDescription": "Starlights Visuals 是一家专注于游戏开发、电影级 2D 动画与高质量 3D 动画的创意工作室。",
+    "rootTitle": "Starlights Visuals | Animation & VFX Studio",
+    "rootDescription": "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -439,8 +434,8 @@
         "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
       },
       "motion-graphics": {
-        "title": "Game Environment",
-        "tagline": "Immersive worlds and playable spaces in motion",
+        "title": "Motion Graphics",
+        "tagline": "Design led motion systems for launches and brand worlds",
         "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
       },
       "vfx": {
@@ -459,8 +454,8 @@
         "title": "3D 动画"
       },
       "motion-graphics": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "vfx": {
         "tag": "视觉特效 (VFX)",
@@ -1364,7 +1359,7 @@
         "items": {
           "01": {
             "question": "你们承接哪些类型的项目？",
-            "answer": "我们为游戏、电影、剧集、广告和 DTC 品牌制作动画、VFX、游戏美术、电影化过场、动态图形和品牌影片。项目范围可从单个核心资产到完整整合营销素材包。"
+            "answer": "We produce animation, VFX, cinematics, motion graphics, product films, and brand films for film, series, advertising, and DTC brands. Briefs range from single hero assets to full campaign packages."
           },
           "02": {
             "question": "Starlights Visuals 的所在地在哪里？",
@@ -1381,15 +1376,15 @@
         "items": {
           "01": {
             "question": "你们提供哪些服务？",
-            "answer": "我们的核心服务包括 2D/3D 动画、VFX、角色与概念设计、游戏开发支持、动态图形和电影预告片制作。既可承接单项环节，也可覆盖完整制作流程。"
+            "answer": "Our core services include 2D and 3D animation, VFX, character and concept art, motion graphics, product animation, and cinematic trailers. We can handle individual disciplines or full pipeline production."
           },
           "02": {
             "question": "你们会与独立团队和大型工作室合作吗？",
-            "answer": "会。我们与独立创作者、中型工作室及全球品牌合作。可根据预算与时间灵活调整项目范围和团队规模，同时保证制作水准。"
+            "answer": "Yes. We partner with indie creators, mid size studios, and global brands. Scope and team size flex to match your budget and timeline without compromising craft."
           },
           "03": {
             "question": "你们可以匹配我们现有的美术风格吗？",
-            "answer": "当然可以。我们会先进行风格帧与 look-dev 阶段，使其与品牌规范或游戏世界观对齐，再进入完整制作。"
+            "answer": "Absolutely. We start with style frames and a look development pass aligned to your brand guidelines or visual world before committing to full production."
           }
         }
       },

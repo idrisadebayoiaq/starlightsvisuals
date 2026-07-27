@@ -13,7 +13,7 @@ export const Route = createFileRoute("/blog/")({
       {
         name: "description",
         content:
-          "Insights on animation, VFX, game art, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
+          "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
       },
       { property: "og:title", content: "Blog | Starlights Visuals" },
       {

@@ -45,7 +45,7 @@
     "emailPlaceholder": "your@email.com",
     "join": "Katıl",
     "subscribed": "✦ Aramızdasınız. Starlights'a hoş geldiniz.",
-    "tagline": "Sürükleyici oyun geliştirme, sinematik 2D animasyon ve yüksek kaliteli 3D deneyimlerle hayal gücünü hayata geçiren yaratıcı bir stüdyo.",
+    "tagline": "A creative studio bringing imagination to life through cinematic 2D animation, high quality 3D experiences, and VFX.",
     "explore": "Keşfet",
     "follow": "Takip et",
     "social": "Sosyal medya bağlantısı",
@@ -54,41 +54,42 @@
     "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
-    "metaTitle": "Starlights Visuals | Animasyon | VFX ve Oyun Sanatı Stüdyosu",
-    "metaDescription": "2D and 3D animasyon, VFX ve oyun sanatı için yaratıcı bir stüdyo. Fantezi dünyalarını, karakterleri ve sinematikleri hayata geçiriyoruz.",
-    "heroScript": "Hareket halindeki hikâyeler —",
-    "heroTitle1": "ANİMASYON",
-    "heroTitle2": "VE VFX",
-    "heroBody": "Starlights Visuals, izleyicileri büyüleyen ve her kareyi yükselten animasyon ve görsel efektlerle hikâyelere hayat verir. Fantastik yaratıklar, insan karakterler, araçlar, ortamlar, aksesuarlar ve hard-surface nesneleri canlandırıyoruz — film, dizi, reklam ve marka kampanyaları için.",
-    "heroAlt": "Starlights Visuals sinematik hero",
-    "seePortfolio": "Portfolyoyu gör",
-    "startProject": "Proje başlat",
-    "servicesLabel": "Ne yapıyoruz",
-    "servicesTitle": "HİZMETLER",
-    "allServices": "Tüm hizmetler",
-    "showcaseLabel": "Son çalışmalar",
-    "showcaseTitle1": "SEÇİLMİŞ",
-    "showcaseTitle2": "İŞLER",
-    "fullPortfolio": "Tam portfolyo",
-    "ctaScript": "Birlikte bir şey inşa edelim,",
-    "ctaTitle1": "İŞ BİRLİĞİNE",
-    "ctaTitle2": "HAZIR MISINIZ?",
+    "metaTitle": "Starlights Visuals | Animation & VFX Studio",
+    "metaDescription": "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
+    "heroScript": "Stories in motion,",
+    "heroTitle1": "ANIMATION",
+    "heroTitle2": "& VFX",
+    "heroBody": "Starlights Visuals brings stories to life with animation and visual effects that captivate audiences and elevate every frame. We animate fantasy creatures, human characters, vehicles, environments, props, and hard surface objects for film, series, advertising, and brand campaigns.",
+    "heroAlt": "Starlights Visuals cinematic hero",
+    "seePortfolio": "See Portfolio",
+    "startProject": "Start a Project",
+    "servicesLabel": "What we do",
+    "servicesTitle": "SERVICES",
+    "allServices": "All Services",
+    "showcaseLabel": "Recent work",
+    "showcaseTitle1": "SELECTED",
+    "showcaseTitle2": "WORK",
+    "fullPortfolio": "Full Portfolio",
+    "viewAllFaq": "View all FAQ",
+    "ctaScript": "Let's build something,",
+    "ctaTitle1": "READY TO",
+    "ctaTitle2": "COLLABORATE?",
     "services": {
       "01": {
-        "title": "Animasyon ve VFX",
-        "desc": "Oyunlar ve filmler için sinematik 2D ve 3D animasyon, karakter rig'leri ve görsel efektler."
+        "title": "Animation & VFX",
+        "desc": "Cinematic 2D & 3D animation, character rigs, and visual effects for film, series, and brands."
       },
       "02": {
-        "title": "Oyun geliştirme",
-        "desc": "Tam döngü üretim, konsept, sanat, kod, ses, yayın."
+        "title": "Product Animation",
+        "desc": "Photoreal product films, packshots, and CGI that make every detail sell."
       },
       "03": {
-        "title": "Konsept ve karakter sanatı",
-        "desc": "IP'nizi güçlendiren özgün karakterler, yaratıklar, ortamlar ve aksesuarlar."
+        "title": "Concept & Character Art",
+        "desc": "Original characters, creatures, environments, and props that anchor your IP."
       },
       "04": {
-        "title": "Sinematik fragmanlar",
-        "desc": "Oyunları ve markaları lansmana taşıyan hikâye odaklı fragmanlar."
+        "title": "Cinematic Trailers",
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns."
       }
     },
     "showcase": {
@@ -97,12 +98,12 @@
         "title": "3D Animation"
       },
       "gameArt": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "animation2d": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "2D Animation",
+        "title": "2D Animation"
       },
       "cinematic": {
         "tag": "VFX",
@@ -116,8 +117,7 @@
         "tag": "3D",
         "title": "Product Animation"
       }
-    },
-    "viewAllFaq": "View all FAQ"
+    }
   },
   "trustedBy": {
     "badge": "200+ COMPANY",
@@ -172,86 +172,82 @@
     "writeYours": "Write yours"
   },
   "servicesPage": {
-    "metaTitle": "Hizmetler | Starlights Visuals",
-    "metaDescription": "2D animasyon, 3D animasyon, oyun geliştirme, karakter tasarımı, motion graphics, VFX ve sinematik fragmanlar.",
-    "label": "Ne inşa ediyoruz",
-    "title": "HİZMETLER",
-    "subtitle": "Tek stüdyo, üretimin her aşaması, ilk eskizden son piksele.",
-    "ctaTitle1": "AKLINDA BİR",
-    "ctaTitle2": "PROJE",
-    "ctaTitle3": "VAR MI?",
-    "ctaDesc": "Vizyonunuzu anlatın, gücü biz getirelim.",
-    "ctaButton": "İletişime geç",
+    "metaTitle": "Services | Starlights Visuals",
+    "metaDescription": "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
+    "label": "What We Build",
+    "title": "SERVICES",
+    "subtitle": "One studio, every stage of production, from first sketch to final pixel.",
+    "ctaTitle1": "HAVE A",
+    "ctaTitle2": "PROJECT",
+    "ctaTitle3": "IN MIND?",
+    "ctaDesc": "Tell us your vision, we'll bring the firepower.",
+    "ctaButton": "Get In Touch",
     "items": {
       "2d": {
-        "title": "2D animasyon",
-        "desc": "Diziler, kısa filmler, açıklayıcılar ve oyunlar için kare kare ve rig'li 2D. Klasik ustalığı dijital pipeline'larla birleştiriyoruz."
+        "title": "2D Animation",
+        "desc": "Frame by frame & rigged 2D for series, shorts, explainers, and brand films. We blend classic craft with digital pipelines."
       },
       "3d": {
-        "title": "3D animasyon",
-        "desc": "Stilize ve fotogerçekçi 3D, karakterler, ortamlar ve feature kalitesinde cilalı tam sinematik sekanslar."
-      },
-      "game": {
-        "title": "Oyun geliştirme",
-        "desc": "Uçtan uca oyun üretimi: konsept, sanat, kod, ses ve lansman. Unreal, Unity ve özel pipeline'lar."
+        "title": "3D Animation",
+        "desc": "Stylized and photoreal 3D, characters, environments, and full cinematic sequences with feature quality polish."
       },
       "character": {
-        "title": "Karakter tasarımı",
-        "desc": "IP'nizi ve merchandising potansiyelinizi güçlendiren özgün karakterler, yaratıklar ve konsept sanatı."
+        "title": "Character Design",
+        "desc": "Original characters, creatures, and concept art that anchor your IP and merch potential."
       },
       "motion": {
-        "title": "Motion graphics",
-        "desc": "Markalı motion, UI animasyonu, yayın paketleri ve sinematik cilalı açıklayıcı videolar."
+        "title": "Motion Graphics",
+        "desc": "Branded motion, UI animation, broadcast packages, and explainer videos with cinematic polish."
       },
       "vfx": {
-        "title": "Görsel efektler (VFX)",
-        "desc": "Oyunlar, film ve dijital kampanyalar için compositing, particle FX ve CG entegrasyonu."
+        "title": "Visual Effects (VFX)",
+        "desc": "Compositing, particle FX, and CG integration for film, advertising, and digital campaigns."
       },
       "trailer": {
-        "title": "Sinematik fragmanlar",
-        "desc": "Oyunları, IP'leri ve markaları maksimum etkiyle lansmana taşıyan hikâye odaklı fragmanlar."
+        "title": "Cinematic Trailers",
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns with maximum impact."
       }
     }
   },
   "aboutPage": {
-    "metaTitle": "Hakkımızda | Starlights Visuals",
-    "metaDescription": "Starlights Visuals, sürükleyici oyun geliştirme, sinematik 2D animasyon ve yüksek kaliteli 3D animasyon deneyimlerinde uzman tutkulu bir yaratıcı stüdyodur.",
-    "label": "Biz kimiz",
-    "title1": "IŞIK, KOD VE HİKÂYE",
-    "title2": "ÜZERİNE KURULU STÜDYO",
-    "p1": "Starlights Visuals, oyunlar, animasyon ve sinematik anlatının kesişiminde tutkulu bir yaratıcı stüdyodur. Hayal gücünü hayata geçirmek için varız, ister geniş bir açık dünya oyunu, el yapımı bir 2D dizi ya da fotogerçekçi bir 3D fragman olsun.",
-    "p2": "Konsept sanatçılarımız ve 3D heykeltıraşlarımızdan oynanış mühendislerimize ve motion tasarımcılarımıza kadar ekibin her üyesi tek bir şeye takıntılı: izleyicide bir duygu uyandırmak. Sadece güzel pikseller inşa etmiyoruz, insanların yaşamak istediği dünyalar kuruyoruz.",
-    "p3": "Indie yaratıcılar, AAA stüdyoları ve küresel markalarla çalışarak ağırlığının üzerinde vuran, teslim tarihlerini ödün vermeden tutan ve bütçesinin iki katına mal olmuş gibi görünen işler üretiyoruz.",
-    "valuesLabel": "Temel değerler",
-    "valuesTitle": "BİZİ NE SÜRÜKLÜYOR",
+    "metaTitle": "About | Starlights Visuals",
+    "metaDescription": "Starlights Visuals is a passionate creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
+    "label": "Who We Are",
+    "title1": "A STUDIO BUILT ON",
+    "title2": "LIGHT, CODE & STORY",
+    "p1": "Starlights Visuals is a passionate creative studio at the intersection of animation, VFX, and cinematic storytelling. We exist to bring imagination to life, whether that is a hand crafted 2D series, a photoreal 3D trailer, or a brand campaign that needs to feel premium.",
+    "p2": "From our concept artists and 3D sculptors to our motion designers and compositors, every member of our team is obsessed with one thing: making audiences feel something. We do not just build pretty pixels, we build worlds people want to live in.",
+    "p3": "We partner with indie creators, AAA studios, and global brands to deliver work that punches above its weight, hits deadlines without compromise, and looks like it cost twice the budget.",
+    "valuesLabel": "Core Values",
+    "valuesTitle": "WHAT DRIVES US",
     "values": {
       "imagination": {
-        "title": "Önce hayal gücü",
-        "desc": "Her proje cesur bir fikir ve boş bir tuvalle başlar."
+        "title": "Imagination First",
+        "desc": "Every project starts with a bold idea and a blank canvas."
       },
       "craft": {
-        "title": "Ustalık takıntısı",
-        "desc": "Kare kare, piksel piksel, kalite pazarlık konusu değildir."
+        "title": "Craft Obsessed",
+        "desc": "Frame by frame, pixel by pixel, quality is non negotiable."
       },
       "energy": {
-        "title": "Sinematik enerji",
-        "desc": "Tüylerimizi diken diken edeni kovalıyoruz. Bizi hareket ettirmiyorsa rafine ediyoruz."
+        "title": "Cinematic Energy",
+        "desc": "We chase the goosebumps. If it doesn't move us, we refine."
       },
       "story": {
-        "title": "Hikâye odaklı",
-        "desc": "Teknoloji hikâyeye hizmet eder. Her zaman."
+        "title": "Story Driven",
+        "desc": "Tech serves story. Always."
       }
     },
     "stats": {
-      "projects": "Teslim edilen proje",
-      "clients": "Küresel müşteri",
-      "awards": "Kazanılan ödül",
-      "years": "Ustalık yılı"
+      "projects": "Projects Shipped",
+      "clients": "Global Clients",
+      "awards": "Awards Won",
+      "years": "Years Crafting"
     }
   },
   "contactPage": {
     "metaTitle": "İletişim | Starlights Visuals",
-    "metaDescription": "Oyun geliştirme, 2D ve 3D animasyon, motion graphics, VFX ve sinematik fragman projeleri için Starlights Visuals ile iletişime geçin.",
+    "metaDescription": "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
     "label": "Konuşalım",
     "title": "İLETİŞİM",
     "subtitle": "Prodüksiyon talepleri, iş birlikleri veya sadece merhaba demek, bize bir sinyal gönderin.",
@@ -270,60 +266,59 @@
     "responseTime": "YANIT SÜRESİ",
     "responseDesc": "24 saat içinde, Pzt, Cum.",
     "projectTypes": {
-      "game": "Oyun geliştirme",
-      "2d": "2D animasyon",
-      "3d": "3D animasyon",
-      "trailer": "Sinematik fragman",
-      "character": "Karakter tasarımı",
-      "motion": "Motion graphics and VFX",
-      "other": "Diğer"
+      "2d": "2D Animation",
+      "3d": "3D Animation",
+      "trailer": "Cinematic Trailer",
+      "character": "Character Design",
+      "motion": "Motion Graphics and VFX",
+      "other": "Other"
     },
     "sending": "Sending…",
     "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "Portfolyo | Starlights Visuals",
-    "metaDescription": "Seçilmiş projeler: animasyon dizileri, oyun fragmanları, karakter tasarımları ve Starlights Visuals stüdyo showreel'leri.",
+    "metaDescription": "Selected projects: animated series, cinematic trailers, character designs, and studio showcase reels by Starlights Visuals.",
     "label": "Seçilmiş işler",
     "title1": "PORT",
     "title2": "FOLYO",
     "subtitle": "Hayata geçirmemize yardımcı olduğumuz dünyalara, karakterlere ve hikâyelere bir bakış.",
     "projects": {
       "trailer": {
-        "tag": "Sinematik fragman",
+        "tag": "Cinematic Trailer",
         "title": "Iron Sentinel",
-        "desc": "AAA oyun lansman fragmanı."
+        "desc": "Cinematic brand launch trailer."
       },
       "character": {
-        "tag": "Karakter tasarımı",
+        "tag": "Character Design",
         "title": "Nova Vanguard",
-        "desc": "Kahraman protagonist sayfası."
-      },
-      "game": {
-        "tag": "Oyun sanatı",
-        "title": "Lumen Worlds",
-        "desc": "Açık dünya ortam sanatı."
+        "desc": "Hero protagonist sheet."
       },
       "2d": {
-        "tag": "2D animasyon",
+        "tag": "2D Animation",
         "title": "Neon Skyline",
-        "desc": "Anime esintili pilot bölüm."
+        "desc": "Anime inspired pilot episode."
       },
       "creature": {
-        "tag": "Yaratık tasarımı",
+        "tag": "Creature Design",
         "title": "Crystal Wyrm",
-        "desc": "Boss yaratık konsepti."
+        "desc": "Boss creature concept."
       },
       "motion": {
-        "tag": "Motion graphics",
+        "tag": "Motion Graphics",
         "title": "Pulse Identity",
-        "desc": "Marka motion sistemi."
+        "desc": "Brand motion system."
+      },
+      "motionEnv": {
+        "tag": "Motion Graphics",
+        "title": "Pulse Worlds",
+        "desc": "Immersive brand environment art."
       }
     }
   },
   "blogPage": {
     "metaTitle": "Blog | Starlights Visuals",
-    "metaDescription": "Starlights Visuals'tan animasyon, VFX, oyun sanatı, sinematik fragmanlar ve premium marka hikâye anlatımı üzerine içgörüler.",
+    "metaDescription": "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
     "label": "Stüdyo günlüğü",
     "title1": "BİZİM",
     "title2": "BLOG",
@@ -333,50 +328,50 @@
     "startProject": "Proje başlat",
     "moreFromJournal": "Günlükten daha fazlası",
     "postBody1": "Starlights Visuals'ta her kareyi yalnızca güzel bir görüntü değil, bir dönüşüm fırsatı olarak görüyoruz. Bu makale {{category}} çalışmamızın arkasındaki düşünceyi ve iyi kreatifi lansmana hazır kreatiften ayıran kararları genişletiyor.",
-    "postBody2": "İster bir fragman yayınlıyor, ister bir marka motion sistemini ölçeklendiriyor, ister canlı bir ürün için oyun sanatı inşa ediyor olun, aynı ilke geçerli: önce hikâye netliği, ikinci cilalama, son olarak acımasız kurgu. Bu disiplin ekiplerin «neredeyse hazır» hissini yaşamadan teslim tarihlerini tutmasını sağlar.",
+    "postBody2": "Whether you are shipping a trailer, scaling a brand motion system, or building campaign visuals for a live product, the same principle applies: clarity of story first, polish second, and ruthless editing last. That discipline is how teams hit deadlines without the almost there feeling.",
     "postBody3": "Bu düşünceyi bir sonraki projenize uygulamak ister misiniz? Ne inşa ettiğinizi duymak isteriz, bize bir brief gönderin, konseptten teslimata sinematik bir yol haritası çıkaralım.",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "Sinematik fragmanlar neden ürün demolarından daha iyi dönüştürür",
-        "excerpt": "Hikâye öncelikli lansman filmleri CTA'dan önce duygusal pay oluşturur. Maksimum tutma için hook, tempo ve grade'i nasıl yapılandırdığımız.",
-        "category": "Strateji",
-        "date": "12 Mayıs 2026",
-        "readTime": "6 dk okuma"
+        "title": "Why cinematic trailers convert better than product demos",
+        "excerpt": "Story first launch films build emotional stakes before the CTA. Here is how we structure hooks, pacing, and grade for maximum retention.",
+        "category": "Strategy",
+        "date": "May 12, 2026",
+        "readTime": "6 min read"
       },
       "character-design-for-ip": {
-        "title": "IP'nizi her kanalda güçlendiren karakter tasarımı",
-        "excerpt": "Silüet okunabilirliğinden merch'e hazır turnaround'lara, bir kahraman üretime girmeden önce kullandığımız kontrol listesi.",
-        "category": "Ustalık",
-        "date": "3 Mayıs 2026",
-        "readTime": "5 dk okuma"
-      },
-      "game-art-pipeline": {
-        "title": "Oyun sanatı pipeline'ımızın içinde: konseptten teslim asset'lere",
-        "excerpt": "Sanat yönü, teknik kısıtlar ve milestone incelemelerini nasıl hizalıyoruz ki ekipler cilayı feda etmeden zamanında teslim etsin.",
-        "category": "Prodüksiyon",
-        "date": "21 Nis 2026",
-        "readTime": "8 dk okuma"
+        "title": "Character design that anchors your IP across every channel",
+        "excerpt": "From silhouette readability to merch ready turnarounds, the checklist we use before a hero goes into production.",
+        "category": "Craft",
+        "date": "May 3, 2026",
+        "readTime": "5 min read"
       },
       "motion-systems-for-brands": {
-        "title": "Markaların gerçekten yeniden kullanabileceği motion sistemleri inşa etmek",
-        "excerpt": "Kampanyaları ölçekte tutarlı tutan modüler motion kütüphaneleri, logo sting'leri ve UI mikro etkileşimleri.",
+        "title": "Building motion systems brands can actually reuse",
+        "excerpt": "Modular motion libraries, logo stings, and UI micro interactions that keep campaigns consistent at scale.",
         "category": "Motion",
-        "date": "8 Nis 2026",
-        "readTime": "4 dk okuma"
+        "date": "Apr 8, 2026",
+        "readTime": "4 min read"
       },
       "2d-animation-in-2026": {
-        "title": "2026'da 2D animasyon: hâlâ el yapımı hissettiren hibrit pipeline'lar",
-        "excerpt": "Rig'li verimliliği kare kare vurgularla birleştirmek, premium sonuçlar için her tekniği ne zaman kullanmalı.",
-        "category": "Animasyon",
-        "date": "29 Mar 2026",
-        "readTime": "7 dk okuma"
+        "title": "2D animation in 2026: hybrid pipelines that still feel handmade",
+        "excerpt": "Combining rigged efficiency with frame by frame accents, when to push each technique for premium results.",
+        "category": "Animation",
+        "date": "Mar 29, 2026",
+        "readTime": "7 min read"
       },
       "creature-design-breakdown": {
-        "title": "Yaratık tasarımı: moodboard'dan final rig'e",
-        "excerpt": "Okunabilir silüetler, malzeme hikâyesi ve sinematik varlıkla boss yaratıkları nasıl geliştirdiğimize bir bakış.",
-        "category": "Ustalık",
-        "date": "14 Mar 2026",
-        "readTime": "6 dk okuma"
+        "title": "Creature design breakdown: from mood board to final rig",
+        "excerpt": "A look at how we develop boss creatures with readable silhouettes, material storytelling, and cinematic presence.",
+        "category": "Craft",
+        "date": "Mar 14, 2026",
+        "readTime": "6 min read"
+      },
+      "production-pipelines-that-ship": {
+        "title": "Production pipelines that ship: concept to final delivery",
+        "excerpt": "How we align art direction, technical constraints, and milestone reviews so teams ship on time without sacrificing polish.",
+        "category": "Production",
+        "date": "Apr 21, 2026",
+        "readTime": "8 min read"
       }
     }
   },
@@ -393,8 +388,8 @@
     "goHome": "Ana sayfaya git"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals | Oyun Geliştirme ve Animasyon Stüdyosu",
-    "rootDescription": "Starlights Visuals, oyun geliştirme, sinematik 2D animasyon ve yüksek kaliteli 3D animasyonda uzmanlaşmış yaratıcı bir stüdyodur.",
+    "rootTitle": "Starlights Visuals | Animation & VFX Studio",
+    "rootDescription": "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -439,8 +434,8 @@
         "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
       },
       "motion-graphics": {
-        "title": "Game Environment",
-        "tagline": "Immersive worlds and playable spaces in motion",
+        "title": "Motion Graphics",
+        "tagline": "Design led motion systems for launches and brand worlds",
         "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
       },
       "vfx": {
@@ -459,8 +454,8 @@
         "title": "3D animasyon"
       },
       "motion-graphics": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "vfx": {
         "tag": "Görsel efektler (VFX)",
@@ -1364,7 +1359,7 @@
         "items": {
           "01": {
             "question": "Hangi proje türleri üzerinde çalışıyorsunuz?",
-            "answer": "Oyunlar, filmler, diziler, reklamlar ve DTC markaları için animasyon, VFX, oyun sanatı, sinematikler, motion graphics ve marka filmleri üretiyoruz. Brief kapsamı tek bir hero asset'ten tam kampanya paketlerine kadar uzanır."
+            "answer": "We produce animation, VFX, cinematics, motion graphics, product films, and brand films for film, series, advertising, and DTC brands. Briefs range from single hero assets to full campaign packages."
           },
           "02": {
             "question": "Starlights Visuals nerede konumlanıyor?",
@@ -1381,15 +1376,15 @@
         "items": {
           "01": {
             "question": "Hangi hizmetleri sunuyorsunuz?",
-            "answer": "Temel hizmetlerimiz 2D ve 3D animasyon, VFX, karakter ve konsept sanat, oyun geliştirme desteği, motion graphics ve sinematik fragmanları kapsar. Tekil disiplinlerde ya da uçtan uca pipeline prodüksiyonunda çalışabiliriz."
+            "answer": "Our core services include 2D and 3D animation, VFX, character and concept art, motion graphics, product animation, and cinematic trailers. We can handle individual disciplines or full pipeline production."
           },
           "02": {
             "question": "Indie ekipler ve büyük stüdyolarla çalışıyor musunuz?",
-            "answer": "Evet. Indie üreticiler, orta ölçekli stüdyolar ve küresel markalarla partnerlik yapıyoruz. Kapsam ve ekip büyüklüğü, işçilik kalitesinden ödün vermeden bütçe ve takviminize göre esner."
+            "answer": "Yes. We partner with indie creators, mid size studios, and global brands. Scope and team size flex to match your budget and timeline without compromising craft."
           },
           "03": {
             "question": "Mevcut sanat stilimizi yakalayabilir misiniz?",
-            "answer": "Kesinlikle. Tam üretime geçmeden önce, marka kılavuzunuza veya oyun dünyanıza hizalı style frame'ler ve bir look-dev aşamasıyla başlıyoruz."
+            "answer": "Absolutely. We start with style frames and a look development pass aligned to your brand guidelines or visual world before committing to full production."
           }
         }
       },

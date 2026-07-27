@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import {
-  Gamepad2, Film, Box, Palette, Wand2, Sparkles, Clapperboard, ArrowRight,
+  Film, Box, Palette, Wand2, Sparkles, Clapperboard, ArrowRight,
 } from "lucide-react";
 
 export const Route = createFileRoute("/services")({
@@ -14,12 +14,12 @@ export const Route = createFileRoute("/services")({
       {
         name: "description",
         content:
-          "2D animation, 3D animation, game development, character design, motion graphics, VFX, and cinematic trailers.",
+          "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
       },
       { property: "og:title", content: "Services | Starlights Visuals" },
       {
         property: "og:description",
-        content: "Full-stack creative services for games, animation, and cinematic storytelling.",
+        content: "Full stack creative services for animation, VFX, and cinematic storytelling.",
       },
     ],
   }),
@@ -33,7 +33,6 @@ function ServicesPage() {
     () => [
       { icon: Film, title: t("servicesPage.items.2d.title"), desc: t("servicesPage.items.2d.desc") },
       { icon: Box, title: t("servicesPage.items.3d.title"), desc: t("servicesPage.items.3d.desc") },
-      { icon: Gamepad2, title: t("servicesPage.items.game.title"), desc: t("servicesPage.items.game.desc") },
       { icon: Palette, title: t("servicesPage.items.character.title"), desc: t("servicesPage.items.character.desc") },
       { icon: Wand2, title: t("servicesPage.items.motion.title"), desc: t("servicesPage.items.motion.desc") },
       { icon: Sparkles, title: t("servicesPage.items.vfx.title"), desc: t("servicesPage.items.vfx.desc") },

@@ -11,8 +11,8 @@
       "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
     },
     "motion-graphics": {
-      "title": "Game Environment",
-      "tagline": "Immersive worlds and playable spaces in motion",
+      "title": "Motion Graphics",
+      "tagline": "Design led motion systems for launches and brand worlds",
       "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
     },
     "vfx": {
@@ -31,8 +31,8 @@
       "title": "3D Animation"
     },
     "motion-graphics": {
-      "tag": "Game Environment",
-      "title": "Game Environment"
+      "tag": "Motion Graphics",
+      "title": "Motion Graphics"
     },
     "vfx": {
       "tag": "VFX",

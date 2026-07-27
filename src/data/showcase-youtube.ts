@@ -3,7 +3,7 @@ export const showcaseYoutubeIds = {
   trailer: "",
   character: "",
   creature: "",
-  game: "",
+  industrial: "",
   motion: "",
   twoD: "",
 } as const;

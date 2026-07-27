@@ -45,7 +45,7 @@
     "emailPlaceholder": "your@email.com",
     "join": "Подписаться",
     "subscribed": "✦ Вы с нами. Добро пожаловать в Starlights.",
-    "tagline": "Креативная студия, которая воплощает воображение в жизнь через immersive-разработку игр, кинематографичную 2D-анимацию и высококачественные 3D-опыты.",
+    "tagline": "A creative studio bringing imagination to life through cinematic 2D animation, high quality 3D experiences, and VFX.",
     "explore": "Исследовать",
     "follow": "Подписаться",
     "social": "Социальная сеть",
@@ -54,41 +54,42 @@
     "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
-    "metaTitle": "Starlights Visuals | студия анимации | VFX и game art",
-    "metaDescription": "Креативная студия 2D and 3D-анимации, VFX и game art. Мы оживляем фантастические миры, персонажей и кинематографичные сцены.",
-    "heroScript": "Истории в движении —",
-    "heroTitle1": "АНИМАЦИЯ",
-    "heroTitle2": "И VFX",
-    "heroBody": "Starlights Visuals оживляет истории с помощью анимации и визуальных эффектов, которые захватывают зрителей и поднимают каждый кадр. Мы анимируем фантастических существ, человеческих персонажей, транспорт, окружение, реквизит и hard-surface объекты — для кино, сериалов, рекламы и брендовых кампаний.",
-    "heroAlt": "Кинематографичный hero Starlights Visuals",
-    "seePortfolio": "Смотреть портфолио",
-    "startProject": "Начать проект",
-    "servicesLabel": "Чем мы занимаемся",
-    "servicesTitle": "УСЛУГИ",
-    "allServices": "Все услуги",
-    "showcaseLabel": "Недавние работы",
-    "showcaseTitle1": "ИЗБРАННЫЕ",
-    "showcaseTitle2": "РАБОТЫ",
-    "fullPortfolio": "Полное портфолио",
-    "ctaScript": "Давайте создадим что-то,",
-    "ctaTitle1": "ГОТОВЫ",
-    "ctaTitle2": "К СОТРУДНИЧЕСТВУ?",
+    "metaTitle": "Starlights Visuals | Animation & VFX Studio",
+    "metaDescription": "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
+    "heroScript": "Stories in motion,",
+    "heroTitle1": "ANIMATION",
+    "heroTitle2": "& VFX",
+    "heroBody": "Starlights Visuals brings stories to life with animation and visual effects that captivate audiences and elevate every frame. We animate fantasy creatures, human characters, vehicles, environments, props, and hard surface objects for film, series, advertising, and brand campaigns.",
+    "heroAlt": "Starlights Visuals cinematic hero",
+    "seePortfolio": "See Portfolio",
+    "startProject": "Start a Project",
+    "servicesLabel": "What we do",
+    "servicesTitle": "SERVICES",
+    "allServices": "All Services",
+    "showcaseLabel": "Recent work",
+    "showcaseTitle1": "SELECTED",
+    "showcaseTitle2": "WORK",
+    "fullPortfolio": "Full Portfolio",
+    "viewAllFaq": "View all FAQ",
+    "ctaScript": "Let's build something,",
+    "ctaTitle1": "READY TO",
+    "ctaTitle2": "COLLABORATE?",
     "services": {
       "01": {
-        "title": "Анимация и VFX",
-        "desc": "Кинематографичная 2D и 3D-анимация, риги персонажей и визуальные эффекты для игр и фильмов."
+        "title": "Animation & VFX",
+        "desc": "Cinematic 2D & 3D animation, character rigs, and visual effects for film, series, and brands."
       },
       "02": {
-        "title": "Разработка игр",
-        "desc": "Полный цикл производства, концепт, арт, код, аудио, релиз."
+        "title": "Product Animation",
+        "desc": "Photoreal product films, packshots, and CGI that make every detail sell."
       },
       "03": {
-        "title": "Concept и character art",
-        "desc": "Оригинальные персонажи, существа, окружения и реквизит, которые закрепляют ваш IP."
+        "title": "Concept & Character Art",
+        "desc": "Original characters, creatures, environments, and props that anchor your IP."
       },
       "04": {
-        "title": "Кинематографичные трейлеры",
-        "desc": "Сюжетные трейлеры для запуска игр и франшиз."
+        "title": "Cinematic Trailers",
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns."
       }
     },
     "showcase": {
@@ -97,12 +98,12 @@
         "title": "3D Animation"
       },
       "gameArt": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "animation2d": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "2D Animation",
+        "title": "2D Animation"
       },
       "cinematic": {
         "tag": "VFX",
@@ -116,8 +117,7 @@
         "tag": "3D",
         "title": "Product Animation"
       }
-    },
-    "viewAllFaq": "View all FAQ"
+    }
   },
   "trustedBy": {
     "badge": "200+ COMPANY",
@@ -172,86 +172,82 @@
     "writeYours": "Write yours"
   },
   "servicesPage": {
-    "metaTitle": "Услуги | Starlights Visuals",
-    "metaDescription": "2D-анимация, 3D-анимация, разработка игр, character design, motion graphics, VFX и кинематографичные трейлеры.",
-    "label": "Что мы создаём",
-    "title": "УСЛУГИ",
-    "subtitle": "Одна студия, каждый этап производства, от первого эскиза до финального пикселя.",
-    "ctaTitle1": "ЕСТЬ",
-    "ctaTitle2": "ПРОЕКТ",
-    "ctaTitle3": "В ГОЛОВЕ?",
-    "ctaDesc": "Расскажите о своём видении, мы обеспечим огневую мощь.",
-    "ctaButton": "Связаться",
+    "metaTitle": "Services | Starlights Visuals",
+    "metaDescription": "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
+    "label": "What We Build",
+    "title": "SERVICES",
+    "subtitle": "One studio, every stage of production, from first sketch to final pixel.",
+    "ctaTitle1": "HAVE A",
+    "ctaTitle2": "PROJECT",
+    "ctaTitle3": "IN MIND?",
+    "ctaDesc": "Tell us your vision, we'll bring the firepower.",
+    "ctaButton": "Get In Touch",
     "items": {
       "2d": {
-        "title": "2D-анимация",
-        "desc": "Frame by frame и rigged 2D для сериалов, шортов, explainer и игр. Сочетаем классический craft с цифровыми pipeline."
+        "title": "2D Animation",
+        "desc": "Frame by frame & rigged 2D for series, shorts, explainers, and brand films. We blend classic craft with digital pipelines."
       },
       "3d": {
-        "title": "3D-анимация",
-        "desc": "Stylized и photoreal 3D, персонажи, окружения и полные кинематографичные последовательности с feature-качеством."
-      },
-      "game": {
-        "title": "Разработка игр",
-        "desc": "End to end производство игр: концепт, арт, код, аудио и запуск. Unreal, Unity и custom pipeline."
+        "title": "3D Animation",
+        "desc": "Stylized and photoreal 3D, characters, environments, and full cinematic sequences with feature quality polish."
       },
       "character": {
-        "title": "Character design",
-        "desc": "Оригинальные персонажи, существа и concept art, которые закрепляют IP и merch-потенциал."
+        "title": "Character Design",
+        "desc": "Original characters, creatures, and concept art that anchor your IP and merch potential."
       },
       "motion": {
-        "title": "Motion graphics",
-        "desc": "Брендовый motion, UI-анимация, broadcast-пакеты и explainer-видео с кинематографичной отделкой."
+        "title": "Motion Graphics",
+        "desc": "Branded motion, UI animation, broadcast packages, and explainer videos with cinematic polish."
       },
       "vfx": {
-        "title": "Визуальные эффекты (VFX)",
-        "desc": "Compositing, particle FX и CG-интеграция для игр, фильмов и digital-кампаний."
+        "title": "Visual Effects (VFX)",
+        "desc": "Compositing, particle FX, and CG integration for film, advertising, and digital campaigns."
       },
       "trailer": {
-        "title": "Кинематографичные трейлеры",
-        "desc": "Сюжетные трейлеры для запуска игр, IP и брендов с максимальным impact."
+        "title": "Cinematic Trailers",
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns with maximum impact."
       }
     }
   },
   "aboutPage": {
-    "metaTitle": "О нас | Starlights Visuals",
-    "metaDescription": "Starlights Visuals, страстная креативная студия, специализирующаяся на immersive-разработке игр, кинематографичной 2D-анимации и высококачественных 3D-опытах.",
-    "label": "Кто мы",
-    "title1": "СТУДИЯ, ПОСТРОЕННАЯ НА",
-    "title2": "СВЕТЕ, КОДЕ И ИСТОРИИ",
-    "p1": "Starlights Visuals, страстная креативная студия на стыке игр, анимации и кинематографичного storytelling. Мы существуем, чтобы воплощать воображение в жизнь, будь то масштабная open world игра, hand crafted 2D-сериал или photoreal 3D-трейлер.",
-    "p2": "От concept artists и 3D-скульпторов до gameplay engineers и motion designers, каждый член команды одержим одним: заставить аудиторию что-то почувствовать. Мы не просто создаём красивые пиксели, мы строим миры, в которых люди хотят жить.",
-    "p3": "Мы работаем с indie-создателями, AAA-студиями и global-брендами, чтобы доставлять работу, которая бьёт выше веса, укладывается в сроки без компромиссов и выглядит так, будто стоила вдвое больше.",
-    "valuesLabel": "Ключевые ценности",
-    "valuesTitle": "ЧТО НАС ДВИЖЕТ",
+    "metaTitle": "About | Starlights Visuals",
+    "metaDescription": "Starlights Visuals is a passionate creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
+    "label": "Who We Are",
+    "title1": "A STUDIO BUILT ON",
+    "title2": "LIGHT, CODE & STORY",
+    "p1": "Starlights Visuals is a passionate creative studio at the intersection of animation, VFX, and cinematic storytelling. We exist to bring imagination to life, whether that is a hand crafted 2D series, a photoreal 3D trailer, or a brand campaign that needs to feel premium.",
+    "p2": "From our concept artists and 3D sculptors to our motion designers and compositors, every member of our team is obsessed with one thing: making audiences feel something. We do not just build pretty pixels, we build worlds people want to live in.",
+    "p3": "We partner with indie creators, AAA studios, and global brands to deliver work that punches above its weight, hits deadlines without compromise, and looks like it cost twice the budget.",
+    "valuesLabel": "Core Values",
+    "valuesTitle": "WHAT DRIVES US",
     "values": {
       "imagination": {
-        "title": "Воображение прежде всего",
-        "desc": "Каждый проект начинается с смелой идеи и чистого холста."
+        "title": "Imagination First",
+        "desc": "Every project starts with a bold idea and a blank canvas."
       },
       "craft": {
-        "title": "Одержимость craft",
-        "desc": "Кадр за кадром, пиксель за пикселем, качество не обсуждается."
+        "title": "Craft Obsessed",
+        "desc": "Frame by frame, pixel by pixel, quality is non negotiable."
       },
       "energy": {
-        "title": "Кинематографичная энергия",
-        "desc": "Мы гонимся за мурашками. Если не трогает нас, дорабатываем."
+        "title": "Cinematic Energy",
+        "desc": "We chase the goosebumps. If it doesn't move us, we refine."
       },
       "story": {
-        "title": "Story driven",
-        "desc": "Технологии служат истории. Всегда."
+        "title": "Story Driven",
+        "desc": "Tech serves story. Always."
       }
     },
     "stats": {
-      "projects": "Завершённых проектов",
-      "clients": "Клиентов по миру",
-      "awards": "Наград",
-      "years": "Лет craft"
+      "projects": "Projects Shipped",
+      "clients": "Global Clients",
+      "awards": "Awards Won",
+      "years": "Years Crafting"
     }
   },
   "contactPage": {
     "metaTitle": "Контакты | Starlights Visuals",
-    "metaDescription": "Свяжитесь с Starlights Visuals по вопросам разработки игр, 2D и 3D-анимации, motion graphics, VFX и кинематографичных трейлеров.",
+    "metaDescription": "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
     "label": "Давайте поговорим",
     "title": "КОНТАКТЫ",
     "subtitle": "Запросы на производство, коллаборации или просто поздороваться, отправьте нам сигнал.",
@@ -270,60 +266,59 @@
     "responseTime": "ВРЕМЯ ОТВЕТА",
     "responseDesc": "В течение 24 часов, пн, пт.",
     "projectTypes": {
-      "game": "Разработка игр",
-      "2d": "2D-анимация",
-      "3d": "3D-анимация",
-      "trailer": "Кинематографичный трейлер",
-      "character": "Character design",
-      "motion": "Motion graphics and VFX",
-      "other": "Другое"
+      "2d": "2D Animation",
+      "3d": "3D Animation",
+      "trailer": "Cinematic Trailer",
+      "character": "Character Design",
+      "motion": "Motion Graphics and VFX",
+      "other": "Other"
     },
     "sending": "Sending…",
     "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "Портфолио | Starlights Visuals",
-    "metaDescription": "Избранные проекты: анимационные сериалы, игровые трейлеры, character design и showcase-рилы Starlights Visuals.",
+    "metaDescription": "Selected projects: animated series, cinematic trailers, character designs, and studio showcase reels by Starlights Visuals.",
     "label": "Избранные работы",
     "title1": "ПОРТ",
     "title2": "ФОЛИО",
     "subtitle": "Взгляд на миры, персонажей и истории, которые мы помогли оживить.",
     "projects": {
       "trailer": {
-        "tag": "Кинематографичный трейлер",
+        "tag": "Cinematic Trailer",
         "title": "Iron Sentinel",
-        "desc": "Launch-трейлер AAA-игры."
+        "desc": "Cinematic brand launch trailer."
       },
       "character": {
-        "tag": "Character design",
+        "tag": "Character Design",
         "title": "Nova Vanguard",
-        "desc": "Character sheet героя."
-      },
-      "game": {
-        "tag": "Game art",
-        "title": "Lumen Worlds",
-        "desc": "Environment art open world."
+        "desc": "Hero protagonist sheet."
       },
       "2d": {
-        "tag": "2D-анимация",
+        "tag": "2D Animation",
         "title": "Neon Skyline",
-        "desc": "Пилотный эпизод в anime-стиле."
+        "desc": "Anime inspired pilot episode."
       },
       "creature": {
-        "tag": "Creature design",
+        "tag": "Creature Design",
         "title": "Crystal Wyrm",
-        "desc": "Concept boss-существа."
+        "desc": "Boss creature concept."
       },
       "motion": {
-        "tag": "Motion graphics",
+        "tag": "Motion Graphics",
         "title": "Pulse Identity",
-        "desc": "Motion-система бренда."
+        "desc": "Brand motion system."
+      },
+      "motionEnv": {
+        "tag": "Motion Graphics",
+        "title": "Pulse Worlds",
+        "desc": "Immersive brand environment art."
       }
     }
   },
   "blogPage": {
     "metaTitle": "Блог | Starlights Visuals",
-    "metaDescription": "Инсайты об анимации, VFX, game art, кинематографичных трейлерах и premium brand storytelling от Starlights Visuals.",
+    "metaDescription": "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
     "label": "Журнал студии",
     "title1": "Б",
     "title2": "ЛОГ",
@@ -333,50 +328,50 @@
     "startProject": "Начать проект",
     "moreFromJournal": "Ещё из журнала",
     "postBody1": "В Starlights Visuals мы рассматриваем каждый кадр как возможность конверсии, а не просто красивое изображение. Эта статья раскрывает мышление за нашей работой {{category}} и решения, которые отделяют хороший креатив от готового к launch.",
-    "postBody2": "Будь то трейлер, масштабирование brand motion system или game art для live-продукта, действует тот же принцип: ясность истории первая, polish вторая, безжалостный монтаж последний. Именно эта дисциплина помогает командам укладываться в сроки без ощущения «почти готово».",
+    "postBody2": "Whether you are shipping a trailer, scaling a brand motion system, or building campaign visuals for a live product, the same principle applies: clarity of story first, polish second, and ruthless editing last. That discipline is how teams hit deadlines without the almost there feeling.",
     "postBody3": "Хотите применить этот подход к следующему проекту? Мы будем рады узнать, что вы создаёте, отправьте brief, и мы проложим кинематографичный путь от концепта до delivery.",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "Почему кинематографичные трейлеры конвертируют лучше product demo",
-        "excerpt": "Story first launch-фильмы создают эмоциональные stakes до CTA. Как мы структурируем hooks, pacing и grade для максимального retention.",
-        "category": "Стратегия",
-        "date": "12 мая 2026 г.",
-        "readTime": "6 мин чтения"
+        "title": "Why cinematic trailers convert better than product demos",
+        "excerpt": "Story first launch films build emotional stakes before the CTA. Here is how we structure hooks, pacing, and grade for maximum retention.",
+        "category": "Strategy",
+        "date": "May 12, 2026",
+        "readTime": "6 min read"
       },
       "character-design-for-ip": {
-        "title": "Character design, который закрепляет IP на каждом канале",
-        "excerpt": "От читаемости silhouette до merch ready turnaround, чеклист, который мы используем до того, как hero идёт в production.",
+        "title": "Character design that anchors your IP across every channel",
+        "excerpt": "From silhouette readability to merch ready turnarounds, the checklist we use before a hero goes into production.",
         "category": "Craft",
-        "date": "3 мая 2026 г.",
-        "readTime": "5 мин чтения"
-      },
-      "game-art-pipeline": {
-        "title": "Внутри нашего game art pipeline: от концепта до shipped assets",
-        "excerpt": "Как мы выравниваем art direction, tech constraints и milestone reviews, чтобы команды укладывались в сроки без потери polish.",
-        "category": "Production",
-        "date": "21 апреля 2026 г.",
-        "readTime": "8 мин чтения"
+        "date": "May 3, 2026",
+        "readTime": "5 min read"
       },
       "motion-systems-for-brands": {
-        "title": "Motion systems, которые бренды действительно могут переиспользовать",
-        "excerpt": "Модульные motion-библиотеки, logo stings и UI micro interactions для согласованности кампаний в масштабе.",
+        "title": "Building motion systems brands can actually reuse",
+        "excerpt": "Modular motion libraries, logo stings, and UI micro interactions that keep campaigns consistent at scale.",
         "category": "Motion",
-        "date": "8 апреля 2026 г.",
-        "readTime": "4 мин чтения"
+        "date": "Apr 8, 2026",
+        "readTime": "4 min read"
       },
       "2d-animation-in-2026": {
-        "title": "2D-анимация в 2026: гибридные pipeline, которые остаются handmade",
-        "excerpt": "Сочетание rigged efficiency с frame by frame акцентами, когда усиливать каждую технику для premium-результатов.",
-        "category": "Анимация",
-        "date": "29 марта 2026 г.",
-        "readTime": "7 мин чтения"
+        "title": "2D animation in 2026: hybrid pipelines that still feel handmade",
+        "excerpt": "Combining rigged efficiency with frame by frame accents, when to push each technique for premium results.",
+        "category": "Animation",
+        "date": "Mar 29, 2026",
+        "readTime": "7 min read"
       },
       "creature-design-breakdown": {
-        "title": "Creature design breakdown: от mood board до финального rig",
-        "excerpt": "Как мы разрабатываем boss-существ с читаемыми silhouettes, material storytelling и кинематографичным presence.",
+        "title": "Creature design breakdown: from mood board to final rig",
+        "excerpt": "A look at how we develop boss creatures with readable silhouettes, material storytelling, and cinematic presence.",
         "category": "Craft",
-        "date": "14 марта 2026 г.",
-        "readTime": "6 мин чтения"
+        "date": "Mar 14, 2026",
+        "readTime": "6 min read"
+      },
+      "production-pipelines-that-ship": {
+        "title": "Production pipelines that ship: concept to final delivery",
+        "excerpt": "How we align art direction, technical constraints, and milestone reviews so teams ship on time without sacrificing polish.",
+        "category": "Production",
+        "date": "Apr 21, 2026",
+        "readTime": "8 min read"
       }
     }
   },
@@ -393,8 +388,8 @@
     "goHome": "На главную"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals | студия разработки игр и анимации",
-    "rootDescription": "Starlights Visuals, креативная студия, специализирующаяся на разработке игр, кинематографичной 2D-анимации и высококачественной 3D-анимации.",
+    "rootTitle": "Starlights Visuals | Animation & VFX Studio",
+    "rootDescription": "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -439,8 +434,8 @@
         "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
       },
       "motion-graphics": {
-        "title": "Game Environment",
-        "tagline": "Immersive worlds and playable spaces in motion",
+        "title": "Motion Graphics",
+        "tagline": "Design led motion systems for launches and brand worlds",
         "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
       },
       "vfx": {
@@ -459,8 +454,8 @@
         "title": "3D-анимация"
       },
       "motion-graphics": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "vfx": {
         "tag": "Визуальные эффекты (VFX)",
@@ -1364,7 +1359,7 @@
         "items": {
           "01": {
             "question": "С какими типами проектов вы работаете?",
-            "answer": "Мы создаем анимацию, VFX, game art, синематики, motion graphics и брендовые ролики для игр, фильмов, сериалов, рекламы и DTC-брендов. Брифы варьируются от одного hero-ассета до полного пакета кампании."
+            "answer": "We produce animation, VFX, cinematics, motion graphics, product films, and brand films for film, series, advertising, and DTC brands. Briefs range from single hero assets to full campaign packages."
           },
           "02": {
             "question": "Где находится Starlights Visuals?",
@@ -1381,15 +1376,15 @@
         "items": {
           "01": {
             "question": "Какие услуги вы предоставляете?",
-            "answer": "Наши ключевые услуги включают 2D/3D-анимацию, VFX, character и concept art, поддержку разработки игр, motion graphics и синематик-трейлеры. Мы берем как отдельные дисциплины, так и полный pipeline продакшена."
+            "answer": "Our core services include 2D and 3D animation, VFX, character and concept art, motion graphics, product animation, and cinematic trailers. We can handle individual disciplines or full pipeline production."
           },
           "02": {
             "question": "Вы работаете с инди-командами и крупными студиями?",
-            "answer": "Да. Мы сотрудничаем с инди-креаторами, студиями среднего размера и глобальными брендами. Объем и размер команды гибко подстраиваются под бюджет и сроки без компромиссов по качеству."
+            "answer": "Yes. We partner with indie creators, mid size studios, and global brands. Scope and team size flex to match your budget and timeline without compromising craft."
           },
           "03": {
             "question": "Можете ли вы попасть в наш текущий художественный стиль?",
-            "answer": "Конечно. Мы начинаем со style frames и этапа look-dev, выверенного под ваш брендбук или мир игры, и только после этого переходим к полному продакшену."
+            "answer": "Absolutely. We start with style frames and a look development pass aligned to your brand guidelines or visual world before committing to full production."
           }
         }
       },

@@ -86,11 +86,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Starlights Visuals | Game Development & Animation Studio" },
+      { title: "Starlights Visuals | Animation & VFX Studio" },
       {
         name: "description",
         content:
-          "Starlights Visuals is a creative studio specializing in game development, cinematic 2D animation, and high-quality 3D animation.",
+          "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high-quality 3D animation, and VFX.",
       },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Starlights Visuals" },

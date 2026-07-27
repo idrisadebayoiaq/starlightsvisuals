@@ -45,7 +45,7 @@
     "emailPlaceholder": "sähköposti@esimerkki.fi",
     "join": "Liity",
     "subscribed": "✦ Olet mukana. Tervetuloa Starlightsiin.",
-    "tagline": "Luova studio, joka herättää mielikuvituksen henkiin immersiivisen pelikehityksen, elokuvamaisen 2D animaation ja korkealaatuisten 3D kokemusten kautta.",
+    "tagline": "A creative studio bringing imagination to life through cinematic 2D animation, high quality 3D experiences, and VFX.",
     "explore": "Tutustu",
     "follow": "Seuraa",
     "social": "Linkki sosiaaliseen mediaan",
@@ -54,41 +54,42 @@
     "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
-    "metaTitle": "Starlights Visuals | Animaatio | VFX & Game Art -studio",
-    "metaDescription": "Luova studio 2D-/3D animaatioon, VFX:ään ja game artiin. Herätämme fantasimaailmat, hahmot ja cinematicsit henkiin.",
-    "heroScript": "Tarinoita liikkeessä —",
-    "heroTitle1": "ANIMAATIO",
+    "metaTitle": "Starlights Visuals | Animation & VFX Studio",
+    "metaDescription": "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
+    "heroScript": "Stories in motion,",
+    "heroTitle1": "ANIMATION",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals herättää tarinat eloon animaatiolla ja visuaalisilla efeteillä, jotka vangitsevat yleisön ja nostavat jokaisen ruudun tasoa. Animoimme fantasiaolentoja, ihmishahmoja, ajoneuvoja, ympäristöjä, rekvisiittaa ja hard-surface-objekteja — elokuviin, sarjoihin, mainontaan ja brändikampanjoihin.",
-    "heroAlt": "Starlights Visuals elokuvamainen hero",
-    "seePortfolio": "Katso portfolio",
-    "startProject": "Aloita projekti",
-    "servicesLabel": "Mitä teemme",
-    "servicesTitle": "PALVELUT",
-    "allServices": "Kaikki palvelut",
-    "showcaseLabel": "Viimeaikaiset työt",
-    "showcaseTitle1": "VALIKOIDUT",
-    "showcaseTitle2": "TYÖT",
-    "fullPortfolio": "Koko portfolio",
-    "ctaScript": "Rakennetaan jotain,",
-    "ctaTitle1": "VALMIS",
-    "ctaTitle2": "YHTEISTYÖHÖN?",
+    "heroBody": "Starlights Visuals brings stories to life with animation and visual effects that captivate audiences and elevate every frame. We animate fantasy creatures, human characters, vehicles, environments, props, and hard surface objects for film, series, advertising, and brand campaigns.",
+    "heroAlt": "Starlights Visuals cinematic hero",
+    "seePortfolio": "See Portfolio",
+    "startProject": "Start a Project",
+    "servicesLabel": "What we do",
+    "servicesTitle": "SERVICES",
+    "allServices": "All Services",
+    "showcaseLabel": "Recent work",
+    "showcaseTitle1": "SELECTED",
+    "showcaseTitle2": "WORK",
+    "fullPortfolio": "Full Portfolio",
+    "viewAllFaq": "View all FAQ",
+    "ctaScript": "Let's build something,",
+    "ctaTitle1": "READY TO",
+    "ctaTitle2": "COLLABORATE?",
     "services": {
       "01": {
-        "title": "Animaatio & VFX",
-        "desc": "Elokuvamainen 2D- ja 3D animaatio, hahmorigit ja visuaaliset efektit peleihin ja elokuviin."
+        "title": "Animation & VFX",
+        "desc": "Cinematic 2D & 3D animation, character rigs, and visual effects for film, series, and brands."
       },
       "02": {
-        "title": "Pelikehitys",
-        "desc": "Kokonaistuotanto, konsepti, art, koodi, ääni, julkaisu."
+        "title": "Product Animation",
+        "desc": "Photoreal product films, packshots, and CGI that make every detail sell."
       },
       "03": {
         "title": "Concept & Character Art",
-        "desc": "Alkuperäiset hahmot, hirviöt, ympäristöt ja rekvisiitta, jotka ankkuroivat IP:si."
+        "desc": "Original characters, creatures, environments, and props that anchor your IP."
       },
       "04": {
         "title": "Cinematic Trailers",
-        "desc": "Tarinaan perustuvat trailerit, jotka lanseeraavat pelit ja franchiset."
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns."
       }
     },
     "showcase": {
@@ -97,12 +98,12 @@
         "title": "3D Animation"
       },
       "gameArt": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "animation2d": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "2D Animation",
+        "title": "2D Animation"
       },
       "cinematic": {
         "tag": "VFX",
@@ -116,8 +117,7 @@
         "tag": "3D",
         "title": "Product Animation"
       }
-    },
-    "viewAllFaq": "View all FAQ"
+    }
   },
   "trustedBy": {
     "badge": "200+ COMPANY",
@@ -172,86 +172,82 @@
     "writeYours": "Write yours"
   },
   "servicesPage": {
-    "metaTitle": "Palvelut | Starlights Visuals",
-    "metaDescription": "2D animaatio, 3D animaatio, pelikehitys, hahmosuunnittelu, motion graphics, VFX ja elokuvamaiset trailerit.",
-    "label": "Mitä rakennamme",
-    "title": "PALVELUT",
-    "subtitle": "Yksi studio, jokainen tuotannon vaihe, ensimmäisestä luonnoksesta viimeiseen pikseliin.",
-    "ctaTitle1": "ONKO SINULLA",
-    "ctaTitle2": "PROJEKTI",
-    "ctaTitle3": "MIELESSÄ?",
-    "ctaDesc": "Kerro visiosi, tuomme tulivoiman.",
-    "ctaButton": "Ota yhteyttä",
+    "metaTitle": "Services | Starlights Visuals",
+    "metaDescription": "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
+    "label": "What We Build",
+    "title": "SERVICES",
+    "subtitle": "One studio, every stage of production, from first sketch to final pixel.",
+    "ctaTitle1": "HAVE A",
+    "ctaTitle2": "PROJECT",
+    "ctaTitle3": "IN MIND?",
+    "ctaDesc": "Tell us your vision, we'll bring the firepower.",
+    "ctaButton": "Get In Touch",
     "items": {
       "2d": {
-        "title": "2D animaatio",
-        "desc": "Frame by frame ja rigattu 2D sarjoihin, lyhytelokuviin, explainereihin ja peleihin. Yhdistämme klassisen käsityön digitaalisiin pipelineihin."
+        "title": "2D Animation",
+        "desc": "Frame by frame & rigged 2D for series, shorts, explainers, and brand films. We blend classic craft with digital pipelines."
       },
       "3d": {
-        "title": "3D animaatio",
-        "desc": "Stylisoitu ja fotorealistinen 3D, hahmot, ympäristöt ja täydet elokuvasekvenssit feature tason viimeistelyllä."
-      },
-      "game": {
-        "title": "Pelikehitys",
-        "desc": "Pelin tuotanto alusta loppuun: konsepti, art, koodi, ääni ja julkaisu. Unreal, Unity ja omat pipelinet."
+        "title": "3D Animation",
+        "desc": "Stylized and photoreal 3D, characters, environments, and full cinematic sequences with feature quality polish."
       },
       "character": {
-        "title": "Hahmosuunnittelu",
-        "desc": "Alkuperäiset hahmot, hirviöt ja concept art, jotka ankkuroivat IP:si ja merch potentiaalin."
+        "title": "Character Design",
+        "desc": "Original characters, creatures, and concept art that anchor your IP and merch potential."
       },
       "motion": {
         "title": "Motion Graphics",
-        "desc": "Brändimotion, UI animaatio, broadcast paketit ja explainer videot elokuvamaisella viimeistelyllä."
+        "desc": "Branded motion, UI animation, broadcast packages, and explainer videos with cinematic polish."
       },
       "vfx": {
-        "title": "Visuaaliset efektit (VFX)",
-        "desc": "Compositing, partikkeliefektit ja CG integraatio peleihin, elokuviin ja digitaalisiin kampanjoihin."
+        "title": "Visual Effects (VFX)",
+        "desc": "Compositing, particle FX, and CG integration for film, advertising, and digital campaigns."
       },
       "trailer": {
         "title": "Cinematic Trailers",
-        "desc": "Tarinaan perustuvat trailerit, jotka lanseeraavat pelit, IP:t ja brändit maksimaalisella vaikutuksella."
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns with maximum impact."
       }
     }
   },
   "aboutPage": {
-    "metaTitle": "Meistä | Starlights Visuals",
-    "metaDescription": "Starlights Visuals on intohimoinen luova studio, joka erikoistuu immersiiviseen pelikehitykseen, elokuvamaiseen 2D animaatioon ja korkealaatuisiin 3D kokemuksiin.",
-    "label": "Keitä olemme",
-    "title1": "STUDIO, JOKA ON RAKENNETTU",
-    "title2": "VALOON, KOODIIN & TARINAAN",
-    "p1": "Starlights Visuals on intohimoinen luova studio pelien, animaation ja elokuvamaisen tarinankerronnan risteyskohdassa. Olemme olemassa herättääksemme mielikuvituksen henkiin, olipa kyseessä laaja open world -peli, käsityönä tehty 2D sarja tai fotorealistinen 3D trailer.",
-    "p2": "Concept artisteista ja 3D sculptoreista gameplay engineerseihin ja motion designereihin, jokainen tiimin jäsen on pakkomielteinen yhdestä asiasta: saada yleisö tuntemaan jotain. Emme rakenna vain kauniita pikseleitä, rakennamme maailmoja, joissa ihmiset haluavat elää.",
-    "p3": "Teemme yhteistyötä indie luojien, AAA studioiden ja globaalien brändien kanssa toimittaaksemme työtä, joka lyö painoluokkaansa yläpuolelle, pitää deadlineit ilman kompromisseja ja näyttää maksaneen kaksinkertaisen budjetin.",
-    "valuesLabel": "Ydinarvot",
-    "valuesTitle": "MIKÄ MEITÄ AJAA",
+    "metaTitle": "About | Starlights Visuals",
+    "metaDescription": "Starlights Visuals is a passionate creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
+    "label": "Who We Are",
+    "title1": "A STUDIO BUILT ON",
+    "title2": "LIGHT, CODE & STORY",
+    "p1": "Starlights Visuals is a passionate creative studio at the intersection of animation, VFX, and cinematic storytelling. We exist to bring imagination to life, whether that is a hand crafted 2D series, a photoreal 3D trailer, or a brand campaign that needs to feel premium.",
+    "p2": "From our concept artists and 3D sculptors to our motion designers and compositors, every member of our team is obsessed with one thing: making audiences feel something. We do not just build pretty pixels, we build worlds people want to live in.",
+    "p3": "We partner with indie creators, AAA studios, and global brands to deliver work that punches above its weight, hits deadlines without compromise, and looks like it cost twice the budget.",
+    "valuesLabel": "Core Values",
+    "valuesTitle": "WHAT DRIVES US",
     "values": {
       "imagination": {
-        "title": "Mielikuvitus ensin",
-        "desc": "Jokainen projekti alkaa rohkeasta ideasta ja tyhjästä kankaasta."
+        "title": "Imagination First",
+        "desc": "Every project starts with a bold idea and a blank canvas."
       },
       "craft": {
-        "title": "Käsityöpakkomielteiset",
-        "desc": "Frame frameilta, pikseli pikseliltä, laatu ei ole neuvoteltavissa."
+        "title": "Craft Obsessed",
+        "desc": "Frame by frame, pixel by pixel, quality is non negotiable."
       },
       "energy": {
-        "title": "Elokuvamainen energia",
-        "desc": "Jaamme kananlihan. Jos se ei liikuta meitä, hiomme."
+        "title": "Cinematic Energy",
+        "desc": "We chase the goosebumps. If it doesn't move us, we refine."
       },
       "story": {
-        "title": "Tarina edellä",
-        "desc": "Tekniikka palvelee tarinaa. Aina."
+        "title": "Story Driven",
+        "desc": "Tech serves story. Always."
       }
     },
     "stats": {
-      "projects": "Toimitetut projektit",
-      "clients": "Globaalit asiakkaat",
-      "awards": "Voitetut palkinnot",
-      "years": "Vuotta käsityötä"
+      "projects": "Projects Shipped",
+      "clients": "Global Clients",
+      "awards": "Awards Won",
+      "years": "Years Crafting"
     }
   },
   "contactPage": {
     "metaTitle": "Yhteys | Starlights Visuals",
-    "metaDescription": "Ota yhteyttä Starlights Visualsiin pelikehityksestä, 2D- ja 3D animaatiosta, motion graphicsista, VFX:stä ja elokuvamaisista traileriprojekteista.",
+    "metaDescription": "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
     "label": "Puhutaan",
     "title": "YHTEYS",
     "subtitle": "Tuotantokyselyt, yhteistyöt tai pelkkä hei, lähetä signaali.",
@@ -270,20 +266,19 @@
     "responseTime": "VASTAUSAIKA",
     "responseDesc": "24 tunnissa, ma, pe.",
     "projectTypes": {
-      "game": "Pelikehitys",
-      "2d": "2D animaatio",
-      "3d": "3D animaatio",
+      "2d": "2D Animation",
+      "3d": "3D Animation",
       "trailer": "Cinematic Trailer",
-      "character": "Hahmosuunnittelu",
+      "character": "Character Design",
       "motion": "Motion Graphics and VFX",
-      "other": "Muu"
+      "other": "Other"
     },
     "sending": "Sending…",
     "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "Portfolio | Starlights Visuals",
-    "metaDescription": "Valikoituja projekteja: animoituja sarjoja, pelitrailereita, hahmosuunnittelua ja studio showreelejä Starlights Visualsilta.",
+    "metaDescription": "Selected projects: animated series, cinematic trailers, character designs, and studio showcase reels by Starlights Visuals.",
     "label": "Valikoitua työtä",
     "title1": "PORT",
     "title2": "FOLIO",
@@ -292,38 +287,38 @@
       "trailer": {
         "tag": "Cinematic Trailer",
         "title": "Iron Sentinel",
-        "desc": "AAA pelin lanseeraustrailer."
+        "desc": "Cinematic brand launch trailer."
       },
       "character": {
-        "tag": "Hahmosuunnittelu",
+        "tag": "Character Design",
         "title": "Nova Vanguard",
-        "desc": "Päähahmon character sheet."
-      },
-      "game": {
-        "tag": "Game Art",
-        "title": "Lumen Worlds",
-        "desc": "Open world -ympäristötaide."
+        "desc": "Hero protagonist sheet."
       },
       "2d": {
-        "tag": "2D animaatio",
+        "tag": "2D Animation",
         "title": "Neon Skyline",
-        "desc": "Anime inspiroitu pilottijakso."
+        "desc": "Anime inspired pilot episode."
       },
       "creature": {
-        "tag": "Hirviösuunnittelu",
+        "tag": "Creature Design",
         "title": "Crystal Wyrm",
-        "desc": "Boss hirviön konsepti."
+        "desc": "Boss creature concept."
       },
       "motion": {
         "tag": "Motion Graphics",
         "title": "Pulse Identity",
-        "desc": "Brändin motion system."
+        "desc": "Brand motion system."
+      },
+      "motionEnv": {
+        "tag": "Motion Graphics",
+        "title": "Pulse Worlds",
+        "desc": "Immersive brand environment art."
       }
     }
   },
   "blogPage": {
     "metaTitle": "Blogi | Starlights Visuals",
-    "metaDescription": "Näkemyksiä animaatiosta, VFX:stä, game artista, elokuvamaisista trailereista ja premium tarinankerronnasta Starlights Visualsilta.",
+    "metaDescription": "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
     "label": "Studiojournal",
     "title1": "STUDIO",
     "title2": "BLOGI",
@@ -333,50 +328,50 @@
     "startProject": "Aloita projekti",
     "moreFromJournal": "Lisää journalista",
     "postBody1": "Starlights Visualsilla käsittelemme jokaista framea konversiomahdollisuutena, ei pelkkänä kauniina kuvana. Tämä artikkeli avaa {{category}}-työmme taustalla olevaa ajattelua ja päätöksiä, jotka erottavat hyvän luovan työn lanseerausvalmiista.",
-    "postBody2": "Lanseeroitpa trailerin, skaalaat brändin motion systemiä tai rakennat game artia live tuotteeseen, sama periaate pätee: tarinan selkeys ensin, viimeistely toiseksi ja armoton editointi viimeiseksi. Tämä kurinalaisuus on se, miten tiimit osuvat deadlineihin ilman ”melkein valmis” -tunnetta.",
+    "postBody2": "Whether you are shipping a trailer, scaling a brand motion system, or building campaign visuals for a live product, the same principle applies: clarity of story first, polish second, and ruthless editing last. That discipline is how teams hit deadlines without the almost there feeling.",
     "postBody3": "Haluatko soveltaa tätä ajattelua seuraavaan projektiisi? Kuulemme mielellämme, mitä rakennat, lähetä brief, niin kartoitamme elokuvamaisen polun konseptista toimitukseen.",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "Miksi elokuvamaiset trailerit konvertoivat paremmin kuin tuotedemot",
-        "excerpt": "Tarinaan perustuvat lanseerauselokuvat rakentavat emotionaalisen panoksen ennen CTA:ta. Näin rakennamme hookit, pacingin ja graden maksimaaliseen retentioniin.",
-        "category": "Strategia",
-        "date": "12.5.2026",
-        "readTime": "6 min lukuaika"
+        "title": "Why cinematic trailers convert better than product demos",
+        "excerpt": "Story first launch films build emotional stakes before the CTA. Here is how we structure hooks, pacing, and grade for maximum retention.",
+        "category": "Strategy",
+        "date": "May 12, 2026",
+        "readTime": "6 min read"
       },
       "character-design-for-ip": {
-        "title": "Hahmosuunnittelu, joka ankkuroi IP:si jokaisella kanavalla",
-        "excerpt": "Siluetin luettavuudesta merch valmiisiin turnaroundeihin, tarkistuslista, jota käytämme ennen kuin sankari menee tuotantoon.",
-        "category": "Käsityö",
-        "date": "3.5.2026",
-        "readTime": "5 min lukuaika"
-      },
-      "game-art-pipeline": {
-        "title": "Game art -pipelinemme sisällä: konseptista toimitettuihin assetteihin",
-        "excerpt": "Miten sovitamme art directionin, tekniset rajoitteet ja milestone reviewt, jotta tiimit toimittavat ajallaan viimeistelyä uhraamatta.",
-        "category": "Tuotanto",
-        "date": "21.4.2026",
-        "readTime": "8 min lukuaika"
+        "title": "Character design that anchors your IP across every channel",
+        "excerpt": "From silhouette readability to merch ready turnarounds, the checklist we use before a hero goes into production.",
+        "category": "Craft",
+        "date": "May 3, 2026",
+        "readTime": "5 min read"
       },
       "motion-systems-for-brands": {
-        "title": "Motion systemien rakentaminen, joita brändit voivat oikeasti uudelleenkäyttää",
-        "excerpt": "Modulaariset motion kirjastot, logo stingit ja UI mikrointeraktiot, jotka pitävät kampanjat johdonmukaisina skaalassa.",
+        "title": "Building motion systems brands can actually reuse",
+        "excerpt": "Modular motion libraries, logo stings, and UI micro interactions that keep campaigns consistent at scale.",
         "category": "Motion",
-        "date": "8.4.2026",
-        "readTime": "4 min lukuaika"
+        "date": "Apr 8, 2026",
+        "readTime": "4 min read"
       },
       "2d-animation-in-2026": {
-        "title": "2D animaatio vuonna 2026: hybridipipelinet, jotka tuntuvat yhä käsityöltä",
-        "excerpt": "Yhdistä rigatun tehokkuuden frame by frame korostuksiin, milloin painaa kumpaakin tekniikkaa premium tuloksiin.",
-        "category": "Animaatio",
-        "date": "29.3.2026",
-        "readTime": "7 min lukuaika"
+        "title": "2D animation in 2026: hybrid pipelines that still feel handmade",
+        "excerpt": "Combining rigged efficiency with frame by frame accents, when to push each technique for premium results.",
+        "category": "Animation",
+        "date": "Mar 29, 2026",
+        "readTime": "7 min read"
       },
       "creature-design-breakdown": {
-        "title": "Hirviösuunnittelun breakdown: mood boardista final rigiin",
-        "excerpt": "Katsaus siihen, miten kehitämme boss hirviöitä luettavilla silueteilla, materiaalitarinankerronnalla ja elokuvamaisella läsnäololla.",
-        "category": "Käsityö",
-        "date": "14.3.2026",
-        "readTime": "6 min lukuaika"
+        "title": "Creature design breakdown: from mood board to final rig",
+        "excerpt": "A look at how we develop boss creatures with readable silhouettes, material storytelling, and cinematic presence.",
+        "category": "Craft",
+        "date": "Mar 14, 2026",
+        "readTime": "6 min read"
+      },
+      "production-pipelines-that-ship": {
+        "title": "Production pipelines that ship: concept to final delivery",
+        "excerpt": "How we align art direction, technical constraints, and milestone reviews so teams ship on time without sacrificing polish.",
+        "category": "Production",
+        "date": "Apr 21, 2026",
+        "readTime": "8 min read"
       }
     }
   },
@@ -393,8 +388,8 @@
     "goHome": "Etusivulle"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals | Pelikehitys & animaatiostudio",
-    "rootDescription": "Starlights Visuals on luova studio, joka erikoistuu pelikehitykseen, elokuvamaiseen 2D animaatioon ja korkealaatuiseen 3D animaatioon.",
+    "rootTitle": "Starlights Visuals | Animation & VFX Studio",
+    "rootDescription": "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -439,8 +434,8 @@
         "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
       },
       "motion-graphics": {
-        "title": "Game Environment",
-        "tagline": "Immersive worlds and playable spaces in motion",
+        "title": "Motion Graphics",
+        "tagline": "Design led motion systems for launches and brand worlds",
         "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
       },
       "vfx": {
@@ -459,8 +454,8 @@
         "title": "3D animaatio"
       },
       "motion-graphics": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "vfx": {
         "tag": "Visuaaliset efektit (VFX)",
@@ -1364,7 +1359,7 @@
         "items": {
           "01": {
             "question": "Millaisia projekteja teette?",
-            "answer": "Tuotamme animaatiota, VFX:ää, pelitaidetta, cinematics-sisältöä, motion graphicsia ja brändifilmejä peleihin, elokuviin, sarjoihin, mainontaan ja DTC-brändeille. Briefit vaihtelevat yksittäisestä hero-assetista täysiin kampanjapaketteihin."
+            "answer": "We produce animation, VFX, cinematics, motion graphics, product films, and brand films for film, series, advertising, and DTC brands. Briefs range from single hero assets to full campaign packages."
           },
           "02": {
             "question": "Missä Starlights Visuals sijaitsee?",
@@ -1381,15 +1376,15 @@
         "items": {
           "01": {
             "question": "Mitä palveluja tarjoatte?",
-            "answer": "Ydinpalveluihimme kuuluvat 2D- ja 3D-animaatio, VFX, character- ja concept art, pelikehityksen tuki, motion graphics sekä cinematic-trailerit. Voimme hoitaa yksittäisiä osa-alueita tai koko pipeline-tuotannon."
+            "answer": "Our core services include 2D and 3D animation, VFX, character and concept art, motion graphics, product animation, and cinematic trailers. We can handle individual disciplines or full pipeline production."
           },
           "02": {
             "question": "Työskentelettekö indie-tiimien ja suurten studioiden kanssa?",
-            "answer": "Kyllä. Teemme yhteistyötä indie-tekijöiden, keskikokoisten studioiden ja globaalien brändien kanssa. Scope ja tiimin koko joustavat budjettisi ja aikataulusi mukaan ilman kompromisseja laadussa."
+            "answer": "Yes. We partner with indie creators, mid size studios, and global brands. Scope and team size flex to match your budget and timeline without compromising craft."
           },
           "03": {
             "question": "Pystyttekö vastaamaan nykyistä taidetyyliämme?",
-            "answer": "Ehdottomasti. Aloitamme style frameilla ja look-dev-vaiheella, joka linjataan brändiohjeisiisi tai pelimaailmaasi ennen täyteen tuotantoon sitoutumista."
+            "answer": "Absolutely. We start with style frames and a look development pass aligned to your brand guidelines or visual world before committing to full production."
           }
         }
       },

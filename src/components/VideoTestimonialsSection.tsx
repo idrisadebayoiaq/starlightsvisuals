@@ -11,7 +11,7 @@ import {
 import { resolveShowcaseVideo, type ShowcaseVideoKey } from "@/data/showcase-media";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
 import portfolioCreature from "@/assets/portfolio-creature.jpg";
-import portfolioGame from "@/assets/portfolio-game.jpg";
+import portfolioIndustrial from "@/assets/portfolio-industrial.jpg";
 import portfolioMotion from "@/assets/portfolio-motion.jpg";
 import portfolioTrailer from "@/assets/portfolio-trailer.jpg";
 import portfolio2d from "@/assets/portfolio-2d.jpg";
@@ -20,7 +20,7 @@ const fallbackPosters: Record<ShowcaseVideoKey, string> = {
   trailer: portfolioTrailer,
   character: portfolioCharacter,
   creature: portfolioCreature,
-  game: portfolioGame,
+  industrial: portfolioIndustrial,
   motion: portfolioMotion,
   twoD: portfolio2d,
 };
@@ -39,7 +39,7 @@ export function VideoTestimonialsSection() {
             id: "trailer",
             key: "trailer" as const,
             name: "Alex Morgan",
-            company: "Lumen Worlds",
+            company: "Nova Studios",
             role: t("testimonials.videoRoles.ceo"),
             initials: "AM",
             duration: "2:20",
@@ -66,10 +66,10 @@ export function VideoTestimonialsSection() {
             progress: 0.3,
           },
           {
-            id: "game",
-            key: "game" as const,
+            id: "industrial",
+            key: "industrial" as const,
             name: "Mia Laurent",
-            company: "Iron Forge Interactive",
+            company: "Ronix",
             role: t("testimonials.videoRoles.headProduction"),
             initials: "ML",
             duration: "1:58",

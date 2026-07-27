@@ -45,7 +45,7 @@
     "emailPlaceholder": "your@email.com",
     "join": "انضم",
     "subscribed": "✦ أنت معنا. مرحبًا بك في Starlights.",
-    "tagline": "استوديو إبداعي يحوّل الخيال إلى واقع من خلال تطوير ألعاب غامرة، ورسوم متحركة ثنائية الأبعاد سينمائية، وتجارب ثلاثية الأبعاد عالية الجودة.",
+    "tagline": "A creative studio bringing imagination to life through cinematic 2D animation, high quality 3D experiences, and VFX.",
     "explore": "استكشف",
     "follow": "تابعنا",
     "social": "رابط اجتماعي",
@@ -54,41 +54,42 @@
     "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
-    "metaTitle": "Starlights Visuals | استوديو الرسوم المتحركة والمؤثرات البصرية وفن الألعاب",
-    "metaDescription": "استوديو إبداعي للرسوم المتحركة ثنائية وثلاثية الأبعاد، والمؤثرات البصرية، وفن الألعاب. نُحيي عوالم الخيال والشخصيات والمشاهد السينمائية.",
-    "heroScript": "قصص في حركة —",
-    "heroTitle1": "الرسوم المتحركة",
-    "heroTitle2": "والمؤثرات البصرية",
-    "heroBody": "تُحيي Starlights Visuals القصص بالرسوم المتحركة والمؤثرات البصرية التي تأسر الجمهور وترفع كل إطار. نُحرّك مخلوقات خيالية وشخصيات بشرية ومركبات وبيئات ودعائم وأجسام hard-surface — للأفلام والمسلسلات والإعلانات وحملات العلامات التجارية.",
-    "heroAlt": "Starlights Visuals, مشهد بطولي سينمائي",
-    "seePortfolio": "شاهد معرض الأعمال",
-    "startProject": "ابدأ مشروعًا",
-    "servicesLabel": "ما نقدمه",
-    "servicesTitle": "الخدمات",
-    "allServices": "جميع الخدمات",
-    "showcaseLabel": "أعمال حديثة",
-    "showcaseTitle1": "أعمال",
-    "showcaseTitle2": "مختارة",
-    "fullPortfolio": "معرض الأعمال الكامل",
-    "ctaScript": "لنصنع شيئًا,",
-    "ctaTitle1": "هل أنت",
-    "ctaTitle2": "مستعد للتعاون؟",
+    "metaTitle": "Starlights Visuals | Animation & VFX Studio",
+    "metaDescription": "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
+    "heroScript": "Stories in motion,",
+    "heroTitle1": "ANIMATION",
+    "heroTitle2": "& VFX",
+    "heroBody": "Starlights Visuals brings stories to life with animation and visual effects that captivate audiences and elevate every frame. We animate fantasy creatures, human characters, vehicles, environments, props, and hard surface objects for film, series, advertising, and brand campaigns.",
+    "heroAlt": "Starlights Visuals cinematic hero",
+    "seePortfolio": "See Portfolio",
+    "startProject": "Start a Project",
+    "servicesLabel": "What we do",
+    "servicesTitle": "SERVICES",
+    "allServices": "All Services",
+    "showcaseLabel": "Recent work",
+    "showcaseTitle1": "SELECTED",
+    "showcaseTitle2": "WORK",
+    "fullPortfolio": "Full Portfolio",
+    "viewAllFaq": "View all FAQ",
+    "ctaScript": "Let's build something,",
+    "ctaTitle1": "READY TO",
+    "ctaTitle2": "COLLABORATE?",
     "services": {
       "01": {
-        "title": "الرسوم المتحركة والمؤثرات البصرية",
-        "desc": "رسوم متحركة سينمائية ثنائية وثلاثية الأبعاد، هياكل شخصيات، ومؤثرات بصرية للألعاب والأفلام."
+        "title": "Animation & VFX",
+        "desc": "Cinematic 2D & 3D animation, character rigs, and visual effects for film, series, and brands."
       },
       "02": {
-        "title": "تطوير الألعاب",
-        "desc": "إنتاج متكامل, من المفهوم والفن والبرمجة والصوت إلى الإطلاق."
+        "title": "Product Animation",
+        "desc": "Photoreal product films, packshots, and CGI that make every detail sell."
       },
       "03": {
-        "title": "فن المفاهيم وتصميم الشخصيات",
-        "desc": "شخصيات ومخلوقات وبيئات ودعائم أصلية تُرسّخ هوية ملكيتك الفكرية."
+        "title": "Concept & Character Art",
+        "desc": "Original characters, creatures, environments, and props that anchor your IP."
       },
       "04": {
-        "title": "إعلانات تشويقية سينمائية",
-        "desc": "إعلانات تشويقية قائمة على السرد، مُصمّمة لإطلاق الألعاب والامتيازات."
+        "title": "Cinematic Trailers",
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns."
       }
     },
     "showcase": {
@@ -97,12 +98,12 @@
         "title": "3D Animation"
       },
       "gameArt": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "animation2d": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "2D Animation",
+        "title": "2D Animation"
       },
       "cinematic": {
         "tag": "VFX",
@@ -116,8 +117,7 @@
         "tag": "3D",
         "title": "Product Animation"
       }
-    },
-    "viewAllFaq": "View all FAQ"
+    }
   },
   "trustedBy": {
     "badge": "أكثر من 500 علامة DTC",
@@ -172,86 +172,82 @@
     "writeYours": "Write yours"
   },
   "servicesPage": {
-    "metaTitle": "الخدمات | Starlights Visuals",
-    "metaDescription": "رسوم متحركة ثنائية وثلاثية الأبعاد، تطوير ألعاب، تصميم شخصيات، رسوم متحركة للحركة، مؤثرات بصرية، وإعلانات تشويقية سينمائية.",
-    "label": "ما نصنع",
-    "title": "الخدمات",
-    "subtitle": "استوديو واحد، كل مراحل الإنتاج, من أول رسمة إلى آخر بكسل.",
-    "ctaTitle1": "هل لديك",
-    "ctaTitle2": "مشروع",
-    "ctaTitle3": "في ذهنك؟",
-    "ctaDesc": "أخبرنا برؤيتك, وسنوفر القوة الإبداعية.",
-    "ctaButton": "تواصل معنا",
+    "metaTitle": "Services | Starlights Visuals",
+    "metaDescription": "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
+    "label": "What We Build",
+    "title": "SERVICES",
+    "subtitle": "One studio, every stage of production, from first sketch to final pixel.",
+    "ctaTitle1": "HAVE A",
+    "ctaTitle2": "PROJECT",
+    "ctaTitle3": "IN MIND?",
+    "ctaDesc": "Tell us your vision, we'll bring the firepower.",
+    "ctaButton": "Get In Touch",
     "items": {
       "2d": {
-        "title": "رسوم متحركة ثنائية الأبعاد",
-        "desc": "إطار بإطار وهياكل متحركة ثنائية الأبعاد للمسلسلات والأفلام القصيرة والشروحات والألعاب. نمزج الحرفة الكلاسيكية مع خطوط إنتاج رقمية."
+        "title": "2D Animation",
+        "desc": "Frame by frame & rigged 2D for series, shorts, explainers, and brand films. We blend classic craft with digital pipelines."
       },
       "3d": {
-        "title": "رسوم متحركة ثلاثية الأبعاد",
-        "desc": "ثلاثي الأبعاد بأسلوب فني أو واقعي فوتوغرافي, شخصيات وبيئات ومشاهد سينمائية كاملة بجودة أفلام."
-      },
-      "game": {
-        "title": "تطوير الألعاب",
-        "desc": "إنتاج ألعاب من البداية للنهاية: مفهوم، فن، برمجة، صوت، وإطلاق. Unreal وUnity وخطوط إنتاج مخصصة."
+        "title": "3D Animation",
+        "desc": "Stylized and photoreal 3D, characters, environments, and full cinematic sequences with feature quality polish."
       },
       "character": {
-        "title": "تصميم الشخصيات",
-        "desc": "شخصيات ومخلوقات وفن مفاهيم أصلية تُرسّخ هوية ملكيتك الفكرية وإمكاناتها التجارية."
+        "title": "Character Design",
+        "desc": "Original characters, creatures, and concept art that anchor your IP and merch potential."
       },
       "motion": {
-        "title": "رسوم متحركة للحركة",
-        "desc": "حركة بعلامة تجارية، رسوم متحركة لواجهات المستخدم، حزم بث، وفيديوهات توضيحية بلمسة سينمائية."
+        "title": "Motion Graphics",
+        "desc": "Branded motion, UI animation, broadcast packages, and explainer videos with cinematic polish."
       },
       "vfx": {
-        "title": "المؤثرات البصرية (VFX)",
-        "desc": "تركيب، مؤثرات جسيمات، ودمج CG للألعاب والأفلام والحملات الرقمية."
+        "title": "Visual Effects (VFX)",
+        "desc": "Compositing, particle FX, and CG integration for film, advertising, and digital campaigns."
       },
       "trailer": {
-        "title": "إعلانات تشويقية سينمائية",
-        "desc": "إعلانات تشويقية قائمة على السرد، مُصمّمة لإطلاق الألعاب والملكيات الفكرية والعلامات بأقصى تأثير."
+        "title": "Cinematic Trailers",
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns with maximum impact."
       }
     }
   },
   "aboutPage": {
-    "metaTitle": "من نحن | Starlights Visuals",
-    "metaDescription": "Starlights Visuals استوديو إبداعي شغوف متخصص في تطوير ألعاب غامرة، ورسوم متحركة ثنائية الأبعاد سينمائية، وتجارب رسوم متحركة ثلاثية الأبعاد عالية الجودة.",
-    "label": "من نحن",
-    "title1": "استوديو بُني على",
-    "title2": "الضوء والكود والقصة",
-    "p1": "Starlights Visuals استوديو إبداعي شغوف عند تقاطع الألعاب والرسوم المتحركة والسرد السينمائي. نحن موجودون لتحويل الخيال إلى واقع, سواء كان لعبة عالم مفتوح واسعة، أو مسلسل ثنائي الأبعاد مصنوع يدويًا، أو إعلان تشويقي ثلاثي الأبعاد واقعي فوتوغرافي.",
-    "p2": "من فناني المفاهيم ونحاتي ثلاثي الأبعاد إلى مهندسي اللعب ومصممي الحركة، كل عضو في فريقنا مهووس بشيء واحد: جعل الجمهور يشعر بشيء ما. نحن لا نبني بكسلات جميلة فقط, نبني عوالم يريد الناس العيش فيها.",
-    "p3": "نتعاون مع المبدعين المستقلين واستوديوهات AAA والعلامات العالمية لتقديم عمل يفوق حجمه، يلتزم بالمواعيد دون تنازلات، ويبدو وكأنه كلف ضعف الميزانية.",
-    "valuesLabel": "قيمنا الأساسية",
-    "valuesTitle": "ما يدفعنا",
+    "metaTitle": "About | Starlights Visuals",
+    "metaDescription": "Starlights Visuals is a passionate creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
+    "label": "Who We Are",
+    "title1": "A STUDIO BUILT ON",
+    "title2": "LIGHT, CODE & STORY",
+    "p1": "Starlights Visuals is a passionate creative studio at the intersection of animation, VFX, and cinematic storytelling. We exist to bring imagination to life, whether that is a hand crafted 2D series, a photoreal 3D trailer, or a brand campaign that needs to feel premium.",
+    "p2": "From our concept artists and 3D sculptors to our motion designers and compositors, every member of our team is obsessed with one thing: making audiences feel something. We do not just build pretty pixels, we build worlds people want to live in.",
+    "p3": "We partner with indie creators, AAA studios, and global brands to deliver work that punches above its weight, hits deadlines without compromise, and looks like it cost twice the budget.",
+    "valuesLabel": "Core Values",
+    "valuesTitle": "WHAT DRIVES US",
     "values": {
       "imagination": {
-        "title": "الخيال أولًا",
-        "desc": "كل مشروع يبدأ بفكرة جريئة ولوحة فارغة."
+        "title": "Imagination First",
+        "desc": "Every project starts with a bold idea and a blank canvas."
       },
       "craft": {
-        "title": "مهووسون بالحرفة",
-        "desc": "إطارًا بإطار، بكسلًا ببكسل, الجودة غير قابلة للتفاوض."
+        "title": "Craft Obsessed",
+        "desc": "Frame by frame, pixel by pixel, quality is non negotiable."
       },
       "energy": {
-        "title": "طاقة سينمائية",
-        "desc": "نسعى وراء القشعريرة. إن لم تُحرّكنا، نُعيد التنقيح."
+        "title": "Cinematic Energy",
+        "desc": "We chase the goosebumps. If it doesn't move us, we refine."
       },
       "story": {
-        "title": "القصة في المقدمة",
-        "desc": "التقنية تخدم القصة. دائمًا."
+        "title": "Story Driven",
+        "desc": "Tech serves story. Always."
       }
     },
     "stats": {
-      "projects": "مشاريع مُنجزة",
-      "clients": "عملاء عالميون",
-      "awards": "جوائز مُحققة",
-      "years": "سنوات من الحرفة"
+      "projects": "Projects Shipped",
+      "clients": "Global Clients",
+      "awards": "Awards Won",
+      "years": "Years Crafting"
     }
   },
   "contactPage": {
     "metaTitle": "تواصل | Starlights Visuals",
-    "metaDescription": "تواصل مع Starlights Visuals لمشاريع تطوير الألعاب، والرسوم المتحركة ثنائية وثلاثية الأبعاد، ورسوم الحركة، والمؤثرات البصرية، والإعلانات التشويقية السينمائية.",
+    "metaDescription": "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
     "label": "لنتحدث",
     "title": "تواصل",
     "subtitle": "استفسارات إنتاج، تعاون، أو مجرد تحية, أرسل لنا إشارة.",
@@ -270,60 +266,59 @@
     "responseTime": "وقت الاستجابة",
     "responseDesc": "خلال 24 ساعة، الإثنين, الجمعة.",
     "projectTypes": {
-      "game": "تطوير الألعاب",
-      "2d": "رسوم متحركة ثنائية الأبعاد",
-      "3d": "رسوم متحركة ثلاثية الأبعاد",
-      "trailer": "إعلان تشويقي سينمائي",
-      "character": "تصميم الشخصيات",
-      "motion": "رسوم متحركة للحركة and مؤثرات بصرية",
-      "other": "أخرى"
+      "2d": "2D Animation",
+      "3d": "3D Animation",
+      "trailer": "Cinematic Trailer",
+      "character": "Character Design",
+      "motion": "Motion Graphics and VFX",
+      "other": "Other"
     },
     "sending": "Sending…",
     "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "معرض الأعمال | Starlights Visuals",
-    "metaDescription": "مشاريع مختارة: مسلسلات متحركة، إعلانات تشويقية للألعاب، تصاميم شخصيات، وعروض استوديو من Starlights Visuals.",
+    "metaDescription": "Selected projects: animated series, cinematic trailers, character designs, and studio showcase reels by Starlights Visuals.",
     "label": "أعمال مختارة",
     "title1": "معرض",
     "title2": "الأعمال",
     "subtitle": "لمحة عن العوالم والشخصيات والقصص التي ساعدنا في إحيائها.",
     "projects": {
       "trailer": {
-        "tag": "إعلان تشويقي سينمائي",
+        "tag": "Cinematic Trailer",
         "title": "Iron Sentinel",
-        "desc": "إعلان تشويقي لإطلاق لعبة AAA."
+        "desc": "Cinematic brand launch trailer."
       },
       "character": {
-        "tag": "تصميم الشخصيات",
+        "tag": "Character Design",
         "title": "Nova Vanguard",
-        "desc": "ورقة الشخصية البطلة."
-      },
-      "game": {
-        "tag": "فن الألعاب",
-        "title": "Lumen Worlds",
-        "desc": "فن بيئة عالم مفتوح."
+        "desc": "Hero protagonist sheet."
       },
       "2d": {
-        "tag": "رسوم متحركة ثنائية الأبعاد",
+        "tag": "2D Animation",
         "title": "Neon Skyline",
-        "desc": "حلقة تجريبية بإلهام الأنمي."
+        "desc": "Anime inspired pilot episode."
       },
       "creature": {
-        "tag": "تصميم المخلوقات",
+        "tag": "Creature Design",
         "title": "Crystal Wyrm",
-        "desc": "مفهوم مخلوق الزعيم."
+        "desc": "Boss creature concept."
       },
       "motion": {
-        "tag": "رسوم متحركة للحركة",
+        "tag": "Motion Graphics",
         "title": "Pulse Identity",
-        "desc": "نظام حركة للعلامة التجارية."
+        "desc": "Brand motion system."
+      },
+      "motionEnv": {
+        "tag": "Motion Graphics",
+        "title": "Pulse Worlds",
+        "desc": "Immersive brand environment art."
       }
     }
   },
   "blogPage": {
     "metaTitle": "المدونة | Starlights Visuals",
-    "metaDescription": "رؤى حول الرسوم المتحركة والمؤثرات البصرية وفن الألعاب والإعلانات التشويقية السينمائية وسرد العلامات الفاخرة من Starlights Visuals.",
+    "metaDescription": "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
     "label": "مجلة الاستوديو",
     "title1": "ال",
     "title2": "مدونة",
@@ -333,50 +328,50 @@
     "startProject": "ابدأ مشروعًا",
     "moreFromJournal": "المزيد من المجلة",
     "postBody1": "في Starlights Visuals، نتعامل مع كل إطار كفرصة للتحويل, لا مجرد صورة جميلة. يوسّع هذا المقال التفكير وراء عملنا في {{category}} والقرارات التي تفصل الإبداع الجيد عن الإبداع الجاهز للإطلاق.",
-    "postBody2": "سواء كنت تُطلق إعلانًا تشويقيًا، أو توسّع نظام حركة لعلامة، أو تبني فن ألعاب لمنتج حي، ينطبق نفس المبدأ: وضوح القصة أولًا، والتلميع ثانيًا، والتحرير الدقيق أخيرًا. هذا الانضباط هو كيف تلتزم الفرق بالمواعيد دون شعور «اقتربنا».",
+    "postBody2": "Whether you are shipping a trailer, scaling a brand motion system, or building campaign visuals for a live product, the same principle applies: clarity of story first, polish second, and ruthless editing last. That discipline is how teams hit deadlines without the almost there feeling.",
     "postBody3": "هل تريد تطبيق هذا التفكير على مشروعك القادم؟ يسعدنا سماع ما تبنيه, أرسل لنا ملخصًا وسنرسم مسارًا سينمائيًا من المفهوم إلى التسليم.",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "لماذا تُحقّق الإعلانات التشويقية السينمائية تحويلًا أفضل من عروض المنتج",
-        "excerpt": "أفلام الإطلاق القائمة على السرد تبني رهانًا عاطفيًا قبل الدعوة للعمل. إليك كيف نُهيكل الخطافات والإيقاع والتصحيح لأقصى احتفاظ.",
-        "category": "استراتيجية",
-        "date": "12 مايو 2026",
-        "readTime": "6 دقائق للقراءة"
+        "title": "Why cinematic trailers convert better than product demos",
+        "excerpt": "Story first launch films build emotional stakes before the CTA. Here is how we structure hooks, pacing, and grade for maximum retention.",
+        "category": "Strategy",
+        "date": "May 12, 2026",
+        "readTime": "6 min read"
       },
       "character-design-for-ip": {
-        "title": "تصميم شخصيات يرسّخ ملكيتك الفكرية عبر كل قناة",
-        "excerpt": "من وضوح الصورة الظلية إلى مخططات جاهزة للمنتجات, قائمة التحقق التي نستخدمها قبل دخول البطل في الإنتاج.",
-        "category": "حرفة",
-        "date": "3 مايو 2026",
-        "readTime": "5 دقائق للقراءة"
-      },
-      "game-art-pipeline": {
-        "title": "داخل خط إنتاج فن الألعاب: من المفهوم إلى الأصول المُسلّمة",
-        "excerpt": "كيف نوائم بين التوجيه الفني، وقيود التقنية، ومراجعات المراحل ليُنجز الفريق في الوقت دون التضحية بالجودة.",
-        "category": "إنتاج",
-        "date": "21 أبريل 2026",
-        "readTime": "8 دقائق للقراءة"
+        "title": "Character design that anchors your IP across every channel",
+        "excerpt": "From silhouette readability to merch ready turnarounds, the checklist we use before a hero goes into production.",
+        "category": "Craft",
+        "date": "May 3, 2026",
+        "readTime": "5 min read"
       },
       "motion-systems-for-brands": {
-        "title": "بناء أنظمة حركة يمكن للعلامات إعادة استخدامها فعليًا",
-        "excerpt": "مكتبات حركة معيارية، ومقدمات شعار، وتفاعلات دقيقة لواجهات المستخدم تحافظ على اتساق الحملات على نطاق واسع.",
-        "category": "حركة",
-        "date": "8 أبريل 2026",
-        "readTime": "4 دقائق للقراءة"
+        "title": "Building motion systems brands can actually reuse",
+        "excerpt": "Modular motion libraries, logo stings, and UI micro interactions that keep campaigns consistent at scale.",
+        "category": "Motion",
+        "date": "Apr 8, 2026",
+        "readTime": "4 min read"
       },
       "2d-animation-in-2026": {
-        "title": "الرسوم المتحركة ثنائية الأبعاد في 2026: خطوط إنتاج هجينة لا تزال تبدو مصنوعة يدويًا",
-        "excerpt": "الجمع بين كفاءة الهياكل المتحركة ولمسات إطار بإطار, متى ندفع كل تقنية لنتائج فاخرة.",
-        "category": "رسوم متحركة",
-        "date": "29 مارس 2026",
-        "readTime": "7 دقائق للقراءة"
+        "title": "2D animation in 2026: hybrid pipelines that still feel handmade",
+        "excerpt": "Combining rigged efficiency with frame by frame accents, when to push each technique for premium results.",
+        "category": "Animation",
+        "date": "Mar 29, 2026",
+        "readTime": "7 min read"
       },
       "creature-design-breakdown": {
-        "title": "تحليل تصميم المخلوقات: من لوحة المزاج إلى الهيكل النهائي",
-        "excerpt": "نظرة على كيفية تطوير مخلوقات الزعيم بصور ظلية واضحة، وسرد المواد، وحضور سينمائي.",
-        "category": "حرفة",
-        "date": "14 مارس 2026",
-        "readTime": "6 دقائق للقراءة"
+        "title": "Creature design breakdown: from mood board to final rig",
+        "excerpt": "A look at how we develop boss creatures with readable silhouettes, material storytelling, and cinematic presence.",
+        "category": "Craft",
+        "date": "Mar 14, 2026",
+        "readTime": "6 min read"
+      },
+      "production-pipelines-that-ship": {
+        "title": "Production pipelines that ship: concept to final delivery",
+        "excerpt": "How we align art direction, technical constraints, and milestone reviews so teams ship on time without sacrificing polish.",
+        "category": "Production",
+        "date": "Apr 21, 2026",
+        "readTime": "8 min read"
       }
     }
   },
@@ -393,8 +388,8 @@
     "goHome": "الذهاب للرئيسية"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals | استوديو تطوير الألعاب والرسوم المتحركة",
-    "rootDescription": "Starlights Visuals استوديو إبداعي متخصص في تطوير الألعاب، والرسوم المتحركة ثنائية الأبعاد السينمائية، والرسوم المتحركة ثلاثية الأبعاد عالية الجودة.",
+    "rootTitle": "Starlights Visuals | Animation & VFX Studio",
+    "rootDescription": "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -439,8 +434,8 @@
         "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
       },
       "motion-graphics": {
-        "title": "Game Environment",
-        "tagline": "Immersive worlds and playable spaces in motion",
+        "title": "Motion Graphics",
+        "tagline": "Design led motion systems for launches and brand worlds",
         "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
       },
       "vfx": {
@@ -459,8 +454,8 @@
         "title": "رسوم متحركة ثلاثية الأبعاد"
       },
       "motion-graphics": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "vfx": {
         "tag": "المؤثرات البصرية (VFX)",
@@ -1364,7 +1359,7 @@
         "items": {
           "01": {
             "question": "ما أنواع المشاريع التي تعملون عليها؟",
-            "answer": "ننتج الرسوم المتحركة و VFX وفنون الألعاب والسينمائيات والموشن جرافيك وأفلام العلامات التجارية للألعاب والأفلام والمسلسلات والإعلانات وعلامات DTC. تتراوح المتطلبات من أصل بطولي واحد إلى حزم حملات كاملة."
+            "answer": "We produce animation, VFX, cinematics, motion graphics, product films, and brand films for film, series, advertising, and DTC brands. Briefs range from single hero assets to full campaign packages."
           },
           "02": {
             "question": "أين يقع مقر Starlights Visuals؟",
@@ -1381,15 +1376,15 @@
         "items": {
           "01": {
             "question": "ما الخدمات التي تقدمونها؟",
-            "answer": "تشمل خدماتنا الأساسية الرسوم المتحركة ثنائية وثلاثية الأبعاد، و VFX، وفن الشخصيات والفن التصوري، ودعم تطوير الألعاب، والموشن جرافيك، والعروض السينمائية. يمكننا تنفيذ تخصصات منفصلة أو إدارة إنتاج خط كامل."
+            "answer": "Our core services include 2D and 3D animation, VFX, character and concept art, motion graphics, product animation, and cinematic trailers. We can handle individual disciplines or full pipeline production."
           },
           "02": {
             "question": "هل تعملون مع فرق مستقلة واستوديوهات كبيرة؟",
-            "answer": "نعم. نتعاون مع مبدعين مستقلين واستوديوهات متوسطة وعلامات تجارية عالمية. نضبط نطاق المشروع وحجم الفريق بما يناسب ميزانيتك وجدولك الزمني دون المساس بجودة التنفيذ."
+            "answer": "Yes. We partner with indie creators, mid size studios, and global brands. Scope and team size flex to match your budget and timeline without compromising craft."
           },
           "03": {
             "question": "هل يمكنكم مطابقة أسلوبنا الفني الحالي؟",
-            "answer": "بالتأكيد. نبدأ بإطارات الأسلوب ومرحلة تطوير المظهر بما يتماشى مع إرشادات علامتكم أو عالم لعبتكم قبل الالتزام بالإنتاج الكامل."
+            "answer": "Absolutely. We start with style frames and a look development pass aligned to your brand guidelines or visual world before committing to full production."
           }
         }
       },

@@ -27,7 +27,7 @@ export const Route = createFileRoute("/faq")({
       { property: "og:title", content: "FAQ | Starlights Visuals" },
       {
         property: "og:description",
-        content: "Answers about our animation, VFX, and game art services, process, and delivery.",
+        content: "Answers about our animation, VFX, and cinematic services, process, and delivery.",
       },
     ],
   }),

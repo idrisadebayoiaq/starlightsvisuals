@@ -45,7 +45,7 @@
     "emailPlaceholder": "din@email.com",
     "join": "Tilmeld",
     "subscribed": "✦ Du er med. Velkommen til Starlights.",
-    "tagline": "Et kreativt studie, der vækker fantasien til live gennem immersiv spiludvikling, filmisk 2D animation og højkvalitets 3D oplevelser.",
+    "tagline": "A creative studio bringing imagination to life through cinematic 2D animation, high quality 3D experiences, and VFX.",
     "explore": "Udforsk",
     "follow": "Følg",
     "social": "Link til sociale medier",
@@ -54,41 +54,42 @@
     "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
-    "metaTitle": "Starlights Visuals | Animation | VFX & Game Art Studio",
-    "metaDescription": "Et kreativt studie til 2D-/3D animation, VFX og game art. Vi vækker fantasyverdener, karakterer og cinematics til live.",
-    "heroScript": "Historier i bevægelse —",
+    "metaTitle": "Starlights Visuals | Animation & VFX Studio",
+    "metaDescription": "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
+    "heroScript": "Stories in motion,",
     "heroTitle1": "ANIMATION",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals vækker historier til live med animation og visuelle effekter, der fænger publikum og løfter hver enkelt frame. Vi animerer fantasy-væsener, menneskelige karakterer, køretøjer, miljøer, rekvisitter og hard-surface-objekter — til film, serier, reklame og brandkampagner.",
-    "heroAlt": "Starlights Visuals filmisk hero",
-    "seePortfolio": "Se portfolio",
-    "startProject": "Start et projekt",
-    "servicesLabel": "Hvad vi laver",
+    "heroBody": "Starlights Visuals brings stories to life with animation and visual effects that captivate audiences and elevate every frame. We animate fantasy creatures, human characters, vehicles, environments, props, and hard surface objects for film, series, advertising, and brand campaigns.",
+    "heroAlt": "Starlights Visuals cinematic hero",
+    "seePortfolio": "See Portfolio",
+    "startProject": "Start a Project",
+    "servicesLabel": "What we do",
     "servicesTitle": "SERVICES",
-    "allServices": "Alle services",
-    "showcaseLabel": "Seneste arbejde",
-    "showcaseTitle1": "UDVALGTE",
-    "showcaseTitle2": "ARBEJDER",
-    "fullPortfolio": "Hele portfoliet",
-    "ctaScript": "Lad os bygge noget,",
-    "ctaTitle1": "KLAR TIL AT",
-    "ctaTitle2": "SAMARBEJDE?",
+    "allServices": "All Services",
+    "showcaseLabel": "Recent work",
+    "showcaseTitle1": "SELECTED",
+    "showcaseTitle2": "WORK",
+    "fullPortfolio": "Full Portfolio",
+    "viewAllFaq": "View all FAQ",
+    "ctaScript": "Let's build something,",
+    "ctaTitle1": "READY TO",
+    "ctaTitle2": "COLLABORATE?",
     "services": {
       "01": {
         "title": "Animation & VFX",
-        "desc": "Filmisk 2D- og 3D animation, karakterrigs og visuelle effekter til spil og film."
+        "desc": "Cinematic 2D & 3D animation, character rigs, and visual effects for film, series, and brands."
       },
       "02": {
-        "title": "Spiludvikling",
-        "desc": "Fuld cyklus produktion, koncept, art, kode, lyd, launch."
+        "title": "Product Animation",
+        "desc": "Photoreal product films, packshots, and CGI that make every detail sell."
       },
       "03": {
         "title": "Concept & Character Art",
-        "desc": "Originale karakterer, væsener, miljøer og rekvisitter, der forankrer dit IP."
+        "desc": "Original characters, creatures, environments, and props that anchor your IP."
       },
       "04": {
         "title": "Cinematic Trailers",
-        "desc": "Historiedrevne trailers, der lancerer spil og franchises."
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns."
       }
     },
     "showcase": {
@@ -97,12 +98,12 @@
         "title": "3D Animation"
       },
       "gameArt": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "animation2d": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "2D Animation",
+        "title": "2D Animation"
       },
       "cinematic": {
         "tag": "VFX",
@@ -116,8 +117,7 @@
         "tag": "3D",
         "title": "Product Animation"
       }
-    },
-    "viewAllFaq": "View all FAQ"
+    }
   },
   "trustedBy": {
     "badge": "200+ COMPANY",
@@ -173,85 +173,81 @@
   },
   "servicesPage": {
     "metaTitle": "Services | Starlights Visuals",
-    "metaDescription": "2D animation, 3D animation, spiludvikling, karakterdesign, motion graphics, VFX og filmiske trailers.",
-    "label": "Hvad vi bygger",
+    "metaDescription": "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
+    "label": "What We Build",
     "title": "SERVICES",
-    "subtitle": "Ét studie, hvert produktionstrin, fra første skitse til sidste pixel.",
-    "ctaTitle1": "HAR DU ET",
-    "ctaTitle2": "PROJEKT",
-    "ctaTitle3": "I TANKERNE?",
-    "ctaDesc": "Fortæl os din vision, vi bringer kraften.",
-    "ctaButton": "Kontakt os",
+    "subtitle": "One studio, every stage of production, from first sketch to final pixel.",
+    "ctaTitle1": "HAVE A",
+    "ctaTitle2": "PROJECT",
+    "ctaTitle3": "IN MIND?",
+    "ctaDesc": "Tell us your vision, we'll bring the firepower.",
+    "ctaButton": "Get In Touch",
     "items": {
       "2d": {
-        "title": "2D animation",
-        "desc": "Frame by frame og rigget 2D til serier, kortfilm, explainers og spil. Vi blander klassisk håndværk med digitale pipelines."
+        "title": "2D Animation",
+        "desc": "Frame by frame & rigged 2D for series, shorts, explainers, and brand films. We blend classic craft with digital pipelines."
       },
       "3d": {
-        "title": "3D animation",
-        "desc": "Stiliseret og fotorealistisk 3D, karakterer, miljøer og fulde filmsekvenser med feature kvalitet."
-      },
-      "game": {
-        "title": "Spiludvikling",
-        "desc": "Spilproduktion fra start til slut: koncept, art, kode, lyd og launch. Unreal, Unity og egne pipelines."
+        "title": "3D Animation",
+        "desc": "Stylized and photoreal 3D, characters, environments, and full cinematic sequences with feature quality polish."
       },
       "character": {
-        "title": "Karakterdesign",
-        "desc": "Originale karakterer, væsener og concept art, der forankrer dit IP og merch potentiale."
+        "title": "Character Design",
+        "desc": "Original characters, creatures, and concept art that anchor your IP and merch potential."
       },
       "motion": {
         "title": "Motion Graphics",
-        "desc": "Brandmotion, UI animation, broadcastpakker og explainers med filmisk finish."
+        "desc": "Branded motion, UI animation, broadcast packages, and explainer videos with cinematic polish."
       },
       "vfx": {
-        "title": "Visuelle effekter (VFX)",
-        "desc": "Compositing, partikeleffekter og CG integration til spil, film og digitale kampagner."
+        "title": "Visual Effects (VFX)",
+        "desc": "Compositing, particle FX, and CG integration for film, advertising, and digital campaigns."
       },
       "trailer": {
         "title": "Cinematic Trailers",
-        "desc": "Historiedrevne trailers, der lancerer spil, IP og brands med maksimal impact."
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns with maximum impact."
       }
     }
   },
   "aboutPage": {
-    "metaTitle": "Om os | Starlights Visuals",
-    "metaDescription": "Starlights Visuals er et passioneret kreativt studie specialiseret i immersiv spiludvikling, filmisk 2D animation og højkvalitets 3D oplevelser.",
-    "label": "Hvem vi er",
-    "title1": "ET STUDIE BYGGET PÅ",
-    "title2": "LYS, KODE & HISTORIE",
-    "p1": "Starlights Visuals er et passioneret kreativt studie i skæringspunktet mellem spil, animation og filmisk storytelling. Vi findes for at vække fantasien til live, uanset om det er et vidtstrakt open world spil, en håndlavet 2D serie eller en fotorealistisk 3D trailer.",
-    "p2": "Fra vores concept artists og 3D sculptors til gameplay engineers og motion designers, hvert medlem af teamet er besat af én ting: at få publikum til at mærke noget. Vi bygger ikke bare smukke pixels, vi bygger verdener, folk vil leve i.",
-    "p3": "Vi samarbejder med indie skabere, AAA studier og globale brands for at levere arbejde, der slår over sin vægt, holder deadlines uden kompromis og ser ud, som om det kostede det dobbelte.",
-    "valuesLabel": "Kerneværdier",
-    "valuesTitle": "HVAD DRIVER OS",
+    "metaTitle": "About | Starlights Visuals",
+    "metaDescription": "Starlights Visuals is a passionate creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
+    "label": "Who We Are",
+    "title1": "A STUDIO BUILT ON",
+    "title2": "LIGHT, CODE & STORY",
+    "p1": "Starlights Visuals is a passionate creative studio at the intersection of animation, VFX, and cinematic storytelling. We exist to bring imagination to life, whether that is a hand crafted 2D series, a photoreal 3D trailer, or a brand campaign that needs to feel premium.",
+    "p2": "From our concept artists and 3D sculptors to our motion designers and compositors, every member of our team is obsessed with one thing: making audiences feel something. We do not just build pretty pixels, we build worlds people want to live in.",
+    "p3": "We partner with indie creators, AAA studios, and global brands to deliver work that punches above its weight, hits deadlines without compromise, and looks like it cost twice the budget.",
+    "valuesLabel": "Core Values",
+    "valuesTitle": "WHAT DRIVES US",
     "values": {
       "imagination": {
-        "title": "Fantasien først",
-        "desc": "Hvert projekt starter med en dristig idé og et blankt lærred."
+        "title": "Imagination First",
+        "desc": "Every project starts with a bold idea and a blank canvas."
       },
       "craft": {
-        "title": "Håndværksbesatte",
-        "desc": "Frame for frame, pixel for pixel, kvalitet er ikke til forhandling."
+        "title": "Craft Obsessed",
+        "desc": "Frame by frame, pixel by pixel, quality is non negotiable."
       },
       "energy": {
-        "title": "Filmisk energi",
-        "desc": "Vi jagter gåsehuden. Hvis det ikke rører os, finpudser vi."
+        "title": "Cinematic Energy",
+        "desc": "We chase the goosebumps. If it doesn't move us, we refine."
       },
       "story": {
-        "title": "Historiedrevne",
-        "desc": "Teknik tjener historien. Altid."
+        "title": "Story Driven",
+        "desc": "Tech serves story. Always."
       }
     },
     "stats": {
-      "projects": "Leverede projekter",
-      "clients": "Globale kunder",
-      "awards": "Vundne priser",
-      "years": "År med håndværk"
+      "projects": "Projects Shipped",
+      "clients": "Global Clients",
+      "awards": "Awards Won",
+      "years": "Years Crafting"
     }
   },
   "contactPage": {
     "metaTitle": "Kontakt | Starlights Visuals",
-    "metaDescription": "Kontakt Starlights Visuals om spiludvikling, 2D- og 3D animation, motion graphics, VFX og filmiske trailerprojekter.",
+    "metaDescription": "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
     "label": "Lad os tale",
     "title": "KONTAKT",
     "subtitle": "Produktionsforespørgsler, samarbejder eller bare hej, send os et signal.",
@@ -270,20 +266,19 @@
     "responseTime": "SVARTID",
     "responseDesc": "Inden for 24 timer, man, fre.",
     "projectTypes": {
-      "game": "Spiludvikling",
-      "2d": "2D animation",
-      "3d": "3D animation",
+      "2d": "2D Animation",
+      "3d": "3D Animation",
       "trailer": "Cinematic Trailer",
-      "character": "Karakterdesign",
+      "character": "Character Design",
       "motion": "Motion Graphics and VFX",
-      "other": "Andet"
+      "other": "Other"
     },
     "sending": "Sending…",
     "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "Portfolio | Starlights Visuals",
-    "metaDescription": "Udvalgte projekter: animerede serier, spiltrailers, karakterdesign og studio showreels af Starlights Visuals.",
+    "metaDescription": "Selected projects: animated series, cinematic trailers, character designs, and studio showcase reels by Starlights Visuals.",
     "label": "Udvalgt arbejde",
     "title1": "PORT",
     "title2": "FOLIO",
@@ -292,38 +287,38 @@
       "trailer": {
         "tag": "Cinematic Trailer",
         "title": "Iron Sentinel",
-        "desc": "AAA spil launch trailer."
+        "desc": "Cinematic brand launch trailer."
       },
       "character": {
-        "tag": "Karakterdesign",
+        "tag": "Character Design",
         "title": "Nova Vanguard",
-        "desc": "Hovedkarakter sheet."
-      },
-      "game": {
-        "tag": "Game Art",
-        "title": "Lumen Worlds",
-        "desc": "Open world miljøkunst."
+        "desc": "Hero protagonist sheet."
       },
       "2d": {
-        "tag": "2D animation",
+        "tag": "2D Animation",
         "title": "Neon Skyline",
-        "desc": "Anime inspireret pilotafsnit."
+        "desc": "Anime inspired pilot episode."
       },
       "creature": {
-        "tag": "Væsendesign",
+        "tag": "Creature Design",
         "title": "Crystal Wyrm",
-        "desc": "Boss væsen koncept."
+        "desc": "Boss creature concept."
       },
       "motion": {
         "tag": "Motion Graphics",
         "title": "Pulse Identity",
         "desc": "Brand motion system."
+      },
+      "motionEnv": {
+        "tag": "Motion Graphics",
+        "title": "Pulse Worlds",
+        "desc": "Immersive brand environment art."
       }
     }
   },
   "blogPage": {
     "metaTitle": "Blog | Starlights Visuals",
-    "metaDescription": "Indsigt i animation, VFX, game art, filmiske trailers og premium storytelling fra Starlights Visuals.",
+    "metaDescription": "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
     "label": "Studiojournal",
     "title1": "STUDIO",
     "title2": "BLOG",
@@ -333,50 +328,50 @@
     "startProject": "Start et projekt",
     "moreFromJournal": "Mere fra journalen",
     "postBody1": "Hos Starlights Visuals behandler vi hver frame som en konverteringsmulighed, ikke bare et smukt billede. Denne artikel uddyber tankerne bag vores {{category}}-arbejde og beslutningerne, der adskiller godt kreativt fra launch klart.",
-    "postBody2": "Uanset om du lancerer en trailer, skalerer et brand motion system eller bygger game art til et live produkt, gælder samme princip: tydelig historie først, polish derefter og nådesløs redigering til sidst. Den disciplin er, hvordan teams når deadlines uden følelsen af ”næsten der”.",
+    "postBody2": "Whether you are shipping a trailer, scaling a brand motion system, or building campaign visuals for a live product, the same principle applies: clarity of story first, polish second, and ruthless editing last. That discipline is how teams hit deadlines without the almost there feeling.",
     "postBody3": "Vil du anvende denne tankegang på dit næste projekt? Vi vil gerne høre, hvad du bygger, send en brief, så kortlægger vi en filmisk vej fra koncept til levering.",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "Hvorfor filmiske trailers konverterer bedre end produktdemos",
-        "excerpt": "Historiedrevne launch film bygger emotionelle indsatser før CTA. Sådan strukturerer vi hooks, pacing og grade for maksimal retention.",
-        "category": "Strategi",
-        "date": "12. maj 2026",
-        "readTime": "6 min læsning"
+        "title": "Why cinematic trailers convert better than product demos",
+        "excerpt": "Story first launch films build emotional stakes before the CTA. Here is how we structure hooks, pacing, and grade for maximum retention.",
+        "category": "Strategy",
+        "date": "May 12, 2026",
+        "readTime": "6 min read"
       },
       "character-design-for-ip": {
-        "title": "Karakterdesign, der forankrer dit IP på tværs af alle kanaler",
-        "excerpt": "Fra silhuetlæsbarhed til merch klare turnarounds, checklisten, vi bruger, før en helt går i produktion.",
-        "category": "Håndværk",
-        "date": "3. maj 2026",
-        "readTime": "5 min læsning"
-      },
-      "game-art-pipeline": {
-        "title": "Inde i vores game art pipeline: fra koncept til leverede assets",
-        "excerpt": "Sådan aligner vi art direction, tekniske begrænsninger og milestone reviews, så teams leverer til tiden uden at ofre polish.",
-        "category": "Produktion",
-        "date": "21. apr. 2026",
-        "readTime": "8 min læsning"
+        "title": "Character design that anchors your IP across every channel",
+        "excerpt": "From silhouette readability to merch ready turnarounds, the checklist we use before a hero goes into production.",
+        "category": "Craft",
+        "date": "May 3, 2026",
+        "readTime": "5 min read"
       },
       "motion-systems-for-brands": {
-        "title": "Bygge motion systems, brands faktisk kan genbruge",
-        "excerpt": "Modulære motion biblioteker, logo stings og UI mikrointeraktioner, der holder kampagner konsistente i skala.",
+        "title": "Building motion systems brands can actually reuse",
+        "excerpt": "Modular motion libraries, logo stings, and UI micro interactions that keep campaigns consistent at scale.",
         "category": "Motion",
-        "date": "8. apr. 2026",
-        "readTime": "4 min læsning"
+        "date": "Apr 8, 2026",
+        "readTime": "4 min read"
       },
       "2d-animation-in-2026": {
-        "title": "2D animation i 2026: hybride pipelines, der stadig føles håndlavet",
-        "excerpt": "Kombiner rigget effektivitet med frame by frame accenter, hvornår man skal presse hver teknik for premiumresultater.",
+        "title": "2D animation in 2026: hybrid pipelines that still feel handmade",
+        "excerpt": "Combining rigged efficiency with frame by frame accents, when to push each technique for premium results.",
         "category": "Animation",
-        "date": "29. mar. 2026",
-        "readTime": "7 min læsning"
+        "date": "Mar 29, 2026",
+        "readTime": "7 min read"
       },
       "creature-design-breakdown": {
-        "title": "Væsendesign breakdown: fra mood board til final rig",
-        "excerpt": "Et kig på, hvordan vi udvikler boss væsener med læsbare silhuetter, materialfortælling og filmisk tilstedeværelse.",
-        "category": "Håndværk",
-        "date": "14. mar. 2026",
-        "readTime": "6 min læsning"
+        "title": "Creature design breakdown: from mood board to final rig",
+        "excerpt": "A look at how we develop boss creatures with readable silhouettes, material storytelling, and cinematic presence.",
+        "category": "Craft",
+        "date": "Mar 14, 2026",
+        "readTime": "6 min read"
+      },
+      "production-pipelines-that-ship": {
+        "title": "Production pipelines that ship: concept to final delivery",
+        "excerpt": "How we align art direction, technical constraints, and milestone reviews so teams ship on time without sacrificing polish.",
+        "category": "Production",
+        "date": "Apr 21, 2026",
+        "readTime": "8 min read"
       }
     }
   },
@@ -393,8 +388,8 @@
     "goHome": "Gå hjem"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals | Spiludvikling & Animation Studio",
-    "rootDescription": "Starlights Visuals er et kreativt studie specialiseret i spiludvikling, filmisk 2D animation og højkvalitativ 3D animation.",
+    "rootTitle": "Starlights Visuals | Animation & VFX Studio",
+    "rootDescription": "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -439,8 +434,8 @@
         "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
       },
       "motion-graphics": {
-        "title": "Game Environment",
-        "tagline": "Immersive worlds and playable spaces in motion",
+        "title": "Motion Graphics",
+        "tagline": "Design led motion systems for launches and brand worlds",
         "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
       },
       "vfx": {
@@ -459,8 +454,8 @@
         "title": "3D animation"
       },
       "motion-graphics": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "vfx": {
         "tag": "Visuelle effekter (VFX)",
@@ -1364,7 +1359,7 @@
         "items": {
           "01": {
             "question": "Hvilke typer projekter arbejder I på?",
-            "answer": "Vi producerer animation, VFX, game art, cinematics, motion graphics og brandfilm til spil, film, serier, reklamer og DTC-brands. Briefs spænder fra enkelte hero-assets til komplette kampagnepakker."
+            "answer": "We produce animation, VFX, cinematics, motion graphics, product films, and brand films for film, series, advertising, and DTC brands. Briefs range from single hero assets to full campaign packages."
           },
           "02": {
             "question": "Hvor er Starlights Visuals baseret?",
@@ -1381,15 +1376,15 @@
         "items": {
           "01": {
             "question": "Hvilke services tilbyder I?",
-            "answer": "Vores kerneydelser omfatter 2D- og 3D-animation, VFX, character- og concept art, support til spiludvikling, motion graphics og cinematics-trailere. Vi kan håndtere enkelte discipliner eller fuld pipeline-produktion."
+            "answer": "Our core services include 2D and 3D animation, VFX, character and concept art, motion graphics, product animation, and cinematic trailers. We can handle individual disciplines or full pipeline production."
           },
           "02": {
             "question": "Arbejder I med indie-teams og store studier?",
-            "answer": "Ja. Vi samarbejder med indie-creators, mellemstore studier og globale brands. Scope og teamstørrelse tilpasses jeres budget og tidsplan uden at gå på kompromis med kvaliteten."
+            "answer": "Yes. We partner with indie creators, mid size studios, and global brands. Scope and team size flex to match your budget and timeline without compromising craft."
           },
           "03": {
             "question": "Kan I matche vores eksisterende art style?",
-            "answer": "Helt sikkert. Vi starter med style frames og en look-dev fase, der er tilpasset jeres brand guidelines eller spilverden, før vi går i fuld produktion."
+            "answer": "Absolutely. We start with style frames and a look development pass aligned to your brand guidelines or visual world before committing to full production."
           }
         }
       },

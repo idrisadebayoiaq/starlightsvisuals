@@ -14,10 +14,10 @@ export const Route = createFileRoute("/contact")({
       {
         name: "description",
         content:
-          "Get in touch with Starlights Visuals for game development, 2D & 3D animation, motion graphics, VFX and cinematic trailer projects.",
+          "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
       },
       { property: "og:title", content: "Contact Starlights Visuals" },
-      { property: "og:description", content: "Start a project with our game & animation studio." },
+      { property: "og:description", content: "Start a project with our animation & VFX studio." },
     ],
   }),
   component: ContactPage,
@@ -44,7 +44,6 @@ function ContactPage() {
 
   const projectTypes = useMemo(
     () => [
-      t("contactPage.projectTypes.game"),
       t("contactPage.projectTypes.2d"),
       t("contactPage.projectTypes.3d"),
       t("contactPage.projectTypes.trailer"),

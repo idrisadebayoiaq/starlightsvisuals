@@ -13,12 +13,12 @@ export const Route = createFileRoute("/about")({
       {
         name: "description",
         content:
-          "Starlights Visuals is a passionate creative studio specializing in immersive game development, cinematic 2D animation, and high-quality 3D animation experiences.",
+          "Starlights Visuals is a passionate creative studio specializing in cinematic 2D animation, high-quality 3D animation, and VFX.",
       },
       { property: "og:title", content: "About Starlights Visuals" },
       {
         property: "og:description",
-        content: "Meet the creative studio behind cinematic games, 2D & 3D animation.",
+        content: "Meet the creative studio behind cinematic 2D & 3D animation and VFX.",
       },
     ],
   }),

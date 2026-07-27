@@ -15,16 +15,16 @@ import { ArrowRight, ArrowUpRight } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Starlights Visuals | Animation, VFX & Game Art Studio" },
+      { title: "Starlights Visuals | Animation & VFX Studio" },
       {
         name: "description",
         content:
-          "A creative studio for 2D and 3D animation, VFX, and game art. We bring fantasy worlds, characters and cinematics to life.",
+          "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
       },
       { property: "og:title", content: "Starlights Visuals | Animation & VFX Studio" },
       {
         property: "og:description",
-        content: "Animation, VFX, and game art. Worlds, characters, cinematics.",
+        content: "Animation, VFX, and cinematic storytelling. Worlds, characters, cinematics.",
       },
     ],
   }),

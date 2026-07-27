@@ -543,8 +543,8 @@ const rawWorkCategories: WorkCategory[] = [
   },
   {
     slug: "motion-graphics",
-    title: "Game Environment",
-    tagline: "Immersive worlds and playable spaces in motion",
+    title: "Motion Graphics",
+    tagline: "Design led motion systems for launches and brand worlds",
     description:
       "Design led motion systems for launches, dashboards, and brand worlds that scale across channels.",
     coverImage: portfolioMotion,
@@ -1147,7 +1147,7 @@ const showcaseLabels: Record<
 > = {
   "2d-animation": { tag: "2D Animation", title: "2D Animation" },
   "3d-animation": { tag: "3D Animation", title: "3D Animation" },
-  "motion-graphics": { tag: "Game Environment", title: "Game Environment" },
+  "motion-graphics": { tag: "Motion Graphics", title: "Motion Graphics" },
   "video-editing": { tag: "3D", title: "Product Animation" },
   vfx: { tag: "VFX", title: "VFX" },
   branding: { tag: "3D", title: "Industrial Animation" },

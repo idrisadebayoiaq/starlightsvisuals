@@ -45,7 +45,7 @@
     "emailPlaceholder": "your@email.com",
     "join": "구독하기",
     "subscribed": "✦ 환영합니다. Starlights에 오신 것을 환영합니다.",
-    "tagline": "몰입형 게임 개발, 시네마틱 2D 애니메이션, 고품질 3D 경험으로 상상을 현실로 만드는 크리에이티브 스튜디오.",
+    "tagline": "A creative studio bringing imagination to life through cinematic 2D animation, high quality 3D experiences, and VFX.",
     "explore": "탐색",
     "follow": "팔로우",
     "social": "소셜 링크",
@@ -54,41 +54,42 @@
     "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
-    "metaTitle": "Starlights Visuals | 애니메이션 | VFX & 게임 아트 스튜디오",
-    "metaDescription": "2D and 3D 애니메이션, VFX, 게임 아트를 위한 크리에이티브 스튜디오. 판타지 세계, 캐릭터, 시네마틱을 생생하게 구현합니다.",
-    "heroScript": "움직이는 이야기 —",
-    "heroTitle1": "애니메이션",
+    "metaTitle": "Starlights Visuals | Animation & VFX Studio",
+    "metaDescription": "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
+    "heroScript": "Stories in motion,",
+    "heroTitle1": "ANIMATION",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals는 애니메이션과 시각 효과로 이야기에 생명을 불어넣어 관객을 사로잡고 모든 프레임을 한층 끌어올립니다. 판타지 생물, 인간 캐릭터, 차량, 환경, 소품, 하드 서페이스 오브젝트를 애니메이션화합니다 — 영화, 시리즈, 광고, 브랜드 캠페인을 위해.",
-    "heroAlt": "Starlights Visuals 시네마틱 히어로",
-    "seePortfolio": "포트폴리오 보기",
-    "startProject": "프로젝트 시작",
-    "servicesLabel": "우리가 하는 일",
-    "servicesTitle": "서비스",
-    "allServices": "전체 서비스",
-    "showcaseLabel": "최근 작업",
-    "showcaseTitle1": "선별",
-    "showcaseTitle2": "작업",
-    "fullPortfolio": "전체 포트폴리오",
-    "ctaScript": "함께 만들어 봅시다,",
-    "ctaTitle1": "협업할",
-    "ctaTitle2": "준비가 되셨나요?",
+    "heroBody": "Starlights Visuals brings stories to life with animation and visual effects that captivate audiences and elevate every frame. We animate fantasy creatures, human characters, vehicles, environments, props, and hard surface objects for film, series, advertising, and brand campaigns.",
+    "heroAlt": "Starlights Visuals cinematic hero",
+    "seePortfolio": "See Portfolio",
+    "startProject": "Start a Project",
+    "servicesLabel": "What we do",
+    "servicesTitle": "SERVICES",
+    "allServices": "All Services",
+    "showcaseLabel": "Recent work",
+    "showcaseTitle1": "SELECTED",
+    "showcaseTitle2": "WORK",
+    "fullPortfolio": "Full Portfolio",
+    "viewAllFaq": "View all FAQ",
+    "ctaScript": "Let's build something,",
+    "ctaTitle1": "READY TO",
+    "ctaTitle2": "COLLABORATE?",
     "services": {
       "01": {
-        "title": "애니메이션 & VFX",
-        "desc": "게임과 영화를 위한 시네마틱 2D & 3D 애니메이션, 캐릭터 리그, 시각 효과."
+        "title": "Animation & VFX",
+        "desc": "Cinematic 2D & 3D animation, character rigs, and visual effects for film, series, and brands."
       },
       "02": {
-        "title": "게임 개발",
-        "desc": "풀사이클 프로덕션, 컨셉, 아트, 코드, 오디오, 출시."
+        "title": "Product Animation",
+        "desc": "Photoreal product films, packshots, and CGI that make every detail sell."
       },
       "03": {
-        "title": "컨셉 & 캐릭터 아트",
-        "desc": "IP를 뿌리내리게 하는 오리지널 캐릭터, 크리처, 환경, 소품."
+        "title": "Concept & Character Art",
+        "desc": "Original characters, creatures, environments, and props that anchor your IP."
       },
       "04": {
-        "title": "시네마틱 트레일러",
-        "desc": "게임과 프랜차이즈 출시를 위해 제작된 스토리 중심 트레일러."
+        "title": "Cinematic Trailers",
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns."
       }
     },
     "showcase": {
@@ -97,12 +98,12 @@
         "title": "3D Animation"
       },
       "gameArt": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "animation2d": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "2D Animation",
+        "title": "2D Animation"
       },
       "cinematic": {
         "tag": "VFX",
@@ -116,8 +117,7 @@
         "tag": "3D",
         "title": "Product Animation"
       }
-    },
-    "viewAllFaq": "View all FAQ"
+    }
   },
   "trustedBy": {
     "badge": "200+ COMPANY",
@@ -172,86 +172,82 @@
     "writeYours": "Write yours"
   },
   "servicesPage": {
-    "metaTitle": "서비스 | Starlights Visuals",
-    "metaDescription": "2D 애니메이션, 3D 애니메이션, 게임 개발, 캐릭터 디자인, 모션 그래픽, VFX, 시네마틱 트레일러.",
-    "label": "우리가 만드는 것",
-    "title": "서비스",
-    "subtitle": "하나의 스튜디오, 첫 스케치부터 마지막 픽셀까지 모든 프로덕션 단계.",
-    "ctaTitle1": "마음에",
-    "ctaTitle2": "프로젝트가",
-    "ctaTitle3": "있으신가요?",
-    "ctaDesc": "비전을 알려주세요, 우리가 화력을 더하겠습니다.",
-    "ctaButton": "문의하기",
+    "metaTitle": "Services | Starlights Visuals",
+    "metaDescription": "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
+    "label": "What We Build",
+    "title": "SERVICES",
+    "subtitle": "One studio, every stage of production, from first sketch to final pixel.",
+    "ctaTitle1": "HAVE A",
+    "ctaTitle2": "PROJECT",
+    "ctaTitle3": "IN MIND?",
+    "ctaDesc": "Tell us your vision, we'll bring the firepower.",
+    "ctaButton": "Get In Touch",
     "items": {
       "2d": {
-        "title": "2D 애니메이션",
-        "desc": "시리즈, 단편, 설명 영상, 게임을 위한 프레임별 & 리그 2D. 클래식 장인정신과 디지털 파이프라인을 결합합니다."
+        "title": "2D Animation",
+        "desc": "Frame by frame & rigged 2D for series, shorts, explainers, and brand films. We blend classic craft with digital pipelines."
       },
       "3d": {
-        "title": "3D 애니메이션",
-        "desc": "스타일라이즈드 및 포토리얼 3D, 캐릭터, 환경, 피처 퀄리티의 완성도를 갖춘 풀 시네마틱 시퀀스."
-      },
-      "game": {
-        "title": "게임 개발",
-        "desc": "엔드투엔드 게임 프로덕션: 컨셉, 아트, 코드, 오디오, 런치. Unreal, Unity, 커스텀 파이프라인."
+        "title": "3D Animation",
+        "desc": "Stylized and photoreal 3D, characters, environments, and full cinematic sequences with feature quality polish."
       },
       "character": {
-        "title": "캐릭터 디자인",
-        "desc": "IP와 머천다이즈 잠재력을 뿌리내리게 하는 오리지널 캐릭터, 크리처, 컨셉 아트."
+        "title": "Character Design",
+        "desc": "Original characters, creatures, and concept art that anchor your IP and merch potential."
       },
       "motion": {
-        "title": "모션 그래픽",
-        "desc": "브랜드 모션, UI 애니메이션, 방송 패키지, 시네마틱 터치가 더해진 설명 영상."
+        "title": "Motion Graphics",
+        "desc": "Branded motion, UI animation, broadcast packages, and explainer videos with cinematic polish."
       },
       "vfx": {
-        "title": "시각 효과 (VFX)",
-        "desc": "게임, 영화, 디지털 캠페인을 위한 컴포지팅, 파티클 FX, CG 통합."
+        "title": "Visual Effects (VFX)",
+        "desc": "Compositing, particle FX, and CG integration for film, advertising, and digital campaigns."
       },
       "trailer": {
-        "title": "시네마틱 트레일러",
-        "desc": "게임, IP, 브랜드를 최대 임팩트로 출시하기 위해 제작된 스토리 중심 트레일러."
+        "title": "Cinematic Trailers",
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns with maximum impact."
       }
     }
   },
   "aboutPage": {
-    "metaTitle": "소개 | Starlights Visuals",
-    "metaDescription": "Starlights Visuals는 몰입형 게임 개발, 시네마틱 2D 애니메이션, 고품질 3D 애니메이션 경험에 특화된 열정적인 크리에이티브 스튜디오입니다.",
-    "label": "우리는 누구인가",
-    "title1": "빛, 코드, 스토리 위에",
-    "title2": "세워진 스튜디오",
-    "p1": "Starlights Visuals는 게임, 애니메이션, 시네마틱 스토리텔링이 교차하는 지점에 있는 열정적인 크리에이티브 스튜디오입니다. 광활한 오픈월드 게임, 수작업 2D 시리즈, 포토리얼 3D 트레일러, 상상을 현실로 만드는 것이 우리의 존재 이유입니다.",
-    "p2": "컨셉 아티스트와 3D 스컬프터부터 게임플레이 엔지니어와 모션 디자이너까지, 팀의 모든 구성원은 한 가지에 집착합니다: 관객이 무언가를 느끼게 만드는 것. 우리는 예쁜 픽셀만 만드는 것이 아닙니다, 사람들이 살고 싶어 하는 세계를 만듭니다.",
-    "p3": "인디 크리에이터, AAA 스튜디오, 글로벌 브랜드와 파트너십을 맺어 규모 이상의 임팩트, 타협 없는 데드라인 준수, 예산의 두 배로 보이는 작업을 전달합니다.",
-    "valuesLabel": "핵심 가치",
-    "valuesTitle": "우리를 움직이는 것",
+    "metaTitle": "About | Starlights Visuals",
+    "metaDescription": "Starlights Visuals is a passionate creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
+    "label": "Who We Are",
+    "title1": "A STUDIO BUILT ON",
+    "title2": "LIGHT, CODE & STORY",
+    "p1": "Starlights Visuals is a passionate creative studio at the intersection of animation, VFX, and cinematic storytelling. We exist to bring imagination to life, whether that is a hand crafted 2D series, a photoreal 3D trailer, or a brand campaign that needs to feel premium.",
+    "p2": "From our concept artists and 3D sculptors to our motion designers and compositors, every member of our team is obsessed with one thing: making audiences feel something. We do not just build pretty pixels, we build worlds people want to live in.",
+    "p3": "We partner with indie creators, AAA studios, and global brands to deliver work that punches above its weight, hits deadlines without compromise, and looks like it cost twice the budget.",
+    "valuesLabel": "Core Values",
+    "valuesTitle": "WHAT DRIVES US",
     "values": {
       "imagination": {
-        "title": "상상력 우선",
-        "desc": "모든 프로젝트는 대담한 아이디어와 빈 캔버스에서 시작됩니다."
+        "title": "Imagination First",
+        "desc": "Every project starts with a bold idea and a blank canvas."
       },
       "craft": {
-        "title": "장인정신 집착",
-        "desc": "프레임 하나, 픽셀 하나, 퀄리티는 타협할 수 없습니다."
+        "title": "Craft Obsessed",
+        "desc": "Frame by frame, pixel by pixel, quality is non negotiable."
       },
       "energy": {
-        "title": "시네마틱 에너지",
-        "desc": "소름돋는 순간을 추구합니다. 감동이 없으면 다듬습니다."
+        "title": "Cinematic Energy",
+        "desc": "We chase the goosebumps. If it doesn't move us, we refine."
       },
       "story": {
-        "title": "스토리 중심",
-        "desc": "기술은 항상 스토리를 위해 존재합니다."
+        "title": "Story Driven",
+        "desc": "Tech serves story. Always."
       }
     },
     "stats": {
-      "projects": "완료 프로젝트",
-      "clients": "글로벌 클라이언트",
-      "awards": "수상 경력",
-      "years": "장인정신의 세월"
+      "projects": "Projects Shipped",
+      "clients": "Global Clients",
+      "awards": "Awards Won",
+      "years": "Years Crafting"
     }
   },
   "contactPage": {
     "metaTitle": "문의 | Starlights Visuals",
-    "metaDescription": "게임 개발, 2D & 3D 애니메이션, 모션 그래픽, VFX, 시네마틱 트레일러 프로젝트는 Starlights Visuals에 문의하세요.",
+    "metaDescription": "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
     "label": "대화해요",
     "title": "문의",
     "subtitle": "프로덕션 문의, 협업, 또는 인사, 신호를 보내주세요.",
@@ -270,60 +266,59 @@
     "responseTime": "응답 시간",
     "responseDesc": "24시간 이내, 월, 금.",
     "projectTypes": {
-      "game": "게임 개발",
-      "2d": "2D 애니메이션",
-      "3d": "3D 애니메이션",
-      "trailer": "시네마틱 트레일러",
-      "character": "캐릭터 디자인",
-      "motion": "모션 그래픽 and VFX",
-      "other": "기타"
+      "2d": "2D Animation",
+      "3d": "3D Animation",
+      "trailer": "Cinematic Trailer",
+      "character": "Character Design",
+      "motion": "Motion Graphics and VFX",
+      "other": "Other"
     },
     "sending": "Sending…",
     "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "포트폴리오 | Starlights Visuals",
-    "metaDescription": "선별 프로젝트: 애니메이션 시리즈, 게임 트레일러, 캐릭터 디자인, Starlights Visuals 스튜디오 쇼릴.",
+    "metaDescription": "Selected projects: animated series, cinematic trailers, character designs, and studio showcase reels by Starlights Visuals.",
     "label": "선별 작업",
     "title1": "포트",
     "title2": "폴리오",
     "subtitle": "우리가 함께 생명을 불어넣은 세계, 캐릭터, 스토리의 한눈에 보기.",
     "projects": {
       "trailer": {
-        "tag": "시네마틱 트레일러",
+        "tag": "Cinematic Trailer",
         "title": "Iron Sentinel",
-        "desc": "AAA 게임 런치 트레일러."
+        "desc": "Cinematic brand launch trailer."
       },
       "character": {
-        "tag": "캐릭터 디자인",
+        "tag": "Character Design",
         "title": "Nova Vanguard",
-        "desc": "히어로 주인공 시트."
-      },
-      "game": {
-        "tag": "게임 아트",
-        "title": "Lumen Worlds",
-        "desc": "오픈월드 환경 아트."
+        "desc": "Hero protagonist sheet."
       },
       "2d": {
-        "tag": "2D 애니메이션",
+        "tag": "2D Animation",
         "title": "Neon Skyline",
-        "desc": "애니메이션 영감 파일럿 에피소드."
+        "desc": "Anime inspired pilot episode."
       },
       "creature": {
-        "tag": "크리처 디자인",
+        "tag": "Creature Design",
         "title": "Crystal Wyrm",
-        "desc": "보스 크리처 컨셉."
+        "desc": "Boss creature concept."
       },
       "motion": {
-        "tag": "모션 그래픽",
+        "tag": "Motion Graphics",
         "title": "Pulse Identity",
-        "desc": "브랜드 모션 시스템."
+        "desc": "Brand motion system."
+      },
+      "motionEnv": {
+        "tag": "Motion Graphics",
+        "title": "Pulse Worlds",
+        "desc": "Immersive brand environment art."
       }
     }
   },
   "blogPage": {
     "metaTitle": "블로그 | Starlights Visuals",
-    "metaDescription": "Starlights Visuals의 애니메이션, VFX, 게임 아트, 시네마틱 트레일러, 프리미엄 브랜드 스토리텔링 인사이트.",
+    "metaDescription": "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
     "label": "스튜디오 저널",
     "title1": "더",
     "title2": "블로그",
@@ -333,50 +328,50 @@
     "startProject": "프로젝트 시작",
     "moreFromJournal": "저널 더 보기",
     "postBody1": "Starlights Visuals에서는 모든 프레임을 아름다운 이미지가 아닌 전환 기회로 대합니다. 이 글은 {{category}} 작업 뒤의 사고와 좋은 크리에이티브와 런치 준비 크리에이티브를 가르는 결정을 확장합니다.",
-    "postBody2": "트레일러를 출시하든, 브랜드 모션 시스템을 확장하든, 라이브 제품을 위한 게임 아트를 구축하든 같은 원칙이 적용됩니다: 스토리의 명확성 우선, 폴리시 두 번째, 냉정한 편집 마지막. 이 훈련이 팀이 '거의 다 됐다'는 느낌 없이 데드라인을 맞추는 방법입니다.",
+    "postBody2": "Whether you are shipping a trailer, scaling a brand motion system, or building campaign visuals for a live product, the same principle applies: clarity of story first, polish second, and ruthless editing last. That discipline is how teams hit deadlines without the almost there feeling.",
     "postBody3": "다음 프로젝트에 이 사고를 적용하고 싶으신가요? 무엇을 만들고 계신지 듣고 싶습니다, 브리프를 보내주시면 컨셉부터 딜리버리까지 시네마틱 경로를 설계하겠습니다.",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "시네마틱 트레일러가 제품 데모보다 전환율이 높은 이유",
-        "excerpt": "스토리 우선 런치 필름은 CTA 전에 감정적 판돈을 쌓습니다. 최대 리텐션을 위한 훅, 페이싱, 그레이딩 구조.",
-        "category": "전략",
-        "date": "2026년 5월 12일",
-        "readTime": "6분 읽기"
+        "title": "Why cinematic trailers convert better than product demos",
+        "excerpt": "Story first launch films build emotional stakes before the CTA. Here is how we structure hooks, pacing, and grade for maximum retention.",
+        "category": "Strategy",
+        "date": "May 12, 2026",
+        "readTime": "6 min read"
       },
       "character-design-for-ip": {
-        "title": "모든 채널에서 IP를 뿌리내리게 하는 캐릭터 디자인",
-        "excerpt": "실루엣 가독성부터 머천다이즈 준비 턴어라운드까지, 히어로가 프로덕션에 들어가기 전 우리가 사용하는 체크리스트.",
-        "category": "장인정신",
-        "date": "2026년 5월 3일",
-        "readTime": "5분 읽기"
-      },
-      "game-art-pipeline": {
-        "title": "게임 아트 파이프라인 내부: 컨셉부터 출시 에셋까지",
-        "excerpt": "아트 디렉션, 기술 제약, 마일스톤 리뷰를 정렬하여 팀이 폴리시를 희생하지 않고 제때 출시하는 방법.",
-        "category": "프로덕션",
-        "date": "2026년 4월 21일",
-        "readTime": "8분 읽기"
+        "title": "Character design that anchors your IP across every channel",
+        "excerpt": "From silhouette readability to merch ready turnarounds, the checklist we use before a hero goes into production.",
+        "category": "Craft",
+        "date": "May 3, 2026",
+        "readTime": "5 min read"
       },
       "motion-systems-for-brands": {
-        "title": "브랜드가 실제로 재사용할 수 있는 모션 시스템 구축",
-        "excerpt": "모듈형 모션 라이브러리, 로고 스팅, UI 마이크로 인터랙션으로 대규모 캠페인 일관성 유지.",
-        "category": "모션",
-        "date": "2026년 4월 8일",
-        "readTime": "4분 읽기"
+        "title": "Building motion systems brands can actually reuse",
+        "excerpt": "Modular motion libraries, logo stings, and UI micro interactions that keep campaigns consistent at scale.",
+        "category": "Motion",
+        "date": "Apr 8, 2026",
+        "readTime": "4 min read"
       },
       "2d-animation-in-2026": {
-        "title": "2026년 2D 애니메이션: 여전히 수작업 느낌의 하이브리드 파이프라인",
-        "excerpt": "리그 효율성과 프레임별 액센트 결합, 프리미엄 결과를 위해 각 기법을 언제 밀어붙일지.",
-        "category": "애니메이션",
-        "date": "2026년 3월 29일",
-        "readTime": "7분 읽기"
+        "title": "2D animation in 2026: hybrid pipelines that still feel handmade",
+        "excerpt": "Combining rigged efficiency with frame by frame accents, when to push each technique for premium results.",
+        "category": "Animation",
+        "date": "Mar 29, 2026",
+        "readTime": "7 min read"
       },
       "creature-design-breakdown": {
-        "title": "크리처 디자인 분석: 무드보드부터 최종 리그까지",
-        "excerpt": "가독성 있는 실루엣, 머티리얼 스토리텔링, 시네마틱 존재감을 갖춘 보스 크리처 개발 방법.",
-        "category": "장인정신",
-        "date": "2026년 3월 14일",
-        "readTime": "6분 읽기"
+        "title": "Creature design breakdown: from mood board to final rig",
+        "excerpt": "A look at how we develop boss creatures with readable silhouettes, material storytelling, and cinematic presence.",
+        "category": "Craft",
+        "date": "Mar 14, 2026",
+        "readTime": "6 min read"
+      },
+      "production-pipelines-that-ship": {
+        "title": "Production pipelines that ship: concept to final delivery",
+        "excerpt": "How we align art direction, technical constraints, and milestone reviews so teams ship on time without sacrificing polish.",
+        "category": "Production",
+        "date": "Apr 21, 2026",
+        "readTime": "8 min read"
       }
     }
   },
@@ -393,8 +388,8 @@
     "goHome": "홈으로"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals | 게임 개발 & 애니메이션 스튜디오",
-    "rootDescription": "Starlights Visuals는 게임 개발, 시네마틱 2D 애니메이션, 고품질 3D 애니메이션에 특화된 크리에이티브 스튜디오입니다.",
+    "rootTitle": "Starlights Visuals | Animation & VFX Studio",
+    "rootDescription": "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -439,8 +434,8 @@
         "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
       },
       "motion-graphics": {
-        "title": "Game Environment",
-        "tagline": "Immersive worlds and playable spaces in motion",
+        "title": "Motion Graphics",
+        "tagline": "Design led motion systems for launches and brand worlds",
         "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
       },
       "vfx": {
@@ -459,8 +454,8 @@
         "title": "3D 애니메이션"
       },
       "motion-graphics": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "vfx": {
         "tag": "시각 효과 (VFX)",
@@ -1364,7 +1359,7 @@
         "items": {
           "01": {
             "question": "어떤 유형의 프로젝트를 진행하나요?",
-            "answer": "게임, 영화, 시리즈, 광고, DTC 브랜드를 위해 애니메이션, VFX, 게임 아트, 시네마틱, 모션 그래픽, 브랜드 필름을 제작합니다. 단일 히어로 에셋부터 전체 캠페인 패키지까지 대응합니다."
+            "answer": "We produce animation, VFX, cinematics, motion graphics, product films, and brand films for film, series, advertising, and DTC brands. Briefs range from single hero assets to full campaign packages."
           },
           "02": {
             "question": "Starlights Visuals는 어디에 기반을 두고 있나요?",
@@ -1381,15 +1376,15 @@
         "items": {
           "01": {
             "question": "어떤 서비스를 제공하나요?",
-            "answer": "핵심 서비스는 2D/3D 애니메이션, VFX, 캐릭터 및 컨셉 아트, 게임 개발 지원, 모션 그래픽, 시네마틱 트레일러입니다. 개별 분야 수행부터 전체 파이프라인 제작까지 가능합니다."
+            "answer": "Our core services include 2D and 3D animation, VFX, character and concept art, motion graphics, product animation, and cinematic trailers. We can handle individual disciplines or full pipeline production."
           },
           "02": {
             "question": "인디 팀과 대형 스튜디오 모두와 작업하나요?",
-            "answer": "네. 인디 크리에이터, 중형 스튜디오, 글로벌 브랜드와 협업합니다. 완성도를 유지하면서 예산과 일정에 맞춰 범위와 팀 규모를 유연하게 조정합니다."
+            "answer": "Yes. We partner with indie creators, mid size studios, and global brands. Scope and team size flex to match your budget and timeline without compromising craft."
           },
           "03": {
             "question": "기존 아트 스타일에 맞춰 제작할 수 있나요?",
-            "answer": "물론입니다. 본 제작에 들어가기 전에 브랜드 가이드라인 또는 게임 월드에 맞춘 스타일 프레임과 룩디브 단계를 먼저 진행합니다."
+            "answer": "Absolutely. We start with style frames and a look development pass aligned to your brand guidelines or visual world before committing to full production."
           }
         }
       },

@@ -45,7 +45,7 @@
     "emailPlaceholder": "your@email.com",
     "join": "สมัคร",
     "subscribed": "✦ ยินดีต้อนรับสู่ Starlights",
-    "tagline": "สตูดิโอครีเอทีฟที่เปลี่ยนจินตนาการให้เป็นจริงผ่านการพัฒนาเกมเชิงดื่นด่ำ แอนิเมชัน 2D แบบภาพยนตร์ และประสบการณ์ 3D คุณภาพสูง",
+    "tagline": "A creative studio bringing imagination to life through cinematic 2D animation, high quality 3D experiences, and VFX.",
     "explore": "สำรวจ",
     "follow": "ติดตาม",
     "social": "ลิงก์โซเชียล",
@@ -54,41 +54,42 @@
     "subscribeError": "Could not subscribe right now. Please try again or email us directly."
   },
   "home": {
-    "metaTitle": "Starlights Visuals | สตูดิโอแอนิเมชัน VFX และ Game Art",
-    "metaDescription": "สตูดิโอครีเอทีฟสำหรับแอนิเมชัน 2D and 3D VFX และ game art เราทำให้โลกแฟนตาซี ตัวละคร และซีนภาพยนตร์มีชีวิต",
-    "heroScript": "เรื่องราวที่เคลื่อนไหว —",
-    "heroTitle1": "แอนิเมชัน",
+    "metaTitle": "Starlights Visuals | Animation & VFX Studio",
+    "metaDescription": "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
+    "heroScript": "Stories in motion,",
+    "heroTitle1": "ANIMATION",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals ทำให้เรื่องราวมีชีวิตด้วยแอนิเมชันและวิชวลเอฟเฟกต์ที่ดึงดูดผู้ชมและยกระดับทุกเฟรม เราสร้างแอนิเมชันสิ่งมีชีวิตแฟนตาซี ตัวละครมนุษย์ ยานพาหนะ สภาพแวดล้อม อุปกรณ์ประกอบฉาก และวัตถุ hard-surface — สำหรับภาพยนตร์ ซีรีส์ โฆษณา และแคมเปญแบรนด์",
-    "heroAlt": "Hero ภาพยนตร์ Starlights Visuals",
-    "seePortfolio": "ดูผลงาน",
-    "startProject": "เริ่มโปรเจกต์",
-    "servicesLabel": "สิ่งที่เราทำ",
-    "servicesTitle": "บริการ",
-    "allServices": "บริการทั้งหมด",
-    "showcaseLabel": "ผลงานล่าสุด",
-    "showcaseTitle1": "ผลงาน",
-    "showcaseTitle2": "คัดสรร",
-    "fullPortfolio": "ผลงานทั้งหมด",
-    "ctaScript": "มาสร้างสิ่งใหม่กัน,",
-    "ctaTitle1": "พร้อม",
-    "ctaTitle2": "ร่วมงานไหม?",
+    "heroBody": "Starlights Visuals brings stories to life with animation and visual effects that captivate audiences and elevate every frame. We animate fantasy creatures, human characters, vehicles, environments, props, and hard surface objects for film, series, advertising, and brand campaigns.",
+    "heroAlt": "Starlights Visuals cinematic hero",
+    "seePortfolio": "See Portfolio",
+    "startProject": "Start a Project",
+    "servicesLabel": "What we do",
+    "servicesTitle": "SERVICES",
+    "allServices": "All Services",
+    "showcaseLabel": "Recent work",
+    "showcaseTitle1": "SELECTED",
+    "showcaseTitle2": "WORK",
+    "fullPortfolio": "Full Portfolio",
+    "viewAllFaq": "View all FAQ",
+    "ctaScript": "Let's build something,",
+    "ctaTitle1": "READY TO",
+    "ctaTitle2": "COLLABORATE?",
     "services": {
       "01": {
-        "title": "แอนิเมชัน & VFX",
-        "desc": "แอนิเมชัน 2D & 3D แบบภาพยนตร์ ริกตัวละคร และเอฟเฟกต์ภาพสำหรับเกมและภาพยนตร์"
+        "title": "Animation & VFX",
+        "desc": "Cinematic 2D & 3D animation, character rigs, and visual effects for film, series, and brands."
       },
       "02": {
-        "title": "พัฒนาเกม",
-        "desc": "โปรดักชันเต็มวงจร, คอนเซปต์ อาร์ต โค้ด เสียง ปล่อยงาน"
+        "title": "Product Animation",
+        "desc": "Photoreal product films, packshots, and CGI that make every detail sell."
       },
       "03": {
-        "title": "คอนเซปต์ & Character Art",
-        "desc": "ตัวละคร สิ่งมีชีวิต สภาพแวดล้อม และอุปกรณ์ต้นฉบับที่ยึด IP ของคุณ"
+        "title": "Concept & Character Art",
+        "desc": "Original characters, creatures, environments, and props that anchor your IP."
       },
       "04": {
-        "title": "ตัวอย่างภาพยนตร์",
-        "desc": "ตัวอย่างที่ขับเคลื่อนด้วยเรื่องราว ออกแบบเพื่อเปิดตัวเกมและแฟรนไชส์"
+        "title": "Cinematic Trailers",
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns."
       }
     },
     "showcase": {
@@ -97,12 +98,12 @@
         "title": "3D Animation"
       },
       "gameArt": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "animation2d": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "2D Animation",
+        "title": "2D Animation"
       },
       "cinematic": {
         "tag": "VFX",
@@ -116,8 +117,7 @@
         "tag": "3D",
         "title": "Product Animation"
       }
-    },
-    "viewAllFaq": "View all FAQ"
+    }
   },
   "trustedBy": {
     "badge": "200+ COMPANY",
@@ -172,86 +172,82 @@
     "writeYours": "Write yours"
   },
   "servicesPage": {
-    "metaTitle": "บริการ | Starlights Visuals",
-    "metaDescription": "แอนิเมชัน 2D แอนิเมชัน 3D พัฒนาเกม ออกแบบตัวละคร motion graphics VFX และตัวอย่างภาพยนตร์",
-    "label": "สิ่งที่เราสร้าง",
-    "title": "บริการ",
-    "subtitle": "หนึ่งสตูดิโอ ครบทุกขั้นตอนโปรดักชัน, จากสเก็ตช์แรกถึงพิกเซลสุดท้าย",
-    "ctaTitle1": "มี",
-    "ctaTitle2": "โปรเจกต์",
-    "ctaTitle3": "ในใจไหม?",
-    "ctaDesc": "บอกวิสัยทัศน์ของคุณ, เราจัดเตรียมพลังให้",
-    "ctaButton": "ติดต่อเรา",
+    "metaTitle": "Services | Starlights Visuals",
+    "metaDescription": "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
+    "label": "What We Build",
+    "title": "SERVICES",
+    "subtitle": "One studio, every stage of production, from first sketch to final pixel.",
+    "ctaTitle1": "HAVE A",
+    "ctaTitle2": "PROJECT",
+    "ctaTitle3": "IN MIND?",
+    "ctaDesc": "Tell us your vision, we'll bring the firepower.",
+    "ctaButton": "Get In Touch",
     "items": {
       "2d": {
-        "title": "แอนิเมชัน 2D",
-        "desc": "2D ทีละเฟรมและ rigged สำหรับซีรีส์ หนังสั้น explainer และเกม ผสมผสานงานฝีมือคลาสสิกกับ pipeline ดิจิทัล"
+        "title": "2D Animation",
+        "desc": "Frame by frame & rigged 2D for series, shorts, explainers, and brand films. We blend classic craft with digital pipelines."
       },
       "3d": {
-        "title": "แอนิเมชัน 3D",
-        "desc": "3D สไตล์และ photoreal, ตัวละคร สภาพแวดล้อม และลำดับภาพยนตร์เต็มรูปแบบพร้อม polish ระดับ feature"
-      },
-      "game": {
-        "title": "พัฒนาเกม",
-        "desc": "โปรดักชันเกมครบวงจร: คอนเซปต์ อาร์ต โค้ด เสียง และเปิดตัว Unreal Unity และ pipeline กำหนดเอง"
+        "title": "3D Animation",
+        "desc": "Stylized and photoreal 3D, characters, environments, and full cinematic sequences with feature quality polish."
       },
       "character": {
-        "title": "ออกแบบตัวละคร",
-        "desc": "ตัวละคร สิ่งมีชีวิต และ concept art ต้นฉบับที่ยึด IP และศักยภาพ merch ของคุณ"
+        "title": "Character Design",
+        "desc": "Original characters, creatures, and concept art that anchor your IP and merch potential."
       },
       "motion": {
         "title": "Motion Graphics",
-        "desc": "Motion แบรนด์ แอนิเมชัน UI แพ็กเกจ broadcast และวิดีโอ explainer พร้อม polish แบบภาพยนตร์"
+        "desc": "Branded motion, UI animation, broadcast packages, and explainer videos with cinematic polish."
       },
       "vfx": {
         "title": "Visual Effects (VFX)",
-        "desc": "Compositing particle FX และการผสาน CG สำหรับเกม ภาพยนตร์ และแคมเปญดิจิทัล"
+        "desc": "Compositing, particle FX, and CG integration for film, advertising, and digital campaigns."
       },
       "trailer": {
-        "title": "ตัวอย่างภาพยนตร์",
-        "desc": "ตัวอย่างที่ขับเคลื่อนด้วยเรื่องราว เพื่อเปิดตัวเกม IP และแบรนด์ด้วยผลกระทบสูงสุด"
+        "title": "Cinematic Trailers",
+        "desc": "Story driven trailers built to launch brands, IPs, and campaigns with maximum impact."
       }
     }
   },
   "aboutPage": {
-    "metaTitle": "เกี่ยวกับเรา | Starlights Visuals",
-    "metaDescription": "Starlights Visuals คือสตูดิโอครีเอทีฟที่หลงใหล เชี่ยวชาญการพัฒนาเกมเชิงดื่นด่ำ แอนิเมชัน 2D แบบภาพยนตร์ และแอนิเมชัน 3D คุณภาพสูง",
-    "label": "เราเป็นใคร",
-    "title1": "สตูดิโอที่สร้างจาก",
-    "title2": "แสง โค้ด และเรื่องราว",
-    "p1": "Starlights Visuals คือสตูดิโอครีเอทีฟที่หลงใหล อยู่ที่จุดตัดของเกม แอนิเมชัน และการเล่าเรื่องแบบภาพยนตร์ เรามีอยู่เพื่อทำให้จินตนาการเป็นจริง, ไม่ว่าจะเป็นเกม open world ขนาดใหญ่ ซีรีส์ 2D ที่ทำด้วยมือ หรือตัวอย่าง 3D แบบ photoreal",
-    "p2": "จาก concept artist และ 3D sculptor ไปจนถึง gameplay engineer และ motion designer สมาชิกทุกคนในทีมหมกมุ่นกับสิ่งเดียว: ทำให้ผู้ชมรู้สึกอะไรบางอย่าง เราไม่ได้แค่สร้างพิกเซลสวย, เราสร้างโลกที่คนอยากอยู่",
-    "p3": "เราร่วมงานกับครีเอเตอร์อินดี้ สตูดิโอ AAA และแบรนด์ระดับโลก เพื่อส่งมอบงานที่ทรงพลังเกินขนาด ตรงเวลาโดยไม่ลดคุณภาพ และดูเหมือนใช้งบสองเท่า",
-    "valuesLabel": "คุณค่าหลัก",
-    "valuesTitle": "สิ่งที่ขับเคลื่อนเรา",
+    "metaTitle": "About | Starlights Visuals",
+    "metaDescription": "Starlights Visuals is a passionate creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
+    "label": "Who We Are",
+    "title1": "A STUDIO BUILT ON",
+    "title2": "LIGHT, CODE & STORY",
+    "p1": "Starlights Visuals is a passionate creative studio at the intersection of animation, VFX, and cinematic storytelling. We exist to bring imagination to life, whether that is a hand crafted 2D series, a photoreal 3D trailer, or a brand campaign that needs to feel premium.",
+    "p2": "From our concept artists and 3D sculptors to our motion designers and compositors, every member of our team is obsessed with one thing: making audiences feel something. We do not just build pretty pixels, we build worlds people want to live in.",
+    "p3": "We partner with indie creators, AAA studios, and global brands to deliver work that punches above its weight, hits deadlines without compromise, and looks like it cost twice the budget.",
+    "valuesLabel": "Core Values",
+    "valuesTitle": "WHAT DRIVES US",
     "values": {
       "imagination": {
-        "title": "จินตนาการมาก่อน",
-        "desc": "ทุกโปรเจกต์เริ่มจากไอเดียกล้าหาญและผืนผ้าใบว่าง"
+        "title": "Imagination First",
+        "desc": "Every project starts with a bold idea and a blank canvas."
       },
       "craft": {
-        "title": "หลงใหลฝีมือ",
-        "desc": "เฟรมต่อเฟรม พิกเซลต่อพิกเซล, คุณภาพไม่มีการต่อรอง"
+        "title": "Craft Obsessed",
+        "desc": "Frame by frame, pixel by pixel, quality is non negotiable."
       },
       "energy": {
-        "title": "พลังแบบภาพยนตร์",
-        "desc": "เราไล่ตามความขนลุก ถ้ายังไม่สะเทือนใจ เราจะ refine ต่อ"
+        "title": "Cinematic Energy",
+        "desc": "We chase the goosebumps. If it doesn't move us, we refine."
       },
       "story": {
-        "title": "ขับเคลื่อนด้วยเรื่องราว",
-        "desc": "เทคโนโลยีอยู่เพื่อเรื่องราว เสมอ"
+        "title": "Story Driven",
+        "desc": "Tech serves story. Always."
       }
     },
     "stats": {
-      "projects": "โปรเจกต์ที่ส่งมอบ",
-      "clients": "ลูกค้าระดับโลก",
-      "awards": "รางวัลที่ได้รับ",
-      "years": "ปีแห่งฝีมือ"
+      "projects": "Projects Shipped",
+      "clients": "Global Clients",
+      "awards": "Awards Won",
+      "years": "Years Crafting"
     }
   },
   "contactPage": {
     "metaTitle": "ติดต่อ | Starlights Visuals",
-    "metaDescription": "ติดต่อ Starlights Visuals สำหรับโปรเจกต์พัฒนาเกม แอนิเมชัน 2D & 3D motion graphics VFX และตัวอย่างภาพยนตร์",
+    "metaDescription": "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
     "label": "มาคุยกัน",
     "title": "ติดต่อ",
     "subtitle": "สอบถามโปรดักชัน ร่วมงาน หรือแค่อยากทักทาย, ส่งสัญญาณมาหาเรา",
@@ -270,60 +266,59 @@
     "responseTime": "เวลาตอบกลับ",
     "responseDesc": "ภายใน 24 ชั่วโมง จ, ศ",
     "projectTypes": {
-      "game": "พัฒนาเกม",
-      "2d": "แอนิเมชัน 2D",
-      "3d": "แอนิเมชัน 3D",
-      "trailer": "ตัวอย่างภาพยนตร์",
-      "character": "ออกแบบตัวละคร",
+      "2d": "2D Animation",
+      "3d": "3D Animation",
+      "trailer": "Cinematic Trailer",
+      "character": "Character Design",
       "motion": "Motion Graphics and VFX",
-      "other": "อื่นๆ"
+      "other": "Other"
     },
     "sending": "Sending…",
     "errorGeneric": "Could not send your message. Please email us directly or try again."
   },
   "portfolioPage": {
     "metaTitle": "ผลงาน | Starlights Visuals",
-    "metaDescription": "โปรเจกต์คัดสรร: ซีรีส์แอนิเมชัน ตัวอย่างเกม ออกแบบตัวละคร และ showreel สตูดิโอโดย Starlights Visuals",
+    "metaDescription": "Selected projects: animated series, cinematic trailers, character designs, and studio showcase reels by Starlights Visuals.",
     "label": "ผลงานคัดสรร",
     "title1": "PORT",
     "title2": "FOLIO",
     "subtitle": "แวบหนึ่งของโลก ตัวละคร และเรื่องราวที่เราช่วยทำให้มีชีวิต",
     "projects": {
       "trailer": {
-        "tag": "ตัวอย่างภาพยนตร์",
+        "tag": "Cinematic Trailer",
         "title": "Iron Sentinel",
-        "desc": "ตัวอย่างเปิดตัวเกม AAA"
+        "desc": "Cinematic brand launch trailer."
       },
       "character": {
-        "tag": "ออกแบบตัวละคร",
+        "tag": "Character Design",
         "title": "Nova Vanguard",
-        "desc": "ชีทตัวเอก"
-      },
-      "game": {
-        "tag": "Game Art",
-        "title": "Lumen Worlds",
-        "desc": "Environment art แบบ open world"
+        "desc": "Hero protagonist sheet."
       },
       "2d": {
-        "tag": "แอนิเมชัน 2D",
+        "tag": "2D Animation",
         "title": "Neon Skyline",
-        "desc": "ตอนนำร่องสไตล์อนิเมะ"
+        "desc": "Anime inspired pilot episode."
       },
       "creature": {
-        "tag": "ออกแบบสิ่งมีชีวิต",
+        "tag": "Creature Design",
         "title": "Crystal Wyrm",
-        "desc": "คอนเซปต์ boss creature"
+        "desc": "Boss creature concept."
       },
       "motion": {
         "tag": "Motion Graphics",
         "title": "Pulse Identity",
-        "desc": "ระบบ motion แบรนด์"
+        "desc": "Brand motion system."
+      },
+      "motionEnv": {
+        "tag": "Motion Graphics",
+        "title": "Pulse Worlds",
+        "desc": "Immersive brand environment art."
       }
     }
   },
   "blogPage": {
     "metaTitle": "บล็อก | Starlights Visuals",
-    "metaDescription": "ข้อมูลเชิงลึกเกี่ยวกับแอนิเมชัน VFX game art ตัวอย่างภาพยนตร์ และ brand storytelling ระดับพรีเมียมจาก Starlights Visuals",
+    "metaDescription": "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
     "label": "วารสารสตูดิโอ",
     "title1": "THE",
     "title2": "BLOG",
@@ -333,50 +328,50 @@
     "startProject": "เริ่มโปรเจกต์",
     "moreFromJournal": "เพิ่มเติมจากวารสาร",
     "postBody1": "ที่ Starlights Visuals เรามองทุกเฟรมเป็นโอกาสในการ convert, ไม่ใช่แค่ภาพสวย บทความนี้ขยายความคิดเบื้องหลังงาน {{category}} ของเรา และการตัดสินใจที่แยกครีเอทีฟดีจากครีเอทีฟพร้อมเปิดตัว",
-    "postBody2": "ไม่ว่าคุณจะเปิดตัวตัวอย่าง ขยายระบบ motion แบรนด์ หรือสร้าง game art สำหรับผลิตภัณฑ์ live หลักการเดียวกันใช้ได้: ความชัดเจนของเรื่องราวก่อน polish รองลงมา และการตัดต่ออย่างไร้ความเหลือเกินสุดท้าย วินัยนี้คือวิธีที่ทีมตรงเวลาโดยไม่รู้สึก \"เกือบเสร็จ\"",
+    "postBody2": "Whether you are shipping a trailer, scaling a brand motion system, or building campaign visuals for a live product, the same principle applies: clarity of story first, polish second, and ruthless editing last. That discipline is how teams hit deadlines without the almost there feeling.",
     "postBody3": "อยากใช้แนวคิดนี้กับโปรเจกต์ถัดไป? เราอยากฟังว่าคุณกำลังสร้างอะไร, ส่ง brief มา เราจะวางเส้นทางภาพยนตร์จากคอนเซปต์ถึงส่งมอบ",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "ทำไมตัวอย่างภาพยนตร์ convert ดีกว่า demo สินค้า",
-        "excerpt": "ภาพยนตร์เปิดตัวที่เน้นเรื่องราวสร้าง stakes ทางอารมณ์ก่อน CTA นี่คือวิธีที่เราจัด hook pacing และ grade เพื่อ retention สูงสุด",
-        "category": "กลยุทธ์",
-        "date": "12 พ.ค. 2026",
-        "readTime": "อ่าน 6 นาที"
+        "title": "Why cinematic trailers convert better than product demos",
+        "excerpt": "Story first launch films build emotional stakes before the CTA. Here is how we structure hooks, pacing, and grade for maximum retention.",
+        "category": "Strategy",
+        "date": "May 12, 2026",
+        "readTime": "6 min read"
       },
       "character-design-for-ip": {
-        "title": "ออกแบบตัวละครที่ยึด IP ของคุณทุกช่องทาง",
-        "excerpt": "จากความอ่านง่ายของ silhouette ถึง turnaround พร้อม merch, checklist ที่เราใช้ก่อนตัวเอกเข้าโปรดักชัน",
+        "title": "Character design that anchors your IP across every channel",
+        "excerpt": "From silhouette readability to merch ready turnarounds, the checklist we use before a hero goes into production.",
         "category": "Craft",
-        "date": "3 พ.ค. 2026",
-        "readTime": "อ่าน 5 นาที"
-      },
-      "game-art-pipeline": {
-        "title": "ภายใน pipeline game art ของเรา: จากคอนเซปต์ถึง asset ที่ส่งมอบ",
-        "excerpt": "วิธีที่เราจัด art direction ข้อจำกัดทางเทคนิค และ milestone review ให้ทีมส่งงานตรงเวลาโดยไม่เสีย polish",
-        "category": "โปรดักชัน",
-        "date": "21 เม.ย. 2026",
-        "readTime": "อ่าน 8 นาที"
+        "date": "May 3, 2026",
+        "readTime": "5 min read"
       },
       "motion-systems-for-brands": {
-        "title": "สร้างระบบ motion ที่แบรนด์นำกลับมาใช้ได้จริง",
-        "excerpt": "ไลบรารี motion แบบ modular logo stings และ micro interaction UI ที่รักษาความสอดคล้องของแคมเปญในระดับใหญ่",
+        "title": "Building motion systems brands can actually reuse",
+        "excerpt": "Modular motion libraries, logo stings, and UI micro interactions that keep campaigns consistent at scale.",
         "category": "Motion",
-        "date": "8 เม.ย. 2026",
-        "readTime": "อ่าน 4 นาที"
+        "date": "Apr 8, 2026",
+        "readTime": "4 min read"
       },
       "2d-animation-in-2026": {
-        "title": "แอนิเมชัน 2D ในปี 2026: pipeline ไฮบริดที่ยังรู้สึกทำด้วยมือ",
-        "excerpt": "ผสมประสิทธิภาพ rig กับ accent ทีละเฟรม, เมื่อไหร่ควรใช้แต่ละเทคนิคเพื่อผลลัพธ์พรีเมียม",
-        "category": "แอนิเมชัน",
-        "date": "29 มี.ค. 2026",
-        "readTime": "อ่าน 7 นาที"
+        "title": "2D animation in 2026: hybrid pipelines that still feel handmade",
+        "excerpt": "Combining rigged efficiency with frame by frame accents, when to push each technique for premium results.",
+        "category": "Animation",
+        "date": "Mar 29, 2026",
+        "readTime": "7 min read"
       },
       "creature-design-breakdown": {
-        "title": "Breakdown ออกแบบสิ่งมีชีวิต: จาก mood board ถึง rig สุดท้าย",
-        "excerpt": "วิธีที่เราพัฒนา boss creature ด้วย silhouette ที่อ่านง่าย material storytelling และ presence แบบภาพยนตร์",
+        "title": "Creature design breakdown: from mood board to final rig",
+        "excerpt": "A look at how we develop boss creatures with readable silhouettes, material storytelling, and cinematic presence.",
         "category": "Craft",
-        "date": "14 มี.ค. 2026",
-        "readTime": "อ่าน 6 นาที"
+        "date": "Mar 14, 2026",
+        "readTime": "6 min read"
+      },
+      "production-pipelines-that-ship": {
+        "title": "Production pipelines that ship: concept to final delivery",
+        "excerpt": "How we align art direction, technical constraints, and milestone reviews so teams ship on time without sacrificing polish.",
+        "category": "Production",
+        "date": "Apr 21, 2026",
+        "readTime": "8 min read"
       }
     }
   },
@@ -393,8 +388,8 @@
     "goHome": "ไปหน้าแรก"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals | สตูดิโอพัฒนาเกมและแอนิเมชัน",
-    "rootDescription": "Starlights Visuals คือสตูดิโอครีเอทีฟที่เชี่ยวชาญการพัฒนาเกม แอนิเมชัน 2D แบบภาพยนตร์ และแอนิเมชัน 3D คุณภาพสูง",
+    "rootTitle": "Starlights Visuals | Animation & VFX Studio",
+    "rootDescription": "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -439,8 +434,8 @@
         "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
       },
       "motion-graphics": {
-        "title": "Game Environment",
-        "tagline": "Immersive worlds and playable spaces in motion",
+        "title": "Motion Graphics",
+        "tagline": "Design led motion systems for launches and brand worlds",
         "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
       },
       "vfx": {
@@ -459,8 +454,8 @@
         "title": "แอนิเมชัน 3D"
       },
       "motion-graphics": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Motion Graphics",
+        "title": "Motion Graphics"
       },
       "vfx": {
         "tag": "Visual Effects (VFX)",
@@ -1364,7 +1359,7 @@
         "items": {
           "01": {
             "question": "คุณรับงานโปรเจกต์ประเภทใดบ้าง?",
-            "answer": "เราผลิตงานแอนิเมชัน, VFX, เกมอาร์ต, ซีนีมาติกส์, โมชันกราฟิก และแบรนด์ฟิล์มสำหรับเกม ภาพยนตร์ ซีรีส์ โฆษณา และแบรนด์ DTC โดยบรีฟมีได้ตั้งแต่ฮีโร่แอสเซ็ตชิ้นเดียวไปจนถึงแพ็กเกจแคมเปญเต็มรูปแบบ"
+            "answer": "We produce animation, VFX, cinematics, motion graphics, product films, and brand films for film, series, advertising, and DTC brands. Briefs range from single hero assets to full campaign packages."
           },
           "02": {
             "question": "Starlights Visuals ตั้งอยู่ที่ไหน?",
@@ -1381,15 +1376,15 @@
         "items": {
           "01": {
             "question": "คุณให้บริการอะไรบ้าง?",
-            "answer": "บริการหลักของเราคือแอนิเมชัน 2D/3D, VFX, character และ concept art, การสนับสนุนการพัฒนาเกม, โมชันกราฟิก และตัวอย่างแบบซีนีมาติก เรารับทั้งงานเฉพาะด้านหรือดูแลการผลิตครบทั้งไปป์ไลน์"
+            "answer": "Our core services include 2D and 3D animation, VFX, character and concept art, motion graphics, product animation, and cinematic trailers. We can handle individual disciplines or full pipeline production."
           },
           "02": {
             "question": "คุณทำงานกับทั้งทีมอินดี้และสตูดิโอใหญ่ไหม?",
-            "answer": "ใช่ เราร่วมงานกับครีเอเตอร์อินดี้ สตูดิโอขนาดกลาง และแบรนด์ระดับโลก โดยปรับขอบเขตงานและขนาดทีมให้เหมาะกับงบประมาณและเวลา โดยไม่ลดทอนคุณภาพงาน"
+            "answer": "Yes. We partner with indie creators, mid size studios, and global brands. Scope and team size flex to match your budget and timeline without compromising craft."
           },
           "03": {
             "question": "คุณสามารถทำงานให้เข้ากับสไตล์อาร์ตที่เรามีอยู่ได้ไหม?",
-            "answer": "ได้แน่นอน เราจะเริ่มด้วย style frame และขั้นตอน look-dev ให้สอดคล้องกับแนวทางแบรนด์หรือโลกของเกมคุณ ก่อนเข้าสู่การผลิตเต็มรูปแบบ"
+            "answer": "Absolutely. We start with style frames and a look development pass aligned to your brand guidelines or visual world before committing to full production."
           }
         }
       },

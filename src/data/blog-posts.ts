@@ -1,9 +1,9 @@
 import portfolioTrailer from "@/assets/portfolio-trailer.jpg";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
-import portfolioGame from "@/assets/portfolio-game.jpg";
 import portfolioMotion from "@/assets/portfolio-motion.jpg";
 import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolioCreature from "@/assets/portfolio-creature.jpg";
+import portfolioIndustrial from "@/assets/portfolio-industrial.jpg";
 
 export type BlogPostSection = {
   heading?: string;
@@ -94,32 +94,32 @@ export const blogPosts: BlogPost[] = [
     ],
   },
   {
-    slug: "game-art-pipeline",
-    title: "Inside our game art pipeline: concept to shipped assets",
-    excerpt: "How we align art direction, tech constraints, and milestone reviews so teams ship on time without sacrificing polish.",
+    slug: "production-pipelines-that-ship",
+    title: "Production pipelines that ship: concept to final delivery",
+    excerpt: "How we align art direction, technical constraints, and milestone reviews so teams ship on time without sacrificing polish.",
     category: "Production",
     date: "Apr 21, 2026",
     readTime: "8 min read",
-    image: portfolioGame,
+    image: portfolioIndustrial,
     author: "Starlights Visuals",
     sections: [
       {
         paragraphs: [
-          "Game art fails when art direction and engine constraints meet for the first time at the end of a milestone. Our pipeline front loads technical limits, establishes a single approval path, and keeps work in progress visible so producers can de risk schedules early.",
+          "Projects slip when creative direction and delivery constraints meet for the first time at the end of a milestone. Our pipeline front loads technical limits, establishes a single approval path, and keeps work in progress visible so producers can de risk schedules early.",
         ],
       },
       {
         heading: "Pre production alignment",
         paragraphs: [
-          "We start with a visual target board and a technical brief: poly budgets, texture sizes, lighting model, and animation requirements. Concept art is painted with those limits in mind, not as fantasy that gets \"fixed later.\"",
+          "We start with a visual target board and a technical brief: resolution, format, lighting model, and animation requirements. Concept work is built with those limits in mind, not as fantasy that gets fixed later.",
           "Milestone reviews are structured as gate checks concept approved, blockout approved, final polish with clear deliverable lists at each stage so nothing ambiguous carries into the next sprint.",
         ],
       },
       {
         heading: "Environment and prop workflow",
         paragraphs: [
-          "Environments are built modularly. Hero set pieces get full detail; repeatable kit pieces are optimized for instancing and LOD swaps. We validate in engine early with placeholder lighting so composition reads before final materials land.",
-          "Props follow the same rule: hero interactables versus background fill. That split keeps performance predictable while still delivering cinematic moments where players actually look.",
+          "Environments and product worlds are built modularly. Hero set pieces get full detail; repeatable kit pieces are optimized for reuse. We validate composition early with placeholder lighting so the frame reads before final materials land.",
+          "Hero interactables versus background fill keeps performance and render time predictable while still delivering cinematic moments where the audience actually looks.",
         ],
       },
     ],
@@ -184,14 +184,14 @@ export const blogPosts: BlogPost[] = [
     sections: [
       {
         paragraphs: [
-          "Boss creatures need to read in gameplay, marketing, and film. We develop them in layers: cultural and ecological mood boards, silhouette explorations, material logic, and finally rig friendly anatomy that still feels dangerous on screen.",
+          "Boss creatures need to read in marketing, film, and animation. We develop them in layers: cultural and ecological mood boards, silhouette explorations, material logic, and finally rig friendly anatomy that still feels dangerous on screen.",
         ],
       },
       {
         heading: "From exploration to rig",
         paragraphs: [
           "Early explorations stay loose ink, photobash, and quick 3D blockouts to test scale against human references. We kill designs that rely on fine detail to read; bosses must communicate threat from across a room.",
-          "Once approved, we build a sculpt and rig with explicit joint limits for gameplay or cinematic needs. Texture work tells a story: scar tissue, weathering, bioluminescence, and asymmetry that suggests history rather than mirror perfect fantasy.",
+          "Once approved, we build a sculpt and rig with explicit joint limits for cinematic needs. Texture work tells a story: scar tissue, weathering, bioluminescence, and asymmetry that suggests history rather than mirror perfect fantasy.",
         ],
       },
     ],
