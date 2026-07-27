@@ -21,7 +21,9 @@
     "closeMenu": "메뉴 닫기",
     "openMenu": "메뉴 열기",
     "closeSidebar": "사이드바 닫기",
-    "openSidebar": "사이드바 열기"
+    "openSidebar": "사이드바 열기",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   },
   "languageSwitcher": {
     "label": "언어",

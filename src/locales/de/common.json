@@ -21,7 +21,9 @@
     "closeMenu": "Menü schließen",
     "openMenu": "Menü öffnen",
     "closeSidebar": "Seitenleiste schließen",
-    "openSidebar": "Seitenleiste öffnen"
+    "openSidebar": "Seitenleiste öffnen",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   },
   "languageSwitcher": {
     "label": "Sprache",

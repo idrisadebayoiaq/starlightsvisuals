@@ -11,10 +11,13 @@ import { useTranslation } from "react-i18next";
 
 import { I18nShell } from "@/components/I18nShell";
 import { SidebarProvider, useSidebar } from "@/contexts/sidebar-context";
+import { ThemeProvider, THEME_STORAGE_KEY } from "@/contexts/theme-context";
 import { cn } from "@/lib/utils";
 import appCss from "../styles.css?url";
 import faviconUrl from "@/assets/brand logo/favicon-transparent.png?url";
 import "@/i18n";
+
+const themeBootScript = `(function(){try{var t=localStorage.getItem(${JSON.stringify(THEME_STORAGE_KEY)});if(t==="light"){document.documentElement.classList.add("light");document.documentElement.classList.remove("dark");document.documentElement.style.colorScheme="light";}else{document.documentElement.classList.add("dark");document.documentElement.classList.remove("light");document.documentElement.style.colorScheme="dark";}}catch(e){document.documentElement.classList.add("dark");}})();`;
 
 function NotFoundComponent() {
   const { t } = useTranslation();
@@ -111,9 +114,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark" suppressHydrationWarning>
       <head>
         <HeadContent />
+        <script dangerouslySetInnerHTML={{ __html: themeBootScript }} />
       </head>
       <body>
         {children}
@@ -141,11 +145,13 @@ function RootComponent() {
   const { queryClient } = Route.useRouteContext();
   return (
     <QueryClientProvider client={queryClient}>
-      <SidebarProvider>
-        <I18nShell>
-          <MainContent />
-        </I18nShell>
-      </SidebarProvider>
+      <ThemeProvider>
+        <SidebarProvider>
+          <I18nShell>
+            <MainContent />
+          </I18nShell>
+        </SidebarProvider>
+      </ThemeProvider>
     </QueryClientProvider>
   );
 }

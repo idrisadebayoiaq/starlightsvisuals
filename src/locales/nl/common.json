@@ -21,7 +21,9 @@
     "closeMenu": "Menu sluiten",
     "openMenu": "Menu openen",
     "closeSidebar": "Zijbalk sluiten",
-    "openSidebar": "Zijbalk openen"
+    "openSidebar": "Zijbalk openen",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   },
   "languageSwitcher": {
     "label": "Taal",

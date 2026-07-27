@@ -21,7 +21,9 @@
     "closeMenu": "メニューを閉じる",
     "openMenu": "メニューを開く",
     "closeSidebar": "サイドバーを閉じる",
-    "openSidebar": "サイドバーを開く"
+    "openSidebar": "サイドバーを開く",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   },
   "languageSwitcher": {
     "label": "言語",

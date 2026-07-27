@@ -24,7 +24,7 @@ type SidebarContextValue = {
 const SidebarContext = createContext<SidebarContextValue | null>(null);
 
 export function SidebarProvider({ children }: { children: ReactNode }) {
-  const [desktopOpen, setDesktopOpen] = useState(true);
+  const [desktopOpen, setDesktopOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const toggleDesktop = useCallback(() => setDesktopOpen((o) => !o), []);

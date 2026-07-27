@@ -21,7 +21,9 @@
     "closeMenu": "Menüyü kapat",
     "openMenu": "Menüyü aç",
     "closeSidebar": "Kenar çubuğunu kapat",
-    "openSidebar": "Kenar çubuğunu aç"
+    "openSidebar": "Kenar çubuğunu aç",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   },
   "languageSwitcher": {
     "label": "Dil",

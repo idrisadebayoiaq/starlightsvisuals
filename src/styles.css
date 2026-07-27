@@ -76,6 +76,86 @@
   --ring: oklch(0.88 0.27 142);
 }
 
+/* Light mode — page content only; sidebar keeps dark tokens via .site-sidebar */
+html.light {
+  --background: oklch(0.985 0.004 100);
+  --foreground: oklch(0.14 0 0);
+
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.14 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.14 0 0);
+
+  --primary: oklch(0.72 0.22 142);
+  --primary-foreground: oklch(0.98 0 0);
+
+  --secondary: oklch(0.94 0.01 100);
+  --secondary-foreground: oklch(0.18 0 0);
+
+  --muted: oklch(0.94 0.01 100);
+  --muted-foreground: oklch(0.42 0 0);
+
+  --accent: oklch(0.72 0.22 142);
+  --accent-foreground: oklch(0.98 0 0);
+
+  --destructive: oklch(0.55 0.22 25);
+  --destructive-foreground: oklch(0.98 0 0);
+
+  --border: oklch(0 0 0 / 0.12);
+  --input: oklch(0 0 0 / 0.12);
+  --ring: oklch(0.72 0.22 142);
+
+  --neon-green: oklch(0.72 0.22 142);
+  --neon-blue: oklch(0.72 0.22 142);
+  --neon-purple: oklch(0.72 0.22 142);
+  --deep-purple: oklch(0.35 0.08 142);
+  --silver: oklch(0.35 0.01 250);
+}
+
+/* Sidebar always stays on the dark palette, even in light mode */
+.site-sidebar {
+  color-scheme: dark;
+  --background: oklch(0.06 0 0);
+  --foreground: oklch(0.97 0 0);
+  --card: oklch(0.09 0 0);
+  --card-foreground: oklch(0.97 0 0);
+  --popover: oklch(0.09 0 0);
+  --popover-foreground: oklch(0.97 0 0);
+  --secondary: oklch(0.14 0 0);
+  --secondary-foreground: oklch(0.97 0 0);
+  --muted: oklch(0.14 0 0);
+  --muted-foreground: oklch(0.65 0 0);
+  --accent: oklch(0.88 0.27 142);
+  --accent-foreground: oklch(0.06 0 0);
+  --border: oklch(1 0 0 / 0.10);
+  --input: oklch(1 0 0 / 0.10);
+  --ring: oklch(0.88 0.27 142);
+  --neon-green: oklch(0.88 0.27 142);
+  --neon-blue: oklch(0.88 0.27 142);
+  --neon-purple: oklch(0.88 0.27 142);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-neon-green: var(--neon-green);
+  --color-neon-blue: var(--neon-blue);
+  --color-neon-purple: var(--neon-purple);
+  background-color: oklch(0.06 0 0 / 0.97);
+  color: oklch(0.97 0 0);
+  border-color: oklch(1 0 0 / 0.10);
+}
+
 @layer base {
   * {
     border-color: var(--color-border);

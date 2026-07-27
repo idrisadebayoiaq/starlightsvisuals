@@ -21,7 +21,9 @@
     "closeMenu": "मेनू बंद करें",
     "openMenu": "मेनू खोलें",
     "closeSidebar": "साइडबार बंद करें",
-    "openSidebar": "साइडबार खोलें"
+    "openSidebar": "साइडबार खोलें",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   },
   "languageSwitcher": {
     "label": "भाषा",

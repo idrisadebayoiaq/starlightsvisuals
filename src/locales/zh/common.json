@@ -21,7 +21,9 @@
     "closeMenu": "关闭菜单",
     "openMenu": "打开菜单",
     "closeSidebar": "关闭侧边栏",
-    "openSidebar": "打开侧边栏"
+    "openSidebar": "打开侧边栏",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   },
   "languageSwitcher": {
     "label": "语言",

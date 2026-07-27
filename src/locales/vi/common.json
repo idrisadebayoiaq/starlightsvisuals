@@ -21,7 +21,9 @@
     "closeMenu": "Đóng menu",
     "openMenu": "Mở menu",
     "closeSidebar": "Đóng thanh bên",
-    "openSidebar": "Mở thanh bên"
+    "openSidebar": "Mở thanh bên",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   },
   "languageSwitcher": {
     "label": "Ngôn ngữ",

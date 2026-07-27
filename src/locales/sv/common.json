@@ -21,7 +21,9 @@
     "closeMenu": "Stäng menyn",
     "openMenu": "Öppna menyn",
     "closeSidebar": "Stäng sidofältet",
-    "openSidebar": "Öppna sidofältet"
+    "openSidebar": "Öppna sidofältet",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   },
   "languageSwitcher": {
     "label": "Språk",

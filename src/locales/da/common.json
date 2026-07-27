@@ -21,7 +21,9 @@
     "closeMenu": "Luk menu",
     "openMenu": "Åbn menu",
     "closeSidebar": "Luk sidepanel",
-    "openSidebar": "Åbn sidepanel"
+    "openSidebar": "Åbn sidepanel",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   },
   "languageSwitcher": {
     "label": "Sprog",

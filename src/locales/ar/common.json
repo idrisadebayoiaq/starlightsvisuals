@@ -21,7 +21,9 @@
     "closeMenu": "إغلاق القائمة",
     "openMenu": "فتح القائمة",
     "closeSidebar": "إغلاق الشريط الجانبي",
-    "openSidebar": "فتح الشريط الجانبي"
+    "openSidebar": "فتح الشريط الجانبي",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   },
   "languageSwitcher": {
     "label": "اللغة",

@@ -21,7 +21,9 @@
     "closeMenu": "Tutup menu",
     "openMenu": "Buka menu",
     "closeSidebar": "Tutup sidebar",
-    "openSidebar": "Buka sidebar"
+    "openSidebar": "Buka sidebar",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   },
   "languageSwitcher": {
     "label": "Bahasa",

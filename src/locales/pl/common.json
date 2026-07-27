@@ -21,7 +21,9 @@
     "closeMenu": "Zamknij menu",
     "openMenu": "Otwórz menu",
     "closeSidebar": "Zamknij panel boczny",
-    "openSidebar": "Otwórz panel boczny"
+    "openSidebar": "Otwórz panel boczny",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   },
   "languageSwitcher": {
     "label": "Język",

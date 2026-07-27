@@ -21,7 +21,9 @@
     "closeMenu": "Sulje valikko",
     "openMenu": "Avaa valikko",
     "closeSidebar": "Sulje sivupalkki",
-    "openSidebar": "Avaa sivupalkki"
+    "openSidebar": "Avaa sivupalkki",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   },
   "languageSwitcher": {
     "label": "Kieli",

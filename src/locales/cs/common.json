@@ -21,7 +21,9 @@
     "closeMenu": "Zavřít menu",
     "openMenu": "Otevřít menu",
     "closeSidebar": "Zavřít postranní panel",
-    "openSidebar": "Otevřít postranní panel"
+    "openSidebar": "Otevřít postranní panel",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   },
   "languageSwitcher": {
     "label": "Jazyk",

@@ -21,7 +21,9 @@
     "closeMenu": "סגור תפריט",
     "openMenu": "פתח תפריט",
     "closeSidebar": "סגור סרגל צד",
-    "openSidebar": "פתח סרגל צד"
+    "openSidebar": "פתח סרגל צד",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   },
   "languageSwitcher": {
     "label": "שפה",

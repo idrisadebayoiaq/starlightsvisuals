@@ -21,7 +21,9 @@
     "closeMenu": "Lukk meny",
     "openMenu": "Åpne meny",
     "closeSidebar": "Lukk sidepanel",
-    "openSidebar": "Åpne sidepanel"
+    "openSidebar": "Åpne sidepanel",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   },
   "languageSwitcher": {
     "label": "Språk",
