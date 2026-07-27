@@ -13,7 +13,7 @@ export const Route = createFileRoute("/about")({
       {
         name: "description",
         content:
-          "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, product visualization, and 2D & 3D character animation.",
+          "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, game animation, product visualization, and 2D & 3D character animation.",
       },
       { property: "og:title", content: "About Starlights Visuals" },
       {
