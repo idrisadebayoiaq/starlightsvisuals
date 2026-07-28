@@ -17,6 +17,7 @@ function AdminLoginPage() {
   const [password, setPassword] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [info, setInfo] = useState<string | null>(null);
 
   if (!loading && isAdmin) {
     return <Navigate to="/admin" />;
@@ -95,6 +96,7 @@ function AdminLoginPage() {
           </div>
 
           {error && <p className="text-sm text-destructive">{error}</p>}
+          {info && <p className="text-sm text-neon-green">{info}</p>}
 
           <button
             type="submit"
@@ -114,6 +116,7 @@ function AdminLoginPage() {
           onClick={() => {
             setMode((m) => (m === "signin" ? "signup" : "signin"));
             setError(null);
+            setInfo(null);
           }}
           className="mt-4 text-xs text-muted-foreground transition hover:text-neon-green"
         >
