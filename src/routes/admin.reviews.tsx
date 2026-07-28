@@ -3,6 +3,7 @@ import { Check, Trash2, X } from "lucide-react";
 import { useCallback, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
+import { getErrorMessage } from "@/lib/error-message";
 import { getSupabase, type ClientTestimonialRow } from "@/lib/supabase";
 import { cn } from "@/lib/utils";
 
@@ -35,7 +36,7 @@ function AdminReviewsPage() {
       setError(null);
     } catch (err) {
       console.error(err);
-      setError(err instanceof Error ? err.message : t("admin.reviews.loadError"));
+      setError(getErrorMessage(err, t("admin.reviews.loadError")));
     } finally {
       setLoading(false);
     }
@@ -54,7 +55,7 @@ function AdminReviewsPage() {
       if (updateError) throw updateError;
       await load();
     } catch (err) {
-      setError(err instanceof Error ? err.message : t("admin.reviews.updateError"));
+      setError(getErrorMessage(err, t("admin.reviews.updateError")));
     }
   }
 
@@ -68,7 +69,7 @@ function AdminReviewsPage() {
       if (deleteError) throw deleteError;
       await load();
     } catch (err) {
-      setError(err instanceof Error ? err.message : t("admin.reviews.deleteError"));
+      setError(getErrorMessage(err, t("admin.reviews.deleteError")));
     }
   }
 

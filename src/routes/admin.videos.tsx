@@ -7,6 +7,7 @@ import type { WorkCategorySlug } from "@/data/portfolio-works";
 import { workCategories } from "@/data/portfolio-works";
 import { slugify } from "@/hooks/use-cms-videos";
 import { uploadMediaFile } from "@/lib/cms-media";
+import { getErrorMessage } from "@/lib/error-message";
 import {
   getSupabase,
   type PortfolioClientRow,
@@ -130,7 +131,7 @@ function AdminVideosPage() {
       setClients((clientsRes.data as PortfolioClientRow[]) ?? []);
     } catch (err) {
       console.error(err);
-      setError(err instanceof Error ? err.message : t("admin.videos.loadError"));
+      setError(getErrorMessage(err, t("admin.videos.loadError")));
     } finally {
       setLoading(false);
     }
@@ -211,7 +212,7 @@ function AdminVideosPage() {
       const url = await uploadMediaFile(file, "portfolio");
       setForm((f) => ({ ...f, thumbnail_url: url }));
     } catch (err) {
-      setError(err instanceof Error ? err.message : t("admin.videos.uploadError"));
+      setError(getErrorMessage(err, t("admin.videos.uploadError")));
     } finally {
       setUploading(false);
     }
@@ -308,7 +309,7 @@ function AdminVideosPage() {
       setOpen(false);
       await load();
     } catch (err) {
-      setError(err instanceof Error ? err.message : t("admin.videos.saveError"));
+      setError(getErrorMessage(err, t("admin.videos.saveError")));
     } finally {
       setSaving(false);
     }
@@ -324,7 +325,7 @@ function AdminVideosPage() {
       if (deleteError) throw deleteError;
       await load();
     } catch (err) {
-      setError(err instanceof Error ? err.message : t("admin.videos.deleteError"));
+      setError(getErrorMessage(err, t("admin.videos.deleteError")));
     }
   }
 

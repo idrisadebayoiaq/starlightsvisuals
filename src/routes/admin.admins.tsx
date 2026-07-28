@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState, type FormEvent } from "react";
 import { useTranslation } from "react-i18next";
 
 import { useAuth } from "@/contexts/auth-context";
+import { getErrorMessage } from "@/lib/error-message";
 import { getSupabase, type AdminRow } from "@/lib/supabase";
 
 export const Route = createFileRoute("/admin/admins")({
@@ -31,7 +32,7 @@ function AdminAdminsPage() {
       setError(null);
     } catch (err) {
       console.error(err);
-      setError(err instanceof Error ? err.message : t("admin.admins.loadError"));
+      setError(getErrorMessage(err, t("admin.admins.loadError")));
     } finally {
       setLoading(false);
     }
@@ -56,7 +57,7 @@ function AdminAdminsPage() {
       setEmail("");
       await load();
     } catch (err) {
-      setError(err instanceof Error ? err.message : t("admin.admins.addError"));
+      setError(getErrorMessage(err, t("admin.admins.addError")));
     } finally {
       setSaving(false);
     }
@@ -76,7 +77,7 @@ function AdminAdminsPage() {
       if (deleteError) throw deleteError;
       await load();
     } catch (err) {
-      setError(err instanceof Error ? err.message : t("admin.admins.deleteError"));
+      setError(getErrorMessage(err, t("admin.admins.deleteError")));
     }
   }
 

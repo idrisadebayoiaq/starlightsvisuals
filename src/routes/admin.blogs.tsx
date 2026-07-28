@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 
 import type { BlogPostSection } from "@/data/blog-posts";
 import { uploadMediaFile } from "@/lib/cms-media";
+import { getErrorMessage } from "@/lib/error-message";
 import { getSupabase, type BlogPostRow } from "@/lib/supabase";
 import { cn } from "@/lib/utils";
 
@@ -83,7 +84,7 @@ function AdminBlogsPage() {
       setPosts((data as BlogPostRow[]) ?? []);
     } catch (err) {
       console.error(err);
-      setError(err instanceof Error ? err.message : t("admin.blogs.loadError"));
+      setError(getErrorMessage(err, t("admin.blogs.loadError")));
     } finally {
       setLoading(false);
     }
@@ -115,7 +116,7 @@ function AdminBlogsPage() {
       const url = await uploadMediaFile(file, "blog");
       setForm((f) => ({ ...f, image_url: url }));
     } catch (err) {
-      setError(err instanceof Error ? err.message : t("admin.blogs.uploadError"));
+      setError(getErrorMessage(err, t("admin.blogs.uploadError")));
     } finally {
       setUploading(false);
     }
@@ -160,7 +161,7 @@ function AdminBlogsPage() {
       setOpen(false);
       await load();
     } catch (err) {
-      setError(err instanceof Error ? err.message : t("admin.blogs.saveError"));
+      setError(getErrorMessage(err, t("admin.blogs.saveError")));
     } finally {
       setSaving(false);
     }
@@ -173,7 +174,7 @@ function AdminBlogsPage() {
       if (deleteError) throw deleteError;
       await load();
     } catch (err) {
-      setError(err instanceof Error ? err.message : t("admin.blogs.deleteError"));
+      setError(getErrorMessage(err, t("admin.blogs.deleteError")));
     }
   }
 
