@@ -24,17 +24,27 @@ type AuthContextValue = {
 const AuthContext = createContext<AuthContextValue | null>(null);
 
 const NOT_AUTHORIZED = "Not authorized as admin";
+const CONFIRM_EMAIL =
+  "Account created. Check your email to confirm, then sign in.";
 
 async function verifyAdminEmail(email: string): Promise<boolean> {
   const normalized = email.trim().toLowerCase();
-  const { data, error } = await getSupabase()
-    .from("admins")
-    .select("email")
-    .ilike("email", normalized)
-    .maybeSingle();
+  const { data, error } = await getSupabase().rpc("is_allowlisted_admin_email", {
+    check_email: normalized,
+  });
 
-  if (error) throw error;
-  return Boolean(data?.email);
+  if (error) {
+    // Fallback if RPC unavailable
+    const { data: row, error: selectError } = await getSupabase()
+      .from("admins")
+      .select("email")
+      .ilike("email", normalized)
+      .maybeSingle();
+    if (selectError) throw error;
+    return Boolean(row?.email);
+  }
+
+  return Boolean(data);
 }
 
 export function AuthProvider({ children }: { children: ReactNode }) {
@@ -116,39 +126,31 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     };
   }, [syncAdminStatus]);
 
-  const signIn = useCallback(
-    async (email: string, password: string) => {
-      if (!isSupabaseConfigured()) {
-        throw new Error("Supabase is not configured.");
-      }
-      const supabase = getSupabase();
-      const { data, error } = await supabase.auth.signInWithPassword({
-        email: email.trim(),
-        password,
-      });
-      if (error) throw error;
+  const signIn = useCallback(async (email: string, password: string) => {
+    if (!isSupabaseConfigured()) {
+      throw new Error("Supabase is not configured.");
+    }
+    const normalized = email.trim().toLowerCase();
+    const allowed = await verifyAdminEmail(normalized);
+    if (!allowed) throw new Error(NOT_AUTHORIZED);
 
-      const signedInUser = data.user;
-      if (!signedInUser?.email) {
-        await supabase.auth.signOut();
-        throw new Error(NOT_AUTHORIZED);
-      }
+    const supabase = getSupabase();
+    const { data, error } = await supabase.auth.signInWithPassword({
+      email: normalized,
+      password,
+    });
+    if (error) throw error;
 
-      const ok = await verifyAdminEmail(signedInUser.email);
-      if (!ok) {
-        await supabase.auth.signOut();
-        setSession(null);
-        setUser(null);
-        setIsAdmin(false);
-        throw new Error(NOT_AUTHORIZED);
-      }
+    const signedInUser = data.user;
+    if (!signedInUser?.email) {
+      await supabase.auth.signOut();
+      throw new Error(NOT_AUTHORIZED);
+    }
 
-      setSession(data.session);
-      setUser(signedInUser);
-      setIsAdmin(true);
-    },
-    [],
-  );
+    setSession(data.session);
+    setUser(signedInUser);
+    setIsAdmin(true);
+  }, []);
 
   const signUp = useCallback(async (email: string, password: string) => {
     if (!isSupabaseConfigured()) {
@@ -157,24 +159,23 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const supabase = getSupabase();
     const normalized = email.trim().toLowerCase();
 
+    const allowed = await verifyAdminEmail(normalized);
+    if (!allowed) throw new Error(NOT_AUTHORIZED);
+
     const { data, error } = await supabase.auth.signUp({
       email: normalized,
       password,
     });
     if (error) throw error;
 
+    // Email confirmation may be required — no session until confirmed
+    if (!data.session) {
+      throw new Error(CONFIRM_EMAIL);
+    }
+
     const signedUpUser = data.user;
     if (!signedUpUser?.email) {
       await supabase.auth.signOut();
-      throw new Error(NOT_AUTHORIZED);
-    }
-
-    const ok = await verifyAdminEmail(signedUpUser.email);
-    if (!ok) {
-      await supabase.auth.signOut();
-      setSession(null);
-      setUser(null);
-      setIsAdmin(false);
       throw new Error(NOT_AUTHORIZED);
     }
 

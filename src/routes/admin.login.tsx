@@ -25,6 +25,7 @@ function AdminLoginPage() {
   async function onSubmit(e: FormEvent) {
     e.preventDefault();
     setError(null);
+    setInfo(null);
     setSubmitting(true);
     try {
       if (!isSupabaseConfigured()) {
@@ -36,7 +37,13 @@ function AdminLoginPage() {
         await signUp(email, password);
       }
     } catch (err) {
-      setError(err instanceof Error ? err.message : t("admin.login.failed"));
+      const message = err instanceof Error ? err.message : t("admin.login.failed");
+      if (/check your email/i.test(message)) {
+        setInfo(message);
+        setMode("signin");
+      } else {
+        setError(message);
+      }
     } finally {
       setSubmitting(false);
     }

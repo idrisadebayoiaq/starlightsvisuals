@@ -1493,7 +1493,9 @@
       "haveAccount": "Already have an account? Sign in",
       "backHome": "Back to site",
       "notConfigured": "Supabase is not configured.",
-      "failed": "Authentication failed"
+      "failed": "Authentication failed",
+      "confirmEmail": "Account created. Check your email to confirm, then sign in.",
+      "notAuthorized": "Not authorized as admin"
     },
     "dashboard": {
       "title": "Dashboard",

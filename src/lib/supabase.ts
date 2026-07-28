@@ -2,8 +2,26 @@ import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
 import type { BlogPostSection } from "@/data/blog-posts";
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL as string | undefined;
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined;
+/**
+ * Publishable Supabase credentials (anon / publishable key).
+ * Safe for the browser — RLS protects data. Prefer VITE_* env vars in hosting;
+ * these fallbacks keep production working when the host build has no env set.
+ */
+const PUBLIC_SUPABASE_URL = "https://ufcitlcaowlqizfkpfnp.supabase.co";
+const PUBLIC_SUPABASE_ANON_KEY =
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVmY2l0bGNhb3dscWl6ZmtwZm5wIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk3NDIxNjAsImV4cCI6MjA5NTMxODE2MH0.C_AmpLGz6-CzDjRnjBEwmt_Q4rjy-zeNnnMMSWwiVWY";
+
+function readEnv(name: "VITE_SUPABASE_URL" | "VITE_SUPABASE_ANON_KEY"): string | undefined {
+  const raw = import.meta.env[name];
+  if (typeof raw !== "string") return undefined;
+  const value = raw.trim();
+  if (!value) return undefined;
+  if (/^your-|changeme|example\.com/i.test(value)) return undefined;
+  return value;
+}
+
+const supabaseUrl = readEnv("VITE_SUPABASE_URL") ?? PUBLIC_SUPABASE_URL;
+const supabaseAnonKey = readEnv("VITE_SUPABASE_ANON_KEY") ?? PUBLIC_SUPABASE_ANON_KEY;
 
 export type ClientTestimonialRow = {
   id: string;
@@ -99,7 +117,13 @@ export function getSupabase() {
     throw new Error("Supabase is not configured. Set VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY.");
   }
   if (!client) {
-    client = createClient(supabaseUrl!, supabaseAnonKey!);
+    client = createClient(supabaseUrl, supabaseAnonKey, {
+      auth: {
+        persistSession: true,
+        autoRefreshToken: true,
+        detectSessionInUrl: true,
+      },
+    });
   }
   return client;
 }
