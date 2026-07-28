@@ -26,8 +26,8 @@ export async function translateText(text, targetLang, sourceLang = "en") {
   url.searchParams.set("q", trimmed);
 
   let lastError;
-  for (let attempt = 0; attempt < 5; attempt += 1) {
-    if (attempt > 0) await sleep(400 * attempt);
+  for (let attempt = 0; attempt < 8; attempt += 1) {
+    if (attempt > 0) await sleep(500 * attempt);
 
     try {
       const res = await fetch(url);
@@ -42,6 +42,8 @@ export async function translateText(text, targetLang, sourceLang = "en") {
       return data[0]?.map((part) => part[0]).join("") ?? trimmed;
     } catch (error) {
       lastError = error;
+      // DNS / transient network blips — keep retrying
+      if (attempt < 7) continue;
     }
   }
 

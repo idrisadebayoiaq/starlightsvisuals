@@ -1,30 +1,30 @@
 {
   "brand": {
     "name": "Starlights Visuals",
-    "star": "STAR",
-    "lights": "LIGHTS",
-    "visuals": "VISUALS",
+    "star": "GWIAZDA",
+    "lights": "ŚLEPIA",
+    "visuals": "WIZUALIZACJE",
     "email": "sternlichtespeciale@gmail.com"
   },
   "nav": {
-    "portfolio": "Portfolio",
+    "portfolio": "Teczka",
     "services": "Usługi",
-    "blog": "Blog",
+    "blog": "Bloga",
     "company": "Studio",
     "contacts": "Kontakt",
     "about": "O nas",
     "contact": "Kontakt",
     "portfolioCta": "Portfolio →",
     "faq": "FAQ",
-    "writeReview": "Write a review"
+    "writeReview": "Napisz recenzję"
   },
   "header": {
     "closeMenu": "Zamknij menu",
     "openMenu": "Otwórz menu",
     "closeSidebar": "Zamknij panel boczny",
     "openSidebar": "Otwórz panel boczny",
-    "switchToLight": "Switch to light mode",
-    "switchToDark": "Switch to dark mode"
+    "switchToLight": "Przełącz na tryb oświetlenia",
+    "switchToDark": "Przełącz na tryb ciemny"
   },
   "languageSwitcher": {
     "label": "Język",
@@ -45,65 +45,65 @@
     "emailPlaceholder": "your@email.com",
     "join": "Dołącz",
     "subscribed": "✦ Jesteś w grze. Witamy w Starlights.",
-    "tagline": "A creative studio bringing imagination to life through cinematic 2D animation, high quality 3D experiences, and VFX.",
+    "tagline": "Kreatywne studio ożywiające wyobraźnię poprzez kinową animację 2D, wysokiej jakości wrażenia 3D i efekty wizualne.",
     "explore": "Odkrywaj",
     "follow": "Obserwuj",
     "social": "Link społecznościowy",
     "copyright": "© {{year}} Starlights Visuals. Stworzone ze światłem i kodem.",
-    "joining": "Joining…",
-    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
+    "joining": "Łączący…",
+    "subscribeError": "Nie można teraz subskrybować. Spróbuj ponownie lub napisz do nas bezpośrednio."
   },
   "home": {
-    "metaTitle": "Starlights Visuals | Animation & VFX Studio",
-    "metaDescription": "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
-    "heroScript": "Stories in motion,",
-    "heroTitle1": "ANIMATION",
-    "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals brings stories to life with animation and visual effects that captivate audiences and elevate every frame. We animate fantasy creatures, human characters, vehicles, environments, props, and hard surface objects for film, series, advertising, and brand campaigns.",
-    "heroAlt": "Starlights Visuals cinematic hero",
-    "seePortfolio": "See Portfolio",
-    "startProject": "Start a Project",
-    "servicesLabel": "What we do",
-    "servicesTitle": "SERVICES",
-    "allServices": "All Services",
-    "showcaseLabel": "Recent work",
-    "showcaseTitle1": "SELECTED",
-    "showcaseTitle2": "WORK",
-    "fullPortfolio": "Full Portfolio",
-    "viewAllFaq": "View all FAQ",
-    "ctaScript": "Let's build something,",
-    "ctaTitle1": "READY TO",
-    "ctaTitle2": "COLLABORATE?",
+    "metaTitle": "Wizualizacje gwiazd | Studio animacji i efektów wizualnych",
+    "metaDescription": "Kreatywne studio animacji 2D i 3D, efektów wizualnych i kinowego opowiadania historii. We bring worlds, characters and films to life.",
+    "heroScript": "Historie w ruchu —",
+    "heroTitle1": "ANIMACJA",
+    "heroTitle2": "I VFX",
+    "heroBody": "Starlights Visuals ożywia historie animacją i efektami wizualnymi, które urzekają widzów i podnoszą każdą klatkę. Animujemy fantasy stworzenia, ludzkie postacie, pojazdy, środowiska, rekwizyty i obiekty hard-surface — na potrzeby filmu, seriali, reklam i kampanii marki.",
+    "heroAlt": "Bohater filmowy Starlights Visuals",
+    "seePortfolio": "Zobacz portfolio",
+    "startProject": "Rozpocznij projekt",
+    "servicesLabel": "Co robimy",
+    "servicesTitle": "USŁUGI",
+    "allServices": "Wszystkie usługi",
+    "showcaseLabel": "Niedawna praca",
+    "showcaseTitle1": "WYBRANY",
+    "showcaseTitle2": "PRACA",
+    "fullPortfolio": "Pełne portfolio",
+    "viewAllFaq": "Zobacz wszystkie często zadawane pytania",
+    "ctaScript": "Zbudujmy coś,",
+    "ctaTitle1": "GOTOWE",
+    "ctaTitle2": "WSPÓŁPRACOWAĆ?",
     "services": {
       "01": {
-        "title": "Animation & VFX",
-        "desc": "Cinematic 2D & 3D animation, character rigs, and visual effects for film, series, and brands."
+        "title": "Animacja i efekty wizualne",
+        "desc": "Animacje kinowe 2D i 3D, zestawy postaci i efekty wizualne do filmów, seriali i marek."
       },
       "02": {
-        "title": "Product Animation",
-        "desc": "Photoreal product films, packshots, and CGI that make every detail sell."
+        "title": "Animacja produktu",
+        "desc": "Fotorealistyczne filmy produktowe, packshoty i CGI, które sprawiają, że sprzedaje się każdy szczegół."
       },
       "03": {
-        "title": "Concept & Character Art",
-        "desc": "Original characters, creatures, environments, and props that anchor your IP."
+        "title": "Grafika koncepcyjna i postaci",
+        "desc": "Oryginalne postacie, stworzenia, środowiska i rekwizyty, które zakotwiczają Twoje IP."
       },
       "04": {
-        "title": "Cinematic Trailers",
-        "desc": "Story driven trailers built to launch brands, IPs, and campaigns."
+        "title": "Zwiastuny kinowe",
+        "desc": "Zwiastuny oparte na fabule, stworzone w celu promowania marek, adresów IP i kampanii."
       }
     },
     "showcase": {
       "character": {
-        "tag": "3D Animation",
-        "title": "3D Animation"
+        "tag": "Animacja 3D",
+        "title": "Animacja 3D"
       },
       "gameArt": {
-        "tag": "Motion Graphics",
-        "title": "Motion Graphics"
+        "tag": "Grafika ruchoma",
+        "title": "Grafika ruchoma"
       },
       "animation2d": {
-        "tag": "2D Animation",
-        "title": "2D Animation"
+        "tag": "Animacja 2D",
+        "title": "Animacja 2D"
       },
       "cinematic": {
         "tag": "VFX",
@@ -111,16 +111,16 @@
       },
       "creature": {
         "tag": "3D",
-        "title": "Industrial Animation"
+        "title": "Animacja przemysłowa"
       },
       "motion": {
         "tag": "3D",
-        "title": "Product Animation"
+        "title": "Animacja produktu"
       }
     }
   },
   "trustedBy": {
-    "badge": "200+ COMPANY",
+    "badge": "200+ FIRM",
     "trusted": "Zaufali",
     "by": "nam"
   },
@@ -139,136 +139,136 @@
     "playAria": "Odtwórz opinię wideo od {{name}}",
     "items": {
       "hauke": {
-        "headline": "Efficient, reliable, and highly recommended",
-        "quote": "Starlight Visuals supported us in creating a CGI video for SmarAct Automation, with the goal of presenting our core competencies in a clear, professional, and visually engaging way. The collaboration was highly efficient and reliable from start to finish. We especially appreciated the fast response times, quick turnaround, strong communication, and dependable delivery of the final files. Our requirements were understood quickly and implemented professionally. We are very satisfied with the result and can confidently recommend Starlight Visuals for high-quality CGI and visual content projects.",
-        "role": "Digital Marketing & Content Manager"
+        "headline": "Skuteczny, niezawodny i godny polecenia",
+        "quote": "Starlight Visuals wsparło nas przy tworzeniu filmu CGI dla SmarAct Automation, którego celem było zaprezentowanie naszych kluczowych kompetencji w jasny, profesjonalny i angażujący wizualnie sposób. Współpraca od początku do końca przebiegała bardzo sprawnie i niezawodnie. Szczególnie doceniliśmy szybki czas reakcji, szybką realizację, dobrą komunikację i niezawodną dostawę plików końcowych. Nasze wymagania zostały szybko zrozumiane i profesjonalnie zrealizowane. Jesteśmy bardzo zadowoleni z rezultatu i możemy śmiało polecić firmę Starlight Visuals do tworzenia wysokiej jakości projektów CGI i treści wizualnych.",
+        "role": "Menedżer ds. marketingu cyfrowego i treści"
       },
       "jeremy": {
-        "headline": "From sketches to a finished helmet film",
-        "quote": "Working with Starlight Visuals was a great experience from start to finish. They didn't just create an animation they were involved throughout the entire process, from refining our initial sketches to supporting the CAD development and delivering a final helmet animation that brought our concept to life. What stood out most was how quickly they understood the product and translated technical details into visuals that were both accurate and engaging. The final presentation video gave us a professional way to showcase our helmet design to partners and stakeholders. They were responsive, easy to collaborate with, and genuinely cared about getting every detail right. I'd gladly recommend them to anyone looking for high-quality product animation and visualization.",
-        "role": "Founder"
+        "headline": "Od szkiców po gotowy film o hełmie",
+        "quote": "Praca ze Starlight Visuals była wspaniałym doświadczeniem od początku do końca. Nie tylko stworzyli animację, ale byli zaangażowani w cały proces, od udoskonalenia naszych wstępnych szkiców po wsparcie rozwoju CAD i dostarczenie końcowej animacji kasku, która ożywiła naszą koncepcję. Najbardziej wyróżniała się szybkość, z jaką zrozumieli produkt i przełożyli szczegóły techniczne na wizualizacje, które były zarówno dokładne, jak i wciągające. Dzięki końcowemu filmowi prezentacyjnemu mogliśmy w profesjonalny sposób zaprezentować projekt naszego kasku partnerom i interesariuszom. Byli responsywni, łatwo się z nimi współpracowało i naprawdę dbali o dopracowanie każdego szczegółu. Chętnie poleciłbym je każdemu, kto szuka wysokiej jakości animacji i wizualizacji produktów.",
+        "role": "Założyciel"
       },
       "raiv": {
-        "headline": "They genuinely cared about every character",
-        "quote": "I really enjoyed working with the team. It felt like they genuinely cared about the project and wanted the characters to look and feel right. Communication was always easy, they were open to feedback, and every revision was handled without any hassle. Seeing our NSFW characters come to life was exciting.",
-        "role": "Game Director"
+        "headline": "Naprawdę zależało im na każdej postaci",
+        "quote": "Bardzo podobała mi się praca z zespołem. Wydawało się, że naprawdę zależy im na projekcie i chcieli, aby postacie wyglądały i czuły się dobrze. Komunikacja była zawsze łatwa, byli otwarci na uwagi, a każda zmiana była rozpatrywana bez żadnych problemów. Obserwowanie, jak nasze postacie z NSFW ożywają, było ekscytujące.",
+        "role": "Dyrektor gry"
       },
       "ilija": {
-        "headline": "Clear visuals for electric vehicle technology",
-        "quote": "They helped shape our PHR concept creatively and deliver amazing video making sure the visuals clearly communicate how our electric vehicle technology works. Their attention to detail, creativity, and willingness to iterate made the entire process smooth. The final animation gave us a much clearer way to present our product to partners and stakeholders.",
-        "role": "Founder"
+        "headline": "Przejrzyste wizualizacje technologii pojazdów elektrycznych",
+        "quote": "Pomogli kreatywnie ukształtować naszą koncepcję PHR i stworzyli niesamowity film, upewniając się, że elementy wizualne wyraźnie komunikują, jak działa nasza technologia pojazdów elektrycznych. Ich dbałość o szczegóły, kreatywność i chęć powtarzania sprawiły, że cały proces przebiegł sprawnie. Końcowa animacja umożliwiła nam znacznie jaśniejszą prezentację naszego produktu partnerom i interesariuszom.",
+        "role": "Założyciel"
       },
       "luigi": {
-        "headline": "Exactly what we needed for M12 and B12",
-        "quote": "We needed a clear way to show the differences between our M12 and B12 products, and Starlight Visuals delivered exactly what we were looking for. The animations were high quality, easy to understand, and captured every important detail.",
-        "role": "Production Manager"
+        "headline": "Dokładnie to, czego potrzebowaliśmy do M12 i B12",
+        "quote": "Potrzebowaliśmy jasnego sposobu pokazania różnic między naszymi produktami M12 i B12, a Starlight Visuals dostarczyło dokładnie to, czego szukaliśmy. Animacje były wysokiej jakości, łatwe do zrozumienia i uchwyciły każdy ważny szczegół.",
+        "role": "Kierownik produkcji"
       },
       "jason": {
-        "headline": "Outstanding quality beyond what we imagined",
-        "quote": "The quality of the animation was outstanding. Starlight Visuals helped us present our product in a way that was clear, engaging, and memorable. The final presentation looked far better than we had imagined.",
-        "role": "CEO"
+        "headline": "Znakomita jakość wykraczająca poza to, co sobie wyobrażaliśmy",
+        "quote": "Jakość animacji była znakomita. Starlight Visuals pomogło nam zaprezentować nasz produkt w sposób przejrzysty, wciągający i zapadający w pamięć. Końcowa prezentacja wyglądała znacznie lepiej, niż sobie wyobrażaliśmy.",
+        "role": "Dyrektor generalny"
       },
       "burkhard": {
-        "headline": "Made a complex product easy to explain",
-        "quote": "We knew our product was strong, but explaining it clearly to customers was always the challenge. The team at Starlight Visuals took the time to understand how everything works and turned it into an animation that made the message much easier to communicate. It looks professional, keeps people's attention, and helps us present the product with much more confidence. The whole process was straightforward, and they were easy to work with. We're very happy with the result.",
-        "role": "Head of Sales"
+        "headline": "Ułatwiono wyjaśnienie złożonego produktu",
+        "quote": "Wiedzieliśmy, że nasz produkt jest mocny, ale jasne wyjaśnienie tego klientom zawsze było wyzwaniem. Zespół Starlight Visuals poświęcił czas na zrozumienie, jak wszystko działa i przekształcił to w animację, która znacznie ułatwiła przekazanie wiadomości. Wygląda profesjonalnie, przyciąga uwagę i pomaga nam zaprezentować produkt ze znacznie większą pewnością. Cały proces był prosty, a praca z nimi była łatwa. Jesteśmy bardzo zadowoleni z wyniku.",
+        "role": "Szef sprzedaży"
       },
       "robert": {
-        "headline": "Premium watch films beyond what we imagined",
-        "quote": "There was a clear vision for how we wanted our watches to be presented, but Starlight Visuals took it beyond what we imagined. They didn't just animate our product they captured the details, precision, and premium quality that define our brand. The final presentation gave our collection a level of sophistication that instantly elevated how customers perceived it. The entire process was smooth, collaborative, and professionally handled from start to finish.",
-        "role": "Founder"
+        "headline": "Oglądaj filmy premium wykraczające poza to, co sobie wyobrażaliśmy",
+        "quote": "Mieliśmy jasną wizję tego, jak chcemy prezentować nasze zegarki, ale Starlight Visuals wykroczyło poza to, co sobie wyobrażaliśmy. Nie tylko animowali nasz produkt, ale uchwycili szczegóły, precyzję i najwyższą jakość, które definiują naszą markę. Końcowa prezentacja nadała naszej kolekcji poziom wyrafinowania, który natychmiast poprawił odbiór jej przez klientów. Cały proces przebiegł sprawnie, zespołowo i profesjonalnie od początku do końca.",
+        "role": "Założyciel"
       }
     },
     "videoRoles": {
-      "ceo": "CEO",
-      "artDirector": "Art Director",
+      "ceo": "Dyrektor generalny",
+      "artDirector": "Dyrektor artystyczny",
       "founder": "Założyciel",
       "headProduction": "Szef produkcji",
-      "vpMarketing": "VP Marketing",
+      "vpMarketing": "Wiceprezes ds. marketingu",
       "coFounder": "Współzałożyciel"
     },
-    "seeMore": "See more",
-    "seeLess": "See less",
-    "writeYours": "Write yours",
-    "tapToRead": "Tap to read full review"
+    "seeMore": "Zobacz więcej",
+    "seeLess": "Zobacz mniej",
+    "writeYours": "Napisz swoje",
+    "tapToRead": "Kliknij, żeby przeczytać pełną recenzję"
   },
   "servicesPage": {
-    "metaTitle": "Services | Starlights Visuals",
-    "metaDescription": "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
-    "label": "What We Build",
-    "title": "SERVICES",
-    "subtitle": "One studio, every stage of production, from first sketch to final pixel.",
-    "ctaTitle1": "HAVE A",
-    "ctaTitle2": "PROJECT",
-    "ctaTitle3": "IN MIND?",
-    "ctaDesc": "Tell us your vision, we'll bring the firepower.",
-    "ctaButton": "Get In Touch",
+    "metaTitle": "Usługi | Wizualizacje gwiazd",
+    "metaDescription": "Animacja 2D, animacja 3D, projektowanie postaci, animacja, efekty wizualne, animacja produktu i zwiastuny filmowe.",
+    "label": "Co budujemy",
+    "title": "USŁUGI",
+    "subtitle": "Jedno studio, każdy etap produkcji, od pierwszego szkicu po końcowy piksel.",
+    "ctaTitle1": "MIEĆ A",
+    "ctaTitle2": "PROJEKT",
+    "ctaTitle3": "W UMYŚLE?",
+    "ctaDesc": "Opowiedz nam swoją wizję, a my zapewnimy siłę ognia.",
+    "ctaButton": "Skontaktuj się",
     "items": {
       "2d": {
-        "title": "2D Animation",
-        "desc": "Frame by frame & rigged 2D for series, shorts, explainers, and brand films. We blend classic craft with digital pipelines."
+        "title": "Animacja 2D",
+        "desc": "Klatka po klatce i sfałszowane 2D dla seriali, filmów krótkometrażowych, objaśnień i filmów firmowych. Łączymy klasyczne rzemiosło z cyfrowymi potokami."
       },
       "3d": {
-        "title": "3D Animation",
-        "desc": "Stylized and photoreal 3D, characters, environments, and full cinematic sequences with feature quality polish."
+        "title": "Animacja 3D",
+        "desc": "Stylizowane i fotorealistyczne 3D, postacie, środowiska i pełne sekwencje kinowe z dopracowaną jakością fabularną."
       },
       "character": {
-        "title": "Character Design",
-        "desc": "Original characters, creatures, and concept art that anchor your IP and merch potential."
+        "title": "Projekt postaci",
+        "desc": "Oryginalne postacie, stworzenia i grafiki koncepcyjne, które zakotwiczają Twój potencjał IP i gadżety."
       },
       "motion": {
-        "title": "Motion Graphics",
-        "desc": "Branded motion, UI animation, broadcast packages, and explainer videos with cinematic polish."
+        "title": "Grafika ruchoma",
+        "desc": "Ruch markowy, animacja interfejsu użytkownika, pakiety transmisji i filmy wyjaśniające z kinowym wykończeniem."
       },
       "vfx": {
-        "title": "Visual Effects (VFX)",
-        "desc": "Compositing, particle FX, and CG integration for film, advertising, and digital campaigns."
+        "title": "Efekty wizualne (VFX)",
+        "desc": "Komponowanie, integracja efektów cząsteczkowych i CG w kampaniach filmowych, reklamowych i cyfrowych."
       },
       "trailer": {
-        "title": "Cinematic Trailers",
-        "desc": "Story driven trailers built to launch brands, IPs, and campaigns with maximum impact."
+        "title": "Zwiastuny kinowe",
+        "desc": "Zwiastuny oparte na fabule, stworzone w celu promowania marek, adresów IP i kampanii o maksymalnym wpływie."
       }
     }
   },
   "aboutPage": {
-    "metaTitle": "About | Starlights Visuals",
-    "metaDescription": "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, game animation, product visualization, and 2D & 3D character animation.",
-    "label": "Who We Are",
-    "title1": "A STUDIO BUILT ON",
-    "title2": "LIGHT, CODE & STORY",
-    "p1": "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, game animation, product visualization, and 2D & 3D character animation. We combine artistic excellence with cutting-edge technology to transform ideas into visuals that captivate, educate, and inspire. From engineering-driven industrial animations and photorealistic product renders to stylized cartoons, expressive character performances, and cinematic game sequences, we create animation that delivers both visual impact and meaningful results.",
-    "p2": "Whether showcasing a product's innovation, bringing a game universe to life, or crafting memorable animated characters, every frame is designed with purpose and precision. Our multidisciplinary team of animators, technical artists, modelers, riggers, motion designers, and visual storytellers collaborates seamlessly to produce work that meets the highest creative and technical standards. We believe great animation does more than look beautiful, it communicates complex ideas, strengthens brands, and creates lasting emotional connections.",
-    "p3": "We partner with manufacturers, product companies, game developers, creative agencies, and global brands to deliver premium animation for marketing, product launches, training, entertainment, advertising, and digital experiences. Every project is driven by innovation, craftsmanship, and an uncompromising commitment to quality. At Starlight Visuals, we don't simply animate, we engineer experiences, build unforgettable characters, and create visuals that move people and businesses forward.",
-    "valuesLabel": "Core Values",
-    "valuesTitle": "WHAT DRIVES US",
+    "metaTitle": "O | Wizualizacje gwiazd",
+    "metaDescription": "Starlight Visuals to światowej klasy studio animacji tworzące wyjątkowe doświadczenia wizualne w zakresie animacji produktów przemysłowych, animacji gier, wizualizacji produktów oraz animacji postaci 2D i 3D.",
+    "label": "Kim jesteśmy",
+    "title1": "STUDIO ZBUDOWANE NA",
+    "title2": "ŚWIATŁO, KOD I HISTORIA",
+    "p1": "Starlight Visuals to światowej klasy studio animacji tworzące wyjątkowe doświadczenia wizualne w zakresie animacji produktów przemysłowych, animacji gier, wizualizacji produktów oraz animacji postaci 2D i 3D. Łączymy doskonałość artystyczną z najnowocześniejszą technologią, aby przekształcać pomysły w efekty wizualne, które urzekają, edukują i inspirują. Od animacji przemysłowych opartych na inżynierii i fotorealistycznych renderów produktów po stylizowane kreskówki, wyraziste występy postaci i kinowe sekwencje gier – tworzymy animacje, które zapewniają zarówno efekt wizualny, jak i znaczące rezultaty.",
+    "p2": "Niezależnie od tego, czy chodzi o prezentację innowacji produktu, ożywienie uniwersum gry, czy tworzenie zapadających w pamięć animowanych postaci, każda klatka została zaprojektowana z myślą o celu i precyzji. Nasz multidyscyplinarny zespół animatorów, artystów technicznych, modelarzy, riggerów, projektantów ruchu i twórców historii wizualnych płynnie współpracuje, aby stworzyć prace spełniające najwyższe standardy kreatywne i techniczne. Wierzymy, że świetna animacja nie tylko pięknie wygląda, ale przekazuje złożone pomysły, wzmacnia marki i tworzy trwałe więzi emocjonalne.",
+    "p3": "Współpracujemy z producentami, firmami produktowymi, twórcami gier, agencjami kreatywnymi i globalnymi markami, aby dostarczać animacje najwyższej jakości na potrzeby marketingu, premier produktów, szkoleń, rozrywki, reklamy i doświadczeń cyfrowych. Podstawą każdego projektu są innowacje, kunszt i bezkompromisowe zaangażowanie w jakość. W Starlight Visuals nie tylko animujemy, ale także projektujemy doświadczenia, budujemy niezapomniane postacie i tworzymy wizualizacje, które popychają ludzi i firmy do przodu.",
+    "valuesLabel": "Podstawowe wartości",
+    "valuesTitle": "CO NAS NAPRĘŻA",
     "values": {
       "imagination": {
-        "title": "Imagination First",
-        "desc": "Every project starts with a bold idea and a blank canvas."
+        "title": "Najpierw wyobraźnia",
+        "desc": "Każdy projekt zaczyna się od śmiałego pomysłu i czystego płótna."
       },
       "craft": {
-        "title": "Craft Obsessed",
-        "desc": "Frame by frame, pixel by pixel, quality is non negotiable."
+        "title": "Ma obsesję na punkcie rzemiosła",
+        "desc": "Klatka po klatce, piksel po pikselu, jakość nie podlega negocjacjom."
       },
       "energy": {
-        "title": "Cinematic Energy",
-        "desc": "We chase the goosebumps. If it doesn't move us, we refine."
+        "title": "Energia filmowa",
+        "desc": "Gonimy za gęsią skórką. Jeśli nas to nie porusza, udoskonalamy."
       },
       "story": {
-        "title": "Story Driven",
-        "desc": "Tech serves story. Always."
+        "title": "Oparta na historii",
+        "desc": "Technologia służy historii. Zawsze."
       }
     },
     "stats": {
-      "projects": "Projects Shipped",
-      "clients": "Global Clients",
-      "awards": "Awards Won",
-      "years": "Years Crafting"
+      "projects": "Projekty wysłane",
+      "clients": "Klienci globalni",
+      "awards": "Nagrody zdobyte",
+      "years": "Lata rzemiosła"
     }
   },
   "contactPage": {
     "metaTitle": "Kontakt | Starlights Visuals",
-    "metaDescription": "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
+    "metaDescription": "Skontaktuj się z Starlights Visuals w sprawie animacji 2D i 3D, ruchomej grafiki, efektów wizualnych, animacji produktu i projektów zwiastunów kinowych.",
     "label": "Porozmawiajmy",
     "title": "KONTAKT",
     "subtitle": "Zapytania produkcyjne, współprace lub po prostu cześć, wyślij nam sygnał.",
@@ -287,59 +287,59 @@
     "responseTime": "CZAS ODPOWIEDZI",
     "responseDesc": "W ciągu 24 godzin, pon., pt.",
     "projectTypes": {
-      "2d": "2D Animation",
-      "3d": "3D Animation",
-      "trailer": "Cinematic Trailer",
-      "character": "Character Design",
-      "motion": "Motion Graphics and VFX",
-      "other": "Other"
+      "2d": "Animacja 2D",
+      "3d": "Animacja 3D",
+      "trailer": "Zwiastun kinowy",
+      "character": "Projekt postaci",
+      "motion": "Grafika ruchoma i efekty wizualne",
+      "other": "Inny"
     },
-    "sending": "Sending…",
-    "errorGeneric": "Could not send your message. Please email us directly or try again."
+    "sending": "Przesyłka…",
+    "errorGeneric": "Nie udało się wysłać Twojej wiadomości. Napisz do nas bezpośrednio lub spróbuj ponownie."
   },
   "portfolioPage": {
-    "metaTitle": "Portfolio | Starlights Visuals",
-    "metaDescription": "Selected projects: animated series, cinematic trailers, character designs, and studio showcase reels by Starlights Visuals.",
+    "metaTitle": "Portfolio | Wizualizacje gwiazd",
+    "metaDescription": "Wybrane projekty: seriale animowane, zwiastuny kinowe, projekty postaci i pokazy studyjne autorstwa Starlights Visuals.",
     "label": "Wybrane prace",
     "title1": "PORT",
     "title2": "FOLIO",
     "subtitle": "Spojrzenie na światy, postacie i historie, które pomogliśmy ożywić.",
     "projects": {
       "trailer": {
-        "tag": "Cinematic Trailer",
-        "title": "Iron Sentinel",
-        "desc": "Cinematic brand launch trailer."
+        "tag": "Zwiastun kinowy",
+        "title": "Żelazny Strażnik",
+        "desc": "Filmowy zwiastun premiery marki."
       },
       "character": {
-        "tag": "Character Design",
-        "title": "Nova Vanguard",
-        "desc": "Hero protagonist sheet."
+        "tag": "Projekt postaci",
+        "title": "Nowa Straż Przednia",
+        "desc": "Karta bohatera bohatera."
       },
       "2d": {
-        "tag": "2D Animation",
-        "title": "Neon Skyline",
-        "desc": "Anime inspired pilot episode."
+        "tag": "Animacja 2D",
+        "title": "Neonowa linia horyzontu",
+        "desc": "Odcinek pilotażowy inspirowany anime."
       },
       "creature": {
-        "tag": "Creature Design",
-        "title": "Crystal Wyrm",
-        "desc": "Boss creature concept."
+        "tag": "Projekt stworzenia",
+        "title": "Kryształowy Żmij",
+        "desc": "Koncepcja stworzenia szefa."
       },
       "motion": {
-        "tag": "Motion Graphics",
-        "title": "Pulse Identity",
-        "desc": "Brand motion system."
+        "tag": "Grafika ruchoma",
+        "title": "Tożsamość pulsu",
+        "desc": "System ruchu marki."
       },
       "motionEnv": {
-        "tag": "Motion Graphics",
-        "title": "Pulse Worlds",
-        "desc": "Immersive brand environment art."
+        "tag": "Grafika ruchoma",
+        "title": "Światy Pulsacyjne",
+        "desc": "Wciągająca grafika otoczenia marki."
       }
     }
   },
   "blogPage": {
-    "metaTitle": "Blog | Starlights Visuals",
-    "metaDescription": "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
+    "metaTitle": "Blog | Wizualizacje gwiazd",
+    "metaDescription": "Spostrzeżenia na temat animacji, efektów wizualnych, zwiastunów kinowych i opowiadania historii marek premium od Starlights Visuals.",
     "label": "Dziennik studia",
     "title1": "NASZ",
     "title2": "BLOG",
@@ -349,50 +349,50 @@
     "startProject": "Rozpocznij projekt",
     "moreFromJournal": "Więcej z dziennika",
     "postBody1": "W Starlights Visuals traktujemy każdą klatkę jako szansę konwersji, nie tylko piękny obraz. Ten artykuł rozwija myślenie stojące za naszą pracą w kategorii {{category}} i decyzje, które oddzielają dobrą kreację od kreacji gotowej na premierę.",
-    "postBody2": "Whether you are shipping a trailer, scaling a brand motion system, or building campaign visuals for a live product, the same principle applies: clarity of story first, polish second, and ruthless editing last. That discipline is how teams hit deadlines without the almost there feeling.",
+    "postBody2": "Niezależnie od tego, czy wysyłasz zwiastun, skalujesz system ruchu marki, czy tworzysz wizualizacje kampanii dla produktu na żywo, obowiązuje ta sama zasada: najpierw przejrzystość historii, potem dopracowanie, a na koniec bezwzględny montaż. Ta dyscyplina polega na tym, jak zespoły dotrzymują terminów, nie czując, że są prawie na miejscu.",
     "postBody3": "Chcesz zastosować to myślenie w swoim następnym projekcie? Chętnie usłyszymy, co budujesz, wyślij brief, a zmapujemy kinową ścieżkę od koncepcji do dostawy.",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "Why cinematic trailers convert better than product demos",
-        "excerpt": "Story first launch films build emotional stakes before the CTA. Here is how we structure hooks, pacing, and grade for maximum retention.",
-        "category": "Strategy",
-        "date": "May 12, 2026",
-        "readTime": "6 min read"
+        "title": "Dlaczego zwiastuny kinowe konwertują lepiej niż dema produktów",
+        "excerpt": "Filmy fabularne wprowadzające na rynek budują emocje przed CTA. Oto jak konstruujemy haki, tempo i ocenę, aby zapewnić maksymalne utrzymanie.",
+        "category": "Strategia",
+        "date": "12 maja 2026 r",
+        "readTime": "6 minut czytania"
       },
       "character-design-for-ip": {
-        "title": "Character design that anchors your IP across every channel",
-        "excerpt": "From silhouette readability to merch ready turnarounds, the checklist we use before a hero goes into production.",
-        "category": "Craft",
-        "date": "May 3, 2026",
-        "readTime": "5 min read"
+        "title": "Projekt postaci, który zakotwicza Twoje IP w każdym kanale",
+        "excerpt": "Od czytelności sylwetki po gotowe produkty — lista kontrolna, z której korzystamy, zanim bohater wejdzie do produkcji.",
+        "category": "Rzemiosło",
+        "date": "3 maja 2026 r",
+        "readTime": "5 minut czytania"
       },
       "motion-systems-for-brands": {
-        "title": "Building motion systems brands can actually reuse",
-        "excerpt": "Modular motion libraries, logo stings, and UI micro interactions that keep campaigns consistent at scale.",
-        "category": "Motion",
-        "date": "Apr 8, 2026",
-        "readTime": "4 min read"
+        "title": "Marki tworzące systemy ruchu mogą faktycznie ponownie je wykorzystać",
+        "excerpt": "Modułowe biblioteki ruchu, logo i mikrointerakcje w interfejsie użytkownika zapewniają spójność kampanii na dużą skalę.",
+        "category": "Ruch",
+        "date": "8 kwietnia 2026 r",
+        "readTime": "4 minuty czytania"
       },
       "2d-animation-in-2026": {
-        "title": "2D animation in 2026: hybrid pipelines that still feel handmade",
-        "excerpt": "Combining rigged efficiency with frame by frame accents, when to push each technique for premium results.",
-        "category": "Animation",
-        "date": "Mar 29, 2026",
-        "readTime": "7 min read"
+        "title": "Animacja 2D w 2026 r.: rurociągi hybrydowe, które nadal sprawiają wrażenie wykonanego ręcznie",
+        "excerpt": "Łącząc wysoką wydajność z akcentami klatka po klatce, kiedy należy zastosować każdą technikę, aby uzyskać najlepsze wyniki.",
+        "category": "Ożywienie",
+        "date": "29 marca 2026 r",
+        "readTime": "7 minut czytania"
       },
       "creature-design-breakdown": {
-        "title": "Creature design breakdown: from mood board to final rig",
-        "excerpt": "A look at how we develop boss creatures with readable silhouettes, material storytelling, and cinematic presence.",
-        "category": "Craft",
-        "date": "Mar 14, 2026",
-        "readTime": "6 min read"
+        "title": "Podział projektu stworzenia: od moodboardu do ostatecznego zestawu",
+        "excerpt": "Spojrzenie na to, jak rozwijamy bossów z czytelnymi sylwetkami, materialną narracją i kinową prezencją.",
+        "category": "Rzemiosło",
+        "date": "14 marca 2026 r",
+        "readTime": "6 minut czytania"
       },
       "production-pipelines-that-ship": {
-        "title": "Production pipelines that ship: concept to final delivery",
-        "excerpt": "How we align art direction, technical constraints, and milestone reviews so teams ship on time without sacrificing polish.",
-        "category": "Production",
-        "date": "Apr 21, 2026",
-        "readTime": "8 min read"
+        "title": "Rurociągi produkcyjne, które wysyłają: koncepcja do ostatecznej dostawy",
+        "excerpt": "Jak dostosowujemy kierunek artystyczny, ograniczenia techniczne i przeglądy kamieni milowych, aby zespoły dostarczały produkty na czas bez poświęcania dopracowania.",
+        "category": "Produkcja",
+        "date": "21 kwietnia 2026 r",
+        "readTime": "8 minut czytania"
       }
     }
   },
@@ -409,8 +409,8 @@
     "goHome": "Idź na stronę główną"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals | Animation & VFX Studio",
-    "rootDescription": "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
+    "rootTitle": "Wizualizacje gwiazd | Studio animacji i efektów wizualnych",
+    "rootDescription": "Starlights Visuals to studio kreatywne specjalizujące się w kinowej animacji 2D, wysokiej jakości animacji 3D i efektach wizualnych.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -421,48 +421,48 @@
     "logoAlt": "Logo {{brand}}"
   },
   "works": {
-    "breadcrumbLabel": "Breadcrumb",
-    "breadcrumbHome": "Home",
-    "breadcrumbWorks": "Selected Works",
-    "clientsTitle": "Clients We've Worked With",
-    "clientsCount": "{{count}} clients",
-    "projectsCompleted": "{{count}} projects completed",
-    "timeline": "Timeline",
-    "services": "Services provided",
-    "tools": "Tools & software",
-    "searchPlaceholder": "Search projects…",
-    "filterYear": "Filter by year",
-    "allYears": "All years",
-    "noClients": "No clients in this category yet.",
-    "noProjects": "No projects match your filters.",
-    "projectsTitle": "Project Samples",
-    "relatedProjects": "Related projects",
-    "closePreview": "Close preview",
-    "ctaScript": "Ready when you are,",
-    "ctaTitle": "Start Your Project With Us",
-    "ctaDesc": "Tell us about your brand, timeline, and goals. We'll map a cinematic path from concept to delivery.",
-    "ctaButton": "Start a project",
-    "portfolioHubDesc": "Explore work by category, animation, VFX, motion, and more.",
+    "breadcrumbLabel": "Bułka tarta",
+    "breadcrumbHome": "Dom",
+    "breadcrumbWorks": "Wybrane prace",
+    "clientsTitle": "Klienci, z którymi współpracowaliśmy",
+    "clientsCount": "{{count}} klientów",
+    "projectsCompleted": "Ukończono projekty: {{count}}",
+    "timeline": "Oś czasu",
+    "services": "Świadczone usługi",
+    "tools": "Narzędzia i oprogramowanie",
+    "searchPlaceholder": "Wyszukaj projekty…",
+    "filterYear": "Filtruj według roku",
+    "allYears": "Wszystkie lata",
+    "noClients": "Nie ma jeszcze klientów w tej kategorii.",
+    "noProjects": "Żaden projekt nie pasuje do wybranych filtrów.",
+    "projectsTitle": "Próbki projektów",
+    "relatedProjects": "Powiązane projekty",
+    "closePreview": "Zamknij podgląd",
+    "ctaScript": "Gotowy, kiedy jesteś,",
+    "ctaTitle": "Rozpocznij z nami swój projekt",
+    "ctaDesc": "Opowiedz nam o swojej marce, harmonogramie i celach. Wyznaczymy kinową ścieżkę od koncepcji do realizacji.",
+    "ctaButton": "Rozpocznij projekt",
+    "portfolioHubDesc": "Przeglądaj prace według kategorii, animacji, efektów wizualnych, ruchu i nie tylko.",
     "categories": {
       "2d-animation": {
         "title": "Animacja 2D",
-        "tagline": "Frame by frame craft for campaigns and series",
-        "description": "Character driven 2D animation for commercials, explainers, and episodic content with bold motion and cinematic timing."
+        "tagline": "Tworzenie klatka po klatce dla kampanii i seriali",
+        "description": "Animacja 2D oparta na postaciach do reklam, objaśnień i treści epizodycznych z odważnym ruchem i kinowym synchronizacją."
       },
       "3d-animation": {
         "title": "Animacja 3D",
-        "tagline": "Stylized and photoreal 3D for film and brands",
-        "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
+        "tagline": "Stylizowane i fotorealistyczne 3D dla filmów i marek",
+        "description": "Wysokiej jakości animacja 3D postaci, produktów i filmów z dopracowaniem poziomu funkcji na potrzeby kampanii i seriali."
       },
       "motion-graphics": {
-        "title": "Motion Graphics",
-        "tagline": "Design led motion systems for launches and brand worlds",
-        "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
+        "title": "Grafika ruchoma",
+        "tagline": "Projektuj systemy ruchu LED dla premier i światów marek",
+        "description": "Projektuj systemy sterowania ruchem dla premier, kokpitów i światów marek, które można skalować w różnych kanałach."
       },
       "vfx": {
-        "title": "Efekty wizualne (VFX)",
-        "tagline": "Compositing, FX, and cinematic finishing",
-        "description": "Visual effects for trailers, product films, and branded content, from cleanups to full CG integration."
+        "title": "Visual Effects (VFX)",
+        "tagline": "Komponowanie, efekty specjalne i wykończenie kinowe",
+        "description": "Efekty wizualne do zwiastunów, filmów produktowych i treści związanych z marką, od porządków po pełną integrację CG."
       }
     },
     "showcase": {
@@ -475,77 +475,77 @@
         "title": "Animacja 3D"
       },
       "motion-graphics": {
-        "tag": "Motion Graphics",
-        "title": "Motion Graphics"
+        "tag": "Grafika ruchoma",
+        "title": "Grafika ruchoma"
       },
       "vfx": {
-        "tag": "Efekty wizualne (VFX)",
-        "title": "Efekty wizualne (VFX)"
+        "tag": "Visual Effects (VFX)",
+        "title": "Visual Effects (VFX)"
       }
     },
     "clients": {
       "2d-animation": {
         "chibi-art": {
           "name": "CHIBI ART",
-          "industry": "Character & Animation",
-          "description": "Chibi style 2D character animation with expressive scenes and behind the scenes making process films.",
+          "industry": "Charakter i animacja",
+          "description": "Animacja postaci 2D w stylu Chibi z wyrazistymi scenami i tworzeniem filmów zza kulis.",
           "timeline": "2025",
           "services": {
-            "0": "2D Animation",
-            "1": "Chibi Art",
-            "2": "Character Animation"
+            "0": "Animacja 2D",
+            "1": "Sztuka Chibi",
+            "2": "Animacja postaci"
           },
           "tools": {
-            "0": "After Effects",
+            "0": "Po efektach",
             "1": "Clip Studio Paint",
-            "2": "Photoshop"
+            "2": "Photoshopa"
           }
         },
         "vtuber-animation": {
           "name": "VTUBER ANIMATION",
-          "industry": "VTuber & Character",
-          "description": "VTuber character art and 2D animation with modeling process films, polished samples, and Live2D style performance.",
+          "industry": "VTuber i postać",
+          "description": "Grafika postaci VTuber i animacja 2D z filmami z procesu modelowania, dopracowanymi próbkami i występami w stylu Live2D.",
           "timeline": "2025",
           "services": {
-            "0": "VTuber Animation",
-            "1": "2D Character",
-            "2": "Live2D Style"
+            "0": "Animacja VTubera",
+            "1": "Postać 2D",
+            "2": "Styl Live2D"
           },
           "tools": {
             "0": "Live2D",
-            "1": "After Effects",
+            "1": "Po efektach",
             "2": "Clip Studio Paint"
           }
         },
         "live2d-animation": {
           "name": "LIVE2D ANIMATION",
-          "industry": "Live2D & Character",
-          "description": "Live2D character art, rigging, and animation from making process films through polished sample performances.",
+          "industry": "Live2D i postać",
+          "description": "Grafika postaci Live2D, rigging i animacja, od tworzenia filmów procesowych po dopracowane przykładowe występy.",
           "timeline": "2025",
           "services": {
             "0": "Live2D",
-            "1": "Rigging",
-            "2": "2D Character Animation"
+            "1": "Olinowanie",
+            "2": "Animacja postaci 2D"
           },
           "tools": {
-            "0": "Live2D Cubism",
-            "1": "After Effects",
-            "2": "Photoshop"
+            "0": "Kubizm Live2D",
+            "1": "Po efektach",
+            "2": "Photoshopa"
           }
         },
         "2d-anime-animation": {
           "name": "2D ANIME ANIMATION",
-          "industry": "Anime & 2D Animation",
-          "description": "High quality 2D anime style animation and music videos with expressive characters and cinematic motion.",
+          "industry": "Animacja anime i 2D",
+          "description": "Wysokiej jakości animacje 2D w stylu anime i teledyski z wyrazistymi postaciami i kinowym ruchem.",
           "timeline": "2025",
           "services": {
-            "0": "2D Anime",
-            "1": "Music Video",
-            "2": "Character Animation"
+            "0": "Anime 2D",
+            "1": "Teledysk",
+            "2": "Animacja postaci"
           },
           "tools": {
-            "0": "After Effects",
-            "1": "Toon Boom",
+            "0": "Po efektach",
+            "1": "Toon Bum",
             "2": "Clip Studio Paint"
           }
         }
@@ -553,817 +553,817 @@
       "3d-animation": {
         "kids-learning-animation": {
           "name": "KIDS LEARNING ANIMATION",
-          "industry": "Children & Education",
-          "description": "Fun character animation for kids learning content, including number videos and cute cartoon characters.",
+          "industry": "Dzieci i edukacja",
+          "description": "Zabawna animacja postaci dla dzieci, które uczą się treści, w tym filmy z liczbami i urocze postacie z kreskówek.",
           "timeline": "2025",
           "services": {
-            "0": "Kids Learning",
-            "1": "Character Animation",
-            "2": "Educational Content"
+            "0": "Uczenie się dzieci",
+            "1": "Animacja postaci",
+            "2": "Treści edukacyjne"
           },
           "tools": {
-            "0": "After Effects",
-            "1": "Toon Boom",
-            "2": "Blender"
+            "0": "Po efektach",
+            "1": "Toon Bum",
+            "2": "Mikser"
           }
         },
         "3d-cartoon-animation": {
           "name": "3D CARTOON ANIMATION",
-          "industry": "Character & Animation",
-          "description": "Stylized 3D cartoon character animation and showcase films with playful motion and polished presentation.",
+          "industry": "Charakter i animacja",
+          "description": "Stylizowane animacje postaci z kreskówek 3D i filmy prezentacyjne z zabawnym ruchem i dopracowaną prezentacją.",
           "timeline": "2025",
           "services": {
-            "0": "3D Cartoon Animation",
-            "1": "Character Showcase",
-            "2": "Stylized CGI"
+            "0": "Animacja kreskówkowa 3D",
+            "1": "Prezentacja postaci",
+            "2": "Stylizowane CGI"
           },
           "tools": {
-            "0": "Blender",
-            "1": "Cinema 4D",
-            "2": "After Effects"
+            "0": "Mikser",
+            "1": "Kino 4D",
+            "2": "Po efektach"
           }
         },
         "3d-explainer-video": {
           "name": "3D EXPLAINER VIDEO",
-          "industry": "Product & Explainer",
-          "description": "3D explainer and product presentation films covering brand storytelling, 360 product displays, and commercial animation.",
+          "industry": "Produkt i objaśnienie",
+          "description": "Filmy objaśniające 3D i prezentujące produkty, obejmujące opowiadanie historii marki, prezentacje produktów 360° i animacje komercyjne.",
           "timeline": "2025",
           "services": {
-            "0": "3D Explainer",
-            "1": "Product Presentation",
-            "2": "360 Product Display"
+            "0": "Wyjaśnienie 3D",
+            "1": "Prezentacja produktu",
+            "2": "Prezentacja produktu 360°"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Mikser",
+            "2": "Po efektach"
           }
         },
         "3d-medical-animation": {
           "name": "3D MEDICAL ANIMATION",
-          "industry": "Healthcare & Medical Visualization",
-          "description": "High quality 3D medical animation covering anatomy, surgical procedures, and medical device visualization.",
+          "industry": "Opieka zdrowotna i wizualizacja medyczna",
+          "description": "Wysokiej jakości animacja medyczna 3D obejmująca anatomię, zabiegi chirurgiczne i wizualizację wyrobów medycznych.",
           "timeline": "2025",
           "services": {
-            "0": "Medical Animation",
-            "1": "Anatomy CGI",
-            "2": "Surgical Visualization"
+            "0": "Animacja medyczna",
+            "1": "Anatomia CGI",
+            "2": "Wizualizacja chirurgiczna"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Mikser",
+            "2": "Po efektach"
           }
         },
         "3d-anime-character": {
           "name": "3D ANIME CHARACTER",
-          "industry": "Character & Anime",
-          "description": "3D anime character modeling and client showcase films with stylized materials and polished presentation.",
+          "industry": "Charakter i Anime",
+          "description": "Modelowanie postaci anime 3D i filmy prezentacyjne klientów ze stylizowanymi materiałami i dopracowaną prezentacją.",
           "timeline": "2025",
           "services": {
-            "0": "3D Character",
-            "1": "Anime CGI",
-            "2": "Client Showcase"
+            "0": "Postać 3D",
+            "1": "Animowana grafika komputerowa",
+            "2": "Prezentacja klienta"
           },
           "tools": {
-            "0": "Blender",
-            "1": "Cinema 4D",
-            "2": "After Effects"
+            "0": "Mikser",
+            "1": "Kino 4D",
+            "2": "Po efektach"
           }
         }
       },
       "motion-graphics": {
         "watch-animation": {
           "name": "WATCH ANIMATION",
-          "industry": "Luxury Watches",
-          "description": "Photoreal 3D watch product animation and cinematic packshot films for luxury timepieces.",
+          "industry": "Luksusowe zegarki",
+          "description": "Fotorealistyczne animacje produktów do zegarków 3D i kinowe filmy packshot dla luksusowych zegarków.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Watch CGI",
-            "2": "Packshot Films"
+            "0": "Animacja produktu 3D",
+            "1": "Obejrzyj CGI",
+            "2": "Filmy Packshotowe"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Przesunięcie ku czerwieni",
+            "2": "Po efektach"
           }
         },
         "ryse-drink-3d-product-animation": {
           "name": "RYSE DRINK 3D PRODUCT ANIMATION",
-          "industry": "Beverage & Product CGI",
-          "description": "Photoreal 3D beverage product animation for Ryse drink and lemonade campaigns with cinematic packshot finish.",
+          "industry": "CGI napojów i produktów",
+          "description": "Fotorealistyczna animacja produktów napojów 3D dla kampanii napojów i lemoniad Ryse z kinowym wykończeniem typu packshot.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Beverage CGI",
-            "2": "Packshot Films"
+            "0": "Animacja produktu 3D",
+            "1": "Napoje CGI",
+            "2": "Filmy Packshotowe"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Przesunięcie ku czerwieni",
+            "2": "Po efektach"
           }
         },
         "3d-perfume-animation": {
           "name": "3D PERFUME ANIMATION",
-          "industry": "Beauty & Fragrance",
-          "description": "Photoreal 3D perfume product animation for luxury fragrance launches and campaign hero films.",
+          "industry": "Piękno i zapach",
+          "description": "Fotorealistyczna animacja produktów perfumeryjnych 3D na potrzeby premier luksusowych perfum i filmów o bohaterach kampanii.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Fragrance CGI",
-            "2": "Packshot Films"
+            "0": "Animacja produktu 3D",
+            "1": "CGI zapachów",
+            "2": "Filmy Packshotowe"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Przesunięcie ku czerwieni",
+            "2": "Po efektach"
           }
         },
         "3d-gadget-animation": {
           "name": "3D GADGET ANIMATION",
-          "industry": "Consumer Electronics",
-          "description": "Photoreal 3D gadget and earbud product animation with studio lighting, material detail, and campaign ready motion.",
+          "industry": "Elektronika użytkowa",
+          "description": "Fotorealistyczna animacja gadżetów 3D i słuchawek dousznych z oświetleniem studyjnym, szczegółami materiałów i ruchem gotowym do kampanii.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Gadget CGI",
-            "2": "Packshot Films"
+            "0": "Animacja produktu 3D",
+            "1": "Gadżet CGI",
+            "2": "Filmy Packshotowe"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Przesunięcie ku czerwieni",
+            "2": "Po efektach"
           }
         },
         "vape-animation": {
           "name": "VAPE ANIMATION",
-          "industry": "Consumer Products",
-          "description": "Photoreal 3D vape product animation with studio lighting, material detail, and campaign ready packshot films.",
+          "industry": "Produkty konsumenckie",
+          "description": "Fotorealistyczna animacja produktu vape 3D z oświetleniem studyjnym, szczegółami materiałów i gotowymi do kampanii filmami typu packshot.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
+            "0": "Animacja produktu 3D",
             "1": "Vape CGI",
-            "2": "Packshot Films"
+            "2": "Filmy Packshotowe"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Przesunięcie ku czerwieni",
+            "2": "Po efektach"
           }
         },
         "bag-suitcase-animation": {
           "name": "BAG/SUITCASE ANIMATION",
-          "industry": "Travel & Lifestyle",
-          "description": "Realistic 3D product animation for bags and suitcases with cinematic packshot finish.",
+          "industry": "Podróże i styl życia",
+          "description": "Realistyczna animacja produktu 3D dla toreb i walizek z kinowym wykończeniem typu packshot.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Bag CGI",
-            "2": "Packshot Films"
+            "0": "Animacja produktu 3D",
+            "1": "Torba CGI",
+            "2": "Filmy Packshotowe"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Przesunięcie ku czerwieni",
+            "2": "Po efektach"
           }
         },
         "drop-band-animation": {
           "name": "DROP BAND ANIMATION",
-          "industry": "Wearables & Accessories",
-          "description": "Drop Band product animation covering production process films and final polished results.",
+          "industry": "Odzież i akcesoria",
+          "description": "Animacja produktu Drop Band obejmująca filmy z procesu produkcyjnego i końcowe dopracowane rezultaty.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Process Film",
-            "2": "Wearable CGI"
+            "0": "Animacja produktu 3D",
+            "1": "Film procesowy",
+            "2": "Poręczny CGI"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Przesunięcie ku czerwieni",
+            "2": "Po efektach"
           }
         },
         "3d-bed-animation": {
           "name": "3D BED ANIMATION",
-          "industry": "Furniture & Bedding",
-          "description": "Photoreal 3D mattress and bed product animation for furniture brands with cinematic packshot finish.",
+          "industry": "Meble i pościel",
+          "description": "Fotorealistyczna animacja 3D materacy i łóżek dla marek meblowych z kinowym wykończeniem typu packshot.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Furniture CGI",
-            "2": "Packshot Films"
+            "0": "Animacja produktu 3D",
+            "1": "Grafika komputerowa mebli",
+            "2": "Filmy Packshotowe"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Przesunięcie ku czerwieni",
+            "2": "Po efektach"
           }
         }
       },
       "vfx": {
         "ronix": {
           "name": "RONIX",
-          "industry": "Power Tools & Manufacturing",
-          "description": "Ronix 3D industrial animation and power tool CGI product showcase films.",
+          "industry": "Elektronarzędzia i produkcja",
+          "description": "Animacja przemysłowa Ronix 3D i filmy CGI prezentujące elektronarzędzia.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Power Tool CGI",
-            "2": "Product Showcase"
+            "0": "Animacja przemysłowa",
+            "1": "Elektronarzędzie CGI",
+            "2": "Prezentacja produktu"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Mikser",
+            "2": "Po efektach"
           }
         },
         "mintec": {
           "name": "MINTEC",
-          "industry": "Industrial Manufacturing",
-          "description": "MinTec industries product showcase and process films for 3D industrial animation.",
+          "industry": "Produkcja Przemysłowa",
+          "description": "Filmy prezentujące produkty MinTec Industries i procesowe do animacji przemysłowej 3D.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product Showcase",
-            "2": "Process Film"
+            "0": "Animacja przemysłowa",
+            "1": "Prezentacja produktu",
+            "2": "Film procesowy"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Mikser",
+            "2": "Po efektach"
           }
         },
         "integra-pw": {
           "name": "INTEGRA PW",
-          "industry": "Industrial Products",
-          "description": "Integra PW industrial animation from video making process through final cinematic results.",
+          "industry": "Produkty przemysłowe",
+          "description": "Animacja przemysłowa Integra PW od procesu tworzenia wideo po końcowe efekty kinowe.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Process Film",
-            "2": "Product CGI"
+            "0": "Animacja przemysłowa",
+            "1": "Film procesowy",
+            "2": "Produkt CGI"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Mikser",
+            "2": "Po efektach"
           }
         },
         "credex": {
           "name": "CREDEX",
-          "industry": "Cleaning Equipment",
-          "description": "CREDEX carpet cleaning machine industrial animation with cinematic SFX finish.",
+          "industry": "Sprzęt do czyszczenia",
+          "description": "Animacja przemysłowa maszyny do czyszczenia dywanów CREDEX z kinowym wykończeniem SFX.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product CGI",
-            "2": "Sound Design"
+            "0": "Animacja przemysłowa",
+            "1": "Produkt CGI",
+            "2": "Projekt dźwięku"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Mikser",
+            "2": "Po efektach"
           }
         },
         "phr-1": {
           "name": "PHR 1",
-          "industry": "Electric Powertrain",
-          "description": "PHR 1 electric power train product animation with technical lighting and cinematic polish.",
+          "industry": "Elektryczny układ napędowy",
+          "description": "Animacja produktu elektrycznego układu napędowego PHR 1 z oświetleniem technicznym i dopracowaniem filmowym.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Powertrain CGI",
-            "2": "Product Film"
+            "0": "Animacja przemysłowa",
+            "1": "CGI układu napędowego",
+            "2": "Film produktowy"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Mikser",
+            "2": "Po efektach"
           }
         },
         "atx": {
           "name": "ATX",
-          "industry": "Industrial Manufacturing",
-          "description": "ATX 3D industrial and technical product animation for manufacturing showcases.",
+          "industry": "Produkcja Przemysłowa",
+          "description": "Animacja produktów przemysłowych i technicznych ATX 3D do prezentacji produkcyjnych.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Technical CGI",
-            "2": "Product Showcase"
+            "0": "Animacja przemysłowa",
+            "1": "Techniczne CGI",
+            "2": "Prezentacja produktu"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Mikser",
+            "2": "Po efektach"
           }
         },
         "prov-gap": {
           "name": "PROV GAP",
-          "industry": "Industrial Manufacturing",
-          "description": "Prov GAP 3D industrial animation for technical product storytelling and brand films.",
+          "industry": "Produkcja Przemysłowa",
+          "description": "Prov GAP Animacja przemysłowa 3D do technicznego opowiadania historii produktów i filmów o marce.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product CGI",
-            "2": "Technical Film"
+            "0": "Animacja przemysłowa",
+            "1": "Produkt CGI",
+            "2": "Film techniczny"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Mikser",
+            "2": "Po efektach"
           }
         },
         "autoz-crave": {
           "name": "AUTOZ CRAVE",
-          "industry": "Automotive & Mechanical",
-          "description": "Autoz Crave industrial animation for mechanical and technical 3D product films.",
+          "industry": "Motoryzacja i mechanika",
+          "description": "Animacja przemysłowa Autoz Crave do filmów produktowych 3D o tematyce mechanicznej i technicznej.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Mechanical CGI",
-            "2": "Technical Animation"
+            "0": "Animacja przemysłowa",
+            "1": "Mechaniczne CGI",
+            "2": "Animacja techniczna"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Kino 4D",
+            "1": "Mikser",
+            "2": "Po efektach"
           }
         }
       }
     },
     "projects": {
       "chibi-art-p1": {
-        "title": "Chibi Art Scene 1",
-        "description": "Expressive chibi character scene with polished 2D animation and campaign ready motion.",
+        "title": "Scena artystyczna Chibi 1",
+        "description": "Ekspresyjna scena postaci chibi z dopracowaną animacją 2D i ruchem gotowym do kampanii.",
         "tags": {
           "0": "Chibi",
-          "1": "Scene"
+          "1": "Scena"
         }
       },
       "chibi-art-p2": {
-        "title": "Chibi Art Scene 2",
-        "description": "Second chibi character scene showcasing personality, timing, and colorful 2D performance.",
+        "title": "Scena artystyczna Chibi 2",
+        "description": "Druga scena postaci chibi prezentująca osobowość, wyczucie czasu i kolorowe występy 2D.",
         "tags": {
           "0": "Chibi",
-          "1": "Scene"
+          "1": "Scena"
         }
       },
       "chibi-art-p3": {
-        "title": "Making Process Film",
-        "description": "Behind the scenes look at the chibi art creation and animation workflow from sketch to final motion.",
+        "title": "Tworzenie filmu procesowego",
+        "description": "Za kulisami możesz zobaczyć proces tworzenia grafiki chibi i animacji od szkicu do końcowego ruchu.",
         "tags": {
-          "0": "Process",
-          "1": "Workflow"
+          "0": "Proces",
+          "1": "Przepływ pracy"
         }
       },
       "vtuber-animation-p1": {
-        "title": "Vtuber Modeling Creation",
-        "description": "VTuber character modeling creation film covering art direction and build workflow.",
+        "title": "Tworzenie modeli Vtuber",
+        "description": "Film dotyczący tworzenia modelowania postaci VTuber, obejmujący kierowanie artystyczne i przebieg procesu tworzenia.",
         "tags": {
           "0": "VTuber",
-          "1": "Modeling"
+          "1": "Modelowanie"
         }
       },
       "vtuber-animation-p2": {
-        "title": "Vtuber 2D Video Results",
-        "description": "Finished 2D VTuber animation results with expressive performance and polished motion.",
+        "title": "Wyniki wideo 2D z Vtubera",
+        "description": "Ukończone animacje 2D VTuber z wyrazistą wydajnością i dopracowanym ruchem.",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p3": {
-        "title": "Princess Vtuber Modeling",
-        "description": "Princess VTuber modeling sample showcasing character design and animated performance.",
+        "title": "Modelowanie księżniczki Vtuber",
+        "description": "Próbka modelowania Princess VTuber prezentująca projekty postaci i animowane występy.",
         "tags": {
           "0": "VTuber",
-          "1": "Princess"
+          "1": "Księżniczka"
         }
       },
       "vtuber-animation-p4": {
-        "title": "Vtuber 2D Video",
-        "description": "Cinematic 2D VTuber animation with dynamic character motion and expressive acting.",
+        "title": "Wideo 2D z Vtubera",
+        "description": "Kinowa animacja 2D VTuber z dynamicznym ruchem postaci i ekspresyjną grą aktorską.",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p5": {
-        "title": "Vtuber Sample 2",
-        "description": "Second VTuber animation sample with bold character acting and polished motion.",
+        "title": "Próbka Vtubera 2",
+        "description": "Druga próbka animacji VTuber z odważną grą postaci i dopracowanym ruchem.",
         "tags": {
           "0": "VTuber",
-          "1": "Sample"
+          "1": "Próbka"
         }
       },
       "vtuber-animation-p6": {
-        "title": "Vtuber Sample 3",
-        "description": "Extended VTuber character showcase with cinematic pacing and expressive 2D animation.",
+        "title": "Próbka Vtubera 3",
+        "description": "Rozszerzona prezentacja postaci VTubera z kinową dynamiką i wyrazistą animacją 2D.",
         "tags": {
           "0": "VTuber",
-          "1": "Sample"
+          "1": "Próbka"
         }
       },
       "vtuber-animation-p7": {
-        "title": "Vtuber Video Process",
-        "description": "Behind the scenes VTuber animation process from art through rigging and final motion.",
+        "title": "Proces wideo Vtuber",
+        "description": "Za kulisami proces animacji VTuber od grafiki poprzez rigging i końcowy ruch.",
         "tags": {
-          "0": "Process",
-          "1": "Workflow"
+          "0": "Proces",
+          "1": "Przepływ pracy"
         }
       },
       "live2d-animation-p1": {
-        "title": "Live2D Making Process",
-        "description": "Behind the scenes Live2D creation workflow from art through final animated performance.",
+        "title": "Proces tworzenia Live2D",
+        "description": "Za kulisami Proces tworzenia Live2D, od grafiki po końcowy występ animowany.",
         "tags": {
           "0": "Live2D",
-          "1": "Process"
+          "1": "Proces"
         }
       },
       "live2d-animation-p2": {
-        "title": "Live2D Sample",
-        "description": "Finished Live2D character sample with expressive posing and polished motion.",
+        "title": "Próbka Live2D",
+        "description": "Gotowa próbka postaci Live2D z wyrazistymi pozami i dopracowanym ruchem.",
         "tags": {
           "0": "Live2D",
-          "1": "Sample"
+          "1": "Próbka"
         }
       },
       "live2d-animation-p3": {
-        "title": "Live2D Rigging Process",
-        "description": "Live2D rigging process film showing mesh, deformers, and parameter setup.",
+        "title": "Proces olinowania Live2D",
+        "description": "Film z procesu olinowania Live2D przedstawiający siatkę, deformatory i konfigurację parametrów.",
         "tags": {
           "0": "Live2D",
-          "1": "Rigging"
+          "1": "Olinowanie"
         }
       },
       "live2d-animation-p4": {
-        "title": "Sample Live2D Rigging",
-        "description": "Sample Live2D rigging demonstration with clean parameter control and facial acting.",
+        "title": "Przykładowe olinowanie Live2D",
+        "description": "Przykładowa demonstracja olinowania Live2D z czystą kontrolą parametrów i aktorstwem twarzy.",
         "tags": {
           "0": "Live2D",
-          "1": "Rigging"
+          "1": "Olinowanie"
         }
       },
       "live2d-animation-p5": {
-        "title": "Live2D Rigging Result",
-        "description": "Final Live2D rigging result showcasing smooth motion and expressive character performance.",
+        "title": "Wynik olinowania Live2D",
+        "description": "Ostateczny wynik olinowania Live2D przedstawiający płynny ruch i wyraziste działanie postaci.",
         "tags": {
           "0": "Live2D",
-          "1": "Result"
+          "1": "Wynik"
         }
       },
       "live2d-animation-p6": {
-        "title": "Live2D Film",
-        "description": "Cinematic Live2D animation with dynamic character motion and polished presentation.",
+        "title": "Film na żywo2D",
+        "description": "Kinowa animacja Live2D z dynamicznym ruchem postaci i dopracowaną prezentacją.",
         "tags": {
           "0": "Live2D",
           "1": "Film"
         }
       },
       "2d-anime-animation-p1": {
-        "title": "Japanese Style 2D Anime",
-        "description": "Japanese anime style 2D animation with dynamic posing, expressive acting, and polished line work.",
+        "title": "Anime 2D w stylu japońskim",
+        "description": "Animacja 2D w stylu japońskiego anime z dynamiczną pozą, ekspresyjną grą aktorską i dopracowaną linią.",
         "tags": {
           "0": "Anime",
           "1": "2D"
         }
       },
       "2d-anime-animation-p2": {
-        "title": "Anime Music Video",
-        "description": "2D anime music video with character driven storytelling and cinematic timing.",
+        "title": "Teledysk anime",
+        "description": "Teledysk anime 2D z opowiadaniem historii opartym na postaciach i kinowym wyczuciem czasu.",
         "tags": {
-          "0": "Music Video",
+          "0": "Teledysk",
           "1": "Anime"
         }
       },
       "2d-anime-animation-p3": {
-        "title": "Meme Song Animation",
-        "description": "Playful 2D anime character animation timed to a meme song with bold motion and humor.",
+        "title": "Animacja piosenki memowej",
+        "description": "Zabawna animacja postaci anime 2D zsynchronizowana z memem, charakteryzująca się odważnym ruchem i humorem.",
         "tags": {
           "0": "Anime",
-          "1": "Music"
+          "1": "Muzyka"
         }
       },
       "kids-learning-animation-p1": {
-        "title": "123 Number Kids Learning Video",
-        "description": "Educational number learning video with engaging characters and playful motion for kids.",
+        "title": "123 Liczba Dzieci uczące się wideo",
+        "description": "Film edukacyjny z liczbami, z angażującymi postaciami i zabawnymi ruchami dla dzieci.",
         "tags": {
-          "0": "Kids",
-          "1": "Learning"
+          "0": "Dzieci",
+          "1": "Nauka"
         }
       },
       "kids-learning-animation-p2": {
-        "title": "Custom 2D Character",
-        "description": "Custom 2D character animation with expressive acting and colorful stylized design.",
+        "title": "Niestandardowa postać 2D",
+        "description": "Niestandardowa animacja postaci 2D z wyrazistą grą aktorską i kolorowym, stylizowanym designem.",
         "tags": {
-          "0": "Character",
+          "0": "Charakter",
           "1": "2D"
         }
       },
       "kids-learning-animation-p3": {
-        "title": "Cute 2D Cartoon Character",
-        "description": "Cute 2D cartoon character film with friendly personality and polished kids content motion.",
+        "title": "Śliczna postać z kreskówki 2D",
+        "description": "Uroczy film animowany 2D z przyjazną osobowością i dopracowanymi treściami dla dzieci.",
         "tags": {
-          "0": "Cartoon",
-          "1": "Kids"
+          "0": "Rysunek",
+          "1": "Dzieci"
         }
       },
       "3d-cartoon-animation-p1": {
-        "title": "3D Cartoon Animation",
-        "description": "Stylized 3D cartoon animation with expressive character performance and colorful presentation.",
+        "title": "Animacja kreskówkowa 3D",
+        "description": "Stylizowana animacja kreskówkowa 3D z wyrazistymi postaciami i kolorową prezentacją.",
         "tags": {
-          "0": "Cartoon",
+          "0": "Rysunek",
           "1": "3D"
         }
       },
       "3d-cartoon-animation-p2": {
-        "title": "Cute 3D Cartoon Character Showcase",
-        "description": "Cute 3D cartoon character video showcase with friendly personality and polished motion.",
+        "title": "Prezentacja uroczych postaci z kreskówek 3D",
+        "description": "Urocza prezentacja wideo z postaciami z kreskówek 3D z przyjazną osobowością i dopracowanym ruchem.",
         "tags": {
-          "0": "Character",
-          "1": "Showcase"
+          "0": "Charakter",
+          "1": "Prezentacja"
         }
       },
       "3d-explainer-video-p1": {
-        "title": "Winergy 3D Presentation",
-        "description": "Winergy 3D brand presentation with cinematic camera work and polished product storytelling.",
+        "title": "Prezentacja Winergy 3D",
+        "description": "Prezentacja marki Winergy 3D z pracą kamery i dopracowaną historią produktu.",
         "tags": {
-          "0": "Explainer",
-          "1": "Winergy"
+          "0": "Wyjaśnienie",
+          "1": "Winiarstwo"
         }
       },
       "3d-explainer-video-p2": {
-        "title": "Popper Product 360 Display",
-        "description": "Popper product 360 display film showcasing form, materials, and packaging detail.",
+        "title": "Wyświetlacz Popper Product 360",
+        "description": "Film 360° firmy Popper przedstawiający formę, materiały i szczegóły opakowania.",
         "tags": {
           "0": "360",
           "1": "Popper"
         }
       },
       "3d-explainer-video-p3": {
-        "title": "Popper Animation",
-        "description": "Popper 3D product animation with dynamic motion and commercial presentation.",
+        "title": "Animacja Poppera",
+        "description": "Animacja produktu Popper 3D z dynamicznym ruchem i prezentacją handlową.",
         "tags": {
-          "0": "Product",
+          "0": "Produkt",
           "1": "Popper"
         }
       },
       "3d-explainer-video-p4": {
-        "title": "Popper Animation 2",
-        "description": "Alternate Popper animation pass with refined lighting and campaign ready pacing.",
+        "title": "Animacja Poppera 2",
+        "description": "Alternatywna animacja Poppera z wyrafinowanym oświetleniem i tempem kampanii.",
         "tags": {
-          "0": "Product",
+          "0": "Produkt",
           "1": "Popper"
         }
       },
       "3d-explainer-video-p5": {
-        "title": "Client Video of Poppes",
-        "description": "Client facing Poppes video presenting the product with clear storytelling and polished CGI.",
+        "title": "Film klienta Poppes",
+        "description": "Film Poppes skierowany do klienta, prezentujący produkt z przejrzystą narracją i dopracowanym CGI.",
         "tags": {
-          "0": "Client",
+          "0": "Klient",
           "1": "Poppes"
         }
       },
       "3d-medical-animation-p1": {
-        "title": "High Quality 3D Medical Anatomy Animation",
-        "description": "High quality 3D medical animation with detailed anatomy visualization and polished cinematic presentation.",
+        "title": "Wysokiej jakości animacja anatomii medycznej 3D",
+        "description": "Wysokiej jakości animacja medyczna 3D ze szczegółową wizualizacją anatomii i dopracowaną prezentacją kinową.",
         "tags": {
-          "0": "Medical",
-          "1": "Anatomy"
+          "0": "Medyczny",
+          "1": "Anatomia"
         }
       },
       "3d-medical-animation-p2": {
-        "title": "3D Medical Animation 2",
-        "description": "Second 3D medical animation sample with clear anatomical storytelling and commercial finish.",
+        "title": "Animacja medyczna 3D 2",
+        "description": "Druga próbka animacji medycznej 3D z wyraźną anatomiczną narracją i komercyjnym wykończeniem.",
         "tags": {
-          "0": "Medical",
-          "1": "Healthcare"
+          "0": "Medyczny",
+          "1": "Opieka zdrowotna"
         }
       },
       "3d-anime-character-p1": {
-        "title": "3D Anime Character Showcase to Client",
-        "description": "3D anime character showcase film presenting modeling, materials, and polished stylized performance for client review.",
+        "title": "Prezentacja postaci anime 3D dla klienta",
+        "description": "Film prezentujący postacie z anime 3D, prezentujący modelowanie, materiały i dopracowane stylizowane wykonanie do wglądu klienta.",
         "tags": {
           "0": "Anime",
-          "1": "Character"
+          "1": "Charakter"
         }
       },
       "watch-animation-p1": {
-        "title": "Watch Product Film",
-        "description": "Cinematic 3D watch animation with studio lighting, material detail, and premium packshot finish.",
+        "title": "Obejrzyj film o produkcie",
+        "description": "Filmowa animacja zegarka 3D z oświetleniem studyjnym, szczegółami materiałów i wysokiej jakości wykończeniem typu packshot.",
         "tags": {
-          "0": "Watch",
-          "1": "Product"
+          "0": "Oglądać",
+          "1": "Produkt"
         }
       },
       "watch-animation-p2": {
-        "title": "Rifari Wrist Watch",
-        "description": "Photoreal Rifari wrist watch product film with refined reflections and commercial presentation.",
+        "title": "Zegarek na rękę Rifari",
+        "description": "Fotorealistyczny film o zegarku naręcznym Rifari z wyrafinowanymi refleksami i prezentacją komercyjną.",
         "tags": {
-          "0": "Watch",
+          "0": "Oglądać",
           "1": "Rifari"
         }
       },
       "watch-animation-p3": {
-        "title": "Steel Reef Wrist Watch",
-        "description": "Steel Reef wrist watch animation with premium materials, lighting, and campaign ready motion.",
+        "title": "Zegarek na rękę ze stali rafowej",
+        "description": "Animacja zegarka na rękę Steel Reef z najwyższej jakości materiałami, oświetleniem i ruchem gotowym do kampanii.",
         "tags": {
-          "0": "Watch",
-          "1": "Steel Reef"
+          "0": "Oglądać",
+          "1": "Stalowa rafa"
         }
       },
       "ryse-drink-3d-product-animation-p1": {
-        "title": "Ryse Drink 3D Product Animation",
-        "description": "Cinematic 3D Ryse drink product animation with studio lighting, material detail, and commercial finish.",
+        "title": "Animacja produktu 3D napoju Ryse",
+        "description": "Filmowa animacja produktu 3D napoju Ryse z oświetleniem studyjnym, szczegółami materiałów i wykończeniem komercyjnym.",
         "tags": {
-          "0": "Beverage",
-          "1": "Product"
+          "0": "Napój",
+          "1": "Produkt"
         }
       },
       "ryse-drink-3d-product-animation-p2": {
-        "title": "Lemonade Product Film",
-        "description": "Photoreal lemonade product animation with fluid motion, glass materials, and campaign ready presentation.",
+        "title": "Film o produkcie lemoniady",
+        "description": "Fotorealistyczna animacja produktu lemoniadowego z płynnym ruchem, materiałami szklanymi i prezentacją gotową do kampanii.",
         "tags": {
-          "0": "Lemonade",
-          "1": "Product"
+          "0": "Lemoniada",
+          "1": "Produkt"
         }
       },
       "3d-perfume-animation-p1": {
-        "title": "Anabomfim 3D Perfume Video",
-        "description": "Cinematic 3D Anabomfim perfume animation with studio lighting, glass materials, and premium packshot finish.",
+        "title": "Film o perfumach Anabomfim 3D",
+        "description": "Kinowa animacja perfum 3D Anabomfim z oświetleniem studyjnym, materiałami szklanymi i wysokiej jakości wykończeniem typu packshot.",
         "tags": {
-          "0": "Perfume",
+          "0": "Perfumy",
           "1": "Anabomfim"
         }
       },
       "3d-perfume-animation-p2": {
-        "title": "Valentino Perfume Video",
-        "description": "Luxury Valentino perfume product film with refined reflections, fluid motion, and commercial presentation.",
+        "title": "Film o perfumach Valentino",
+        "description": "Luksusowy film o perfumach Valentino z wyrafinowanymi refleksami, płynnym ruchem i komercyjną prezentacją.",
         "tags": {
-          "0": "Perfume",
-          "1": "Valentino"
+          "0": "Perfumy",
+          "1": "Walenty"
         }
       },
       "3d-perfume-animation-p3": {
-        "title": "Soul of Amir 3D Animation",
-        "description": "Soul of Amir 3D fragrance animation with cinematic camera work and campaign ready polish.",
+        "title": "Animacja 3D Dusza Amira",
+        "description": "Animacja zapachu Soul of Amir 3D z pracą kamery i dopracowaniem kampanii.",
         "tags": {
-          "0": "Perfume",
-          "1": "Soul of Amir"
+          "0": "Perfumy",
+          "1": "Dusza Amira"
         }
       },
       "3d-gadget-animation-p1": {
-        "title": "Shoks Earbud Animation",
-        "description": "Cinematic 3D Shoks earbud product animation with refined materials and commercial finish.",
+        "title": "Animacja słuchawek Shoks",
+        "description": "Filmowa animacja słuchawek dousznych 3D Shoks z wyrafinowanymi materiałami i komercyjnym wykończeniem.",
         "tags": {
-          "0": "Earbud",
-          "1": "Gadget"
+          "0": "Słuchawka douszna",
+          "1": "Urządzenie"
         }
       },
       "3d-gadget-animation-p2": {
-        "title": "Headphone Earbud Product Film",
-        "description": "3D headphone and earbud product animation with dynamic camera moves and premium packshot presentation.",
+        "title": "Film dotyczący słuchawek dousznych",
+        "description": "Animacja 3D słuchawek i słuchawek dousznych z dynamicznymi ruchami kamery i prezentacją premium packshot.",
         "tags": {
-          "0": "Headphone",
-          "1": "Product"
+          "0": "Słuchawki",
+          "1": "Produkt"
         }
       },
       "vape-animation-p1": {
         "title": "Jojo Vape",
-        "description": "Cinematic 3D Jojo vape product animation with refined materials and commercial finish.",
+        "description": "Filmowa animacja produktu vape 3D Jojo z wyrafinowanymi materiałami i komercyjnym wykończeniem.",
         "tags": {
           "0": "Vape",
           "1": "Jojo"
         }
       },
       "vape-animation-p2": {
-        "title": "Juicy Cranberry Vape",
-        "description": "Juicy cranberry vape product film with vibrant color, lighting, and campaign ready presentation.",
+        "title": "Vape z soczystą żurawiną",
+        "description": "Film o soczystym żurawinie do wapowania z żywymi kolorami, oświetleniem i prezentacją gotową do kampanii.",
         "tags": {
           "0": "Vape",
-          "1": "Cranberry"
+          "1": "Żurawina"
         }
       },
       "bag-suitcase-animation-p1": {
-        "title": "Realistic 3D Product Animation for Bags",
-        "description": "Photoreal 3D bag and suitcase product animation with premium materials and commercial presentation.",
+        "title": "Realistyczna animacja produktu 3D dla toreb",
+        "description": "Fotorealistyczna animacja 3D toreb i walizek z materiałami premium i prezentacją handlową.",
         "tags": {
-          "0": "Bag",
-          "1": "Suitcase"
+          "0": "Torba",
+          "1": "Walizka"
         }
       },
       "drop-band-animation-p1": {
-        "title": "Drop Band Animation Process",
-        "description": "Behind the scenes Drop Band animation process from reference through final motion.",
+        "title": "Proces animacji pasma upuszczenia",
+        "description": "Za kulisami proces animacji Drop Band od odniesienia po końcowy ruch.",
         "tags": {
-          "0": "Process",
-          "1": "Drop Band"
+          "0": "Proces",
+          "1": "Upuść zespół"
         }
       },
       "drop-band-animation-p2": {
-        "title": "Drop Band Animation Result",
-        "description": "Final Drop Band product animation with refined materials, lighting, and campaign ready finish.",
+        "title": "Wynik animacji pasma upuszczania",
+        "description": "Animacja produktu Final Drop Band z wyrafinowanymi materiałami, oświetleniem i gotowym wykończeniem kampanii.",
         "tags": {
-          "0": "Product",
-          "1": "Drop Band"
+          "0": "Produkt",
+          "1": "Upuść zespół"
         }
       },
       "3d-bed-animation-p1": {
-        "title": "Realistic 3D Mattress Animation",
-        "description": "Realistic 3D mattress product animation with soft materials, lighting, and campaign ready presentation.",
+        "title": "Realistyczna animacja materaca 3D",
+        "description": "Realistyczna animacja produktu materacowego 3D z miękkimi materiałami, oświetleniem i prezentacją gotową do kampanii.",
         "tags": {
-          "0": "Mattress",
-          "1": "Product"
+          "0": "Materac",
+          "1": "Produkt"
         }
       },
       "3d-bed-animation-p2": {
-        "title": "Simba Bed Animation",
-        "description": "Simba bed animation with cinematic camera work, material detail, and commercial finish.",
+        "title": "Animacja łóżka Simba",
+        "description": "Animacja łóżka Simba z kinową pracą kamery, szczegółami materiałów i wykończeniem komercyjnym.",
         "tags": {
-          "0": "Bed",
+          "0": "Łóżko",
           "1": "Simba"
         }
       },
       "ronix-p1": {
-        "title": "Ronix 3D Industrial Animation | Power Tool CGI Product Showcase",
-        "description": "Cinematic Ronix power tool CGI showcase with technical detail and commercial polish.",
+        "title": "Animacja przemysłowa Ronix 3D | Prezentacja produktów Power Tool CGI",
+        "description": "Filmowa prezentacja CGI elektronarzędzi Ronix ze szczegółami technicznymi i dopracowaniem komercyjnym.",
         "tags": {
-          "0": "Industrial",
+          "0": "Przemysłowy",
           "1": "Ronix"
         }
       },
       "mintec-p1": {
-        "title": "MinTec Industries Product Showcase",
-        "description": "MinTec industries product showcase with technical storytelling and polished CGI.",
+        "title": "Prezentacja produktów MinTec Industries",
+        "description": "Prezentacja produktów MinTec Industries z technicznym opowiadaniem historii i dopracowanym CGI.",
         "tags": {
-          "0": "Industrial",
+          "0": "Przemysłowy",
           "1": "MinTec"
         }
       },
       "mintec-p2": {
-        "title": "Process of Making MinTec 3D Animation",
-        "description": "Behind the scenes look at the MinTec 3D industrial animation production workflow.",
+        "title": "Proces tworzenia animacji 3D MinTec",
+        "description": "Za kulisami możesz zobaczyć proces produkcji animacji przemysłowej MinTec 3D.",
         "tags": {
-          "0": "Process",
+          "0": "Proces",
           "1": "MinTec"
         }
       },
       "integra-pw-p1": {
-        "title": "Integra PW Video Making Process",
-        "description": "Behind the scenes making process for the Integra PW industrial animation build.",
+        "title": "Proces tworzenia wideo Integra PW",
+        "description": "Za kulisami procesu tworzenia animacji przemysłowej Integra PW.",
         "tags": {
-          "0": "Process",
+          "0": "Proces",
           "1": "Integra PW"
         }
       },
       "integra-pw-p2": {
-        "title": "Integra PW Final Results",
-        "description": "Final Integra PW industrial product animation with dynamic camera moves and commercial finish.",
+        "title": "Wyniki końcowe Integry PW",
+        "description": "Finalna animacja produktu przemysłowego Integra PW z dynamicznymi ruchami kamery i komercyjnym wykończeniem.",
         "tags": {
-          "0": "Industrial",
+          "0": "Przemysłowy",
           "1": "Integra PW"
         }
       },
       "credex-p1": {
-        "title": "Credex Vacuum Cleaner with SFX",
-        "description": "Final high definition CREDEX vacuum cleaner animation with sound design and commercial polish.",
+        "title": "Odkurzacz Credex z SFX",
+        "description": "Ostateczna animacja odkurzacza CREDEX w wysokiej rozdzielczości z oprawą dźwiękową i dopracowaniem komercyjnym.",
         "tags": {
-          "0": "Industrial",
+          "0": "Przemysłowy",
           "1": "Credex"
         }
       },
       "phr-1-p1": {
-        "title": "PHR 1 Electric Power Train",
-        "description": "Photoreal PHR 1 electric power train animation with cinematic camera work and technical detail.",
+        "title": "Elektryczny układ napędowy PHR 1",
+        "description": "Fotorealistyczna animacja elektrycznego układu napędowego PHR 1 z kinową pracą kamery i szczegółami technicznymi.",
         "tags": {
-          "0": "Industrial",
+          "0": "Przemysłowy",
           "1": "PHR 1"
         }
       },
       "atx-p1": {
-        "title": "ATX 3D Industrial Animation",
-        "description": "ATX 3D industrial product animation with technical lighting and campaign ready finish.",
+        "title": "Animacja przemysłowa ATX 3D",
+        "description": "Animacja produktu przemysłowego ATX 3D z oświetleniem technicznym i wykończeniem kampanii.",
         "tags": {
-          "0": "Industrial",
+          "0": "Przemysłowy",
           "1": "ATX"
         }
       },
       "prov-gap-p1": {
-        "title": "Prov GAP 3D Industrial Animation",
-        "description": "Prov GAP industrial product animation with mechanical detail and cinematic presentation.",
+        "title": "Prov GAP 3D Animacja przemysłowa",
+        "description": "Animacja produktu przemysłowego Prov GAP z detalami mechanicznymi i prezentacją kinową.",
         "tags": {
-          "0": "Industrial",
-          "1": "Prov GAP"
+          "0": "Przemysłowy",
+          "1": "Prow. GAP"
         }
       },
       "autoz-crave-p1": {
-        "title": "Autoz Crave Industrial Animation",
-        "description": "Autoz Crave 3D industrial product video with mechanical technical animation and commercial polish.",
+        "title": "Animacja przemysłowa Autoz Crave",
+        "description": "Film o produkcie przemysłowym Autoz Crave 3D z animacją techniczną mechaniki i lakierem komercyjnym.",
         "tags": {
-          "0": "Industrial",
-          "1": "Autoz Crave"
+          "0": "Przemysłowy",
+          "1": "Pragnienie Autoza"
         }
       }
     }
@@ -1380,7 +1380,7 @@
         "items": {
           "01": {
             "question": "Jakimi typami projektów się zajmujecie?",
-            "answer": "We produce animation, VFX, cinematics, motion graphics, product films, and brand films for film, series, advertising, and DTC brands. Briefs range from single hero assets to full campaign packages."
+            "answer": "Zajmujemy się produkcją animacji, efektów wizualnych, kinematografii, grafiki ruchomej, filmów produktowych i filmów brandowych dla marek filmowych, serialowych, reklamowych i DTC. Informacje obejmują zarówno zasoby pojedynczego bohatera, jak i pełne pakiety kampanii."
           },
           "02": {
             "question": "Gdzie działa Starlights Visuals?",
@@ -1397,15 +1397,15 @@
         "items": {
           "01": {
             "question": "Jakie usługi oferujecie?",
-            "answer": "Our core services include 2D and 3D animation, VFX, character and concept art, motion graphics, product animation, and cinematic trailers. We can handle individual disciplines or full pipeline production."
+            "answer": "Nasze podstawowe usługi obejmują animację 2D i 3D, efekty wizualne, grafiki postaci i koncepcje, grafikę ruchomą, animację produktów i zwiastuny kinowe. Możemy zająć się pojedynczymi branżami lub pełną produkcją rurociągową."
           },
           "02": {
             "question": "Czy współpracujecie z zespołami indie i dużymi studiami?",
-            "answer": "Yes. We partner with indie creators, mid size studios, and global brands. Scope and team size flex to match your budget and timeline without compromising craft."
+            "answer": "Tak. Współpracujemy z niezależnymi twórcami, studiami średniej wielkości i globalnymi markami. Zakres i wielkość zespołu dopasowują się do budżetu i harmonogramu bez uszczerbku dla rzemiosła."
           },
           "03": {
             "question": "Czy możecie dopasować się do naszego obecnego stylu artystycznego?",
-            "answer": "Absolutely. We start with style frames and a look development pass aligned to your brand guidelines or visual world before committing to full production."
+            "answer": "Absolutnie. Zaczynamy od ramek stylizacyjnych i karty rozwoju wyglądu dostosowanej do wytycznych Twojej marki lub świata wizualnego, zanim zajmiemy się pełną produkcją."
           }
         }
       },
@@ -1432,26 +1432,28 @@
     "ctaButton": "Skontaktuj się z nami"
   },
   "writeReviewPage": {
-    "label": "Client reviews",
-    "title": "WRITE YOURS",
-    "subtitle": "Worked with Starlights Visuals? Share your experience so other brands can see the results.",
-    "name": "Your name",
-    "email": "Email",
-    "emailOptional": "Optional, not shown publicly",
-    "role": "Your role",
-    "company": "Company",
-    "rating": "Rating",
-    "headline": "Headline",
-    "headlinePlaceholder": "A short line that captures your experience",
-    "quote": "Your review",
-    "quotePlaceholder": "Tell us about the collaboration, communication, quality, and results…",
-    "submit": "Submit review",
-    "submitting": "Submitting…",
-    "successTitle": "Thank you",
-    "successDesc": "Your review was received. It will appear on the site after a quick approval check.",
-    "backHome": "Back to home",
-    "errorConfig": "Review submissions are temporarily unavailable. Please try again later.",
-    "errorQuoteShort": "Please write at least 20 characters in your review.",
-    "errorGeneric": "Something went wrong while sending your review. Please try again."
+    "label": "Recenzje klientów",
+    "title": "NAPISZ SWOJE",
+    "subtitle": "Pracowałeś z Starlights Visuals? Podziel się swoim doświadczeniem, aby inne marki mogły zobaczyć rezultaty.",
+    "name": "Twoje imię",
+    "email": "E-mail",
+    "emailOptional": "Opcjonalne, nie pokazywane publicznie",
+    "role": "Twoja rola",
+    "company": "Firma",
+    "rating": "Ocena",
+    "headline": "Nagłówek",
+    "headlinePlaceholder": "Krótka linia opisująca Twoje doświadczenia",
+    "quote": "Twoja recenzja",
+    "quotePlaceholder": "Opowiedz nam o współpracy, komunikacji, jakości i wynikach…",
+    "submit": "Prześlij recenzję",
+    "submitting": "Przedkładający…",
+    "successTitle": "Dziękuję",
+    "successDesc": "Twoja recenzja została otrzymana. Pojawi się na stronie po szybkim sprawdzeniu akceptacji.",
+    "backHome": "Powrót do domu",
+    "errorConfig": "Przesyłane recenzje są chwilowo niedostępne. Spróbuj ponownie później.",
+    "errorQuoteShort": "W swojej recenzji napisz co najmniej 20 znaków.",
+    "errorGeneric": "Coś poszło nie tak podczas wysyłania Twojej recenzji. Spróbuj ponownie.",
+    "metaTitle": "Napisz recenzję | Wizualizacje gwiazd",
+    "metaDescription": "Podziel się doświadczeniem zdobytym podczas pracy z: Starlights Visuals. Napisz recenzję klienta, aby zapoznać się z naszymi referencjami."
   }
 }

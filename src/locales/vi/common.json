@@ -3,28 +3,28 @@
     "name": "Starlights Visuals",
     "star": "NGÔI SAO",
     "lights": "ÁNH SÁNG",
-    "visuals": "VISUALS",
+    "visuals": "HÌNH ẢNH",
     "email": "sternlichtespeciale@gmail.com"
   },
   "nav": {
-    "portfolio": "Portfolio",
+    "portfolio": "danh mục đầu tư",
     "services": "Dịch vụ",
     "blog": "Blog",
     "company": "Công ty",
     "contacts": "Liên hệ",
     "about": "Giới thiệu",
     "contact": "Liên hệ",
-    "portfolioCta": "Portfolio →",
+    "portfolioCta": "Danh mục đầu tư →",
     "faq": "Câu hỏi thường gặp",
-    "writeReview": "Write a review"
+    "writeReview": "Viết đánh giá"
   },
   "header": {
     "closeMenu": "Đóng menu",
     "openMenu": "Mở menu",
     "closeSidebar": "Đóng thanh bên",
     "openSidebar": "Mở thanh bên",
-    "switchToLight": "Switch to light mode",
-    "switchToDark": "Switch to dark mode"
+    "switchToLight": "Chuyển sang chế độ ánh sáng",
+    "switchToDark": "Chuyển sang chế độ tối"
   },
   "languageSwitcher": {
     "label": "Ngôn ngữ",
@@ -45,65 +45,65 @@
     "emailPlaceholder": "email@cua ban.com",
     "join": "Tham gia",
     "subscribed": "✦ Bạn đã tham gia. Chào mừng đến Starlights.",
-    "tagline": "A creative studio bringing imagination to life through cinematic 2D animation, high quality 3D experiences, and VFX.",
+    "tagline": "Một studio sáng tạo biến trí tưởng tượng thành hiện thực thông qua hoạt hình 2D đậm chất điện ảnh, trải nghiệm 3D chất lượng cao và VFX.",
     "explore": "Khám phá",
     "follow": "Theo dõi",
     "social": "Liên kết mạng xã hội",
     "copyright": "© {{year}} Starlights Visuals. Được tạo bằng ánh sáng & code.",
-    "joining": "Joining…",
-    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
+    "joining": "Đang tham gia…",
+    "subscribeError": "Không thể đăng ký ngay bây giờ. Vui lòng thử lại hoặc gửi email trực tiếp cho chúng tôi."
   },
   "home": {
-    "metaTitle": "Starlights Visuals | Animation & VFX Studio",
-    "metaDescription": "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
-    "heroScript": "Stories in motion,",
-    "heroTitle1": "ANIMATION",
+    "metaTitle": "Hình ảnh ánh sao | Xưởng hoạt hình & VFX",
+    "metaDescription": "Một studio sáng tạo dành cho hoạt hình 2D và 3D, VFX và kể chuyện điện ảnh. Chúng tôi mang thế giới, nhân vật và phim vào cuộc sống.",
+    "heroScript": "Câu chuyện trong chuyển động —",
+    "heroTitle1": "HOẠT HÌNH",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals brings stories to life with animation and visual effects that captivate audiences and elevate every frame. We animate fantasy creatures, human characters, vehicles, environments, props, and hard surface objects for film, series, advertising, and brand campaigns.",
-    "heroAlt": "Starlights Visuals cinematic hero",
-    "seePortfolio": "See Portfolio",
-    "startProject": "Start a Project",
-    "servicesLabel": "What we do",
-    "servicesTitle": "SERVICES",
-    "allServices": "All Services",
-    "showcaseLabel": "Recent work",
-    "showcaseTitle1": "SELECTED",
-    "showcaseTitle2": "WORK",
-    "fullPortfolio": "Full Portfolio",
-    "viewAllFaq": "View all FAQ",
-    "ctaScript": "Let's build something,",
-    "ctaTitle1": "READY TO",
-    "ctaTitle2": "COLLABORATE?",
+    "heroBody": "Starlights Visuals thổi sức sống vào câu chuyện bằng hoạt hình và hiệu ứng hình ảnh thu hút khán giả và nâng tầm từng khung hình. Chúng tôi tạo hoạt hình cho sinh vật fantasy, nhân vật con người, phương tiện, môi trường, đạo cụ và vật thể hard-surface — cho phim, series, quảng cáo và chiến dịch thương hiệu.",
+    "heroAlt": "Anh hùng điện ảnh Starlights Visuals",
+    "seePortfolio": "Xem danh mục đầu tư",
+    "startProject": "Bắt đầu một dự án",
+    "servicesLabel": "Chúng tôi làm gì",
+    "servicesTitle": "DỊCH VỤ",
+    "allServices": "Tất cả dịch vụ",
+    "showcaseLabel": "Công việc gần đây",
+    "showcaseTitle1": "ĐÃ CHỌN",
+    "showcaseTitle2": "CÔNG VIỆC",
+    "fullPortfolio": "Danh mục đầu tư đầy đủ",
+    "viewAllFaq": "Xem tất cả câu hỏi thường gặp",
+    "ctaScript": "Hãy xây dựng một cái gì đó,",
+    "ctaTitle1": "SẴN SÀNG ĐỂ",
+    "ctaTitle2": "HỢP TÁC?",
     "services": {
       "01": {
-        "title": "Animation & VFX",
-        "desc": "Cinematic 2D & 3D animation, character rigs, and visual effects for film, series, and brands."
+        "title": "Hoạt hình & VFX",
+        "desc": "Hoạt hình điện ảnh 2D & 3D, giàn nhân vật và hiệu ứng hình ảnh cho phim, loạt phim và thương hiệu."
       },
       "02": {
-        "title": "Product Animation",
-        "desc": "Photoreal product films, packshots, and CGI that make every detail sell."
+        "title": "Hoạt hình sản phẩm",
+        "desc": "Phim sản phẩm ảnh thật, ảnh chụp gói và CGI giúp bán mọi chi tiết."
       },
       "03": {
-        "title": "Concept & Character Art",
-        "desc": "Original characters, creatures, environments, and props that anchor your IP."
+        "title": "Nghệ thuật khái niệm & nhân vật",
+        "desc": "Các nhân vật, sinh vật, môi trường và đạo cụ gốc giữ vững IP của bạn."
       },
       "04": {
-        "title": "Cinematic Trailers",
-        "desc": "Story driven trailers built to launch brands, IPs, and campaigns."
+        "title": "Đoạn giới thiệu điện ảnh",
+        "desc": "Đoạn giới thiệu theo câu chuyện được xây dựng để giới thiệu thương hiệu, IP và chiến dịch."
       }
     },
     "showcase": {
       "character": {
-        "tag": "3D Animation",
-        "title": "3D Animation"
+        "tag": "Hoạt hình 3D",
+        "title": "Hoạt hình 3D"
       },
       "gameArt": {
-        "tag": "Motion Graphics",
-        "title": "Motion Graphics"
+        "tag": "Đồ họa chuyển động",
+        "title": "Đồ họa chuyển động"
       },
       "animation2d": {
-        "tag": "2D Animation",
-        "title": "2D Animation"
+        "tag": "Hoạt hình 2D",
+        "title": "Hoạt hình 2D"
       },
       "cinematic": {
         "tag": "VFX",
@@ -111,16 +111,16 @@
       },
       "creature": {
         "tag": "3D",
-        "title": "Industrial Animation"
+        "title": "Hoạt hình công nghiệp"
       },
       "motion": {
         "tag": "3D",
-        "title": "Product Animation"
+        "title": "Hoạt hình sản phẩm"
       }
     }
   },
   "trustedBy": {
-    "badge": "200+ COMPANY",
+    "badge": "CÔNG TY 200+",
     "trusted": "Được",
     "by": "Tin tưởng"
   },
@@ -139,207 +139,207 @@
     "playAria": "Phát lời chứng thực video từ {{name}}",
     "items": {
       "hauke": {
-        "headline": "Efficient, reliable, and highly recommended",
-        "quote": "Starlight Visuals supported us in creating a CGI video for SmarAct Automation, with the goal of presenting our core competencies in a clear, professional, and visually engaging way. The collaboration was highly efficient and reliable from start to finish. We especially appreciated the fast response times, quick turnaround, strong communication, and dependable delivery of the final files. Our requirements were understood quickly and implemented professionally. We are very satisfied with the result and can confidently recommend Starlight Visuals for high-quality CGI and visual content projects.",
-        "role": "Digital Marketing & Content Manager"
+        "headline": "Hiệu quả, đáng tin cậy và rất được khuyến khích",
+        "quote": "Starlight Visuals đã hỗ trợ chúng tôi tạo video CGI cho SmarAct Automation, với mục tiêu trình bày năng lực cốt lõi của chúng tôi một cách rõ ràng, chuyên nghiệp và hấp dẫn trực quan. Sự hợp tác này rất hiệu quả và đáng tin cậy từ đầu đến cuối. Chúng tôi đặc biệt đánh giá cao thời gian phản hồi nhanh, xử lý nhanh, liên lạc hiệu quả và phân phối các tệp cuối cùng một cách đáng tin cậy. Yêu cầu của chúng tôi được hiểu nhanh chóng và thực hiện một cách chuyên nghiệp. Chúng tôi rất hài lòng với kết quả và có thể tự tin giới thiệu Starlight Visuals cho các dự án nội dung hình ảnh và CGI chất lượng cao.",
+        "role": "Giám đốc nội dung và tiếp thị kỹ thuật số"
       },
       "jeremy": {
-        "headline": "From sketches to a finished helmet film",
-        "quote": "Working with Starlight Visuals was a great experience from start to finish. They didn't just create an animation they were involved throughout the entire process, from refining our initial sketches to supporting the CAD development and delivering a final helmet animation that brought our concept to life. What stood out most was how quickly they understood the product and translated technical details into visuals that were both accurate and engaging. The final presentation video gave us a professional way to showcase our helmet design to partners and stakeholders. They were responsive, easy to collaborate with, and genuinely cared about getting every detail right. I'd gladly recommend them to anyone looking for high-quality product animation and visualization.",
-        "role": "Founder"
+        "headline": "Từ bản phác thảo đến phim mũ bảo hiểm hoàn thiện",
+        "quote": "Làm việc với Starlight Visuals là một trải nghiệm tuyệt vời từ đầu đến cuối. Họ không chỉ tạo ra hoạt ảnh mà họ còn tham gia vào toàn bộ quá trình, từ tinh chỉnh các bản phác thảo ban đầu của chúng tôi đến hỗ trợ phát triển CAD và cung cấp hoạt ảnh mũ bảo hiểm cuối cùng giúp biến ý tưởng của chúng tôi thành hiện thực. Điều nổi bật nhất là họ hiểu sản phẩm nhanh như thế nào và chuyển tải các chi tiết kỹ thuật thành hình ảnh vừa chính xác vừa hấp dẫn. Video trình bày cuối cùng đã giúp chúng tôi có một cách chuyên nghiệp để giới thiệu thiết kế mũ bảo hiểm của mình với các đối tác và các bên liên quan. Họ phản ứng nhanh, dễ cộng tác và thực sự quan tâm đến việc làm đúng từng chi tiết. Tôi sẵn lòng giới thiệu chúng cho bất kỳ ai đang tìm kiếm hình ảnh động và hình ảnh sản phẩm chất lượng cao.",
+        "role": "Người sáng lập"
       },
       "raiv": {
-        "headline": "They genuinely cared about every character",
-        "quote": "I really enjoyed working with the team. It felt like they genuinely cared about the project and wanted the characters to look and feel right. Communication was always easy, they were open to feedback, and every revision was handled without any hassle. Seeing our NSFW characters come to life was exciting.",
-        "role": "Game Director"
+        "headline": "Họ thực sự quan tâm đến từng nhân vật",
+        "quote": "Tôi thực sự rất thích làm việc với nhóm. Có cảm giác như họ thực sự quan tâm đến dự án và muốn các nhân vật có vẻ ngoài phù hợp. Việc giao tiếp luôn dễ dàng, họ cởi mở đón nhận phản hồi và mọi bản sửa đổi đều được xử lý mà không gặp bất kỳ rắc rối nào. Thật thú vị khi thấy các nhân vật NSFW của chúng tôi trở nên sống động.",
+        "role": "Giám đốc trò chơi"
       },
       "ilija": {
-        "headline": "Clear visuals for electric vehicle technology",
-        "quote": "They helped shape our PHR concept creatively and deliver amazing video making sure the visuals clearly communicate how our electric vehicle technology works. Their attention to detail, creativity, and willingness to iterate made the entire process smooth. The final animation gave us a much clearer way to present our product to partners and stakeholders.",
-        "role": "Founder"
+        "headline": "Hình ảnh rõ nét về công nghệ xe điện",
+        "quote": "Họ đã giúp định hình khái niệm PHR của chúng tôi một cách sáng tạo và cung cấp video tuyệt vời, đảm bảo hình ảnh truyền đạt rõ ràng cách thức hoạt động của công nghệ xe điện của chúng tôi. Sự chú ý của họ đến từng chi tiết, tính sáng tạo và sự sẵn sàng lặp lại đã khiến toàn bộ quá trình diễn ra suôn sẻ. Hoạt ảnh cuối cùng đã giúp chúng tôi giới thiệu sản phẩm của mình với các đối tác và các bên liên quan một cách rõ ràng hơn nhiều.",
+        "role": "Người sáng lập"
       },
       "luigi": {
-        "headline": "Exactly what we needed for M12 and B12",
-        "quote": "We needed a clear way to show the differences between our M12 and B12 products, and Starlight Visuals delivered exactly what we were looking for. The animations were high quality, easy to understand, and captured every important detail.",
-        "role": "Production Manager"
+        "headline": "Chính xác những gì chúng tôi cần cho M12 và B12",
+        "quote": "Chúng tôi cần một cách rõ ràng để thể hiện sự khác biệt giữa các sản phẩm M12 và B12 của mình và Starlight Visuals đã cung cấp chính xác những gì chúng tôi đang tìm kiếm. Hình ảnh động có chất lượng cao, dễ hiểu và nắm bắt được mọi chi tiết quan trọng.",
+        "role": "Giám đốc sản xuất"
       },
       "jason": {
-        "headline": "Outstanding quality beyond what we imagined",
-        "quote": "The quality of the animation was outstanding. Starlight Visuals helped us present our product in a way that was clear, engaging, and memorable. The final presentation looked far better than we had imagined.",
-        "role": "CEO"
+        "headline": "Chất lượng vượt trội ngoài những gì chúng ta tưởng tượng",
+        "quote": "Chất lượng của hình ảnh động rất xuất sắc. Starlight Visuals đã giúp chúng tôi trình bày sản phẩm của mình theo cách rõ ràng, hấp dẫn và đáng nhớ. Buổi thuyết trình cuối cùng có vẻ tốt hơn nhiều so với những gì chúng tôi tưởng tượng.",
+        "role": "Giám đốc điều hành"
       },
       "burkhard": {
-        "headline": "Made a complex product easy to explain",
-        "quote": "We knew our product was strong, but explaining it clearly to customers was always the challenge. The team at Starlight Visuals took the time to understand how everything works and turned it into an animation that made the message much easier to communicate. It looks professional, keeps people's attention, and helps us present the product with much more confidence. The whole process was straightforward, and they were easy to work with. We're very happy with the result.",
-        "role": "Head of Sales"
+        "headline": "Tạo ra một sản phẩm phức tạp dễ giải thích",
+        "quote": "Chúng tôi biết sản phẩm của mình rất mạnh, nhưng việc giải thích rõ ràng cho khách hàng luôn là một thách thức. Nhóm tại Starlight Visuals đã dành thời gian để hiểu cách mọi thứ hoạt động và biến nó thành hoạt ảnh giúp thông điệp được truyền đạt dễ dàng hơn nhiều. Nó trông chuyên nghiệp, thu hút sự chú ý của mọi người và giúp chúng tôi giới thiệu sản phẩm một cách tự tin hơn nhiều. Toàn bộ quá trình rất đơn giản và chúng rất dễ làm việc. Chúng tôi rất hài lòng với kết quả này.",
+        "role": "Trưởng phòng kinh doanh"
       },
       "robert": {
-        "headline": "Premium watch films beyond what we imagined",
-        "quote": "There was a clear vision for how we wanted our watches to be presented, but Starlight Visuals took it beyond what we imagined. They didn't just animate our product they captured the details, precision, and premium quality that define our brand. The final presentation gave our collection a level of sophistication that instantly elevated how customers perceived it. The entire process was smooth, collaborative, and professionally handled from start to finish.",
-        "role": "Founder"
+        "headline": "Xem phim cao cấp ngoài sức tưởng tượng của chúng ta",
+        "quote": "Chúng tôi đã có tầm nhìn rõ ràng về cách trình bày đồng hồ của mình nhưng Starlight Visuals đã đưa nó vượt xa những gì chúng tôi tưởng tượng. Họ không chỉ tạo hoạt ảnh cho sản phẩm của chúng tôi mà còn nắm bắt được các chi tiết, độ chính xác và chất lượng cao cấp giúp xác định thương hiệu của chúng tôi. Buổi trình bày cuối cùng đã mang đến cho bộ sưu tập của chúng tôi một mức độ tinh tế, ngay lập tức nâng cao cách khách hàng cảm nhận về nó. Toàn bộ quá trình diễn ra suôn sẻ, hợp tác và được xử lý chuyên nghiệp từ đầu đến cuối.",
+        "role": "Người sáng lập"
       }
     },
     "videoRoles": {
-      "ceo": "CEO",
-      "artDirector": "Art Director",
-      "founder": "Founder",
-      "headProduction": "Head of Production",
-      "vpMarketing": "VP Marketing",
-      "coFounder": "Co Founder"
+      "ceo": "Giám đốc điều hành",
+      "artDirector": "Giám đốc nghệ thuật",
+      "founder": "Người sáng lập",
+      "headProduction": "Trưởng phòng sản xuất",
+      "vpMarketing": "Phó Giám đốc Tiếp thị",
+      "coFounder": "Đồng sáng lập"
     },
-    "seeMore": "See more",
-    "seeLess": "See less",
-    "writeYours": "Write yours",
-    "tapToRead": "Tap to read full review"
+    "seeMore": "Xem thêm",
+    "seeLess": "Xem ít hơn",
+    "writeYours": "Viết của bạn",
+    "tapToRead": "Nhấn để đọc đánh giá đầy đủ"
   },
   "servicesPage": {
-    "metaTitle": "Services | Starlights Visuals",
-    "metaDescription": "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
-    "label": "What We Build",
-    "title": "SERVICES",
-    "subtitle": "One studio, every stage of production, from first sketch to final pixel.",
-    "ctaTitle1": "HAVE A",
-    "ctaTitle2": "PROJECT",
-    "ctaTitle3": "IN MIND?",
-    "ctaDesc": "Tell us your vision, we'll bring the firepower.",
-    "ctaButton": "Get In Touch",
+    "metaTitle": "Dịch vụ | Starlights Visuals",
+    "metaDescription": "Hoạt hình 2D, hoạt hình 3D, thiết kế nhân vật, đồ họa chuyển động, VFX, hoạt hình sản phẩm và đoạn giới thiệu điện ảnh.",
+    "label": "Những gì chúng tôi xây dựng",
+    "title": "DỊCH VỤ",
+    "subtitle": "Một studio, mọi giai đoạn sản xuất, từ bản phác thảo đầu tiên đến pixel cuối cùng.",
+    "ctaTitle1": "CÓ MỘT",
+    "ctaTitle2": "DỰ ÁN",
+    "ctaTitle3": "TRONG TÂM TRÍ?",
+    "ctaDesc": "Hãy cho chúng tôi biết tầm nhìn của bạn, chúng tôi sẽ mang đến hỏa lực.",
+    "ctaButton": "Liên hệ",
     "items": {
       "2d": {
-        "title": "2D Animation",
-        "desc": "Frame by frame & rigged 2D for series, shorts, explainers, and brand films. We blend classic craft with digital pipelines."
+        "title": "Hoạt hình 2D",
+        "desc": "Từng khung hình & 2D được sắp xếp cho loạt phim, phim ngắn, phần giải thích và phim thương hiệu. Chúng tôi kết hợp nghề thủ công cổ điển với quy trình kỹ thuật số."
       },
       "3d": {
-        "title": "3D Animation",
-        "desc": "Stylized and photoreal 3D, characters, environments, and full cinematic sequences with feature quality polish."
+        "title": "Hoạt hình 3D",
+        "desc": "3D, nhân vật, môi trường và chuỗi phim đầy đủ cách điệu và chân thực với chất lượng hoàn thiện."
       },
       "character": {
-        "title": "Character Design",
-        "desc": "Original characters, creatures, and concept art that anchor your IP and merch potential."
+        "title": "Thiết kế nhân vật",
+        "desc": "Các nhân vật, sinh vật và ý tưởng nguyên bản giúp củng cố tiềm năng IP và hàng hóa của bạn."
       },
       "motion": {
-        "title": "Motion Graphics",
-        "desc": "Branded motion, UI animation, broadcast packages, and explainer videos with cinematic polish."
+        "title": "Đồ họa chuyển động",
+        "desc": "Chuyển động có thương hiệu, hoạt ảnh giao diện người dùng, gói phát sóng và video giải thích mang đậm chất điện ảnh."
       },
       "vfx": {
-        "title": "Visual Effects (VFX)",
-        "desc": "Compositing, particle FX, and CG integration for film, advertising, and digital campaigns."
+        "title": "Hiệu ứng hình ảnh (VFX)",
+        "desc": "Tích hợp tổng hợp, FX hạt và CG cho các chiến dịch phim, quảng cáo và kỹ thuật số."
       },
       "trailer": {
-        "title": "Cinematic Trailers",
-        "desc": "Story driven trailers built to launch brands, IPs, and campaigns with maximum impact."
+        "title": "Đoạn giới thiệu điện ảnh",
+        "desc": "Đoạn giới thiệu theo câu chuyện được xây dựng để ra mắt thương hiệu, IP và chiến dịch có tác động tối đa."
       }
     }
   },
   "aboutPage": {
-    "metaTitle": "About | Starlights Visuals",
-    "metaDescription": "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, game animation, product visualization, and 2D & 3D character animation.",
-    "label": "Who We Are",
-    "title1": "A STUDIO BUILT ON",
-    "title2": "LIGHT, CODE & STORY",
-    "p1": "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, game animation, product visualization, and 2D & 3D character animation. We combine artistic excellence with cutting-edge technology to transform ideas into visuals that captivate, educate, and inspire. From engineering-driven industrial animations and photorealistic product renders to stylized cartoons, expressive character performances, and cinematic game sequences, we create animation that delivers both visual impact and meaningful results.",
-    "p2": "Whether showcasing a product's innovation, bringing a game universe to life, or crafting memorable animated characters, every frame is designed with purpose and precision. Our multidisciplinary team of animators, technical artists, modelers, riggers, motion designers, and visual storytellers collaborates seamlessly to produce work that meets the highest creative and technical standards. We believe great animation does more than look beautiful, it communicates complex ideas, strengthens brands, and creates lasting emotional connections.",
-    "p3": "We partner with manufacturers, product companies, game developers, creative agencies, and global brands to deliver premium animation for marketing, product launches, training, entertainment, advertising, and digital experiences. Every project is driven by innovation, craftsmanship, and an uncompromising commitment to quality. At Starlight Visuals, we don't simply animate, we engineer experiences, build unforgettable characters, and create visuals that move people and businesses forward.",
-    "valuesLabel": "Core Values",
-    "valuesTitle": "WHAT DRIVES US",
+    "metaTitle": "Giới thiệu | Hình ảnh ánh sao",
+    "metaDescription": "Starlight Visuals là xưởng phim hoạt hình đẳng cấp thế giới tạo ra những trải nghiệm hình ảnh đặc biệt trên hoạt hình sản phẩm công nghiệp, hoạt hình trò chơi, hình ảnh hóa sản phẩm và hoạt hình nhân vật 2D & 3D.",
+    "label": "Chúng tôi là ai",
+    "title1": "MỘT STUDIO ĐƯỢC XÂY DỰNG TRÊN",
+    "title2": "ÁNH SÁNG, MÃ & CÂU CHUYỆN",
+    "p1": "Starlight Visuals là xưởng phim hoạt hình đẳng cấp thế giới tạo ra những trải nghiệm hình ảnh đặc biệt trên hoạt hình sản phẩm công nghiệp, hoạt hình trò chơi, hình ảnh hóa sản phẩm và hoạt hình nhân vật 2D & 3D. Chúng tôi kết hợp sự xuất sắc về mặt nghệ thuật với công nghệ tiên tiến để biến ý tưởng thành hình ảnh thu hút, mang tính giáo dục và truyền cảm hứng. Từ hoạt hình công nghiệp dựa trên kỹ thuật và kết xuất sản phẩm chân thực đến phim hoạt hình cách điệu, màn trình diễn nhân vật biểu cảm và chuỗi trò chơi điện ảnh, chúng tôi tạo ra hoạt ảnh mang lại cả tác động trực quan và kết quả có ý nghĩa.",
+    "p2": "Cho dù giới thiệu sự đổi mới của sản phẩm, làm sống động vũ trụ trò chơi hay tạo ra các nhân vật hoạt hình đáng nhớ, mọi khung hình đều được thiết kế có mục đích và độ chính xác. Đội ngũ đa ngành của chúng tôi gồm các họa sĩ hoạt hình, nghệ sĩ kỹ thuật, người tạo mô hình, người dựng phim, nhà thiết kế chuyển động và người kể chuyện bằng hình ảnh cộng tác liền mạch để tạo ra tác phẩm đáp ứng các tiêu chuẩn kỹ thuật và sáng tạo cao nhất. Chúng tôi tin rằng hoạt hình tuyệt vời không chỉ trông đẹp mắt mà còn truyền đạt những ý tưởng phức tạp, củng cố thương hiệu và tạo ra những kết nối cảm xúc lâu dài.",
+    "p3": "Chúng tôi hợp tác với các nhà sản xuất, công ty sản phẩm, nhà phát triển trò chơi, đại lý sáng tạo và thương hiệu toàn cầu để cung cấp hoạt hình cao cấp cho hoạt động tiếp thị, ra mắt sản phẩm, đào tạo, giải trí, quảng cáo và trải nghiệm kỹ thuật số. Mỗi dự án đều được thúc đẩy bởi sự đổi mới, sự khéo léo và cam kết không khoan nhượng về chất lượng. Tại Starlight Visuals, chúng tôi không chỉ đơn giản là hoạt hình, chúng tôi thiết kế trải nghiệm, xây dựng các nhân vật khó quên và tạo ra hình ảnh thúc đẩy mọi người và doanh nghiệp tiến lên phía trước.",
+    "valuesLabel": "Giá trị cốt lõi",
+    "valuesTitle": "ĐIỀU GÌ THÚC ĐẨY CHÚNG TÔI",
     "values": {
       "imagination": {
-        "title": "Imagination First",
-        "desc": "Every project starts with a bold idea and a blank canvas."
+        "title": "Trí tưởng tượng đầu tiên",
+        "desc": "Mọi dự án đều bắt đầu với một ý tưởng táo bạo và một khung vẽ trống."
       },
       "craft": {
-        "title": "Craft Obsessed",
-        "desc": "Frame by frame, pixel by pixel, quality is non negotiable."
+        "title": "Bị ám ảnh bởi nghề thủ công",
+        "desc": "Từng khung hình, từng pixel, chất lượng là không thể thương lượng."
       },
       "energy": {
-        "title": "Cinematic Energy",
-        "desc": "We chase the goosebumps. If it doesn't move us, we refine."
+        "title": "Năng lượng điện ảnh",
+        "desc": "Chúng tôi đuổi theo nổi da gà. Nếu nó không làm chúng ta cảm động, chúng ta sẽ tinh chỉnh."
       },
       "story": {
-        "title": "Story Driven",
-        "desc": "Tech serves story. Always."
+        "title": "Định hướng câu chuyện",
+        "desc": "Công nghệ phục vụ câu chuyện. Luôn luôn."
       }
     },
     "stats": {
-      "projects": "Projects Shipped",
-      "clients": "Global Clients",
-      "awards": "Awards Won",
-      "years": "Years Crafting"
+      "projects": "Dự án đã chuyển giao",
+      "clients": "Khách hàng toàn cầu",
+      "awards": "Giải thưởng đã giành được",
+      "years": "Năm chế tạo"
     }
   },
   "contactPage": {
     "metaTitle": "Liên hệ | Starlights Visuals",
-    "metaDescription": "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
+    "metaDescription": "Hãy liên hệ với Starlights Visuals để có các dự án hoạt hình 2D & 3D, đồ họa chuyển động, VFX, hoạt hình sản phẩm và đoạn giới thiệu điện ảnh.",
     "label": "Hãy trò chuyện",
     "title": "LIÊN HỆ",
     "subtitle": "Yêu cầu sản xuất, hợp tác hay chỉ muốn chào, gửi tín hiệu cho chúng tôi.",
     "formTitle": "BẮT ĐẦU DỰ ÁN",
     "formDesc": "Điền form bên dưới, chúng tôi sẽ phản hồi trong 24 giờ.",
     "name": "Tên",
-    "email": "Email",
+    "email": "E-mail",
     "projectType": "Loại Dự án",
     "message": "Kể cho chúng tôi nghe",
     "send": "Gửi Tin nhắn",
     "sent": "✦ Đã nhận tin nhắn. Chúng tôi sẽ liên hệ sớm.",
     "emailUs": "EMAIL CHÚNG TÔI",
     "emailDesc": "Cho dự án mới, báo chí và đối tác.",
-    "studio": "STUDIO",
+    "studio": "PHÒNG THU",
     "studioDesc": "Remote first · Giao hàng toàn cầu",
     "responseTime": "THỜI GIAN PHẢN HỒI",
     "responseDesc": "Trong 24 giờ, T2, T6.",
     "projectTypes": {
-      "2d": "2D Animation",
-      "3d": "3D Animation",
-      "trailer": "Cinematic Trailer",
-      "character": "Character Design",
-      "motion": "Motion Graphics and VFX",
-      "other": "Other"
+      "2d": "Hoạt hình 2D",
+      "3d": "Hoạt hình 3D",
+      "trailer": "Đoạn giới thiệu điện ảnh",
+      "character": "Thiết kế nhân vật",
+      "motion": "Đồ họa chuyển động và VFX",
+      "other": "Khác"
     },
-    "sending": "Sending…",
-    "errorGeneric": "Could not send your message. Please email us directly or try again."
+    "sending": "Đang gửi…",
+    "errorGeneric": "Không thể gửi tin nhắn của bạn. Vui lòng gửi email trực tiếp cho chúng tôi hoặc thử lại."
   },
   "portfolioPage": {
-    "metaTitle": "Portfolio | Starlights Visuals",
-    "metaDescription": "Selected projects: animated series, cinematic trailers, character designs, and studio showcase reels by Starlights Visuals.",
+    "metaTitle": "Danh mục đầu tư | Hình ảnh ánh sao",
+    "metaDescription": "Các dự án được chọn: loạt phim hoạt hình, đoạn giới thiệu phim, thiết kế nhân vật và cuộn phim giới thiệu trường quay của Starlights Visuals.",
     "label": "Tác phẩm tiêu biểu",
-    "title1": "PORT",
+    "title1": "CẢNG",
     "title2": "FOLIO",
     "subtitle": "Một cái nhìn vào thế giới, nhân vật và câu chuyện chúng tôi đã giúp thổi hồn.",
     "projects": {
       "trailer": {
-        "tag": "Cinematic Trailer",
-        "title": "Iron Sentinel",
-        "desc": "Cinematic brand launch trailer."
+        "tag": "Đoạn giới thiệu điện ảnh",
+        "title": "Lính canh sắt",
+        "desc": "Trailer ra mắt thương hiệu điện ảnh."
       },
       "character": {
-        "tag": "Character Design",
-        "title": "Nova Vanguard",
-        "desc": "Hero protagonist sheet."
+        "tag": "Thiết kế nhân vật",
+        "title": "Đội tiên phong Nova",
+        "desc": "Tấm nhân vật chính anh hùng."
       },
       "2d": {
-        "tag": "2D Animation",
-        "title": "Neon Skyline",
-        "desc": "Anime inspired pilot episode."
+        "tag": "Hoạt hình 2D",
+        "title": "Đường chân trời neon",
+        "desc": "Tập thí điểm lấy cảm hứng từ anime."
       },
       "creature": {
-        "tag": "Creature Design",
+        "tag": "Thiết kế sinh vật",
         "title": "Crystal Wyrm",
-        "desc": "Boss creature concept."
+        "desc": "Khái niệm sinh vật Boss."
       },
       "motion": {
-        "tag": "Motion Graphics",
-        "title": "Pulse Identity",
-        "desc": "Brand motion system."
+        "tag": "Đồ họa chuyển động",
+        "title": "Nhận dạng xung",
+        "desc": "Hệ thống chuyển động thương hiệu."
       },
       "motionEnv": {
-        "tag": "Motion Graphics",
-        "title": "Pulse Worlds",
-        "desc": "Immersive brand environment art."
+        "tag": "Đồ họa chuyển động",
+        "title": "Thế giới xung",
+        "desc": "Nghệ thuật môi trường thương hiệu đắm chìm."
       }
     }
   },
   "blogPage": {
-    "metaTitle": "Blog | Starlights Visuals",
-    "metaDescription": "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
+    "metaTitle": "Blog | Hình ảnh ánh sao",
+    "metaDescription": "Thông tin chuyên sâu về hoạt hình, VFX, đoạn giới thiệu điện ảnh và cách kể chuyện về thương hiệu cao cấp từ Starlights Visuals.",
     "label": "Nhật ký studio",
     "title1": "THE",
     "title2": "BLOG",
@@ -349,50 +349,50 @@
     "startProject": "Bắt đầu dự án",
     "moreFromJournal": "Thêm từ nhật ký",
     "postBody1": "Tại Starlights Visuals, chúng tôi coi mỗi frame là cơ hội chuyển đổi, không chỉ là hình ảnh đẹp. Bài viết này mở rộng tư duy đằng sau công việc {{category}} và quyết định phân biệt sáng tạo tốt với sáng tạo sẵn sàng ra mắt.",
-    "postBody2": "Whether you are shipping a trailer, scaling a brand motion system, or building campaign visuals for a live product, the same principle applies: clarity of story first, polish second, and ruthless editing last. That discipline is how teams hit deadlines without the almost there feeling.",
+    "postBody2": "Cho dù bạn đang vận chuyển một đoạn giới thiệu, mở rộng hệ thống chuyển động thương hiệu hay xây dựng hình ảnh chiến dịch cho một sản phẩm trực tiếp, thì nguyên tắc tương tự đều được áp dụng: câu chuyện rõ ràng trước, trau chuốt thứ hai và chỉnh sửa kỹ càng sau cùng. Kỷ luật đó là cách các nhóm đạt được thời hạn mà không có cảm giác gần như vậy.",
     "postBody3": "Muốn áp dụng tư duy này cho dự án tiếp theo? Chúng tôi muốn nghe bạn đang xây dựng gì, gửi brief và chúng tôi sẽ vạch lộ trình điện ảnh từ concept đến bàn giao.",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "Why cinematic trailers convert better than product demos",
-        "excerpt": "Story first launch films build emotional stakes before the CTA. Here is how we structure hooks, pacing, and grade for maximum retention.",
-        "category": "Strategy",
-        "date": "May 12, 2026",
-        "readTime": "6 min read"
+        "title": "Tại sao đoạn giới thiệu điện ảnh chuyển đổi tốt hơn bản giới thiệu sản phẩm",
+        "excerpt": "Câu chuyện phim ra mắt lần đầu gây dựng cảm xúc trước CTA. Đây là cách chúng tôi cấu trúc các câu nối, nhịp độ và phân loại để có khả năng ghi nhớ tối đa.",
+        "category": "Chiến lược",
+        "date": "Ngày 12 tháng 5 năm 2026",
+        "readTime": "đọc 6 phút"
       },
       "character-design-for-ip": {
-        "title": "Character design that anchors your IP across every channel",
-        "excerpt": "From silhouette readability to merch ready turnarounds, the checklist we use before a hero goes into production.",
-        "category": "Craft",
-        "date": "May 3, 2026",
-        "readTime": "5 min read"
+        "title": "Thiết kế ký tự gắn IP của bạn trên mọi kênh",
+        "excerpt": "Từ khả năng đọc hình bóng cho đến các bước chuẩn bị sẵn sàng cho hàng hóa, danh sách kiểm tra mà chúng tôi sử dụng trước khi sản phẩm chính đi vào sản xuất.",
+        "category": "thủ công",
+        "date": "Ngày 3 tháng 5 năm 2026",
+        "readTime": "đọc 5 phút"
       },
       "motion-systems-for-brands": {
-        "title": "Building motion systems brands can actually reuse",
-        "excerpt": "Modular motion libraries, logo stings, and UI micro interactions that keep campaigns consistent at scale.",
-        "category": "Motion",
-        "date": "Apr 8, 2026",
-        "readTime": "4 min read"
+        "title": "Xây dựng thương hiệu hệ thống chuyển động thực sự có thể tái sử dụng",
+        "excerpt": "Thư viện chuyển động mô-đun, các đoạn logo và tương tác vi mô giao diện người dùng giúp giữ cho các chiến dịch luôn nhất quán trên quy mô lớn.",
+        "category": "Cử động",
+        "date": "Ngày 8 tháng 4 năm 2026",
+        "readTime": "đọc 4 phút"
       },
       "2d-animation-in-2026": {
-        "title": "2D animation in 2026: hybrid pipelines that still feel handmade",
-        "excerpt": "Combining rigged efficiency with frame by frame accents, when to push each technique for premium results.",
-        "category": "Animation",
-        "date": "Mar 29, 2026",
-        "readTime": "7 min read"
+        "title": "Hoạt hình 2D vào năm 2026: các đường ống kết hợp vẫn mang lại cảm giác thủ công",
+        "excerpt": "Kết hợp hiệu quả được trang bị với các điểm nhấn theo từng khung hình, khi nào nên áp dụng từng kỹ thuật để có kết quả cao cấp.",
+        "category": "Hoạt hình",
+        "date": "Ngày 29 tháng 3 năm 2026",
+        "readTime": "đọc 7 phút"
       },
       "creature-design-breakdown": {
-        "title": "Creature design breakdown: from mood board to final rig",
-        "excerpt": "A look at how we develop boss creatures with readable silhouettes, material storytelling, and cinematic presence.",
-        "category": "Craft",
-        "date": "Mar 14, 2026",
-        "readTime": "6 min read"
+        "title": "Phân tích thiết kế sinh vật: từ bảng tâm trạng đến thiết bị cuối cùng",
+        "excerpt": "Hãy xem cách chúng tôi phát triển các sinh vật trùm với hình bóng dễ đọc, cách kể chuyện đầy chất liệu và sự hiện diện đậm chất điện ảnh.",
+        "category": "thủ công",
+        "date": "Ngày 14 tháng 3 năm 2026",
+        "readTime": "đọc 6 phút"
       },
       "production-pipelines-that-ship": {
-        "title": "Production pipelines that ship: concept to final delivery",
-        "excerpt": "How we align art direction, technical constraints, and milestone reviews so teams ship on time without sacrificing polish.",
-        "category": "Production",
-        "date": "Apr 21, 2026",
-        "readTime": "8 min read"
+        "title": "Đường ống sản xuất vận chuyển: khái niệm đến giao hàng cuối cùng",
+        "excerpt": "Cách chúng tôi điều chỉnh định hướng nghệ thuật, các hạn chế về kỹ thuật và đánh giá các mốc quan trọng để các nhóm hoàn thành đúng thời hạn mà không phải hy sinh sự trau chuốt.",
+        "category": "Sản xuất",
+        "date": "Ngày 21 tháng 4 năm 2026",
+        "readTime": "đọc 8 phút"
       }
     }
   },
@@ -409,8 +409,8 @@
     "goHome": "Về trang chủ"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals | Animation & VFX Studio",
-    "rootDescription": "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
+    "rootTitle": "Hình ảnh ánh sao | Xưởng hoạt hình & VFX",
+    "rootDescription": "Starlights Visuals là studio sáng tạo chuyên về hoạt hình 2D điện ảnh, hoạt hình 3D chất lượng cao và VFX.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -421,48 +421,48 @@
     "logoAlt": "Logo {{brand}}"
   },
   "works": {
-    "breadcrumbLabel": "Breadcrumb",
-    "breadcrumbHome": "Home",
-    "breadcrumbWorks": "Selected Works",
-    "clientsTitle": "Clients We've Worked With",
-    "clientsCount": "{{count}} clients",
-    "projectsCompleted": "{{count}} projects completed",
-    "timeline": "Timeline",
-    "services": "Services provided",
-    "tools": "Tools & software",
-    "searchPlaceholder": "Search projects…",
-    "filterYear": "Filter by year",
-    "allYears": "All years",
-    "noClients": "No clients in this category yet.",
-    "noProjects": "No projects match your filters.",
-    "projectsTitle": "Project Samples",
-    "relatedProjects": "Related projects",
-    "closePreview": "Close preview",
-    "ctaScript": "Ready when you are,",
-    "ctaTitle": "Start Your Project With Us",
-    "ctaDesc": "Tell us about your brand, timeline, and goals. We'll map a cinematic path from concept to delivery.",
-    "ctaButton": "Start a project",
-    "portfolioHubDesc": "Explore work by category, animation, VFX, motion, and more.",
+    "breadcrumbLabel": "vụn bánh mì",
+    "breadcrumbHome": "Trang chủ",
+    "breadcrumbWorks": "Tác phẩm chọn lọc",
+    "clientsTitle": "Khách hàng chúng tôi đã làm việc cùng",
+    "clientsCount": "{{count}} khách hàng",
+    "projectsCompleted": "{{count}} dự án đã hoàn thành",
+    "timeline": "Dòng thời gian",
+    "services": "Dịch vụ được cung cấp",
+    "tools": "Công cụ & phần mềm",
+    "searchPlaceholder": "Tìm kiếm dự án…",
+    "filterYear": "Lọc theo năm",
+    "allYears": "Tất cả các năm",
+    "noClients": "Chưa có khách hàng nào trong danh mục này.",
+    "noProjects": "Không có dự án nào phù hợp với bộ lọc của bạn.",
+    "projectsTitle": "Mẫu dự án",
+    "relatedProjects": "Dự án liên quan",
+    "closePreview": "Đóng bản xem trước",
+    "ctaScript": "Sẵn sàng khi bạn sẵn sàng,",
+    "ctaTitle": "Bắt đầu dự án của bạn với chúng tôi",
+    "ctaDesc": "Hãy cho chúng tôi biết về thương hiệu, dòng thời gian và mục tiêu của bạn. Chúng tôi sẽ vạch ra lộ trình điện ảnh từ ý tưởng đến phân phối.",
+    "ctaButton": "Bắt đầu một dự án",
+    "portfolioHubDesc": "Khám phá tác phẩm theo danh mục, hoạt ảnh, VFX, chuyển động, v.v.",
     "categories": {
       "2d-animation": {
         "title": "Hoạt hình 2D",
-        "tagline": "Frame by frame craft for campaigns and series",
-        "description": "Character driven 2D animation for commercials, explainers, and episodic content with bold motion and cinematic timing."
+        "tagline": "Chế tạo từng khung hình cho các chiến dịch và loạt phim",
+        "description": "Hoạt hình 2D dựa trên nhân vật dành cho quảng cáo, người giải thích và nội dung nhiều tập với chuyển động đậm nét và thời gian đậm chất điện ảnh."
       },
       "3d-animation": {
         "title": "Hoạt hình 3D",
-        "tagline": "Stylized and photoreal 3D for film and brands",
-        "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
+        "tagline": "3D cách điệu và chân thực cho phim và thương hiệu",
+        "description": "Nhân vật, sản phẩm và hoạt hình điện ảnh 3D chất lượng cao được đánh bóng ở cấp độ tính năng cho các chiến dịch và loạt phim."
       },
       "motion-graphics": {
-        "title": "Motion Graphics",
-        "tagline": "Design led motion systems for launches and brand worlds",
-        "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
+        "title": "Đồ họa chuyển động",
+        "tagline": "Thiết kế hệ thống chuyển động dẫn đầu cho buổi ra mắt và thế giới thương hiệu",
+        "description": "Thiết kế hệ thống chuyển động dẫn đầu cho các lần ra mắt, bảng điều khiển và thế giới thương hiệu có quy mô trên các kênh."
       },
       "vfx": {
         "title": "Visual Effects (VFX)",
-        "tagline": "Compositing, FX, and cinematic finishing",
-        "description": "Visual effects for trailers, product films, and branded content, from cleanups to full CG integration."
+        "tagline": "Kết hợp, FX và hoàn thiện điện ảnh",
+        "description": "Hiệu ứng hình ảnh cho đoạn giới thiệu, phim sản phẩm và nội dung có thương hiệu, từ việc dọn dẹp đến tích hợp CG đầy đủ."
       }
     },
     "showcase": {
@@ -475,8 +475,8 @@
         "title": "Hoạt hình 3D"
       },
       "motion-graphics": {
-        "tag": "Motion Graphics",
-        "title": "Motion Graphics"
+        "tag": "Đồ họa chuyển động",
+        "title": "Đồ họa chuyển động"
       },
       "vfx": {
         "tag": "Visual Effects (VFX)",
@@ -487,147 +487,147 @@
       "2d-animation": {
         "chibi-art": {
           "name": "CHIBI ART",
-          "industry": "Character & Animation",
-          "description": "Chibi style 2D character animation with expressive scenes and behind the scenes making process films.",
+          "industry": "Nhân vật & Hoạt hình",
+          "description": "Hoạt hình nhân vật 2D phong cách Chibi với những cảnh biểu cảm và hậu trường quá trình làm phim.",
           "timeline": "2025",
           "services": {
-            "0": "2D Animation",
-            "1": "Chibi Art",
-            "2": "Character Animation"
+            "0": "Hoạt hình 2D",
+            "1": "Nghệ Thuật Chibi",
+            "2": "Hoạt hình nhân vật"
           },
           "tools": {
             "0": "After Effects",
-            "1": "Clip Studio Paint",
+            "1": "Clip Studio Sơn",
             "2": "Photoshop"
           }
         },
         "vtuber-animation": {
           "name": "VTUBER ANIMATION",
-          "industry": "VTuber & Character",
-          "description": "VTuber character art and 2D animation with modeling process films, polished samples, and Live2D style performance.",
+          "industry": "VTuber & Nhân vật",
+          "description": "Nghệ thuật nhân vật VTuber và hoạt hình 2D với phim quy trình mô hình hóa, mẫu được đánh bóng và hiệu suất theo phong cách Live2D.",
           "timeline": "2025",
           "services": {
-            "0": "VTuber Animation",
-            "1": "2D Character",
-            "2": "Live2D Style"
+            "0": "Hoạt hình VTuber",
+            "1": "Nhân vật 2D",
+            "2": "Phong cách Live2D"
           },
           "tools": {
             "0": "Live2D",
             "1": "After Effects",
-            "2": "Clip Studio Paint"
+            "2": "Clip Studio Sơn"
           }
         },
         "live2d-animation": {
           "name": "LIVE2D ANIMATION",
-          "industry": "Live2D & Character",
-          "description": "Live2D character art, rigging, and animation from making process films through polished sample performances.",
+          "industry": "Live2D & Nhân vật",
+          "description": "Nghệ thuật nhân vật Live2D, sự dàn dựng và hoạt hình từ quá trình tạo phim cho đến các màn trình diễn mẫu được trau chuốt.",
           "timeline": "2025",
           "services": {
             "0": "Live2D",
-            "1": "Rigging",
-            "2": "2D Character Animation"
+            "1": "gian lận",
+            "2": "Hoạt hình nhân vật 2D"
           },
           "tools": {
-            "0": "Live2D Cubism",
+            "0": "Chủ nghĩa lập thể Live2D",
             "1": "After Effects",
             "2": "Photoshop"
           }
         },
         "2d-anime-animation": {
           "name": "2D ANIME ANIMATION",
-          "industry": "Anime & 2D Animation",
-          "description": "High quality 2D anime style animation and music videos with expressive characters and cinematic motion.",
+          "industry": "Hoạt hình Anime & 2D",
+          "description": "Video ca nhạc và hoạt hình phong cách anime 2D chất lượng cao với các nhân vật biểu cảm và chuyển động đậm chất điện ảnh.",
           "timeline": "2025",
           "services": {
-            "0": "2D Anime",
-            "1": "Music Video",
-            "2": "Character Animation"
+            "0": "Anime 2D",
+            "1": "Video ca nhạc",
+            "2": "Hoạt hình nhân vật"
           },
           "tools": {
             "0": "After Effects",
-            "1": "Toon Boom",
-            "2": "Clip Studio Paint"
+            "1": "hoạt hình bùng nổ",
+            "2": "Clip Studio Sơn"
           }
         }
       },
       "3d-animation": {
         "kids-learning-animation": {
           "name": "KIDS LEARNING ANIMATION",
-          "industry": "Children & Education",
-          "description": "Fun character animation for kids learning content, including number videos and cute cartoon characters.",
+          "industry": "Trẻ em & Giáo dục",
+          "description": "Hoạt hình nhân vật vui nhộn có nội dung học tập dành cho trẻ em, bao gồm video về số và các nhân vật hoạt hình dễ thương.",
           "timeline": "2025",
           "services": {
-            "0": "Kids Learning",
-            "1": "Character Animation",
-            "2": "Educational Content"
+            "0": "Học tập cho trẻ em",
+            "1": "Hoạt hình nhân vật",
+            "2": "Nội dung giáo dục"
           },
           "tools": {
             "0": "After Effects",
-            "1": "Toon Boom",
-            "2": "Blender"
+            "1": "hoạt hình bùng nổ",
+            "2": "Máy xay sinh tố"
           }
         },
         "3d-cartoon-animation": {
           "name": "3D CARTOON ANIMATION",
-          "industry": "Character & Animation",
-          "description": "Stylized 3D cartoon character animation and showcase films with playful motion and polished presentation.",
+          "industry": "Nhân vật & Hoạt hình",
+          "description": "Hoạt hình nhân vật hoạt hình 3D cách điệu và giới thiệu các bộ phim có chuyển động vui nhộn và cách trình bày trau chuốt.",
           "timeline": "2025",
           "services": {
-            "0": "3D Cartoon Animation",
-            "1": "Character Showcase",
-            "2": "Stylized CGI"
+            "0": "Hoạt Hình Hoạt Hình 3D",
+            "1": "Giới thiệu nhân vật",
+            "2": "CGI cách điệu"
           },
           "tools": {
-            "0": "Blender",
-            "1": "Cinema 4D",
+            "0": "Máy xay sinh tố",
+            "1": "Rạp chiếu phim 4D",
             "2": "After Effects"
           }
         },
         "3d-explainer-video": {
           "name": "3D EXPLAINER VIDEO",
-          "industry": "Product & Explainer",
-          "description": "3D explainer and product presentation films covering brand storytelling, 360 product displays, and commercial animation.",
+          "industry": "Sản phẩm & Người giải thích",
+          "description": "Phim giải thích 3D và giới thiệu sản phẩm bao gồm kể chuyện thương hiệu, trưng bày sản phẩm 360 độ và hoạt hình thương mại.",
           "timeline": "2025",
           "services": {
-            "0": "3D Explainer",
-            "1": "Product Presentation",
-            "2": "360 Product Display"
+            "0": "Trình giải thích 3D",
+            "1": "Trình bày sản phẩm",
+            "2": "Hiển thị sản phẩm 360"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Máy xay sinh tố",
             "2": "After Effects"
           }
         },
         "3d-medical-animation": {
           "name": "3D MEDICAL ANIMATION",
-          "industry": "Healthcare & Medical Visualization",
-          "description": "High quality 3D medical animation covering anatomy, surgical procedures, and medical device visualization.",
+          "industry": "Trực quan hóa chăm sóc sức khỏe & y tế",
+          "description": "Hoạt hình y tế 3D chất lượng cao bao gồm giải phẫu, quy trình phẫu thuật và hình dung thiết bị y tế.",
           "timeline": "2025",
           "services": {
-            "0": "Medical Animation",
-            "1": "Anatomy CGI",
-            "2": "Surgical Visualization"
+            "0": "Hoạt hình y tế",
+            "1": "CGI giải phẫu",
+            "2": "Hình dung phẫu thuật"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Máy xay sinh tố",
             "2": "After Effects"
           }
         },
         "3d-anime-character": {
           "name": "3D ANIME CHARACTER",
-          "industry": "Character & Anime",
-          "description": "3D anime character modeling and client showcase films with stylized materials and polished presentation.",
+          "industry": "Nhân vật & Anime",
+          "description": "Mô hình hóa nhân vật anime 3D và phim giới thiệu khách hàng với chất liệu cách điệu và cách trình bày trau chuốt.",
           "timeline": "2025",
           "services": {
-            "0": "3D Character",
-            "1": "Anime CGI",
-            "2": "Client Showcase"
+            "0": "Nhân vật 3D",
+            "1": "CGI Anime",
+            "2": "Giới thiệu khách hàng"
           },
           "tools": {
-            "0": "Blender",
-            "1": "Cinema 4D",
+            "0": "Máy xay sinh tố",
+            "1": "Rạp chiếu phim 4D",
             "2": "After Effects"
           }
         }
@@ -635,129 +635,129 @@
       "motion-graphics": {
         "watch-animation": {
           "name": "WATCH ANIMATION",
-          "industry": "Luxury Watches",
-          "description": "Photoreal 3D watch product animation and cinematic packshot films for luxury timepieces.",
+          "industry": "Đồng hồ cao cấp",
+          "description": "Hoạt hình sản phẩm đồng hồ 3D Photoreal và phim đóng gói điện ảnh dành cho đồng hồ sang trọng.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Watch CGI",
-            "2": "Packshot Films"
+            "0": "Hoạt hình sản phẩm 3D",
+            "1": "Xem CGI",
+            "2": "Phim Packshot"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Dịch chuyển đỏ",
             "2": "After Effects"
           }
         },
         "ryse-drink-3d-product-animation": {
           "name": "RYSE DRINK 3D PRODUCT ANIMATION",
-          "industry": "Beverage & Product CGI",
-          "description": "Photoreal 3D beverage product animation for Ryse drink and lemonade campaigns with cinematic packshot finish.",
+          "industry": "CGI đồ uống & sản phẩm",
+          "description": "Hoạt hình sản phẩm đồ uống 3D chân thực cho các chiến dịch đồ uống và nước chanh của Ryse với kết thúc gói ảnh đậm chất điện ảnh.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Beverage CGI",
-            "2": "Packshot Films"
+            "0": "Hoạt hình sản phẩm 3D",
+            "1": "CGI đồ uống",
+            "2": "Phim Packshot"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Dịch chuyển đỏ",
             "2": "After Effects"
           }
         },
         "3d-perfume-animation": {
           "name": "3D PERFUME ANIMATION",
-          "industry": "Beauty & Fragrance",
-          "description": "Photoreal 3D perfume product animation for luxury fragrance launches and campaign hero films.",
+          "industry": "Sắc đẹp & Nước hoa",
+          "description": "Hoạt hình sản phẩm nước hoa 3D Photoreal dành cho các buổi ra mắt nước hoa sang trọng và các bộ phim chiến dịch anh hùng.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Fragrance CGI",
-            "2": "Packshot Films"
+            "0": "Hoạt hình sản phẩm 3D",
+            "1": "Nước hoa CGI",
+            "2": "Phim Packshot"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Dịch chuyển đỏ",
             "2": "After Effects"
           }
         },
         "3d-gadget-animation": {
           "name": "3D GADGET ANIMATION",
-          "industry": "Consumer Electronics",
-          "description": "Photoreal 3D gadget and earbud product animation with studio lighting, material detail, and campaign ready motion.",
+          "industry": "Điện tử tiêu dùng",
+          "description": "Hoạt hình sản phẩm tai nghe và tiện ích 3D Photoreal với ánh sáng studio, chi tiết vật liệu và chuyển động sẵn sàng cho chiến dịch.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Gadget CGI",
-            "2": "Packshot Films"
+            "0": "Hoạt hình sản phẩm 3D",
+            "1": "Tiện ích CGI",
+            "2": "Phim Packshot"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Dịch chuyển đỏ",
             "2": "After Effects"
           }
         },
         "vape-animation": {
           "name": "VAPE ANIMATION",
-          "industry": "Consumer Products",
-          "description": "Photoreal 3D vape product animation with studio lighting, material detail, and campaign ready packshot films.",
+          "industry": "Sản phẩm tiêu dùng",
+          "description": "Hoạt hình sản phẩm vape 3D Photoreal với ánh sáng studio, chi tiết vật liệu và phim ảnh đóng gói sẵn sàng cho chiến dịch.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
+            "0": "Hoạt hình sản phẩm 3D",
             "1": "Vape CGI",
-            "2": "Packshot Films"
+            "2": "Phim Packshot"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Dịch chuyển đỏ",
             "2": "After Effects"
           }
         },
         "bag-suitcase-animation": {
           "name": "BAG/SUITCASE ANIMATION",
-          "industry": "Travel & Lifestyle",
-          "description": "Realistic 3D product animation for bags and suitcases with cinematic packshot finish.",
+          "industry": "Du lịch & Phong cách sống",
+          "description": "Hoạt hình sản phẩm 3D chân thực cho túi xách và vali với lớp hoàn thiện dạng ảnh đóng gói mang tính điện ảnh.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Bag CGI",
-            "2": "Packshot Films"
+            "0": "Hoạt hình sản phẩm 3D",
+            "1": "Túi CGI",
+            "2": "Phim Packshot"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Dịch chuyển đỏ",
             "2": "After Effects"
           }
         },
         "drop-band-animation": {
           "name": "DROP BAND ANIMATION",
-          "industry": "Wearables & Accessories",
-          "description": "Drop Band product animation covering production process films and final polished results.",
+          "industry": "Thiết bị đeo & phụ kiện",
+          "description": "Hoạt hình sản phẩm Drop Band bao gồm các phim về quá trình sản xuất và kết quả đánh bóng cuối cùng.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Process Film",
-            "2": "Wearable CGI"
+            "0": "Hoạt hình sản phẩm 3D",
+            "1": "Phim xử lý",
+            "2": "CGI có thể đeo được"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Dịch chuyển đỏ",
             "2": "After Effects"
           }
         },
         "3d-bed-animation": {
           "name": "3D BED ANIMATION",
-          "industry": "Furniture & Bedding",
-          "description": "Photoreal 3D mattress and bed product animation for furniture brands with cinematic packshot finish.",
+          "industry": "Nội thất & Bộ đồ giường",
+          "description": "Hoạt hình sản phẩm giường và nệm 3D như ảnh thật dành cho các thương hiệu nội thất với lớp hoàn thiện dạng ảnh chụp dạng điện ảnh.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Furniture CGI",
-            "2": "Packshot Films"
+            "0": "Hoạt hình sản phẩm 3D",
+            "1": "CGI nội thất",
+            "2": "Phim Packshot"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Dịch chuyển đỏ",
             "2": "After Effects"
           }
         }
@@ -765,129 +765,129 @@
       "vfx": {
         "ronix": {
           "name": "RONIX",
-          "industry": "Power Tools & Manufacturing",
-          "description": "Ronix 3D industrial animation and power tool CGI product showcase films.",
+          "industry": "Dụng cụ điện & Sản xuất",
+          "description": "Phim giới thiệu sản phẩm CGI công nghiệp và hoạt hình công nghiệp 3D Ronix.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Power Tool CGI",
-            "2": "Product Showcase"
+            "0": "Hoạt hình công nghiệp",
+            "1": "Công cụ điện CGI",
+            "2": "Trưng bày sản phẩm"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Máy xay sinh tố",
             "2": "After Effects"
           }
         },
         "mintec": {
           "name": "MINTEC",
-          "industry": "Industrial Manufacturing",
-          "description": "MinTec industries product showcase and process films for 3D industrial animation.",
+          "industry": "Sản xuất công nghiệp",
+          "description": "Giới thiệu sản phẩm của MinTec Industries và xử lý phim cho hoạt hình công nghiệp 3D.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product Showcase",
-            "2": "Process Film"
+            "0": "Hoạt hình công nghiệp",
+            "1": "Trưng bày sản phẩm",
+            "2": "Phim xử lý"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Máy xay sinh tố",
             "2": "After Effects"
           }
         },
         "integra-pw": {
           "name": "INTEGRA PW",
-          "industry": "Industrial Products",
-          "description": "Integra PW industrial animation from video making process through final cinematic results.",
+          "industry": "Sản phẩm công nghiệp",
+          "description": "Tích hợp hoạt hình công nghiệp PW từ quá trình tạo video cho đến kết quả điện ảnh cuối cùng.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Process Film",
-            "2": "Product CGI"
+            "0": "Hoạt hình công nghiệp",
+            "1": "Phim xử lý",
+            "2": "CGI sản phẩm"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Máy xay sinh tố",
             "2": "After Effects"
           }
         },
         "credex": {
           "name": "CREDEX",
-          "industry": "Cleaning Equipment",
-          "description": "CREDEX carpet cleaning machine industrial animation with cinematic SFX finish.",
+          "industry": "Thiết bị làm sạch",
+          "description": "Hình ảnh động công nghiệp của máy giặt thảm CREDEX với lớp hoàn thiện SFX đậm chất điện ảnh.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product CGI",
-            "2": "Sound Design"
+            "0": "Hoạt hình công nghiệp",
+            "1": "CGI sản phẩm",
+            "2": "Thiết kế âm thanh"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Máy xay sinh tố",
             "2": "After Effects"
           }
         },
         "phr-1": {
           "name": "PHR 1",
-          "industry": "Electric Powertrain",
-          "description": "PHR 1 electric power train product animation with technical lighting and cinematic polish.",
+          "industry": "Hệ thống truyền động điện",
+          "description": "Hoạt hình sản phẩm tàu ​​điện PHR 1 với ánh sáng kỹ thuật và độ bóng điện ảnh.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Powertrain CGI",
-            "2": "Product Film"
+            "0": "Hoạt hình công nghiệp",
+            "1": "CGI hệ thống truyền động",
+            "2": "Phim sản phẩm"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Máy xay sinh tố",
             "2": "After Effects"
           }
         },
         "atx": {
           "name": "ATX",
-          "industry": "Industrial Manufacturing",
-          "description": "ATX 3D industrial and technical product animation for manufacturing showcases.",
+          "industry": "Sản xuất công nghiệp",
+          "description": "Hoạt hình sản phẩm kỹ thuật và công nghiệp ATX 3D dành cho trưng bày sản xuất.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Technical CGI",
-            "2": "Product Showcase"
+            "0": "Hoạt hình công nghiệp",
+            "1": "CGI kỹ thuật",
+            "2": "Trưng bày sản phẩm"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Máy xay sinh tố",
             "2": "After Effects"
           }
         },
         "prov-gap": {
           "name": "PROV GAP",
-          "industry": "Industrial Manufacturing",
-          "description": "Prov GAP 3D industrial animation for technical product storytelling and brand films.",
+          "industry": "Sản xuất công nghiệp",
+          "description": "Hoạt hình công nghiệp Prov GAP 3D dành cho kể chuyện sản phẩm kỹ thuật và phim thương hiệu.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product CGI",
-            "2": "Technical Film"
+            "0": "Hoạt hình công nghiệp",
+            "1": "CGI sản phẩm",
+            "2": "Phim kỹ thuật"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Máy xay sinh tố",
             "2": "After Effects"
           }
         },
         "autoz-crave": {
           "name": "AUTOZ CRAVE",
-          "industry": "Automotive & Mechanical",
-          "description": "Autoz Crave industrial animation for mechanical and technical 3D product films.",
+          "industry": "Ô tô & Cơ khí",
+          "description": "Hoạt hình công nghiệp Autoz Crave dành cho phim sản phẩm 3D cơ khí và kỹ thuật.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Mechanical CGI",
-            "2": "Technical Animation"
+            "0": "Hoạt hình công nghiệp",
+            "1": "CGI cơ khí",
+            "2": "Hoạt hình kỹ thuật"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Rạp chiếu phim 4D",
+            "1": "Máy xay sinh tố",
             "2": "After Effects"
           }
         }
@@ -895,475 +895,475 @@
     },
     "projects": {
       "chibi-art-p1": {
-        "title": "Chibi Art Scene 1",
-        "description": "Expressive chibi character scene with polished 2D animation and campaign ready motion.",
+        "title": "Nghệ Thuật Chibi Cảnh 1",
+        "description": "Cảnh nhân vật chibi biểu cảm với hoạt hình 2D bóng bẩy và chuyển động sẵn sàng cho chiến dịch.",
         "tags": {
-          "0": "Chibi",
-          "1": "Scene"
+          "0": "chibi",
+          "1": "Bối cảnh"
         }
       },
       "chibi-art-p2": {
-        "title": "Chibi Art Scene 2",
-        "description": "Second chibi character scene showcasing personality, timing, and colorful 2D performance.",
+        "title": "Nghệ Thuật Chibi Cảnh 2",
+        "description": "Cảnh nhân vật chibi thứ hai thể hiện tính cách, thời gian và hiệu suất 2D đầy màu sắc.",
         "tags": {
-          "0": "Chibi",
-          "1": "Scene"
+          "0": "chibi",
+          "1": "Bối cảnh"
         }
       },
       "chibi-art-p3": {
-        "title": "Making Process Film",
-        "description": "Behind the scenes look at the chibi art creation and animation workflow from sketch to final motion.",
+        "title": "Quy trình làm phim",
+        "description": "Phía sau hậu trường là quá trình sáng tạo nghệ thuật chibi và hoạt hình từ bản phác thảo đến chuyển động cuối cùng.",
         "tags": {
-          "0": "Process",
-          "1": "Workflow"
+          "0": "Quá trình",
+          "1": "Quy trình làm việc"
         }
       },
       "vtuber-animation-p1": {
-        "title": "Vtuber Modeling Creation",
-        "description": "VTuber character modeling creation film covering art direction and build workflow.",
+        "title": "Tạo mô hình Vtuber",
+        "description": "Phim tạo mô hình nhân vật VTuber bao gồm chỉ đạo nghệ thuật và quy trình xây dựng.",
         "tags": {
           "0": "VTuber",
-          "1": "Modeling"
+          "1": "Làm người mẫu"
         }
       },
       "vtuber-animation-p2": {
-        "title": "Vtuber 2D Video Results",
-        "description": "Finished 2D VTuber animation results with expressive performance and polished motion.",
+        "title": "Kết quả video Vtuber 2D",
+        "description": "Kết quả hoạt hình VTuber 2D đã hoàn thiện với hiệu suất biểu cảm và chuyển động tinh tế.",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p3": {
-        "title": "Princess Vtuber Modeling",
-        "description": "Princess VTuber modeling sample showcasing character design and animated performance.",
+        "title": "Công chúa người mẫu Vtuber",
+        "description": "Mẫu mô hình Princess VTuber giới thiệu thiết kế nhân vật và hiệu suất hoạt hình.",
         "tags": {
           "0": "VTuber",
-          "1": "Princess"
+          "1": "Công chúa"
         }
       },
       "vtuber-animation-p4": {
-        "title": "Vtuber 2D Video",
-        "description": "Cinematic 2D VTuber animation with dynamic character motion and expressive acting.",
+        "title": "Video 2D của Vtuber",
+        "description": "Hoạt hình VTuber 2D đậm chất điện ảnh với chuyển động nhân vật năng động và diễn xuất biểu cảm.",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p5": {
-        "title": "Vtuber Sample 2",
-        "description": "Second VTuber animation sample with bold character acting and polished motion.",
+        "title": "Mẫu Vtuber 2",
+        "description": "Mẫu hoạt hình VTuber thứ hai với diễn xuất nhân vật táo bạo và chuyển động trau chuốt.",
         "tags": {
           "0": "VTuber",
-          "1": "Sample"
+          "1": "Vật mẫu"
         }
       },
       "vtuber-animation-p6": {
-        "title": "Vtuber Sample 3",
-        "description": "Extended VTuber character showcase with cinematic pacing and expressive 2D animation.",
+        "title": "Mẫu Vtuber 3",
+        "description": "Phần giới thiệu nhân vật VTuber mở rộng với nhịp độ điện ảnh và hoạt ảnh 2D biểu cảm.",
         "tags": {
           "0": "VTuber",
-          "1": "Sample"
+          "1": "Vật mẫu"
         }
       },
       "vtuber-animation-p7": {
-        "title": "Vtuber Video Process",
-        "description": "Behind the scenes VTuber animation process from art through rigging and final motion.",
+        "title": "Quá trình video Vtuber",
+        "description": "Hậu trường quá trình hoạt hình VTuber từ nghệ thuật đến gian lận và chuyển động cuối cùng.",
         "tags": {
-          "0": "Process",
-          "1": "Workflow"
+          "0": "Quá trình",
+          "1": "Quy trình làm việc"
         }
       },
       "live2d-animation-p1": {
-        "title": "Live2D Making Process",
-        "description": "Behind the scenes Live2D creation workflow from art through final animated performance.",
+        "title": "Quy trình tạo Live2D",
+        "description": "Hậu trường quy trình tạo Live2D từ nghệ thuật đến hiệu suất hoạt hình cuối cùng.",
         "tags": {
           "0": "Live2D",
-          "1": "Process"
+          "1": "Quá trình"
         }
       },
       "live2d-animation-p2": {
-        "title": "Live2D Sample",
-        "description": "Finished Live2D character sample with expressive posing and polished motion.",
+        "title": "Mẫu Live2D",
+        "description": "Mẫu nhân vật Live2D đã hoàn thiện với tư thế tạo dáng biểu cảm và chuyển động tinh tế.",
         "tags": {
           "0": "Live2D",
-          "1": "Sample"
+          "1": "Vật mẫu"
         }
       },
       "live2d-animation-p3": {
-        "title": "Live2D Rigging Process",
-        "description": "Live2D rigging process film showing mesh, deformers, and parameter setup.",
+        "title": "Quy trình gian lận Live2D",
+        "description": "Phim quy trình gian lận Live2D hiển thị lưới, bộ biến dạng và thiết lập tham số.",
         "tags": {
           "0": "Live2D",
-          "1": "Rigging"
+          "1": "gian lận"
         }
       },
       "live2d-animation-p4": {
-        "title": "Sample Live2D Rigging",
-        "description": "Sample Live2D rigging demonstration with clean parameter control and facial acting.",
+        "title": "Mẫu gian lận Live2D",
+        "description": "Trình diễn mô hình gian lận Live2D mẫu với khả năng kiểm soát thông số rõ ràng và diễn xuất trên khuôn mặt.",
         "tags": {
           "0": "Live2D",
-          "1": "Rigging"
+          "1": "gian lận"
         }
       },
       "live2d-animation-p5": {
-        "title": "Live2D Rigging Result",
-        "description": "Final Live2D rigging result showcasing smooth motion and expressive character performance.",
+        "title": "Kết quả gian lận Live2D",
+        "description": "Kết quả gian lận Live2D cuối cùng thể hiện chuyển động mượt mà và hiệu suất nhân vật biểu cảm.",
         "tags": {
           "0": "Live2D",
-          "1": "Result"
+          "1": "Kết quả"
         }
       },
       "live2d-animation-p6": {
-        "title": "Live2D Film",
-        "description": "Cinematic Live2D animation with dynamic character motion and polished presentation.",
+        "title": "Phim Live2D",
+        "description": "Hoạt hình Live2D mang tính điện ảnh với chuyển động của nhân vật sống động và cách trình bày bóng bẩy.",
         "tags": {
           "0": "Live2D",
-          "1": "Film"
+          "1": "Phim ảnh"
         }
       },
       "2d-anime-animation-p1": {
-        "title": "Japanese Style 2D Anime",
-        "description": "Japanese anime style 2D animation with dynamic posing, expressive acting, and polished line work.",
+        "title": "Anime 2D phong cách Nhật Bản",
+        "description": "Hoạt hình 2D theo phong cách anime Nhật Bản với tạo dáng năng động, diễn xuất biểu cảm và đường nét trau chuốt.",
         "tags": {
           "0": "Anime",
           "1": "2D"
         }
       },
       "2d-anime-animation-p2": {
-        "title": "Anime Music Video",
-        "description": "2D anime music video with character driven storytelling and cinematic timing.",
+        "title": "Video Nhạc Anime",
+        "description": "Video nhạc anime 2D có cách kể chuyện theo nhân vật và thời gian đậm chất điện ảnh.",
         "tags": {
-          "0": "Music Video",
+          "0": "Video ca nhạc",
           "1": "Anime"
         }
       },
       "2d-anime-animation-p3": {
-        "title": "Meme Song Animation",
-        "description": "Playful 2D anime character animation timed to a meme song with bold motion and humor.",
+        "title": "Hoạt hình bài hát Meme",
+        "description": "Hoạt hình nhân vật anime 2D vui tươi được kết hợp với một bài hát meme với chuyển động táo bạo và hài hước.",
         "tags": {
           "0": "Anime",
-          "1": "Music"
+          "1": "Âm nhạc"
         }
       },
       "kids-learning-animation-p1": {
-        "title": "123 Number Kids Learning Video",
-        "description": "Educational number learning video with engaging characters and playful motion for kids.",
+        "title": "Video học tập 123 số cho trẻ em",
+        "description": "Video học số mang tính giáo dục với các nhân vật hấp dẫn và chuyển động vui nhộn dành cho trẻ em.",
         "tags": {
-          "0": "Kids",
-          "1": "Learning"
+          "0": "trẻ em",
+          "1": "Học hỏi"
         }
       },
       "kids-learning-animation-p2": {
-        "title": "Custom 2D Character",
-        "description": "Custom 2D character animation with expressive acting and colorful stylized design.",
+        "title": "Nhân vật 2D tùy chỉnh",
+        "description": "Hoạt hình nhân vật 2D tùy chỉnh với diễn xuất biểu cảm và thiết kế cách điệu đầy màu sắc.",
         "tags": {
-          "0": "Character",
+          "0": "Tính cách",
           "1": "2D"
         }
       },
       "kids-learning-animation-p3": {
-        "title": "Cute 2D Cartoon Character",
-        "description": "Cute 2D cartoon character film with friendly personality and polished kids content motion.",
+        "title": "Nhân vật hoạt hình 2D dễ thương",
+        "description": "Phim nhân vật hoạt hình 2D dễ thương với tính cách thân thiện và nội dung chuyển động trau chuốt dành cho trẻ em.",
         "tags": {
-          "0": "Cartoon",
-          "1": "Kids"
+          "0": "Hoạt hình",
+          "1": "trẻ em"
         }
       },
       "3d-cartoon-animation-p1": {
-        "title": "3D Cartoon Animation",
-        "description": "Stylized 3D cartoon animation with expressive character performance and colorful presentation.",
+        "title": "Hoạt Hình Hoạt Hình 3D",
+        "description": "Hoạt hình hoạt hình 3D cách điệu với hiệu suất nhân vật biểu cảm và trình bày đầy màu sắc.",
         "tags": {
-          "0": "Cartoon",
+          "0": "Hoạt hình",
           "1": "3D"
         }
       },
       "3d-cartoon-animation-p2": {
-        "title": "Cute 3D Cartoon Character Showcase",
-        "description": "Cute 3D cartoon character video showcase with friendly personality and polished motion.",
+        "title": "Giới thiệu nhân vật hoạt hình 3D dễ thương",
+        "description": "Video giới thiệu nhân vật hoạt hình 3D dễ thương với tính cách thân thiện và chuyển động bóng bẩy.",
         "tags": {
-          "0": "Character",
-          "1": "Showcase"
+          "0": "Tính cách",
+          "1": "trưng bày"
         }
       },
       "3d-explainer-video-p1": {
-        "title": "Winergy 3D Presentation",
-        "description": "Winergy 3D brand presentation with cinematic camera work and polished product storytelling.",
+        "title": "Bản trình bày 3D của Winergy",
+        "description": "Bản trình bày thương hiệu 3D của Winergy với tác phẩm bằng máy ảnh điện ảnh và cách kể chuyện sản phẩm tinh tế.",
         "tags": {
-          "0": "Explainer",
-          "1": "Winergy"
+          "0": "Người giải thích",
+          "1": "Xưởng rượu vang"
         }
       },
       "3d-explainer-video-p2": {
-        "title": "Popper Product 360 Display",
-        "description": "Popper product 360 display film showcasing form, materials, and packaging detail.",
+        "title": "Màn hình sản phẩm Popper 360",
+        "description": "Phim trình chiếu 360 độ của sản phẩm Popper giới thiệu hình thức, chất liệu và chi tiết đóng gói.",
         "tags": {
           "0": "360",
           "1": "Popper"
         }
       },
       "3d-explainer-video-p3": {
-        "title": "Popper Animation",
-        "description": "Popper 3D product animation with dynamic motion and commercial presentation.",
+        "title": "Hoạt hình Popper",
+        "description": "Hoạt hình sản phẩm Popper 3D với chuyển động sống động và trình bày thương mại.",
         "tags": {
-          "0": "Product",
+          "0": "Sản phẩm",
           "1": "Popper"
         }
       },
       "3d-explainer-video-p4": {
-        "title": "Popper Animation 2",
-        "description": "Alternate Popper animation pass with refined lighting and campaign ready pacing.",
+        "title": "Hoạt hình Popper 2",
+        "description": "Thẻ hoạt hình Popper thay thế với ánh sáng tinh tế và nhịp độ sẵn sàng cho chiến dịch.",
         "tags": {
-          "0": "Product",
+          "0": "Sản phẩm",
           "1": "Popper"
         }
       },
       "3d-explainer-video-p5": {
-        "title": "Client Video of Poppes",
-        "description": "Client facing Poppes video presenting the product with clear storytelling and polished CGI.",
+        "title": "Video khách hàng của Poppes",
+        "description": "Video Poppes hướng về phía khách hàng giới thiệu sản phẩm với cách kể chuyện rõ ràng và CGI bóng bẩy.",
         "tags": {
-          "0": "Client",
-          "1": "Poppes"
+          "0": "Khách hàng",
+          "1": "anh túc"
         }
       },
       "3d-medical-animation-p1": {
-        "title": "High Quality 3D Medical Anatomy Animation",
-        "description": "High quality 3D medical animation with detailed anatomy visualization and polished cinematic presentation.",
+        "title": "Hoạt hình giải phẫu y tế 3D chất lượng cao",
+        "description": "Hoạt hình y tế 3D chất lượng cao với hình ảnh giải phẫu chi tiết và trình bày điện ảnh bóng bẩy.",
         "tags": {
-          "0": "Medical",
-          "1": "Anatomy"
+          "0": "Thuộc về y học",
+          "1": "giải phẫu"
         }
       },
       "3d-medical-animation-p2": {
-        "title": "3D Medical Animation 2",
-        "description": "Second 3D medical animation sample with clear anatomical storytelling and commercial finish.",
+        "title": "Hoạt hình y tế 3D 2",
+        "description": "Mẫu hoạt hình y tế 3D thứ hai có cách kể chuyện giải phẫu rõ ràng và kết thúc thương mại.",
         "tags": {
-          "0": "Medical",
-          "1": "Healthcare"
+          "0": "Thuộc về y học",
+          "1": "Chăm sóc sức khỏe"
         }
       },
       "3d-anime-character-p1": {
-        "title": "3D Anime Character Showcase to Client",
-        "description": "3D anime character showcase film presenting modeling, materials, and polished stylized performance for client review.",
+        "title": "Giới thiệu nhân vật Anime 3D cho khách hàng",
+        "description": "Phim giới thiệu nhân vật anime 3D giới thiệu mô hình, vật liệu và cách trình diễn được trau chuốt để khách hàng đánh giá.",
         "tags": {
           "0": "Anime",
-          "1": "Character"
+          "1": "Tính cách"
         }
       },
       "watch-animation-p1": {
-        "title": "Watch Product Film",
-        "description": "Cinematic 3D watch animation with studio lighting, material detail, and premium packshot finish.",
+        "title": "Xem phim sản phẩm",
+        "description": "Hoạt hình đồng hồ 3D đậm chất điện ảnh với ánh sáng studio, chi tiết vật liệu và lớp hoàn thiện ảnh chụp gói cao cấp.",
         "tags": {
-          "0": "Watch",
-          "1": "Product"
+          "0": "Đồng hồ",
+          "1": "Sản phẩm"
         }
       },
       "watch-animation-p2": {
-        "title": "Rifari Wrist Watch",
-        "description": "Photoreal Rifari wrist watch product film with refined reflections and commercial presentation.",
+        "title": "Đồng hồ đeo tay Rifari",
+        "description": "Phim sản phẩm đồng hồ đeo tay Photoreal Rifari với sự phản chiếu tinh tế và cách trình bày thương mại.",
         "tags": {
-          "0": "Watch",
-          "1": "Rifari"
+          "0": "Đồng hồ",
+          "1": "súng trường"
         }
       },
       "watch-animation-p3": {
-        "title": "Steel Reef Wrist Watch",
-        "description": "Steel Reef wrist watch animation with premium materials, lighting, and campaign ready motion.",
+        "title": "Đồng hồ đeo tay Steel Reef",
+        "description": "Hoạt hình đồng hồ đeo tay Steel Reef với vật liệu cao cấp, ánh sáng và chuyển động sẵn sàng cho chiến dịch.",
         "tags": {
-          "0": "Watch",
-          "1": "Steel Reef"
+          "0": "Đồng hồ",
+          "1": "Rạn san hô thép"
         }
       },
       "ryse-drink-3d-product-animation-p1": {
-        "title": "Ryse Drink 3D Product Animation",
-        "description": "Cinematic 3D Ryse drink product animation with studio lighting, material detail, and commercial finish.",
+        "title": "Hoạt hình sản phẩm 3D của Ryse Drink",
+        "description": "Hoạt hình sản phẩm đồ uống Cinematic 3D Ryse với ánh sáng studio, chi tiết vật liệu và hoàn thiện thương mại.",
         "tags": {
-          "0": "Beverage",
-          "1": "Product"
+          "0": "Nước giải khát",
+          "1": "Sản phẩm"
         }
       },
       "ryse-drink-3d-product-animation-p2": {
-        "title": "Lemonade Product Film",
-        "description": "Photoreal lemonade product animation with fluid motion, glass materials, and campaign ready presentation.",
+        "title": "Phim sản phẩm nước chanh",
+        "description": "Hoạt hình sản phẩm nước chanh giống như ảnh thật với chuyển động mượt mà, vật liệu thủy tinh và bản trình bày sẵn sàng cho chiến dịch.",
         "tags": {
-          "0": "Lemonade",
-          "1": "Product"
+          "0": "Nước chanh",
+          "1": "Sản phẩm"
         }
       },
       "3d-perfume-animation-p1": {
-        "title": "Anabomfim 3D Perfume Video",
-        "description": "Cinematic 3D Anabomfim perfume animation with studio lighting, glass materials, and premium packshot finish.",
+        "title": "Video nước hoa Anabomfim 3D",
+        "description": "Hoạt hình nước hoa Anabomfim 3D điện ảnh với ánh sáng studio, vật liệu thủy tinh và lớp hoàn thiện packshot cao cấp.",
         "tags": {
-          "0": "Perfume",
+          "0": "Nước hoa",
           "1": "Anabomfim"
         }
       },
       "3d-perfume-animation-p2": {
-        "title": "Valentino Perfume Video",
-        "description": "Luxury Valentino perfume product film with refined reflections, fluid motion, and commercial presentation.",
+        "title": "Video Nước Hoa Valentino",
+        "description": "Phim sản phẩm nước hoa Valentino sang trọng với sự phản chiếu tinh tế, chuyển động mượt mà và cách trình bày thương mại.",
         "tags": {
-          "0": "Perfume",
+          "0": "Nước hoa",
           "1": "Valentino"
         }
       },
       "3d-perfume-animation-p3": {
-        "title": "Soul of Amir 3D Animation",
-        "description": "Soul of Amir 3D fragrance animation with cinematic camera work and campaign ready polish.",
+        "title": "Linh hồn của Amir Hoạt hình 3D",
+        "description": "Hoạt hình hương thơm Soul of Amir 3D với công việc quay phim điện ảnh và chiến dịch đã sẵn sàng đánh bóng.",
         "tags": {
-          "0": "Perfume",
-          "1": "Soul of Amir"
+          "0": "Nước hoa",
+          "1": "Linh hồn của Amir"
         }
       },
       "3d-gadget-animation-p1": {
-        "title": "Shoks Earbud Animation",
-        "description": "Cinematic 3D Shoks earbud product animation with refined materials and commercial finish.",
+        "title": "Hoạt hình tai nghe Shoks",
+        "description": "Hoạt hình sản phẩm tai nghe Cinematic 3D Shoks với chất liệu tinh tế và hoàn thiện thương mại.",
         "tags": {
-          "0": "Earbud",
-          "1": "Gadget"
+          "0": "Tai nghe",
+          "1": "Tiện ích"
         }
       },
       "3d-gadget-animation-p2": {
-        "title": "Headphone Earbud Product Film",
-        "description": "3D headphone and earbud product animation with dynamic camera moves and premium packshot presentation.",
+        "title": "Phim sản phẩm tai nghe Earbud",
+        "description": "Hoạt hình sản phẩm tai nghe và tai nghe 3D với các chuyển động của camera động và cách trình bày ảnh chụp gói cao cấp.",
         "tags": {
-          "0": "Headphone",
-          "1": "Product"
+          "0": "Tai nghe",
+          "1": "Sản phẩm"
         }
       },
       "vape-animation-p1": {
         "title": "Jojo Vape",
-        "description": "Cinematic 3D Jojo vape product animation with refined materials and commercial finish.",
+        "description": "Hoạt hình sản phẩm vape Jojo 3D mang tính điện ảnh với chất liệu tinh tế và hoàn thiện thương mại.",
         "tags": {
           "0": "Vape",
           "1": "Jojo"
         }
       },
       "vape-animation-p2": {
-        "title": "Juicy Cranberry Vape",
-        "description": "Juicy cranberry vape product film with vibrant color, lighting, and campaign ready presentation.",
+        "title": "Vape Cranberry ngon ngọt",
+        "description": "Phim sản phẩm vape nam việt quất ngon ngọt với màu sắc rực rỡ, ánh sáng và bản trình bày sẵn sàng cho chiến dịch.",
         "tags": {
           "0": "Vape",
-          "1": "Cranberry"
+          "1": "nam việt quất"
         }
       },
       "bag-suitcase-animation-p1": {
-        "title": "Realistic 3D Product Animation for Bags",
-        "description": "Photoreal 3D bag and suitcase product animation with premium materials and commercial presentation.",
+        "title": "Hoạt hình sản phẩm 3D thực tế cho túi xách",
+        "description": "Hoạt hình sản phẩm vali và túi xách Photoreal 3D với chất liệu cao cấp và cách trình bày thương mại.",
         "tags": {
-          "0": "Bag",
-          "1": "Suitcase"
+          "0": "Cái túi",
+          "1": "Va li"
         }
       },
       "drop-band-animation-p1": {
-        "title": "Drop Band Animation Process",
-        "description": "Behind the scenes Drop Band animation process from reference through final motion.",
+        "title": "Quá trình hoạt hình thả băng",
+        "description": "Hậu trường quá trình hoạt hình Drop Band từ tham chiếu đến chuyển động cuối cùng.",
         "tags": {
-          "0": "Process",
-          "1": "Drop Band"
+          "0": "Quá trình",
+          "1": "Thả ban nhạc"
         }
       },
       "drop-band-animation-p2": {
-        "title": "Drop Band Animation Result",
-        "description": "Final Drop Band product animation with refined materials, lighting, and campaign ready finish.",
+        "title": "Kết quả hoạt ảnh Drop Band",
+        "description": "Hoạt hình sản phẩm Final Drop Band với vật liệu tinh tế, ánh sáng và kết thúc sẵn sàng cho chiến dịch.",
         "tags": {
-          "0": "Product",
-          "1": "Drop Band"
+          "0": "Sản phẩm",
+          "1": "Thả ban nhạc"
         }
       },
       "3d-bed-animation-p1": {
-        "title": "Realistic 3D Mattress Animation",
-        "description": "Realistic 3D mattress product animation with soft materials, lighting, and campaign ready presentation.",
+        "title": "Hoạt hình nệm 3D thực tế",
+        "description": "Hoạt hình sản phẩm nệm 3D chân thực với chất liệu mềm, ánh sáng và cách trình bày sẵn sàng cho chiến dịch.",
         "tags": {
-          "0": "Mattress",
-          "1": "Product"
+          "0": "Nệm",
+          "1": "Sản phẩm"
         }
       },
       "3d-bed-animation-p2": {
-        "title": "Simba Bed Animation",
-        "description": "Simba bed animation with cinematic camera work, material detail, and commercial finish.",
+        "title": "Hoạt hình giường Simba",
+        "description": "Hoạt hình giường Simba với tác phẩm máy ảnh điện ảnh, chi tiết vật liệu và hoàn thiện thương mại.",
         "tags": {
-          "0": "Bed",
+          "0": "Giường",
           "1": "Simba"
         }
       },
       "ronix-p1": {
-        "title": "Ronix 3D Industrial Animation | Power Tool CGI Product Showcase",
-        "description": "Cinematic Ronix power tool CGI showcase with technical detail and commercial polish.",
+        "title": "Hoạt hình công nghiệp Ronix 3D | Giới thiệu sản phẩm CGI của Power Tool",
+        "description": "Màn trình diễn CGI của công cụ điện ảnh Ronix với các chi tiết kỹ thuật và sự đánh bóng thương mại.",
         "tags": {
-          "0": "Industrial",
+          "0": "Công nghiệp",
           "1": "Ronix"
         }
       },
       "mintec-p1": {
-        "title": "MinTec Industries Product Showcase",
-        "description": "MinTec industries product showcase with technical storytelling and polished CGI.",
+        "title": "Giới thiệu sản phẩm của MinTec Industries",
+        "description": "Giới thiệu sản phẩm của ngành MinTec với cách kể chuyện mang tính kỹ thuật và CGI bóng bẩy.",
         "tags": {
-          "0": "Industrial",
+          "0": "Công nghiệp",
           "1": "MinTec"
         }
       },
       "mintec-p2": {
-        "title": "Process of Making MinTec 3D Animation",
-        "description": "Behind the scenes look at the MinTec 3D industrial animation production workflow.",
+        "title": "Quy trình làm hoạt hình 3D MinTec",
+        "description": "Hậu trường xem quy trình sản xuất hoạt hình công nghiệp MinTec 3D.",
         "tags": {
-          "0": "Process",
+          "0": "Quá trình",
           "1": "MinTec"
         }
       },
       "integra-pw-p1": {
-        "title": "Integra PW Video Making Process",
-        "description": "Behind the scenes making process for the Integra PW industrial animation build.",
+        "title": "Quá trình tạo video tích hợp PW",
+        "description": "Hậu trường quá trình xây dựng hoạt hình công nghiệp Integra PW.",
         "tags": {
-          "0": "Process",
-          "1": "Integra PW"
+          "0": "Quá trình",
+          "1": "Tích hợp PW"
         }
       },
       "integra-pw-p2": {
-        "title": "Integra PW Final Results",
-        "description": "Final Integra PW industrial product animation with dynamic camera moves and commercial finish.",
+        "title": "Kết quả cuối cùng của Integra PW",
+        "description": "Hoạt hình sản phẩm công nghiệp Integra PW cuối cùng với chuyển động của camera động và kết thúc thương mại.",
         "tags": {
-          "0": "Industrial",
-          "1": "Integra PW"
+          "0": "Công nghiệp",
+          "1": "Tích hợp PW"
         }
       },
       "credex-p1": {
-        "title": "Credex Vacuum Cleaner with SFX",
-        "description": "Final high definition CREDEX vacuum cleaner animation with sound design and commercial polish.",
+        "title": "Máy hút bụi Credex với SFX",
+        "description": "Hoạt hình máy hút bụi CREDEX độ nét cao cuối cùng với thiết kế âm thanh và đánh bóng thương mại.",
         "tags": {
-          "0": "Industrial",
-          "1": "Credex"
+          "0": "Công nghiệp",
+          "1": "Tín dụng"
         }
       },
       "phr-1-p1": {
-        "title": "PHR 1 Electric Power Train",
-        "description": "Photoreal PHR 1 electric power train animation with cinematic camera work and technical detail.",
+        "title": "Tàu điện PHR 1",
+        "description": "Hoạt hình tàu điện Photoreal PHR 1 với tác phẩm máy ảnh điện ảnh và chi tiết kỹ thuật.",
         "tags": {
-          "0": "Industrial",
+          "0": "Công nghiệp",
           "1": "PHR 1"
         }
       },
       "atx-p1": {
-        "title": "ATX 3D Industrial Animation",
-        "description": "ATX 3D industrial product animation with technical lighting and campaign ready finish.",
+        "title": "Hoạt hình công nghiệp 3D ATX",
+        "description": "Hoạt hình sản phẩm công nghiệp ATX 3D với ánh sáng kỹ thuật và kết thúc sẵn sàng cho chiến dịch.",
         "tags": {
-          "0": "Industrial",
+          "0": "Công nghiệp",
           "1": "ATX"
         }
       },
       "prov-gap-p1": {
-        "title": "Prov GAP 3D Industrial Animation",
-        "description": "Prov GAP industrial product animation with mechanical detail and cinematic presentation.",
+        "title": "Hoạt hình công nghiệp Prov GAP 3D",
+        "description": "Hoạt hình sản phẩm công nghiệp Prov GAP với chi tiết cơ khí và trình bày mang tính điện ảnh.",
         "tags": {
-          "0": "Industrial",
-          "1": "Prov GAP"
+          "0": "Công nghiệp",
+          "1": "GAP chứng minh"
         }
       },
       "autoz-crave-p1": {
-        "title": "Autoz Crave Industrial Animation",
-        "description": "Autoz Crave 3D industrial product video with mechanical technical animation and commercial polish.",
+        "title": "Hoạt hình công nghiệp Autoz Crave",
+        "description": "Video sản phẩm công nghiệp Autoz Crave 3D với hoạt hình kỹ thuật cơ khí và đánh bóng thương mại.",
         "tags": {
-          "0": "Industrial",
-          "1": "Autoz Crave"
+          "0": "Công nghiệp",
+          "1": "Autoz thèm"
         }
       }
     }
@@ -1380,7 +1380,7 @@
         "items": {
           "01": {
             "question": "Bạn nhận những loại dự án nào?",
-            "answer": "We produce animation, VFX, cinematics, motion graphics, product films, and brand films for film, series, advertising, and DTC brands. Briefs range from single hero assets to full campaign packages."
+            "answer": "Chúng tôi sản xuất hoạt hình, VFX, điện ảnh, đồ họa chuyển động, phim sản phẩm và phim thương hiệu cho các thương hiệu phim, loạt phim, quảng cáo và DTC. Tóm tắt bao gồm từ nội dung anh hùng đơn lẻ đến gói chiến dịch đầy đủ."
           },
           "02": {
             "question": "Starlights Visuals đặt trụ sở ở đâu?",
@@ -1397,15 +1397,15 @@
         "items": {
           "01": {
             "question": "Bạn cung cấp những dịch vụ nào?",
-            "answer": "Our core services include 2D and 3D animation, VFX, character and concept art, motion graphics, product animation, and cinematic trailers. We can handle individual disciplines or full pipeline production."
+            "answer": "Các dịch vụ cốt lõi của chúng tôi bao gồm hoạt hình 2D và 3D, VFX, nghệ thuật nhân vật và ý tưởng, đồ họa chuyển động, hoạt hình sản phẩm và đoạn giới thiệu điện ảnh. Chúng tôi có thể xử lý các nguyên tắc riêng lẻ hoặc sản xuất đường ống đầy đủ."
           },
           "02": {
             "question": "Bạn có làm việc với cả đội indie và studio lớn không?",
-            "answer": "Yes. We partner with indie creators, mid size studios, and global brands. Scope and team size flex to match your budget and timeline without compromising craft."
+            "answer": "Đúng. Chúng tôi hợp tác với những người sáng tạo độc lập, studio cỡ trung và các thương hiệu toàn cầu. Phạm vi và quy mô nhóm linh hoạt để phù hợp với ngân sách và dòng thời gian của bạn mà không ảnh hưởng đến kỹ năng."
           },
           "03": {
             "question": "Bạn có thể bám theo phong cách mỹ thuật hiện có của chúng tôi không?",
-            "answer": "Absolutely. We start with style frames and a look development pass aligned to your brand guidelines or visual world before committing to full production."
+            "answer": "Tuyệt đối. Chúng tôi bắt đầu với các khung kiểu và quá trình phát triển giao diện phù hợp với nguyên tắc thương hiệu hoặc thế giới hình ảnh của bạn trước khi bắt tay vào sản xuất hoàn chỉnh."
           }
         }
       },
@@ -1432,26 +1432,28 @@
     "ctaButton": "Liên hệ chúng tôi"
   },
   "writeReviewPage": {
-    "label": "Client reviews",
-    "title": "WRITE YOURS",
-    "subtitle": "Worked with Starlights Visuals? Share your experience so other brands can see the results.",
-    "name": "Your name",
-    "email": "Email",
-    "emailOptional": "Optional, not shown publicly",
-    "role": "Your role",
-    "company": "Company",
-    "rating": "Rating",
-    "headline": "Headline",
-    "headlinePlaceholder": "A short line that captures your experience",
-    "quote": "Your review",
-    "quotePlaceholder": "Tell us about the collaboration, communication, quality, and results…",
-    "submit": "Submit review",
-    "submitting": "Submitting…",
-    "successTitle": "Thank you",
-    "successDesc": "Your review was received. It will appear on the site after a quick approval check.",
-    "backHome": "Back to home",
-    "errorConfig": "Review submissions are temporarily unavailable. Please try again later.",
-    "errorQuoteShort": "Please write at least 20 characters in your review.",
-    "errorGeneric": "Something went wrong while sending your review. Please try again."
+    "label": "Đánh giá của khách hàng",
+    "title": "VIẾT CỦA BẠN",
+    "subtitle": "Đã làm việc với Starlights Visuals? Chia sẻ kinh nghiệm của bạn để các thương hiệu khác có thể thấy được kết quả.",
+    "name": "Tên của bạn",
+    "email": "E-mail",
+    "emailOptional": "Tùy chọn, không được hiển thị công khai",
+    "role": "Vai trò của bạn",
+    "company": "Công ty",
+    "rating": "Đánh giá",
+    "headline": "Tiêu đề",
+    "headlinePlaceholder": "Một dòng ngắn ghi lại trải nghiệm của bạn",
+    "quote": "Đánh giá của bạn",
+    "quotePlaceholder": "Hãy cho chúng tôi biết về sự hợp tác, giao tiếp, chất lượng và kết quả…",
+    "submit": "Gửi đánh giá",
+    "submitting": "Đang gửi…",
+    "successTitle": "Cảm ơn",
+    "successDesc": "Đánh giá của bạn đã được nhận. Nó sẽ xuất hiện trên trang web sau khi kiểm tra phê duyệt nhanh chóng.",
+    "backHome": "Trở về nhà",
+    "errorConfig": "Đánh giá gửi tạm thời không có sẵn. Vui lòng thử lại sau.",
+    "errorQuoteShort": "Vui lòng viết ít nhất 20 ký tự trong bài đánh giá của bạn.",
+    "errorGeneric": "Đã xảy ra lỗi khi gửi đánh giá của bạn. Vui lòng thử lại.",
+    "metaTitle": "Viết đánh giá | Hình ảnh ánh sao",
+    "metaDescription": "Chia sẻ kinh nghiệm của bạn khi làm việc với Starlights Visuals. Viết đánh giá của khách hàng cho lời chứng thực của chúng tôi."
   }
 }

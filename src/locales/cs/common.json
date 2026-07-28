@@ -1,9 +1,9 @@
 {
   "brand": {
     "name": "Starlights Visuals",
-    "star": "STAR",
-    "lights": "LIGHTS",
-    "visuals": "VISUALS",
+    "star": "HVĚZDA",
+    "lights": "SVĚTLA",
+    "visuals": "VIZUÁLY",
     "email": "sternlichtespeciale@gmail.com"
   },
   "nav": {
@@ -16,15 +16,15 @@
     "contact": "Kontakt",
     "portfolioCta": "Portfolio →",
     "faq": "FAQ",
-    "writeReview": "Write a review"
+    "writeReview": "Napište recenzi"
   },
   "header": {
     "closeMenu": "Zavřít menu",
     "openMenu": "Otevřít menu",
     "closeSidebar": "Zavřít postranní panel",
     "openSidebar": "Otevřít postranní panel",
-    "switchToLight": "Switch to light mode",
-    "switchToDark": "Switch to dark mode"
+    "switchToLight": "Přepněte do světelného režimu",
+    "switchToDark": "Přepněte do tmavého režimu"
   },
   "languageSwitcher": {
     "label": "Jazyk",
@@ -45,65 +45,65 @@
     "emailPlaceholder": "your@email.com",
     "join": "Připojit se",
     "subscribed": "✦ Jste u nás. Vítejte ve Starlights.",
-    "tagline": "A creative studio bringing imagination to life through cinematic 2D animation, high quality 3D experiences, and VFX.",
+    "tagline": "Kreativní studio oživující představivost prostřednictvím filmové 2D animace, vysoce kvalitních 3D zážitků a VFX.",
     "explore": "Prozkoumat",
     "follow": "Sledovat",
     "social": "Odkaz na sociální sítě",
     "copyright": "© {{year}} Starlights Visuals. Vytvořeno se světlem a kódem.",
-    "joining": "Joining…",
-    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
+    "joining": "Připojování…",
+    "subscribeError": "Momentálně se nelze přihlásit. Zkuste to znovu nebo nám napište přímo."
   },
   "home": {
-    "metaTitle": "Starlights Visuals | Animation & VFX Studio",
-    "metaDescription": "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
-    "heroScript": "Stories in motion,",
-    "heroTitle1": "ANIMATION",
-    "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals brings stories to life with animation and visual effects that captivate audiences and elevate every frame. We animate fantasy creatures, human characters, vehicles, environments, props, and hard surface objects for film, series, advertising, and brand campaigns.",
-    "heroAlt": "Starlights Visuals cinematic hero",
-    "seePortfolio": "See Portfolio",
-    "startProject": "Start a Project",
-    "servicesLabel": "What we do",
-    "servicesTitle": "SERVICES",
-    "allServices": "All Services",
-    "showcaseLabel": "Recent work",
-    "showcaseTitle1": "SELECTED",
-    "showcaseTitle2": "WORK",
-    "fullPortfolio": "Full Portfolio",
-    "viewAllFaq": "View all FAQ",
-    "ctaScript": "Let's build something,",
-    "ctaTitle1": "READY TO",
-    "ctaTitle2": "COLLABORATE?",
+    "metaTitle": "Vizuály Starlights | Studio animace a VFX",
+    "metaDescription": "Kreativní studio pro 2D a 3D animaci, VFX a filmové vyprávění příběhů. Oživujeme světy, postavy a filmy.",
+    "heroScript": "Příběhy v pohybu —",
+    "heroTitle1": "ANIMACE",
+    "heroTitle2": "A VFX",
+    "heroBody": "Starlights Visuals oživuje příběhy animací a vizuálními efekty, které zaujmou publikum a pozvednou každý snímek. Animujeme fantasy bytosti, lidské postavy, vozidla, prostředí, rekvizity a hard-surface objekty — pro film, seriály, reklamu a brandové kampaně.",
+    "heroAlt": "Filmový hrdina Starlights Visuals",
+    "seePortfolio": "Viz Portfolio",
+    "startProject": "Spusťte projekt",
+    "servicesLabel": "Co děláme",
+    "servicesTitle": "SLUŽBY",
+    "allServices": "Všechny služby",
+    "showcaseLabel": "Nedávná práce",
+    "showcaseTitle1": "VYBRANÝ",
+    "showcaseTitle2": "PRÁCE",
+    "fullPortfolio": "Kompletní portfolio",
+    "viewAllFaq": "Zobrazit všechny časté dotazy",
+    "ctaScript": "Pojďme něco postavit,",
+    "ctaTitle1": "PŘIPRAVEN K",
+    "ctaTitle2": "SPOLUPRACOVAT?",
     "services": {
       "01": {
-        "title": "Animation & VFX",
-        "desc": "Cinematic 2D & 3D animation, character rigs, and visual effects for film, series, and brands."
+        "title": "Animace a VFX",
+        "desc": "Filmová 2D a 3D animace, vybavení postav a vizuální efekty pro filmy, seriály a značky."
       },
       "02": {
-        "title": "Product Animation",
-        "desc": "Photoreal product films, packshots, and CGI that make every detail sell."
+        "title": "Animace produktu",
+        "desc": "Fotorealistické produktové filmy, packshoty a CGI, díky nimž se prodává každý detail."
       },
       "03": {
         "title": "Concept & Character Art",
-        "desc": "Original characters, creatures, environments, and props that anchor your IP."
+        "desc": "Originální postavy, stvoření, prostředí a rekvizity, které ukotví vaši IP."
       },
       "04": {
-        "title": "Cinematic Trailers",
-        "desc": "Story driven trailers built to launch brands, IPs, and campaigns."
+        "title": "Filmové upoutávky",
+        "desc": "Příběhové upoutávky vytvořené pro spuštění značek, IP adres a kampaní."
       }
     },
     "showcase": {
       "character": {
-        "tag": "3D Animation",
-        "title": "3D Animation"
+        "tag": "3D animace",
+        "title": "3D animace"
       },
       "gameArt": {
-        "tag": "Motion Graphics",
-        "title": "Motion Graphics"
+        "tag": "Pohyblivá grafika",
+        "title": "Pohyblivá grafika"
       },
       "animation2d": {
-        "tag": "2D Animation",
-        "title": "2D Animation"
+        "tag": "2D animace",
+        "title": "2D animace"
       },
       "cinematic": {
         "tag": "VFX",
@@ -111,16 +111,16 @@
       },
       "creature": {
         "tag": "3D",
-        "title": "Industrial Animation"
+        "title": "Průmyslová animace"
       },
       "motion": {
         "tag": "3D",
-        "title": "Product Animation"
+        "title": "Animace produktu"
       }
     }
   },
   "trustedBy": {
-    "badge": "200+ COMPANY",
+    "badge": "200+ SPOLEČNOST",
     "trusted": "Důvěřují",
     "by": "nám"
   },
@@ -139,143 +139,143 @@
     "playAria": "Přehrát videoreferenci od {{name}}",
     "items": {
       "hauke": {
-        "headline": "Efficient, reliable, and highly recommended",
-        "quote": "Starlight Visuals supported us in creating a CGI video for SmarAct Automation, with the goal of presenting our core competencies in a clear, professional, and visually engaging way. The collaboration was highly efficient and reliable from start to finish. We especially appreciated the fast response times, quick turnaround, strong communication, and dependable delivery of the final files. Our requirements were understood quickly and implemented professionally. We are very satisfied with the result and can confidently recommend Starlight Visuals for high-quality CGI and visual content projects.",
-        "role": "Digital Marketing & Content Manager"
+        "headline": "Efektivní, spolehlivý a vysoce doporučený",
+        "quote": "Společnost Starlight Visuals nás podpořila při vytváření CGI videa pro SmarAct Automation s cílem prezentovat naše základní kompetence jasným, profesionálním a vizuálně poutavým způsobem. Spolupráce byla od začátku do konce vysoce efektivní a spolehlivá. Ocenili jsme zejména rychlou odezvu, rychlé vyřízení, silnou komunikaci a spolehlivé doručení finálních souborů. Naše požadavky byly rychle pochopeny a profesionálně realizovány. S výsledkem jsme velmi spokojeni a můžeme s jistotou doporučit Starlight Visuals pro vysoce kvalitní projekty CGI a vizuálního obsahu.",
+        "role": "Digitální marketing a manažer obsahu"
       },
       "jeremy": {
-        "headline": "From sketches to a finished helmet film",
-        "quote": "Working with Starlight Visuals was a great experience from start to finish. They didn't just create an animation they were involved throughout the entire process, from refining our initial sketches to supporting the CAD development and delivering a final helmet animation that brought our concept to life. What stood out most was how quickly they understood the product and translated technical details into visuals that were both accurate and engaging. The final presentation video gave us a professional way to showcase our helmet design to partners and stakeholders. They were responsive, easy to collaborate with, and genuinely cared about getting every detail right. I'd gladly recommend them to anyone looking for high-quality product animation and visualization.",
-        "role": "Founder"
+        "headline": "Od skic až po hotový film na helmu",
+        "quote": "Práce se Starlight Visuals byla skvělá zkušenost od začátku do konce. Nevytvářeli pouze animaci, ale podíleli se na celém procesu, od vylepšování našich počátečních náčrtů až po podporu vývoje CAD a dodání finální animace přilby, která přivedla náš koncept k životu. Nejvýraznější bylo, jak rychle pochopili produkt a převedli technické detaily do vizuálů, které byly přesné a poutavé. Závěrečné prezentační video nám poskytlo profesionální způsob, jak předvést design naší přilby partnerům a zúčastněným stranám. Byli pohotoví, snadno se s nimi spolupracovalo a skutečně jim záleželo na tom, aby byly všechny detaily správné. Rád bych je doporučil každému, kdo hledá vysoce kvalitní animaci a vizualizaci produktu.",
+        "role": "Zakladatel"
       },
       "raiv": {
-        "headline": "They genuinely cared about every character",
-        "quote": "I really enjoyed working with the team. It felt like they genuinely cared about the project and wanted the characters to look and feel right. Communication was always easy, they were open to feedback, and every revision was handled without any hassle. Seeing our NSFW characters come to life was exciting.",
-        "role": "Game Director"
+        "headline": "Opravdu se starali o každou postavu",
+        "quote": "Práce s týmem mě opravdu bavila. Vypadalo to, jako by jim na projektu skutečně záleželo a chtěli, aby postavy vypadaly a cítily se správně. Komunikace byla vždy snadná, byli otevření zpětné vazbě a každá revize proběhla bez jakýchkoli potíží. Bylo vzrušující vidět, jak naše postavy NSFW ožívají.",
+        "role": "Herní ředitel"
       },
       "ilija": {
-        "headline": "Clear visuals for electric vehicle technology",
-        "quote": "They helped shape our PHR concept creatively and deliver amazing video making sure the visuals clearly communicate how our electric vehicle technology works. Their attention to detail, creativity, and willingness to iterate made the entire process smooth. The final animation gave us a much clearer way to present our product to partners and stakeholders.",
-        "role": "Founder"
+        "headline": "Jasné vizuální prvky pro technologii elektrických vozidel",
+        "quote": "Pomohli kreativně utvářet náš koncept PHR a poskytnout úžasné video, které zajišťuje, že vizuály jasně vyjadřují, jak naše technologie elektrických vozidel funguje. Jejich smysl pro detail, kreativita a ochota opakovat celý proces zajistily hladkým. Závěrečná animace nám poskytla mnohem jasnější způsob, jak představit náš produkt partnerům a zainteresovaným stranám.",
+        "role": "Zakladatel"
       },
       "luigi": {
-        "headline": "Exactly what we needed for M12 and B12",
-        "quote": "We needed a clear way to show the differences between our M12 and B12 products, and Starlight Visuals delivered exactly what we were looking for. The animations were high quality, easy to understand, and captured every important detail.",
-        "role": "Production Manager"
+        "headline": "Přesně to, co jsme potřebovali pro M12 a B12",
+        "quote": "Potřebovali jsme jasný způsob, jak ukázat rozdíly mezi našimi produkty M12 a B12, a Starlight Visuals poskytl přesně to, co jsme hledali. Animace byly kvalitní, srozumitelné a zachycovaly každý důležitý detail.",
+        "role": "vedoucí výroby"
       },
       "jason": {
-        "headline": "Outstanding quality beyond what we imagined",
-        "quote": "The quality of the animation was outstanding. Starlight Visuals helped us present our product in a way that was clear, engaging, and memorable. The final presentation looked far better than we had imagined.",
+        "headline": "Vynikající kvalita nad rámec našich představ",
+        "quote": "Kvalita animace byla vynikající. Starlight Visuals nám pomohl prezentovat náš produkt způsobem, který byl jasný, poutavý a zapamatovatelný. Finální prezentace vypadala mnohem lépe, než jsme si představovali.",
         "role": "CEO"
       },
       "burkhard": {
-        "headline": "Made a complex product easy to explain",
-        "quote": "We knew our product was strong, but explaining it clearly to customers was always the challenge. The team at Starlight Visuals took the time to understand how everything works and turned it into an animation that made the message much easier to communicate. It looks professional, keeps people's attention, and helps us present the product with much more confidence. The whole process was straightforward, and they were easy to work with. We're very happy with the result.",
-        "role": "Head of Sales"
+        "headline": "Vytvořil složitý produkt snadno vysvětlitelný",
+        "quote": "Věděli jsme, že náš produkt je silný, ale vysvětlit to jasně zákazníkům bylo vždy výzvou. Tým ve Starlight Visuals si udělal čas, aby pochopil, jak všechno funguje, a převedl to do animace, díky které se sdělení mnohem snáze sděluje. Vypadá to profesionálně, udržuje pozornost lidí a pomáhá nám prezentovat produkt s mnohem větší jistotou. Celý proces byl přímočarý a snadno se s nimi pracovalo. S výsledkem jsme velmi spokojeni.",
+        "role": "Vedoucí prodeje"
       },
       "robert": {
-        "headline": "Premium watch films beyond what we imagined",
-        "quote": "There was a clear vision for how we wanted our watches to be presented, but Starlight Visuals took it beyond what we imagined. They didn't just animate our product they captured the details, precision, and premium quality that define our brand. The final presentation gave our collection a level of sophistication that instantly elevated how customers perceived it. The entire process was smooth, collaborative, and professionally handled from start to finish.",
-        "role": "Founder"
+        "headline": "Prémiové sledování filmů nad rámec našich představ",
+        "quote": "Existovala jasná vize, jak chceme, aby byly naše hodinky prezentovány, ale Starlight Visuals to posunulo nad rámec našich představ. Nejenže náš produkt animovali, ale zachytili detaily, přesnost a prvotřídní kvalitu, které definují naši značku. Konečná prezentace dodala naší kolekci takovou úroveň sofistikovanosti, která okamžitě zvýšila to, jak ji zákazníci vnímali. Celý proces byl od začátku do konce hladký, na spolupráci a profesionálně zvládnutý.",
+        "role": "Zakladatel"
       }
     },
     "videoRoles": {
       "ceo": "CEO",
-      "artDirector": "Art Director",
+      "artDirector": "umělecký ředitel",
       "founder": "Zakladatel",
-      "headProduction": "Head of Production",
+      "headProduction": "Vedoucí výroby",
       "vpMarketing": "VP Marketing",
       "coFounder": "Spoluzakladatel"
     },
-    "seeMore": "See more",
-    "seeLess": "See less",
-    "writeYours": "Write yours",
-    "tapToRead": "Tap to read full review"
+    "seeMore": "Zobrazit více",
+    "seeLess": "Viz méně",
+    "writeYours": "Napište svůj",
+    "tapToRead": "Klepnutím si přečtete celou recenzi"
   },
   "servicesPage": {
-    "metaTitle": "Services | Starlights Visuals",
-    "metaDescription": "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
-    "label": "What We Build",
-    "title": "SERVICES",
-    "subtitle": "One studio, every stage of production, from first sketch to final pixel.",
-    "ctaTitle1": "HAVE A",
-    "ctaTitle2": "PROJECT",
-    "ctaTitle3": "IN MIND?",
-    "ctaDesc": "Tell us your vision, we'll bring the firepower.",
-    "ctaButton": "Get In Touch",
+    "metaTitle": "Služby | Vizuály Starlights",
+    "metaDescription": "2D animace, 3D animace, design postav, pohyblivá grafika, VFX, produktová animace a filmové upoutávky.",
+    "label": "Co stavíme",
+    "title": "SLUŽBY",
+    "subtitle": "Jedno studio, každá fáze výroby, od prvního náčrtu až po finální pixel.",
+    "ctaTitle1": "MÍT A",
+    "ctaTitle2": "PROJEKT",
+    "ctaTitle3": "V MYSLI?",
+    "ctaDesc": "Řekněte nám svou vizi, přineseme palebnou sílu.",
+    "ctaButton": "Kontaktujte nás",
     "items": {
       "2d": {
-        "title": "2D Animation",
-        "desc": "Frame by frame & rigged 2D for series, shorts, explainers, and brand films. We blend classic craft with digital pipelines."
+        "title": "2D animace",
+        "desc": "Snímek po snímku a zmanipulované 2D pro seriály, krátké filmy, vysvětlující a značkové filmy. Spojujeme klasické řemeslo s digitálním potrubím."
       },
       "3d": {
-        "title": "3D Animation",
-        "desc": "Stylized and photoreal 3D, characters, environments, and full cinematic sequences with feature quality polish."
+        "title": "3D animace",
+        "desc": "Stylizované a fotorealistické 3D, postavy, prostředí a plné filmové sekvence s kvalitním leskem."
       },
       "character": {
-        "title": "Character Design",
-        "desc": "Original characters, creatures, and concept art that anchor your IP and merch potential."
+        "title": "Design postav",
+        "desc": "Originální postavy, stvoření a konceptuální umění, které ukotví vaši IP a potenciál zboží."
       },
       "motion": {
-        "title": "Motion Graphics",
-        "desc": "Branded motion, UI animation, broadcast packages, and explainer videos with cinematic polish."
+        "title": "Pohyblivá grafika",
+        "desc": "Značkový pohyb, animace uživatelského rozhraní, vysílané balíčky a vysvětlující videa s filmovým leskem."
       },
       "vfx": {
-        "title": "Visual Effects (VFX)",
-        "desc": "Compositing, particle FX, and CG integration for film, advertising, and digital campaigns."
+        "title": "Vizuální efekty (VFX)",
+        "desc": "Skládání, částicové FX a integrace CG pro film, reklamu a digitální kampaně."
       },
       "trailer": {
-        "title": "Cinematic Trailers",
-        "desc": "Story driven trailers built to launch brands, IPs, and campaigns with maximum impact."
+        "title": "Filmové upoutávky",
+        "desc": "Upoutávky založené na příběhu vytvořené pro uvedení značek, IP adres a kampaní s maximálním dopadem."
       }
     }
   },
   "aboutPage": {
-    "metaTitle": "About | Starlights Visuals",
-    "metaDescription": "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, game animation, product visualization, and 2D & 3D character animation.",
-    "label": "Who We Are",
-    "title1": "A STUDIO BUILT ON",
-    "title2": "LIGHT, CODE & STORY",
-    "p1": "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, game animation, product visualization, and 2D & 3D character animation. We combine artistic excellence with cutting-edge technology to transform ideas into visuals that captivate, educate, and inspire. From engineering-driven industrial animations and photorealistic product renders to stylized cartoons, expressive character performances, and cinematic game sequences, we create animation that delivers both visual impact and meaningful results.",
-    "p2": "Whether showcasing a product's innovation, bringing a game universe to life, or crafting memorable animated characters, every frame is designed with purpose and precision. Our multidisciplinary team of animators, technical artists, modelers, riggers, motion designers, and visual storytellers collaborates seamlessly to produce work that meets the highest creative and technical standards. We believe great animation does more than look beautiful, it communicates complex ideas, strengthens brands, and creates lasting emotional connections.",
-    "p3": "We partner with manufacturers, product companies, game developers, creative agencies, and global brands to deliver premium animation for marketing, product launches, training, entertainment, advertising, and digital experiences. Every project is driven by innovation, craftsmanship, and an uncompromising commitment to quality. At Starlight Visuals, we don't simply animate, we engineer experiences, build unforgettable characters, and create visuals that move people and businesses forward.",
-    "valuesLabel": "Core Values",
-    "valuesTitle": "WHAT DRIVES US",
+    "metaTitle": "O | Vizuály Starlights",
+    "metaDescription": "Starlight Visuals je animační studio světové třídy, které vytváří výjimečné vizuální zážitky napříč průmyslovými produktovými animacemi, herními animacemi, produktovými vizualizacemi a 2D a 3D animací postav.",
+    "label": "Kdo jsme",
+    "title1": "STUDIO VESTAVENÉ NA",
+    "title2": "SVĚTLO, KÓD A PŘÍBĚH",
+    "p1": "Starlight Visuals je animační studio světové třídy, které vytváří výjimečné vizuální zážitky napříč průmyslovými produktovými animacemi, herními animacemi, produktovými vizualizacemi a 2D a 3D animací postav. Spojujeme uměleckou dokonalost se špičkovou technologií, abychom transformovali nápady do vizuálů, které zaujmou, vzdělávají a inspirují. Od inženýrsky řízených průmyslových animací a fotorealistických renderů produktů až po stylizované kreslené filmy, expresivní výkony postav a filmové herní sekvence, vytváříme animace, které poskytují jak vizuální dopad, tak smysluplné výsledky.",
+    "p2": "Ať už představujete inovaci produktu, oživujete herní vesmír nebo vytváříte nezapomenutelné animované postavy, každý snímek je navržen s účelem a přesností. Náš multidisciplinární tým animátorů, technických umělců, modelářů, riggerů, návrhářů pohybu a vizuálních vypravěčů bezproblémově spolupracuje na vytvoření díla, které splňuje ty nejvyšší kreativní a technické standardy. Věříme, že skvělá animace dokáže víc než jen vypadat krásně, komunikuje složité myšlenky, posiluje značky a vytváří trvalé emocionální vazby.",
+    "p3": "Spolupracujeme s výrobci, produktovými společnostmi, herními vývojáři, kreativními agenturami a globálními značkami, abychom dodávali prvotřídní animace pro marketing, uvádění produktů na trh, školení, zábavu, reklamu a digitální zážitky. Každý projekt je poháněn inovací, řemeslnou zručností a nekompromisním závazkem ke kvalitě. Ve Starlight Visuals nejenomujeme, ale vytváříme zážitky, stavíme nezapomenutelné postavy a vytváříme vizuály, které posouvají lidi a podniky kupředu.",
+    "valuesLabel": "Základní hodnoty",
+    "valuesTitle": "CO NÁS POHYBUJE",
     "values": {
       "imagination": {
-        "title": "Imagination First",
-        "desc": "Every project starts with a bold idea and a blank canvas."
+        "title": "Představivost na prvním místě",
+        "desc": "Každý projekt začíná odvážným nápadem a prázdným plátnem."
       },
       "craft": {
-        "title": "Craft Obsessed",
-        "desc": "Frame by frame, pixel by pixel, quality is non negotiable."
+        "title": "Posedlý řemeslem",
+        "desc": "Snímek po snímku, pixel po pixelu, kvalita je nesmlouvavá."
       },
       "energy": {
-        "title": "Cinematic Energy",
-        "desc": "We chase the goosebumps. If it doesn't move us, we refine."
+        "title": "Filmová energie",
+        "desc": "Honíme husí kůži. Pokud nás to nehýbe, zušlechťujeme."
       },
       "story": {
-        "title": "Story Driven",
-        "desc": "Tech serves story. Always."
+        "title": "Příběh řízený",
+        "desc": "Tech slouží příběh. Vždy."
       }
     },
     "stats": {
-      "projects": "Projects Shipped",
-      "clients": "Global Clients",
-      "awards": "Awards Won",
-      "years": "Years Crafting"
+      "projects": "Projekty odeslány",
+      "clients": "Globální klienti",
+      "awards": "Získaná ocenění",
+      "years": "Roky řemesla"
     }
   },
   "contactPage": {
     "metaTitle": "Kontakt | Starlights Visuals",
-    "metaDescription": "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
+    "metaDescription": "Spojte se se Starlights Visuals pro 2D a 3D animace, pohyblivou grafiku, VFX, produktové animace a projekty filmových upoutávek.",
     "label": "Pojďme mluvit",
     "title": "KONTAKT",
     "subtitle": "Produkční dotazy, spolupráce nebo jen pozdrav, pošlete signál.",
     "formTitle": "ZAHÁJIT PROJEKT",
     "formDesc": "Vyplňte formulář níže, ozveme se do 24 hodin.",
     "name": "Jméno",
-    "email": "Email",
+    "email": "E-mail",
     "projectType": "Typ projektu",
     "message": "Řekněte nám víc",
     "send": "Odeslat zprávu",
@@ -287,60 +287,60 @@
     "responseTime": "DOBA ODPOVĚDI",
     "responseDesc": "Do 24 hodin, Po, Pá.",
     "projectTypes": {
-      "2d": "2D Animation",
-      "3d": "3D Animation",
-      "trailer": "Cinematic Trailer",
-      "character": "Character Design",
-      "motion": "Motion Graphics and VFX",
-      "other": "Other"
+      "2d": "2D animace",
+      "3d": "3D animace",
+      "trailer": "Filmový trailer",
+      "character": "Design postav",
+      "motion": "Pohyblivá grafika a VFX",
+      "other": "Ostatní"
     },
-    "sending": "Sending…",
-    "errorGeneric": "Could not send your message. Please email us directly or try again."
+    "sending": "Odesílání…",
+    "errorGeneric": "Vaši zprávu nelze odeslat. Napište nám přímo nebo to zkuste znovu."
   },
   "portfolioPage": {
-    "metaTitle": "Portfolio | Starlights Visuals",
-    "metaDescription": "Selected projects: animated series, cinematic trailers, character designs, and studio showcase reels by Starlights Visuals.",
+    "metaTitle": "Portfolio | Vizuály Starlights",
+    "metaDescription": "Vybrané projekty: animované seriály, filmové upoutávky, návrhy postav a ukázky studia od Starlights Visuals.",
     "label": "Vybrané práce",
-    "title1": "PORT",
+    "title1": "PŘÍSTAV",
     "title2": "FOLIO",
     "subtitle": "Nahlédnutí do světů, postav a příběhů, které jsme pomohli oživit.",
     "projects": {
       "trailer": {
-        "tag": "Cinematic Trailer",
-        "title": "Iron Sentinel",
-        "desc": "Cinematic brand launch trailer."
+        "tag": "Filmový trailer",
+        "title": "Železný Sentinel",
+        "desc": "Spouštěcí trailer filmové značky."
       },
       "character": {
-        "tag": "Character Design",
+        "tag": "Design postav",
         "title": "Nova Vanguard",
-        "desc": "Hero protagonist sheet."
+        "desc": "List hrdiny hlavního hrdiny."
       },
       "2d": {
-        "tag": "2D Animation",
+        "tag": "2D animace",
         "title": "Neon Skyline",
-        "desc": "Anime inspired pilot episode."
+        "desc": "Pilotní epizoda inspirovaná anime."
       },
       "creature": {
-        "tag": "Creature Design",
+        "tag": "Design stvoření",
         "title": "Crystal Wyrm",
-        "desc": "Boss creature concept."
+        "desc": "Šéf stvoření koncept."
       },
       "motion": {
-        "tag": "Motion Graphics",
-        "title": "Pulse Identity",
-        "desc": "Brand motion system."
+        "tag": "Pohyblivá grafika",
+        "title": "Identita pulzu",
+        "desc": "Pohybový systém značky."
       },
       "motionEnv": {
-        "tag": "Motion Graphics",
-        "title": "Pulse Worlds",
-        "desc": "Immersive brand environment art."
+        "tag": "Pohyblivá grafika",
+        "title": "Pulzní světy",
+        "desc": "Pohlcující umění prostředí značky."
       }
     }
   },
   "blogPage": {
-    "metaTitle": "Blog | Starlights Visuals",
-    "metaDescription": "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
-    "label": "Studio journal",
+    "metaTitle": "Blog | Vizuály Starlights",
+    "metaDescription": "Statistiky animace, VFX, filmové upoutávky a vyprávění příběhů prémiové značky od Starlights Visuals.",
+    "label": "Studiový deník",
     "title1": "NÁŠ",
     "title2": "BLOG",
     "subtitle": "Myšlenky o kinematografickém řemesle, produkčních workflow a vizuálech, které konvertují.",
@@ -349,50 +349,50 @@
     "startProject": "Zahájit projekt",
     "moreFromJournal": "Více z journalu",
     "postBody1": "Ve Starlights Visuals vnímáme každý snímek jako příležitost ke konverzi, nejen jako krásný obraz. Tento článek rozvíjí myšlení za naší prací v {{category}} a rozhodnutí, která oddělují dobrý kreativ od launch ready kreativy.",
-    "postBody2": "Whether you are shipping a trailer, scaling a brand motion system, or building campaign visuals for a live product, the same principle applies: clarity of story first, polish second, and ruthless editing last. That discipline is how teams hit deadlines without the almost there feeling.",
+    "postBody2": "Ať už posíláte upoutávku, škálujete systém pohybu značky nebo vytváříte vizuály kampaně pro živý produkt, platí stejný princip: na prvním místě srozumitelnost příběhu, na druhém místě leštění a nakonec nemilosrdné úpravy. Tato disciplína spočívá v tom, jak týmy dorazí do termínů, aniž by se téměř cítili.",
     "postBody3": "Chcete tento přístup použít u dalšího projektu? Rádi uslyšíme, co stavíte, pošlete brief a namapujeme kinematografickou cestu od konceptu po dodání.",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "Why cinematic trailers convert better than product demos",
-        "excerpt": "Story first launch films build emotional stakes before the CTA. Here is how we structure hooks, pacing, and grade for maximum retention.",
-        "category": "Strategy",
-        "date": "May 12, 2026",
-        "readTime": "6 min read"
+        "title": "Proč filmové upoutávky konvertují lépe než ukázky produktů",
+        "excerpt": "Příběhové první filmy spouštějí emocionální sázky před CTA. Zde je návod, jak strukturujeme háky, stimulaci a sklon pro maximální retenci.",
+        "category": "Strategie",
+        "date": "12. května 2026",
+        "readTime": "6 min čtení"
       },
       "character-design-for-ip": {
-        "title": "Character design that anchors your IP across every channel",
-        "excerpt": "From silhouette readability to merch ready turnarounds, the checklist we use before a hero goes into production.",
-        "category": "Craft",
-        "date": "May 3, 2026",
-        "readTime": "5 min read"
+        "title": "Charakterový design, který ukotví vaši IP adresu napříč každým kanálem",
+        "excerpt": "Kontrolní seznam, který používáme, než se hrdina dostane do výroby, od čitelnosti siluety až po obraty připravené na zboží.",
+        "category": "Řemeslo",
+        "date": "3. května 2026",
+        "readTime": "5 min čtení"
       },
       "motion-systems-for-brands": {
-        "title": "Building motion systems brands can actually reuse",
-        "excerpt": "Modular motion libraries, logo stings, and UI micro interactions that keep campaigns consistent at scale.",
-        "category": "Motion",
-        "date": "Apr 8, 2026",
-        "readTime": "4 min read"
+        "title": "Značky stavebních pohybových systémů mohou skutečně znovu použít",
+        "excerpt": "Modulární knihovny pohybu, loga a mikrointerakce uživatelského rozhraní, které udržují kampaně konzistentní v měřítku.",
+        "category": "Pohyb",
+        "date": "8. dubna 2026",
+        "readTime": "4 min čtení"
       },
       "2d-animation-in-2026": {
-        "title": "2D animation in 2026: hybrid pipelines that still feel handmade",
-        "excerpt": "Combining rigged efficiency with frame by frame accents, when to push each technique for premium results.",
-        "category": "Animation",
-        "date": "Mar 29, 2026",
-        "readTime": "7 min read"
+        "title": "2D animace v roce 2026: hybridní potrubí, která stále působí ručně",
+        "excerpt": "Kombinace zmanipulované efektivity s akcenty snímek po snímku, kdy použít každou techniku ​​pro prvotřídní výsledky.",
+        "category": "Animace",
+        "date": "29. března 2026",
+        "readTime": "7 minut čtení"
       },
       "creature-design-breakdown": {
-        "title": "Creature design breakdown: from mood board to final rig",
-        "excerpt": "A look at how we develop boss creatures with readable silhouettes, material storytelling, and cinematic presence.",
-        "category": "Craft",
-        "date": "Mar 14, 2026",
-        "readTime": "6 min read"
+        "title": "Rozdělení designu stvoření: od moodboardu až po finální návazec",
+        "excerpt": "Pohled na to, jak vyvíjíme stvoření šéfů s čitelnými siluetami, materiálním vyprávěním a filmovou přítomností.",
+        "category": "Řemeslo",
+        "date": "14. března 2026",
+        "readTime": "6 min čtení"
       },
       "production-pipelines-that-ship": {
-        "title": "Production pipelines that ship: concept to final delivery",
-        "excerpt": "How we align art direction, technical constraints, and milestone reviews so teams ship on time without sacrificing polish.",
-        "category": "Production",
-        "date": "Apr 21, 2026",
-        "readTime": "8 min read"
+        "title": "Výrobní potrubí, která se přepravují: koncept až po konečnou dodávku",
+        "excerpt": "Jak sladíme umělecký směr, technická omezení a milníky, aby týmy doručovaly včas, aniž bychom obětovali lesk.",
+        "category": "Výroba",
+        "date": "21. dubna 2026",
+        "readTime": "8 min čtení"
       }
     }
   },
@@ -409,8 +409,8 @@
     "goHome": "Domů"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals | Animation & VFX Studio",
-    "rootDescription": "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
+    "rootTitle": "Vizuály Starlights | Studio animace a VFX",
+    "rootDescription": "Starlights Visuals je kreativní studio specializující se na filmovou 2D animaci, vysoce kvalitní 3D animaci a VFX.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -421,28 +421,28 @@
     "logoAlt": "Logo {{brand}}"
   },
   "works": {
-    "breadcrumbLabel": "Breadcrumb",
-    "breadcrumbHome": "Home",
-    "breadcrumbWorks": "Selected Works",
-    "clientsTitle": "Clients We've Worked With",
-    "clientsCount": "{{count}} clients",
-    "projectsCompleted": "{{count}} projects completed",
-    "timeline": "Timeline",
-    "services": "Services provided",
-    "tools": "Tools & software",
-    "searchPlaceholder": "Search projects…",
-    "filterYear": "Filter by year",
-    "allYears": "All years",
-    "noClients": "No clients in this category yet.",
-    "noProjects": "No projects match your filters.",
-    "projectsTitle": "Project Samples",
-    "relatedProjects": "Related projects",
-    "closePreview": "Close preview",
-    "ctaScript": "Ready when you are,",
-    "ctaTitle": "Start Your Project With Us",
-    "ctaDesc": "Tell us about your brand, timeline, and goals. We'll map a cinematic path from concept to delivery.",
-    "ctaButton": "Start a project",
-    "portfolioHubDesc": "Explore work by category, animation, VFX, motion, and more.",
+    "breadcrumbLabel": "Strouhanka",
+    "breadcrumbHome": "Domov",
+    "breadcrumbWorks": "Vybraná díla",
+    "clientsTitle": "Klienti, se kterými jsme spolupracovali",
+    "clientsCount": "{{count}} klientů",
+    "projectsCompleted": "Počet dokončených projektů: {{count}}",
+    "timeline": "Časová osa",
+    "services": "Poskytované služby",
+    "tools": "Nástroje a software",
+    "searchPlaceholder": "Hledat projekty…",
+    "filterYear": "Filtrovat podle roku",
+    "allYears": "Všechny roky",
+    "noClients": "V této kategorii zatím nejsou žádní klienti.",
+    "noProjects": "Vašim filtrům neodpovídají žádné projekty.",
+    "projectsTitle": "Ukázky projektu",
+    "relatedProjects": "Související projekty",
+    "closePreview": "Zavřít náhled",
+    "ctaScript": "Připraven, když jsi,",
+    "ctaTitle": "Začněte svůj projekt s námi",
+    "ctaDesc": "Řekněte nám o své značce, časové ose a cílech. Zmapujeme filmovou cestu od konceptu až po dodání.",
+    "ctaButton": "Začněte projekt",
+    "portfolioHubDesc": "Prozkoumejte práci podle kategorie, animace, VFX, pohybu a dalších.",
     "categories": {
       "2d-animation": {
         "title": "2D animace",
@@ -451,18 +451,18 @@
       },
       "3d-animation": {
         "title": "3D animace",
-        "tagline": "Stylized and photoreal 3D for film and brands",
-        "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
+        "tagline": "Stylizované a fotorealistické 3D pro film a značky",
+        "description": "Vysoce kvalitní 3D postava, produkt a filmová animace s úrovní funkcí pro kampaně a seriály."
       },
       "motion-graphics": {
-        "title": "Motion Graphics",
-        "tagline": "Design led motion systems for launches and brand worlds",
-        "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
+        "title": "Pohyblivá grafika",
+        "tagline": "Navrhujte řízené pohybové systémy pro starty a světy značek",
+        "description": "Navrhujte řízené pohybové systémy pro uvedení na trh, řídicí panely a světy značek, které se škálují napříč kanály."
       },
       "vfx": {
-        "title": "Vizuální efekty (VFX)",
-        "tagline": "Compositing, FX, and cinematic finishing",
-        "description": "Visual effects for trailers, product films, and branded content, from cleanups to full CG integration."
+        "title": "Visual Effects (VFX)",
+        "tagline": "Kompozice, efekty a filmová úprava",
+        "description": "Vizuální efekty pro upoutávky, produktové filmy a značkový obsah, od čištění až po plnou integraci CG."
       }
     },
     "showcase": {
@@ -475,25 +475,25 @@
         "title": "3D animace"
       },
       "motion-graphics": {
-        "tag": "Motion Graphics",
-        "title": "Motion Graphics"
+        "tag": "Pohyblivá grafika",
+        "title": "Pohyblivá grafika"
       },
       "vfx": {
-        "tag": "Vizuální efekty (VFX)",
-        "title": "Vizuální efekty (VFX)"
+        "tag": "Visual Effects (VFX)",
+        "title": "Visual Effects (VFX)"
       }
     },
     "clients": {
       "2d-animation": {
         "chibi-art": {
           "name": "CHIBI ART",
-          "industry": "Character & Animation",
-          "description": "Chibi style 2D character animation with expressive scenes and behind the scenes making process films.",
+          "industry": "Postava a animace",
+          "description": "2D animace postav ve stylu Chibi s expresivními scénami a zákulisím tvorby procesních filmů.",
           "timeline": "2025",
           "services": {
-            "0": "2D Animation",
+            "0": "2D animace",
             "1": "Chibi Art",
-            "2": "Character Animation"
+            "2": "Animace postav"
           },
           "tools": {
             "0": "After Effects",
@@ -504,12 +504,12 @@
         "vtuber-animation": {
           "name": "VTUBER ANIMATION",
           "industry": "VTuber & Character",
-          "description": "VTuber character art and 2D animation with modeling process films, polished samples, and Live2D style performance.",
+          "description": "Umění postav a 2D animace VTuber s filmy procesu modelování, leštěnými vzorky a výkonem ve stylu Live2D.",
           "timeline": "2025",
           "services": {
-            "0": "VTuber Animation",
-            "1": "2D Character",
-            "2": "Live2D Style"
+            "0": "Animace VTuber",
+            "1": "2D postava",
+            "2": "Styl Live2D"
           },
           "tools": {
             "0": "Live2D",
@@ -519,29 +519,29 @@
         },
         "live2d-animation": {
           "name": "LIVE2D ANIMATION",
-          "industry": "Live2D & Character",
-          "description": "Live2D character art, rigging, and animation from making process films through polished sample performances.",
+          "industry": "Live2D a charakter",
+          "description": "Živé 2D umění postav, rigging a animace od vytváření procesních filmů až po vyleštěné ukázkové představení.",
           "timeline": "2025",
           "services": {
             "0": "Live2D",
-            "1": "Rigging",
-            "2": "2D Character Animation"
+            "1": "Lanoví",
+            "2": "2D animace postav"
           },
           "tools": {
-            "0": "Live2D Cubism",
+            "0": "Živý 2D kubismus",
             "1": "After Effects",
             "2": "Photoshop"
           }
         },
         "2d-anime-animation": {
           "name": "2D ANIME ANIMATION",
-          "industry": "Anime & 2D Animation",
-          "description": "High quality 2D anime style animation and music videos with expressive characters and cinematic motion.",
+          "industry": "Anime a 2D animace",
+          "description": "Vysoce kvalitní 2D anime styl animace a hudební videa s výraznými postavami a filmovým pohybem.",
           "timeline": "2025",
           "services": {
-            "0": "2D Anime",
-            "1": "Music Video",
-            "2": "Character Animation"
+            "0": "2D anime",
+            "1": "Hudební video",
+            "2": "Animace postav"
           },
           "tools": {
             "0": "After Effects",
@@ -553,81 +553,81 @@
       "3d-animation": {
         "kids-learning-animation": {
           "name": "KIDS LEARNING ANIMATION",
-          "industry": "Children & Education",
-          "description": "Fun character animation for kids learning content, including number videos and cute cartoon characters.",
+          "industry": "Děti a vzdělávání",
+          "description": "Zábavná animace postav pro výukový obsah pro děti, včetně číselných videí a roztomilých kreslených postaviček.",
           "timeline": "2025",
           "services": {
-            "0": "Kids Learning",
-            "1": "Character Animation",
-            "2": "Educational Content"
+            "0": "Děti Učení",
+            "1": "Animace postav",
+            "2": "Vzdělávací obsah"
           },
           "tools": {
             "0": "After Effects",
             "1": "Toon Boom",
-            "2": "Blender"
+            "2": "Mixér"
           }
         },
         "3d-cartoon-animation": {
           "name": "3D CARTOON ANIMATION",
-          "industry": "Character & Animation",
-          "description": "Stylized 3D cartoon character animation and showcase films with playful motion and polished presentation.",
+          "industry": "Postava a animace",
+          "description": "Stylizované 3D animace kreslených postaviček a předváděcí filmy s hravým pohybem a vybroušenou prezentací.",
           "timeline": "2025",
           "services": {
-            "0": "3D Cartoon Animation",
-            "1": "Character Showcase",
-            "2": "Stylized CGI"
+            "0": "3D kreslená animace",
+            "1": "Představení postavy",
+            "2": "Stylizované CGI"
           },
           "tools": {
-            "0": "Blender",
-            "1": "Cinema 4D",
+            "0": "Mixér",
+            "1": "Kino 4D",
             "2": "After Effects"
           }
         },
         "3d-explainer-video": {
           "name": "3D EXPLAINER VIDEO",
-          "industry": "Product & Explainer",
-          "description": "3D explainer and product presentation films covering brand storytelling, 360 product displays, and commercial animation.",
+          "industry": "Produkt a vysvětlovač",
+          "description": "3D vysvětlující a produktové prezentační filmy pokrývající vyprávění příběhů značky, 360 zobrazení produktů a komerční animace.",
           "timeline": "2025",
           "services": {
-            "0": "3D Explainer",
-            "1": "Product Presentation",
-            "2": "360 Product Display"
+            "0": "3D vysvětlovač",
+            "1": "Prezentace produktu",
+            "2": "360 zobrazení produktu"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Kino 4D",
+            "1": "Mixér",
             "2": "After Effects"
           }
         },
         "3d-medical-animation": {
           "name": "3D MEDICAL ANIMATION",
-          "industry": "Healthcare & Medical Visualization",
-          "description": "High quality 3D medical animation covering anatomy, surgical procedures, and medical device visualization.",
+          "industry": "Zdravotní a lékařská vizualizace",
+          "description": "Vysoce kvalitní 3D lékařská animace pokrývající anatomii, chirurgické postupy a vizualizaci lékařských zařízení.",
           "timeline": "2025",
           "services": {
-            "0": "Medical Animation",
-            "1": "Anatomy CGI",
-            "2": "Surgical Visualization"
+            "0": "Lékařská animace",
+            "1": "Anatomie CGI",
+            "2": "Chirurgická vizualizace"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Kino 4D",
+            "1": "Mixér",
             "2": "After Effects"
           }
         },
         "3d-anime-character": {
           "name": "3D ANIME CHARACTER",
-          "industry": "Character & Anime",
-          "description": "3D anime character modeling and client showcase films with stylized materials and polished presentation.",
+          "industry": "Postava a anime",
+          "description": "3D anime modelování postav a klientské předváděcí filmy se stylizovanými materiály a vybroušenou prezentací.",
           "timeline": "2025",
           "services": {
-            "0": "3D Character",
+            "0": "3D postava",
             "1": "Anime CGI",
-            "2": "Client Showcase"
+            "2": "Prezentace klienta"
           },
           "tools": {
-            "0": "Blender",
-            "1": "Cinema 4D",
+            "0": "Mixér",
+            "1": "Kino 4D",
             "2": "After Effects"
           }
         }
@@ -635,129 +635,129 @@
       "motion-graphics": {
         "watch-animation": {
           "name": "WATCH ANIMATION",
-          "industry": "Luxury Watches",
-          "description": "Photoreal 3D watch product animation and cinematic packshot films for luxury timepieces.",
+          "industry": "Luxusní hodinky",
+          "description": "Fotorealistické 3D animace hodinek a filmové balíčky pro luxusní hodinky.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Watch CGI",
-            "2": "Packshot Films"
+            "0": "3D animace produktu",
+            "1": "Sledujte CGI",
+            "2": "Packshot filmy"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Kino 4D",
+            "1": "Červený posuv",
             "2": "After Effects"
           }
         },
         "ryse-drink-3d-product-animation": {
           "name": "RYSE DRINK 3D PRODUCT ANIMATION",
-          "industry": "Beverage & Product CGI",
-          "description": "Photoreal 3D beverage product animation for Ryse drink and lemonade campaigns with cinematic packshot finish.",
+          "industry": "Nápoje a produkty CGI",
+          "description": "Fotorealistická 3D animace nápojového produktu pro kampaně na nápoje a limonády Ryse s filmovým zpracováním packshot.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Beverage CGI",
-            "2": "Packshot Films"
+            "0": "3D animace produktu",
+            "1": "Nápojové CGI",
+            "2": "Packshot filmy"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Kino 4D",
+            "1": "Červený posuv",
             "2": "After Effects"
           }
         },
         "3d-perfume-animation": {
           "name": "3D PERFUME ANIMATION",
-          "industry": "Beauty & Fragrance",
-          "description": "Photoreal 3D perfume product animation for luxury fragrance launches and campaign hero films.",
+          "industry": "Krása a vůně",
+          "description": "Photoreal 3D animace parfémových produktů pro uvedení luxusních vůní a filmy o hrdinech kampaní.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Fragrance CGI",
-            "2": "Packshot Films"
+            "0": "3D animace produktu",
+            "1": "Vůně CGI",
+            "2": "Packshot filmy"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Kino 4D",
+            "1": "Červený posuv",
             "2": "After Effects"
           }
         },
         "3d-gadget-animation": {
           "name": "3D GADGET ANIMATION",
-          "industry": "Consumer Electronics",
-          "description": "Photoreal 3D gadget and earbud product animation with studio lighting, material detail, and campaign ready motion.",
+          "industry": "Spotřební elektronika",
+          "description": "Photoreal 3D gadget a animace produktu do uší se studiovým osvětlením, detaily materiálu a pohybem připraveným pro kampaň.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
+            "0": "3D animace produktu",
             "1": "Gadget CGI",
-            "2": "Packshot Films"
+            "2": "Packshot filmy"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Kino 4D",
+            "1": "Červený posuv",
             "2": "After Effects"
           }
         },
         "vape-animation": {
           "name": "VAPE ANIMATION",
-          "industry": "Consumer Products",
-          "description": "Photoreal 3D vape product animation with studio lighting, material detail, and campaign ready packshot films.",
+          "industry": "Spotřební produkty",
+          "description": "Photoreal 3D vape produktová animace se studiovým osvětlením, materiálovými detaily a packshoty připravenými pro kampaň.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
+            "0": "3D animace produktu",
             "1": "Vape CGI",
-            "2": "Packshot Films"
+            "2": "Packshot filmy"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Kino 4D",
+            "1": "Červený posuv",
             "2": "After Effects"
           }
         },
         "bag-suitcase-animation": {
           "name": "BAG/SUITCASE ANIMATION",
-          "industry": "Travel & Lifestyle",
-          "description": "Realistic 3D product animation for bags and suitcases with cinematic packshot finish.",
+          "industry": "Cestování a životní styl",
+          "description": "Realistická 3D animace produktu pro tašky a kufry s filmovou úpravou packshot.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Bag CGI",
-            "2": "Packshot Films"
+            "0": "3D animace produktu",
+            "1": "Kabelka CGI",
+            "2": "Packshot filmy"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Kino 4D",
+            "1": "Červený posuv",
             "2": "After Effects"
           }
         },
         "drop-band-animation": {
           "name": "DROP BAND ANIMATION",
-          "industry": "Wearables & Accessories",
-          "description": "Drop Band product animation covering production process films and final polished results.",
+          "industry": "Nositelná zařízení a příslušenství",
+          "description": "Animace produktu Drop Band pokrývající filmy výrobního procesu a konečné leštěné výsledky.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Process Film",
-            "2": "Wearable CGI"
+            "0": "3D animace produktu",
+            "1": "Zpracovat film",
+            "2": "Nositelné CGI"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Kino 4D",
+            "1": "Červený posuv",
             "2": "After Effects"
           }
         },
         "3d-bed-animation": {
           "name": "3D BED ANIMATION",
-          "industry": "Furniture & Bedding",
-          "description": "Photoreal 3D mattress and bed product animation for furniture brands with cinematic packshot finish.",
+          "industry": "Nábytek a ložní prádlo",
+          "description": "Fotorealistická 3D animace produktů matrací a postelí pro značky nábytku s filmovou úpravou packshot.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Furniture CGI",
-            "2": "Packshot Films"
+            "0": "3D animace produktu",
+            "1": "Nábytek CGI",
+            "2": "Packshot filmy"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Kino 4D",
+            "1": "Červený posuv",
             "2": "After Effects"
           }
         }
@@ -765,129 +765,129 @@
       "vfx": {
         "ronix": {
           "name": "RONIX",
-          "industry": "Power Tools & Manufacturing",
-          "description": "Ronix 3D industrial animation and power tool CGI product showcase films.",
+          "industry": "Elektrické nářadí a výroba",
+          "description": "Ronix 3D průmyslová animace a elektrické nářadí CGI produkty představují filmy.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Power Tool CGI",
-            "2": "Product Showcase"
+            "0": "Průmyslová animace",
+            "1": "Elektrické nářadí CGI",
+            "2": "Prezentace produktu"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Kino 4D",
+            "1": "Mixér",
             "2": "After Effects"
           }
         },
         "mintec": {
           "name": "MINTEC",
-          "industry": "Industrial Manufacturing",
-          "description": "MinTec industries product showcase and process films for 3D industrial animation.",
+          "industry": "Průmyslová výroba",
+          "description": "Prezentace produktů MinTec industry a procesní filmy pro 3D průmyslovou animaci.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product Showcase",
-            "2": "Process Film"
+            "0": "Průmyslová animace",
+            "1": "Prezentace produktu",
+            "2": "Zpracovat film"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Kino 4D",
+            "1": "Mixér",
             "2": "After Effects"
           }
         },
         "integra-pw": {
           "name": "INTEGRA PW",
-          "industry": "Industrial Products",
-          "description": "Integra PW industrial animation from video making process through final cinematic results.",
+          "industry": "Průmyslové produkty",
+          "description": "Průmyslová animace Integra PW od procesu tvorby videa až po finální filmové výsledky.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Process Film",
-            "2": "Product CGI"
+            "0": "Průmyslová animace",
+            "1": "Zpracovat film",
+            "2": "Produkt CGI"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Kino 4D",
+            "1": "Mixér",
             "2": "After Effects"
           }
         },
         "credex": {
           "name": "CREDEX",
-          "industry": "Cleaning Equipment",
-          "description": "CREDEX carpet cleaning machine industrial animation with cinematic SFX finish.",
+          "industry": "Čisticí zařízení",
+          "description": "Stroj na čištění koberců CREDEX průmyslová animace s filmovou úpravou SFX.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product CGI",
-            "2": "Sound Design"
+            "0": "Průmyslová animace",
+            "1": "Produkt CGI",
+            "2": "Zvukový design"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Kino 4D",
+            "1": "Mixér",
             "2": "After Effects"
           }
         },
         "phr-1": {
           "name": "PHR 1",
-          "industry": "Electric Powertrain",
-          "description": "PHR 1 electric power train product animation with technical lighting and cinematic polish.",
+          "industry": "Elektrické hnací ústrojí",
+          "description": "Animace produktu elektrického pohonu PHR 1 s technickým osvětlením a filmovým leskem.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Powertrain CGI",
-            "2": "Product Film"
+            "0": "Průmyslová animace",
+            "1": "Pohonné ústrojí CGI",
+            "2": "Produktový film"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Kino 4D",
+            "1": "Mixér",
             "2": "After Effects"
           }
         },
         "atx": {
           "name": "ATX",
-          "industry": "Industrial Manufacturing",
-          "description": "ATX 3D industrial and technical product animation for manufacturing showcases.",
+          "industry": "Průmyslová výroba",
+          "description": "ATX 3D animace průmyslových a technických produktů pro výrobu vitrín.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Technical CGI",
-            "2": "Product Showcase"
+            "0": "Průmyslová animace",
+            "1": "Technické CGI",
+            "2": "Prezentace produktu"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Kino 4D",
+            "1": "Mixér",
             "2": "After Effects"
           }
         },
         "prov-gap": {
           "name": "PROV GAP",
-          "industry": "Industrial Manufacturing",
-          "description": "Prov GAP 3D industrial animation for technical product storytelling and brand films.",
+          "industry": "Průmyslová výroba",
+          "description": "Prov GAP 3D průmyslová animace pro technické vyprávění příběhů produktů a značkové filmy.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product CGI",
-            "2": "Technical Film"
+            "0": "Průmyslová animace",
+            "1": "Produkt CGI",
+            "2": "Technický film"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Kino 4D",
+            "1": "Mixér",
             "2": "After Effects"
           }
         },
         "autoz-crave": {
           "name": "AUTOZ CRAVE",
-          "industry": "Automotive & Mechanical",
-          "description": "Autoz Crave industrial animation for mechanical and technical 3D product films.",
+          "industry": "Automobilový průmysl a strojírenství",
+          "description": "Průmyslová animace Autoz Crave pro mechanické a technické 3D produktové filmy.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Mechanical CGI",
-            "2": "Technical Animation"
+            "0": "Průmyslová animace",
+            "1": "Mechanické CGI",
+            "2": "Technická animace"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Kino 4D",
+            "1": "Mixér",
             "2": "After Effects"
           }
         }
@@ -895,474 +895,474 @@
     },
     "projects": {
       "chibi-art-p1": {
-        "title": "Chibi Art Scene 1",
-        "description": "Expressive chibi character scene with polished 2D animation and campaign ready motion.",
+        "title": "Umělecká scéna Chibi 1",
+        "description": "Expresivní scéna postavy chibi s vyleštěnou 2D animací a pohybem připraveným na kampaň.",
         "tags": {
           "0": "Chibi",
-          "1": "Scene"
+          "1": "Scéna"
         }
       },
       "chibi-art-p2": {
-        "title": "Chibi Art Scene 2",
-        "description": "Second chibi character scene showcasing personality, timing, and colorful 2D performance.",
+        "title": "Umělecká scéna Chibi 2",
+        "description": "Druhá scéna postavy chibi předvádí osobnost, načasování a barevný 2D výkon.",
         "tags": {
           "0": "Chibi",
-          "1": "Scene"
+          "1": "Scéna"
         }
       },
       "chibi-art-p3": {
-        "title": "Making Process Film",
-        "description": "Behind the scenes look at the chibi art creation and animation workflow from sketch to final motion.",
+        "title": "Proces výroby filmu",
+        "description": "Podívejte se do zákulisí umělecké tvorby a animace chibi od náčrtu až po finální pohyb.",
         "tags": {
-          "0": "Process",
-          "1": "Workflow"
+          "0": "Proces",
+          "1": "Pracovní postup"
         }
       },
       "vtuber-animation-p1": {
-        "title": "Vtuber Modeling Creation",
-        "description": "VTuber character modeling creation film covering art direction and build workflow.",
+        "title": "Tvorba modelování Vtuber",
+        "description": "Film pro tvorbu modelování postav VTuber pokrývající umělecký směr a pracovní postup sestavení.",
         "tags": {
           "0": "VTuber",
-          "1": "Modeling"
+          "1": "Modelování"
         }
       },
       "vtuber-animation-p2": {
-        "title": "Vtuber 2D Video Results",
-        "description": "Finished 2D VTuber animation results with expressive performance and polished motion.",
+        "title": "Výsledky Vtuber 2D videa",
+        "description": "Dokončená 2D animace VTuber přináší expresivní výkon a leštěný pohyb.",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p3": {
-        "title": "Princess Vtuber Modeling",
-        "description": "Princess VTuber modeling sample showcasing character design and animated performance.",
+        "title": "Princezna Vtuber Modeling",
+        "description": "Ukázka modelování Princess VTuber předvádějící design postav a animovaný výkon.",
         "tags": {
           "0": "VTuber",
-          "1": "Princess"
+          "1": "Princezna"
         }
       },
       "vtuber-animation-p4": {
-        "title": "Vtuber 2D Video",
-        "description": "Cinematic 2D VTuber animation with dynamic character motion and expressive acting.",
+        "title": "2D video Vtuber",
+        "description": "Filmová 2D animace VTuber s dynamickým pohybem postavy a expresivním herectvím.",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p5": {
-        "title": "Vtuber Sample 2",
-        "description": "Second VTuber animation sample with bold character acting and polished motion.",
+        "title": "Ukázka Vtuber 2",
+        "description": "Druhá ukázka animace VTuber s odvážným charakterem a vybroušeným pohybem.",
         "tags": {
           "0": "VTuber",
-          "1": "Sample"
+          "1": "Ochutnat"
         }
       },
       "vtuber-animation-p6": {
-        "title": "Vtuber Sample 3",
-        "description": "Extended VTuber character showcase with cinematic pacing and expressive 2D animation.",
+        "title": "Ukázka Vtuber 3",
+        "description": "Rozšířená ukázka postav VTuber s filmovým tempem a výraznou 2D animací.",
         "tags": {
           "0": "VTuber",
-          "1": "Sample"
+          "1": "Ochutnat"
         }
       },
       "vtuber-animation-p7": {
-        "title": "Vtuber Video Process",
-        "description": "Behind the scenes VTuber animation process from art through rigging and final motion.",
+        "title": "Video proces Vtuber",
+        "description": "Proces animace VTuber ze zákulisí od umění přes rigging a finální pohyb.",
         "tags": {
-          "0": "Process",
-          "1": "Workflow"
+          "0": "Proces",
+          "1": "Pracovní postup"
         }
       },
       "live2d-animation-p1": {
-        "title": "Live2D Making Process",
-        "description": "Behind the scenes Live2D creation workflow from art through final animated performance.",
+        "title": "Proces tvorby Live2D",
+        "description": "Pracovní postup tvorby v zákulisí Live2D od umění až po finální animované představení.",
         "tags": {
           "0": "Live2D",
-          "1": "Process"
+          "1": "Proces"
         }
       },
       "live2d-animation-p2": {
-        "title": "Live2D Sample",
-        "description": "Finished Live2D character sample with expressive posing and polished motion.",
+        "title": "Živá 2D ukázka",
+        "description": "Dokončený vzorek postavy Live2D s výrazným pózováním a vybroušeným pohybem.",
         "tags": {
           "0": "Live2D",
-          "1": "Sample"
+          "1": "Ochutnat"
         }
       },
       "live2d-animation-p3": {
-        "title": "Live2D Rigging Process",
-        "description": "Live2D rigging process film showing mesh, deformers, and parameter setup.",
+        "title": "Live2D Rigging proces",
+        "description": "Film Live2D procesu takeláže zobrazující síť, deformátory a nastavení parametrů.",
         "tags": {
           "0": "Live2D",
-          "1": "Rigging"
+          "1": "Lanoví"
         }
       },
       "live2d-animation-p4": {
-        "title": "Sample Live2D Rigging",
-        "description": "Sample Live2D rigging demonstration with clean parameter control and facial acting.",
+        "title": "Ukázka Live2D Rigging",
+        "description": "Ukázka Live2D riggingu s čistým ovládáním parametrů a tváří.",
         "tags": {
           "0": "Live2D",
-          "1": "Rigging"
+          "1": "Lanoví"
         }
       },
       "live2d-animation-p5": {
-        "title": "Live2D Rigging Result",
-        "description": "Final Live2D rigging result showcasing smooth motion and expressive character performance.",
+        "title": "Live2D Rigging Výsledek",
+        "description": "Konečný výsledek rigování Live2D předvádí plynulý pohyb a expresivní charakter.",
         "tags": {
           "0": "Live2D",
-          "1": "Result"
+          "1": "Výsledek"
         }
       },
       "live2d-animation-p6": {
-        "title": "Live2D Film",
-        "description": "Cinematic Live2D animation with dynamic character motion and polished presentation.",
+        "title": "Živý 2D film",
+        "description": "Filmová Live2D animace s dynamickým pohybem postav a vybroušenou prezentací.",
         "tags": {
           "0": "Live2D",
           "1": "Film"
         }
       },
       "2d-anime-animation-p1": {
-        "title": "Japanese Style 2D Anime",
-        "description": "Japanese anime style 2D animation with dynamic posing, expressive acting, and polished line work.",
+        "title": "2D anime v japonském stylu",
+        "description": "2D animace ve stylu japonského anime s dynamickým pózováním, expresivním herectvím a vybroušenou linií.",
         "tags": {
           "0": "Anime",
           "1": "2D"
         }
       },
       "2d-anime-animation-p2": {
-        "title": "Anime Music Video",
-        "description": "2D anime music video with character driven storytelling and cinematic timing.",
+        "title": "Anime hudební video",
+        "description": "2D anime hudební video s vyprávěním příběhu a filmovým načasováním.",
         "tags": {
-          "0": "Music Video",
+          "0": "Hudební video",
           "1": "Anime"
         }
       },
       "2d-anime-animation-p3": {
-        "title": "Meme Song Animation",
-        "description": "Playful 2D anime character animation timed to a meme song with bold motion and humor.",
+        "title": "Animace meme Song",
+        "description": "Hravá 2D anime animace postav načasovaná na memovou píseň s odvážným pohybem a humorem.",
         "tags": {
           "0": "Anime",
-          "1": "Music"
+          "1": "Hudba"
         }
       },
       "kids-learning-animation-p1": {
         "title": "123 Number Kids Learning Video",
-        "description": "Educational number learning video with engaging characters and playful motion for kids.",
+        "description": "Vzdělávací video s výukou čísel s poutavými postavami a hravým pohybem pro děti.",
         "tags": {
-          "0": "Kids",
-          "1": "Learning"
+          "0": "Děti",
+          "1": "Učení"
         }
       },
       "kids-learning-animation-p2": {
-        "title": "Custom 2D Character",
-        "description": "Custom 2D character animation with expressive acting and colorful stylized design.",
+        "title": "Vlastní 2D postava",
+        "description": "Vlastní 2D animace postav s výrazným herectvím a barevným stylizovaným designem.",
         "tags": {
-          "0": "Character",
+          "0": "Charakter",
           "1": "2D"
         }
       },
       "kids-learning-animation-p3": {
-        "title": "Cute 2D Cartoon Character",
-        "description": "Cute 2D cartoon character film with friendly personality and polished kids content motion.",
+        "title": "Roztomilá 2D kreslená postavička",
+        "description": "Roztomilý 2D film s kreslenými postavičkami s přátelskou osobností a uhlazeným pohybem dětského obsahu.",
         "tags": {
-          "0": "Cartoon",
-          "1": "Kids"
+          "0": "Karikatura",
+          "1": "Děti"
         }
       },
       "3d-cartoon-animation-p1": {
-        "title": "3D Cartoon Animation",
-        "description": "Stylized 3D cartoon animation with expressive character performance and colorful presentation.",
+        "title": "3D kreslená animace",
+        "description": "Stylizovaná 3D kreslená animace s výrazným výkonem postav a barevnou prezentací.",
         "tags": {
-          "0": "Cartoon",
+          "0": "Karikatura",
           "1": "3D"
         }
       },
       "3d-cartoon-animation-p2": {
-        "title": "Cute 3D Cartoon Character Showcase",
-        "description": "Cute 3D cartoon character video showcase with friendly personality and polished motion.",
+        "title": "Roztomilá 3D kreslená postavička vitrína",
+        "description": "Roztomilá 3D video prezentace kreslených postaviček s přátelskou osobností a vybroušeným pohybem.",
         "tags": {
-          "0": "Character",
-          "1": "Showcase"
+          "0": "Charakter",
+          "1": "Vitrína"
         }
       },
       "3d-explainer-video-p1": {
-        "title": "Winergy 3D Presentation",
-        "description": "Winergy 3D brand presentation with cinematic camera work and polished product storytelling.",
+        "title": "3D prezentace vinařství",
+        "description": "3D prezentace značky Winergy s filmovou kamerou a vytříbeným produktovým příběhem.",
         "tags": {
-          "0": "Explainer",
-          "1": "Winergy"
+          "0": "Vysvětlovač",
+          "1": "Vinařství"
         }
       },
       "3d-explainer-video-p2": {
-        "title": "Popper Product 360 Display",
-        "description": "Popper product 360 display film showcasing form, materials, and packaging detail.",
+        "title": "Displej Popper Product 360",
+        "description": "Popper product 360 display film předvádějící formu, materiály a detaily balení.",
         "tags": {
           "0": "360",
           "1": "Popper"
         }
       },
       "3d-explainer-video-p3": {
-        "title": "Popper Animation",
-        "description": "Popper 3D product animation with dynamic motion and commercial presentation.",
+        "title": "Popper animace",
+        "description": "Popper 3D animace produktu s dynamickým pohybem a komerční prezentací.",
         "tags": {
-          "0": "Product",
+          "0": "Produkt",
           "1": "Popper"
         }
       },
       "3d-explainer-video-p4": {
-        "title": "Popper Animation 2",
-        "description": "Alternate Popper animation pass with refined lighting and campaign ready pacing.",
+        "title": "Popper animace 2",
+        "description": "Alternativní průchod animace Popper s rafinovaným osvětlením a tempem připraveným na kampaň.",
         "tags": {
-          "0": "Product",
+          "0": "Produkt",
           "1": "Popper"
         }
       },
       "3d-explainer-video-p5": {
-        "title": "Client Video of Poppes",
-        "description": "Client facing Poppes video presenting the product with clear storytelling and polished CGI.",
+        "title": "Klientské video Poppes",
+        "description": "Video Poppes s klientem prezentující produkt s jasným vyprávěním a vybroušeným CGI.",
         "tags": {
-          "0": "Client",
+          "0": "Klient",
           "1": "Poppes"
         }
       },
       "3d-medical-animation-p1": {
-        "title": "High Quality 3D Medical Anatomy Animation",
-        "description": "High quality 3D medical animation with detailed anatomy visualization and polished cinematic presentation.",
+        "title": "Vysoce kvalitní 3D animace lékařské anatomie",
+        "description": "Vysoce kvalitní 3D lékařská animace s detailní vizualizací anatomie a vybroušenou filmovou prezentací.",
         "tags": {
-          "0": "Medical",
-          "1": "Anatomy"
+          "0": "Lékařský",
+          "1": "Anatomie"
         }
       },
       "3d-medical-animation-p2": {
-        "title": "3D Medical Animation 2",
-        "description": "Second 3D medical animation sample with clear anatomical storytelling and commercial finish.",
+        "title": "3D lékařská animace 2",
+        "description": "Druhá ukázka 3D lékařské animace s jasným anatomickým vyprávěním a komerčním zpracováním.",
         "tags": {
-          "0": "Medical",
-          "1": "Healthcare"
+          "0": "Lékařský",
+          "1": "Zdravotnictví"
         }
       },
       "3d-anime-character-p1": {
-        "title": "3D Anime Character Showcase to Client",
-        "description": "3D anime character showcase film presenting modeling, materials, and polished stylized performance for client review.",
+        "title": "Prezentace 3D anime postav pro klienta",
+        "description": "3D anime filmová ukázka postav, které představují modelování, materiály a vyleštěné stylizované představení pro klientskou recenzi.",
         "tags": {
           "0": "Anime",
-          "1": "Character"
+          "1": "Charakter"
         }
       },
       "watch-animation-p1": {
-        "title": "Watch Product Film",
-        "description": "Cinematic 3D watch animation with studio lighting, material detail, and premium packshot finish.",
+        "title": "Podívejte se na produktový film",
+        "description": "Filmová 3D animace hodinek se studiovým osvětlením, detaily materiálu a prvotřídním balením.",
         "tags": {
-          "0": "Watch",
-          "1": "Product"
+          "0": "Hodinky",
+          "1": "Produkt"
         }
       },
       "watch-animation-p2": {
-        "title": "Rifari Wrist Watch",
-        "description": "Photoreal Rifari wrist watch product film with refined reflections and commercial presentation.",
+        "title": "Náramkové hodinky Rifari",
+        "description": "Produktový film na náramkové hodinky Photoreal Rifari s rafinovanými odlesky a komerční prezentací.",
         "tags": {
-          "0": "Watch",
+          "0": "Hodinky",
           "1": "Rifari"
         }
       },
       "watch-animation-p3": {
-        "title": "Steel Reef Wrist Watch",
-        "description": "Steel Reef wrist watch animation with premium materials, lighting, and campaign ready motion.",
+        "title": "Náramkové hodinky Steel Reef",
+        "description": "Animace náramkových hodinek Steel Reef s prémiovými materiály, osvětlením a pohybem připraveným na kampaň.",
         "tags": {
-          "0": "Watch",
-          "1": "Steel Reef"
+          "0": "Hodinky",
+          "1": "Ocelový útes"
         }
       },
       "ryse-drink-3d-product-animation-p1": {
-        "title": "Ryse Drink 3D Product Animation",
-        "description": "Cinematic 3D Ryse drink product animation with studio lighting, material detail, and commercial finish.",
+        "title": "Ryse Drink 3D animace produktu",
+        "description": "Filmová 3D animace nápoje Ryse se studiovým osvětlením, detaily materiálu a komerční povrchovou úpravou.",
         "tags": {
-          "0": "Beverage",
-          "1": "Product"
+          "0": "Nápoj",
+          "1": "Produkt"
         }
       },
       "ryse-drink-3d-product-animation-p2": {
-        "title": "Lemonade Product Film",
-        "description": "Photoreal lemonade product animation with fluid motion, glass materials, and campaign ready presentation.",
+        "title": "Limonádový produktový film",
+        "description": "Fotorealistická animace limonádových produktů s plynulým pohybem, skleněnými materiály a prezentací připravenou na kampaň.",
         "tags": {
-          "0": "Lemonade",
-          "1": "Product"
+          "0": "Limonáda",
+          "1": "Produkt"
         }
       },
       "3d-perfume-animation-p1": {
-        "title": "Anabomfim 3D Perfume Video",
-        "description": "Cinematic 3D Anabomfim perfume animation with studio lighting, glass materials, and premium packshot finish.",
+        "title": "Video parfému Anabomfim 3D",
+        "description": "Filmová 3D animace parfému Anabomfim se studiovým osvětlením, skleněnými materiály a prvotřídním balením.",
         "tags": {
-          "0": "Perfume",
+          "0": "Parfém",
           "1": "Anabomfim"
         }
       },
       "3d-perfume-animation-p2": {
-        "title": "Valentino Perfume Video",
-        "description": "Luxury Valentino perfume product film with refined reflections, fluid motion, and commercial presentation.",
+        "title": "Video parfému Valentino",
+        "description": "Luxusní parfémový produktový film Valentino s rafinovanými odlesky, plynulým pohybem a komerční prezentací.",
         "tags": {
-          "0": "Perfume",
+          "0": "Parfém",
           "1": "Valentino"
         }
       },
       "3d-perfume-animation-p3": {
-        "title": "Soul of Amir 3D Animation",
-        "description": "Soul of Amir 3D fragrance animation with cinematic camera work and campaign ready polish.",
+        "title": "3D animace Soul of Amir",
+        "description": "3D animace vůně Soul of Amir s filmovou kamerou a přípravou na kampaň.",
         "tags": {
-          "0": "Perfume",
-          "1": "Soul of Amir"
+          "0": "Parfém",
+          "1": "Amirova duše"
         }
       },
       "3d-gadget-animation-p1": {
-        "title": "Shoks Earbud Animation",
-        "description": "Cinematic 3D Shoks earbud product animation with refined materials and commercial finish.",
+        "title": "Animace Shoks Earbud",
+        "description": "Animace produktu do uší Cinematic 3D Shoks s rafinovanými materiály a komerční povrchovou úpravou.",
         "tags": {
-          "0": "Earbud",
+          "0": "Sluchátko",
           "1": "Gadget"
         }
       },
       "3d-gadget-animation-p2": {
-        "title": "Headphone Earbud Product Film",
-        "description": "3D headphone and earbud product animation with dynamic camera moves and premium packshot presentation.",
+        "title": "Produktová fólie na sluchátka",
+        "description": "3D animace produktu pro sluchátka a sluchátka s dynamickými pohyby kamery a prémiovou prezentací packshotů.",
         "tags": {
-          "0": "Headphone",
-          "1": "Product"
+          "0": "Sluchátka",
+          "1": "Produkt"
         }
       },
       "vape-animation-p1": {
         "title": "Jojo Vape",
-        "description": "Cinematic 3D Jojo vape product animation with refined materials and commercial finish.",
+        "description": "Filmová 3D animace produktu Jojo vape s rafinovanými materiály a komerční povrchovou úpravou.",
         "tags": {
           "0": "Vape",
           "1": "Jojo"
         }
       },
       "vape-animation-p2": {
-        "title": "Juicy Cranberry Vape",
-        "description": "Juicy cranberry vape product film with vibrant color, lighting, and campaign ready presentation.",
+        "title": "Šťavnatá brusinková vape",
+        "description": "Šťavnatý brusinkový produktový film se zářivými barvami, osvětlením a prezentací připravenou na kampaň.",
         "tags": {
           "0": "Vape",
-          "1": "Cranberry"
+          "1": "Brusinka"
         }
       },
       "bag-suitcase-animation-p1": {
-        "title": "Realistic 3D Product Animation for Bags",
-        "description": "Photoreal 3D bag and suitcase product animation with premium materials and commercial presentation.",
+        "title": "Realistická 3D animace produktu pro tašky",
+        "description": "Fotorealistická 3D animace produktu taška a kufr s prémiovými materiály a komerční prezentací.",
         "tags": {
-          "0": "Bag",
-          "1": "Suitcase"
+          "0": "Taška",
+          "1": "Kufr"
         }
       },
       "drop-band-animation-p1": {
-        "title": "Drop Band Animation Process",
-        "description": "Behind the scenes Drop Band animation process from reference through final motion.",
+        "title": "Proces animace Drop Band",
+        "description": "Proces animace Drop Band ze zákulisí od reference až po finální pohyb.",
         "tags": {
-          "0": "Process",
+          "0": "Proces",
           "1": "Drop Band"
         }
       },
       "drop-band-animation-p2": {
-        "title": "Drop Band Animation Result",
-        "description": "Final Drop Band product animation with refined materials, lighting, and campaign ready finish.",
+        "title": "Výsledek animace Drop Band",
+        "description": "Final Drop Band produktová animace s rafinovanými materiály, osvětlením a dokončením připraveným na kampaň.",
         "tags": {
-          "0": "Product",
+          "0": "Produkt",
           "1": "Drop Band"
         }
       },
       "3d-bed-animation-p1": {
-        "title": "Realistic 3D Mattress Animation",
-        "description": "Realistic 3D mattress product animation with soft materials, lighting, and campaign ready presentation.",
+        "title": "Realistická 3D animace matrace",
+        "description": "Realistická 3D animace produktu matrace s měkkými materiály, osvětlením a prezentací připravenou na kampaň.",
         "tags": {
-          "0": "Mattress",
-          "1": "Product"
+          "0": "Matrace",
+          "1": "Produkt"
         }
       },
       "3d-bed-animation-p2": {
-        "title": "Simba Bed Animation",
-        "description": "Simba bed animation with cinematic camera work, material detail, and commercial finish.",
+        "title": "Animace postele Simba",
+        "description": "Animace postele Simba s filmovou kamerou, detaily materiálu a komerčním zpracováním.",
         "tags": {
-          "0": "Bed",
+          "0": "Postel",
           "1": "Simba"
         }
       },
       "ronix-p1": {
-        "title": "Ronix 3D Industrial Animation | Power Tool CGI Product Showcase",
-        "description": "Cinematic Ronix power tool CGI showcase with technical detail and commercial polish.",
+        "title": "Ronix 3D průmyslová animace | Přehlídka produktů CGI Power Tool",
+        "description": "Filmová CGI vitrína elektrického nářadí Ronix s technickými detaily a komerčním leskem.",
         "tags": {
-          "0": "Industrial",
+          "0": "Průmyslový",
           "1": "Ronix"
         }
       },
       "mintec-p1": {
-        "title": "MinTec Industries Product Showcase",
-        "description": "MinTec industries product showcase with technical storytelling and polished CGI.",
+        "title": "Prezentace produktů MinTec Industries",
+        "description": "Prezentace produktů MinTec industry s technickým vyprávěním příběhů a vyleštěným CGI.",
         "tags": {
-          "0": "Industrial",
+          "0": "Průmyslový",
           "1": "MinTec"
         }
       },
       "mintec-p2": {
-        "title": "Process of Making MinTec 3D Animation",
-        "description": "Behind the scenes look at the MinTec 3D industrial animation production workflow.",
+        "title": "Proces tvorby 3D animace MinTec",
+        "description": "Podívejte se do zákulisí výrobního postupu průmyslové animace MinTec 3D.",
         "tags": {
-          "0": "Process",
+          "0": "Proces",
           "1": "MinTec"
         }
       },
       "integra-pw-p1": {
-        "title": "Integra PW Video Making Process",
-        "description": "Behind the scenes making process for the Integra PW industrial animation build.",
+        "title": "Proces tvorby videa Integra PW",
+        "description": "Proces tvorby zákulisí pro sestavení průmyslové animace Integra PW.",
         "tags": {
-          "0": "Process",
+          "0": "Proces",
           "1": "Integra PW"
         }
       },
       "integra-pw-p2": {
-        "title": "Integra PW Final Results",
-        "description": "Final Integra PW industrial product animation with dynamic camera moves and commercial finish.",
+        "title": "Konečné výsledky Integra PW",
+        "description": "Finální animace průmyslového produktu Integra PW s dynamickými pohyby kamery a komerční povrchovou úpravou.",
         "tags": {
-          "0": "Industrial",
+          "0": "Průmyslový",
           "1": "Integra PW"
         }
       },
       "credex-p1": {
-        "title": "Credex Vacuum Cleaner with SFX",
-        "description": "Final high definition CREDEX vacuum cleaner animation with sound design and commercial polish.",
+        "title": "Vysavač Credex s SFX",
+        "description": "Finální animace vysavače CREDEX ve vysokém rozlišení se zvukovým designem a komerčním leskem.",
         "tags": {
-          "0": "Industrial",
+          "0": "Průmyslový",
           "1": "Credex"
         }
       },
       "phr-1-p1": {
-        "title": "PHR 1 Electric Power Train",
-        "description": "Photoreal PHR 1 electric power train animation with cinematic camera work and technical detail.",
+        "title": "Elektrické hnací ústrojí PHR 1",
+        "description": "Animace elektrického pohonu Photoreal PHR 1 s filmovou kamerou a technickými detaily.",
         "tags": {
-          "0": "Industrial",
+          "0": "Průmyslový",
           "1": "PHR 1"
         }
       },
       "atx-p1": {
-        "title": "ATX 3D Industrial Animation",
-        "description": "ATX 3D industrial product animation with technical lighting and campaign ready finish.",
+        "title": "ATX 3D průmyslová animace",
+        "description": "3D animace průmyslových produktů formátu ATX s technickým osvětlením a povrchovou úpravou připravenou na kampaň.",
         "tags": {
-          "0": "Industrial",
+          "0": "Průmyslový",
           "1": "ATX"
         }
       },
       "prov-gap-p1": {
-        "title": "Prov GAP 3D Industrial Animation",
-        "description": "Prov GAP industrial product animation with mechanical detail and cinematic presentation.",
+        "title": "Prov GAP 3D průmyslová animace",
+        "description": "Animace průmyslového produktu Prov GAP s mechanickým detailem a filmovou prezentací.",
         "tags": {
-          "0": "Industrial",
+          "0": "Průmyslový",
           "1": "Prov GAP"
         }
       },
       "autoz-crave-p1": {
-        "title": "Autoz Crave Industrial Animation",
-        "description": "Autoz Crave 3D industrial product video with mechanical technical animation and commercial polish.",
+        "title": "Průmyslová animace Autoz Crave",
+        "description": "Autoz Crave 3D průmyslové produktové video s mechanickou technickou animací a komerčním leskem.",
         "tags": {
-          "0": "Industrial",
+          "0": "Průmyslový",
           "1": "Autoz Crave"
         }
       }
@@ -1380,7 +1380,7 @@
         "items": {
           "01": {
             "question": "Na jakých typech projektů pracujete?",
-            "answer": "We produce animation, VFX, cinematics, motion graphics, product films, and brand films for film, series, advertising, and DTC brands. Briefs range from single hero assets to full campaign packages."
+            "answer": "Vyrábíme animaci, VFX, kinematografii, pohyblivou grafiku, produktové filmy a značkové filmy pro filmové, seriálové, reklamní a DTC značky. Slipy sahají od prostředků pro jednoho hrdinu až po kompletní balíčky kampaní."
           },
           "02": {
             "question": "Kde sídlí Starlights Visuals?",
@@ -1397,15 +1397,15 @@
         "items": {
           "01": {
             "question": "Jaké služby nabízíte?",
-            "answer": "Our core services include 2D and 3D animation, VFX, character and concept art, motion graphics, product animation, and cinematic trailers. We can handle individual disciplines or full pipeline production."
+            "answer": "Mezi naše základní služby patří 2D a 3D animace, VFX, umění postav a konceptů, pohyblivá grafika, animace produktů a filmové upoutávky. Zvládneme jednotlivé obory nebo kompletní potrubní výrobu."
           },
           "02": {
             "question": "Spolupracujete s indie týmy i velkými studii?",
-            "answer": "Yes. We partner with indie creators, mid size studios, and global brands. Scope and team size flex to match your budget and timeline without compromising craft."
+            "answer": "Ano. Spolupracujeme s nezávislými tvůrci, středně velkými studii a světovými značkami. Rozsah a velikost týmu se přizpůsobí vašemu rozpočtu a časové ose bez kompromisů v řemesle."
           },
           "03": {
             "question": "Dokážete navázat na náš stávající art style?",
-            "answer": "Absolutely. We start with style frames and a look development pass aligned to your brand guidelines or visual world before committing to full production."
+            "answer": "Absolutně. Začínáme se stylovými rámečky a průkazem vývoje vzhledu v souladu s pokyny vaší značky nebo vizuálním světem, než se pustíme do plné výroby."
           }
         }
       },
@@ -1432,26 +1432,28 @@
     "ctaButton": "Kontaktujte nás"
   },
   "writeReviewPage": {
-    "label": "Client reviews",
-    "title": "WRITE YOURS",
-    "subtitle": "Worked with Starlights Visuals? Share your experience so other brands can see the results.",
-    "name": "Your name",
-    "email": "Email",
-    "emailOptional": "Optional, not shown publicly",
-    "role": "Your role",
-    "company": "Company",
-    "rating": "Rating",
-    "headline": "Headline",
-    "headlinePlaceholder": "A short line that captures your experience",
-    "quote": "Your review",
-    "quotePlaceholder": "Tell us about the collaboration, communication, quality, and results…",
-    "submit": "Submit review",
-    "submitting": "Submitting…",
-    "successTitle": "Thank you",
-    "successDesc": "Your review was received. It will appear on the site after a quick approval check.",
-    "backHome": "Back to home",
-    "errorConfig": "Review submissions are temporarily unavailable. Please try again later.",
-    "errorQuoteShort": "Please write at least 20 characters in your review.",
-    "errorGeneric": "Something went wrong while sending your review. Please try again."
+    "label": "Recenze klientů",
+    "title": "NAPIŠTE SVŮJ",
+    "subtitle": "Pracoval(a) jste se Starlights Visuals? Podělte se o své zkušenosti, aby ostatní značky viděly výsledky.",
+    "name": "Vaše jméno",
+    "email": "E-mail",
+    "emailOptional": "Volitelné, nezobrazuje se veřejně",
+    "role": "Vaše role",
+    "company": "Společnost",
+    "rating": "Hodnocení",
+    "headline": "Titulek",
+    "headlinePlaceholder": "Krátký řádek, který zachycuje váš zážitek",
+    "quote": "Vaše recenze",
+    "quotePlaceholder": "Řekněte nám o spolupráci, komunikaci, kvalitě a výsledcích…",
+    "submit": "Odeslat recenzi",
+    "submitting": "Odesílání…",
+    "successTitle": "Děkuju",
+    "successDesc": "Vaše recenze byla přijata. Na webu se objeví po rychlé kontrole schválení.",
+    "backHome": "Zpátky domů",
+    "errorConfig": "Odeslané recenze jsou dočasně nedostupné. Zkuste to znovu později.",
+    "errorQuoteShort": "Napište prosím do recenze alespoň 20 znaků.",
+    "errorGeneric": "Při odesílání vaší recenze se něco pokazilo. Zkuste to prosím znovu.",
+    "metaTitle": "Napsat recenzi | Vizuály Starlights",
+    "metaDescription": "Podělte se o své zkušenosti s prací se Starlights Visuals. Napište recenzi klienta pro naše reference."
   }
 }

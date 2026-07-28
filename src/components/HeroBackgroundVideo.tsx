@@ -92,10 +92,12 @@ export function HeroBackgroundVideo({ className }: HeroBackgroundVideoProps) {
         loop
         playsInline
         preload="auto"
-        className="absolute inset-0 h-full w-full object-cover opacity-90"
+        className="absolute inset-0 h-full w-full object-cover opacity-100"
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/45 to-transparent lg:via-background/30" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_80%_at_20%_50%,oklch(0.05_0_0/0.55),transparent_65%)]" />
+      {/* Fixed dark scrims so light mode never washes the video with page background */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/45 to-black/15 lg:from-black/75 lg:via-black/30 lg:to-transparent" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_80%_at_20%_50%,oklch(0_0_0/0.5),transparent_65%)]" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/25" />
     </div>
   );
 }

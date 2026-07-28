@@ -1,9 +1,9 @@
 {
   "brand": {
     "name": "Starlights Visuals",
-    "star": "STAR",
-    "lights": "LIGHTS",
-    "visuals": "VISUALS",
+    "star": "星星",
+    "lights": "灯",
+    "visuals": "视觉效果",
     "email": "sternlichtespeciale@gmail.com"
   },
   "nav": {
@@ -16,15 +16,15 @@
     "contact": "联系",
     "portfolioCta": "作品集 →",
     "faq": "常见问题",
-    "writeReview": "Write a review"
+    "writeReview": "写评论"
   },
   "header": {
     "closeMenu": "关闭菜单",
     "openMenu": "打开菜单",
     "closeSidebar": "关闭侧边栏",
     "openSidebar": "打开侧边栏",
-    "switchToLight": "Switch to light mode",
-    "switchToDark": "Switch to dark mode"
+    "switchToLight": "切换到灯光模式",
+    "switchToDark": "切换到深色模式"
   },
   "languageSwitcher": {
     "label": "语言",
@@ -45,65 +45,65 @@
     "emailPlaceholder": "your@email.com",
     "join": "订阅",
     "subscribed": "✦ 欢迎加入 Starlights。",
-    "tagline": "A creative studio bringing imagination to life through cinematic 2D animation, high quality 3D experiences, and VFX.",
+    "tagline": "一家创意工作室，通过电影 2D 动画、高品质 3D 体验和视觉特效将想象力变为现实。",
     "explore": "探索",
     "follow": "关注",
     "social": "社交链接",
     "copyright": "© {{year}} Starlights Visuals. 以光与代码精心打造。",
-    "joining": "Joining…",
-    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
+    "joining": "正在加入……",
+    "subscribeError": "目前无法订阅。请重试或直接给我们发电子邮件。"
   },
   "home": {
-    "metaTitle": "Starlights Visuals | Animation & VFX Studio",
-    "metaDescription": "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
-    "heroScript": "Stories in motion,",
-    "heroTitle1": "ANIMATION",
-    "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals brings stories to life with animation and visual effects that captivate audiences and elevate every frame. We animate fantasy creatures, human characters, vehicles, environments, props, and hard surface objects for film, series, advertising, and brand campaigns.",
-    "heroAlt": "Starlights Visuals cinematic hero",
-    "seePortfolio": "See Portfolio",
-    "startProject": "Start a Project",
-    "servicesLabel": "What we do",
-    "servicesTitle": "SERVICES",
-    "allServices": "All Services",
-    "showcaseLabel": "Recent work",
-    "showcaseTitle1": "SELECTED",
-    "showcaseTitle2": "WORK",
-    "fullPortfolio": "Full Portfolio",
-    "viewAllFaq": "View all FAQ",
-    "ctaScript": "Let's build something,",
-    "ctaTitle1": "READY TO",
-    "ctaTitle2": "COLLABORATE?",
+    "metaTitle": "星光视觉 |动画和视觉特效工作室",
+    "metaDescription": "一家致力于 2D 和 3D 动画、视觉特效和电影叙事的创意工作室。我们将世界、人物和电影带入生活。",
+    "heroScript": "故事在动 —",
+    "heroTitle1": "动画",
+    "heroTitle2": "& 视觉特效",
+    "heroBody": "Starlights Visuals 用动画与视觉特效让故事鲜活起来，吸引观众并提升每一帧。我们为电影、剧集、广告与品牌活动制作奇幻生物、人物、载具、环境、道具与硬表面物体的动画。",
+    "heroAlt": "星光视觉电影英雄",
+    "seePortfolio": "查看投资组合",
+    "startProject": "开始一个项目",
+    "servicesLabel": "我们做什么",
+    "servicesTitle": "服务",
+    "allServices": "所有服务",
+    "showcaseLabel": "最近的工作",
+    "showcaseTitle1": "已选",
+    "showcaseTitle2": "工作",
+    "fullPortfolio": "完整的产品组合",
+    "viewAllFaq": "查看所有常见问题解答",
+    "ctaScript": "让我们构建一些东西，",
+    "ctaTitle1": "准备好",
+    "ctaTitle2": "合作？",
     "services": {
       "01": {
-        "title": "Animation & VFX",
-        "desc": "Cinematic 2D & 3D animation, character rigs, and visual effects for film, series, and brands."
+        "title": "动画与视觉特效",
+        "desc": "电影、连续剧和品牌的电影 2D 和 3D 动画、角色装备和视觉效果。"
       },
       "02": {
-        "title": "Product Animation",
-        "desc": "Photoreal product films, packshots, and CGI that make every detail sell."
+        "title": "产品动画",
+        "desc": "照片真实的产品影片、包装照片和 CGI​​ 使每个细节都具有吸引力。"
       },
       "03": {
-        "title": "Concept & Character Art",
-        "desc": "Original characters, creatures, environments, and props that anchor your IP."
+        "title": "概念与角色艺术",
+        "desc": "原创角色、生物、环境和道具为您的 IP 奠定基础。"
       },
       "04": {
-        "title": "Cinematic Trailers",
-        "desc": "Story driven trailers built to launch brands, IPs, and campaigns."
+        "title": "电影预告片",
+        "desc": "故事驱动的预告片旨在推出品牌、IP 和活动。"
       }
     },
     "showcase": {
       "character": {
-        "tag": "3D Animation",
-        "title": "3D Animation"
+        "tag": "3D动画",
+        "title": "3D动画"
       },
       "gameArt": {
-        "tag": "Motion Graphics",
-        "title": "Motion Graphics"
+        "tag": "动态图形",
+        "title": "动态图形"
       },
       "animation2d": {
-        "tag": "2D Animation",
-        "title": "2D Animation"
+        "tag": "2D 动画",
+        "title": "2D 动画"
       },
       "cinematic": {
         "tag": "VFX",
@@ -111,16 +111,16 @@
       },
       "creature": {
         "tag": "3D",
-        "title": "Industrial Animation"
+        "title": "工业动画"
       },
       "motion": {
         "tag": "3D",
-        "title": "Product Animation"
+        "title": "产品动画"
       }
     }
   },
   "trustedBy": {
-    "badge": "200+ COMPANY",
+    "badge": "200+公司",
     "trusted": "信赖",
     "by": "于"
   },
@@ -139,136 +139,136 @@
     "playAria": "播放 {{name}} 的视频评价",
     "items": {
       "hauke": {
-        "headline": "Efficient, reliable, and highly recommended",
-        "quote": "Starlight Visuals supported us in creating a CGI video for SmarAct Automation, with the goal of presenting our core competencies in a clear, professional, and visually engaging way. The collaboration was highly efficient and reliable from start to finish. We especially appreciated the fast response times, quick turnaround, strong communication, and dependable delivery of the final files. Our requirements were understood quickly and implemented professionally. We are very satisfied with the result and can confidently recommend Starlight Visuals for high-quality CGI and visual content projects.",
-        "role": "Digital Marketing & Content Manager"
+        "headline": "高效、可靠、强烈推荐",
+        "quote": "Starlight Visuals 支持我们为 SmarAct Automation 创建 CGI 视频，目标是以清晰、专业且具有视觉吸引力的方式展示我们的核心能力。此次合作自始至终都非常高效且可靠。我们特别赞赏快速的响应时间、快速的周转、强有力的沟通以及最终文件的可靠交付。我们的要求很快被理解并得到专业实施。我们对结果非常满意，并且可以自信地推荐 Starlight Visuals 进行高质量的 CGI 和视觉内容项目。",
+        "role": "数字营销和内容经理"
       },
       "jeremy": {
-        "headline": "From sketches to a finished helmet film",
-        "quote": "Working with Starlight Visuals was a great experience from start to finish. They didn't just create an animation they were involved throughout the entire process, from refining our initial sketches to supporting the CAD development and delivering a final helmet animation that brought our concept to life. What stood out most was how quickly they understood the product and translated technical details into visuals that were both accurate and engaging. The final presentation video gave us a professional way to showcase our helmet design to partners and stakeholders. They were responsive, easy to collaborate with, and genuinely cared about getting every detail right. I'd gladly recommend them to anyone looking for high-quality product animation and visualization.",
-        "role": "Founder"
+        "headline": "从草图到成品头盔膜",
+        "quote": "与 Starlight Visuals 合作从始至终都是一次很棒的经历。他们不仅制作了动画，还参与了整个过程，从完善我们的初始草图到支持 CAD 开发，再到交付最终的头盔动画，将我们的概念变为现实。最引人注目的是他们理解产品并将技术细节转化为准确且引人入胜的视觉效果的速度。最终的演示视频为我们提供了一种专业的方式来向合作伙伴和利益相关者展示我们的头盔设计。他们反应敏捷，易于合作，并且真诚地关心每个细节的正确性。我很乐意将它们推荐给任何寻求高质量产品动画和可视化的人。",
+        "role": "创始人"
       },
       "raiv": {
-        "headline": "They genuinely cared about every character",
-        "quote": "I really enjoyed working with the team. It felt like they genuinely cared about the project and wanted the characters to look and feel right. Communication was always easy, they were open to feedback, and every revision was handled without any hassle. Seeing our NSFW characters come to life was exciting.",
-        "role": "Game Director"
+        "headline": "他们真诚地关心每一个角色",
+        "quote": "我真的很喜欢和团队一起工作。感觉他们真的很关心这个项目，并希望角色看起来和感觉都不错。沟通总是很容易，他们愿意接受反馈，并且每次修改都可以顺利处理。看到我们的 NSFW 角色栩栩如生真是令人兴奋。",
+        "role": "游戏总监"
       },
       "ilija": {
-        "headline": "Clear visuals for electric vehicle technology",
-        "quote": "They helped shape our PHR concept creatively and deliver amazing video making sure the visuals clearly communicate how our electric vehicle technology works. Their attention to detail, creativity, and willingness to iterate made the entire process smooth. The final animation gave us a much clearer way to present our product to partners and stakeholders.",
-        "role": "Founder"
+        "headline": "电动汽车技术的清晰视觉效果",
+        "quote": "他们帮助创造性地塑造了我们的 PHR 概念，并提供了令人惊叹的视频，确保视觉效果清楚地传达我们的电动汽车技术的工作原理。他们对细节的关注、创造力和迭代的意愿使得整个过程顺利进行。最终的动画为我们提供了一种更清晰的方式来向合作伙伴和利益相关者展示我们的产品。",
+        "role": "创始人"
       },
       "luigi": {
-        "headline": "Exactly what we needed for M12 and B12",
-        "quote": "We needed a clear way to show the differences between our M12 and B12 products, and Starlight Visuals delivered exactly what we were looking for. The animations were high quality, easy to understand, and captured every important detail.",
-        "role": "Production Manager"
+        "headline": "正是我们 M12 和 B12 所需要的",
+        "quote": "我们需要一种清晰的方式来展示 M12 和 B12 产品之间的差异，而 Starlight Visuals 正是我们所寻求的。动画质量高、易于理解，并捕捉到了每一个重要的细节。",
+        "role": "生产经理"
       },
       "jason": {
-        "headline": "Outstanding quality beyond what we imagined",
-        "quote": "The quality of the animation was outstanding. Starlight Visuals helped us present our product in a way that was clear, engaging, and memorable. The final presentation looked far better than we had imagined.",
-        "role": "CEO"
+        "headline": "卓越品质超乎我们的想象",
+        "quote": "动画的质量非常出色。星光视觉帮助我们以清晰、引人入胜且令人难忘的方式展示我们的产品。最终的演示看起来比我们想象的要好得多。",
+        "role": "首席执行官"
       },
       "burkhard": {
-        "headline": "Made a complex product easy to explain",
-        "quote": "We knew our product was strong, but explaining it clearly to customers was always the challenge. The team at Starlight Visuals took the time to understand how everything works and turned it into an animation that made the message much easier to communicate. It looks professional, keeps people's attention, and helps us present the product with much more confidence. The whole process was straightforward, and they were easy to work with. We're very happy with the result.",
-        "role": "Head of Sales"
+        "headline": "使复杂的产品变得易于解释",
+        "quote": "我们知道我们的产品很强大，但向客户清楚地解释它始终是一个挑战。 Starlight Visuals 的团队花时间了解一切的工作原理，并将其转化为动画，使信息更容易传达。它看起来很专业，可以吸引人们的注意力，并帮助我们更有信心地展示产品。整个过程很简单，而且很容易合作。我们对结果非常满意。",
+        "role": "销售主管"
       },
       "robert": {
-        "headline": "Premium watch films beyond what we imagined",
-        "quote": "There was a clear vision for how we wanted our watches to be presented, but Starlight Visuals took it beyond what we imagined. They didn't just animate our product they captured the details, precision, and premium quality that define our brand. The final presentation gave our collection a level of sophistication that instantly elevated how customers perceived it. The entire process was smooth, collaborative, and professionally handled from start to finish.",
-        "role": "Founder"
+        "headline": "超出我们想象的优质观看电影",
+        "quote": "对于如何展示我们的手表，我们有一个清晰的愿景，但 Starlight Visuals 的表现超出了我们的想象。他们不仅为我们的产品赋予了活力，还捕捉到了定义我们品牌的细节、精度和优质品质。最终的展示使我们的系列达到了一定的复杂程度，立即提升了客户的感知。整个过程从开始到结束都很顺利、协作且专业。",
+        "role": "创始人"
       }
     },
     "videoRoles": {
-      "ceo": "CEO",
-      "artDirector": "Art Director",
-      "founder": "Founder",
-      "headProduction": "Head of Production",
-      "vpMarketing": "VP Marketing",
-      "coFounder": "Co Founder"
+      "ceo": "首席执行官",
+      "artDirector": "艺术总监",
+      "founder": "创始人",
+      "headProduction": "生产主管",
+      "vpMarketing": "营销副总裁",
+      "coFounder": "联合创始人"
     },
-    "seeMore": "See more",
-    "seeLess": "See less",
-    "writeYours": "Write yours",
-    "tapToRead": "Tap to read full review"
+    "seeMore": "查看更多",
+    "seeLess": "少见",
+    "writeYours": "写下你的",
+    "tapToRead": "点击阅读完整评论"
   },
   "servicesPage": {
-    "metaTitle": "Services | Starlights Visuals",
-    "metaDescription": "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
-    "label": "What We Build",
-    "title": "SERVICES",
-    "subtitle": "One studio, every stage of production, from first sketch to final pixel.",
-    "ctaTitle1": "HAVE A",
-    "ctaTitle2": "PROJECT",
-    "ctaTitle3": "IN MIND?",
-    "ctaDesc": "Tell us your vision, we'll bring the firepower.",
-    "ctaButton": "Get In Touch",
+    "metaTitle": "服务 |星光视觉效果",
+    "metaDescription": "2D 动画、3D 动画、角色设计、动态图形、视觉特效、产品动画和电影预告片。",
+    "label": "我们建造什么",
+    "title": "服务",
+    "subtitle": "一个工作室，每个制作阶段，从第一个草图到最终像素。",
+    "ctaTitle1": "有一个",
+    "ctaTitle2": "项目",
+    "ctaTitle3": "记住了吗？",
+    "ctaDesc": "告诉我们您的愿景，我们将为您带来火力。",
+    "ctaButton": "联系我们",
     "items": {
       "2d": {
-        "title": "2D Animation",
-        "desc": "Frame by frame & rigged 2D for series, shorts, explainers, and brand films. We blend classic craft with digital pipelines."
+        "title": "2D 动画",
+        "desc": "连续剧、短片、解说片和品牌影片的逐帧和绑定 2D。我们将经典工艺与数字管道融合在一起。"
       },
       "3d": {
-        "title": "3D Animation",
-        "desc": "Stylized and photoreal 3D, characters, environments, and full cinematic sequences with feature quality polish."
+        "title": "3D动画",
+        "desc": "风格化且逼真的 3D、角色、环境和完整的电影序列，具有特征质量的润色。"
       },
       "character": {
-        "title": "Character Design",
-        "desc": "Original characters, creatures, and concept art that anchor your IP and merch potential."
+        "title": "角色设计",
+        "desc": "原创角色、生物和概念艺术可以锚定您的 IP 和商品潜力。"
       },
       "motion": {
-        "title": "Motion Graphics",
-        "desc": "Branded motion, UI animation, broadcast packages, and explainer videos with cinematic polish."
+        "title": "动态图形",
+        "desc": "品牌动作、UI 动画、广播包和经过电影打磨的解说视频。"
       },
       "vfx": {
-        "title": "Visual Effects (VFX)",
-        "desc": "Compositing, particle FX, and CG integration for film, advertising, and digital campaigns."
+        "title": "视觉效果（VFX）",
+        "desc": "适用于电影、广告和数字活动的合成、粒子 FX 和 CG 集成。"
       },
       "trailer": {
-        "title": "Cinematic Trailers",
-        "desc": "Story driven trailers built to launch brands, IPs, and campaigns with maximum impact."
+        "title": "电影预告片",
+        "desc": "故事驱动的预告片旨在推出具有最大影响力的品牌、IP 和活动。"
       }
     }
   },
   "aboutPage": {
-    "metaTitle": "About | Starlights Visuals",
-    "metaDescription": "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, game animation, product visualization, and 2D & 3D character animation.",
-    "label": "Who We Are",
-    "title1": "A STUDIO BUILT ON",
-    "title2": "LIGHT, CODE & STORY",
-    "p1": "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, game animation, product visualization, and 2D & 3D character animation. We combine artistic excellence with cutting-edge technology to transform ideas into visuals that captivate, educate, and inspire. From engineering-driven industrial animations and photorealistic product renders to stylized cartoons, expressive character performances, and cinematic game sequences, we create animation that delivers both visual impact and meaningful results.",
-    "p2": "Whether showcasing a product's innovation, bringing a game universe to life, or crafting memorable animated characters, every frame is designed with purpose and precision. Our multidisciplinary team of animators, technical artists, modelers, riggers, motion designers, and visual storytellers collaborates seamlessly to produce work that meets the highest creative and technical standards. We believe great animation does more than look beautiful, it communicates complex ideas, strengthens brands, and creates lasting emotional connections.",
-    "p3": "We partner with manufacturers, product companies, game developers, creative agencies, and global brands to deliver premium animation for marketing, product launches, training, entertainment, advertising, and digital experiences. Every project is driven by innovation, craftsmanship, and an uncompromising commitment to quality. At Starlight Visuals, we don't simply animate, we engineer experiences, build unforgettable characters, and create visuals that move people and businesses forward.",
-    "valuesLabel": "Core Values",
-    "valuesTitle": "WHAT DRIVES US",
+    "metaTitle": "关于 |星光视觉效果",
+    "metaDescription": "Starlight Visuals 是一家世界一流的动画工作室，在工业产品动画、游戏动画、产品可视化以及 2D 和 3D 角色动画领域创造卓越的视觉体验。",
+    "label": "我们是谁",
+    "title1": "工作室建立在",
+    "title2": "灯光、代码和故事",
+    "p1": "Starlight Visuals 是一家世界一流的动画工作室，在工业产品动画、游戏动画、产品可视化以及 2D 和 3D 角色动画领域创造卓越的视觉体验。我们将卓越的艺术与尖端技术相结合，将想法转化为具有吸引力、教育意义和启发性的视觉效果。从工程驱动的工业动画和逼真的产品渲染到风格化的卡通、富有表现力的角色表演和电影游戏序列，我们创作的动画既具有视觉冲击力，又具有有意义的结果。",
+    "p2": "无论是展示产品的创新、将游戏世界带入生活，还是制作令人难忘的动画角色，每一帧的设计都是有目的和精确的。我们的多学科团队由动画师、技术美术师、建模师、装配师、动作设计师和视觉故事讲述者组成，他们无缝协作，制作出符合最高创意和技术标准的作品。我们相信，优秀的动画不仅仅是看起来漂亮，它还能传达复杂的想法、强化品牌并建立持久的情感联系。",
+    "p3": "我们与制造商、产品公司、游戏开发商、创意机构和全球品牌合作，为营销、产品发布、培训、娱乐、广告和数字体验提供优质动画。每个项目都由创新、工艺和对质量的坚定承诺驱动。在 Starlight Visuals，我们不只是制作动画，我们还设计体验、打造令人难忘的角色，并创造推动人们和企业前进的视觉效果。",
+    "valuesLabel": "核心价值观",
+    "valuesTitle": "是什么驱使我们",
     "values": {
       "imagination": {
-        "title": "Imagination First",
-        "desc": "Every project starts with a bold idea and a blank canvas."
+        "title": "想象力第一",
+        "desc": "每个项目都始于一个大胆的想法和一张空白的画布。"
       },
       "craft": {
-        "title": "Craft Obsessed",
-        "desc": "Frame by frame, pixel by pixel, quality is non negotiable."
+        "title": "痴迷工艺",
+        "desc": "逐帧、逐像素，质量不容妥协。"
       },
       "energy": {
-        "title": "Cinematic Energy",
-        "desc": "We chase the goosebumps. If it doesn't move us, we refine."
+        "title": "电影能量",
+        "desc": "我们追逐起鸡皮疙瘩。如果它不能打动我们，我们就会改进。"
       },
       "story": {
-        "title": "Story Driven",
-        "desc": "Tech serves story. Always."
+        "title": "故事驱动",
+        "desc": "科技为故事服务。总是。"
       }
     },
     "stats": {
-      "projects": "Projects Shipped",
-      "clients": "Global Clients",
-      "awards": "Awards Won",
-      "years": "Years Crafting"
+      "projects": "已发货项目",
+      "clients": "全球客户",
+      "awards": "荣获奖项",
+      "years": "岁月匠心"
     }
   },
   "contactPage": {
     "metaTitle": "联系 | Starlights Visuals",
-    "metaDescription": "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
+    "metaDescription": "与 Starlights Visuals 联系，了解 2D 和 3D 动画、动态图形、视觉特效、产品动画和电影预告片项目。",
     "label": "聊聊吧",
     "title": "联系",
     "subtitle": "制作咨询、合作意向，或只是打个招呼, 给我们发个信号。",
@@ -287,59 +287,59 @@
     "responseTime": "回复时间",
     "responseDesc": "24 小时内，周一至周五。",
     "projectTypes": {
-      "2d": "2D Animation",
-      "3d": "3D Animation",
-      "trailer": "Cinematic Trailer",
-      "character": "Character Design",
-      "motion": "Motion Graphics and VFX",
-      "other": "Other"
+      "2d": "2D 动画",
+      "3d": "3D动画",
+      "trailer": "电影预告片",
+      "character": "角色设计",
+      "motion": "动态图形和视觉特效",
+      "other": "其他"
     },
-    "sending": "Sending…",
-    "errorGeneric": "Could not send your message. Please email us directly or try again."
+    "sending": "正在发送...",
+    "errorGeneric": "无法发送您的消息。请直接给我们发电子邮件或重试。"
   },
   "portfolioPage": {
     "metaTitle": "作品集 | Starlights Visuals",
-    "metaDescription": "Selected projects: animated series, cinematic trailers, character designs, and studio showcase reels by Starlights Visuals.",
+    "metaDescription": "选定的项目：星光视觉公司的动画系列、电影预告片、角色设计和工作室展示卷轴。",
     "label": "精选作品",
     "title1": "作品",
     "title2": "集",
     "subtitle": "一窥我们助力诞生的世界、角色与故事。",
     "projects": {
       "trailer": {
-        "tag": "Cinematic Trailer",
-        "title": "Iron Sentinel",
-        "desc": "Cinematic brand launch trailer."
+        "tag": "电影预告片",
+        "title": "钢铁哨兵",
+        "desc": "电影品牌发布预告片。"
       },
       "character": {
-        "tag": "Character Design",
-        "title": "Nova Vanguard",
-        "desc": "Hero protagonist sheet."
+        "tag": "角色设计",
+        "title": "新星先锋",
+        "desc": "英雄主角表。"
       },
       "2d": {
-        "tag": "2D Animation",
-        "title": "Neon Skyline",
-        "desc": "Anime inspired pilot episode."
+        "tag": "2D 动画",
+        "title": "霓虹天际线",
+        "desc": "受动漫启发的试播集。"
       },
       "creature": {
-        "tag": "Creature Design",
-        "title": "Crystal Wyrm",
-        "desc": "Boss creature concept."
+        "tag": "生物设计",
+        "title": "水晶龙",
+        "desc": "老大生物概念。"
       },
       "motion": {
-        "tag": "Motion Graphics",
-        "title": "Pulse Identity",
-        "desc": "Brand motion system."
+        "tag": "动态图形",
+        "title": "脉冲识别",
+        "desc": "品牌运动系统。"
       },
       "motionEnv": {
-        "tag": "Motion Graphics",
-        "title": "Pulse Worlds",
-        "desc": "Immersive brand environment art."
+        "tag": "动态图形",
+        "title": "脉冲世界",
+        "desc": "沉浸式品牌环境艺术。"
       }
     }
   },
   "blogPage": {
     "metaTitle": "博客 | Starlights Visuals",
-    "metaDescription": "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
+    "metaDescription": "Starlights Visuals 对动画、视觉特效、电影预告片和优质品牌故事讲述的见解。",
     "label": "工作室日志",
     "title1": "博",
     "title2": "客",
@@ -349,50 +349,50 @@
     "startProject": "启动项目",
     "moreFromJournal": "更多日志文章",
     "postBody1": "在 Starlights Visuals，我们将每一帧视为转化机会, 而非仅仅是精美画面。本文深入探讨我们 {{category}} 作品背后的思路，以及区分优秀创意与可上线创意的关键决策。",
-    "postBody2": "Whether you are shipping a trailer, scaling a brand motion system, or building campaign visuals for a live product, the same principle applies: clarity of story first, polish second, and ruthless editing last. That discipline is how teams hit deadlines without the almost there feeling.",
+    "postBody2": "无论您是要发布预告片、扩展品牌动态系统，还是为现场产品构建营销活动视觉效果，都适用相同的原则：首先是故事的清晰度，其次是润色，最后是无情的编辑。这种纪律就是团队如何在截止日期前完成任务而没有快要完成的感觉的。",
     "postBody3": "想将这一思路应用于您的下一个项目？我们很乐意了解您正在打造的内容, 发送简报，我们将规划从概念到交付的电影级路径。",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "Why cinematic trailers convert better than product demos",
-        "excerpt": "Story first launch films build emotional stakes before the CTA. Here is how we structure hooks, pacing, and grade for maximum retention.",
-        "category": "Strategy",
-        "date": "May 12, 2026",
-        "readTime": "6 min read"
+        "title": "为什么电影预告片的转化效果比产品演示更好",
+        "excerpt": "故事首映电影在 CTA 之前建立了情感赌注。以下是我们如何构建挂钩、节奏和等级以实现最大程度的保留。",
+        "category": "战略",
+        "date": "2026 年 5 月 12 日",
+        "readTime": "6 分钟阅读"
       },
       "character-design-for-ip": {
-        "title": "Character design that anchors your IP across every channel",
-        "excerpt": "From silhouette readability to merch ready turnarounds, the checklist we use before a hero goes into production.",
-        "category": "Craft",
-        "date": "May 3, 2026",
-        "readTime": "5 min read"
+        "title": "角色设计将您的 IP 锚定在各个渠道",
+        "excerpt": "从轮廓可读性到商品准备周转，我们在英雄投入生产之前使用的清单。",
+        "category": "工艺",
+        "date": "2026 年 5 月 3 日",
+        "readTime": "5 分钟阅读"
       },
       "motion-systems-for-brands": {
-        "title": "Building motion systems brands can actually reuse",
-        "excerpt": "Modular motion libraries, logo stings, and UI micro interactions that keep campaigns consistent at scale.",
-        "category": "Motion",
-        "date": "Apr 8, 2026",
-        "readTime": "4 min read"
+        "title": "构建真正可以重复利用的运动系统品牌",
+        "excerpt": "模块化运动库、徽标刺痛和 UI 微交互可保持活动在规模上的一致性。",
+        "category": "运动",
+        "date": "2026 年 4 月 8 日",
+        "readTime": "4 分钟阅读"
       },
       "2d-animation-in-2026": {
-        "title": "2D animation in 2026: hybrid pipelines that still feel handmade",
-        "excerpt": "Combining rigged efficiency with frame by frame accents, when to push each technique for premium results.",
-        "category": "Animation",
-        "date": "Mar 29, 2026",
-        "readTime": "7 min read"
+        "title": "2026 年的 2D 动画：仍然感觉手工制作的混合管道",
+        "excerpt": "将操纵效率与逐帧强调相结合，何时推动每种技术以获得优质结果。",
+        "category": "动画片",
+        "date": "2026 年 3 月 29 日",
+        "readTime": "7 分钟阅读"
       },
       "creature-design-breakdown": {
-        "title": "Creature design breakdown: from mood board to final rig",
-        "excerpt": "A look at how we develop boss creatures with readable silhouettes, material storytelling, and cinematic presence.",
-        "category": "Craft",
-        "date": "Mar 14, 2026",
-        "readTime": "6 min read"
+        "title": "生物设计分解：从情绪板到最终装备",
+        "excerpt": "看看我们如何开发具有可读轮廓、材料故事叙述和电影效果的 Boss 生物。",
+        "category": "工艺",
+        "date": "2026 年 3 月 14 日",
+        "readTime": "6 分钟阅读"
       },
       "production-pipelines-that-ship": {
-        "title": "Production pipelines that ship: concept to final delivery",
-        "excerpt": "How we align art direction, technical constraints, and milestone reviews so teams ship on time without sacrificing polish.",
-        "category": "Production",
-        "date": "Apr 21, 2026",
-        "readTime": "8 min read"
+        "title": "交付的生产管道：概念到最终交付",
+        "excerpt": "我们如何协调艺术指导、技术限制和里程碑审查，以便团队在不牺牲完美的情况下按时交付。",
+        "category": "生产",
+        "date": "2026 年 4 月 21 日",
+        "readTime": "8 分钟阅读"
       }
     }
   },
@@ -409,8 +409,8 @@
     "goHome": "返回首页"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals | Animation & VFX Studio",
-    "rootDescription": "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
+    "rootTitle": "星光视觉 |动画和视觉特效工作室",
+    "rootDescription": "Starlights Visuals 是一家专门从事电影 2D 动画、高品质 3D 动画和视觉特效的创意工作室。",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -421,48 +421,48 @@
     "logoAlt": "{{brand}} 标志"
   },
   "works": {
-    "breadcrumbLabel": "Breadcrumb",
-    "breadcrumbHome": "Home",
-    "breadcrumbWorks": "Selected Works",
-    "clientsTitle": "Clients We've Worked With",
-    "clientsCount": "{{count}} clients",
-    "projectsCompleted": "{{count}} projects completed",
-    "timeline": "Timeline",
-    "services": "Services provided",
-    "tools": "Tools & software",
-    "searchPlaceholder": "Search projects…",
-    "filterYear": "Filter by year",
-    "allYears": "All years",
-    "noClients": "No clients in this category yet.",
-    "noProjects": "No projects match your filters.",
-    "projectsTitle": "Project Samples",
-    "relatedProjects": "Related projects",
-    "closePreview": "Close preview",
-    "ctaScript": "Ready when you are,",
-    "ctaTitle": "Start Your Project With Us",
-    "ctaDesc": "Tell us about your brand, timeline, and goals. We'll map a cinematic path from concept to delivery.",
-    "ctaButton": "Start a project",
-    "portfolioHubDesc": "Explore work by category, animation, VFX, motion, and more.",
+    "breadcrumbLabel": "面包屑",
+    "breadcrumbHome": "家",
+    "breadcrumbWorks": "选集",
+    "clientsTitle": "我们合作过的客户",
+    "clientsCount": "{{count}} 个客户",
+    "projectsCompleted": "已完成 {{count}} 个项目",
+    "timeline": "时间轴",
+    "services": "提供的服务",
+    "tools": "工具和软件",
+    "searchPlaceholder": "搜索项目...",
+    "filterYear": "按年份过滤",
+    "allYears": "所有年份",
+    "noClients": "此类别还没有客户。",
+    "noProjects": "没有项目符合您的筛选条件。",
+    "projectsTitle": "项目样本",
+    "relatedProjects": "相关项目",
+    "closePreview": "关闭预览",
+    "ctaScript": "当你准备好时，",
+    "ctaTitle": "与我们一起启动您的项目",
+    "ctaDesc": "告诉我们您的品牌、时间表和目标。我们将绘制从概念到交付的电影路径。",
+    "ctaButton": "开始一个项目",
+    "portfolioHubDesc": "按类别、动画、视觉特效、动作等探索作品。",
     "categories": {
       "2d-animation": {
         "title": "2D 动画",
-        "tagline": "Frame by frame craft for campaigns and series",
-        "description": "Character driven 2D animation for commercials, explainers, and episodic content with bold motion and cinematic timing."
+        "tagline": "用于活动和系列的逐帧工艺",
+        "description": "角色驱动的 2D 动画，适用于广告、解说和情景内容，具有大胆的动作和电影般的时机。"
       },
       "3d-animation": {
-        "title": "3D 动画",
-        "tagline": "Stylized and photoreal 3D for film and brands",
-        "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
+        "title": "3D动画",
+        "tagline": "适合电影和品牌的风格化且逼真的 3D",
+        "description": "高品质 3D 角色、产品和电影动画，并对活动和系列进行功能级润色。"
       },
       "motion-graphics": {
-        "title": "Motion Graphics",
-        "tagline": "Design led motion systems for launches and brand worlds",
-        "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
+        "title": "动态图形",
+        "tagline": "为发布会和品牌世界设计 LED 运动系统",
+        "description": "设计用于跨渠道扩展的发布、仪表板和品牌世界的 LED 运动系统。"
       },
       "vfx": {
-        "title": "视觉特效 (VFX)",
-        "tagline": "Compositing, FX, and cinematic finishing",
-        "description": "Visual effects for trailers, product films, and branded content, from cleanups to full CG integration."
+        "title": "Visual Effects (VFX)",
+        "tagline": "合成、FX 和电影效果",
+        "description": "预告片、产品影片和品牌内容的视觉效果，从清理到完整的 CG 集成。"
       }
     },
     "showcase": {
@@ -471,899 +471,899 @@
         "title": "2D 动画"
       },
       "3d-animation": {
-        "tag": "3D 动画",
-        "title": "3D 动画"
+        "tag": "3D动画",
+        "title": "3D动画"
       },
       "motion-graphics": {
-        "tag": "Motion Graphics",
-        "title": "Motion Graphics"
+        "tag": "动态图形",
+        "title": "动态图形"
       },
       "vfx": {
-        "tag": "视觉特效 (VFX)",
-        "title": "视觉特效 (VFX)"
+        "tag": "Visual Effects (VFX)",
+        "title": "Visual Effects (VFX)"
       }
     },
     "clients": {
       "2d-animation": {
         "chibi-art": {
           "name": "CHIBI ART",
-          "industry": "Character & Animation",
-          "description": "Chibi style 2D character animation with expressive scenes and behind the scenes making process films.",
+          "industry": "角色与动画",
+          "description": "赤壁风格的 2D 角色动画，具有表现力的场景和幕后制作过程影片。",
           "timeline": "2025",
           "services": {
-            "0": "2D Animation",
-            "1": "Chibi Art",
-            "2": "Character Animation"
+            "0": "2D 动画",
+            "1": "赤壁艺术",
+            "2": "角色动画"
           },
           "tools": {
-            "0": "After Effects",
-            "1": "Clip Studio Paint",
+            "0": "后期效果",
+            "1": "剪辑工作室绘画",
             "2": "Photoshop"
           }
         },
         "vtuber-animation": {
           "name": "VTUBER ANIMATION",
-          "industry": "VTuber & Character",
-          "description": "VTuber character art and 2D animation with modeling process films, polished samples, and Live2D style performance.",
+          "industry": "VTuber & 角色",
+          "description": "VTuber 角色艺术和 2D 动画，包含建模过程影片、抛光样本和 Live2D 风格表演。",
           "timeline": "2025",
           "services": {
-            "0": "VTuber Animation",
-            "1": "2D Character",
-            "2": "Live2D Style"
+            "0": "VTuber动画",
+            "1": "2D角色",
+            "2": "Live2D风格"
           },
           "tools": {
-            "0": "Live2D",
-            "1": "After Effects",
-            "2": "Clip Studio Paint"
+            "0": "直播2D",
+            "1": "后期效果",
+            "2": "剪辑工作室绘画"
           }
         },
         "live2d-animation": {
           "name": "LIVE2D ANIMATION",
-          "industry": "Live2D & Character",
-          "description": "Live2D character art, rigging, and animation from making process films through polished sample performances.",
+          "industry": "Live2D 和角色",
+          "description": "Live2D 角色艺术、绑定和动画，从制作过程影片到精美的示例表演。",
           "timeline": "2025",
           "services": {
-            "0": "Live2D",
-            "1": "Rigging",
-            "2": "2D Character Animation"
+            "0": "直播2D",
+            "1": "索具",
+            "2": "2D 角色动画"
           },
           "tools": {
-            "0": "Live2D Cubism",
-            "1": "After Effects",
+            "0": "Live2D立体主义",
+            "1": "后期效果",
             "2": "Photoshop"
           }
         },
         "2d-anime-animation": {
           "name": "2D ANIME ANIMATION",
-          "industry": "Anime & 2D Animation",
-          "description": "High quality 2D anime style animation and music videos with expressive characters and cinematic motion.",
+          "industry": "动漫和 2D 动画",
+          "description": "高品质 2D 动漫风格的动画和音乐视频，具有富有表现力的角色和电影般的动作。",
           "timeline": "2025",
           "services": {
-            "0": "2D Anime",
-            "1": "Music Video",
-            "2": "Character Animation"
+            "0": "2D 动漫",
+            "1": "音乐录影带",
+            "2": "角色动画"
           },
           "tools": {
-            "0": "After Effects",
-            "1": "Toon Boom",
-            "2": "Clip Studio Paint"
+            "0": "后期效果",
+            "1": "香椿繁荣",
+            "2": "剪辑工作室绘画"
           }
         }
       },
       "3d-animation": {
         "kids-learning-animation": {
           "name": "KIDS LEARNING ANIMATION",
-          "industry": "Children & Education",
-          "description": "Fun character animation for kids learning content, including number videos and cute cartoon characters.",
+          "industry": "儿童与教育",
+          "description": "适合儿童学习内容的有趣角色动画，包括数字视频和可爱的卡通人物。",
           "timeline": "2025",
           "services": {
-            "0": "Kids Learning",
-            "1": "Character Animation",
-            "2": "Educational Content"
+            "0": "孩子们学习",
+            "1": "角色动画",
+            "2": "教育内容"
           },
           "tools": {
-            "0": "After Effects",
-            "1": "Toon Boom",
-            "2": "Blender"
+            "0": "后期效果",
+            "1": "香椿繁荣",
+            "2": "混合器"
           }
         },
         "3d-cartoon-animation": {
           "name": "3D CARTOON ANIMATION",
-          "industry": "Character & Animation",
-          "description": "Stylized 3D cartoon character animation and showcase films with playful motion and polished presentation.",
+          "industry": "角色与动画",
+          "description": "风格化的 3D 卡通人物动画和展示电影，具有俏皮的动作和精美的演示。",
           "timeline": "2025",
           "services": {
-            "0": "3D Cartoon Animation",
-            "1": "Character Showcase",
-            "2": "Stylized CGI"
+            "0": "3D卡通动画",
+            "1": "人物展示",
+            "2": "程式化CGI"
           },
           "tools": {
-            "0": "Blender",
-            "1": "Cinema 4D",
-            "2": "After Effects"
+            "0": "混合器",
+            "1": "4D影院",
+            "2": "后期效果"
           }
         },
         "3d-explainer-video": {
           "name": "3D EXPLAINER VIDEO",
-          "industry": "Product & Explainer",
-          "description": "3D explainer and product presentation films covering brand storytelling, 360 product displays, and commercial animation.",
+          "industry": "产品及解说",
+          "description": "3D解说和产品演示影片，涵盖品牌故事、360度产品展示和商业动画。",
           "timeline": "2025",
           "services": {
-            "0": "3D Explainer",
-            "1": "Product Presentation",
-            "2": "360 Product Display"
+            "0": "3D解说器",
+            "1": "产品展示",
+            "2": "360度产品展示"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "混合器",
+            "2": "后期效果"
           }
         },
         "3d-medical-animation": {
           "name": "3D MEDICAL ANIMATION",
-          "industry": "Healthcare & Medical Visualization",
-          "description": "High quality 3D medical animation covering anatomy, surgical procedures, and medical device visualization.",
+          "industry": "医疗保健和医疗可视化",
+          "description": "高品质 3D 医学动画，涵盖解剖学、外科手术和医疗设备可视化。",
           "timeline": "2025",
           "services": {
-            "0": "Medical Animation",
-            "1": "Anatomy CGI",
-            "2": "Surgical Visualization"
+            "0": "医学动画",
+            "1": "解剖学计算机生成图像",
+            "2": "手术可视化"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "混合器",
+            "2": "后期效果"
           }
         },
         "3d-anime-character": {
           "name": "3D ANIME CHARACTER",
-          "industry": "Character & Anime",
-          "description": "3D anime character modeling and client showcase films with stylized materials and polished presentation.",
+          "industry": "角色与动漫",
+          "description": "3D 动漫角色建模和客户展示影片，采用风格化的材料和精美的演示。",
           "timeline": "2025",
           "services": {
-            "0": "3D Character",
-            "1": "Anime CGI",
-            "2": "Client Showcase"
+            "0": "3D角色",
+            "1": "动漫电脑成像",
+            "2": "客户展示"
           },
           "tools": {
-            "0": "Blender",
-            "1": "Cinema 4D",
-            "2": "After Effects"
+            "0": "混合器",
+            "1": "4D影院",
+            "2": "后期效果"
           }
         }
       },
       "motion-graphics": {
         "watch-animation": {
           "name": "WATCH ANIMATION",
-          "industry": "Luxury Watches",
-          "description": "Photoreal 3D watch product animation and cinematic packshot films for luxury timepieces.",
+          "industry": "奢华手表",
+          "description": "奢华时计的逼真 3D 手表产品动画和电影包装影片。",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Watch CGI",
-            "2": "Packshot Films"
+            "0": "3D产品动画",
+            "1": "观看电脑动画",
+            "2": "包拍电影"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "红移",
+            "2": "后期效果"
           }
         },
         "ryse-drink-3d-product-animation": {
           "name": "RYSE DRINK 3D PRODUCT ANIMATION",
-          "industry": "Beverage & Product CGI",
-          "description": "Photoreal 3D beverage product animation for Ryse drink and lemonade campaigns with cinematic packshot finish.",
+          "industry": "饮料和产品 CGI",
+          "description": "用于 Ryse 饮料和柠檬水活动的照片级真实 3D 饮料产品动画，具有电影包装镜头效果。",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Beverage CGI",
-            "2": "Packshot Films"
+            "0": "3D产品动画",
+            "1": "饮料CGI",
+            "2": "包拍电影"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "红移",
+            "2": "后期效果"
           }
         },
         "3d-perfume-animation": {
           "name": "3D PERFUME ANIMATION",
-          "industry": "Beauty & Fragrance",
-          "description": "Photoreal 3D perfume product animation for luxury fragrance launches and campaign hero films.",
+          "industry": "美容与香水",
+          "description": "用于奢华香水发布会和宣传英雄电影的逼真 3D 香水产品动画。",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Fragrance CGI",
-            "2": "Packshot Films"
+            "0": "3D产品动画",
+            "1": "香水CGI",
+            "2": "包拍电影"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "红移",
+            "2": "后期效果"
           }
         },
         "3d-gadget-animation": {
           "name": "3D GADGET ANIMATION",
-          "industry": "Consumer Electronics",
-          "description": "Photoreal 3D gadget and earbud product animation with studio lighting, material detail, and campaign ready motion.",
+          "industry": "消费电子产品",
+          "description": "照片级真实 3D 小工具和耳塞产品动画，包含工作室灯光、材质细节和活动准备动作。",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Gadget CGI",
-            "2": "Packshot Films"
+            "0": "3D产品动画",
+            "1": "小工具 CGI",
+            "2": "包拍电影"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "红移",
+            "2": "后期效果"
           }
         },
         "vape-animation": {
           "name": "VAPE ANIMATION",
-          "industry": "Consumer Products",
-          "description": "Photoreal 3D vape product animation with studio lighting, material detail, and campaign ready packshot films.",
+          "industry": "消费品",
+          "description": "照片真实的 3D 电子烟产品动画，包含工作室灯光、材质细节和活动包装镜头影片。",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Vape CGI",
-            "2": "Packshot Films"
+            "0": "3D产品动画",
+            "1": "电子烟CGI",
+            "2": "包拍电影"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "红移",
+            "2": "后期效果"
           }
         },
         "bag-suitcase-animation": {
           "name": "BAG/SUITCASE ANIMATION",
-          "industry": "Travel & Lifestyle",
-          "description": "Realistic 3D product animation for bags and suitcases with cinematic packshot finish.",
+          "industry": "旅行与生活方式",
+          "description": "箱包和手提箱的逼真 3D 产品动画，具有电影般的打包效果。",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Bag CGI",
-            "2": "Packshot Films"
+            "0": "3D产品动画",
+            "1": "袋CGI",
+            "2": "包拍电影"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "红移",
+            "2": "后期效果"
           }
         },
         "drop-band-animation": {
           "name": "DROP BAND ANIMATION",
-          "industry": "Wearables & Accessories",
-          "description": "Drop Band product animation covering production process films and final polished results.",
+          "industry": "可穿戴设备和配件",
+          "description": "Drop Band 产品动画涵盖了生产过程影片和最终抛光结果。",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Process Film",
-            "2": "Wearable CGI"
+            "0": "3D产品动画",
+            "1": "处理胶片",
+            "2": "可穿戴计算机生成图像"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "红移",
+            "2": "后期效果"
           }
         },
         "3d-bed-animation": {
           "name": "3D BED ANIMATION",
-          "industry": "Furniture & Bedding",
-          "description": "Photoreal 3D mattress and bed product animation for furniture brands with cinematic packshot finish.",
+          "industry": "家具及床上用品",
+          "description": "为家具品牌提供逼真的 3D 床垫和床品动画，具有电影效果。",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Furniture CGI",
-            "2": "Packshot Films"
+            "0": "3D产品动画",
+            "1": "家具计算机生成图像",
+            "2": "包拍电影"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "红移",
+            "2": "后期效果"
           }
         }
       },
       "vfx": {
         "ronix": {
           "name": "RONIX",
-          "industry": "Power Tools & Manufacturing",
-          "description": "Ronix 3D industrial animation and power tool CGI product showcase films.",
+          "industry": "电动工具与制造",
+          "description": "Ronix 3D工业动画和电动工具CGI产品展示影片。",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Power Tool CGI",
-            "2": "Product Showcase"
+            "0": "工业动画",
+            "1": "电动工具 CGI",
+            "2": "产品展示"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "混合器",
+            "2": "后期效果"
           }
         },
         "mintec": {
           "name": "MINTEC",
-          "industry": "Industrial Manufacturing",
-          "description": "MinTec industries product showcase and process films for 3D industrial animation.",
+          "industry": "工业制造",
+          "description": "MinTec Industries 产品展示和 3D 工业动画处理影片。",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product Showcase",
-            "2": "Process Film"
+            "0": "工业动画",
+            "1": "产品展示",
+            "2": "处理胶片"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "混合器",
+            "2": "后期效果"
           }
         },
         "integra-pw": {
           "name": "INTEGRA PW",
-          "industry": "Industrial Products",
-          "description": "Integra PW industrial animation from video making process through final cinematic results.",
+          "industry": "工业产品",
+          "description": "整合 PW 工业动画，从视频制作过程到最终电影结果。",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Process Film",
-            "2": "Product CGI"
+            "0": "工业动画",
+            "1": "处理胶片",
+            "2": "产品计算机图形图像"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "混合器",
+            "2": "后期效果"
           }
         },
         "credex": {
           "name": "CREDEX",
-          "industry": "Cleaning Equipment",
-          "description": "CREDEX carpet cleaning machine industrial animation with cinematic SFX finish.",
+          "industry": "清洁设备",
+          "description": "CREDEX 地毯清洗机工业动画，具有电影 SFX 效果。",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product CGI",
-            "2": "Sound Design"
+            "0": "工业动画",
+            "1": "产品计算机图形图像",
+            "2": "声音设计"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "混合器",
+            "2": "后期效果"
           }
         },
         "phr-1": {
           "name": "PHR 1",
-          "industry": "Electric Powertrain",
-          "description": "PHR 1 electric power train product animation with technical lighting and cinematic polish.",
+          "industry": "电动动力总成",
+          "description": "PHR 1 电力传动系产品动画，采用技术照明和电影润色。",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Powertrain CGI",
-            "2": "Product Film"
+            "0": "工业动画",
+            "1": "动力总成CGI",
+            "2": "产品膜"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "混合器",
+            "2": "后期效果"
           }
         },
         "atx": {
           "name": "ATX",
-          "industry": "Industrial Manufacturing",
-          "description": "ATX 3D industrial and technical product animation for manufacturing showcases.",
+          "industry": "工业制造",
+          "description": "用于制造展示的 ATX 3D 工业和技术产品动画。",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Technical CGI",
-            "2": "Product Showcase"
+            "0": "工业动画",
+            "1": "技术计算机图形图像",
+            "2": "产品展示"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "混合器",
+            "2": "后期效果"
           }
         },
         "prov-gap": {
           "name": "PROV GAP",
-          "industry": "Industrial Manufacturing",
-          "description": "Prov GAP 3D industrial animation for technical product storytelling and brand films.",
+          "industry": "工业制造",
+          "description": "Prov GAP 3D 工业动画，用于讲述技术产品故事和品牌电影。",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product CGI",
-            "2": "Technical Film"
+            "0": "工业动画",
+            "1": "产品计算机图形图像",
+            "2": "技术电影"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "混合器",
+            "2": "后期效果"
           }
         },
         "autoz-crave": {
           "name": "AUTOZ CRAVE",
-          "industry": "Automotive & Mechanical",
-          "description": "Autoz Crave industrial animation for mechanical and technical 3D product films.",
+          "industry": "汽车与机械",
+          "description": "Autoz Crave 用于机械和技术 3D 产品影片的工业动画。",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Mechanical CGI",
-            "2": "Technical Animation"
+            "0": "工业动画",
+            "1": "机械计算机生成",
+            "2": "技术动画"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "4D影院",
+            "1": "混合器",
+            "2": "后期效果"
           }
         }
       }
     },
     "projects": {
       "chibi-art-p1": {
-        "title": "Chibi Art Scene 1",
-        "description": "Expressive chibi character scene with polished 2D animation and campaign ready motion.",
+        "title": "赤壁艺术场景1",
+        "description": "富有表现力的赤壁角色场景，具有精美的 2D 动画和战役准备动作。",
         "tags": {
-          "0": "Chibi",
-          "1": "Scene"
+          "0": "赤壁",
+          "1": "场景"
         }
       },
       "chibi-art-p2": {
-        "title": "Chibi Art Scene 2",
-        "description": "Second chibi character scene showcasing personality, timing, and colorful 2D performance.",
+        "title": "赤壁艺术场景2",
+        "description": "第二个《赤壁》角色场景展示了个性、时机和丰富多彩的 2D 表演。",
         "tags": {
-          "0": "Chibi",
-          "1": "Scene"
+          "0": "赤壁",
+          "1": "场景"
         }
       },
       "chibi-art-p3": {
-        "title": "Making Process Film",
-        "description": "Behind the scenes look at the chibi art creation and animation workflow from sketch to final motion.",
+        "title": "制作工艺膜",
+        "description": "在幕后了解《赤壁》艺术创作和从草图到最终动作的动画工作流程。",
         "tags": {
-          "0": "Process",
-          "1": "Workflow"
+          "0": "过程",
+          "1": "工作流程"
         }
       },
       "vtuber-animation-p1": {
-        "title": "Vtuber Modeling Creation",
-        "description": "VTuber character modeling creation film covering art direction and build workflow.",
+        "title": "Vtuber造型创作",
+        "description": "VTuber角色建模创作影片涵盖艺术指导和构建工作流程。",
         "tags": {
           "0": "VTuber",
-          "1": "Modeling"
+          "1": "造型"
         }
       },
       "vtuber-animation-p2": {
-        "title": "Vtuber 2D Video Results",
-        "description": "Finished 2D VTuber animation results with expressive performance and polished motion.",
+        "title": "Vtuber 2D 视频结果",
+        "description": "完成的 2D VTuber 动画结果具有表现力和精美的动作。",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p3": {
-        "title": "Princess Vtuber Modeling",
-        "description": "Princess VTuber modeling sample showcasing character design and animated performance.",
+        "title": "公主 Vtuber 造型",
+        "description": "公主 VTuber 建模样本展示角色设计和动画表演。",
         "tags": {
           "0": "VTuber",
-          "1": "Princess"
+          "1": "公主"
         }
       },
       "vtuber-animation-p4": {
-        "title": "Vtuber 2D Video",
-        "description": "Cinematic 2D VTuber animation with dynamic character motion and expressive acting.",
+        "title": "Vtuber 2D 视频",
+        "description": "电影般的 2D VTuber 动画，具有动态的角色动作和富有表现力的表演。",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p5": {
-        "title": "Vtuber Sample 2",
-        "description": "Second VTuber animation sample with bold character acting and polished motion.",
+        "title": "Vtuber 样本 2",
+        "description": "第二个 VTuber 动画样本，具有大胆的角色表演和精美的动作。",
         "tags": {
           "0": "VTuber",
-          "1": "Sample"
+          "1": "样本"
         }
       },
       "vtuber-animation-p6": {
-        "title": "Vtuber Sample 3",
-        "description": "Extended VTuber character showcase with cinematic pacing and expressive 2D animation.",
+        "title": "Vtuber 样本 3",
+        "description": "扩展的 VTuber 角色展示，具有电影节奏和富有表现力的 2D 动画。",
         "tags": {
           "0": "VTuber",
-          "1": "Sample"
+          "1": "样本"
         }
       },
       "vtuber-animation-p7": {
-        "title": "Vtuber Video Process",
-        "description": "Behind the scenes VTuber animation process from art through rigging and final motion.",
+        "title": "Vtuber视频处理",
+        "description": "VTuber 动画的幕后制作过程，从美术到绑定和最终动作。",
         "tags": {
-          "0": "Process",
-          "1": "Workflow"
+          "0": "过程",
+          "1": "工作流程"
         }
       },
       "live2d-animation-p1": {
-        "title": "Live2D Making Process",
-        "description": "Behind the scenes Live2D creation workflow from art through final animated performance.",
+        "title": "Live2D制作流程",
+        "description": "从艺术到最终动画表演的幕后 Live2D 创作工作流程。",
         "tags": {
-          "0": "Live2D",
-          "1": "Process"
+          "0": "直播2D",
+          "1": "过程"
         }
       },
       "live2d-animation-p2": {
-        "title": "Live2D Sample",
-        "description": "Finished Live2D character sample with expressive posing and polished motion.",
+        "title": "Live2D 示例",
+        "description": "完成的 Live2D 角色样本具有富有表现力的姿势和精美的动作。",
         "tags": {
-          "0": "Live2D",
-          "1": "Sample"
+          "0": "直播2D",
+          "1": "样本"
         }
       },
       "live2d-animation-p3": {
-        "title": "Live2D Rigging Process",
-        "description": "Live2D rigging process film showing mesh, deformers, and parameter setup.",
+        "title": "Live2D 绑定流程",
+        "description": "Live2D 绑定过程影片显示网格、变形器和参数设置。",
         "tags": {
-          "0": "Live2D",
-          "1": "Rigging"
+          "0": "直播2D",
+          "1": "索具"
         }
       },
       "live2d-animation-p4": {
-        "title": "Sample Live2D Rigging",
-        "description": "Sample Live2D rigging demonstration with clean parameter control and facial acting.",
+        "title": "Live2D 绑定示例",
+        "description": "Live2D 绑定演示示例，具有清晰的参数控制和面部动作。",
         "tags": {
-          "0": "Live2D",
-          "1": "Rigging"
+          "0": "直播2D",
+          "1": "索具"
         }
       },
       "live2d-animation-p5": {
-        "title": "Live2D Rigging Result",
-        "description": "Final Live2D rigging result showcasing smooth motion and expressive character performance.",
+        "title": "Live2D 绑定结果",
+        "description": "最终的 Live2D 绑定结果展示了流畅的运动和富有表现力的角色表演。",
         "tags": {
-          "0": "Live2D",
-          "1": "Result"
+          "0": "直播2D",
+          "1": "结果"
         }
       },
       "live2d-animation-p6": {
-        "title": "Live2D Film",
-        "description": "Cinematic Live2D animation with dynamic character motion and polished presentation.",
+        "title": "现场2D电影",
+        "description": "电影级 Live2D 动画具有动态的角色动作和精美的演示。",
         "tags": {
-          "0": "Live2D",
-          "1": "Film"
+          "0": "直播2D",
+          "1": "电影"
         }
       },
       "2d-anime-animation-p1": {
-        "title": "Japanese Style 2D Anime",
-        "description": "Japanese anime style 2D animation with dynamic posing, expressive acting, and polished line work.",
+        "title": "日式2D动漫",
+        "description": "日本动漫风格的 2D 动画，具有动态的姿势、富有表现力的表演和精美的线条。",
         "tags": {
-          "0": "Anime",
+          "0": "日本动画片",
           "1": "2D"
         }
       },
       "2d-anime-animation-p2": {
-        "title": "Anime Music Video",
-        "description": "2D anime music video with character driven storytelling and cinematic timing.",
+        "title": "动漫音乐视频",
+        "description": "2D 动漫音乐视频，具有角色驱动的故事讲述和电影般的节奏。",
         "tags": {
-          "0": "Music Video",
-          "1": "Anime"
+          "0": "音乐录影带",
+          "1": "日本动画片"
         }
       },
       "2d-anime-animation-p3": {
-        "title": "Meme Song Animation",
-        "description": "Playful 2D anime character animation timed to a meme song with bold motion and humor.",
+        "title": "模因歌曲动画",
+        "description": "俏皮的 2D 动漫人物动画与模因歌曲同步，动作大胆且幽默。",
         "tags": {
-          "0": "Anime",
-          "1": "Music"
+          "0": "日本动画片",
+          "1": "音乐"
         }
       },
       "kids-learning-animation-p1": {
-        "title": "123 Number Kids Learning Video",
-        "description": "Educational number learning video with engaging characters and playful motion for kids.",
+        "title": "123数字儿童学习视频",
+        "description": "具有引人入胜的角色和适合孩子的有趣动作的教育数字学习视频。",
         "tags": {
-          "0": "Kids",
-          "1": "Learning"
+          "0": "孩子们",
+          "1": "学习"
         }
       },
       "kids-learning-animation-p2": {
-        "title": "Custom 2D Character",
-        "description": "Custom 2D character animation with expressive acting and colorful stylized design.",
+        "title": "自定义 2D 角色",
+        "description": "定制 2D 角色动画，具有富有表现力的表演和丰富多彩的风格化设计。",
         "tags": {
-          "0": "Character",
+          "0": "特点",
           "1": "2D"
         }
       },
       "kids-learning-animation-p3": {
-        "title": "Cute 2D Cartoon Character",
-        "description": "Cute 2D cartoon character film with friendly personality and polished kids content motion.",
+        "title": "可爱的 2D 卡通人物",
+        "description": "可爱的 2D 卡通人物电影，具有友好的个性和精美的儿童内容动作。",
         "tags": {
-          "0": "Cartoon",
-          "1": "Kids"
+          "0": "卡通片",
+          "1": "孩子们"
         }
       },
       "3d-cartoon-animation-p1": {
-        "title": "3D Cartoon Animation",
-        "description": "Stylized 3D cartoon animation with expressive character performance and colorful presentation.",
+        "title": "3D卡通动画",
+        "description": "风格化的3D卡通动画，富有表现力的人物表演和丰富多彩的呈现。",
         "tags": {
-          "0": "Cartoon",
+          "0": "卡通片",
           "1": "3D"
         }
       },
       "3d-cartoon-animation-p2": {
-        "title": "Cute 3D Cartoon Character Showcase",
-        "description": "Cute 3D cartoon character video showcase with friendly personality and polished motion.",
+        "title": "可爱的3D卡通人物展示",
+        "description": "可爱的 3D 卡通人物视频展示，个性友善，动作优美。",
         "tags": {
-          "0": "Character",
-          "1": "Showcase"
+          "0": "特点",
+          "1": "展示柜"
         }
       },
       "3d-explainer-video-p1": {
-        "title": "Winergy 3D Presentation",
-        "description": "Winergy 3D brand presentation with cinematic camera work and polished product storytelling.",
+        "title": "威能极 3D 演示",
+        "description": "威能极 3D 品牌展示，采用电影摄影作品和精美的产品故事讲述。",
         "tags": {
-          "0": "Explainer",
-          "1": "Winergy"
+          "0": "解说员",
+          "1": "威能极"
         }
       },
       "3d-explainer-video-p2": {
-        "title": "Popper Product 360 Display",
-        "description": "Popper product 360 display film showcasing form, materials, and packaging detail.",
+        "title": "Popper 产品 360 度展示",
+        "description": "Popper 产品 360 度展示影片展示了形式、材料和包装细节。",
         "tags": {
           "0": "360",
-          "1": "Popper"
+          "1": "波普尔"
         }
       },
       "3d-explainer-video-p3": {
-        "title": "Popper Animation",
-        "description": "Popper 3D product animation with dynamic motion and commercial presentation.",
+        "title": "波普动画",
+        "description": "Popper 3D 产品动画，具有动态动作和商业演示。",
         "tags": {
-          "0": "Product",
-          "1": "Popper"
+          "0": "产品",
+          "1": "波普尔"
         }
       },
       "3d-explainer-video-p4": {
-        "title": "Popper Animation 2",
-        "description": "Alternate Popper animation pass with refined lighting and campaign ready pacing.",
+        "title": "波普尔动画2",
+        "description": "备用 Popper 动画通道具有精致的灯光和战役准备节奏。",
         "tags": {
-          "0": "Product",
-          "1": "Popper"
+          "0": "产品",
+          "1": "波普尔"
         }
       },
       "3d-explainer-video-p5": {
-        "title": "Client Video of Poppes",
-        "description": "Client facing Poppes video presenting the product with clear storytelling and polished CGI.",
+        "title": "Poppes的客户视频",
+        "description": "面向客户的 Poppes 视频通过清晰的故事讲述和精美的 CGI 展示产品。",
         "tags": {
-          "0": "Client",
-          "1": "Poppes"
+          "0": "客户",
+          "1": "波普斯"
         }
       },
       "3d-medical-animation-p1": {
-        "title": "High Quality 3D Medical Anatomy Animation",
-        "description": "High quality 3D medical animation with detailed anatomy visualization and polished cinematic presentation.",
+        "title": "高品质 3D 医学解剖动画",
+        "description": "高品质 3D 医学动画，具有详细的解剖可视化和精美的电影演示。",
         "tags": {
-          "0": "Medical",
-          "1": "Anatomy"
+          "0": "医疗的",
+          "1": "解剖学"
         }
       },
       "3d-medical-animation-p2": {
-        "title": "3D Medical Animation 2",
-        "description": "Second 3D medical animation sample with clear anatomical storytelling and commercial finish.",
+        "title": "3D医学动画2",
+        "description": "第二个 3D 医学动画样本，具有清晰的解剖故事讲述和商业效果。",
         "tags": {
-          "0": "Medical",
-          "1": "Healthcare"
+          "0": "医疗的",
+          "1": "卫生保健"
         }
       },
       "3d-anime-character-p1": {
-        "title": "3D Anime Character Showcase to Client",
-        "description": "3D anime character showcase film presenting modeling, materials, and polished stylized performance for client review.",
+        "title": "向客户展示3D动漫角色",
+        "description": "3D 动漫角色展示影片，展示模型、材料和精美的风格化表演，供客户评审。",
         "tags": {
-          "0": "Anime",
-          "1": "Character"
+          "0": "日本动画片",
+          "1": "特点"
         }
       },
       "watch-animation-p1": {
-        "title": "Watch Product Film",
-        "description": "Cinematic 3D watch animation with studio lighting, material detail, and premium packshot finish.",
+        "title": "观看产品影片",
+        "description": "影院级 3D 观看动画，具有工作室灯光、材质细节和优质 Packshot 效果。",
         "tags": {
-          "0": "Watch",
-          "1": "Product"
+          "0": "手表",
+          "1": "产品"
         }
       },
       "watch-animation-p2": {
-        "title": "Rifari Wrist Watch",
-        "description": "Photoreal Rifari wrist watch product film with refined reflections and commercial presentation.",
+        "title": "Rifari 腕表",
+        "description": "照片真实的 Rifari 腕表产品影片，具有精致的反射和商业演示。",
         "tags": {
-          "0": "Watch",
-          "1": "Rifari"
+          "0": "手表",
+          "1": "里法里"
         }
       },
       "watch-animation-p3": {
-        "title": "Steel Reef Wrist Watch",
-        "description": "Steel Reef wrist watch animation with premium materials, lighting, and campaign ready motion.",
+        "title": "精钢 Reef 腕表",
+        "description": "Steel Reef 腕表动画采用优质材料、灯光和活动准备动作。",
         "tags": {
-          "0": "Watch",
-          "1": "Steel Reef"
+          "0": "手表",
+          "1": "钢礁"
         }
       },
       "ryse-drink-3d-product-animation-p1": {
-        "title": "Ryse Drink 3D Product Animation",
-        "description": "Cinematic 3D Ryse drink product animation with studio lighting, material detail, and commercial finish.",
+        "title": "Ryse Drink 3D 产品动画",
+        "description": "电影级 3D Ryse 饮料产品动画，具有工作室灯光、材质细节和商业效果。",
         "tags": {
-          "0": "Beverage",
-          "1": "Product"
+          "0": "饮料",
+          "1": "产品"
         }
       },
       "ryse-drink-3d-product-animation-p2": {
-        "title": "Lemonade Product Film",
-        "description": "Photoreal lemonade product animation with fluid motion, glass materials, and campaign ready presentation.",
+        "title": "柠檬水产品膜",
+        "description": "逼真的柠檬水产品动画，具有流体运动、玻璃材料和活动准备演示。",
         "tags": {
-          "0": "Lemonade",
-          "1": "Product"
+          "0": "柠檬水",
+          "1": "产品"
         }
       },
       "3d-perfume-animation-p1": {
-        "title": "Anabomfim 3D Perfume Video",
-        "description": "Cinematic 3D Anabomfim perfume animation with studio lighting, glass materials, and premium packshot finish.",
+        "title": "Anabomfim 3D 香水视频",
+        "description": "影院级 3D Anabomfim 香水动画，采用工作室灯光、玻璃材料和优质 Packshot 效果。",
         "tags": {
-          "0": "Perfume",
-          "1": "Anabomfim"
+          "0": "香水",
+          "1": "阿纳邦芬"
         }
       },
       "3d-perfume-animation-p2": {
-        "title": "Valentino Perfume Video",
-        "description": "Luxury Valentino perfume product film with refined reflections, fluid motion, and commercial presentation.",
+        "title": "华伦天奴香水视频",
+        "description": "华伦天奴奢华香水产品影片，具有精致的倒影、流畅的动作和商业演示。",
         "tags": {
-          "0": "Perfume",
-          "1": "Valentino"
+          "0": "香水",
+          "1": "华伦天奴"
         }
       },
       "3d-perfume-animation-p3": {
-        "title": "Soul of Amir 3D Animation",
-        "description": "Soul of Amir 3D fragrance animation with cinematic camera work and campaign ready polish.",
+        "title": "阿米尔之魂3D动画",
+        "description": "阿米尔之魂 3D 香水动画，采用电影摄影作品和宣传活动准备润色。",
         "tags": {
-          "0": "Perfume",
-          "1": "Soul of Amir"
+          "0": "香水",
+          "1": "阿米尔的灵魂"
         }
       },
       "3d-gadget-animation-p1": {
-        "title": "Shoks Earbud Animation",
-        "description": "Cinematic 3D Shoks earbud product animation with refined materials and commercial finish.",
+        "title": "Shoks 耳塞动画",
+        "description": "影院级 3D Shoks 耳塞产品动画，采用精致材料和商业化外观。",
         "tags": {
-          "0": "Earbud",
-          "1": "Gadget"
+          "0": "耳塞",
+          "1": "小工具"
         }
       },
       "3d-gadget-animation-p2": {
-        "title": "Headphone Earbud Product Film",
-        "description": "3D headphone and earbud product animation with dynamic camera moves and premium packshot presentation.",
+        "title": "耳机耳塞产品膜",
+        "description": "3D 耳机和耳塞产品动画，带有动态相机移动和优质包装镜头演示。",
         "tags": {
-          "0": "Headphone",
-          "1": "Product"
+          "0": "耳机",
+          "1": "产品"
         }
       },
       "vape-animation-p1": {
-        "title": "Jojo Vape",
-        "description": "Cinematic 3D Jojo vape product animation with refined materials and commercial finish.",
+        "title": "乔乔电子烟",
+        "description": "电影级 3D Jojo 电子烟产品动画，采用精致材料和商业化外观。",
         "tags": {
-          "0": "Vape",
-          "1": "Jojo"
+          "0": "电子烟",
+          "1": "乔乔"
         }
       },
       "vape-animation-p2": {
-        "title": "Juicy Cranberry Vape",
-        "description": "Juicy cranberry vape product film with vibrant color, lighting, and campaign ready presentation.",
+        "title": "多汁蔓越莓电子烟",
+        "description": "多汁的蔓越莓电子烟产品薄膜，具有鲜艳的色彩、灯光和宣传活动演示。",
         "tags": {
-          "0": "Vape",
-          "1": "Cranberry"
+          "0": "电子烟",
+          "1": "蔓越莓"
         }
       },
       "bag-suitcase-animation-p1": {
-        "title": "Realistic 3D Product Animation for Bags",
-        "description": "Photoreal 3D bag and suitcase product animation with premium materials and commercial presentation.",
+        "title": "逼真的 3D 箱包产品动画",
+        "description": "逼真的 3D 箱包产品动画，采用优质材料和商业演示。",
         "tags": {
-          "0": "Bag",
-          "1": "Suitcase"
+          "0": "包",
+          "1": "手提箱"
         }
       },
       "drop-band-animation-p1": {
-        "title": "Drop Band Animation Process",
-        "description": "Behind the scenes Drop Band animation process from reference through final motion.",
+        "title": "落带动画过程",
+        "description": "从参考到最终动作的幕后 Drop Band 动画过程。",
         "tags": {
-          "0": "Process",
-          "1": "Drop Band"
+          "0": "过程",
+          "1": "掉带"
         }
       },
       "drop-band-animation-p2": {
-        "title": "Drop Band Animation Result",
-        "description": "Final Drop Band product animation with refined materials, lighting, and campaign ready finish.",
+        "title": "删除带动画结果",
+        "description": "最终的 Drop Band 产品动画采用精致的材料、灯光和活动准备完成。",
         "tags": {
-          "0": "Product",
-          "1": "Drop Band"
+          "0": "产品",
+          "1": "掉带"
         }
       },
       "3d-bed-animation-p1": {
-        "title": "Realistic 3D Mattress Animation",
-        "description": "Realistic 3D mattress product animation with soft materials, lighting, and campaign ready presentation.",
+        "title": "逼真的 3D 床垫动画",
+        "description": "逼真的 3D 床垫产品动画，采用软材料、灯光和活动演示。",
         "tags": {
-          "0": "Mattress",
-          "1": "Product"
+          "0": "床垫",
+          "1": "产品"
         }
       },
       "3d-bed-animation-p2": {
-        "title": "Simba Bed Animation",
-        "description": "Simba bed animation with cinematic camera work, material detail, and commercial finish.",
+        "title": "辛巴床动画",
+        "description": "辛巴床动画，采用电影摄影作品、材质细节和商业效果。",
         "tags": {
-          "0": "Bed",
-          "1": "Simba"
+          "0": "床",
+          "1": "辛巴"
         }
       },
       "ronix-p1": {
-        "title": "Ronix 3D Industrial Animation | Power Tool CGI Product Showcase",
-        "description": "Cinematic Ronix power tool CGI showcase with technical detail and commercial polish.",
+        "title": "Ronix 3D 工业动画|电动工具 CGI 产品展示",
+        "description": "电影 Ronix 电动工具 CGI 展示，具有技术细节和商业润色。",
         "tags": {
-          "0": "Industrial",
-          "1": "Ronix"
+          "0": "工业的",
+          "1": "罗尼克斯"
         }
       },
       "mintec-p1": {
-        "title": "MinTec Industries Product Showcase",
-        "description": "MinTec industries product showcase with technical storytelling and polished CGI.",
+        "title": "MinTec Industries 产品展示",
+        "description": "MinTec 行业产品展示，展示技术故事和精美的 CGI。",
         "tags": {
-          "0": "Industrial",
-          "1": "MinTec"
+          "0": "工业的",
+          "1": "明泰克"
         }
       },
       "mintec-p2": {
-        "title": "Process of Making MinTec 3D Animation",
-        "description": "Behind the scenes look at the MinTec 3D industrial animation production workflow.",
+        "title": "MinTec 3D 动画制作过程",
+        "description": "了解 MinTec 3D 工业动画制作工作流程的幕后花絮。",
         "tags": {
-          "0": "Process",
-          "1": "MinTec"
+          "0": "过程",
+          "1": "明泰克"
         }
       },
       "integra-pw-p1": {
-        "title": "Integra PW Video Making Process",
-        "description": "Behind the scenes making process for the Integra PW industrial animation build.",
+        "title": "Integra PW 视频制作流程",
+        "description": "Integra PW 工业动画构建的幕后制作过程。",
         "tags": {
-          "0": "Process",
-          "1": "Integra PW"
+          "0": "过程",
+          "1": "积分密码"
         }
       },
       "integra-pw-p2": {
-        "title": "Integra PW Final Results",
-        "description": "Final Integra PW industrial product animation with dynamic camera moves and commercial finish.",
+        "title": "Integra PW 最终结果",
+        "description": "Final Integra PW 工业产品动画，具有动态摄像机移动和商业效果。",
         "tags": {
-          "0": "Industrial",
-          "1": "Integra PW"
+          "0": "工业的",
+          "1": "积分密码"
         }
       },
       "credex-p1": {
-        "title": "Credex Vacuum Cleaner with SFX",
-        "description": "Final high definition CREDEX vacuum cleaner animation with sound design and commercial polish.",
+        "title": "带 SFX 的 Credex 吸尘器",
+        "description": "最终的高清 CREDEX 真空吸尘器动画，具有完善的设计和商业润色。",
         "tags": {
-          "0": "Industrial",
-          "1": "Credex"
+          "0": "工业的",
+          "1": "信用证"
         }
       },
       "phr-1-p1": {
-        "title": "PHR 1 Electric Power Train",
-        "description": "Photoreal PHR 1 electric power train animation with cinematic camera work and technical detail.",
+        "title": "PHR 1 电动动力总成",
+        "description": "照片真实的 PHR 1 电力传动系动画，具有电影摄影工作和技术细节。",
         "tags": {
-          "0": "Industrial",
+          "0": "工业的",
           "1": "PHR 1"
         }
       },
       "atx-p1": {
-        "title": "ATX 3D Industrial Animation",
-        "description": "ATX 3D industrial product animation with technical lighting and campaign ready finish.",
+        "title": "ATX 3D 工业动画",
+        "description": "ATX 3D 工业产品动画，具有技术照明和活动准备完成。",
         "tags": {
-          "0": "Industrial",
+          "0": "工业的",
           "1": "ATX"
         }
       },
       "prov-gap-p1": {
-        "title": "Prov GAP 3D Industrial Animation",
-        "description": "Prov GAP industrial product animation with mechanical detail and cinematic presentation.",
+        "title": "Prov GAP 3D 工业动画",
+        "description": "Prov GAP 工业产品动画，具有机械细节和电影演示。",
         "tags": {
-          "0": "Industrial",
-          "1": "Prov GAP"
+          "0": "工业的",
+          "1": "省级差距"
         }
       },
       "autoz-crave-p1": {
-        "title": "Autoz Crave Industrial Animation",
-        "description": "Autoz Crave 3D industrial product video with mechanical technical animation and commercial polish.",
+        "title": "Autoz Crave 工业动画",
+        "description": "Autoz Crave 3D 工业产品视频，具有机械技术动画和商业润色。",
         "tags": {
-          "0": "Industrial",
-          "1": "Autoz Crave"
+          "0": "工业的",
+          "1": "奥托兹·克拉夫"
         }
       }
     }
@@ -1380,7 +1380,7 @@
         "items": {
           "01": {
             "question": "你们承接哪些类型的项目？",
-            "answer": "We produce animation, VFX, cinematics, motion graphics, product films, and brand films for film, series, advertising, and DTC brands. Briefs range from single hero assets to full campaign packages."
+            "answer": "我们为电影、电视剧、广告和 DTC 品牌制作动画、视觉特效、过场动画、动态图形、产品影片和品牌影片。简介范围从单个英雄资产到完整的战役包。"
           },
           "02": {
             "question": "Starlights Visuals 的所在地在哪里？",
@@ -1397,15 +1397,15 @@
         "items": {
           "01": {
             "question": "你们提供哪些服务？",
-            "answer": "Our core services include 2D and 3D animation, VFX, character and concept art, motion graphics, product animation, and cinematic trailers. We can handle individual disciplines or full pipeline production."
+            "answer": "我们的核心服务包括 2D 和 3D 动画、视觉特效、角色和概念艺术、动态图形、产品动画和电影预告片。我们可以处理个别学科或完整的流水线生产。"
           },
           "02": {
             "question": "你们会与独立团队和大型工作室合作吗？",
-            "answer": "Yes. We partner with indie creators, mid size studios, and global brands. Scope and team size flex to match your budget and timeline without compromising craft."
+            "answer": "是的。我们与独立创作者、中型工作室和全球品牌合作。范围和团队规模可以灵活地匹配您的预算和时间表，而不会影响工艺。"
           },
           "03": {
             "question": "你们可以匹配我们现有的美术风格吗？",
-            "answer": "Absolutely. We start with style frames and a look development pass aligned to your brand guidelines or visual world before committing to full production."
+            "answer": "绝对地。在投入全面生产之前，我们从风格框架和符合您的品牌准则或视觉世界的外观开发阶段开始。"
           }
         }
       },
@@ -1432,26 +1432,28 @@
     "ctaButton": "联系我们"
   },
   "writeReviewPage": {
-    "label": "Client reviews",
-    "title": "WRITE YOURS",
-    "subtitle": "Worked with Starlights Visuals? Share your experience so other brands can see the results.",
-    "name": "Your name",
-    "email": "Email",
-    "emailOptional": "Optional, not shown publicly",
-    "role": "Your role",
-    "company": "Company",
-    "rating": "Rating",
-    "headline": "Headline",
-    "headlinePlaceholder": "A short line that captures your experience",
-    "quote": "Your review",
-    "quotePlaceholder": "Tell us about the collaboration, communication, quality, and results…",
-    "submit": "Submit review",
-    "submitting": "Submitting…",
-    "successTitle": "Thank you",
-    "successDesc": "Your review was received. It will appear on the site after a quick approval check.",
-    "backHome": "Back to home",
-    "errorConfig": "Review submissions are temporarily unavailable. Please try again later.",
-    "errorQuoteShort": "Please write at least 20 characters in your review.",
-    "errorGeneric": "Something went wrong while sending your review. Please try again."
+    "label": "客户评价",
+    "title": "写下你的",
+    "subtitle": "与 Starlights Visuals 合作过？分享您的经验，以便其他品牌可以看到结果。",
+    "name": "你的名字",
+    "email": "电子邮件",
+    "emailOptional": "可选，不公开显示",
+    "role": "你的角色",
+    "company": "公司",
+    "rating": "等级",
+    "headline": "标题",
+    "headlinePlaceholder": "短短的一行记录了您的经历",
+    "quote": "您的评论",
+    "quotePlaceholder": "告诉我们有关协作、沟通、质量和结果的信息……",
+    "submit": "提交评论",
+    "submitting": "正在提交...",
+    "successTitle": "谢谢",
+    "successDesc": "您的评论已收到。经过快速批准检查后，它将出现在网站上。",
+    "backHome": "回到家",
+    "errorConfig": "暂时无法提交审核。请稍后重试。",
+    "errorQuoteShort": "请在评论中写下至少 20 个字符。",
+    "errorGeneric": "发送您的评论时出了点问题。请再试一次。",
+    "metaTitle": "写评论 |星光视觉效果",
+    "metaDescription": "分享您使用 Starlights Visuals 的经验。为我们的推荐撰写客户评论。"
   }
 }

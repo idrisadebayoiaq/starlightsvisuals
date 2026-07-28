@@ -47,24 +47,24 @@ function BlogPostPage() {
           <img
             src={post.image}
             alt=""
-            className="absolute inset-0 -z-10 h-full w-full object-cover opacity-30"
+            className="absolute inset-0 -z-10 h-full w-full object-cover opacity-55"
           />
-          <div className="absolute inset-0 -z-10 bg-background/75" />
+          <div className="absolute inset-0 -z-10 bg-gradient-to-b from-black/50 via-black/35 to-background" />
           <div className="absolute inset-0 -z-10 grid-bg opacity-40" />
           <div className="mx-auto max-w-3xl px-6 py-20 md:py-28">
             <Link
               to="/blog"
-              className="inline-flex items-center gap-2 font-display text-xs uppercase tracking-widest text-muted-foreground transition hover:text-neon-green"
+              className="inline-flex items-center gap-2 font-display text-xs uppercase tracking-widest text-white/70 transition hover:text-neon-green"
             >
               <ArrowLeft className="h-4 w-4" /> {t("blogPage.backToBlog")}
             </Link>
             <p className="mt-8 font-display text-[10px] uppercase tracking-widest text-neon-green">
               {post.category}
             </p>
-            <h1 className="mt-4 font-display text-4xl tracking-tight text-balance md:text-5xl lg:text-6xl">
+            <h1 className="mt-4 font-display text-4xl tracking-tight text-balance text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] md:text-5xl lg:text-6xl">
               {post.title}
             </h1>
-            <p className="mt-6 text-sm text-muted-foreground">
+            <p className="mt-6 text-sm text-white/70">
               {post.date} · {post.readTime} · {post.author}
             </p>
           </div>

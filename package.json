@@ -8,6 +8,8 @@
     "build": "vite build",
     "sync:i18n": "node scripts/sync-i18n-works.mjs && node scripts/sync-i18n-hero.mjs && node scripts/sync-i18n-accordion.mjs",
     "translate:works": "node scripts/translate-works-i18n.mjs",
+    "translate:missing": "node scripts/translate-missing-i18n.mjs",
+    "translate:all": "npm run sync:i18n && npm run translate:missing",
     "process:brand-logos": "node scripts/process-brand-logos.mjs",
     "build:dev": "vite build --mode development",
     "preview": "node .output/server/index.mjs",

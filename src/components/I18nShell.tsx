@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
+import { DocumentLangMeta } from "@/components/DocumentLangMeta";
 import { TranslationPopup } from "@/components/TranslationPopup";
 import { applyStoredLanguage } from "@/i18n";
 import { isRtlLanguage } from "@/i18n/languages";
@@ -20,6 +21,7 @@ export function I18nShell({ children }: { children: React.ReactNode }) {
 
   return (
     <>
+      <DocumentLangMeta />
       {children}
       <TranslationPopup />
     </>

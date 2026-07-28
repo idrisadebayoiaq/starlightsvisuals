@@ -1,9 +1,9 @@
 {
   "brand": {
     "name": "Starlights Visuals",
-    "star": "STAR",
-    "lights": "LIGHTS",
-    "visuals": "VISUALS",
+    "star": "YILDIZ",
+    "lights": "IŞIKLAR",
+    "visuals": "GÖRSELLER",
     "email": "sternlichtespeciale@gmail.com"
   },
   "nav": {
@@ -16,15 +16,15 @@
     "contact": "İletişim",
     "portfolioCta": "Portfolyo →",
     "faq": "SSS",
-    "writeReview": "Write a review"
+    "writeReview": "Bir inceleme yazın"
   },
   "header": {
     "closeMenu": "Menüyü kapat",
     "openMenu": "Menüyü aç",
     "closeSidebar": "Kenar çubuğunu kapat",
     "openSidebar": "Kenar çubuğunu aç",
-    "switchToLight": "Switch to light mode",
-    "switchToDark": "Switch to dark mode"
+    "switchToLight": "Işık moduna geç",
+    "switchToDark": "Karanlık moda geç"
   },
   "languageSwitcher": {
     "label": "Dil",
@@ -45,65 +45,65 @@
     "emailPlaceholder": "your@email.com",
     "join": "Katıl",
     "subscribed": "✦ Aramızdasınız. Starlights'a hoş geldiniz.",
-    "tagline": "A creative studio bringing imagination to life through cinematic 2D animation, high quality 3D experiences, and VFX.",
+    "tagline": "Sinematik 2D animasyon, yüksek kaliteli 3D deneyimler ve VFX aracılığıyla hayal gücünü hayata geçiren yaratıcı bir stüdyo.",
     "explore": "Keşfet",
     "follow": "Takip et",
     "social": "Sosyal medya bağlantısı",
     "copyright": "© {{year}} Starlights Visuals. Işık ve kodla üretildi.",
-    "joining": "Joining…",
-    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
+    "joining": "Katılıyor…",
+    "subscribeError": "Şu anda abone olunamıyor. Lütfen tekrar deneyin veya doğrudan bize e-posta gönderin."
   },
   "home": {
-    "metaTitle": "Starlights Visuals | Animation & VFX Studio",
-    "metaDescription": "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
-    "heroScript": "Stories in motion,",
-    "heroTitle1": "ANIMATION",
-    "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals brings stories to life with animation and visual effects that captivate audiences and elevate every frame. We animate fantasy creatures, human characters, vehicles, environments, props, and hard surface objects for film, series, advertising, and brand campaigns.",
-    "heroAlt": "Starlights Visuals cinematic hero",
-    "seePortfolio": "See Portfolio",
-    "startProject": "Start a Project",
-    "servicesLabel": "What we do",
-    "servicesTitle": "SERVICES",
-    "allServices": "All Services",
-    "showcaseLabel": "Recent work",
-    "showcaseTitle1": "SELECTED",
-    "showcaseTitle2": "WORK",
-    "fullPortfolio": "Full Portfolio",
-    "viewAllFaq": "View all FAQ",
-    "ctaScript": "Let's build something,",
-    "ctaTitle1": "READY TO",
-    "ctaTitle2": "COLLABORATE?",
+    "metaTitle": "Yıldız Işıkları Görselleri | Animasyon ve VFX Stüdyosu",
+    "metaDescription": "2D ve 3D animasyon, VFX ve sinematik hikaye anlatımına yönelik yaratıcı bir stüdyo. Dünyalara, karakterlere ve filmlere hayat veriyoruz.",
+    "heroScript": "Hareket halindeki hikâyeler —",
+    "heroTitle1": "ANİMASYON",
+    "heroTitle2": "VE VFX",
+    "heroBody": "Starlights Visuals, izleyicileri büyüleyen ve her kareyi yükselten animasyon ve görsel efektlerle hikâyelere hayat verir. Fantastik yaratıklar, insan karakterler, araçlar, ortamlar, aksesuarlar ve hard-surface nesneleri canlandırıyoruz — film, dizi, reklam ve marka kampanyaları için.",
+    "heroAlt": "Starlights Visuals sinematik kahramanı",
+    "seePortfolio": "Portföyü Gör",
+    "startProject": "Bir Proje Başlatın",
+    "servicesLabel": "ne yapıyoruz",
+    "servicesTitle": "HİZMETLER",
+    "allServices": "Tüm Hizmetler",
+    "showcaseLabel": "Son çalışmalar",
+    "showcaseTitle1": "SEÇİLDİ",
+    "showcaseTitle2": "İŞ",
+    "fullPortfolio": "Tam Portföy",
+    "viewAllFaq": "Tüm SSS'leri görüntüle",
+    "ctaScript": "Hadi bir şeyler inşa edelim,",
+    "ctaTitle1": "HAZIR",
+    "ctaTitle2": "İŞBİRLİĞİ YAPILACAK MI?",
     "services": {
       "01": {
-        "title": "Animation & VFX",
-        "desc": "Cinematic 2D & 3D animation, character rigs, and visual effects for film, series, and brands."
+        "title": "Animasyon ve VFX",
+        "desc": "Filmler, diziler ve markalar için sinematik 2D ve 3D animasyon, karakter donanımları ve görsel efektler."
       },
       "02": {
-        "title": "Product Animation",
-        "desc": "Photoreal product films, packshots, and CGI that make every detail sell."
+        "title": "Ürün Animasyonu",
+        "desc": "Her ayrıntının satış yapmasını sağlayan fotogerçekçi ürün filmleri, paket görüntüleri ve CGI."
       },
       "03": {
-        "title": "Concept & Character Art",
-        "desc": "Original characters, creatures, environments, and props that anchor your IP."
+        "title": "Konsept ve Karakter Sanatı",
+        "desc": "IP'nizi sabitleyen orijinal karakterler, yaratıklar, ortamlar ve aksesuarlar."
       },
       "04": {
-        "title": "Cinematic Trailers",
-        "desc": "Story driven trailers built to launch brands, IPs, and campaigns."
+        "title": "Sinematik Fragmanlar",
+        "desc": "Markaları, IP'leri ve kampanyaları başlatmak için oluşturulmuş hikaye odaklı fragmanlar."
       }
     },
     "showcase": {
       "character": {
-        "tag": "3D Animation",
-        "title": "3D Animation"
+        "tag": "3D Animasyon",
+        "title": "3D Animasyon"
       },
       "gameArt": {
-        "tag": "Motion Graphics",
-        "title": "Motion Graphics"
+        "tag": "Hareketli Grafikler",
+        "title": "Hareketli Grafikler"
       },
       "animation2d": {
-        "tag": "2D Animation",
-        "title": "2D Animation"
+        "tag": "2D Animasyon",
+        "title": "2D Animasyon"
       },
       "cinematic": {
         "tag": "VFX",
@@ -111,16 +111,16 @@
       },
       "creature": {
         "tag": "3D",
-        "title": "Industrial Animation"
+        "title": "Endüstriyel Animasyon"
       },
       "motion": {
         "tag": "3D",
-        "title": "Product Animation"
+        "title": "Ürün Animasyonu"
       }
     }
   },
   "trustedBy": {
-    "badge": "200+ COMPANY",
+    "badge": "200+ ŞİRKET",
     "trusted": "Güvenen",
     "by": "tarafından"
   },
@@ -139,136 +139,136 @@
     "playAria": "{{name}} adlı kişinin video referansını oynat",
     "items": {
       "hauke": {
-        "headline": "Efficient, reliable, and highly recommended",
-        "quote": "Starlight Visuals supported us in creating a CGI video for SmarAct Automation, with the goal of presenting our core competencies in a clear, professional, and visually engaging way. The collaboration was highly efficient and reliable from start to finish. We especially appreciated the fast response times, quick turnaround, strong communication, and dependable delivery of the final files. Our requirements were understood quickly and implemented professionally. We are very satisfied with the result and can confidently recommend Starlight Visuals for high-quality CGI and visual content projects.",
-        "role": "Digital Marketing & Content Manager"
+        "headline": "Verimli, güvenilir ve şiddetle tavsiye edilir",
+        "quote": "Starlight Visuals, temel yetkinliklerimizi net, profesyonel ve görsel olarak ilgi çekici bir şekilde sunmak amacıyla SmarAct Automation için bir CGI videosu oluşturmamızda bizi destekledi. İşbirliği baştan sona son derece verimli ve güvenilirdi. Özellikle hızlı yanıt sürelerini, hızlı geri dönüşleri, güçlü iletişimi ve nihai dosyaların güvenilir şekilde teslim edilmesini takdir ettik. Gereksinimlerimiz hızlı bir şekilde anlaşıldı ve profesyonelce uygulandı. Sonuçtan çok memnunuz ve yüksek kaliteli CGI ve görsel içerik projeleri için Starlight Visuals'ı güvenle önerebiliriz.",
+        "role": "Dijital Pazarlama ve İçerik Yöneticisi"
       },
       "jeremy": {
-        "headline": "From sketches to a finished helmet film",
-        "quote": "Working with Starlight Visuals was a great experience from start to finish. They didn't just create an animation they were involved throughout the entire process, from refining our initial sketches to supporting the CAD development and delivering a final helmet animation that brought our concept to life. What stood out most was how quickly they understood the product and translated technical details into visuals that were both accurate and engaging. The final presentation video gave us a professional way to showcase our helmet design to partners and stakeholders. They were responsive, easy to collaborate with, and genuinely cared about getting every detail right. I'd gladly recommend them to anyone looking for high-quality product animation and visualization.",
-        "role": "Founder"
+        "headline": "Eskizlerden bitmiş kask filmine",
+        "quote": "Starlight Visuals ile çalışmak baştan sona harika bir deneyimdi. Sadece bir animasyon yaratmakla kalmadılar, ilk taslaklarımızın iyileştirilmesinden CAD gelişiminin desteklenmesine ve konseptimizi hayata geçiren son kask animasyonunun sunulmasına kadar tüm süreç boyunca dahil oldular. En çok göze çarpan şey, ürünü ne kadar hızlı anladıkları ve teknik ayrıntıları hem doğru hem de ilgi çekici görsellere dönüştürmeleriydi. Son sunum videosu bize kask tasarımımızı ortaklarımıza ve paydaşlarımıza sergilemenin profesyonel bir yolunu sundu. Hızlı tepki veriyorlardı, işbirliği yapmaları kolaydı ve her ayrıntının doğru olmasına gerçekten önem veriyorlardı. Yüksek kaliteli ürün animasyonu ve görselleştirmesi arayan herkese memnuniyetle tavsiye ederim.",
+        "role": "Kurucu"
       },
       "raiv": {
-        "headline": "They genuinely cared about every character",
-        "quote": "I really enjoyed working with the team. It felt like they genuinely cared about the project and wanted the characters to look and feel right. Communication was always easy, they were open to feedback, and every revision was handled without any hassle. Seeing our NSFW characters come to life was exciting.",
-        "role": "Game Director"
+        "headline": "Her karaktere gerçekten önem verdiler",
+        "quote": "Ekiple çalışmaktan gerçekten keyif aldım. Projeyi gerçekten önemsediklerini ve karakterlerin doğru görünmesini ve hissetmesini istediklerini hissettim. İletişim her zaman kolaydı, geri bildirime açıktılar ve her revizyon sorunsuz bir şekilde gerçekleştirildi. NSFW karakterlerimizin canlandığını görmek heyecan vericiydi.",
+        "role": "Oyun Direktörü"
       },
       "ilija": {
-        "headline": "Clear visuals for electric vehicle technology",
-        "quote": "They helped shape our PHR concept creatively and deliver amazing video making sure the visuals clearly communicate how our electric vehicle technology works. Their attention to detail, creativity, and willingness to iterate made the entire process smooth. The final animation gave us a much clearer way to present our product to partners and stakeholders.",
-        "role": "Founder"
+        "headline": "Elektrikli araç teknolojisi için net görseller",
+        "quote": "PHR konseptimizi yaratıcı bir şekilde şekillendirmeye yardımcı oldular ve görsellerin elektrikli araç teknolojimizin nasıl çalıştığını net bir şekilde aktardığından emin olmak için muhteşem videolar sunmaya yardımcı oldular. Detaylara olan ilgileri, yaratıcılıkları ve tekrarlama istekleri tüm süreci sorunsuz hale getirdi. Son animasyon, ürünümüzü ortaklarımıza ve paydaşlarımıza sunmamız için bize çok daha net bir yol sağladı.",
+        "role": "Kurucu"
       },
       "luigi": {
-        "headline": "Exactly what we needed for M12 and B12",
-        "quote": "We needed a clear way to show the differences between our M12 and B12 products, and Starlight Visuals delivered exactly what we were looking for. The animations were high quality, easy to understand, and captured every important detail.",
-        "role": "Production Manager"
+        "headline": "M12 ve B12 için tam ihtiyacımız olan şey",
+        "quote": "M12 ve B12 ürünlerimiz arasındaki farkları göstermenin net bir yoluna ihtiyacımız vardı ve Starlight Visuals tam olarak aradığımız şeyi sağladı. Animasyonlar yüksek kalitedeydi, anlaşılması kolaydı ve her önemli ayrıntıyı yansıtıyordu.",
+        "role": "Üretim Müdürü"
       },
       "jason": {
-        "headline": "Outstanding quality beyond what we imagined",
-        "quote": "The quality of the animation was outstanding. Starlight Visuals helped us present our product in a way that was clear, engaging, and memorable. The final presentation looked far better than we had imagined.",
+        "headline": "Hayal ettiğimizin ötesinde olağanüstü kalite",
+        "quote": "Animasyonun kalitesi olağanüstüydü. Starlight Görselleri, ürünümüzü açık, ilgi çekici ve akılda kalıcı bir şekilde sunmamıza yardımcı oldu. Son sunum hayal ettiğimizden çok daha iyi görünüyordu.",
         "role": "CEO"
       },
       "burkhard": {
-        "headline": "Made a complex product easy to explain",
-        "quote": "We knew our product was strong, but explaining it clearly to customers was always the challenge. The team at Starlight Visuals took the time to understand how everything works and turned it into an animation that made the message much easier to communicate. It looks professional, keeps people's attention, and helps us present the product with much more confidence. The whole process was straightforward, and they were easy to work with. We're very happy with the result.",
-        "role": "Head of Sales"
+        "headline": "Karmaşık bir ürünü açıklamayı kolaylaştırdı",
+        "quote": "Ürünümüzün güçlü olduğunu biliyorduk ancak bunu müşterilere net bir şekilde açıklamak her zaman zorlayıcı oldu. Starlight Visuals'taki ekip, her şeyin nasıl çalıştığını anlamak için zaman ayırdı ve bunu, mesajın iletilmesini çok daha kolay hale getiren bir animasyona dönüştürdü. Profesyonel görünüyor, insanların dikkatini çekiyor ve ürünü çok daha güvenle sunmamıza yardımcı oluyor. Tüm süreç basitti ve onlarla çalışmak kolaydı. Sonuçtan çok memnunuz.",
+        "role": "Satış Müdürü"
       },
       "robert": {
-        "headline": "Premium watch films beyond what we imagined",
-        "quote": "There was a clear vision for how we wanted our watches to be presented, but Starlight Visuals took it beyond what we imagined. They didn't just animate our product they captured the details, precision, and premium quality that define our brand. The final presentation gave our collection a level of sophistication that instantly elevated how customers perceived it. The entire process was smooth, collaborative, and professionally handled from start to finish.",
-        "role": "Founder"
+        "headline": "Hayal ettiğimizin ötesinde premium filmler izleyin",
+        "quote": "Saatlerimizin nasıl sunulmasını istediğimiz konusunda net bir vizyon vardı ancak Starlight Visuals bunu hayal ettiğimizin ötesine taşıdı. Sadece ürünümüzü canlandırmakla kalmadılar, markamızı tanımlayan detayları, hassasiyeti ve üstün kaliteyi de yakaladılar. Son sunum, koleksiyonumuza, müşterilerin onu nasıl algıladığını anında yükselten bir düzeyde gelişmişlik kazandırdı. Tüm süreç baştan sona sorunsuz, işbirliğine dayalı ve profesyonelce yürütüldü.",
+        "role": "Kurucu"
       }
     },
     "videoRoles": {
       "ceo": "CEO",
-      "artDirector": "Art Director",
+      "artDirector": "Sanat yönetmeni",
       "founder": "Kurucu",
       "headProduction": "Prodüksiyon Müdürü",
       "vpMarketing": "Pazarlama VP",
       "coFounder": "Ortak Kurucu"
     },
-    "seeMore": "See more",
-    "seeLess": "See less",
-    "writeYours": "Write yours",
-    "tapToRead": "Tap to read full review"
+    "seeMore": "Daha fazlasını gör",
+    "seeLess": "Daha azını göster",
+    "writeYours": "Seninkini yaz",
+    "tapToRead": "İncelemenin tamamını okumak için dokunun"
   },
   "servicesPage": {
-    "metaTitle": "Services | Starlights Visuals",
-    "metaDescription": "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
-    "label": "What We Build",
-    "title": "SERVICES",
-    "subtitle": "One studio, every stage of production, from first sketch to final pixel.",
-    "ctaTitle1": "HAVE A",
-    "ctaTitle2": "PROJECT",
-    "ctaTitle3": "IN MIND?",
-    "ctaDesc": "Tell us your vision, we'll bring the firepower.",
-    "ctaButton": "Get In Touch",
+    "metaTitle": "Hizmetler | Yıldız Işıkları Görselleri",
+    "metaDescription": "2D animasyon, 3D animasyon, karakter tasarımı, hareketli grafikler, VFX, ürün animasyonu ve sinematik fragmanlar.",
+    "label": "Ne İnşa Ediyoruz",
+    "title": "HİZMETLER",
+    "subtitle": "Tek stüdyo, ilk taslaktan son piksele kadar prodüksiyonun her aşaması.",
+    "ctaTitle1": "VAR",
+    "ctaTitle2": "PROJE",
+    "ctaTitle3": "AKLINIZDA MI?",
+    "ctaDesc": "Bize vizyonunuzu söyleyin, ateş gücünü getirelim.",
+    "ctaButton": "İletişime Geçin",
     "items": {
       "2d": {
-        "title": "2D Animation",
-        "desc": "Frame by frame & rigged 2D for series, shorts, explainers, and brand films. We blend classic craft with digital pipelines."
+        "title": "2D Animasyon",
+        "desc": "Diziler, kısa filmler, açıklayıcı filmler ve marka filmleri için kare kare ve donanımlı 2D. Klasik zanaatı dijital boru hatlarıyla harmanlıyoruz."
       },
       "3d": {
-        "title": "3D Animation",
-        "desc": "Stylized and photoreal 3D, characters, environments, and full cinematic sequences with feature quality polish."
+        "title": "3D Animasyon",
+        "desc": "Stilize ve fotogerçekçi 3D, karakterler, ortamlar ve uzun metrajlı kalitede cilalanmış tam sinematik sekanslar."
       },
       "character": {
-        "title": "Character Design",
-        "desc": "Original characters, creatures, and concept art that anchor your IP and merch potential."
+        "title": "Karakter Tasarımı",
+        "desc": "Fikri mülkiyetinizi ve ürün potansiyelinizi güçlendiren orijinal karakterler, yaratıklar ve konsept çizimler."
       },
       "motion": {
-        "title": "Motion Graphics",
-        "desc": "Branded motion, UI animation, broadcast packages, and explainer videos with cinematic polish."
+        "title": "Hareketli Grafikler",
+        "desc": "Markalı hareket, kullanıcı arayüzü animasyonu, yayın paketleri ve sinematik cilalı açıklayıcı videolar."
       },
       "vfx": {
-        "title": "Visual Effects (VFX)",
-        "desc": "Compositing, particle FX, and CG integration for film, advertising, and digital campaigns."
+        "title": "Görsel Efektler (VFX)",
+        "desc": "Film, reklam ve dijital kampanyalar için birleştirme, parçacık FX ve CG entegrasyonu."
       },
       "trailer": {
-        "title": "Cinematic Trailers",
-        "desc": "Story driven trailers built to launch brands, IPs, and campaigns with maximum impact."
+        "title": "Sinematik Fragmanlar",
+        "desc": "Maksimum etkiye sahip markaları, fikri mülkiyet haklarını ve kampanyaları başlatmak için oluşturulmuş hikaye odaklı fragmanlar."
       }
     }
   },
   "aboutPage": {
-    "metaTitle": "About | Starlights Visuals",
-    "metaDescription": "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, game animation, product visualization, and 2D & 3D character animation.",
-    "label": "Who We Are",
-    "title1": "A STUDIO BUILT ON",
-    "title2": "LIGHT, CODE & STORY",
-    "p1": "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, game animation, product visualization, and 2D & 3D character animation. We combine artistic excellence with cutting-edge technology to transform ideas into visuals that captivate, educate, and inspire. From engineering-driven industrial animations and photorealistic product renders to stylized cartoons, expressive character performances, and cinematic game sequences, we create animation that delivers both visual impact and meaningful results.",
-    "p2": "Whether showcasing a product's innovation, bringing a game universe to life, or crafting memorable animated characters, every frame is designed with purpose and precision. Our multidisciplinary team of animators, technical artists, modelers, riggers, motion designers, and visual storytellers collaborates seamlessly to produce work that meets the highest creative and technical standards. We believe great animation does more than look beautiful, it communicates complex ideas, strengthens brands, and creates lasting emotional connections.",
-    "p3": "We partner with manufacturers, product companies, game developers, creative agencies, and global brands to deliver premium animation for marketing, product launches, training, entertainment, advertising, and digital experiences. Every project is driven by innovation, craftsmanship, and an uncompromising commitment to quality. At Starlight Visuals, we don't simply animate, we engineer experiences, build unforgettable characters, and create visuals that move people and businesses forward.",
-    "valuesLabel": "Core Values",
-    "valuesTitle": "WHAT DRIVES US",
+    "metaTitle": "Hakkında | Yıldız Işıkları Görselleri",
+    "metaDescription": "Starlight Visuals, endüstriyel ürün animasyonu, oyun animasyonu, ürün görselleştirmesi ve 2D ve 3D karakter animasyonu alanlarında olağanüstü görsel deneyimler yaratan birinci sınıf bir animasyon stüdyosudur.",
+    "label": "Biz Kimiz",
+    "title1": "ÜZERİNDE YAPILMIŞ BİR STÜDYO",
+    "title2": "IŞIK, KOD VE HİKAYE",
+    "p1": "Starlight Visuals, endüstriyel ürün animasyonu, oyun animasyonu, ürün görselleştirmesi ve 2D ve 3D karakter animasyonu alanlarında olağanüstü görsel deneyimler yaratan birinci sınıf bir animasyon stüdyosudur. Fikirleri büyüleyici, eğitici ve ilham verici görsellere dönüştürmek için sanatsal mükemmelliği en son teknolojiyle birleştiriyoruz. Mühendislik odaklı endüstriyel animasyonlardan fotogerçekçi ürün görsellerine, stilize çizgi filmlere, etkileyici karakter performanslarına ve sinematik oyun sahnelerine kadar hem görsel etki hem de anlamlı sonuçlar veren animasyonlar yaratıyoruz.",
+    "p2": "İster bir ürünün yeniliğini sergiliyor, ister bir oyun evrenini canlandırıyor, ister akılda kalıcı animasyonlu karakterler yaratıyor olsun, her kare amaç ve hassasiyetle tasarlanmıştır. Animatörler, teknik sanatçılar, modelciler, donanımcılar, hareket tasarımcıları ve görsel hikaye anlatıcılarından oluşan çok disiplinli ekibimiz, en yüksek yaratıcı ve teknik standartları karşılayan işler üretmek için kusursuz bir şekilde işbirliği yapıyor. Harika animasyonların güzel görünmekten daha fazlasını yaptığına, karmaşık fikirleri ilettiğine, markaları güçlendirdiğine ve kalıcı duygusal bağlantılar yarattığına inanıyoruz.",
+    "p3": "Pazarlama, ürün lansmanları, eğitim, eğlence, reklam ve dijital deneyimlere yönelik birinci sınıf animasyonlar sunmak için üreticiler, ürün şirketleri, oyun geliştiriciler, yaratıcı ajanslar ve küresel markalarla ortaklık yapıyoruz. Her proje yenilik, işçilik ve tavizsiz kalite taahhüdüyle yönlendirilir. Starlight Visuals'ta biz sadece animasyon yapmıyoruz, deneyimler tasarlıyoruz, unutulmaz karakterler oluşturuyoruz ve insanları ve işletmeleri ileriye taşıyan görseller yaratıyoruz.",
+    "valuesLabel": "Temel Değerler",
+    "valuesTitle": "BİZİ NELERE GÜDÜYORUZ",
     "values": {
       "imagination": {
-        "title": "Imagination First",
-        "desc": "Every project starts with a bold idea and a blank canvas."
+        "title": "Önce Hayal Gücü",
+        "desc": "Her proje cesur bir fikir ve boş bir tuvalle başlar."
       },
       "craft": {
-        "title": "Craft Obsessed",
-        "desc": "Frame by frame, pixel by pixel, quality is non negotiable."
+        "title": "Zanaat Takıntılı",
+        "desc": "Kare kare, piksel piksel kalite tartışılamaz."
       },
       "energy": {
-        "title": "Cinematic Energy",
-        "desc": "We chase the goosebumps. If it doesn't move us, we refine."
+        "title": "Sinematik Enerji",
+        "desc": "Tüylerimiz diken diken oluyor. Bizi harekete geçirmiyorsa, geliştiririz."
       },
       "story": {
-        "title": "Story Driven",
-        "desc": "Tech serves story. Always."
+        "title": "Hikaye Odaklı",
+        "desc": "Teknoloji hikayeye hizmet ediyor. Her zaman."
       }
     },
     "stats": {
-      "projects": "Projects Shipped",
-      "clients": "Global Clients",
-      "awards": "Awards Won",
-      "years": "Years Crafting"
+      "projects": "Gönderilen Projeler",
+      "clients": "Küresel Müşteriler",
+      "awards": "Kazanılan Ödüller",
+      "years": "Yıllar süren işçilik"
     }
   },
   "contactPage": {
     "metaTitle": "İletişim | Starlights Visuals",
-    "metaDescription": "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
+    "metaDescription": "2D ve 3D animasyon, hareketli grafikler, VFX, ürün animasyonu ve sinematik fragman projeleri için Starlights Visuals ile iletişime geçin.",
     "label": "Konuşalım",
     "title": "İLETİŞİM",
     "subtitle": "Prodüksiyon talepleri, iş birlikleri veya sadece merhaba demek, bize bir sinyal gönderin.",
@@ -287,59 +287,59 @@
     "responseTime": "YANIT SÜRESİ",
     "responseDesc": "24 saat içinde, Pzt, Cum.",
     "projectTypes": {
-      "2d": "2D Animation",
-      "3d": "3D Animation",
-      "trailer": "Cinematic Trailer",
-      "character": "Character Design",
-      "motion": "Motion Graphics and VFX",
-      "other": "Other"
+      "2d": "2D Animasyon",
+      "3d": "3D Animasyon",
+      "trailer": "Sinematik Fragman",
+      "character": "Karakter Tasarımı",
+      "motion": "Hareketli Grafik ve VFX",
+      "other": "Diğer"
     },
-    "sending": "Sending…",
-    "errorGeneric": "Could not send your message. Please email us directly or try again."
+    "sending": "Gönderiliyor…",
+    "errorGeneric": "Mesajınız gönderilemedi. Lütfen doğrudan bize e-posta gönderin veya tekrar deneyin."
   },
   "portfolioPage": {
     "metaTitle": "Portfolyo | Starlights Visuals",
-    "metaDescription": "Selected projects: animated series, cinematic trailers, character designs, and studio showcase reels by Starlights Visuals.",
+    "metaDescription": "Seçilen projeler: Starlights Visuals'ın animasyon dizileri, sinematik fragmanları, karakter tasarımları ve stüdyo tanıtım makaraları.",
     "label": "Seçilmiş işler",
-    "title1": "PORT",
+    "title1": "LİMAN",
     "title2": "FOLYO",
     "subtitle": "Hayata geçirmemize yardımcı olduğumuz dünyalara, karakterlere ve hikâyelere bir bakış.",
     "projects": {
       "trailer": {
-        "tag": "Cinematic Trailer",
-        "title": "Iron Sentinel",
-        "desc": "Cinematic brand launch trailer."
+        "tag": "Sinematik Fragman",
+        "title": "Demir Nöbetçi",
+        "desc": "Sinematik marka lansman fragmanı."
       },
       "character": {
-        "tag": "Character Design",
-        "title": "Nova Vanguard",
-        "desc": "Hero protagonist sheet."
+        "tag": "Karakter Tasarımı",
+        "title": "Nova Öncü",
+        "desc": "Kahraman kahramanı sayfası."
       },
       "2d": {
-        "tag": "2D Animation",
-        "title": "Neon Skyline",
-        "desc": "Anime inspired pilot episode."
+        "tag": "2D Animasyon",
+        "title": "Neon manzarası",
+        "desc": "Animeden ilham alan pilot bölüm."
       },
       "creature": {
-        "tag": "Creature Design",
-        "title": "Crystal Wyrm",
-        "desc": "Boss creature concept."
+        "tag": "Yaratık Tasarımı",
+        "title": "Kristal Ejder",
+        "desc": "Patron yaratık konsepti."
       },
       "motion": {
-        "tag": "Motion Graphics",
-        "title": "Pulse Identity",
-        "desc": "Brand motion system."
+        "tag": "Hareketli Grafikler",
+        "title": "Nabız Kimliği",
+        "desc": "Marka hareket sistemi."
       },
       "motionEnv": {
-        "tag": "Motion Graphics",
-        "title": "Pulse Worlds",
-        "desc": "Immersive brand environment art."
+        "tag": "Hareketli Grafikler",
+        "title": "Nabız Dünyaları",
+        "desc": "Sürükleyici marka ortamı sanatı."
       }
     }
   },
   "blogPage": {
-    "metaTitle": "Blog | Starlights Visuals",
-    "metaDescription": "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
+    "metaTitle": "Blog | Yıldız Işıkları Görselleri",
+    "metaDescription": "Starlights Visuals'tan animasyon, VFX, sinematik fragmanlar ve birinci sınıf marka hikaye anlatımına ilişkin bilgiler.",
     "label": "Stüdyo günlüğü",
     "title1": "BİZİM",
     "title2": "BLOG",
@@ -349,50 +349,50 @@
     "startProject": "Proje başlat",
     "moreFromJournal": "Günlükten daha fazlası",
     "postBody1": "Starlights Visuals'ta her kareyi yalnızca güzel bir görüntü değil, bir dönüşüm fırsatı olarak görüyoruz. Bu makale {{category}} çalışmamızın arkasındaki düşünceyi ve iyi kreatifi lansmana hazır kreatiften ayıran kararları genişletiyor.",
-    "postBody2": "Whether you are shipping a trailer, scaling a brand motion system, or building campaign visuals for a live product, the same principle applies: clarity of story first, polish second, and ruthless editing last. That discipline is how teams hit deadlines without the almost there feeling.",
+    "postBody2": "İster bir fragman gönderiyor, ister bir marka hareket sistemini ölçeklendiriyor, ister canlı bir ürün için kampanya görselleri oluşturuyor olun, aynı prensip geçerlidir: önce hikayenin netliği, sonra cilalama ve son olarak acımasız düzenleme. Bu disiplin, ekiplerin son teslim tarihlerine neredeyse varma hissi olmadan ulaşmasını sağlar.",
     "postBody3": "Bu düşünceyi bir sonraki projenize uygulamak ister misiniz? Ne inşa ettiğinizi duymak isteriz, bize bir brief gönderin, konseptten teslimata sinematik bir yol haritası çıkaralım.",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "Why cinematic trailers convert better than product demos",
-        "excerpt": "Story first launch films build emotional stakes before the CTA. Here is how we structure hooks, pacing, and grade for maximum retention.",
-        "category": "Strategy",
-        "date": "May 12, 2026",
-        "readTime": "6 min read"
+        "title": "Sinematik fragmanlar neden ürün demolarından daha iyi dönüşüm sağlıyor?",
+        "excerpt": "Hikayenin ilk lansman filmleri CTA'dan önce duygusal etkiler yaratır. Maksimum tutma için kancaları, ilerleme hızını ve derecelendirmeyi şu şekilde yapılandırıyoruz.",
+        "category": "Strateji",
+        "date": "12 Mayıs 2026",
+        "readTime": "6 dakikalık okuma"
       },
       "character-design-for-ip": {
-        "title": "Character design that anchors your IP across every channel",
-        "excerpt": "From silhouette readability to merch ready turnarounds, the checklist we use before a hero goes into production.",
-        "category": "Craft",
-        "date": "May 3, 2026",
-        "readTime": "5 min read"
+        "title": "IP'nizi her kanala sabitleyen karakter tasarımı",
+        "excerpt": "Siluetin okunabilirliğinden ürüne hazır geri dönüşlere kadar, bir kahramanın üretime geçmesinden önce kullandığımız kontrol listesi.",
+        "category": "Zanaat",
+        "date": "3 Mayıs 2026",
+        "readTime": "5 dakikalık okuma"
       },
       "motion-systems-for-brands": {
-        "title": "Building motion systems brands can actually reuse",
-        "excerpt": "Modular motion libraries, logo stings, and UI micro interactions that keep campaigns consistent at scale.",
-        "category": "Motion",
-        "date": "Apr 8, 2026",
-        "readTime": "4 min read"
+        "title": "Markaların gerçekten yeniden kullanabileceği hareket sistemleri oluşturma",
+        "excerpt": "Kampanyaların geniş ölçekte tutarlı olmasını sağlayan modüler hareket kitaplıkları, logo eklemeleri ve kullanıcı arayüzü mikro etkileşimleri.",
+        "category": "Hareket",
+        "date": "8 Nis 2026",
+        "readTime": "4 dakikalık okuma"
       },
       "2d-animation-in-2026": {
-        "title": "2D animation in 2026: hybrid pipelines that still feel handmade",
-        "excerpt": "Combining rigged efficiency with frame by frame accents, when to push each technique for premium results.",
-        "category": "Animation",
-        "date": "Mar 29, 2026",
-        "readTime": "7 min read"
+        "title": "2026'da 2D animasyon: hâlâ el yapımı hissi veren hibrit boru hatları",
+        "excerpt": "Üstün sonuçlar için her bir tekniğin ne zaman zorlanması gerektiğini, gelişmiş verimliliği kare kare vurgularla birleştirerek.",
+        "category": "Animasyon",
+        "date": "29 Mart 2026",
+        "readTime": "7 dakikalık okuma"
       },
       "creature-design-breakdown": {
-        "title": "Creature design breakdown: from mood board to final rig",
-        "excerpt": "A look at how we develop boss creatures with readable silhouettes, material storytelling, and cinematic presence.",
-        "category": "Craft",
-        "date": "Mar 14, 2026",
-        "readTime": "6 min read"
+        "title": "Yaratık tasarımının dökümü: ruh hali panosundan son donanıma kadar",
+        "excerpt": "Okunabilir silüetlere, materyal hikaye anlatımına ve sinematik varlığa sahip patron yaratıkları nasıl geliştirdiğimize bir bakış.",
+        "category": "Zanaat",
+        "date": "14 Mart 2026",
+        "readTime": "6 dakikalık okuma"
       },
       "production-pipelines-that-ship": {
-        "title": "Production pipelines that ship: concept to final delivery",
-        "excerpt": "How we align art direction, technical constraints, and milestone reviews so teams ship on time without sacrificing polish.",
-        "category": "Production",
-        "date": "Apr 21, 2026",
-        "readTime": "8 min read"
+        "title": "Gönderim yapan üretim hatları: konseptten nihai teslimata kadar",
+        "excerpt": "Ekiplerin ciladan ödün vermeden zamanında teslimat yapması için sanat yönetimini, teknik kısıtlamaları ve dönüm noktası incelemelerini nasıl uyumlu hale getiriyoruz?",
+        "category": "Üretme",
+        "date": "21 Nis 2026",
+        "readTime": "8 dakikalık okuma"
       }
     }
   },
@@ -409,8 +409,8 @@
     "goHome": "Ana sayfaya git"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals | Animation & VFX Studio",
-    "rootDescription": "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
+    "rootTitle": "Yıldız Işıkları Görselleri | Animasyon ve VFX Stüdyosu",
+    "rootDescription": "Starlights Visuals, sinematik 2D animasyon, yüksek kaliteli 3D animasyon ve VFX konusunda uzmanlaşmış yaratıcı bir stüdyodur.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -421,213 +421,213 @@
     "logoAlt": "{{brand}} logosu"
   },
   "works": {
-    "breadcrumbLabel": "Breadcrumb",
-    "breadcrumbHome": "Home",
-    "breadcrumbWorks": "Selected Works",
-    "clientsTitle": "Clients We've Worked With",
-    "clientsCount": "{{count}} clients",
-    "projectsCompleted": "{{count}} projects completed",
-    "timeline": "Timeline",
-    "services": "Services provided",
-    "tools": "Tools & software",
-    "searchPlaceholder": "Search projects…",
-    "filterYear": "Filter by year",
-    "allYears": "All years",
-    "noClients": "No clients in this category yet.",
-    "noProjects": "No projects match your filters.",
-    "projectsTitle": "Project Samples",
-    "relatedProjects": "Related projects",
-    "closePreview": "Close preview",
-    "ctaScript": "Ready when you are,",
-    "ctaTitle": "Start Your Project With Us",
-    "ctaDesc": "Tell us about your brand, timeline, and goals. We'll map a cinematic path from concept to delivery.",
-    "ctaButton": "Start a project",
-    "portfolioHubDesc": "Explore work by category, animation, VFX, motion, and more.",
+    "breadcrumbLabel": "Ekmek kırıntısı",
+    "breadcrumbHome": "Ev",
+    "breadcrumbWorks": "Seçilmiş Eserler",
+    "clientsTitle": "Birlikte Çalıştığımız Müşteriler",
+    "clientsCount": "{{count}} müşteri",
+    "projectsCompleted": "{{count}} proje tamamlandı",
+    "timeline": "Zaman çizelgesi",
+    "services": "Sağlanan hizmetler",
+    "tools": "Araçlar ve yazılım",
+    "searchPlaceholder": "Proje ara…",
+    "filterYear": "Yıla göre filtrele",
+    "allYears": "Tüm yıllar",
+    "noClients": "Bu kategoride henüz müşteri yok.",
+    "noProjects": "Filtrelerinizle eşleşen proje yok.",
+    "projectsTitle": "Proje Örnekleri",
+    "relatedProjects": "İlgili projeler",
+    "closePreview": "Önizlemeyi kapat",
+    "ctaScript": "Sen hazır olduğunda hazır ol,",
+    "ctaTitle": "Projenize Bizimle Başlayın",
+    "ctaDesc": "Bize markanızdan, zaman çizelgenizden ve hedeflerinizden bahsedin. Konseptten teslimata kadar sinematik bir yolun haritasını çıkaracağız.",
+    "ctaButton": "Bir proje başlatın",
+    "portfolioHubDesc": "Çalışmaları kategoriye, animasyona, VFX'e, harekete ve daha fazlasına göre keşfedin.",
     "categories": {
       "2d-animation": {
-        "title": "2D animasyon",
-        "tagline": "Frame by frame craft for campaigns and series",
-        "description": "Character driven 2D animation for commercials, explainers, and episodic content with bold motion and cinematic timing."
+        "title": "2D Animasyon",
+        "tagline": "Kampanyalar ve seriler için kare kare zanaat",
+        "description": "Reklamlar, açıklayıcılar ve bölümlü içerikler için cesur hareket ve sinematik zamanlamayla karakter odaklı 2D animasyon."
       },
       "3d-animation": {
-        "title": "3D animasyon",
-        "tagline": "Stylized and photoreal 3D for film and brands",
-        "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
+        "title": "3D Animasyon",
+        "tagline": "Film ve markalar için stilize ve fotogerçekçi 3D",
+        "description": "Kampanyalar ve diziler için özellik düzeyinde cilalamayla yüksek kaliteli 3D karakter, ürün ve sinematik animasyon."
       },
       "motion-graphics": {
-        "title": "Motion Graphics",
-        "tagline": "Design led motion systems for launches and brand worlds",
-        "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
+        "title": "Hareketli Grafikler",
+        "tagline": "Lansmanlar ve marka dünyaları için tasarım odaklı hareket sistemleri",
+        "description": "Lansmanlar, kontrol panelleri ve kanallar arasında ölçeklenen marka dünyaları için öncü hareket sistemleri tasarlayın."
       },
       "vfx": {
-        "title": "Görsel efektler (VFX)",
-        "tagline": "Compositing, FX, and cinematic finishing",
-        "description": "Visual effects for trailers, product films, and branded content, from cleanups to full CG integration."
+        "title": "Visual Effects (VFX)",
+        "tagline": "Kompozisyon, FX ve sinematik sonlandırma",
+        "description": "Temizlemeden tam CG entegrasyonuna kadar fragmanlar, ürün filmleri ve markalı içerikler için görsel efektler."
       }
     },
     "showcase": {
       "2d-animation": {
-        "tag": "2D animasyon",
-        "title": "2D animasyon"
+        "tag": "2D Animasyon",
+        "title": "2D Animasyon"
       },
       "3d-animation": {
-        "tag": "3D animasyon",
-        "title": "3D animasyon"
+        "tag": "3D Animasyon",
+        "title": "3D Animasyon"
       },
       "motion-graphics": {
-        "tag": "Motion Graphics",
-        "title": "Motion Graphics"
+        "tag": "Hareketli Grafikler",
+        "title": "Hareketli Grafikler"
       },
       "vfx": {
-        "tag": "Görsel efektler (VFX)",
-        "title": "Görsel efektler (VFX)"
+        "tag": "Visual Effects (VFX)",
+        "title": "Visual Effects (VFX)"
       }
     },
     "clients": {
       "2d-animation": {
         "chibi-art": {
           "name": "CHIBI ART",
-          "industry": "Character & Animation",
-          "description": "Chibi style 2D character animation with expressive scenes and behind the scenes making process films.",
+          "industry": "Karakter ve Animasyon",
+          "description": "Etkileyici sahneler ve sahne arkası süreç filmlerinin yapıldığı Chibi tarzı 2D karakter animasyonu.",
           "timeline": "2025",
           "services": {
-            "0": "2D Animation",
-            "1": "Chibi Art",
-            "2": "Character Animation"
+            "0": "2D Animasyon",
+            "1": "Chibi Sanatı",
+            "2": "Karakter Animasyonu"
           },
           "tools": {
             "0": "After Effects",
-            "1": "Clip Studio Paint",
+            "1": "Klip Stüdyo Boyası",
             "2": "Photoshop"
           }
         },
         "vtuber-animation": {
           "name": "VTUBER ANIMATION",
-          "industry": "VTuber & Character",
-          "description": "VTuber character art and 2D animation with modeling process films, polished samples, and Live2D style performance.",
+          "industry": "VTuber ve Karakter",
+          "description": "Modelleme süreci filmleri, cilalanmış örnekler ve Live2D tarzı performansıyla VTuber karakter çizimi ve 2D animasyon.",
           "timeline": "2025",
           "services": {
-            "0": "VTuber Animation",
-            "1": "2D Character",
-            "2": "Live2D Style"
+            "0": "VTuber Animasyonu",
+            "1": "2D Karakter",
+            "2": "Canlı2D Stili"
           },
           "tools": {
-            "0": "Live2D",
+            "0": "Canlı2D",
             "1": "After Effects",
-            "2": "Clip Studio Paint"
+            "2": "Klip Stüdyo Boyası"
           }
         },
         "live2d-animation": {
           "name": "LIVE2D ANIMATION",
-          "industry": "Live2D & Character",
-          "description": "Live2D character art, rigging, and animation from making process films through polished sample performances.",
+          "industry": "Live2D ve Karakter",
+          "description": "Canlı2D karakter sanatı, donanım ve animasyon, süreç filmleri yapımından gösterişli örnek performanslara kadar.",
           "timeline": "2025",
           "services": {
-            "0": "Live2D",
-            "1": "Rigging",
-            "2": "2D Character Animation"
+            "0": "Canlı2D",
+            "1": "Arma",
+            "2": "2D Karakter Animasyonu"
           },
           "tools": {
-            "0": "Live2D Cubism",
+            "0": "Live2D Kübizm",
             "1": "After Effects",
             "2": "Photoshop"
           }
         },
         "2d-anime-animation": {
           "name": "2D ANIME ANIMATION",
-          "industry": "Anime & 2D Animation",
-          "description": "High quality 2D anime style animation and music videos with expressive characters and cinematic motion.",
+          "industry": "Anime ve 2D Animasyon",
+          "description": "Etkileyici karakterlere ve sinematik hareketlere sahip yüksek kaliteli 2D anime tarzı animasyon ve müzik videoları.",
           "timeline": "2025",
           "services": {
-            "0": "2D Anime",
-            "1": "Music Video",
-            "2": "Character Animation"
+            "0": "2D Animasyonlar",
+            "1": "Müzik Videosu",
+            "2": "Karakter Animasyonu"
           },
           "tools": {
             "0": "After Effects",
-            "1": "Toon Boom",
-            "2": "Clip Studio Paint"
+            "1": "Çizgi Boom",
+            "2": "Klip Stüdyo Boyası"
           }
         }
       },
       "3d-animation": {
         "kids-learning-animation": {
           "name": "KIDS LEARNING ANIMATION",
-          "industry": "Children & Education",
-          "description": "Fun character animation for kids learning content, including number videos and cute cartoon characters.",
+          "industry": "Çocuk ve Eğitim",
+          "description": "Sayı videoları ve sevimli çizgi film karakterleri de dahil olmak üzere çocukların öğrenim içeriği için eğlenceli karakter animasyonu.",
           "timeline": "2025",
           "services": {
-            "0": "Kids Learning",
-            "1": "Character Animation",
-            "2": "Educational Content"
+            "0": "Çocuklar Öğreniyor",
+            "1": "Karakter Animasyonu",
+            "2": "Eğitim İçeriği"
           },
           "tools": {
             "0": "After Effects",
-            "1": "Toon Boom",
+            "1": "Çizgi Boom",
             "2": "Blender"
           }
         },
         "3d-cartoon-animation": {
           "name": "3D CARTOON ANIMATION",
-          "industry": "Character & Animation",
-          "description": "Stylized 3D cartoon character animation and showcase films with playful motion and polished presentation.",
+          "industry": "Karakter ve Animasyon",
+          "description": "Stilize 3D çizgi film karakteri animasyonu ve eğlenceli hareketli ve gösterişli sunumlu vitrin filmleri.",
           "timeline": "2025",
           "services": {
-            "0": "3D Cartoon Animation",
-            "1": "Character Showcase",
-            "2": "Stylized CGI"
+            "0": "3D Çizgi Film Animasyonu",
+            "1": "Karakter Gösterimi",
+            "2": "Stilize CGI"
           },
           "tools": {
             "0": "Blender",
-            "1": "Cinema 4D",
+            "1": "Sinema 4D",
             "2": "After Effects"
           }
         },
         "3d-explainer-video": {
           "name": "3D EXPLAINER VIDEO",
-          "industry": "Product & Explainer",
-          "description": "3D explainer and product presentation films covering brand storytelling, 360 product displays, and commercial animation.",
+          "industry": "Ürün ve Açıklayıcı",
+          "description": "Marka hikaye anlatımını, 360 derece ürün gösterimlerini ve ticari animasyonu kapsayan 3 boyutlu açıklayıcı ve ürün tanıtım filmleri.",
           "timeline": "2025",
           "services": {
-            "0": "3D Explainer",
-            "1": "Product Presentation",
-            "2": "360 Product Display"
+            "0": "3D Açıklayıcı",
+            "1": "Ürün Sunumu",
+            "2": "360 Ürün Teşhiri"
           },
           "tools": {
-            "0": "Cinema 4D",
+            "0": "Sinema 4D",
             "1": "Blender",
             "2": "After Effects"
           }
         },
         "3d-medical-animation": {
           "name": "3D MEDICAL ANIMATION",
-          "industry": "Healthcare & Medical Visualization",
-          "description": "High quality 3D medical animation covering anatomy, surgical procedures, and medical device visualization.",
+          "industry": "Sağlık ve Tıbbi Görselleştirme",
+          "description": "Anatomi, cerrahi prosedürleri ve tıbbi cihaz görselleştirmesini kapsayan yüksek kaliteli 3D tıbbi animasyon.",
           "timeline": "2025",
           "services": {
-            "0": "Medical Animation",
-            "1": "Anatomy CGI",
-            "2": "Surgical Visualization"
+            "0": "Tıbbi Animasyon",
+            "1": "Anatomi CGI",
+            "2": "Cerrahi Görüntüleme"
           },
           "tools": {
-            "0": "Cinema 4D",
+            "0": "Sinema 4D",
             "1": "Blender",
             "2": "After Effects"
           }
         },
         "3d-anime-character": {
           "name": "3D ANIME CHARACTER",
-          "industry": "Character & Anime",
-          "description": "3D anime character modeling and client showcase films with stylized materials and polished presentation.",
+          "industry": "Karakter ve Anime",
+          "description": "3D anime karakter modellemesi ve stilize edilmiş materyaller ve gösterişli sunumlarla müşteri vitrin filmleri.",
           "timeline": "2025",
           "services": {
-            "0": "3D Character",
-            "1": "Anime CGI",
-            "2": "Client Showcase"
+            "0": "3D Karakter",
+            "1": "Anime CGI'sı",
+            "2": "Müşteri Vitrini"
           },
           "tools": {
             "0": "Blender",
-            "1": "Cinema 4D",
+            "1": "Sinema 4D",
             "2": "After Effects"
           }
         }
@@ -635,129 +635,129 @@
       "motion-graphics": {
         "watch-animation": {
           "name": "WATCH ANIMATION",
-          "industry": "Luxury Watches",
-          "description": "Photoreal 3D watch product animation and cinematic packshot films for luxury timepieces.",
+          "industry": "Lüks Saatler",
+          "description": "Lüks saatler için fotogerçekçi 3D ürün animasyonu ve sinematik paket çekim filmleri izleyin.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Watch CGI",
-            "2": "Packshot Films"
+            "0": "3D Ürün Animasyonu",
+            "1": "CGI'yi izleyin",
+            "2": "Paket Çekim Filmleri"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Sinema 4D",
+            "1": "Kırmızıya kayma",
             "2": "After Effects"
           }
         },
         "ryse-drink-3d-product-animation": {
           "name": "RYSE DRINK 3D PRODUCT ANIMATION",
-          "industry": "Beverage & Product CGI",
-          "description": "Photoreal 3D beverage product animation for Ryse drink and lemonade campaigns with cinematic packshot finish.",
+          "industry": "İçecek ve Ürün CGI'sı",
+          "description": "Ryse içecek ve limonata kampanyaları için sinematik paket kaplamalı fotogerçekçi 3D içecek ürünü animasyonu.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Beverage CGI",
-            "2": "Packshot Films"
+            "0": "3D Ürün Animasyonu",
+            "1": "İçecek CGI'sı",
+            "2": "Paket Çekim Filmleri"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Sinema 4D",
+            "1": "Kırmızıya kayma",
             "2": "After Effects"
           }
         },
         "3d-perfume-animation": {
           "name": "3D PERFUME ANIMATION",
-          "industry": "Beauty & Fragrance",
-          "description": "Photoreal 3D perfume product animation for luxury fragrance launches and campaign hero films.",
+          "industry": "Güzellik ve Koku",
+          "description": "Lüks koku lansmanları ve kampanya kahraman filmleri için fotogerçekçi 3D parfüm ürünü animasyonu.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Fragrance CGI",
-            "2": "Packshot Films"
+            "0": "3D Ürün Animasyonu",
+            "1": "Koku CGI",
+            "2": "Paket Çekim Filmleri"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Sinema 4D",
+            "1": "Kırmızıya kayma",
             "2": "After Effects"
           }
         },
         "3d-gadget-animation": {
           "name": "3D GADGET ANIMATION",
-          "industry": "Consumer Electronics",
-          "description": "Photoreal 3D gadget and earbud product animation with studio lighting, material detail, and campaign ready motion.",
+          "industry": "Tüketici Elektroniği",
+          "description": "Stüdyo aydınlatması, malzeme ayrıntıları ve kampanyaya hazır hareketlerle fotogerçekçi 3D gadget ve kulaklık ürün animasyonu.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Gadget CGI",
-            "2": "Packshot Films"
+            "0": "3D Ürün Animasyonu",
+            "1": "Cihaz CGI'sı",
+            "2": "Paket Çekim Filmleri"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Sinema 4D",
+            "1": "Kırmızıya kayma",
             "2": "After Effects"
           }
         },
         "vape-animation": {
           "name": "VAPE ANIMATION",
-          "industry": "Consumer Products",
-          "description": "Photoreal 3D vape product animation with studio lighting, material detail, and campaign ready packshot films.",
+          "industry": "Tüketici Ürünleri",
+          "description": "Stüdyo aydınlatması, malzeme ayrıntıları ve kampanyaya hazır paket filmlerle fotogerçekçi 3D vape ürün animasyonu.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
+            "0": "3D Ürün Animasyonu",
             "1": "Vape CGI",
-            "2": "Packshot Films"
+            "2": "Paket Çekim Filmleri"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Sinema 4D",
+            "1": "Kırmızıya kayma",
             "2": "After Effects"
           }
         },
         "bag-suitcase-animation": {
           "name": "BAG/SUITCASE ANIMATION",
-          "industry": "Travel & Lifestyle",
-          "description": "Realistic 3D product animation for bags and suitcases with cinematic packshot finish.",
+          "industry": "Seyahat ve Yaşam Tarzı",
+          "description": "Çantalar ve valizler için sinematik paket görüntüsüyle gerçekçi 3 boyutlu ürün animasyonu.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Bag CGI",
-            "2": "Packshot Films"
+            "0": "3D Ürün Animasyonu",
+            "1": "Çanta CGI",
+            "2": "Paket Çekim Filmleri"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Sinema 4D",
+            "1": "Kırmızıya kayma",
             "2": "After Effects"
           }
         },
         "drop-band-animation": {
           "name": "DROP BAND ANIMATION",
-          "industry": "Wearables & Accessories",
-          "description": "Drop Band product animation covering production process films and final polished results.",
+          "industry": "Giyilebilir Ürünler ve Aksesuarlar",
+          "description": "Üretim süreci filmlerini ve son parlak sonuçları kapsayan Drop Band ürün animasyonu.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Process Film",
-            "2": "Wearable CGI"
+            "0": "3D Ürün Animasyonu",
+            "1": "Proses Filmi",
+            "2": "Giyilebilir CGI"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Sinema 4D",
+            "1": "Kırmızıya kayma",
             "2": "After Effects"
           }
         },
         "3d-bed-animation": {
           "name": "3D BED ANIMATION",
-          "industry": "Furniture & Bedding",
-          "description": "Photoreal 3D mattress and bed product animation for furniture brands with cinematic packshot finish.",
+          "industry": "Mobilya ve Yatak Takımı",
+          "description": "Mobilya markaları için sinematik paket kaplamalı fotogerçekçi 3D yatak ve yatak ürünleri animasyonu.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Furniture CGI",
-            "2": "Packshot Films"
+            "0": "3D Ürün Animasyonu",
+            "1": "Mobilya CGI'sı",
+            "2": "Paket Çekim Filmleri"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Sinema 4D",
+            "1": "Kırmızıya kayma",
             "2": "After Effects"
           }
         }
@@ -765,128 +765,128 @@
       "vfx": {
         "ronix": {
           "name": "RONIX",
-          "industry": "Power Tools & Manufacturing",
-          "description": "Ronix 3D industrial animation and power tool CGI product showcase films.",
+          "industry": "Elektrikli El Aletleri ve İmalatı",
+          "description": "Ronix 3D endüstriyel animasyon ve elektrikli alet CGI ürün tanıtım filmleri.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Power Tool CGI",
-            "2": "Product Showcase"
+            "0": "Endüstriyel Animasyon",
+            "1": "Elektrikli Alet CGI",
+            "2": "Ürün Vitrini"
           },
           "tools": {
-            "0": "Cinema 4D",
+            "0": "Sinema 4D",
             "1": "Blender",
             "2": "After Effects"
           }
         },
         "mintec": {
           "name": "MINTEC",
-          "industry": "Industrial Manufacturing",
-          "description": "MinTec industries product showcase and process films for 3D industrial animation.",
+          "industry": "Endüstriyel Üretim",
+          "description": "MinTec endüstrileri 3D endüstriyel animasyon için ürün vitrini ve proses filmleri.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product Showcase",
-            "2": "Process Film"
+            "0": "Endüstriyel Animasyon",
+            "1": "Ürün Vitrini",
+            "2": "Proses Filmi"
           },
           "tools": {
-            "0": "Cinema 4D",
+            "0": "Sinema 4D",
             "1": "Blender",
             "2": "After Effects"
           }
         },
         "integra-pw": {
           "name": "INTEGRA PW",
-          "industry": "Industrial Products",
-          "description": "Integra PW industrial animation from video making process through final cinematic results.",
+          "industry": "Endüstriyel Ürünler",
+          "description": "Integra PW endüstriyel animasyonu, video yapım sürecinden son sinema sonuçlarına kadar.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Process Film",
-            "2": "Product CGI"
+            "0": "Endüstriyel Animasyon",
+            "1": "Proses Filmi",
+            "2": "Ürün CGI'sı"
           },
           "tools": {
-            "0": "Cinema 4D",
+            "0": "Sinema 4D",
             "1": "Blender",
             "2": "After Effects"
           }
         },
         "credex": {
           "name": "CREDEX",
-          "industry": "Cleaning Equipment",
-          "description": "CREDEX carpet cleaning machine industrial animation with cinematic SFX finish.",
+          "industry": "Temizlik Ekipmanları",
+          "description": "CREDEX halı temizleme makinesinin sinematik SFX kaplamalı endüstriyel animasyonu.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product CGI",
-            "2": "Sound Design"
+            "0": "Endüstriyel Animasyon",
+            "1": "Ürün CGI'sı",
+            "2": "Ses Tasarımı"
           },
           "tools": {
-            "0": "Cinema 4D",
+            "0": "Sinema 4D",
             "1": "Blender",
             "2": "After Effects"
           }
         },
         "phr-1": {
           "name": "PHR 1",
-          "industry": "Electric Powertrain",
-          "description": "PHR 1 electric power train product animation with technical lighting and cinematic polish.",
+          "industry": "Elektrikli Güç Aktarma Organları",
+          "description": "Teknik aydınlatma ve sinematik cila ile PHR 1 elektrikli güç aktarma sistemi ürün animasyonu.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Powertrain CGI",
-            "2": "Product Film"
+            "0": "Endüstriyel Animasyon",
+            "1": "Güç Aktarma Organı CGI",
+            "2": "Ürün Filmi"
           },
           "tools": {
-            "0": "Cinema 4D",
+            "0": "Sinema 4D",
             "1": "Blender",
             "2": "After Effects"
           }
         },
         "atx": {
           "name": "ATX",
-          "industry": "Industrial Manufacturing",
-          "description": "ATX 3D industrial and technical product animation for manufacturing showcases.",
+          "industry": "Endüstriyel Üretim",
+          "description": "Üretim vitrinleri için ATX 3D endüstriyel ve teknik ürün animasyonu.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Technical CGI",
-            "2": "Product Showcase"
+            "0": "Endüstriyel Animasyon",
+            "1": "Teknik CGI",
+            "2": "Ürün Vitrini"
           },
           "tools": {
-            "0": "Cinema 4D",
+            "0": "Sinema 4D",
             "1": "Blender",
             "2": "After Effects"
           }
         },
         "prov-gap": {
           "name": "PROV GAP",
-          "industry": "Industrial Manufacturing",
-          "description": "Prov GAP 3D industrial animation for technical product storytelling and brand films.",
+          "industry": "Endüstriyel Üretim",
+          "description": "Teknik ürün hikaye anlatımı ve marka filmleri için Prov GAP 3D endüstriyel animasyon.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product CGI",
-            "2": "Technical Film"
+            "0": "Endüstriyel Animasyon",
+            "1": "Ürün CGI'sı",
+            "2": "Teknik Film"
           },
           "tools": {
-            "0": "Cinema 4D",
+            "0": "Sinema 4D",
             "1": "Blender",
             "2": "After Effects"
           }
         },
         "autoz-crave": {
           "name": "AUTOZ CRAVE",
-          "industry": "Automotive & Mechanical",
-          "description": "Autoz Crave industrial animation for mechanical and technical 3D product films.",
+          "industry": "Otomotiv ve Mekanik",
+          "description": "Autoz Crave, mekanik ve teknik 3D ürün filmleri için endüstriyel animasyon.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Mechanical CGI",
-            "2": "Technical Animation"
+            "0": "Endüstriyel Animasyon",
+            "1": "Mekanik CGI",
+            "2": "Teknik Animasyon"
           },
           "tools": {
-            "0": "Cinema 4D",
+            "0": "Sinema 4D",
             "1": "Blender",
             "2": "After Effects"
           }
@@ -895,474 +895,474 @@
     },
     "projects": {
       "chibi-art-p1": {
-        "title": "Chibi Art Scene 1",
-        "description": "Expressive chibi character scene with polished 2D animation and campaign ready motion.",
+        "title": "Chibi Sanat Sahnesi 1",
+        "description": "Gösterişli 2D animasyon ve kampanyaya hazır hareketlerle etkileyici chibi karakter sahnesi.",
         "tags": {
           "0": "Chibi",
-          "1": "Scene"
+          "1": "Sahne"
         }
       },
       "chibi-art-p2": {
-        "title": "Chibi Art Scene 2",
-        "description": "Second chibi character scene showcasing personality, timing, and colorful 2D performance.",
+        "title": "Chibi Sanat Sahnesi 2",
+        "description": "Kişiliği, zamanlamayı ve renkli 2D performansı sergileyen ikinci chibi karakter sahnesi.",
         "tags": {
           "0": "Chibi",
-          "1": "Scene"
+          "1": "Sahne"
         }
       },
       "chibi-art-p3": {
-        "title": "Making Process Film",
-        "description": "Behind the scenes look at the chibi art creation and animation workflow from sketch to final motion.",
+        "title": "Proses Filmi Yapımı",
+        "description": "Sahne arkasında, çizimden son harekete kadar chibi sanat yaratımına ve animasyon iş akışına bakın.",
         "tags": {
-          "0": "Process",
-          "1": "Workflow"
+          "0": "İşlem",
+          "1": "İş akışı"
         }
       },
       "vtuber-animation-p1": {
-        "title": "Vtuber Modeling Creation",
-        "description": "VTuber character modeling creation film covering art direction and build workflow.",
+        "title": "Vtuber Modelleme Oluşturma",
+        "description": "Sanat yönetmenliğini ve yapım iş akışını kapsayan VTuber karakter modelleme oluşturma filmi.",
         "tags": {
           "0": "VTuber",
-          "1": "Modeling"
+          "1": "Modelleme"
         }
       },
       "vtuber-animation-p2": {
-        "title": "Vtuber 2D Video Results",
-        "description": "Finished 2D VTuber animation results with expressive performance and polished motion.",
+        "title": "Vtuber 2D Video Sonuçları",
+        "description": "Etkileyici performans ve gösterişli hareketle tamamlanmış 2D VTuber animasyon sonuçları.",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p3": {
-        "title": "Princess Vtuber Modeling",
-        "description": "Princess VTuber modeling sample showcasing character design and animated performance.",
+        "title": "Prenses Vtuber Modelleme",
+        "description": "Karakter tasarımını ve animasyonlu performansı gösteren Princess VTuber modelleme örneği.",
         "tags": {
           "0": "VTuber",
-          "1": "Princess"
+          "1": "Prenses"
         }
       },
       "vtuber-animation-p4": {
-        "title": "Vtuber 2D Video",
-        "description": "Cinematic 2D VTuber animation with dynamic character motion and expressive acting.",
+        "title": "Vtuber 2D Videosu",
+        "description": "Dinamik karakter hareketi ve etkileyici oyunculukla sinematik 2D VTuber animasyonu.",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p5": {
-        "title": "Vtuber Sample 2",
-        "description": "Second VTuber animation sample with bold character acting and polished motion.",
+        "title": "Vtuber Örnek 2",
+        "description": "Cesur karakter oyunculuğu ve gösterişli hareketlerle ikinci VTuber animasyon örneği.",
         "tags": {
           "0": "VTuber",
-          "1": "Sample"
+          "1": "Örnek"
         }
       },
       "vtuber-animation-p6": {
-        "title": "Vtuber Sample 3",
-        "description": "Extended VTuber character showcase with cinematic pacing and expressive 2D animation.",
+        "title": "Vtuber Örnek 3",
+        "description": "Sinematik ilerleme hızı ve etkileyici 2D animasyon ile genişletilmiş VTuber karakter gösterimi.",
         "tags": {
           "0": "VTuber",
-          "1": "Sample"
+          "1": "Örnek"
         }
       },
       "vtuber-animation-p7": {
-        "title": "Vtuber Video Process",
-        "description": "Behind the scenes VTuber animation process from art through rigging and final motion.",
+        "title": "Vtuber Video Süreci",
+        "description": "Kamera arkası VTuber animasyon süreci, sanattan donanıma ve son harekete kadar.",
         "tags": {
-          "0": "Process",
-          "1": "Workflow"
+          "0": "İşlem",
+          "1": "İş akışı"
         }
       },
       "live2d-animation-p1": {
-        "title": "Live2D Making Process",
-        "description": "Behind the scenes Live2D creation workflow from art through final animated performance.",
+        "title": "Live2D Yapım Süreci",
+        "description": "Sahne arkası Live2D yaratım iş akışı, sanattan son animasyon performansına kadar.",
         "tags": {
-          "0": "Live2D",
-          "1": "Process"
+          "0": "Canlı2D",
+          "1": "İşlem"
         }
       },
       "live2d-animation-p2": {
-        "title": "Live2D Sample",
-        "description": "Finished Live2D character sample with expressive posing and polished motion.",
+        "title": "Live2D Örneği",
+        "description": "Etkileyici poz ve gösterişli hareketlerle Live2D karakter örneği tamamlandı.",
         "tags": {
-          "0": "Live2D",
-          "1": "Sample"
+          "0": "Canlı2D",
+          "1": "Örnek"
         }
       },
       "live2d-animation-p3": {
-        "title": "Live2D Rigging Process",
-        "description": "Live2D rigging process film showing mesh, deformers, and parameter setup.",
+        "title": "Live2D Arma Süreci",
+        "description": "Mesh, deforme ediciler ve parametre kurulumunu gösteren Live2D donanım süreci filmi.",
         "tags": {
-          "0": "Live2D",
-          "1": "Rigging"
+          "0": "Canlı2D",
+          "1": "Arma"
         }
       },
       "live2d-animation-p4": {
-        "title": "Sample Live2D Rigging",
-        "description": "Sample Live2D rigging demonstration with clean parameter control and facial acting.",
+        "title": "Örnek Live2D Donanımı",
+        "description": "Temiz parametre kontrolü ve yüz hareketleriyle örnek Live2D donanım gösterimi.",
         "tags": {
-          "0": "Live2D",
-          "1": "Rigging"
+          "0": "Canlı2D",
+          "1": "Arma"
         }
       },
       "live2d-animation-p5": {
-        "title": "Live2D Rigging Result",
-        "description": "Final Live2D rigging result showcasing smooth motion and expressive character performance.",
+        "title": "Live2D Arma Sonucu",
+        "description": "Yumuşak hareket ve etkileyici karakter performansını sergileyen son Live2D donanım sonucu.",
         "tags": {
-          "0": "Live2D",
-          "1": "Result"
+          "0": "Canlı2D",
+          "1": "Sonuç"
         }
       },
       "live2d-animation-p6": {
-        "title": "Live2D Film",
-        "description": "Cinematic Live2D animation with dynamic character motion and polished presentation.",
+        "title": "Canlı 2D Film",
+        "description": "Dinamik karakter hareketi ve gösterişli sunumla sinematik Live2D animasyon.",
         "tags": {
-          "0": "Live2D",
+          "0": "Canlı2D",
           "1": "Film"
         }
       },
       "2d-anime-animation-p1": {
-        "title": "Japanese Style 2D Anime",
-        "description": "Japanese anime style 2D animation with dynamic posing, expressive acting, and polished line work.",
+        "title": "Japon Tarzı 2D Anime",
+        "description": "Dinamik pozlama, etkileyici oyunculuk ve gösterişli çizgi çalışmasıyla Japon anime tarzı 2D animasyon.",
         "tags": {
-          "0": "Anime",
+          "0": "anime",
           "1": "2D"
         }
       },
       "2d-anime-animation-p2": {
-        "title": "Anime Music Video",
-        "description": "2D anime music video with character driven storytelling and cinematic timing.",
+        "title": "Anime Müzik Videosu",
+        "description": "Karakter odaklı hikaye anlatımına ve sinematik zamanlamaya sahip 2D anime müzik videosu.",
         "tags": {
-          "0": "Music Video",
-          "1": "Anime"
+          "0": "Müzik Videosu",
+          "1": "anime"
         }
       },
       "2d-anime-animation-p3": {
-        "title": "Meme Song Animation",
-        "description": "Playful 2D anime character animation timed to a meme song with bold motion and humor.",
+        "title": "Meme Şarkı Animasyonu",
+        "description": "Cesur hareket ve mizah içeren bir meme şarkısıyla zamanlanmış eğlenceli 2D anime karakter animasyonu.",
         "tags": {
-          "0": "Anime",
-          "1": "Music"
+          "0": "anime",
+          "1": "Müzik"
         }
       },
       "kids-learning-animation-p1": {
-        "title": "123 Number Kids Learning Video",
-        "description": "Educational number learning video with engaging characters and playful motion for kids.",
+        "title": "123 Numara Çocuk Öğrenme Videosu",
+        "description": "Çocuklar için ilgi çekici karakterler ve eğlenceli hareketler içeren eğitici sayı öğrenme videosu.",
         "tags": {
-          "0": "Kids",
-          "1": "Learning"
+          "0": "Çocuklar",
+          "1": "Öğrenme"
         }
       },
       "kids-learning-animation-p2": {
-        "title": "Custom 2D Character",
-        "description": "Custom 2D character animation with expressive acting and colorful stylized design.",
+        "title": "Özel 2D Karakter",
+        "description": "Etkileyici oyunculuk ve renkli stilize tasarıma sahip özel 2D karakter animasyonu.",
         "tags": {
-          "0": "Character",
+          "0": "Karakter",
           "1": "2D"
         }
       },
       "kids-learning-animation-p3": {
-        "title": "Cute 2D Cartoon Character",
-        "description": "Cute 2D cartoon character film with friendly personality and polished kids content motion.",
+        "title": "Sevimli 2D Çizgi Film Karakteri",
+        "description": "Dost canlısı kişiliğe ve gösterişli çocuk içerikli hareketlere sahip sevimli 2D çizgi film karakteri filmi.",
         "tags": {
-          "0": "Cartoon",
-          "1": "Kids"
+          "0": "Karikatür",
+          "1": "Çocuklar"
         }
       },
       "3d-cartoon-animation-p1": {
-        "title": "3D Cartoon Animation",
-        "description": "Stylized 3D cartoon animation with expressive character performance and colorful presentation.",
+        "title": "3D Çizgi Film Animasyonu",
+        "description": "Etkileyici karakter performansı ve renkli sunumla stilize edilmiş 3D çizgi film animasyonu.",
         "tags": {
-          "0": "Cartoon",
+          "0": "Karikatür",
           "1": "3D"
         }
       },
       "3d-cartoon-animation-p2": {
-        "title": "Cute 3D Cartoon Character Showcase",
-        "description": "Cute 3D cartoon character video showcase with friendly personality and polished motion.",
+        "title": "Sevimli 3D Çizgi Film Karakteri Vitrini",
+        "description": "Samimi kişiliğe ve gösterişli hareketlere sahip sevimli 3D çizgi film karakteri video gösterimi.",
         "tags": {
-          "0": "Character",
-          "1": "Showcase"
+          "0": "Karakter",
+          "1": "Vitrin"
         }
       },
       "3d-explainer-video-p1": {
-        "title": "Winergy 3D Presentation",
-        "description": "Winergy 3D brand presentation with cinematic camera work and polished product storytelling.",
+        "title": "Şarapçılık 3D Sunum",
+        "description": "Sinematik kamera çalışması ve gösterişli ürün hikayesi anlatımıyla Winergy 3D marka sunumu.",
         "tags": {
-          "0": "Explainer",
-          "1": "Winergy"
+          "0": "Açıklayıcı",
+          "1": "Şaraphane"
         }
       },
       "3d-explainer-video-p2": {
-        "title": "Popper Product 360 Display",
-        "description": "Popper product 360 display film showcasing form, materials, and packaging detail.",
+        "title": "Popper Ürün 360 Ekran",
+        "description": "Popper ürününün formunu, malzemelerini ve ambalaj detaylarını gösteren 360 derece sergi filmi.",
         "tags": {
           "0": "360",
-          "1": "Popper"
+          "1": "Patlayıcı"
         }
       },
       "3d-explainer-video-p3": {
-        "title": "Popper Animation",
-        "description": "Popper 3D product animation with dynamic motion and commercial presentation.",
+        "title": "Popper Animasyonu",
+        "description": "Dinamik hareket ve ticari sunumla Popper 3D ürün animasyonu.",
         "tags": {
-          "0": "Product",
-          "1": "Popper"
+          "0": "Ürün",
+          "1": "Patlayıcı"
         }
       },
       "3d-explainer-video-p4": {
-        "title": "Popper Animation 2",
-        "description": "Alternate Popper animation pass with refined lighting and campaign ready pacing.",
+        "title": "Popper Animasyonu 2",
+        "description": "İyileştirilmiş aydınlatma ve kampanyaya hazır ilerleme hızıyla alternatif Popper animasyon geçişi.",
         "tags": {
-          "0": "Product",
-          "1": "Popper"
+          "0": "Ürün",
+          "1": "Patlayıcı"
         }
       },
       "3d-explainer-video-p5": {
-        "title": "Client Video of Poppes",
-        "description": "Client facing Poppes video presenting the product with clear storytelling and polished CGI.",
+        "title": "Poppes'in Müşteri Videosu",
+        "description": "Poppes'in müşteriye dönük videosu, ürünü net bir hikaye anlatımı ve gösterişli CGI ile sunuyor.",
         "tags": {
-          "0": "Client",
+          "0": "Müşteri",
           "1": "Poppes"
         }
       },
       "3d-medical-animation-p1": {
-        "title": "High Quality 3D Medical Anatomy Animation",
-        "description": "High quality 3D medical animation with detailed anatomy visualization and polished cinematic presentation.",
+        "title": "Yüksek Kaliteli 3D Tıbbi Anatomi Animasyonu",
+        "description": "Ayrıntılı anatomi görselleştirmesi ve gösterişli sinema sunumuyla yüksek kaliteli 3D tıbbi animasyon.",
         "tags": {
-          "0": "Medical",
-          "1": "Anatomy"
+          "0": "Tıbbi",
+          "1": "Anatomi"
         }
       },
       "3d-medical-animation-p2": {
-        "title": "3D Medical Animation 2",
-        "description": "Second 3D medical animation sample with clear anatomical storytelling and commercial finish.",
+        "title": "3D Medikal Animasyon 2",
+        "description": "Net anatomik hikaye anlatımı ve ticari bitişe sahip ikinci 3D tıbbi animasyon örneği.",
         "tags": {
-          "0": "Medical",
-          "1": "Healthcare"
+          "0": "Tıbbi",
+          "1": "Sağlık hizmeti"
         }
       },
       "3d-anime-character-p1": {
-        "title": "3D Anime Character Showcase to Client",
-        "description": "3D anime character showcase film presenting modeling, materials, and polished stylized performance for client review.",
+        "title": "Müşteriye 3D Anime Karakter Gösterimi",
+        "description": "Müşteri incelemesi için modelleme, materyaller ve gösterişli stilize performans sunan 3D anime karakteri vitrin filmi.",
         "tags": {
-          "0": "Anime",
-          "1": "Character"
+          "0": "anime",
+          "1": "Karakter"
         }
       },
       "watch-animation-p1": {
-        "title": "Watch Product Film",
-        "description": "Cinematic 3D watch animation with studio lighting, material detail, and premium packshot finish.",
+        "title": "Ürün Filmini İzle",
+        "description": "Stüdyo aydınlatması, malzeme ayrıntıları ve birinci sınıf paket çekimiyle sinematik 3D animasyon izleyin.",
         "tags": {
-          "0": "Watch",
-          "1": "Product"
+          "0": "Kol saati",
+          "1": "Ürün"
         }
       },
       "watch-animation-p2": {
-        "title": "Rifari Wrist Watch",
-        "description": "Photoreal Rifari wrist watch product film with refined reflections and commercial presentation.",
+        "title": "Rifari kol saati",
+        "description": "Rafine yansımalar ve ticari sunumla fotogerçekçi Rifari kol saati ürün filmi.",
         "tags": {
-          "0": "Watch",
+          "0": "Kol saati",
           "1": "Rifari"
         }
       },
       "watch-animation-p3": {
-        "title": "Steel Reef Wrist Watch",
-        "description": "Steel Reef wrist watch animation with premium materials, lighting, and campaign ready motion.",
+        "title": "Çelik Resif Bilek Saati",
+        "description": "Birinci sınıf malzemeler, aydınlatma ve kampanyaya hazır hareket özellikleriyle Steel Reef kol saati animasyonu.",
         "tags": {
-          "0": "Watch",
-          "1": "Steel Reef"
+          "0": "Kol saati",
+          "1": "Çelik Resif"
         }
       },
       "ryse-drink-3d-product-animation-p1": {
-        "title": "Ryse Drink 3D Product Animation",
-        "description": "Cinematic 3D Ryse drink product animation with studio lighting, material detail, and commercial finish.",
+        "title": "Ryse Drink 3D Ürün Animasyonu",
+        "description": "Stüdyo aydınlatması, malzeme ayrıntıları ve ticari kaplamayla sinematik 3D Ryse içecek ürünü animasyonu.",
         "tags": {
-          "0": "Beverage",
-          "1": "Product"
+          "0": "İçecek",
+          "1": "Ürün"
         }
       },
       "ryse-drink-3d-product-animation-p2": {
-        "title": "Lemonade Product Film",
-        "description": "Photoreal lemonade product animation with fluid motion, glass materials, and campaign ready presentation.",
+        "title": "Limonata Ürün Filmi",
+        "description": "Akıcı hareket, cam malzemeler ve kampanyaya hazır sunumla fotogerçekçi limonata ürün animasyonu.",
         "tags": {
-          "0": "Lemonade",
-          "1": "Product"
+          "0": "Limonata",
+          "1": "Ürün"
         }
       },
       "3d-perfume-animation-p1": {
-        "title": "Anabomfim 3D Perfume Video",
-        "description": "Cinematic 3D Anabomfim perfume animation with studio lighting, glass materials, and premium packshot finish.",
+        "title": "Anabomfim 3D Parfüm Videosu",
+        "description": "Stüdyo aydınlatması, cam malzemeleri ve birinci sınıf paket kaplamasıyla sinematik 3D Anabomfim parfüm animasyonu.",
         "tags": {
-          "0": "Perfume",
+          "0": "Parfüm",
           "1": "Anabomfim"
         }
       },
       "3d-perfume-animation-p2": {
-        "title": "Valentino Perfume Video",
-        "description": "Luxury Valentino perfume product film with refined reflections, fluid motion, and commercial presentation.",
+        "title": "Valentino Parfüm Videosu",
+        "description": "Zarif yansımalar, akıcı hareket ve ticari sunumla lüks Valentino parfüm ürünü filmi.",
         "tags": {
-          "0": "Perfume",
+          "0": "Parfüm",
           "1": "Valentino"
         }
       },
       "3d-perfume-animation-p3": {
-        "title": "Soul of Amir 3D Animation",
-        "description": "Soul of Amir 3D fragrance animation with cinematic camera work and campaign ready polish.",
+        "title": "Emir'in Ruhu 3D Animasyon",
+        "description": "Sinematik kamera çalışması ve kampanyaya hazır cila ile Soul of Amir 3D koku animasyonu.",
         "tags": {
-          "0": "Perfume",
-          "1": "Soul of Amir"
+          "0": "Parfüm",
+          "1": "Amir'in Ruhu"
         }
       },
       "3d-gadget-animation-p1": {
-        "title": "Shoks Earbud Animation",
-        "description": "Cinematic 3D Shoks earbud product animation with refined materials and commercial finish.",
+        "title": "Shoks Kulaklık Animasyonu",
+        "description": "İncelikli malzemelere ve ticari kaplamaya sahip Cinematic 3D Shoks kulaklık ürün animasyonu.",
         "tags": {
-          "0": "Earbud",
-          "1": "Gadget"
+          "0": "Kulaklık",
+          "1": "gadget'ı"
         }
       },
       "3d-gadget-animation-p2": {
-        "title": "Headphone Earbud Product Film",
-        "description": "3D headphone and earbud product animation with dynamic camera moves and premium packshot presentation.",
+        "title": "Kulaklık Kulaklık Ürün Filmi",
+        "description": "Dinamik kamera hareketleri ve premium packshot sunumuyla 3D kulaklık ve kulaklık ürün animasyonu.",
         "tags": {
-          "0": "Headphone",
-          "1": "Product"
+          "0": "Kulaklık",
+          "1": "Ürün"
         }
       },
       "vape-animation-p1": {
-        "title": "Jojo Vape",
-        "description": "Cinematic 3D Jojo vape product animation with refined materials and commercial finish.",
+        "title": "Jojo Elektronik Sigara",
+        "description": "Rafine edilmiş malzemeler ve ticari kaplama ile sinematik 3D Jojo vape ürün animasyonu.",
         "tags": {
-          "0": "Vape",
+          "0": "elektronik sigara",
           "1": "Jojo"
         }
       },
       "vape-animation-p2": {
-        "title": "Juicy Cranberry Vape",
-        "description": "Juicy cranberry vape product film with vibrant color, lighting, and campaign ready presentation.",
+        "title": "Sulu Kızılcık Vape",
+        "description": "Canlı renklere, aydınlatmaya ve kampanyaya hazır sunuma sahip sulu kızılcık vape ürün filmi.",
         "tags": {
-          "0": "Vape",
-          "1": "Cranberry"
+          "0": "elektronik sigara",
+          "1": "Kızılcık"
         }
       },
       "bag-suitcase-animation-p1": {
-        "title": "Realistic 3D Product Animation for Bags",
-        "description": "Photoreal 3D bag and suitcase product animation with premium materials and commercial presentation.",
+        "title": "Çantalar için Gerçekçi 3D Ürün Animasyonu",
+        "description": "Birinci sınıf malzemeler ve ticari sunumla fotogerçekçi 3D çanta ve bavul ürün animasyonu.",
         "tags": {
-          "0": "Bag",
-          "1": "Suitcase"
+          "0": "Çanta",
+          "1": "Bavul"
         }
       },
       "drop-band-animation-p1": {
-        "title": "Drop Band Animation Process",
-        "description": "Behind the scenes Drop Band animation process from reference through final motion.",
+        "title": "Bırakma Bandı Animasyon Süreci",
+        "description": "Sahne arkasında Referanstan son harekete kadar Drop Band animasyon süreci.",
         "tags": {
-          "0": "Process",
-          "1": "Drop Band"
+          "0": "İşlem",
+          "1": "Bırakma Bandı"
         }
       },
       "drop-band-animation-p2": {
-        "title": "Drop Band Animation Result",
-        "description": "Final Drop Band product animation with refined materials, lighting, and campaign ready finish.",
+        "title": "Bırakma Bandı Animasyon Sonucu",
+        "description": "Geliştirilmiş malzemeler, aydınlatma ve kampanyaya hazır kaplamalar içeren Final Drop Band ürün animasyonu.",
         "tags": {
-          "0": "Product",
-          "1": "Drop Band"
+          "0": "Ürün",
+          "1": "Bırakma Bandı"
         }
       },
       "3d-bed-animation-p1": {
-        "title": "Realistic 3D Mattress Animation",
-        "description": "Realistic 3D mattress product animation with soft materials, lighting, and campaign ready presentation.",
+        "title": "Gerçekçi 3D Yatak Animasyonu",
+        "description": "Yumuşak malzemeler, aydınlatma ve kampanyaya hazır sunumla gerçekçi 3 boyutlu yatak ürün animasyonu.",
         "tags": {
-          "0": "Mattress",
-          "1": "Product"
+          "0": "Yatak",
+          "1": "Ürün"
         }
       },
       "3d-bed-animation-p2": {
-        "title": "Simba Bed Animation",
-        "description": "Simba bed animation with cinematic camera work, material detail, and commercial finish.",
+        "title": "Simba Yatak Animasyonu",
+        "description": "Sinematik kamera çalışması, malzeme detayı ve ticari kaplama içeren Simba yatak animasyonu.",
         "tags": {
-          "0": "Bed",
+          "0": "Yatak",
           "1": "Simba"
         }
       },
       "ronix-p1": {
-        "title": "Ronix 3D Industrial Animation | Power Tool CGI Product Showcase",
-        "description": "Cinematic Ronix power tool CGI showcase with technical detail and commercial polish.",
+        "title": "Ronix 3D Endüstriyel Animasyon | Elektrikli Alet CGI Ürün Vitrini",
+        "description": "Teknik ayrıntılara ve ticari cilaya sahip sinematik Ronix elektrikli alet CGI vitrini.",
         "tags": {
-          "0": "Industrial",
-          "1": "Ronix"
+          "0": "Endüstriyel",
+          "1": "Roniks"
         }
       },
       "mintec-p1": {
-        "title": "MinTec Industries Product Showcase",
-        "description": "MinTec industries product showcase with technical storytelling and polished CGI.",
+        "title": "MinTec Industries Ürün Vitrini",
+        "description": "MinTec endüstrileri teknik hikaye anlatımı ve gösterişli CGI ile ürün vitrini.",
         "tags": {
-          "0": "Industrial",
+          "0": "Endüstriyel",
           "1": "MinTec"
         }
       },
       "mintec-p2": {
-        "title": "Process of Making MinTec 3D Animation",
-        "description": "Behind the scenes look at the MinTec 3D industrial animation production workflow.",
+        "title": "MinTec 3D Animasyon Yapma Süreci",
+        "description": "MinTec 3D endüstriyel animasyon prodüksiyon iş akışına perde arkasından bakın.",
         "tags": {
-          "0": "Process",
+          "0": "İşlem",
           "1": "MinTec"
         }
       },
       "integra-pw-p1": {
-        "title": "Integra PW Video Making Process",
-        "description": "Behind the scenes making process for the Integra PW industrial animation build.",
+        "title": "Integra PW Video Oluşturma Süreci",
+        "description": "Integra PW endüstriyel animasyon yapısının perde arkası yapım süreci.",
         "tags": {
-          "0": "Process",
-          "1": "Integra PW"
+          "0": "İşlem",
+          "1": "Entegre PW"
         }
       },
       "integra-pw-p2": {
-        "title": "Integra PW Final Results",
-        "description": "Final Integra PW industrial product animation with dynamic camera moves and commercial finish.",
+        "title": "Integra PW Nihai Sonuçlar",
+        "description": "Dinamik kamera hareketleri ve ticari kaplamayla son Integra PW endüstriyel ürün animasyonu.",
         "tags": {
-          "0": "Industrial",
-          "1": "Integra PW"
+          "0": "Endüstriyel",
+          "1": "Entegre PW"
         }
       },
       "credex-p1": {
-        "title": "Credex Vacuum Cleaner with SFX",
-        "description": "Final high definition CREDEX vacuum cleaner animation with sound design and commercial polish.",
+        "title": "SFX'li Credex Elektrikli Süpürge",
+        "description": "Ses tasarımı ve ticari cila ile son yüksek çözünürlüklü CREDEX elektrikli süpürge animasyonu.",
         "tags": {
-          "0": "Industrial",
-          "1": "Credex"
+          "0": "Endüstriyel",
+          "1": "Kredi"
         }
       },
       "phr-1-p1": {
-        "title": "PHR 1 Electric Power Train",
-        "description": "Photoreal PHR 1 electric power train animation with cinematic camera work and technical detail.",
+        "title": "PHR 1 Elektrikli Güç Aktarma Sistemi",
+        "description": "Sinematik kamera çalışması ve teknik ayrıntılarla fotogerçekçi PHR 1 elektrikli güç aktarma sistemi animasyonu.",
         "tags": {
-          "0": "Industrial",
+          "0": "Endüstriyel",
           "1": "PHR 1"
         }
       },
       "atx-p1": {
-        "title": "ATX 3D Industrial Animation",
-        "description": "ATX 3D industrial product animation with technical lighting and campaign ready finish.",
+        "title": "ATX 3D Endüstriyel Animasyon",
+        "description": "Teknik aydınlatma ve kampanyaya hazır kaplama ile ATX 3D endüstriyel ürün animasyonu.",
         "tags": {
-          "0": "Industrial",
+          "0": "Endüstriyel",
           "1": "ATX"
         }
       },
       "prov-gap-p1": {
-        "title": "Prov GAP 3D Industrial Animation",
-        "description": "Prov GAP industrial product animation with mechanical detail and cinematic presentation.",
+        "title": "Prov GAP 3D Endüstriyel Animasyon",
+        "description": "Prov GAP endüstriyel ürün animasyonu, mekanik detaylar ve sinematik sunum.",
         "tags": {
-          "0": "Industrial",
+          "0": "Endüstriyel",
           "1": "Prov GAP"
         }
       },
       "autoz-crave-p1": {
-        "title": "Autoz Crave Industrial Animation",
-        "description": "Autoz Crave 3D industrial product video with mechanical technical animation and commercial polish.",
+        "title": "Autoz Crave Endüstriyel Animasyon",
+        "description": "Autoz Crave 3D endüstriyel ürün videosu, mekanik teknik animasyon ve ticari cila ile.",
         "tags": {
-          "0": "Industrial",
+          "0": "Endüstriyel",
           "1": "Autoz Crave"
         }
       }
@@ -1380,7 +1380,7 @@
         "items": {
           "01": {
             "question": "Hangi proje türleri üzerinde çalışıyorsunuz?",
-            "answer": "We produce animation, VFX, cinematics, motion graphics, product films, and brand films for film, series, advertising, and DTC brands. Briefs range from single hero assets to full campaign packages."
+            "answer": "Film, dizi, reklam ve DTC markalarına animasyon, VFX, sinematik, hareketli grafik, ürün filmleri ve marka filmleri üretiyoruz. Özetler, tek kahraman varlıklarından tam kampanya paketlerine kadar çeşitlilik gösterir."
           },
           "02": {
             "question": "Starlights Visuals nerede konumlanıyor?",
@@ -1397,15 +1397,15 @@
         "items": {
           "01": {
             "question": "Hangi hizmetleri sunuyorsunuz?",
-            "answer": "Our core services include 2D and 3D animation, VFX, character and concept art, motion graphics, product animation, and cinematic trailers. We can handle individual disciplines or full pipeline production."
+            "answer": "Temel hizmetlerimiz arasında 2D ve 3D animasyon, VFX, karakter ve konsept sanatı, hareketli grafikler, ürün animasyonu ve sinema fragmanları yer almaktadır. Bireysel disiplinleri veya tam üretim hattını ele alabiliriz."
           },
           "02": {
             "question": "Indie ekipler ve büyük stüdyolarla çalışıyor musunuz?",
-            "answer": "Yes. We partner with indie creators, mid size studios, and global brands. Scope and team size flex to match your budget and timeline without compromising craft."
+            "answer": "Evet. Bağımsız yaratıcılarla, orta büyüklükteki stüdyolarla ve küresel markalarla ortaklık yapıyoruz. Kapsam ve ekip boyutu, zanaattan ödün vermeden bütçenize ve zaman çizelgenize uyacak şekilde esnektir."
           },
           "03": {
             "question": "Mevcut sanat stilimizi yakalayabilir misiniz?",
-            "answer": "Absolutely. We start with style frames and a look development pass aligned to your brand guidelines or visual world before committing to full production."
+            "answer": "Kesinlikle. We start with style frames and a look development pass aligned to your brand guidelines or visual world before committing to full production."
           }
         }
       },
@@ -1432,26 +1432,28 @@
     "ctaButton": "Bize ulaşın"
   },
   "writeReviewPage": {
-    "label": "Client reviews",
-    "title": "WRITE YOURS",
-    "subtitle": "Worked with Starlights Visuals? Share your experience so other brands can see the results.",
-    "name": "Your name",
-    "email": "Email",
-    "emailOptional": "Optional, not shown publicly",
-    "role": "Your role",
-    "company": "Company",
-    "rating": "Rating",
-    "headline": "Headline",
-    "headlinePlaceholder": "A short line that captures your experience",
-    "quote": "Your review",
-    "quotePlaceholder": "Tell us about the collaboration, communication, quality, and results…",
-    "submit": "Submit review",
-    "submitting": "Submitting…",
-    "successTitle": "Thank you",
-    "successDesc": "Your review was received. It will appear on the site after a quick approval check.",
-    "backHome": "Back to home",
-    "errorConfig": "Review submissions are temporarily unavailable. Please try again later.",
-    "errorQuoteShort": "Please write at least 20 characters in your review.",
-    "errorGeneric": "Something went wrong while sending your review. Please try again."
+    "label": "Müşteri yorumları",
+    "title": "KENDİNİZİ YAZIN",
+    "subtitle": "Starlights Visuals'la mı çalıştınız? Deneyiminizi paylaşın ki diğer markalar da sonuçları görebilsin.",
+    "name": "Adınız",
+    "email": "E-posta",
+    "emailOptional": "İsteğe bağlı, herkese açık olarak gösterilmiyor",
+    "role": "Rolünüz",
+    "company": "Şirket",
+    "rating": "Derecelendirme",
+    "headline": "Başlık",
+    "headlinePlaceholder": "Deneyiminizi yansıtan kısa bir satır",
+    "quote": "Yorumunuz",
+    "quotePlaceholder": "Bize işbirliğinden, iletişimden, kaliteden ve sonuçlardan bahsedin…",
+    "submit": "İncelemeyi gönder",
+    "submitting": "Gönderiliyor…",
+    "successTitle": "Teşekkür ederim",
+    "successDesc": "İncelemeniz alındı. Hızlı bir onay kontrolünden sonra sitede görünecektir.",
+    "backHome": "Eve dön",
+    "errorConfig": "İnceleme gönderimleri geçici olarak kullanılamıyor. Lütfen daha sonra tekrar deneyin.",
+    "errorQuoteShort": "Lütfen yorumunuza en az 20 karakter yazınız.",
+    "errorGeneric": "İncelemeniz gönderilirken bir şeyler ters gitti. Lütfen tekrar deneyin.",
+    "metaTitle": "Yorum Yazın | Yıldız Işıkları Görselleri",
+    "metaDescription": "Starlights Visuals ile çalışma deneyiminizi paylaşın. Referanslarımız için bir müşteri incelemesi yazın."
   }
 }

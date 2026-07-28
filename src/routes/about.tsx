@@ -53,14 +53,18 @@ function AboutPage() {
       <SiteHeader />
 
       <section className="relative isolate overflow-hidden border-b border-border/40">
-        <img src={heroImg} alt="" className="absolute inset-0 -z-10 h-full w-full object-cover opacity-30" />
-        <div className="absolute inset-0 -z-10 bg-background/70" />
-        <div className="absolute inset-0 -z-10 grid-bg" />
-        <div className="mx-auto max-w-5xl px-6 py-28 md:py-40 text-center">
-          <p className="font-display text-xs uppercase tracking-[0.3em] text-neon-blue">
+        <img
+          src={heroImg}
+          alt=""
+          className="absolute inset-0 -z-10 h-full w-full object-cover opacity-60"
+        />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-black/55 via-black/40 to-background" />
+        <div className="absolute inset-0 -z-10 grid-bg opacity-40" />
+        <div className="mx-auto max-w-5xl px-6 py-28 text-center md:py-40">
+          <p className="font-display text-xs uppercase tracking-[0.3em] text-neon-green drop-shadow-[0_2px_10px_rgba(0,0,0,0.65)]">
             {t("aboutPage.label")}
           </p>
-          <h1 className="mt-4 font-display text-5xl md:text-7xl font-bold text-balance">
+          <h1 className="mt-4 font-display text-5xl font-bold text-balance text-white drop-shadow-[0_4px_24px_rgba(0,0,0,0.75)] md:text-7xl">
             {t("aboutPage.title1")}
             <br />
             <span className="neon-text text-glow">{t("aboutPage.title2")}</span>

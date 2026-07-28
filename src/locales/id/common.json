@@ -3,28 +3,28 @@
     "name": "Starlights Visuals",
     "star": "BINTANG",
     "lights": "CAHAYA",
-    "visuals": "VISUALS",
+    "visuals": "VISUAL",
     "email": "sternlichtespeciale@gmail.com"
   },
   "nav": {
     "portfolio": "Portofolio",
     "services": "Layanan",
-    "blog": "Blog",
+    "blog": "blog",
     "company": "Perusahaan",
     "contacts": "Kontak",
     "about": "Tentang",
     "contact": "Kontak",
     "portfolioCta": "Portofolio →",
     "faq": "FAQ",
-    "writeReview": "Write a review"
+    "writeReview": "Tulis ulasan"
   },
   "header": {
     "closeMenu": "Tutup menu",
     "openMenu": "Buka menu",
     "closeSidebar": "Tutup sidebar",
     "openSidebar": "Buka sidebar",
-    "switchToLight": "Switch to light mode",
-    "switchToDark": "Switch to dark mode"
+    "switchToLight": "Beralih ke mode terang",
+    "switchToDark": "Beralih ke mode gelap"
   },
   "languageSwitcher": {
     "label": "Bahasa",
@@ -45,65 +45,65 @@
     "emailPlaceholder": "email@anda.com",
     "join": "Gabung",
     "subscribed": "✦ Anda resmi bergabung. Selamat datang di Starlights.",
-    "tagline": "A creative studio bringing imagination to life through cinematic 2D animation, high quality 3D experiences, and VFX.",
+    "tagline": "Studio kreatif yang menghidupkan imajinasi melalui animasi 2D sinematik, pengalaman 3D berkualitas tinggi, dan VFX.",
     "explore": "Jelajahi",
     "follow": "Ikuti",
     "social": "Tautan sosial",
     "copyright": "© {{year}} Starlights Visuals. Dibuat dengan cahaya & kode.",
-    "joining": "Joining…",
-    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
+    "joining": "Bergabung…",
+    "subscribeError": "Tidak dapat berlangganan saat ini. Silakan coba lagi atau kirim email langsung kepada kami."
   },
   "home": {
-    "metaTitle": "Starlights Visuals | Animation & VFX Studio",
-    "metaDescription": "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
-    "heroScript": "Stories in motion,",
-    "heroTitle1": "ANIMATION",
+    "metaTitle": "Visual Cahaya Bintang | Studio Animasi & VFX",
+    "metaDescription": "Studio kreatif untuk animasi 2D dan 3D, VFX, dan penceritaan sinematik. Kami menghidupkan dunia, karakter, dan film.",
+    "heroScript": "Cerita bergerak —",
+    "heroTitle1": "ANIMASI",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals brings stories to life with animation and visual effects that captivate audiences and elevate every frame. We animate fantasy creatures, human characters, vehicles, environments, props, and hard surface objects for film, series, advertising, and brand campaigns.",
-    "heroAlt": "Starlights Visuals cinematic hero",
-    "seePortfolio": "See Portfolio",
-    "startProject": "Start a Project",
-    "servicesLabel": "What we do",
-    "servicesTitle": "SERVICES",
-    "allServices": "All Services",
-    "showcaseLabel": "Recent work",
-    "showcaseTitle1": "SELECTED",
-    "showcaseTitle2": "WORK",
-    "fullPortfolio": "Full Portfolio",
-    "viewAllFaq": "View all FAQ",
-    "ctaScript": "Let's build something,",
-    "ctaTitle1": "READY TO",
-    "ctaTitle2": "COLLABORATE?",
+    "heroBody": "Starlights Visuals menghidupkan cerita dengan animasi dan efek visual yang memikat audiens dan mengangkat setiap frame. Kami menganimasikan makhluk fantasi, karakter manusia, kendaraan, lingkungan, properti, dan objek hard-surface — untuk film, serial, iklan, dan kampanye merek.",
+    "heroAlt": "Pahlawan sinematik Starlights Visuals",
+    "seePortfolio": "Lihat Portofolio",
+    "startProject": "Mulai Proyek",
+    "servicesLabel": "Apa yang kami lakukan",
+    "servicesTitle": "LAYANAN",
+    "allServices": "Semua Layanan",
+    "showcaseLabel": "Pekerjaan terbaru",
+    "showcaseTitle1": "TERPILIH",
+    "showcaseTitle2": "BEKERJA",
+    "fullPortfolio": "Portofolio Lengkap",
+    "viewAllFaq": "Lihat semua FAQ",
+    "ctaScript": "Mari kita membangun sesuatu,",
+    "ctaTitle1": "SIAP UNTUK",
+    "ctaTitle2": "BERKOLABORASI?",
     "services": {
       "01": {
-        "title": "Animation & VFX",
-        "desc": "Cinematic 2D & 3D animation, character rigs, and visual effects for film, series, and brands."
+        "title": "Animasi & VFX",
+        "desc": "Animasi sinematik 2D & 3D, perlengkapan karakter, dan efek visual untuk film, serial, dan merek."
       },
       "02": {
-        "title": "Product Animation",
-        "desc": "Photoreal product films, packshots, and CGI that make every detail sell."
+        "title": "Animasi Produk",
+        "desc": "Film produk fotoreal, packshot, dan CGI yang membuat setiap detailnya laku."
       },
       "03": {
-        "title": "Concept & Character Art",
-        "desc": "Original characters, creatures, environments, and props that anchor your IP."
+        "title": "Konsep & Seni Karakter",
+        "desc": "Karakter, makhluk, lingkungan, dan properti asli yang menjadi landasan IP Anda."
       },
       "04": {
-        "title": "Cinematic Trailers",
-        "desc": "Story driven trailers built to launch brands, IPs, and campaigns."
+        "title": "Trailer Sinematik",
+        "desc": "Trailer berbasis cerita yang dibuat untuk meluncurkan merek, IP, dan kampanye."
       }
     },
     "showcase": {
       "character": {
-        "tag": "3D Animation",
-        "title": "3D Animation"
+        "tag": "Animasi 3D",
+        "title": "Animasi 3D"
       },
       "gameArt": {
-        "tag": "Motion Graphics",
-        "title": "Motion Graphics"
+        "tag": "Grafik Gerak",
+        "title": "Grafik Gerak"
       },
       "animation2d": {
-        "tag": "2D Animation",
-        "title": "2D Animation"
+        "tag": "Animasi 2D",
+        "title": "Animasi 2D"
       },
       "cinematic": {
         "tag": "VFX",
@@ -111,16 +111,16 @@
       },
       "creature": {
         "tag": "3D",
-        "title": "Industrial Animation"
+        "title": "Animasi Industri"
       },
       "motion": {
         "tag": "3D",
-        "title": "Product Animation"
+        "title": "Animasi Produk"
       }
     }
   },
   "trustedBy": {
-    "badge": "200+ COMPANY",
+    "badge": "200+ PERUSAHAAN",
     "trusted": "Dipercaya",
     "by": "Oleh"
   },
@@ -139,143 +139,143 @@
     "playAria": "Putar testimoni video dari {{name}}",
     "items": {
       "hauke": {
-        "headline": "Efficient, reliable, and highly recommended",
-        "quote": "Starlight Visuals supported us in creating a CGI video for SmarAct Automation, with the goal of presenting our core competencies in a clear, professional, and visually engaging way. The collaboration was highly efficient and reliable from start to finish. We especially appreciated the fast response times, quick turnaround, strong communication, and dependable delivery of the final files. Our requirements were understood quickly and implemented professionally. We are very satisfied with the result and can confidently recommend Starlight Visuals for high-quality CGI and visual content projects.",
-        "role": "Digital Marketing & Content Manager"
+        "headline": "Efisien, andal, dan sangat direkomendasikan",
+        "quote": "Starlight Visuals mendukung kami dalam membuat video CGI untuk SmarAct Automation, dengan tujuan menyajikan kompetensi inti kami dengan cara yang jelas, profesional, dan menarik secara visual. Kolaborasi ini sangat efisien dan dapat diandalkan dari awal hingga akhir. Kami sangat menghargai waktu respons yang cepat, penyelesaian yang cepat, komunikasi yang kuat, dan pengiriman file akhir yang dapat diandalkan. Persyaratan kami dipahami dengan cepat dan diterapkan secara profesional. Kami sangat puas dengan hasilnya dan dengan yakin dapat merekomendasikan Starlight Visuals untuk proyek konten visual dan CGI berkualitas tinggi.",
+        "role": "Pemasaran Digital & Manajer Konten"
       },
       "jeremy": {
-        "headline": "From sketches to a finished helmet film",
-        "quote": "Working with Starlight Visuals was a great experience from start to finish. They didn't just create an animation they were involved throughout the entire process, from refining our initial sketches to supporting the CAD development and delivering a final helmet animation that brought our concept to life. What stood out most was how quickly they understood the product and translated technical details into visuals that were both accurate and engaging. The final presentation video gave us a professional way to showcase our helmet design to partners and stakeholders. They were responsive, easy to collaborate with, and genuinely cared about getting every detail right. I'd gladly recommend them to anyone looking for high-quality product animation and visualization.",
-        "role": "Founder"
+        "headline": "Mulai dari sketsa hingga film helm yang sudah jadi",
+        "quote": "Bekerja dengan Starlight Visuals merupakan pengalaman yang luar biasa dari awal hingga akhir. Mereka tidak hanya membuat animasi, mereka juga terlibat di seluruh proses, mulai dari menyempurnakan sketsa awal hingga mendukung pengembangan CAD dan memberikan animasi helm akhir yang menghidupkan konsep kami. Yang paling menonjol adalah seberapa cepat mereka memahami produk dan menerjemahkan detail teknis menjadi visual yang akurat dan menarik. Video presentasi terakhir memberi kami cara profesional untuk menampilkan desain helm kami kepada mitra dan pemangku kepentingan. Mereka responsif, mudah diajak berkolaborasi, dan benar-benar peduli untuk memperbaiki setiap detail. Saya dengan senang hati akan merekomendasikannya kepada siapa pun yang mencari animasi dan visualisasi produk berkualitas tinggi.",
+        "role": "Pendiri"
       },
       "raiv": {
-        "headline": "They genuinely cared about every character",
-        "quote": "I really enjoyed working with the team. It felt like they genuinely cared about the project and wanted the characters to look and feel right. Communication was always easy, they were open to feedback, and every revision was handled without any hassle. Seeing our NSFW characters come to life was exciting.",
-        "role": "Game Director"
+        "headline": "Mereka benar-benar peduli pada setiap karakter",
+        "quote": "Saya sangat menikmati bekerja dengan tim. Rasanya mereka benar-benar peduli dengan proyek tersebut dan ingin karakternya terlihat dan terasa benar. Komunikasi selalu mudah, mereka terbuka terhadap masukan, dan setiap revisi ditangani tanpa kerumitan. Melihat karakter NSFW kami menjadi hidup sungguh menyenangkan.",
+        "role": "Direktur Permainan"
       },
       "ilija": {
-        "headline": "Clear visuals for electric vehicle technology",
-        "quote": "They helped shape our PHR concept creatively and deliver amazing video making sure the visuals clearly communicate how our electric vehicle technology works. Their attention to detail, creativity, and willingness to iterate made the entire process smooth. The final animation gave us a much clearer way to present our product to partners and stakeholders.",
-        "role": "Founder"
+        "headline": "Visual yang jelas untuk teknologi kendaraan listrik",
+        "quote": "Mereka membantu membentuk konsep PHR kami secara kreatif dan menghadirkan video luar biasa yang memastikan visualnya menyampaikan dengan jelas cara kerja teknologi kendaraan listrik kami. Perhatian mereka terhadap detail, kreativitas, dan kemauan untuk mengulang membuat seluruh proses berjalan lancar. Animasi terakhir memberi kami cara yang lebih jelas untuk mempresentasikan produk kami kepada mitra dan pemangku kepentingan.",
+        "role": "Pendiri"
       },
       "luigi": {
-        "headline": "Exactly what we needed for M12 and B12",
-        "quote": "We needed a clear way to show the differences between our M12 and B12 products, and Starlight Visuals delivered exactly what we were looking for. The animations were high quality, easy to understand, and captured every important detail.",
-        "role": "Production Manager"
+        "headline": "Persis seperti yang kami butuhkan untuk M12 dan B12",
+        "quote": "Kami memerlukan cara yang jelas untuk menunjukkan perbedaan antara produk M12 dan B12 kami, dan Starlight Visuals memberikan apa yang kami cari. Animasinya berkualitas tinggi, mudah dipahami, dan menangkap setiap detail penting.",
+        "role": "Manajer Produksi"
       },
       "jason": {
-        "headline": "Outstanding quality beyond what we imagined",
-        "quote": "The quality of the animation was outstanding. Starlight Visuals helped us present our product in a way that was clear, engaging, and memorable. The final presentation looked far better than we had imagined.",
+        "headline": "Kualitas luar biasa melebihi apa yang kami bayangkan",
+        "quote": "Kualitas animasinya luar biasa. Starlight Visuals membantu kami menyajikan produk kami dengan cara yang jelas, menarik, dan mudah diingat. Presentasi terakhir terlihat jauh lebih baik dari yang kami bayangkan.",
         "role": "CEO"
       },
       "burkhard": {
-        "headline": "Made a complex product easy to explain",
-        "quote": "We knew our product was strong, but explaining it clearly to customers was always the challenge. The team at Starlight Visuals took the time to understand how everything works and turned it into an animation that made the message much easier to communicate. It looks professional, keeps people's attention, and helps us present the product with much more confidence. The whole process was straightforward, and they were easy to work with. We're very happy with the result.",
-        "role": "Head of Sales"
+        "headline": "Membuat produk yang kompleks mudah dijelaskan",
+        "quote": "Kami tahu produk kami kuat, namun menjelaskannya dengan jelas kepada pelanggan selalu menjadi tantangannya. Tim di Starlight Visuals meluangkan waktu untuk memahami cara kerja segala sesuatunya dan mengubahnya menjadi animasi yang membuat pesan lebih mudah dikomunikasikan. Terlihat profesional, menarik perhatian orang, dan membantu kami menyajikan produk dengan lebih percaya diri. Seluruh prosesnya mudah, dan mudah untuk dikerjakan. Kami sangat senang dengan hasilnya.",
+        "role": "Kepala Penjualan"
       },
       "robert": {
-        "headline": "Premium watch films beyond what we imagined",
-        "quote": "There was a clear vision for how we wanted our watches to be presented, but Starlight Visuals took it beyond what we imagined. They didn't just animate our product they captured the details, precision, and premium quality that define our brand. The final presentation gave our collection a level of sophistication that instantly elevated how customers perceived it. The entire process was smooth, collaborative, and professionally handled from start to finish.",
-        "role": "Founder"
+        "headline": "Tontonan film premium melebihi apa yang kita bayangkan",
+        "quote": "Ada visi yang jelas mengenai bagaimana kami ingin jam tangan kami ditampilkan, namun Starlight Visuals mewujudkannya melampaui apa yang kami bayangkan. Mereka tidak hanya menganimasikan produk kami, mereka juga menangkap detail, presisi, dan kualitas premium yang mendefinisikan merek kami. Presentasi terakhir memberikan koleksi kami tingkat kecanggihan yang langsung meningkatkan persepsi pelanggan. Seluruh prosesnya lancar, kolaboratif, dan ditangani secara profesional dari awal hingga akhir.",
+        "role": "Pendiri"
       }
     },
     "videoRoles": {
       "ceo": "CEO",
-      "artDirector": "Art Director",
-      "founder": "Founder",
-      "headProduction": "Head of Production",
-      "vpMarketing": "VP Marketing",
-      "coFounder": "Co Founder"
+      "artDirector": "Direktur Seni",
+      "founder": "Pendiri",
+      "headProduction": "Kepala Produksi",
+      "vpMarketing": "Wakil Presiden Pemasaran",
+      "coFounder": "Rekan Pendiri"
     },
-    "seeMore": "See more",
-    "seeLess": "See less",
-    "writeYours": "Write yours",
-    "tapToRead": "Tap to read full review"
+    "seeMore": "Lihat selengkapnya",
+    "seeLess": "Lihat lebih sedikit",
+    "writeYours": "Tulis milikmu",
+    "tapToRead": "Ketuk untuk membaca ulasan lengkap"
   },
   "servicesPage": {
-    "metaTitle": "Services | Starlights Visuals",
-    "metaDescription": "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
-    "label": "What We Build",
-    "title": "SERVICES",
-    "subtitle": "One studio, every stage of production, from first sketch to final pixel.",
-    "ctaTitle1": "HAVE A",
-    "ctaTitle2": "PROJECT",
-    "ctaTitle3": "IN MIND?",
-    "ctaDesc": "Tell us your vision, we'll bring the firepower.",
-    "ctaButton": "Get In Touch",
+    "metaTitle": "Layanan | Visual Cahaya Bintang",
+    "metaDescription": "Animasi 2D, animasi 3D, desain karakter, grafik gerak, VFX, animasi produk, dan trailer sinematik.",
+    "label": "Apa yang Kami Bangun",
+    "title": "LAYANAN",
+    "subtitle": "Satu studio, setiap tahap produksi, dari sketsa pertama hingga piksel akhir.",
+    "ctaTitle1": "MEMILIKI A",
+    "ctaTitle2": "PROYEK",
+    "ctaTitle3": "DALAM PIKIRAN?",
+    "ctaDesc": "Beritahu kami visi Anda, kami akan membawakan senjatanya.",
+    "ctaButton": "Hubungi Kami",
     "items": {
       "2d": {
-        "title": "2D Animation",
-        "desc": "Frame by frame & rigged 2D for series, shorts, explainers, and brand films. We blend classic craft with digital pipelines."
+        "title": "Animasi 2D",
+        "desc": "Bingkai demi bingkai & 2D yang dipasang untuk serial, film pendek, penjelasan, dan film merek. Kami memadukan kerajinan klasik dengan saluran digital."
       },
       "3d": {
-        "title": "3D Animation",
-        "desc": "Stylized and photoreal 3D, characters, environments, and full cinematic sequences with feature quality polish."
+        "title": "Animasi 3D",
+        "desc": "3D bergaya dan fotoreal, karakter, lingkungan, dan rangkaian sinematik lengkap dengan polesan kualitas fitur."
       },
       "character": {
-        "title": "Character Design",
-        "desc": "Original characters, creatures, and concept art that anchor your IP and merch potential."
+        "title": "Desain Karakter",
+        "desc": "Karakter, makhluk, dan konsep seni orisinal yang memperkuat kekayaan intelektual dan potensi merchandise Anda."
       },
       "motion": {
-        "title": "Motion Graphics",
-        "desc": "Branded motion, UI animation, broadcast packages, and explainer videos with cinematic polish."
+        "title": "Grafik Gerak",
+        "desc": "Gerakan bermerek, animasi UI, paket siaran, dan video penjelasan dengan sentuhan sinematik."
       },
       "vfx": {
-        "title": "Visual Effects (VFX)",
-        "desc": "Compositing, particle FX, and CG integration for film, advertising, and digital campaigns."
+        "title": "Efek Visual (VFX)",
+        "desc": "Integrasi pengomposisian, partikel FX, dan CG untuk film, periklanan, dan kampanye digital."
       },
       "trailer": {
-        "title": "Cinematic Trailers",
-        "desc": "Story driven trailers built to launch brands, IPs, and campaigns with maximum impact."
+        "title": "Trailer Sinematik",
+        "desc": "Trailer berbasis cerita yang dibuat untuk meluncurkan merek, IP, dan kampanye dengan dampak maksimal."
       }
     }
   },
   "aboutPage": {
-    "metaTitle": "About | Starlights Visuals",
-    "metaDescription": "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, game animation, product visualization, and 2D & 3D character animation.",
-    "label": "Who We Are",
-    "title1": "A STUDIO BUILT ON",
-    "title2": "LIGHT, CODE & STORY",
-    "p1": "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, game animation, product visualization, and 2D & 3D character animation. We combine artistic excellence with cutting-edge technology to transform ideas into visuals that captivate, educate, and inspire. From engineering-driven industrial animations and photorealistic product renders to stylized cartoons, expressive character performances, and cinematic game sequences, we create animation that delivers both visual impact and meaningful results.",
-    "p2": "Whether showcasing a product's innovation, bringing a game universe to life, or crafting memorable animated characters, every frame is designed with purpose and precision. Our multidisciplinary team of animators, technical artists, modelers, riggers, motion designers, and visual storytellers collaborates seamlessly to produce work that meets the highest creative and technical standards. We believe great animation does more than look beautiful, it communicates complex ideas, strengthens brands, and creates lasting emotional connections.",
-    "p3": "We partner with manufacturers, product companies, game developers, creative agencies, and global brands to deliver premium animation for marketing, product launches, training, entertainment, advertising, and digital experiences. Every project is driven by innovation, craftsmanship, and an uncompromising commitment to quality. At Starlight Visuals, we don't simply animate, we engineer experiences, build unforgettable characters, and create visuals that move people and businesses forward.",
-    "valuesLabel": "Core Values",
-    "valuesTitle": "WHAT DRIVES US",
+    "metaTitle": "Tentang | Visual Cahaya Bintang",
+    "metaDescription": "Starlight Visuals adalah studio animasi kelas dunia yang menciptakan pengalaman visual luar biasa di seluruh animasi produk industri, animasi game, visualisasi produk, dan animasi karakter 2D & 3D.",
+    "label": "Siapa Kami",
+    "title1": "STUDIO YANG DIBANGUN",
+    "title2": "CAHAYA, KODE & CERITA",
+    "p1": "Starlight Visuals adalah studio animasi kelas dunia yang menciptakan pengalaman visual luar biasa di seluruh animasi produk industri, animasi game, visualisasi produk, dan animasi karakter 2D & 3D. Kami menggabungkan keunggulan artistik dengan teknologi mutakhir untuk mengubah ide menjadi visual yang memikat, mendidik, dan menginspirasi. Dari animasi industri yang digerakkan oleh teknik dan rendering produk fotorealistik hingga kartun bergaya, penampilan karakter yang ekspresif, dan rangkaian permainan sinematik, kami menciptakan animasi yang memberikan dampak visual dan hasil yang bermakna.",
+    "p2": "Baik menampilkan inovasi produk, menghidupkan dunia game, atau membuat karakter animasi yang berkesan, setiap frame dirancang dengan tujuan dan presisi. Tim multidisiplin kami yang terdiri dari animator, seniman teknis, pemodel, rigger, perancang gerak, dan pendongeng visual berkolaborasi dengan lancar untuk menghasilkan karya yang memenuhi standar kreatif dan teknis tertinggi. Kami percaya animasi yang hebat tidak hanya terlihat indah, tetapi juga mengkomunikasikan ide-ide kompleks, memperkuat merek, dan menciptakan hubungan emosional yang langgeng.",
+    "p3": "Kami bermitra dengan produsen, perusahaan produk, pengembang game, agensi kreatif, dan merek global untuk menghadirkan animasi premium untuk pemasaran, peluncuran produk, pelatihan, hiburan, periklanan, dan pengalaman digital. Setiap proyek didorong oleh inovasi, keahlian, dan komitmen tanpa kompromi terhadap kualitas. Di Starlight Visuals, kami tidak hanya membuat animasi, kami merekayasa pengalaman, membangun karakter yang tak terlupakan, dan menciptakan visual yang memajukan orang dan bisnis.",
+    "valuesLabel": "Nilai Inti",
+    "valuesTitle": "APA YANG MENDORONG KITA",
     "values": {
       "imagination": {
-        "title": "Imagination First",
-        "desc": "Every project starts with a bold idea and a blank canvas."
+        "title": "Imajinasi Pertama",
+        "desc": "Setiap proyek dimulai dengan ide yang berani dan kanvas kosong."
       },
       "craft": {
-        "title": "Craft Obsessed",
-        "desc": "Frame by frame, pixel by pixel, quality is non negotiable."
+        "title": "Terobsesi pada Kerajinan",
+        "desc": "Bingkai demi bingkai, piksel demi piksel, kualitas tidak dapat dinegosiasikan."
       },
       "energy": {
-        "title": "Cinematic Energy",
-        "desc": "We chase the goosebumps. If it doesn't move us, we refine."
+        "title": "Energi Sinematik",
+        "desc": "Kami mengejar merinding. Jika tidak menggerakkan kami, kami perbaiki."
       },
       "story": {
-        "title": "Story Driven",
-        "desc": "Tech serves story. Always."
+        "title": "Didorong oleh Cerita",
+        "desc": "Teknologi menyajikan cerita. Selalu."
       }
     },
     "stats": {
-      "projects": "Projects Shipped",
-      "clients": "Global Clients",
-      "awards": "Awards Won",
-      "years": "Years Crafting"
+      "projects": "Proyek Dikirim",
+      "clients": "Klien Global",
+      "awards": "Penghargaan Dimenangkan",
+      "years": "Kerajinan Bertahun-tahun"
     }
   },
   "contactPage": {
     "metaTitle": "Kontak | Starlights Visuals",
-    "metaDescription": "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
+    "metaDescription": "Hubungi Starlights Visuals untuk animasi 2D & 3D, grafik gerak, VFX, animasi produk, dan proyek trailer sinematik.",
     "label": "Mari Berbicara",
     "title": "KONTAK",
     "subtitle": "Inquiry produksi, kolaborasi, atau sekadar menyapa, kirimkan sinyal kepada kami.",
     "formTitle": "MULAI PROYEK",
     "formDesc": "Isi formulir di bawah dan kami akan merespons dalam 24 jam.",
     "name": "Nama",
-    "email": "Email",
+    "email": "E-mail",
     "projectType": "Jenis Proyek",
     "message": "Ceritakan tentang proyek Anda",
     "send": "Kirim Pesan",
@@ -287,61 +287,61 @@
     "responseTime": "WAKTU RESPON",
     "responseDesc": "Dalam 24 jam, Sen, Jum.",
     "projectTypes": {
-      "2d": "2D Animation",
-      "3d": "3D Animation",
-      "trailer": "Cinematic Trailer",
-      "character": "Character Design",
-      "motion": "Motion Graphics and VFX",
-      "other": "Other"
+      "2d": "Animasi 2D",
+      "3d": "Animasi 3D",
+      "trailer": "Cuplikan Sinematik",
+      "character": "Desain Karakter",
+      "motion": "Grafik Gerak dan VFX",
+      "other": "Lainnya"
     },
-    "sending": "Sending…",
-    "errorGeneric": "Could not send your message. Please email us directly or try again."
+    "sending": "Mengirim…",
+    "errorGeneric": "Tidak dapat mengirim pesan Anda. Silakan kirim email langsung kepada kami atau coba lagi."
   },
   "portfolioPage": {
     "metaTitle": "Portofolio | Starlights Visuals",
-    "metaDescription": "Selected projects: animated series, cinematic trailers, character designs, and studio showcase reels by Starlights Visuals.",
+    "metaDescription": "Proyek terpilih: serial animasi, trailer sinematik, desain karakter, dan showcase studio oleh Starlights Visuals.",
     "label": "Karya terpilih",
-    "title1": "PORT",
+    "title1": "PELABUHAN",
     "title2": "FOLIO",
     "subtitle": "Sekilas tentang dunia, karakter, dan cerita yang kami bantu hidupkan.",
     "projects": {
       "trailer": {
-        "tag": "Cinematic Trailer",
-        "title": "Iron Sentinel",
-        "desc": "Cinematic brand launch trailer."
+        "tag": "Cuplikan Sinematik",
+        "title": "Penjaga Besi",
+        "desc": "Trailer peluncuran merek sinematik."
       },
       "character": {
-        "tag": "Character Design",
-        "title": "Nova Vanguard",
-        "desc": "Hero protagonist sheet."
+        "tag": "Desain Karakter",
+        "title": "Nova Pelopor",
+        "desc": "Lembar protagonis pahlawan."
       },
       "2d": {
-        "tag": "2D Animation",
-        "title": "Neon Skyline",
-        "desc": "Anime inspired pilot episode."
+        "tag": "Animasi 2D",
+        "title": "Cakrawala Neon",
+        "desc": "Episode percontohan yang terinspirasi anime."
       },
       "creature": {
-        "tag": "Creature Design",
-        "title": "Crystal Wyrm",
-        "desc": "Boss creature concept."
+        "tag": "Desain Makhluk",
+        "title": "Kristal Wyrm",
+        "desc": "Konsep makhluk bos."
       },
       "motion": {
-        "tag": "Motion Graphics",
-        "title": "Pulse Identity",
-        "desc": "Brand motion system."
+        "tag": "Grafik Gerak",
+        "title": "Identitas Pulsa",
+        "desc": "Sistem gerak merek."
       },
       "motionEnv": {
-        "tag": "Motion Graphics",
-        "title": "Pulse Worlds",
-        "desc": "Immersive brand environment art."
+        "tag": "Grafik Gerak",
+        "title": "Dunia Pulsa",
+        "desc": "Seni lingkungan merek yang imersif."
       }
     }
   },
   "blogPage": {
-    "metaTitle": "Blog | Starlights Visuals",
-    "metaDescription": "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
+    "metaTitle": "Blog | Visual Cahaya Bintang",
+    "metaDescription": "Wawasan tentang animasi, VFX, trailer sinematik, dan penceritaan merek premium dari Starlights Visuals.",
     "label": "Jurnal studio",
-    "title1": "THE",
+    "title1": "ITU",
     "title2": "BLOG",
     "subtitle": "Refleksi tentang craft sinematik, workflow produksi, dan membangun visual yang convert.",
     "featured": "Unggulan · {{category}}",
@@ -349,50 +349,50 @@
     "startProject": "Mulai proyek",
     "moreFromJournal": "Lainnya dari jurnal",
     "postBody1": "Di Starlights Visuals, kami memperlakukan setiap frame sebagai peluang konversi, bukan sekadar gambar indah. Artikel ini mengulas pemikiran di balik karya {{category}} kami dan keputusan yang membedakan kreatif bagus dari kreatif siap peluncuran.",
-    "postBody2": "Whether you are shipping a trailer, scaling a brand motion system, or building campaign visuals for a live product, the same principle applies: clarity of story first, polish second, and ruthless editing last. That discipline is how teams hit deadlines without the almost there feeling.",
+    "postBody2": "Baik Anda mengirimkan cuplikan, menskalakan sistem pergerakan merek, atau membuat visual kampanye untuk produk langsung, prinsip yang sama berlaku: kejelasan cerita terlebih dahulu, penyempurnaan kedua, dan pengeditan yang kejam terakhir. Disiplin itulah yang membuat tim mencapai tenggat waktu tanpa merasa hampir sampai.",
     "postBody3": "Ingin menerapkan pendekatan ini pada proyek berikutnya? Kami ingin mendengar apa yang Anda bangun, kirimkan brief dan kami akan memetakan jalur sinematik dari konsep hingga delivery.",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "Why cinematic trailers convert better than product demos",
-        "excerpt": "Story first launch films build emotional stakes before the CTA. Here is how we structure hooks, pacing, and grade for maximum retention.",
-        "category": "Strategy",
-        "date": "May 12, 2026",
-        "readTime": "6 min read"
+        "title": "Mengapa cuplikan sinematik berkonversi lebih baik daripada demo produk",
+        "excerpt": "Film peluncuran cerita pertama membangun pertaruhan emosional sebelum CTA. Inilah cara kami menyusun hook, pacing, dan grade untuk retensi maksimum.",
+        "category": "Strategi",
+        "date": "12 Mei 2026",
+        "readTime": "6 menit membaca"
       },
       "character-design-for-ip": {
-        "title": "Character design that anchors your IP across every channel",
-        "excerpt": "From silhouette readability to merch ready turnarounds, the checklist we use before a hero goes into production.",
-        "category": "Craft",
-        "date": "May 3, 2026",
-        "readTime": "5 min read"
+        "title": "Desain karakter yang menghubungkan IP Anda di setiap saluran",
+        "excerpt": "Dari keterbacaan siluet hingga penyelesaian merchandise, daftar periksa yang kami gunakan sebelum seorang pahlawan memasuki produksi.",
+        "category": "Keahlian",
+        "date": "3 Mei 2026",
+        "readTime": "5 menit membaca"
       },
       "motion-systems-for-brands": {
-        "title": "Building motion systems brands can actually reuse",
-        "excerpt": "Modular motion libraries, logo stings, and UI micro interactions that keep campaigns consistent at scale.",
-        "category": "Motion",
-        "date": "Apr 8, 2026",
-        "readTime": "4 min read"
+        "title": "Merek sistem gerak bangunan sebenarnya dapat digunakan kembali",
+        "excerpt": "Pustaka gerakan modular, tampilan logo, dan interaksi mikro UI yang menjaga konsistensi kampanye dalam skala besar.",
+        "category": "Gerakan",
+        "date": "8 April 2026",
+        "readTime": "4 menit membaca"
       },
       "2d-animation-in-2026": {
-        "title": "2D animation in 2026: hybrid pipelines that still feel handmade",
-        "excerpt": "Combining rigged efficiency with frame by frame accents, when to push each technique for premium results.",
-        "category": "Animation",
-        "date": "Mar 29, 2026",
-        "readTime": "7 min read"
+        "title": "Animasi 2D pada tahun 2026: saluran pipa hybrid yang masih terasa buatan tangan",
+        "excerpt": "Menggabungkan efisiensi yang ketat dengan aksen bingkai demi bingkai, kapan harus mendorong setiap teknik untuk hasil premium.",
+        "category": "Animasi",
+        "date": "29 Maret 2026",
+        "readTime": "7 menit membaca"
       },
       "creature-design-breakdown": {
-        "title": "Creature design breakdown: from mood board to final rig",
-        "excerpt": "A look at how we develop boss creatures with readable silhouettes, material storytelling, and cinematic presence.",
-        "category": "Craft",
-        "date": "Mar 14, 2026",
-        "readTime": "6 min read"
+        "title": "Perincian desain makhluk: dari papan suasana hati hingga perlengkapan akhir",
+        "excerpt": "Sekilas tentang cara kami mengembangkan makhluk bos dengan siluet yang mudah dibaca, materi penceritaan, dan kehadiran sinematik.",
+        "category": "Keahlian",
+        "date": "14 Maret 2026",
+        "readTime": "6 menit membaca"
       },
       "production-pipelines-that-ship": {
-        "title": "Production pipelines that ship: concept to final delivery",
-        "excerpt": "How we align art direction, technical constraints, and milestone reviews so teams ship on time without sacrificing polish.",
-        "category": "Production",
-        "date": "Apr 21, 2026",
-        "readTime": "8 min read"
+        "title": "Jalur produksi yang dikirimkan: konsep hingga pengiriman akhir",
+        "excerpt": "Bagaimana kami menyelaraskan arahan seni, kendala teknis, dan tinjauan pencapaian sehingga tim dapat mengirimkan tim tepat waktu tanpa mengorbankan kesempurnaan.",
+        "category": "Produksi",
+        "date": "21 April 2026",
+        "readTime": "8 menit membaca"
       }
     }
   },
@@ -409,8 +409,8 @@
     "goHome": "Ke beranda"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals | Animation & VFX Studio",
-    "rootDescription": "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
+    "rootTitle": "Visual Cahaya Bintang | Studio Animasi & VFX",
+    "rootDescription": "Starlights Visuals adalah studio kreatif yang berspesialisasi dalam animasi 2D sinematik, animasi 3D berkualitas tinggi, dan VFX.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -421,28 +421,28 @@
     "logoAlt": "Logo {{brand}}"
   },
   "works": {
-    "breadcrumbLabel": "Breadcrumb",
-    "breadcrumbHome": "Home",
-    "breadcrumbWorks": "Selected Works",
-    "clientsTitle": "Clients We've Worked With",
-    "clientsCount": "{{count}} clients",
-    "projectsCompleted": "{{count}} projects completed",
-    "timeline": "Timeline",
-    "services": "Services provided",
-    "tools": "Tools & software",
-    "searchPlaceholder": "Search projects…",
-    "filterYear": "Filter by year",
-    "allYears": "All years",
-    "noClients": "No clients in this category yet.",
-    "noProjects": "No projects match your filters.",
-    "projectsTitle": "Project Samples",
-    "relatedProjects": "Related projects",
-    "closePreview": "Close preview",
-    "ctaScript": "Ready when you are,",
-    "ctaTitle": "Start Your Project With Us",
-    "ctaDesc": "Tell us about your brand, timeline, and goals. We'll map a cinematic path from concept to delivery.",
-    "ctaButton": "Start a project",
-    "portfolioHubDesc": "Explore work by category, animation, VFX, motion, and more.",
+    "breadcrumbLabel": "Remah roti",
+    "breadcrumbHome": "Rumah",
+    "breadcrumbWorks": "Karya Terpilih",
+    "clientsTitle": "Klien Yang Telah Bekerja Sama Dengan Kami",
+    "clientsCount": "{{count}} klien",
+    "projectsCompleted": "{{count}} proyek selesai",
+    "timeline": "Garis Waktu",
+    "services": "Layanan yang disediakan",
+    "tools": "Alat & perangkat lunak",
+    "searchPlaceholder": "Cari proyek…",
+    "filterYear": "Saring berdasarkan tahun",
+    "allYears": "Sepanjang tahun",
+    "noClients": "Belum ada klien dalam kategori ini.",
+    "noProjects": "Tidak ada proyek yang cocok dengan filter Anda.",
+    "projectsTitle": "Contoh Proyek",
+    "relatedProjects": "Proyek terkait",
+    "closePreview": "Tutup pratinjau",
+    "ctaScript": "Siap ketika Anda siap,",
+    "ctaTitle": "Mulai Proyek Anda Bersama Kami",
+    "ctaDesc": "Ceritakan kepada kami tentang merek, garis waktu, dan tujuan Anda. Kami akan memetakan jalur sinematik dari konsep hingga penyampaiannya.",
+    "ctaButton": "Mulai sebuah proyek",
+    "portfolioHubDesc": "Jelajahi karya berdasarkan kategori, animasi, VFX, gerakan, dan banyak lagi.",
     "categories": {
       "2d-animation": {
         "title": "Animasi 2D",
@@ -451,18 +451,18 @@
       },
       "3d-animation": {
         "title": "Animasi 3D",
-        "tagline": "Stylized and photoreal 3D for film and brands",
-        "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
+        "tagline": "3D bergaya dan fotoreal untuk film dan merek",
+        "description": "Karakter 3D, produk, dan animasi sinematik berkualitas tinggi dengan penyempurnaan tingkat fitur untuk kampanye dan serial."
       },
       "motion-graphics": {
-        "title": "Motion Graphics",
-        "tagline": "Design led motion systems for launches and brand worlds",
-        "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
+        "title": "Grafik Gerak",
+        "tagline": "Rancang sistem gerak yang dipimpin untuk peluncuran dan dunia merek",
+        "description": "Rancang sistem gerak yang dipimpin untuk peluncuran, dasbor, dan dunia merek yang berskala di seluruh saluran."
       },
       "vfx": {
         "title": "Visual Effects (VFX)",
-        "tagline": "Compositing, FX, and cinematic finishing",
-        "description": "Visual effects for trailers, product films, and branded content, from cleanups to full CG integration."
+        "tagline": "Compositing, FX, dan finishing sinematik",
+        "description": "Efek visual untuk trailer, film produk, dan konten bermerek, mulai dari pembersihan hingga integrasi CG penuh."
       }
     },
     "showcase": {
@@ -475,8 +475,8 @@
         "title": "Animasi 3D"
       },
       "motion-graphics": {
-        "tag": "Motion Graphics",
-        "title": "Motion Graphics"
+        "tag": "Grafik Gerak",
+        "title": "Grafik Gerak"
       },
       "vfx": {
         "tag": "Visual Effects (VFX)",
@@ -487,883 +487,883 @@
       "2d-animation": {
         "chibi-art": {
           "name": "CHIBI ART",
-          "industry": "Character & Animation",
-          "description": "Chibi style 2D character animation with expressive scenes and behind the scenes making process films.",
+          "industry": "Karakter & Animasi",
+          "description": "Animasi karakter 2D gaya Chibi dengan adegan ekspresif dan proses pembuatan film di belakang layar.",
           "timeline": "2025",
           "services": {
-            "0": "2D Animation",
-            "1": "Chibi Art",
-            "2": "Character Animation"
+            "0": "Animasi 2D",
+            "1": "Seni Chibi",
+            "2": "Animasi Karakter"
           },
           "tools": {
-            "0": "After Effects",
-            "1": "Clip Studio Paint",
-            "2": "Photoshop"
+            "0": "Setelah Efek",
+            "1": "Klip Studio Cat",
+            "2": "photoshop"
           }
         },
         "vtuber-animation": {
           "name": "VTUBER ANIMATION",
-          "industry": "VTuber & Character",
-          "description": "VTuber character art and 2D animation with modeling process films, polished samples, and Live2D style performance.",
+          "industry": "VTuber & Karakter",
+          "description": "Seni karakter VTuber dan animasi 2D dengan film proses pemodelan, sampel yang dipoles, dan pertunjukan gaya Live2D.",
           "timeline": "2025",
           "services": {
-            "0": "VTuber Animation",
-            "1": "2D Character",
-            "2": "Live2D Style"
+            "0": "Animasi VTuber",
+            "1": "Karakter 2D",
+            "2": "Gaya Langsung2D"
           },
           "tools": {
-            "0": "Live2D",
-            "1": "After Effects",
-            "2": "Clip Studio Paint"
+            "0": "Langsung2D",
+            "1": "Setelah Efek",
+            "2": "Klip Studio Cat"
           }
         },
         "live2d-animation": {
           "name": "LIVE2D ANIMATION",
-          "industry": "Live2D & Character",
-          "description": "Live2D character art, rigging, and animation from making process films through polished sample performances.",
+          "industry": "Live2D & Karakter",
+          "description": "Seni karakter Live2D, tali-temali, dan animasi dari proses pembuatan film melalui pertunjukan sampel yang dipoles.",
           "timeline": "2025",
           "services": {
-            "0": "Live2D",
-            "1": "Rigging",
-            "2": "2D Character Animation"
+            "0": "Langsung2D",
+            "1": "Laberang",
+            "2": "Animasi Karakter 2D"
           },
           "tools": {
-            "0": "Live2D Cubism",
-            "1": "After Effects",
-            "2": "Photoshop"
+            "0": "Kubisme Live2D",
+            "1": "Setelah Efek",
+            "2": "photoshop"
           }
         },
         "2d-anime-animation": {
           "name": "2D ANIME ANIMATION",
-          "industry": "Anime & 2D Animation",
-          "description": "High quality 2D anime style animation and music videos with expressive characters and cinematic motion.",
+          "industry": "Anime & Animasi 2D",
+          "description": "Animasi gaya anime 2D dan video musik berkualitas tinggi dengan karakter ekspresif dan gerakan sinematik.",
           "timeline": "2025",
           "services": {
-            "0": "2D Anime",
-            "1": "Music Video",
-            "2": "Character Animation"
+            "0": "Anime 2D",
+            "1": "Video Musik",
+            "2": "Animasi Karakter"
           },
           "tools": {
-            "0": "After Effects",
-            "1": "Toon Boom",
-            "2": "Clip Studio Paint"
+            "0": "Setelah Efek",
+            "1": "Booming Toon",
+            "2": "Klip Studio Cat"
           }
         }
       },
       "3d-animation": {
         "kids-learning-animation": {
           "name": "KIDS LEARNING ANIMATION",
-          "industry": "Children & Education",
-          "description": "Fun character animation for kids learning content, including number videos and cute cartoon characters.",
+          "industry": "Anak-anak & Pendidikan",
+          "description": "Animasi karakter yang menyenangkan untuk konten pembelajaran anak-anak, termasuk video angka dan karakter kartun lucu.",
           "timeline": "2025",
           "services": {
-            "0": "Kids Learning",
-            "1": "Character Animation",
-            "2": "Educational Content"
+            "0": "Pembelajaran Anak-Anak",
+            "1": "Animasi Karakter",
+            "2": "Konten Pendidikan"
           },
           "tools": {
-            "0": "After Effects",
-            "1": "Toon Boom",
-            "2": "Blender"
+            "0": "Setelah Efek",
+            "1": "Booming Toon",
+            "2": "pencampur"
           }
         },
         "3d-cartoon-animation": {
           "name": "3D CARTOON ANIMATION",
-          "industry": "Character & Animation",
-          "description": "Stylized 3D cartoon character animation and showcase films with playful motion and polished presentation.",
+          "industry": "Karakter & Animasi",
+          "description": "Animasi karakter kartun 3D bergaya dan menampilkan film dengan gerakan lucu dan presentasi yang halus.",
           "timeline": "2025",
           "services": {
-            "0": "3D Cartoon Animation",
-            "1": "Character Showcase",
-            "2": "Stylized CGI"
+            "0": "Animasi Kartun 3D",
+            "1": "Etalase Karakter",
+            "2": "CGI bergaya"
           },
           "tools": {
-            "0": "Blender",
-            "1": "Cinema 4D",
-            "2": "After Effects"
+            "0": "pencampur",
+            "1": "Bioskop 4D",
+            "2": "Setelah Efek"
           }
         },
         "3d-explainer-video": {
           "name": "3D EXPLAINER VIDEO",
-          "industry": "Product & Explainer",
-          "description": "3D explainer and product presentation films covering brand storytelling, 360 product displays, and commercial animation.",
+          "industry": "Produk & Penjelasan",
+          "description": "Film penjelasan 3D dan presentasi produk yang mencakup penceritaan merek, tampilan produk 360, dan animasi komersial.",
           "timeline": "2025",
           "services": {
-            "0": "3D Explainer",
-            "1": "Product Presentation",
-            "2": "360 Product Display"
+            "0": "Penjelasan 3D",
+            "1": "Presentasi Produk",
+            "2": "360 Tampilan Produk"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "pencampur",
+            "2": "Setelah Efek"
           }
         },
         "3d-medical-animation": {
           "name": "3D MEDICAL ANIMATION",
-          "industry": "Healthcare & Medical Visualization",
-          "description": "High quality 3D medical animation covering anatomy, surgical procedures, and medical device visualization.",
+          "industry": "Visualisasi Kesehatan & Medis",
+          "description": "Animasi medis 3D berkualitas tinggi yang mencakup anatomi, prosedur bedah, dan visualisasi perangkat medis.",
           "timeline": "2025",
           "services": {
-            "0": "Medical Animation",
-            "1": "Anatomy CGI",
-            "2": "Surgical Visualization"
+            "0": "Animasi Medis",
+            "1": "CGI Anatomi",
+            "2": "Visualisasi Bedah"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "pencampur",
+            "2": "Setelah Efek"
           }
         },
         "3d-anime-character": {
           "name": "3D ANIME CHARACTER",
-          "industry": "Character & Anime",
-          "description": "3D anime character modeling and client showcase films with stylized materials and polished presentation.",
+          "industry": "Karakter & Anime",
+          "description": "Pemodelan karakter anime 3D dan film tampilan klien dengan materi bergaya dan presentasi yang apik.",
           "timeline": "2025",
           "services": {
-            "0": "3D Character",
+            "0": "Karakter 3D",
             "1": "Anime CGI",
-            "2": "Client Showcase"
+            "2": "Etalase Klien"
           },
           "tools": {
-            "0": "Blender",
-            "1": "Cinema 4D",
-            "2": "After Effects"
+            "0": "pencampur",
+            "1": "Bioskop 4D",
+            "2": "Setelah Efek"
           }
         }
       },
       "motion-graphics": {
         "watch-animation": {
           "name": "WATCH ANIMATION",
-          "industry": "Luxury Watches",
-          "description": "Photoreal 3D watch product animation and cinematic packshot films for luxury timepieces.",
+          "industry": "Jam Tangan Mewah",
+          "description": "Animasi produk jam tangan 3D fotoreal dan film paket sinematik untuk arloji mewah.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Watch CGI",
-            "2": "Packshot Films"
+            "0": "Animasi Produk 3D",
+            "1": "Tonton CGI",
+            "2": "Film Paket"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "Pergeseran merah",
+            "2": "Setelah Efek"
           }
         },
         "ryse-drink-3d-product-animation": {
           "name": "RYSE DRINK 3D PRODUCT ANIMATION",
-          "industry": "Beverage & Product CGI",
-          "description": "Photoreal 3D beverage product animation for Ryse drink and lemonade campaigns with cinematic packshot finish.",
+          "industry": "CGI Minuman & Produk",
+          "description": "Animasi produk minuman 3D fotoreal untuk kampanye minuman Ryse dan limun dengan penyelesaian paket sinematik.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Beverage CGI",
-            "2": "Packshot Films"
+            "0": "Animasi Produk 3D",
+            "1": "Minuman CGI",
+            "2": "Film Paket"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "Pergeseran merah",
+            "2": "Setelah Efek"
           }
         },
         "3d-perfume-animation": {
           "name": "3D PERFUME ANIMATION",
-          "industry": "Beauty & Fragrance",
-          "description": "Photoreal 3D perfume product animation for luxury fragrance launches and campaign hero films.",
+          "industry": "Kecantikan & Wewangian",
+          "description": "Animasi produk parfum 3D fotoreal untuk peluncuran wewangian mewah dan film pahlawan kampanye.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Fragrance CGI",
-            "2": "Packshot Films"
+            "0": "Animasi Produk 3D",
+            "1": "Wewangian CGI",
+            "2": "Film Paket"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "Pergeseran merah",
+            "2": "Setelah Efek"
           }
         },
         "3d-gadget-animation": {
           "name": "3D GADGET ANIMATION",
-          "industry": "Consumer Electronics",
-          "description": "Photoreal 3D gadget and earbud product animation with studio lighting, material detail, and campaign ready motion.",
+          "industry": "Elektronik Konsumen",
+          "description": "Animasi produk gadget dan earbud 3D fotoreal dengan pencahayaan studio, detail material, dan gerakan siap kampanye.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
+            "0": "Animasi Produk 3D",
             "1": "Gadget CGI",
-            "2": "Packshot Films"
+            "2": "Film Paket"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "Pergeseran merah",
+            "2": "Setelah Efek"
           }
         },
         "vape-animation": {
           "name": "VAPE ANIMATION",
-          "industry": "Consumer Products",
-          "description": "Photoreal 3D vape product animation with studio lighting, material detail, and campaign ready packshot films.",
+          "industry": "Produk Konsumen",
+          "description": "Animasi produk vape 3D fotoreal dengan pencahayaan studio, detail material, dan film paket siap kampanye.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
+            "0": "Animasi Produk 3D",
             "1": "Vape CGI",
-            "2": "Packshot Films"
+            "2": "Film Paket"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "Pergeseran merah",
+            "2": "Setelah Efek"
           }
         },
         "bag-suitcase-animation": {
           "name": "BAG/SUITCASE ANIMATION",
-          "industry": "Travel & Lifestyle",
-          "description": "Realistic 3D product animation for bags and suitcases with cinematic packshot finish.",
+          "industry": "Perjalanan & Gaya Hidup",
+          "description": "Animasi produk 3D yang realistis untuk tas dan koper dengan penyelesaian paket sinematik.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Bag CGI",
-            "2": "Packshot Films"
+            "0": "Animasi Produk 3D",
+            "1": "tas CGI",
+            "2": "Film Paket"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "Pergeseran merah",
+            "2": "Setelah Efek"
           }
         },
         "drop-band-animation": {
           "name": "DROP BAND ANIMATION",
-          "industry": "Wearables & Accessories",
-          "description": "Drop Band product animation covering production process films and final polished results.",
+          "industry": "Perangkat & Aksesori yang Dapat Dipakai",
+          "description": "Animasi produk Drop Band yang mencakup film proses produksi dan hasil akhir yang dipoles.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Process Film",
-            "2": "Wearable CGI"
+            "0": "Animasi Produk 3D",
+            "1": "Film Proses",
+            "2": "CGI yang dapat dipakai"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "Pergeseran merah",
+            "2": "Setelah Efek"
           }
         },
         "3d-bed-animation": {
           "name": "3D BED ANIMATION",
-          "industry": "Furniture & Bedding",
-          "description": "Photoreal 3D mattress and bed product animation for furniture brands with cinematic packshot finish.",
+          "industry": "Perabotan & Tempat Tidur",
+          "description": "Animasi produk kasur dan tempat tidur 3D fotoreal untuk merek furnitur dengan penyelesaian paket sinematik.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Furniture CGI",
-            "2": "Packshot Films"
+            "0": "Animasi Produk 3D",
+            "1": "CGI furnitur",
+            "2": "Film Paket"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "Pergeseran merah",
+            "2": "Setelah Efek"
           }
         }
       },
       "vfx": {
         "ronix": {
           "name": "RONIX",
-          "industry": "Power Tools & Manufacturing",
-          "description": "Ronix 3D industrial animation and power tool CGI product showcase films.",
+          "industry": "Perkakas & Manufaktur Listrik",
+          "description": "Animasi industri Ronix 3D dan film pameran produk CGI perkakas listrik.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Power Tool CGI",
-            "2": "Product Showcase"
+            "0": "Animasi Industri",
+            "1": "Alat Listrik CGI",
+            "2": "Etalase Produk"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "pencampur",
+            "2": "Setelah Efek"
           }
         },
         "mintec": {
           "name": "MINTEC",
-          "industry": "Industrial Manufacturing",
-          "description": "MinTec industries product showcase and process films for 3D industrial animation.",
+          "industry": "Manufaktur Industri",
+          "description": "Pameran produk industri MinTec dan proses film untuk animasi industri 3D.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product Showcase",
-            "2": "Process Film"
+            "0": "Animasi Industri",
+            "1": "Etalase Produk",
+            "2": "Film Proses"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "pencampur",
+            "2": "Setelah Efek"
           }
         },
         "integra-pw": {
           "name": "INTEGRA PW",
-          "industry": "Industrial Products",
-          "description": "Integra PW industrial animation from video making process through final cinematic results.",
+          "industry": "Produk Industri",
+          "description": "Animasi industri Integra PW mulai dari proses pembuatan video hingga hasil akhir sinematik.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Process Film",
-            "2": "Product CGI"
+            "0": "Animasi Industri",
+            "1": "Film Proses",
+            "2": "Produk CGI"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "pencampur",
+            "2": "Setelah Efek"
           }
         },
         "credex": {
           "name": "CREDEX",
-          "industry": "Cleaning Equipment",
-          "description": "CREDEX carpet cleaning machine industrial animation with cinematic SFX finish.",
+          "industry": "Peralatan Kebersihan",
+          "description": "Animasi industri mesin pembersih karpet CREDEX dengan finishing SFX sinematik.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product CGI",
-            "2": "Sound Design"
+            "0": "Animasi Industri",
+            "1": "Produk CGI",
+            "2": "Desain Suara"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "pencampur",
+            "2": "Setelah Efek"
           }
         },
         "phr-1": {
           "name": "PHR 1",
-          "industry": "Electric Powertrain",
-          "description": "PHR 1 electric power train product animation with technical lighting and cinematic polish.",
+          "industry": "Powertrain Listrik",
+          "description": "Animasi produk kereta tenaga listrik PHR 1 dengan pencahayaan teknis dan polesan sinematik.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Powertrain CGI",
-            "2": "Product Film"
+            "0": "Animasi Industri",
+            "1": "CGI pembangkit listrik",
+            "2": "Film Produk"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "pencampur",
+            "2": "Setelah Efek"
           }
         },
         "atx": {
           "name": "ATX",
-          "industry": "Industrial Manufacturing",
-          "description": "ATX 3D industrial and technical product animation for manufacturing showcases.",
+          "industry": "Manufaktur Industri",
+          "description": "Animasi produk industri dan teknis 3D ATX untuk pameran manufaktur.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Technical CGI",
-            "2": "Product Showcase"
+            "0": "Animasi Industri",
+            "1": "CGI teknis",
+            "2": "Etalase Produk"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "pencampur",
+            "2": "Setelah Efek"
           }
         },
         "prov-gap": {
           "name": "PROV GAP",
-          "industry": "Industrial Manufacturing",
-          "description": "Prov GAP 3D industrial animation for technical product storytelling and brand films.",
+          "industry": "Manufaktur Industri",
+          "description": "Animasi industri 3D Prov GAP untuk penceritaan produk teknis dan film merek.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product CGI",
-            "2": "Technical Film"
+            "0": "Animasi Industri",
+            "1": "Produk CGI",
+            "2": "Film Teknis"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "pencampur",
+            "2": "Setelah Efek"
           }
         },
         "autoz-crave": {
           "name": "AUTOZ CRAVE",
-          "industry": "Automotive & Mechanical",
-          "description": "Autoz Crave industrial animation for mechanical and technical 3D product films.",
+          "industry": "Otomotif & Mekanik",
+          "description": "Animasi industri Autoz Crave untuk film produk 3D mekanis dan teknis.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Mechanical CGI",
-            "2": "Technical Animation"
+            "0": "Animasi Industri",
+            "1": "CGI mekanis",
+            "2": "Animasi Teknis"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
-            "2": "After Effects"
+            "0": "Bioskop 4D",
+            "1": "pencampur",
+            "2": "Setelah Efek"
           }
         }
       }
     },
     "projects": {
       "chibi-art-p1": {
-        "title": "Chibi Art Scene 1",
-        "description": "Expressive chibi character scene with polished 2D animation and campaign ready motion.",
+        "title": "Adegan Seni Chibi 1",
+        "description": "Adegan karakter chibi yang ekspresif dengan animasi 2D yang dipoles dan gerakan siap kampanye.",
         "tags": {
           "0": "Chibi",
-          "1": "Scene"
+          "1": "Pemandangan"
         }
       },
       "chibi-art-p2": {
-        "title": "Chibi Art Scene 2",
-        "description": "Second chibi character scene showcasing personality, timing, and colorful 2D performance.",
+        "title": "Adegan Seni Chibi 2",
+        "description": "Adegan karakter chibi kedua menampilkan kepribadian, pengaturan waktu, dan penampilan 2D yang penuh warna.",
         "tags": {
           "0": "Chibi",
-          "1": "Scene"
+          "1": "Pemandangan"
         }
       },
       "chibi-art-p3": {
-        "title": "Making Process Film",
-        "description": "Behind the scenes look at the chibi art creation and animation workflow from sketch to final motion.",
+        "title": "Proses Pembuatan Film",
+        "description": "Di balik layar lihat kreasi seni chibi dan alur kerja animasi mulai dari sketsa hingga gerakan akhir.",
         "tags": {
-          "0": "Process",
-          "1": "Workflow"
+          "0": "Proses",
+          "1": "Alur kerja"
         }
       },
       "vtuber-animation-p1": {
-        "title": "Vtuber Modeling Creation",
-        "description": "VTuber character modeling creation film covering art direction and build workflow.",
+        "title": "Pembuatan Pemodelan Vtuber",
+        "description": "Film kreasi pemodelan karakter VTuber yang mencakup arahan seni dan membangun alur kerja.",
         "tags": {
           "0": "VTuber",
-          "1": "Modeling"
+          "1": "Pemodelan"
         }
       },
       "vtuber-animation-p2": {
-        "title": "Vtuber 2D Video Results",
-        "description": "Finished 2D VTuber animation results with expressive performance and polished motion.",
+        "title": "Hasil Video Vtuber 2D",
+        "description": "Hasil animasi VTuber 2D yang telah selesai dengan performa ekspresif dan gerakan yang halus.",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p3": {
-        "title": "Princess Vtuber Modeling",
-        "description": "Princess VTuber modeling sample showcasing character design and animated performance.",
+        "title": "Pemodelan Putri Vtuber",
+        "description": "Contoh pemodelan Princess VTuber yang menampilkan desain karakter dan pertunjukan animasi.",
         "tags": {
           "0": "VTuber",
-          "1": "Princess"
+          "1": "Putri"
         }
       },
       "vtuber-animation-p4": {
-        "title": "Vtuber 2D Video",
-        "description": "Cinematic 2D VTuber animation with dynamic character motion and expressive acting.",
+        "title": "Video Vtuber 2D",
+        "description": "Animasi VTuber 2D sinematik dengan gerak karakter dinamis dan akting ekspresif.",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p5": {
-        "title": "Vtuber Sample 2",
-        "description": "Second VTuber animation sample with bold character acting and polished motion.",
+        "title": "Contoh Vtuber 2",
+        "description": "Contoh animasi VTuber kedua dengan akting karakter yang berani dan gerakan yang halus.",
         "tags": {
           "0": "VTuber",
-          "1": "Sample"
+          "1": "Mencicipi"
         }
       },
       "vtuber-animation-p6": {
-        "title": "Vtuber Sample 3",
-        "description": "Extended VTuber character showcase with cinematic pacing and expressive 2D animation.",
+        "title": "Contoh Vtuber 3",
+        "description": "Tampilan karakter VTuber yang diperluas dengan tempo sinematik dan animasi 2D yang ekspresif.",
         "tags": {
           "0": "VTuber",
-          "1": "Sample"
+          "1": "Mencicipi"
         }
       },
       "vtuber-animation-p7": {
-        "title": "Vtuber Video Process",
-        "description": "Behind the scenes VTuber animation process from art through rigging and final motion.",
+        "title": "Proses Video Vtuber",
+        "description": "Di balik layar proses animasi VTuber mulai dari seni hingga tali-temali dan gerak akhir.",
         "tags": {
-          "0": "Process",
-          "1": "Workflow"
+          "0": "Proses",
+          "1": "Alur kerja"
         }
       },
       "live2d-animation-p1": {
-        "title": "Live2D Making Process",
-        "description": "Behind the scenes Live2D creation workflow from art through final animated performance.",
+        "title": "Proses Pembuatan Live2D",
+        "description": "Alur kerja pembuatan Live2D di balik layar mulai dari seni hingga pertunjukan animasi akhir.",
         "tags": {
-          "0": "Live2D",
-          "1": "Process"
+          "0": "Langsung2D",
+          "1": "Proses"
         }
       },
       "live2d-animation-p2": {
-        "title": "Live2D Sample",
-        "description": "Finished Live2D character sample with expressive posing and polished motion.",
+        "title": "Contoh Live2D",
+        "description": "Sampel karakter Live2D yang telah selesai dengan pose ekspresif dan gerakan yang halus.",
         "tags": {
-          "0": "Live2D",
-          "1": "Sample"
+          "0": "Langsung2D",
+          "1": "Mencicipi"
         }
       },
       "live2d-animation-p3": {
-        "title": "Live2D Rigging Process",
-        "description": "Live2D rigging process film showing mesh, deformers, and parameter setup.",
+        "title": "Proses Rigging Live2D",
+        "description": "Film proses tali-temali Live2D yang menunjukkan mesh, deformer, dan pengaturan parameter.",
         "tags": {
-          "0": "Live2D",
-          "1": "Rigging"
+          "0": "Langsung2D",
+          "1": "Laberang"
         }
       },
       "live2d-animation-p4": {
-        "title": "Sample Live2D Rigging",
-        "description": "Sample Live2D rigging demonstration with clean parameter control and facial acting.",
+        "title": "Contoh Rigging Live2D",
+        "description": "Contoh demonstrasi rigging Live2D dengan kontrol parameter bersih dan akting wajah.",
         "tags": {
-          "0": "Live2D",
-          "1": "Rigging"
+          "0": "Langsung2D",
+          "1": "Laberang"
         }
       },
       "live2d-animation-p5": {
-        "title": "Live2D Rigging Result",
-        "description": "Final Live2D rigging result showcasing smooth motion and expressive character performance.",
+        "title": "Hasil Rigging Live2D",
+        "description": "Hasil akhir rigging Live2D menampilkan gerakan halus dan performa karakter ekspresif.",
         "tags": {
-          "0": "Live2D",
-          "1": "Result"
+          "0": "Langsung2D",
+          "1": "Hasil"
         }
       },
       "live2d-animation-p6": {
-        "title": "Live2D Film",
-        "description": "Cinematic Live2D animation with dynamic character motion and polished presentation.",
+        "title": "Film Langsung2D",
+        "description": "Animasi Live2D sinematik dengan gerakan karakter dinamis dan presentasi yang halus.",
         "tags": {
-          "0": "Live2D",
+          "0": "Langsung2D",
           "1": "Film"
         }
       },
       "2d-anime-animation-p1": {
-        "title": "Japanese Style 2D Anime",
-        "description": "Japanese anime style 2D animation with dynamic posing, expressive acting, and polished line work.",
+        "title": "Anime 2D Gaya Jepang",
+        "description": "Animasi 2D gaya anime Jepang dengan pose dinamis, akting ekspresif, dan karya garis halus.",
         "tags": {
-          "0": "Anime",
+          "0": "anime",
           "1": "2D"
         }
       },
       "2d-anime-animation-p2": {
-        "title": "Anime Music Video",
-        "description": "2D anime music video with character driven storytelling and cinematic timing.",
+        "title": "Video Musik Anime",
+        "description": "Video musik anime 2D dengan penceritaan berdasarkan karakter dan pengaturan waktu sinematik.",
         "tags": {
-          "0": "Music Video",
-          "1": "Anime"
+          "0": "Video Musik",
+          "1": "anime"
         }
       },
       "2d-anime-animation-p3": {
-        "title": "Meme Song Animation",
-        "description": "Playful 2D anime character animation timed to a meme song with bold motion and humor.",
+        "title": "Animasi Lagu Meme",
+        "description": "Animasi karakter anime 2D lucu yang disesuaikan dengan lagu meme dengan gerakan dan humor yang berani.",
         "tags": {
-          "0": "Anime",
-          "1": "Music"
+          "0": "anime",
+          "1": "Musik"
         }
       },
       "kids-learning-animation-p1": {
-        "title": "123 Number Kids Learning Video",
-        "description": "Educational number learning video with engaging characters and playful motion for kids.",
+        "title": "Video Pembelajaran Anak Angka 123",
+        "description": "Video pembelajaran angka edukasi dengan karakter menarik dan gerakan lucu untuk anak.",
         "tags": {
-          "0": "Kids",
-          "1": "Learning"
+          "0": "Anak-anak",
+          "1": "Sedang belajar"
         }
       },
       "kids-learning-animation-p2": {
-        "title": "Custom 2D Character",
-        "description": "Custom 2D character animation with expressive acting and colorful stylized design.",
+        "title": "Karakter 2D Kustom",
+        "description": "Animasi karakter 2D khusus dengan akting ekspresif dan desain bergaya penuh warna.",
         "tags": {
-          "0": "Character",
+          "0": "Karakter",
           "1": "2D"
         }
       },
       "kids-learning-animation-p3": {
-        "title": "Cute 2D Cartoon Character",
-        "description": "Cute 2D cartoon character film with friendly personality and polished kids content motion.",
+        "title": "Karakter Kartun 2D yang lucu",
+        "description": "Film karakter kartun 2D yang lucu dengan kepribadian ramah dan gerakan konten anak-anak yang halus.",
         "tags": {
-          "0": "Cartoon",
-          "1": "Kids"
+          "0": "Kartun",
+          "1": "Anak-anak"
         }
       },
       "3d-cartoon-animation-p1": {
-        "title": "3D Cartoon Animation",
-        "description": "Stylized 3D cartoon animation with expressive character performance and colorful presentation.",
+        "title": "Animasi Kartun 3D",
+        "description": "Animasi kartun 3D bergaya dengan performa karakter ekspresif dan presentasi penuh warna.",
         "tags": {
-          "0": "Cartoon",
+          "0": "Kartun",
           "1": "3D"
         }
       },
       "3d-cartoon-animation-p2": {
-        "title": "Cute 3D Cartoon Character Showcase",
-        "description": "Cute 3D cartoon character video showcase with friendly personality and polished motion.",
+        "title": "Etalase Karakter Kartun 3D yang lucu",
+        "description": "Pertunjukan video karakter kartun 3D yang lucu dengan kepribadian ramah dan gerakan yang halus.",
         "tags": {
-          "0": "Character",
-          "1": "Showcase"
+          "0": "Karakter",
+          "1": "Memamerkan"
         }
       },
       "3d-explainer-video-p1": {
-        "title": "Winergy 3D Presentation",
-        "description": "Winergy 3D brand presentation with cinematic camera work and polished product storytelling.",
+        "title": "Presentasi 3D Energi Anggur",
+        "description": "Presentasi merek Winergy 3D dengan karya kamera sinematik dan penceritaan produk yang disempurnakan.",
         "tags": {
-          "0": "Explainer",
-          "1": "Winergy"
+          "0": "Penjelasan",
+          "1": "pabrik anggur"
         }
       },
       "3d-explainer-video-p2": {
-        "title": "Popper Product 360 Display",
-        "description": "Popper product 360 display film showcasing form, materials, and packaging detail.",
+        "title": "Tampilan Produk Popper 360",
+        "description": "Film tampilan produk Popper 360 menampilkan bentuk, bahan, dan detail kemasan.",
         "tags": {
           "0": "360",
           "1": "Popper"
         }
       },
       "3d-explainer-video-p3": {
-        "title": "Popper Animation",
-        "description": "Popper 3D product animation with dynamic motion and commercial presentation.",
+        "title": "Animasi Popper",
+        "description": "Animasi produk Popper 3D dengan gerakan dinamis dan presentasi komersial.",
         "tags": {
-          "0": "Product",
+          "0": "Produk",
           "1": "Popper"
         }
       },
       "3d-explainer-video-p4": {
-        "title": "Popper Animation 2",
-        "description": "Alternate Popper animation pass with refined lighting and campaign ready pacing.",
+        "title": "Animasi Popper 2",
+        "description": "Tiket animasi Popper alternatif dengan pencahayaan halus dan tempo siap kampanye.",
         "tags": {
-          "0": "Product",
+          "0": "Produk",
           "1": "Popper"
         }
       },
       "3d-explainer-video-p5": {
-        "title": "Client Video of Poppes",
-        "description": "Client facing Poppes video presenting the product with clear storytelling and polished CGI.",
+        "title": "Video Klien Poppes",
+        "description": "Video Poppes menghadap klien yang menyajikan produk dengan penceritaan yang jelas dan CGI yang halus.",
         "tags": {
-          "0": "Client",
-          "1": "Poppes"
+          "0": "Klien",
+          "1": "muncul"
         }
       },
       "3d-medical-animation-p1": {
-        "title": "High Quality 3D Medical Anatomy Animation",
-        "description": "High quality 3D medical animation with detailed anatomy visualization and polished cinematic presentation.",
+        "title": "Animasi Anatomi Medis 3D Berkualitas Tinggi",
+        "description": "Animasi medis 3D berkualitas tinggi dengan visualisasi anatomi mendetail dan presentasi sinematik yang dipoles.",
         "tags": {
-          "0": "Medical",
-          "1": "Anatomy"
+          "0": "Medis",
+          "1": "Anatomi"
         }
       },
       "3d-medical-animation-p2": {
-        "title": "3D Medical Animation 2",
-        "description": "Second 3D medical animation sample with clear anatomical storytelling and commercial finish.",
+        "title": "Animasi Medis 3D 2",
+        "description": "Sampel animasi medis 3D kedua dengan penceritaan anatomi yang jelas dan penyelesaian komersial.",
         "tags": {
-          "0": "Medical",
-          "1": "Healthcare"
+          "0": "Medis",
+          "1": "Kesehatan"
         }
       },
       "3d-anime-character-p1": {
-        "title": "3D Anime Character Showcase to Client",
-        "description": "3D anime character showcase film presenting modeling, materials, and polished stylized performance for client review.",
+        "title": "Pameran Karakter Anime 3D kepada Klien",
+        "description": "Film pertunjukan karakter anime 3D yang menyajikan pemodelan, materi, dan penampilan bergaya yang dipoles untuk ditinjau oleh klien.",
         "tags": {
-          "0": "Anime",
-          "1": "Character"
+          "0": "anime",
+          "1": "Karakter"
         }
       },
       "watch-animation-p1": {
-        "title": "Watch Product Film",
-        "description": "Cinematic 3D watch animation with studio lighting, material detail, and premium packshot finish.",
+        "title": "Tonton Film Produk",
+        "description": "Animasi jam tangan 3D sinematik dengan pencahayaan studio, detail material, dan penyelesaian paket premium.",
         "tags": {
-          "0": "Watch",
-          "1": "Product"
+          "0": "Jam tangan",
+          "1": "Produk"
         }
       },
       "watch-animation-p2": {
-        "title": "Rifari Wrist Watch",
-        "description": "Photoreal Rifari wrist watch product film with refined reflections and commercial presentation.",
+        "title": "Jam Tangan Rifari",
+        "description": "Film produk jam tangan Photoreal Rifari dengan refleksi halus dan presentasi komersial.",
         "tags": {
-          "0": "Watch",
+          "0": "Jam tangan",
           "1": "Rifari"
         }
       },
       "watch-animation-p3": {
-        "title": "Steel Reef Wrist Watch",
-        "description": "Steel Reef wrist watch animation with premium materials, lighting, and campaign ready motion.",
+        "title": "Jam Tangan Terumbu Baja",
+        "description": "Animasi jam tangan Steel Reef dengan material premium, pencahayaan, dan gerakan siap kampanye.",
         "tags": {
-          "0": "Watch",
-          "1": "Steel Reef"
+          "0": "Jam tangan",
+          "1": "Terumbu Baja"
         }
       },
       "ryse-drink-3d-product-animation-p1": {
-        "title": "Ryse Drink 3D Product Animation",
-        "description": "Cinematic 3D Ryse drink product animation with studio lighting, material detail, and commercial finish.",
+        "title": "Animasi Produk 3D Minuman Ryse",
+        "description": "Animasi produk minuman Ryse 3D sinematik dengan pencahayaan studio, detail material, dan penyelesaian komersial.",
         "tags": {
-          "0": "Beverage",
-          "1": "Product"
+          "0": "Minuman",
+          "1": "Produk"
         }
       },
       "ryse-drink-3d-product-animation-p2": {
-        "title": "Lemonade Product Film",
-        "description": "Photoreal lemonade product animation with fluid motion, glass materials, and campaign ready presentation.",
+        "title": "Film Produk Limun",
+        "description": "Animasi produk limun fotoreal dengan gerakan mengalir, bahan kaca, dan presentasi siap kampanye.",
         "tags": {
-          "0": "Lemonade",
-          "1": "Product"
+          "0": "Limun",
+          "1": "Produk"
         }
       },
       "3d-perfume-animation-p1": {
-        "title": "Anabomfim 3D Perfume Video",
-        "description": "Cinematic 3D Anabomfim perfume animation with studio lighting, glass materials, and premium packshot finish.",
+        "title": "Video Parfum 3D Anabomfim",
+        "description": "Animasi parfum Anabomfim 3D sinematik dengan pencahayaan studio, bahan kaca, dan penyelesaian paket premium.",
         "tags": {
-          "0": "Perfume",
+          "0": "Parfum",
           "1": "Anabomfim"
         }
       },
       "3d-perfume-animation-p2": {
-        "title": "Valentino Perfume Video",
-        "description": "Luxury Valentino perfume product film with refined reflections, fluid motion, and commercial presentation.",
+        "title": "Video Parfum Valentino",
+        "description": "Film produk parfum mewah Valentino dengan pantulan halus, gerakan mengalir, dan presentasi komersial.",
         "tags": {
-          "0": "Perfume",
+          "0": "Parfum",
           "1": "Valentino"
         }
       },
       "3d-perfume-animation-p3": {
-        "title": "Soul of Amir 3D Animation",
-        "description": "Soul of Amir 3D fragrance animation with cinematic camera work and campaign ready polish.",
+        "title": "Animasi 3D Jiwa Amir",
+        "description": "Animasi wewangian Soul of Amir 3D dengan karya kamera sinematik dan polesan siap kampanye.",
         "tags": {
-          "0": "Perfume",
-          "1": "Soul of Amir"
+          "0": "Parfum",
+          "1": "Jiwa Amir"
         }
       },
       "3d-gadget-animation-p1": {
-        "title": "Shoks Earbud Animation",
-        "description": "Cinematic 3D Shoks earbud product animation with refined materials and commercial finish.",
+        "title": "Animasi Headphone Shoks",
+        "description": "Animasi produk earbud Cinematic 3D Shoks dengan bahan halus dan penyelesaian komersial.",
         "tags": {
-          "0": "Earbud",
-          "1": "Gadget"
+          "0": "earbud",
+          "1": "Gawai"
         }
       },
       "3d-gadget-animation-p2": {
-        "title": "Headphone Earbud Product Film",
-        "description": "3D headphone and earbud product animation with dynamic camera moves and premium packshot presentation.",
+        "title": "Film Produk Penyumbat Telinga Headphone",
+        "description": "Animasi produk headphone dan earbud 3D dengan pergerakan kamera dinamis dan presentasi paket premium.",
         "tags": {
           "0": "Headphone",
-          "1": "Product"
+          "1": "Produk"
         }
       },
       "vape-animation-p1": {
         "title": "Jojo Vape",
-        "description": "Cinematic 3D Jojo vape product animation with refined materials and commercial finish.",
+        "description": "Animasi produk vape Jojo 3D sinematik dengan bahan halus dan penyelesaian komersial.",
         "tags": {
           "0": "Vape",
           "1": "Jojo"
         }
       },
       "vape-animation-p2": {
-        "title": "Juicy Cranberry Vape",
-        "description": "Juicy cranberry vape product film with vibrant color, lighting, and campaign ready presentation.",
+        "title": "Vape Cranberry Berair",
+        "description": "Film produk vape cranberry juicy dengan warna cerah, pencahayaan, dan presentasi siap kampanye.",
         "tags": {
           "0": "Vape",
-          "1": "Cranberry"
+          "1": "Cranberi"
         }
       },
       "bag-suitcase-animation-p1": {
-        "title": "Realistic 3D Product Animation for Bags",
-        "description": "Photoreal 3D bag and suitcase product animation with premium materials and commercial presentation.",
+        "title": "Animasi Produk 3D Realistis untuk Tas",
+        "description": "Animasi produk tas dan koper 3D fotoreal dengan bahan premium dan presentasi komersial.",
         "tags": {
-          "0": "Bag",
-          "1": "Suitcase"
+          "0": "Tas",
+          "1": "Koper"
         }
       },
       "drop-band-animation-p1": {
-        "title": "Drop Band Animation Process",
-        "description": "Behind the scenes Drop Band animation process from reference through final motion.",
+        "title": "Proses Animasi Drop Band",
+        "description": "Di balik layar proses animasi Drop Band dari referensi hingga gerakan akhir.",
         "tags": {
-          "0": "Process",
-          "1": "Drop Band"
+          "0": "Proses",
+          "1": "Jatuhkan Band"
         }
       },
       "drop-band-animation-p2": {
-        "title": "Drop Band Animation Result",
-        "description": "Final Drop Band product animation with refined materials, lighting, and campaign ready finish.",
+        "title": "Hasil Animasi Drop Band",
+        "description": "Animasi produk Final Drop Band dengan material yang disempurnakan, pencahayaan, dan hasil akhir yang siap untuk kampanye.",
         "tags": {
-          "0": "Product",
-          "1": "Drop Band"
+          "0": "Produk",
+          "1": "Jatuhkan Band"
         }
       },
       "3d-bed-animation-p1": {
-        "title": "Realistic 3D Mattress Animation",
-        "description": "Realistic 3D mattress product animation with soft materials, lighting, and campaign ready presentation.",
+        "title": "Animasi Kasur 3D Realistis",
+        "description": "Animasi produk kasur 3D yang realistis dengan bahan lembut, pencahayaan, dan presentasi siap kampanye.",
         "tags": {
-          "0": "Mattress",
-          "1": "Product"
+          "0": "Kasur",
+          "1": "Produk"
         }
       },
       "3d-bed-animation-p2": {
-        "title": "Simba Bed Animation",
-        "description": "Simba bed animation with cinematic camera work, material detail, and commercial finish.",
+        "title": "Animasi Tempat Tidur Simba",
+        "description": "Animasi tempat tidur Simba dengan karya kamera sinematik, detail material, dan penyelesaian komersial.",
         "tags": {
-          "0": "Bed",
+          "0": "Tempat tidur",
           "1": "Simba"
         }
       },
       "ronix-p1": {
-        "title": "Ronix 3D Industrial Animation | Power Tool CGI Product Showcase",
-        "description": "Cinematic Ronix power tool CGI showcase with technical detail and commercial polish.",
+        "title": "Animasi Industri 3D Ronix | Etalase Produk CGI Alat Listrik",
+        "description": "Perkakas listrik Ronix sinematik menampilkan CGI dengan detail teknis dan polesan komersial.",
         "tags": {
-          "0": "Industrial",
+          "0": "Industri",
           "1": "Ronix"
         }
       },
       "mintec-p1": {
-        "title": "MinTec Industries Product Showcase",
-        "description": "MinTec industries product showcase with technical storytelling and polished CGI.",
+        "title": "Pameran Produk Industri MinTec",
+        "description": "Pameran produk industri MinTec dengan penceritaan teknis dan CGI yang disempurnakan.",
         "tags": {
-          "0": "Industrial",
+          "0": "Industri",
           "1": "MinTec"
         }
       },
       "mintec-p2": {
-        "title": "Process of Making MinTec 3D Animation",
-        "description": "Behind the scenes look at the MinTec 3D industrial animation production workflow.",
+        "title": "Proses Pembuatan Animasi 3D MinTec",
+        "description": "Di balik layar lihat alur kerja produksi animasi industri 3D MinTec.",
         "tags": {
-          "0": "Process",
+          "0": "Proses",
           "1": "MinTec"
         }
       },
       "integra-pw-p1": {
-        "title": "Integra PW Video Making Process",
-        "description": "Behind the scenes making process for the Integra PW industrial animation build.",
+        "title": "Proses Pembuatan Video Integra PW",
+        "description": "Proses pembuatan di balik layar untuk pembuatan animasi industri Integra PW.",
         "tags": {
-          "0": "Process",
+          "0": "Proses",
           "1": "Integra PW"
         }
       },
       "integra-pw-p2": {
-        "title": "Integra PW Final Results",
-        "description": "Final Integra PW industrial product animation with dynamic camera moves and commercial finish.",
+        "title": "Hasil Akhir Integra PW",
+        "description": "Animasi produk industri Final Integra PW dengan pergerakan kamera dinamis dan penyelesaian komersial.",
         "tags": {
-          "0": "Industrial",
+          "0": "Industri",
           "1": "Integra PW"
         }
       },
       "credex-p1": {
-        "title": "Credex Vacuum Cleaner with SFX",
-        "description": "Final high definition CREDEX vacuum cleaner animation with sound design and commercial polish.",
+        "title": "Penyedot Debu Credex dengan SFX",
+        "description": "Animasi penyedot debu CREDEX definisi tinggi akhir dengan desain suara dan polesan komersial.",
         "tags": {
-          "0": "Industrial",
-          "1": "Credex"
+          "0": "Industri",
+          "1": "Kredeks"
         }
       },
       "phr-1-p1": {
-        "title": "PHR 1 Electric Power Train",
-        "description": "Photoreal PHR 1 electric power train animation with cinematic camera work and technical detail.",
+        "title": "Kereta Tenaga Listrik PHR 1",
+        "description": "Animasi kereta tenaga listrik Photoreal PHR 1 dengan kerja kamera sinematik dan detail teknis.",
         "tags": {
-          "0": "Industrial",
+          "0": "Industri",
           "1": "PHR 1"
         }
       },
       "atx-p1": {
-        "title": "ATX 3D Industrial Animation",
-        "description": "ATX 3D industrial product animation with technical lighting and campaign ready finish.",
+        "title": "Animasi Industri 3D ATX",
+        "description": "Animasi produk industri 3D ATX dengan pencahayaan teknis dan penyelesaian akhir yang siap untuk kampanye.",
         "tags": {
-          "0": "Industrial",
+          "0": "Industri",
           "1": "ATX"
         }
       },
       "prov-gap-p1": {
-        "title": "Prov GAP 3D Industrial Animation",
-        "description": "Prov GAP industrial product animation with mechanical detail and cinematic presentation.",
+        "title": "Animasi Industri 3D Prov GAP",
+        "description": "Animasi produk industri Prov GAP dengan detail mekanis dan presentasi sinematik.",
         "tags": {
-          "0": "Industrial",
+          "0": "Industri",
           "1": "Prov GAP"
         }
       },
       "autoz-crave-p1": {
-        "title": "Autoz Crave Industrial Animation",
-        "description": "Autoz Crave 3D industrial product video with mechanical technical animation and commercial polish.",
+        "title": "Animasi Industri Autoz Crave",
+        "description": "Video produk industri Autoz Crave 3D dengan animasi teknis mekanis dan polesan komersial.",
         "tags": {
-          "0": "Industrial",
-          "1": "Autoz Crave"
+          "0": "Industri",
+          "1": "Keinginan Otomatis"
         }
       }
     }
@@ -1380,7 +1380,7 @@
         "items": {
           "01": {
             "question": "Jenis proyek apa yang Anda kerjakan?",
-            "answer": "We produce animation, VFX, cinematics, motion graphics, product films, and brand films for film, series, advertising, and DTC brands. Briefs range from single hero assets to full campaign packages."
+            "answer": "Kami memproduksi animasi, VFX, sinematik, grafis gerak, film produk, dan film merek untuk merek film, serial, periklanan, dan DTC. Rangkuman berkisar dari aset pahlawan tunggal hingga paket kampanye lengkap."
           },
           "02": {
             "question": "Di mana Starlights Visuals berbasis?",
@@ -1397,15 +1397,15 @@
         "items": {
           "01": {
             "question": "Layanan apa yang Anda tawarkan?",
-            "answer": "Our core services include 2D and 3D animation, VFX, character and concept art, motion graphics, product animation, and cinematic trailers. We can handle individual disciplines or full pipeline production."
+            "answer": "Layanan inti kami meliputi animasi 2D dan 3D, VFX, seni karakter dan konsep, grafik gerak, animasi produk, dan trailer sinematik. Kami dapat menangani disiplin ilmu individual atau produksi saluran penuh."
           },
           "02": {
             "question": "Apakah Anda bekerja dengan tim indie dan studio besar?",
-            "answer": "Yes. We partner with indie creators, mid size studios, and global brands. Scope and team size flex to match your budget and timeline without compromising craft."
+            "answer": "Ya. Kami bermitra dengan pembuat konten indie, studio skala menengah, dan merek global. Cakupan dan ukuran tim fleksibel agar sesuai dengan anggaran dan jadwal Anda tanpa mengorbankan keahlian."
           },
           "03": {
             "question": "Bisakah Anda menyesuaikan dengan gaya seni kami yang sudah ada?",
-            "answer": "Absolutely. We start with style frames and a look development pass aligned to your brand guidelines or visual world before committing to full production."
+            "answer": "Sangat. Kami memulai dengan bingkai gaya dan pengembangan tampilan yang selaras dengan pedoman merek atau dunia visual Anda sebelum berkomitmen pada produksi penuh."
           }
         }
       },
@@ -1432,26 +1432,28 @@
     "ctaButton": "Hubungi kami"
   },
   "writeReviewPage": {
-    "label": "Client reviews",
-    "title": "WRITE YOURS",
-    "subtitle": "Worked with Starlights Visuals? Share your experience so other brands can see the results.",
-    "name": "Your name",
-    "email": "Email",
-    "emailOptional": "Optional, not shown publicly",
-    "role": "Your role",
-    "company": "Company",
-    "rating": "Rating",
-    "headline": "Headline",
-    "headlinePlaceholder": "A short line that captures your experience",
-    "quote": "Your review",
-    "quotePlaceholder": "Tell us about the collaboration, communication, quality, and results…",
-    "submit": "Submit review",
-    "submitting": "Submitting…",
-    "successTitle": "Thank you",
-    "successDesc": "Your review was received. It will appear on the site after a quick approval check.",
-    "backHome": "Back to home",
-    "errorConfig": "Review submissions are temporarily unavailable. Please try again later.",
-    "errorQuoteShort": "Please write at least 20 characters in your review.",
-    "errorGeneric": "Something went wrong while sending your review. Please try again."
+    "label": "Ulasan klien",
+    "title": "TULISLAH MILIKMU",
+    "subtitle": "Bekerja dengan Visual Starlights? Bagikan pengalaman Anda agar merek lain dapat melihat hasilnya.",
+    "name": "Namamu",
+    "email": "E-mail",
+    "emailOptional": "Opsional, tidak ditampilkan kepada publik",
+    "role": "Peran Anda",
+    "company": "Perusahaan",
+    "rating": "Peringkat",
+    "headline": "Judul",
+    "headlinePlaceholder": "Garis pendek yang menangkap pengalaman Anda",
+    "quote": "Ulasan Anda",
+    "quotePlaceholder": "Ceritakan kepada kami tentang kolaborasi, komunikasi, kualitas, dan hasil…",
+    "submit": "Kirim ulasan",
+    "submitting": "Mengirimkan…",
+    "successTitle": "Terima kasih",
+    "successDesc": "Ulasan Anda telah diterima. Itu akan muncul di situs setelah pemeriksaan persetujuan cepat.",
+    "backHome": "Kembali ke rumah",
+    "errorConfig": "Pengiriman ulasan untuk sementara tidak tersedia. Silakan coba lagi nanti.",
+    "errorQuoteShort": "Harap tulis setidaknya 20 karakter dalam ulasan Anda.",
+    "errorGeneric": "Terjadi error saat mengirimkan ulasan Anda. Silakan coba lagi.",
+    "metaTitle": "Tulis Ulasan | Visual Cahaya Bintang",
+    "metaDescription": "Bagikan pengalaman Anda bekerja dengan Starlights Visuals. Tulis ulasan klien untuk testimonial kami."
   }
 }

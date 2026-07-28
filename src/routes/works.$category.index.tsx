@@ -54,17 +54,17 @@ function CategoryClientsPage() {
             alt=""
             className={
               slug === "2d-animation"
-                ? "h-full w-full object-cover object-[center_22%] opacity-25"
+                ? "h-full w-full object-cover object-[center_22%] opacity-45"
                 : slug === "3d-animation"
-                  ? "h-full w-full object-cover object-[center_35%] opacity-25"
+                  ? "h-full w-full object-cover object-[center_35%] opacity-45"
                   : slug === "video-editing"
-                    ? "h-full w-full object-cover object-[center_40%] opacity-25"
+                    ? "h-full w-full object-cover object-[center_40%] opacity-45"
                     : slug === "branding"
-                      ? "h-full w-full object-cover object-[center_35%] opacity-25"
-                      : "h-full w-full object-cover opacity-25"
+                      ? "h-full w-full object-cover object-[center_35%] opacity-45"
+                      : "h-full w-full object-cover opacity-45"
             }
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background to-background" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-background/85 to-background" />
         </div>
         <div className="mx-auto max-w-7xl px-6 pb-16 pt-28 md:px-14 md:pt-32">
           <WorksBreadcrumb

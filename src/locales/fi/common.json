@@ -3,7 +3,7 @@
     "name": "Starlights Visuals",
     "star": "TÄHTI",
     "lights": "VALOT",
-    "visuals": "VISUALS",
+    "visuals": "VISUAALIT",
     "email": "sternlichtespeciale@gmail.com"
   },
   "nav": {
@@ -16,15 +16,15 @@
     "contact": "Yhteys",
     "portfolioCta": "Portfolio →",
     "faq": "UKK",
-    "writeReview": "Write a review"
+    "writeReview": "Kirjoita arvostelu"
   },
   "header": {
     "closeMenu": "Sulje valikko",
     "openMenu": "Avaa valikko",
     "closeSidebar": "Sulje sivupalkki",
     "openSidebar": "Avaa sivupalkki",
-    "switchToLight": "Switch to light mode",
-    "switchToDark": "Switch to dark mode"
+    "switchToLight": "Vaihda valotilaan",
+    "switchToDark": "Vaihda pimeään tilaan"
   },
   "languageSwitcher": {
     "label": "Kieli",
@@ -45,65 +45,65 @@
     "emailPlaceholder": "sähköposti@esimerkki.fi",
     "join": "Liity",
     "subscribed": "✦ Olet mukana. Tervetuloa Starlightsiin.",
-    "tagline": "A creative studio bringing imagination to life through cinematic 2D animation, high quality 3D experiences, and VFX.",
+    "tagline": "Luova studio, joka herättää mielikuvituksen eloon elokuvamaisen 2D-animoinnin, korkealaatuisten 3D-kokemusten ja VFX:n avulla.",
     "explore": "Tutustu",
     "follow": "Seuraa",
     "social": "Linkki sosiaaliseen mediaan",
     "copyright": "© {{year}} Starlights Visuals. Luotu valolla & koodilla.",
-    "joining": "Joining…",
-    "subscribeError": "Could not subscribe right now. Please try again or email us directly."
+    "joining": "Liitytään…",
+    "subscribeError": "Tilaus ei onnistu juuri nyt. Yritä uudelleen tai lähetä meille sähköpostia."
   },
   "home": {
-    "metaTitle": "Starlights Visuals | Animation & VFX Studio",
-    "metaDescription": "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
-    "heroScript": "Stories in motion,",
-    "heroTitle1": "ANIMATION",
+    "metaTitle": "Starlights Visuals | Animaatio & VFX Studio",
+    "metaDescription": "Luova studio 2D- ja 3D-animaatioille, VFX:lle ja elokuvamaiselle tarinankerronnalle. Elävöimme maailmoja, hahmoja ja elokuvia.",
+    "heroScript": "Tarinoita liikkeessä —",
+    "heroTitle1": "ANIMAATIO",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals brings stories to life with animation and visual effects that captivate audiences and elevate every frame. We animate fantasy creatures, human characters, vehicles, environments, props, and hard surface objects for film, series, advertising, and brand campaigns.",
-    "heroAlt": "Starlights Visuals cinematic hero",
-    "seePortfolio": "See Portfolio",
-    "startProject": "Start a Project",
-    "servicesLabel": "What we do",
-    "servicesTitle": "SERVICES",
-    "allServices": "All Services",
-    "showcaseLabel": "Recent work",
-    "showcaseTitle1": "SELECTED",
-    "showcaseTitle2": "WORK",
-    "fullPortfolio": "Full Portfolio",
-    "viewAllFaq": "View all FAQ",
-    "ctaScript": "Let's build something,",
-    "ctaTitle1": "READY TO",
-    "ctaTitle2": "COLLABORATE?",
+    "heroBody": "Starlights Visuals herättää tarinat eloon animaatiolla ja visuaalisilla efeteillä, jotka vangitsevat yleisön ja nostavat jokaisen ruudun tasoa. Animoimme fantasiaolentoja, ihmishahmoja, ajoneuvoja, ympäristöjä, rekvisiittaa ja hard-surface-objekteja — elokuviin, sarjoihin, mainontaan ja brändikampanjoihin.",
+    "heroAlt": "Starlights Visualsin elokuvallinen sankari",
+    "seePortfolio": "Katso Portfolio",
+    "startProject": "Aloita projekti",
+    "servicesLabel": "Mitä teemme",
+    "servicesTitle": "PALVELUT",
+    "allServices": "Kaikki palvelut",
+    "showcaseLabel": "Viimeaikainen työ",
+    "showcaseTitle1": "VALITTU",
+    "showcaseTitle2": "TYÖTÄ",
+    "fullPortfolio": "Täysi portfolio",
+    "viewAllFaq": "Näytä kaikki UKK",
+    "ctaScript": "Rakennetaan jotain,",
+    "ctaTitle1": "VALMIS",
+    "ctaTitle2": "TEHDÄ YHTEISTYÖTÄ?",
     "services": {
       "01": {
-        "title": "Animation & VFX",
-        "desc": "Cinematic 2D & 3D animation, character rigs, and visual effects for film, series, and brands."
+        "title": "Animaatio ja VFX",
+        "desc": "Elokuvamaista 2D- ja 3D-animaatiota, hahmolaitteita ja visuaalisia tehosteita elokuville, sarjoille ja brändeille."
       },
       "02": {
-        "title": "Product Animation",
-        "desc": "Photoreal product films, packshots, and CGI that make every detail sell."
+        "title": "Tuoteanimaatio",
+        "desc": "Photoreal-tuotefilmit, pakettikuvat ja CGI, jotka tekevät jokaisesta yksityiskohdasta myytävän."
       },
       "03": {
         "title": "Concept & Character Art",
-        "desc": "Original characters, creatures, environments, and props that anchor your IP."
+        "desc": "Alkuperäiset hahmot, olennot, ympäristöt ja rekvisiitta, jotka ankkuroivat IP-osoitteesi."
       },
       "04": {
-        "title": "Cinematic Trailers",
-        "desc": "Story driven trailers built to launch brands, IPs, and campaigns."
+        "title": "Elokuvaperäiset trailerit",
+        "desc": "Tarinapohjaiset trailerit, jotka on suunniteltu julkaisemaan brändejä, IP-osoitteita ja kampanjoita."
       }
     },
     "showcase": {
       "character": {
-        "tag": "3D Animation",
-        "title": "3D Animation"
+        "tag": "3D-animaatio",
+        "title": "3D-animaatio"
       },
       "gameArt": {
-        "tag": "Motion Graphics",
-        "title": "Motion Graphics"
+        "tag": "Liikegrafiikka",
+        "title": "Liikegrafiikka"
       },
       "animation2d": {
-        "tag": "2D Animation",
-        "title": "2D Animation"
+        "tag": "2D-animaatio",
+        "title": "2D-animaatio"
       },
       "cinematic": {
         "tag": "VFX",
@@ -111,16 +111,16 @@
       },
       "creature": {
         "tag": "3D",
-        "title": "Industrial Animation"
+        "title": "Teollinen animaatio"
       },
       "motion": {
         "tag": "3D",
-        "title": "Product Animation"
+        "title": "Tuoteanimaatio"
       }
     }
   },
   "trustedBy": {
-    "badge": "200+ COMPANY",
+    "badge": "200+ YRITYS",
     "trusted": "Luottavat",
     "by": "meihin"
   },
@@ -139,136 +139,136 @@
     "playAria": "Toista videosuositus: {{name}}",
     "items": {
       "hauke": {
-        "headline": "Efficient, reliable, and highly recommended",
-        "quote": "Starlight Visuals supported us in creating a CGI video for SmarAct Automation, with the goal of presenting our core competencies in a clear, professional, and visually engaging way. The collaboration was highly efficient and reliable from start to finish. We especially appreciated the fast response times, quick turnaround, strong communication, and dependable delivery of the final files. Our requirements were understood quickly and implemented professionally. We are very satisfied with the result and can confidently recommend Starlight Visuals for high-quality CGI and visual content projects.",
-        "role": "Digital Marketing & Content Manager"
+        "headline": "Tehokas, luotettava ja erittäin suositeltava",
+        "quote": "Starlight Visuals tuki meitä CGI-videon luomisessa SmarAct Automationille, jonka tavoitteena oli esitellä ydinosaamistamme selkeällä, ammattimaisella ja visuaalisesti kiinnostavalla tavalla. Yhteistyö oli erittäin tehokasta ja luotettavaa alusta loppuun. Arvostamme erityisesti nopeita vastausaikoja, nopeaa toimitusta, vahvaa viestintää ja lopullisten tiedostojen luotettavaa toimitusta. Vaatimuksemme ymmärrettiin nopeasti ja toteutettiin ammattitaidolla. Olemme erittäin tyytyväisiä tulokseen ja voimme luottavaisesti suositella Starlight Visualsia korkealaatuisiin CGI- ja visuaalisen sisällön projekteihin.",
+        "role": "Digitaalinen markkinointi ja sisällönhallinta"
       },
       "jeremy": {
-        "headline": "From sketches to a finished helmet film",
-        "quote": "Working with Starlight Visuals was a great experience from start to finish. They didn't just create an animation they were involved throughout the entire process, from refining our initial sketches to supporting the CAD development and delivering a final helmet animation that brought our concept to life. What stood out most was how quickly they understood the product and translated technical details into visuals that were both accurate and engaging. The final presentation video gave us a professional way to showcase our helmet design to partners and stakeholders. They were responsive, easy to collaborate with, and genuinely cared about getting every detail right. I'd gladly recommend them to anyone looking for high-quality product animation and visualization.",
-        "role": "Founder"
+        "headline": "Luonnoksista valmiiksi kypäräfilmiksi",
+        "quote": "Työskentely Starlight Visualsin kanssa oli hieno kokemus alusta loppuun. He eivät vain luoneet animaatiota, vaan olivat mukana koko prosessin ajan alustavien luonnosten hiomisesta CAD-kehityksen tukemiseen ja lopullisen kypäräanimaatioon, joka herätti konseptimme henkiin. Eniten erottui siitä, kuinka nopeasti he ymmärsivät tuotteen ja muuttivat tekniset yksityiskohdat visuaaleiksi, jotka olivat sekä tarkkoja että mukaansatempaavia. Viimeinen esittelyvideo antoi meille ammattimaisen tavan esitellä kypäräsuunnitteluamme kumppaneille ja sidosryhmille. He olivat reagoivia, heidän kanssaan oli helppo tehdä yhteistyötä ja he välittivät aidosti jokaisen yksityiskohdan saamisesta oikein. Suosittelen niitä mielelläni kaikille, jotka etsivät korkealaatuista tuoteanimaatiota ja visualisointia.",
+        "role": "Perustaja"
       },
       "raiv": {
-        "headline": "They genuinely cared about every character",
-        "quote": "I really enjoyed working with the team. It felt like they genuinely cared about the project and wanted the characters to look and feel right. Communication was always easy, they were open to feedback, and every revision was handled without any hassle. Seeing our NSFW characters come to life was exciting.",
-        "role": "Game Director"
+        "headline": "He välittivät aidosti jokaisesta hahmosta",
+        "quote": "Nautin todella työskentelystä joukkueen kanssa. Tuntui, että he aidosti välittivät projektista ja halusivat hahmojen näyttävän ja tuntuvan oikealta. Viestintä oli aina helppoa, he olivat avoimia palautteelle ja jokainen korjaus hoitui ilman vaivaa. NSFW-hahmojemme herääminen henkiin oli jännittävää.",
+        "role": "Pelin johtaja"
       },
       "ilija": {
-        "headline": "Clear visuals for electric vehicle technology",
-        "quote": "They helped shape our PHR concept creatively and deliver amazing video making sure the visuals clearly communicate how our electric vehicle technology works. Their attention to detail, creativity, and willingness to iterate made the entire process smooth. The final animation gave us a much clearer way to present our product to partners and stakeholders.",
-        "role": "Founder"
+        "headline": "Selkeät grafiikat sähköajoneuvoteknologiasta",
+        "quote": "He auttoivat muotoilemaan PHR-konseptimme luovasti ja tuottamaan hämmästyttäviä videoita varmistaen, että visuaalit kertovat selkeästi sähköajoneuvoteknologiamme toiminnasta. Heidän huomionsa yksityiskohtiin, luovuutensa ja halukkuutensa iteroida tekivät koko prosessista sujuvan. Viimeinen animaatio antoi meille paljon selkeämmän tavan esitellä tuotettamme kumppaneille ja sidosryhmille.",
+        "role": "Perustaja"
       },
       "luigi": {
-        "headline": "Exactly what we needed for M12 and B12",
-        "quote": "We needed a clear way to show the differences between our M12 and B12 products, and Starlight Visuals delivered exactly what we were looking for. The animations were high quality, easy to understand, and captured every important detail.",
-        "role": "Production Manager"
+        "headline": "Juuri mitä tarvitsimme M12:lle ja B12:lle",
+        "quote": "Tarvitsimme selkeän tavan näyttää erot M12- ja B12-tuotteidemme välillä, ja Starlight Visuals toimitti juuri sen, mitä etsimme. Animaatiot olivat laadukkaita, helppoja ymmärtää ja niissä oli kaikki tärkeät yksityiskohdat.",
+        "role": "Tuotantopäällikkö"
       },
       "jason": {
-        "headline": "Outstanding quality beyond what we imagined",
-        "quote": "The quality of the animation was outstanding. Starlight Visuals helped us present our product in a way that was clear, engaging, and memorable. The final presentation looked far better than we had imagined.",
-        "role": "CEO"
+        "headline": "Erinomaista laatua enemmän kuin kuvittelimme",
+        "quote": "Animaatio oli laadukas. Starlight Visuals auttoi meitä esittelemään tuotteemme selkeällä, mukaansatempaavalla ja mieleenpainuvalla tavalla. Loppuesitys näytti paljon paremmalta kuin osasimme kuvitella.",
+        "role": "toimitusjohtaja"
       },
       "burkhard": {
-        "headline": "Made a complex product easy to explain",
-        "quote": "We knew our product was strong, but explaining it clearly to customers was always the challenge. The team at Starlight Visuals took the time to understand how everything works and turned it into an animation that made the message much easier to communicate. It looks professional, keeps people's attention, and helps us present the product with much more confidence. The whole process was straightforward, and they were easy to work with. We're very happy with the result.",
-        "role": "Head of Sales"
+        "headline": "Teki monimutkaisen tuotteen helposti selitettävän",
+        "quote": "Tiesimme tuotteemme olevan vahva, mutta sen selkeä selittäminen asiakkaille oli aina haaste. Starlight Visualsin tiimi käytti aikaa ymmärtääkseen, miten kaikki toimii, ja muutti sen animaatioksi, joka teki viestin välittämisestä paljon helpompaa. Se näyttää ammattimaiselta, kiinnittää ihmisten huomion ja auttaa esittelemään tuotetta paljon varmemmin. Koko prosessi oli suoraviivainen, ja heidän kanssaan oli helppo työskennellä. Olemme erittäin tyytyväisiä tulokseen.",
+        "role": "Myyntijohtaja"
       },
       "robert": {
-        "headline": "Premium watch films beyond what we imagined",
-        "quote": "There was a clear vision for how we wanted our watches to be presented, but Starlight Visuals took it beyond what we imagined. They didn't just animate our product they captured the details, precision, and premium quality that define our brand. The final presentation gave our collection a level of sophistication that instantly elevated how customers perceived it. The entire process was smooth, collaborative, and professionally handled from start to finish.",
-        "role": "Founder"
+        "headline": "Ensiluokkaisia ​​katseluelokuvia enemmän kuin kuvittelimme",
+        "quote": "Meillä oli selkeä visio siitä, miten halusimme kellojemme esittelyn, mutta Starlight Visuals vei sen pidemmälle kuin kuvittelimme. He eivät vain animoineet tuotettamme, vaan kuvasivat yksityiskohdat, tarkkuuden ja huippulaadun, jotka määrittelevät brändimme. Viimeinen esitys antoi kokoelmallemme hienostuneisuutta, joka kohensi välittömästi asiakkaiden suhtautumista siihen. Koko prosessi oli sujuvaa, yhteistyökykyistä ja ammattimaisesti hoidettua alusta loppuun.",
+        "role": "Perustaja"
       }
     },
     "videoRoles": {
       "ceo": "Toimitusjohtaja",
-      "artDirector": "Art Director",
+      "artDirector": "Taidejohtaja",
       "founder": "Perustaja",
-      "headProduction": "Head of Production",
-      "vpMarketing": "VP Marketing",
+      "headProduction": "Tuotantopäällikkö",
+      "vpMarketing": "Markkinointijohtaja",
       "coFounder": "Perustajakumppani"
     },
-    "seeMore": "See more",
-    "seeLess": "See less",
-    "writeYours": "Write yours",
-    "tapToRead": "Tap to read full review"
+    "seeMore": "Katso lisää",
+    "seeLess": "Katso vähemmän",
+    "writeYours": "Kirjoita omasi",
+    "tapToRead": "Napauta lukeaksesi koko arvostelun"
   },
   "servicesPage": {
-    "metaTitle": "Services | Starlights Visuals",
-    "metaDescription": "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
-    "label": "What We Build",
-    "title": "SERVICES",
-    "subtitle": "One studio, every stage of production, from first sketch to final pixel.",
-    "ctaTitle1": "HAVE A",
-    "ctaTitle2": "PROJECT",
-    "ctaTitle3": "IN MIND?",
-    "ctaDesc": "Tell us your vision, we'll bring the firepower.",
-    "ctaButton": "Get In Touch",
+    "metaTitle": "Palvelut | Starlights Visuals",
+    "metaDescription": "2D-animaatio, 3D-animaatio, hahmosuunnittelu, liikegrafiikka, VFX, tuoteanimaatio ja elokuvaperäiset trailerit.",
+    "label": "Mitä Rakennamme",
+    "title": "PALVELUT",
+    "subtitle": "Yksi studio, jokaisessa tuotantovaiheessa, ensimmäisestä luonnoksesta lopulliseen pikseliin.",
+    "ctaTitle1": "ON A",
+    "ctaTitle2": "PROJEKTI",
+    "ctaTitle3": "MIELESSÄ?",
+    "ctaDesc": "Kerro meille visiosi, me tuomme tulivoimaa.",
+    "ctaButton": "Ota yhteyttä",
     "items": {
       "2d": {
-        "title": "2D Animation",
-        "desc": "Frame by frame & rigged 2D for series, shorts, explainers, and brand films. We blend classic craft with digital pipelines."
+        "title": "2D-animaatio",
+        "desc": "Kuva ruudulta ja takoitettu 2D sarjoille, shortseille, selityksille ja merkkielokuville. Yhdistelemme klassista käsityötä digitaalisiin putkiin."
       },
       "3d": {
-        "title": "3D Animation",
-        "desc": "Stylized and photoreal 3D, characters, environments, and full cinematic sequences with feature quality polish."
+        "title": "3D-animaatio",
+        "desc": "Tyylitelty ja fotorealistinen 3D, hahmot, ympäristöt ja täydelliset elokuvalliset jaksot laadukkaalla viimeistelyllä."
       },
       "character": {
-        "title": "Character Design",
-        "desc": "Original characters, creatures, and concept art that anchor your IP and merch potential."
+        "title": "Hahmon suunnittelu",
+        "desc": "Alkuperäisiä hahmoja, olentoja ja konseptitaidetta, jotka ankkuroivat IP- ja oheispotentiaalisi."
       },
       "motion": {
-        "title": "Motion Graphics",
-        "desc": "Branded motion, UI animation, broadcast packages, and explainer videos with cinematic polish."
+        "title": "Liikegrafiikka",
+        "desc": "Brändätyt liikkeet, käyttöliittymäanimaatiot, lähetyspaketit ja selitysvideot elokuvamaisella kiillolla."
       },
       "vfx": {
-        "title": "Visual Effects (VFX)",
-        "desc": "Compositing, particle FX, and CG integration for film, advertising, and digital campaigns."
+        "title": "Visuaaliset tehosteet (VFX)",
+        "desc": "Kompositio, hiukkasten FX- ja CG-integrointi elokuviin, mainontaan ja digitaalisiin kampanjoihin."
       },
       "trailer": {
-        "title": "Cinematic Trailers",
-        "desc": "Story driven trailers built to launch brands, IPs, and campaigns with maximum impact."
+        "title": "Elokuvaperäiset trailerit",
+        "desc": "Tarinapohjaiset trailerit, jotka on suunniteltu julkaisemaan brändejä, IP-osoitteita ja kampanjoita mahdollisimman tehokkaasti."
       }
     }
   },
   "aboutPage": {
-    "metaTitle": "About | Starlights Visuals",
-    "metaDescription": "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, game animation, product visualization, and 2D & 3D character animation.",
-    "label": "Who We Are",
-    "title1": "A STUDIO BUILT ON",
-    "title2": "LIGHT, CODE & STORY",
-    "p1": "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, game animation, product visualization, and 2D & 3D character animation. We combine artistic excellence with cutting-edge technology to transform ideas into visuals that captivate, educate, and inspire. From engineering-driven industrial animations and photorealistic product renders to stylized cartoons, expressive character performances, and cinematic game sequences, we create animation that delivers both visual impact and meaningful results.",
-    "p2": "Whether showcasing a product's innovation, bringing a game universe to life, or crafting memorable animated characters, every frame is designed with purpose and precision. Our multidisciplinary team of animators, technical artists, modelers, riggers, motion designers, and visual storytellers collaborates seamlessly to produce work that meets the highest creative and technical standards. We believe great animation does more than look beautiful, it communicates complex ideas, strengthens brands, and creates lasting emotional connections.",
-    "p3": "We partner with manufacturers, product companies, game developers, creative agencies, and global brands to deliver premium animation for marketing, product launches, training, entertainment, advertising, and digital experiences. Every project is driven by innovation, craftsmanship, and an uncompromising commitment to quality. At Starlight Visuals, we don't simply animate, we engineer experiences, build unforgettable characters, and create visuals that move people and businesses forward.",
-    "valuesLabel": "Core Values",
-    "valuesTitle": "WHAT DRIVES US",
+    "metaTitle": "Tietoja | Starlights Visuals",
+    "metaDescription": "Starlight Visuals on maailmanluokan animaatiostudio, joka luo poikkeuksellisia visuaalisia kokemuksia teollisuustuoteanimaatiosta, pelianimaatiosta, tuotevisualisoinnista sekä 2D- ja 3D-hahmoanimaatiosta.",
+    "label": "Keitä olemme",
+    "title1": "PÄÄLLE RAKENNETTU STUDIO",
+    "title2": "VALO, KOODI JA TARINA",
+    "p1": "Starlight Visuals on maailmanluokan animaatiostudio, joka luo poikkeuksellisia visuaalisia kokemuksia teollisuustuoteanimaatiosta, pelianimaatiosta, tuotevisualisoinnista sekä 2D- ja 3D-hahmoanimaatiosta. Yhdistämme taiteellisen huippuosaamisen huipputeknologiaan muuttaaksemme ideat visuaaleiksi, jotka kiehtovat, kouluttavat ja inspiroivat. Suunnitteluvetoisista teollisista animaatioista ja fotorealistisista tuoterenderöijistä tyyliteltyihin sarjakuviin, ilmeikkäisiin hahmoesityksiin ja elokuvamaisiin pelisarjoihin luomme animaatioita, jotka tuottavat sekä visuaalisen vaikutuksen että merkityksellisiä tuloksia.",
+    "p2": "Olipa kyseessä tuotteen innovaation esittely, peliuniversumin herättäminen henkiin tai ikimuistoisten animaatiohahmojen luominen, jokainen kehys on suunniteltu tarkoituksenmukaisesti ja tarkasti. Monitieteinen animaattoreista, teknisistä taiteilijoista, mallintajista, riggereistä, liikesuunnittelijoista ja visuaalisista tarinankertojista koostuva tiimimme tekee saumattomasti yhteistyötä tuottaakseen töitä, jotka täyttävät korkeimmat luovat ja tekniset standardit. Uskomme, että upea animaatio tekee muutakin kuin näyttää kauniilta, se välittää monimutkaisia ​​ideoita, vahvistaa brändejä ja luo kestäviä tunneyhteyksiä.",
+    "p3": "Teemme yhteistyötä valmistajien, tuoteyritysten, pelikehittäjien, luovien toimistojen ja maailmanlaajuisten brändien kanssa tarjotaksemme ensiluokkaista animaatiota markkinointiin, tuotelanseerauksiin, koulutukseen, viihteeseen, mainontaan ja digitaalisiin kokemuksiin. Jokaista projektia ohjaavat innovaatiot, ammattitaito ja tinkimätön sitoutuminen laatuun. Starlight Visualsilla emme vain animoi, vaan suunnittelemme elämyksiä, rakennamme unohtumattomia hahmoja ja luomme kuvia, jotka vievät ihmisiä ja yrityksiä eteenpäin.",
+    "valuesLabel": "Perusarvot",
+    "valuesTitle": "MIKÄ MEIDÄT AJAA",
     "values": {
       "imagination": {
-        "title": "Imagination First",
-        "desc": "Every project starts with a bold idea and a blank canvas."
+        "title": "Mielikuvitus ensin",
+        "desc": "Jokainen projekti alkaa rohkeasta ideasta ja tyhjästä kankaasta."
       },
       "craft": {
         "title": "Craft Obsessed",
-        "desc": "Frame by frame, pixel by pixel, quality is non negotiable."
+        "desc": "Kuva kehykseltä, pikseli pikseliltä, ​​laadusta ei voida neuvotella."
       },
       "energy": {
-        "title": "Cinematic Energy",
-        "desc": "We chase the goosebumps. If it doesn't move us, we refine."
+        "title": "Elokuvan energiaa",
+        "desc": "Jahtaamme kananlihaa. Jos se ei liikuta meitä, me hiomme."
       },
       "story": {
-        "title": "Story Driven",
-        "desc": "Tech serves story. Always."
+        "title": "Tarinavetoinen",
+        "desc": "Tekniikka palvelee tarinaa. Aina."
       }
     },
     "stats": {
-      "projects": "Projects Shipped",
-      "clients": "Global Clients",
-      "awards": "Awards Won",
-      "years": "Years Crafting"
+      "projects": "Projektit lähetetty",
+      "clients": "Globaalit asiakkaat",
+      "awards": "Palkinnot voitettu",
+      "years": "Vuodet askartelu"
     }
   },
   "contactPage": {
     "metaTitle": "Yhteys | Starlights Visuals",
-    "metaDescription": "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
+    "metaDescription": "Ota yhteyttä Starlights Visualsiin 2D- ja 3D-animaatioita, liikegrafiikkaa, VFX:ää, tuoteanimaatioita ja elokuvamaisia ​​traileriprojekteja varten.",
     "label": "Puhutaan",
     "title": "YHTEYS",
     "subtitle": "Tuotantokyselyt, yhteistyöt tai pelkkä hei, lähetä signaali.",
@@ -287,59 +287,59 @@
     "responseTime": "VASTAUSAIKA",
     "responseDesc": "24 tunnissa, ma, pe.",
     "projectTypes": {
-      "2d": "2D Animation",
-      "3d": "3D Animation",
-      "trailer": "Cinematic Trailer",
-      "character": "Character Design",
-      "motion": "Motion Graphics and VFX",
-      "other": "Other"
+      "2d": "2D-animaatio",
+      "3d": "3D-animaatio",
+      "trailer": "Elokuvallinen traileri",
+      "character": "Hahmon suunnittelu",
+      "motion": "Liikegrafiikka ja VFX",
+      "other": "Muut"
     },
-    "sending": "Sending…",
-    "errorGeneric": "Could not send your message. Please email us directly or try again."
+    "sending": "Lähetetään…",
+    "errorGeneric": "Viestiäsi ei voitu lähettää. Lähetä meille sähköpostia suoraan tai yritä uudelleen."
   },
   "portfolioPage": {
     "metaTitle": "Portfolio | Starlights Visuals",
-    "metaDescription": "Selected projects: animated series, cinematic trailers, character designs, and studio showcase reels by Starlights Visuals.",
+    "metaDescription": "Valitut projektit: Starlights Visualsin animaatiosarjat, elokuvaperäiset trailerit, hahmosuunnittelut ja studion showcase-rullat.",
     "label": "Valikoitua työtä",
-    "title1": "PORT",
+    "title1": "PORTTI",
     "title2": "FOLIO",
     "subtitle": "Vilaus maailmoihin, hahmoihin ja tarinoihin, joita olemme auttaneet herättämään henkiin.",
     "projects": {
       "trailer": {
-        "tag": "Cinematic Trailer",
+        "tag": "Elokuvallinen traileri",
         "title": "Iron Sentinel",
-        "desc": "Cinematic brand launch trailer."
+        "desc": "Elokuvabrändin julkaisutraileri."
       },
       "character": {
-        "tag": "Character Design",
+        "tag": "Hahmon suunnittelu",
         "title": "Nova Vanguard",
-        "desc": "Hero protagonist sheet."
+        "desc": "Arkki sankarin päähenkilöstä."
       },
       "2d": {
-        "tag": "2D Animation",
+        "tag": "2D-animaatio",
         "title": "Neon Skyline",
-        "desc": "Anime inspired pilot episode."
+        "desc": "Anime-vaikutteinen pilottijakso."
       },
       "creature": {
         "tag": "Creature Design",
         "title": "Crystal Wyrm",
-        "desc": "Boss creature concept."
+        "desc": "Pomo-olentokonsepti."
       },
       "motion": {
-        "tag": "Motion Graphics",
-        "title": "Pulse Identity",
+        "tag": "Liikegrafiikka",
+        "title": "Pulssin identiteetti",
         "desc": "Brand motion system."
       },
       "motionEnv": {
-        "tag": "Motion Graphics",
-        "title": "Pulse Worlds",
-        "desc": "Immersive brand environment art."
+        "tag": "Liikegrafiikka",
+        "title": "Pulssimaailmat",
+        "desc": "Mukaansatempaavaa brändiympäristötaidetta."
       }
     }
   },
   "blogPage": {
     "metaTitle": "Blogi | Starlights Visuals",
-    "metaDescription": "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
+    "metaDescription": "Starlights Visualsin oivalluksia animaatioista, VFX:stä, elokuvaperäisistä trailereista ja huippuluokan bränditarinoista.",
     "label": "Studiojournal",
     "title1": "STUDIO",
     "title2": "BLOGI",
@@ -349,50 +349,50 @@
     "startProject": "Aloita projekti",
     "moreFromJournal": "Lisää journalista",
     "postBody1": "Starlights Visualsilla käsittelemme jokaista framea konversiomahdollisuutena, ei pelkkänä kauniina kuvana. Tämä artikkeli avaa {{category}}-työmme taustalla olevaa ajattelua ja päätöksiä, jotka erottavat hyvän luovan työn lanseerausvalmiista.",
-    "postBody2": "Whether you are shipping a trailer, scaling a brand motion system, or building campaign visuals for a live product, the same principle applies: clarity of story first, polish second, and ruthless editing last. That discipline is how teams hit deadlines without the almost there feeling.",
+    "postBody2": "Olitpa sitten lähettämässä traileria, skaalaamassa brändin liikejärjestelmää tai rakentamassa kampanjavisuaalia live-tuotteelle, sama periaate pätee: tarinan selkeys ensin, kiillotus sitten ja armoton editointi viimeisenä. Tämä kurinalaisuus on se, kuinka joukkueet lyövät määräaikoja ilman, että tunnet melkein valmiiksi.",
     "postBody3": "Haluatko soveltaa tätä ajattelua seuraavaan projektiisi? Kuulemme mielellämme, mitä rakennat, lähetä brief, niin kartoitamme elokuvamaisen polun konseptista toimitukseen.",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "Why cinematic trailers convert better than product demos",
-        "excerpt": "Story first launch films build emotional stakes before the CTA. Here is how we structure hooks, pacing, and grade for maximum retention.",
-        "category": "Strategy",
-        "date": "May 12, 2026",
-        "readTime": "6 min read"
+        "title": "Miksi elokuvaperäiset trailerit muuntuvat paremmin kuin tuote-esittelyt?",
+        "excerpt": "Tarinan ensimmäiset julkaisuelokuvat rakentavat emotionaalisia panoksia ennen CTA:ta. Näin rakennamme koukut, tahdistuksen ja tason maksimaalisen säilymisen saavuttamiseksi.",
+        "category": "strategia",
+        "date": "12. toukokuuta 2026",
+        "readTime": "6 min lukeminen"
       },
       "character-design-for-ip": {
-        "title": "Character design that anchors your IP across every channel",
-        "excerpt": "From silhouette readability to merch ready turnarounds, the checklist we use before a hero goes into production.",
-        "category": "Craft",
-        "date": "May 3, 2026",
-        "readTime": "5 min read"
+        "title": "Hahmosuunnittelu, joka kiinnittää IP-osoitteesi jokaiseen kanavaan",
+        "excerpt": "Siluetin luettavuudesta kauppatavaravalmiisiin käännöksiin – tarkistuslista, jota käytämme ennen kuin sankari siirtyy tuotantoon.",
+        "category": "Käsityö",
+        "date": "3. toukokuuta 2026",
+        "readTime": "5 min lukeminen"
       },
       "motion-systems-for-brands": {
-        "title": "Building motion systems brands can actually reuse",
-        "excerpt": "Modular motion libraries, logo stings, and UI micro interactions that keep campaigns consistent at scale.",
-        "category": "Motion",
-        "date": "Apr 8, 2026",
-        "readTime": "4 min read"
+        "title": "Rakennusliikejärjestelmien tuotemerkit voivat itse asiassa käyttää uudelleen",
+        "excerpt": "Modulaariset liikekirjastot, logon pistot ja käyttöliittymän mikrointeraktiot pitävät kampanjat yhtenäisinä.",
+        "category": "Liike",
+        "date": "8. huhtikuuta 2026",
+        "readTime": "4 min lukeminen"
       },
       "2d-animation-in-2026": {
-        "title": "2D animation in 2026: hybrid pipelines that still feel handmade",
-        "excerpt": "Combining rigged efficiency with frame by frame accents, when to push each technique for premium results.",
-        "category": "Animation",
-        "date": "Mar 29, 2026",
-        "readTime": "7 min read"
+        "title": "2D-animaatio vuonna 2026: hybridiputket, jotka tuntuvat edelleen käsintehdyiltä",
+        "excerpt": "Yhdistämällä tehokkaan tehokkuuden kehys kerrallaan korostettuihin korostuksiin, kun jokainen tekniikka on hyödynnettävä huipputulosten saavuttamiseksi.",
+        "category": "Animaatio",
+        "date": "29. maaliskuuta 2026",
+        "readTime": "7 min lukeminen"
       },
       "creature-design-breakdown": {
-        "title": "Creature design breakdown: from mood board to final rig",
-        "excerpt": "A look at how we develop boss creatures with readable silhouettes, material storytelling, and cinematic presence.",
-        "category": "Craft",
-        "date": "Mar 14, 2026",
-        "readTime": "6 min read"
+        "title": "Olentojen suunnittelun erittely: mielialalaudasta lopulliseen takkiin",
+        "excerpt": "Katsaus siihen, kuinka kehitämme pomoolentoja, joilla on luettavat siluetit, materiaalinen tarinankerronta ja elokuvamainen läsnäolo.",
+        "category": "Käsityö",
+        "date": "14. maaliskuuta 2026",
+        "readTime": "6 min lukeminen"
       },
       "production-pipelines-that-ship": {
-        "title": "Production pipelines that ship: concept to final delivery",
-        "excerpt": "How we align art direction, technical constraints, and milestone reviews so teams ship on time without sacrificing polish.",
-        "category": "Production",
-        "date": "Apr 21, 2026",
-        "readTime": "8 min read"
+        "title": "Toimitettavat tuotantoputket: konseptista lopulliseen toimitukseen",
+        "excerpt": "Kuinka sovitamme taiteen suunnan, tekniset rajoitukset ja virstanpylväsarvostelut, jotta tiimit toimittavat ajoissa kiillotuksesta tinkimättä.",
+        "category": "Tuotanto",
+        "date": "21. huhtikuuta 2026",
+        "readTime": "8 min lukeminen"
       }
     }
   },
@@ -409,8 +409,8 @@
     "goHome": "Etusivulle"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals | Animation & VFX Studio",
-    "rootDescription": "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high quality 3D animation, and VFX.",
+    "rootTitle": "Starlights Visuals | Animaatio & VFX Studio",
+    "rootDescription": "Starlights Visuals on luova studio, joka on erikoistunut elokuvalliseen 2D-animaatioon, korkealaatuiseen 3D-animaatioon ja VFX:ään.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -421,213 +421,213 @@
     "logoAlt": "{{brand}}-logo"
   },
   "works": {
-    "breadcrumbLabel": "Breadcrumb",
-    "breadcrumbHome": "Home",
-    "breadcrumbWorks": "Selected Works",
-    "clientsTitle": "Clients We've Worked With",
-    "clientsCount": "{{count}} clients",
-    "projectsCompleted": "{{count}} projects completed",
-    "timeline": "Timeline",
-    "services": "Services provided",
-    "tools": "Tools & software",
-    "searchPlaceholder": "Search projects…",
-    "filterYear": "Filter by year",
-    "allYears": "All years",
-    "noClients": "No clients in this category yet.",
-    "noProjects": "No projects match your filters.",
-    "projectsTitle": "Project Samples",
-    "relatedProjects": "Related projects",
-    "closePreview": "Close preview",
-    "ctaScript": "Ready when you are,",
-    "ctaTitle": "Start Your Project With Us",
-    "ctaDesc": "Tell us about your brand, timeline, and goals. We'll map a cinematic path from concept to delivery.",
-    "ctaButton": "Start a project",
-    "portfolioHubDesc": "Explore work by category, animation, VFX, motion, and more.",
+    "breadcrumbLabel": "Leipämuru",
+    "breadcrumbHome": "Kotiin",
+    "breadcrumbWorks": "Valitut teokset",
+    "clientsTitle": "Asiakkaat, joiden kanssa olemme työskennelleet",
+    "clientsCount": "{{count}} asiakasta",
+    "projectsCompleted": "{{count}} projektia valmis",
+    "timeline": "Aikajana",
+    "services": "Tarjotut palvelut",
+    "tools": "Työkalut & ohjelmistot",
+    "searchPlaceholder": "Hae projekteja…",
+    "filterYear": "Suodata vuoden mukaan",
+    "allYears": "Kaikki vuodet",
+    "noClients": "Tässä kategoriassa ei ole vielä asiakkaita.",
+    "noProjects": "Yksikään projekti ei vastaa suodattimiasi.",
+    "projectsTitle": "Projektinäytteet",
+    "relatedProjects": "Aiheeseen liittyvät projektit",
+    "closePreview": "Sulje esikatselu",
+    "ctaScript": "Valmiina kun olet,",
+    "ctaTitle": "Aloita projektisi kanssamme",
+    "ctaDesc": "Kerro meille brändistäsi, aikajanastasi ja tavoitteistasi. Kartoitamme elokuvallisen polun konseptista toimitukseen.",
+    "ctaButton": "Aloita projekti",
+    "portfolioHubDesc": "Tutustu työhön kategorian, animaation, VFX:n, liikkeen ja muiden mukaan.",
     "categories": {
       "2d-animation": {
-        "title": "2D animaatio",
+        "title": "2D-animaatio",
         "tagline": "Askartelu kehys kehykseltä kampanjoihin ja sarjoihin",
         "description": "Hahmovetoinen 2D animaatio mainoksille, selityksille ja jaksoittaiselle sisällölle rohkealla liikkeellä ja elokuvamaisella ajoituksella."
       },
       "3d-animation": {
-        "title": "3D animaatio",
-        "tagline": "Stylized and photoreal 3D for film and brands",
-        "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
+        "title": "3D-animaatio",
+        "tagline": "Tyylitelty ja fotoreal 3D elokuville ja tuotemerkeille",
+        "description": "Laadukas 3D-hahmo-, tuote- ja elokuvaanimaatio ominaisuustason kiillotuksella kampanjoihin ja sarjoihin."
       },
       "motion-graphics": {
-        "title": "Motion Graphics",
-        "tagline": "Design led motion systems for launches and brand worlds",
-        "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
+        "title": "Liikegrafiikka",
+        "tagline": "Suunnittele led-liikejärjestelmiä laukaisuihin ja brändimaailmoihin",
+        "description": "Suunnittele led-liikejärjestelmiä lanseerauksiin, kojelaudoihin ja brändimaailmoihin, jotka skaalautuvat eri kanaviin."
       },
       "vfx": {
-        "title": "Visuaaliset efektit (VFX)",
-        "tagline": "Compositing, FX, and cinematic finishing",
-        "description": "Visual effects for trailers, product films, and branded content, from cleanups to full CG integration."
+        "title": "Visual Effects (VFX)",
+        "tagline": "Kompositio, FX ja elokuvamainen viimeistely",
+        "description": "Visuaaliset tehosteet trailereihin, tuoteelokuviin ja merkkisisältöön siivouksista täydelliseen CG-integraatioon."
       }
     },
     "showcase": {
       "2d-animation": {
-        "tag": "2D animaatio",
-        "title": "2D animaatio"
+        "tag": "2D-animaatio",
+        "title": "2D-animaatio"
       },
       "3d-animation": {
-        "tag": "3D animaatio",
-        "title": "3D animaatio"
+        "tag": "3D-animaatio",
+        "title": "3D-animaatio"
       },
       "motion-graphics": {
-        "tag": "Motion Graphics",
-        "title": "Motion Graphics"
+        "tag": "Liikegrafiikka",
+        "title": "Liikegrafiikka"
       },
       "vfx": {
-        "tag": "Visuaaliset efektit (VFX)",
-        "title": "Visuaaliset efektit (VFX)"
+        "tag": "Visual Effects (VFX)",
+        "title": "Visual Effects (VFX)"
       }
     },
     "clients": {
       "2d-animation": {
         "chibi-art": {
           "name": "CHIBI ART",
-          "industry": "Character & Animation",
-          "description": "Chibi style 2D character animation with expressive scenes and behind the scenes making process films.",
+          "industry": "Hahmo ja animaatio",
+          "description": "Chibi-tyylinen 2D-hahmoanimaatio ilmeikkäillä kohtauksilla ja prosessielokuvien kulissien takana.",
           "timeline": "2025",
           "services": {
-            "0": "2D Animation",
+            "0": "2D-animaatio",
             "1": "Chibi Art",
-            "2": "Character Animation"
+            "2": "Hahmoanimaatio"
           },
           "tools": {
             "0": "After Effects",
-            "1": "Clip Studio Paint",
+            "1": "Leikkaa Studio Paint",
             "2": "Photoshop"
           }
         },
         "vtuber-animation": {
           "name": "VTUBER ANIMATION",
-          "industry": "VTuber & Character",
-          "description": "VTuber character art and 2D animation with modeling process films, polished samples, and Live2D style performance.",
+          "industry": "VTuber ja hahmo",
+          "description": "VTuber-hahmotaidetta ja 2D-animaatiota mallinnusprosessifilmeillä, kiillotetuilla näytteillä ja Live2D-tyylillä.",
           "timeline": "2025",
           "services": {
-            "0": "VTuber Animation",
-            "1": "2D Character",
-            "2": "Live2D Style"
+            "0": "VTuber-animaatio",
+            "1": "2D-hahmo",
+            "2": "Live2D-tyyli"
           },
           "tools": {
             "0": "Live2D",
             "1": "After Effects",
-            "2": "Clip Studio Paint"
+            "2": "Leikkaa Studio Paint"
           }
         },
         "live2d-animation": {
           "name": "LIVE2D ANIMATION",
-          "industry": "Live2D & Character",
-          "description": "Live2D character art, rigging, and animation from making process films through polished sample performances.",
+          "industry": "Live2D ja hahmot",
+          "description": "Live2D-hahmotaide, takila ja animaatio prosessielokuvien tekemisestä hienoihin näyteesityksiin.",
           "timeline": "2025",
           "services": {
             "0": "Live2D",
-            "1": "Rigging",
-            "2": "2D Character Animation"
+            "1": "Takila",
+            "2": "2D-hahmoanimaatio"
           },
           "tools": {
-            "0": "Live2D Cubism",
+            "0": "Live2D-kubismi",
             "1": "After Effects",
             "2": "Photoshop"
           }
         },
         "2d-anime-animation": {
           "name": "2D ANIME ANIMATION",
-          "industry": "Anime & 2D Animation",
-          "description": "High quality 2D anime style animation and music videos with expressive characters and cinematic motion.",
+          "industry": "Anime & 2D-animaatio",
+          "description": "Laadukkaita 2D-anime-animaatioita ja musiikkivideoita ilmeikkäillä hahmoilla ja elokuvamaisella liikkeellä.",
           "timeline": "2025",
           "services": {
-            "0": "2D Anime",
-            "1": "Music Video",
-            "2": "Character Animation"
+            "0": "2D anime",
+            "1": "Musiikki Video",
+            "2": "Hahmoanimaatio"
           },
           "tools": {
             "0": "After Effects",
             "1": "Toon Boom",
-            "2": "Clip Studio Paint"
+            "2": "Leikkaa Studio Paint"
           }
         }
       },
       "3d-animation": {
         "kids-learning-animation": {
           "name": "KIDS LEARNING ANIMATION",
-          "industry": "Children & Education",
-          "description": "Fun character animation for kids learning content, including number videos and cute cartoon characters.",
+          "industry": "Lapset ja koulutus",
+          "description": "Hauska hahmoanimaatio lapsille, jotka oppivat sisältöä, mukaan lukien numerovideoita ja söpöjä sarjakuvahahmoja.",
           "timeline": "2025",
           "services": {
-            "0": "Kids Learning",
-            "1": "Character Animation",
-            "2": "Educational Content"
+            "0": "Lapset oppivat",
+            "1": "Hahmoanimaatio",
+            "2": "Koulutussisältö"
           },
           "tools": {
             "0": "After Effects",
             "1": "Toon Boom",
-            "2": "Blender"
+            "2": "Tehosekoitin"
           }
         },
         "3d-cartoon-animation": {
           "name": "3D CARTOON ANIMATION",
-          "industry": "Character & Animation",
-          "description": "Stylized 3D cartoon character animation and showcase films with playful motion and polished presentation.",
+          "industry": "Hahmo ja animaatio",
+          "description": "Tyylitelty 3D-sarjakuvahahmoanimaatio ja showcase-elokuvia leikkisällä liikkeellä ja hienostuneella esityksellä.",
           "timeline": "2025",
           "services": {
-            "0": "3D Cartoon Animation",
-            "1": "Character Showcase",
-            "2": "Stylized CGI"
+            "0": "3D-sarjakuva-animaatio",
+            "1": "Hahmon esittely",
+            "2": "Tyylitelty CGI"
           },
           "tools": {
-            "0": "Blender",
-            "1": "Cinema 4D",
+            "0": "Tehosekoitin",
+            "1": "Elokuva 4D",
             "2": "After Effects"
           }
         },
         "3d-explainer-video": {
           "name": "3D EXPLAINER VIDEO",
-          "industry": "Product & Explainer",
-          "description": "3D explainer and product presentation films covering brand storytelling, 360 product displays, and commercial animation.",
+          "industry": "Tuote ja selittäjä",
+          "description": "3D-selitys- ja tuoteesityselokuvat, jotka kattavat brändin tarinankerronta, 360-tuotenäytökset ja kaupalliset animaatiot.",
           "timeline": "2025",
           "services": {
-            "0": "3D Explainer",
-            "1": "Product Presentation",
-            "2": "360 Product Display"
+            "0": "3D selittäjä",
+            "1": "Tuotteen esittely",
+            "2": "360 tuotenäyttö"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Elokuva 4D",
+            "1": "Tehosekoitin",
             "2": "After Effects"
           }
         },
         "3d-medical-animation": {
           "name": "3D MEDICAL ANIMATION",
-          "industry": "Healthcare & Medical Visualization",
-          "description": "High quality 3D medical animation covering anatomy, surgical procedures, and medical device visualization.",
+          "industry": "Terveydenhuolto ja lääketieteellinen visualisointi",
+          "description": "Laadukas 3D-lääketieteellinen animaatio, joka kattaa anatomian, kirurgiset toimenpiteet ja lääketieteellisten laitteiden visualisoinnin.",
           "timeline": "2025",
           "services": {
-            "0": "Medical Animation",
-            "1": "Anatomy CGI",
-            "2": "Surgical Visualization"
+            "0": "Lääketieteellinen animaatio",
+            "1": "Anatomia CGI",
+            "2": "Kirurginen visualisointi"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Elokuva 4D",
+            "1": "Tehosekoitin",
             "2": "After Effects"
           }
         },
         "3d-anime-character": {
           "name": "3D ANIME CHARACTER",
-          "industry": "Character & Anime",
-          "description": "3D anime character modeling and client showcase films with stylized materials and polished presentation.",
+          "industry": "Hahmo & Anime",
+          "description": "3D-anime-hahmojen mallinnus ja asiakasesittelyfilmit tyylitellyillä materiaaleilla ja hienostuneella esityksellä.",
           "timeline": "2025",
           "services": {
-            "0": "3D Character",
+            "0": "3D-hahmo",
             "1": "Anime CGI",
-            "2": "Client Showcase"
+            "2": "Asiakasesittely"
           },
           "tools": {
-            "0": "Blender",
-            "1": "Cinema 4D",
+            "0": "Tehosekoitin",
+            "1": "Elokuva 4D",
             "2": "After Effects"
           }
         }
@@ -635,129 +635,129 @@
       "motion-graphics": {
         "watch-animation": {
           "name": "WATCH ANIMATION",
-          "industry": "Luxury Watches",
-          "description": "Photoreal 3D watch product animation and cinematic packshot films for luxury timepieces.",
+          "industry": "Luksuskellot",
+          "description": "Photoreal 3D katsella tuoteanimaatioita ja elokuvamaisia ​​packshot-filmejä luksuskelloille.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Watch CGI",
-            "2": "Packshot Films"
+            "0": "3D-tuoteanimaatio",
+            "1": "Katso CGI",
+            "2": "Packshot-elokuvat"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Elokuva 4D",
+            "1": "Punasiirtymä",
             "2": "After Effects"
           }
         },
         "ryse-drink-3d-product-animation": {
           "name": "RYSE DRINK 3D PRODUCT ANIMATION",
-          "industry": "Beverage & Product CGI",
-          "description": "Photoreal 3D beverage product animation for Ryse drink and lemonade campaigns with cinematic packshot finish.",
+          "industry": "Juomat ja tuotteet CGI",
+          "description": "Photoreal 3D-juomatuoteanimaatio Ryse-juoma- ja limonadikampanjoihin elokuvamaisella pakettikuvalla.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Beverage CGI",
-            "2": "Packshot Films"
+            "0": "3D-tuoteanimaatio",
+            "1": "Juoma CGI",
+            "2": "Packshot-elokuvat"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Elokuva 4D",
+            "1": "Punasiirtymä",
             "2": "After Effects"
           }
         },
         "3d-perfume-animation": {
           "name": "3D PERFUME ANIMATION",
-          "industry": "Beauty & Fragrance",
-          "description": "Photoreal 3D perfume product animation for luxury fragrance launches and campaign hero films.",
+          "industry": "Kauneus & Tuoksu",
+          "description": "Photoreal 3D-hajuvesituoteanimaatio luksustuoksulanseerauksiin ja kampanjan sankarielokuviin.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Fragrance CGI",
-            "2": "Packshot Films"
+            "0": "3D-tuoteanimaatio",
+            "1": "Tuoksu CGI",
+            "2": "Packshot-elokuvat"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Elokuva 4D",
+            "1": "Punasiirtymä",
             "2": "After Effects"
           }
         },
         "3d-gadget-animation": {
           "name": "3D GADGET ANIMATION",
-          "industry": "Consumer Electronics",
-          "description": "Photoreal 3D gadget and earbud product animation with studio lighting, material detail, and campaign ready motion.",
+          "industry": "Kuluttajaelektroniikka",
+          "description": "Valokuvallinen 3D-laite ja nappikuulokkeiden tuoteanimaatio studiovaloilla, materiaaliyksityiskohtilla ja kampanjavalmiilla liiketoiminnoilla.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
+            "0": "3D-tuoteanimaatio",
             "1": "Gadget CGI",
-            "2": "Packshot Films"
+            "2": "Packshot-elokuvat"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Elokuva 4D",
+            "1": "Punasiirtymä",
             "2": "After Effects"
           }
         },
         "vape-animation": {
           "name": "VAPE ANIMATION",
-          "industry": "Consumer Products",
-          "description": "Photoreal 3D vape product animation with studio lighting, material detail, and campaign ready packshot films.",
+          "industry": "Kuluttajatuotteet",
+          "description": "Photoreal 3D vape -tuoteanimaatio studiovalaistuksella, materiaalien yksityiskohdilla ja kampanjavalmiilla packshot-filmeillä.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
+            "0": "3D-tuoteanimaatio",
             "1": "Vape CGI",
-            "2": "Packshot Films"
+            "2": "Packshot-elokuvat"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Elokuva 4D",
+            "1": "Punasiirtymä",
             "2": "After Effects"
           }
         },
         "bag-suitcase-animation": {
           "name": "BAG/SUITCASE ANIMATION",
-          "industry": "Travel & Lifestyle",
-          "description": "Realistic 3D product animation for bags and suitcases with cinematic packshot finish.",
+          "industry": "Matkailu ja elämäntapa",
+          "description": "Realistinen 3D-tuoteanimaatio laukkuille ja matkalaukuille elokuvamaisella pakkauskuvalla.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Bag CGI",
-            "2": "Packshot Films"
+            "0": "3D-tuoteanimaatio",
+            "1": "Laukku CGI",
+            "2": "Packshot-elokuvat"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Elokuva 4D",
+            "1": "Punasiirtymä",
             "2": "After Effects"
           }
         },
         "drop-band-animation": {
           "name": "DROP BAND ANIMATION",
-          "industry": "Wearables & Accessories",
-          "description": "Drop Band product animation covering production process films and final polished results.",
+          "industry": "Puettavat tarvikkeet ja tarvikkeet",
+          "description": "Drop Band -tuoteanimaatio kattaa tuotantoprosessifilmit ja lopputulokset.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Process Film",
-            "2": "Wearable CGI"
+            "0": "3D-tuoteanimaatio",
+            "1": "Prosessi elokuva",
+            "2": "Käytettävä CGI"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Elokuva 4D",
+            "1": "Punasiirtymä",
             "2": "After Effects"
           }
         },
         "3d-bed-animation": {
           "name": "3D BED ANIMATION",
-          "industry": "Furniture & Bedding",
-          "description": "Photoreal 3D mattress and bed product animation for furniture brands with cinematic packshot finish.",
+          "industry": "Huonekalut ja vuodevaatteet",
+          "description": "Photoreal 3D patja- ja sänkytuoteanimaatio huonekalumerkeille elokuvamaisella packshot-viimeistelyllä.",
           "timeline": "2025",
           "services": {
-            "0": "3D Product Animation",
-            "1": "Furniture CGI",
-            "2": "Packshot Films"
+            "0": "3D-tuoteanimaatio",
+            "1": "Huonekalut CGI",
+            "2": "Packshot-elokuvat"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Redshift",
+            "0": "Elokuva 4D",
+            "1": "Punasiirtymä",
             "2": "After Effects"
           }
         }
@@ -765,129 +765,129 @@
       "vfx": {
         "ronix": {
           "name": "RONIX",
-          "industry": "Power Tools & Manufacturing",
-          "description": "Ronix 3D industrial animation and power tool CGI product showcase films.",
+          "industry": "Sähkötyökalut ja valmistus",
+          "description": "Ronix 3D teollinen animaatio ja sähkötyökalu CGI tuote showcase elokuvia.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Power Tool CGI",
-            "2": "Product Showcase"
+            "0": "Teollinen animaatio",
+            "1": "Sähkötyökalu CGI",
+            "2": "Tuotteen esittely"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Elokuva 4D",
+            "1": "Tehosekoitin",
             "2": "After Effects"
           }
         },
         "mintec": {
           "name": "MINTEC",
-          "industry": "Industrial Manufacturing",
-          "description": "MinTec industries product showcase and process films for 3D industrial animation.",
+          "industry": "Teollinen valmistus",
+          "description": "MinTec teollisuuden tuotteiden esittely- ja prosessifilmit 3D-teolliseen animaatioon.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product Showcase",
-            "2": "Process Film"
+            "0": "Teollinen animaatio",
+            "1": "Tuotteen esittely",
+            "2": "Prosessi elokuva"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Elokuva 4D",
+            "1": "Tehosekoitin",
             "2": "After Effects"
           }
         },
         "integra-pw": {
           "name": "INTEGRA PW",
-          "industry": "Industrial Products",
-          "description": "Integra PW industrial animation from video making process through final cinematic results.",
+          "industry": "Teollisuustuotteet",
+          "description": "Integra PW teollinen animaatio videon valmistusprosessista lopullisiin elokuvallisiin tuloksiin.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Process Film",
-            "2": "Product CGI"
+            "0": "Teollinen animaatio",
+            "1": "Prosessi elokuva",
+            "2": "Tuote CGI"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Elokuva 4D",
+            "1": "Tehosekoitin",
             "2": "After Effects"
           }
         },
         "credex": {
           "name": "CREDEX",
-          "industry": "Cleaning Equipment",
-          "description": "CREDEX carpet cleaning machine industrial animation with cinematic SFX finish.",
+          "industry": "Siivousvälineet",
+          "description": "CREDEX matonpesukoneen teollinen animaatio elokuvamaisella SFX-viimeistelyllä.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product CGI",
-            "2": "Sound Design"
+            "0": "Teollinen animaatio",
+            "1": "Tuote CGI",
+            "2": "Äänisuunnittelu"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Elokuva 4D",
+            "1": "Tehosekoitin",
             "2": "After Effects"
           }
         },
         "phr-1": {
           "name": "PHR 1",
-          "industry": "Electric Powertrain",
-          "description": "PHR 1 electric power train product animation with technical lighting and cinematic polish.",
+          "industry": "Sähköinen voimansiirto",
+          "description": "PHR 1 sähkömoottorin tuoteanimaatio teknisellä valaistuksella ja elokuvamaisella kiillotuksella.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Powertrain CGI",
-            "2": "Product Film"
+            "0": "Teollinen animaatio",
+            "1": "Voimansiirto CGI",
+            "2": "Tuotekalvo"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Elokuva 4D",
+            "1": "Tehosekoitin",
             "2": "After Effects"
           }
         },
         "atx": {
           "name": "ATX",
-          "industry": "Industrial Manufacturing",
-          "description": "ATX 3D industrial and technical product animation for manufacturing showcases.",
+          "industry": "Teollinen valmistus",
+          "description": "ATX 3D teollinen ja tekninen tuoteanimaatio vitriinien valmistukseen.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Technical CGI",
-            "2": "Product Showcase"
+            "0": "Teollinen animaatio",
+            "1": "Tekninen CGI",
+            "2": "Tuotteen esittely"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Elokuva 4D",
+            "1": "Tehosekoitin",
             "2": "After Effects"
           }
         },
         "prov-gap": {
           "name": "PROV GAP",
-          "industry": "Industrial Manufacturing",
-          "description": "Prov GAP 3D industrial animation for technical product storytelling and brand films.",
+          "industry": "Teollinen valmistus",
+          "description": "Prov GAP 3D-teollinen animaatio tekniseen tuotetarinaan ja brändielokuviin.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Product CGI",
-            "2": "Technical Film"
+            "0": "Teollinen animaatio",
+            "1": "Tuote CGI",
+            "2": "Tekninen elokuva"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Elokuva 4D",
+            "1": "Tehosekoitin",
             "2": "After Effects"
           }
         },
         "autoz-crave": {
           "name": "AUTOZ CRAVE",
-          "industry": "Automotive & Mechanical",
-          "description": "Autoz Crave industrial animation for mechanical and technical 3D product films.",
+          "industry": "Autot ja mekaaniset",
+          "description": "Autoz Crave teollinen animaatio mekaanisiin ja teknisiin 3D-tuotefilmeihin.",
           "timeline": "2025",
           "services": {
-            "0": "Industrial Animation",
-            "1": "Mechanical CGI",
-            "2": "Technical Animation"
+            "0": "Teollinen animaatio",
+            "1": "Mekaaninen CGI",
+            "2": "Tekninen animaatio"
           },
           "tools": {
-            "0": "Cinema 4D",
-            "1": "Blender",
+            "0": "Elokuva 4D",
+            "1": "Tehosekoitin",
             "2": "After Effects"
           }
         }
@@ -895,474 +895,474 @@
     },
     "projects": {
       "chibi-art-p1": {
-        "title": "Chibi Art Scene 1",
-        "description": "Expressive chibi character scene with polished 2D animation and campaign ready motion.",
+        "title": "Chibi-taidekohtaus 1",
+        "description": "Ilmeikäs chibi-hahmokohtaus kiillotetulla 2D-animaatiolla ja kampanjavalmiilla liikkeellä.",
         "tags": {
           "0": "Chibi",
-          "1": "Scene"
+          "1": "Näkymä"
         }
       },
       "chibi-art-p2": {
-        "title": "Chibi Art Scene 2",
-        "description": "Second chibi character scene showcasing personality, timing, and colorful 2D performance.",
+        "title": "Chibi-taidekohtaus 2",
+        "description": "Toinen chibi-hahmokohtaus, joka esittelee persoonallisuutta, ajoitusta ja värikästä 2D-suoritusta.",
         "tags": {
           "0": "Chibi",
-          "1": "Scene"
+          "1": "Näkymä"
         }
       },
       "chibi-art-p3": {
-        "title": "Making Process Film",
-        "description": "Behind the scenes look at the chibi art creation and animation workflow from sketch to final motion.",
+        "title": "Prosessifilmin tekeminen",
+        "description": "Katso kulissien takana chibi-taiteen luomisen ja animaation työnkulkua luonnoksesta lopulliseen liikkeeseen.",
         "tags": {
-          "0": "Process",
-          "1": "Workflow"
+          "0": "Käsitellä",
+          "1": "Työnkulku"
         }
       },
       "vtuber-animation-p1": {
-        "title": "Vtuber Modeling Creation",
-        "description": "VTuber character modeling creation film covering art direction and build workflow.",
+        "title": "Vtuber-mallinnuksen luominen",
+        "description": "VTuber-hahmomallinnusfilmi, joka kattaa taiteen suunnan ja rakentamisen työnkulun.",
         "tags": {
           "0": "VTuber",
-          "1": "Modeling"
+          "1": "Mallintaminen"
         }
       },
       "vtuber-animation-p2": {
-        "title": "Vtuber 2D Video Results",
-        "description": "Finished 2D VTuber animation results with expressive performance and polished motion.",
+        "title": "Vtuber 2D -videotulokset",
+        "description": "Valmiit 2D VTuber -animaatiotulokset ilmeikkäällä suorituskyvyllä ja hienostuneella liikkeellä.",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p3": {
-        "title": "Princess Vtuber Modeling",
-        "description": "Princess VTuber modeling sample showcasing character design and animated performance.",
+        "title": "Prinsessa Vtuber -mallinnus",
+        "description": "Princess VTuber -mallinnusnäyte, joka esittelee hahmosuunnittelua ja animoitua suorituskykyä.",
         "tags": {
           "0": "VTuber",
-          "1": "Princess"
+          "1": "Prinsessa"
         }
       },
       "vtuber-animation-p4": {
-        "title": "Vtuber 2D Video",
-        "description": "Cinematic 2D VTuber animation with dynamic character motion and expressive acting.",
+        "title": "Vtuber 2D video",
+        "description": "Elokuvamainen 2D VTuber-animaatio dynaamisella hahmoliikkeellä ja ilmeikkäillä näyttelijöillä.",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p5": {
-        "title": "Vtuber Sample 2",
-        "description": "Second VTuber animation sample with bold character acting and polished motion.",
+        "title": "Vtuber-näyte 2",
+        "description": "Toinen VTuber-animaationäyte rohkealla hahmonäytöksellä ja hienostuneella liikkeellä.",
         "tags": {
           "0": "VTuber",
-          "1": "Sample"
+          "1": "Näyte"
         }
       },
       "vtuber-animation-p6": {
-        "title": "Vtuber Sample 3",
-        "description": "Extended VTuber character showcase with cinematic pacing and expressive 2D animation.",
+        "title": "Vtuber-näyte 3",
+        "description": "Laajennettu VTuber-hahmoesittely elokuvamaisella tahdilla ja ilmeikkäällä 2D-animaatiolla.",
         "tags": {
           "0": "VTuber",
-          "1": "Sample"
+          "1": "Näyte"
         }
       },
       "vtuber-animation-p7": {
-        "title": "Vtuber Video Process",
-        "description": "Behind the scenes VTuber animation process from art through rigging and final motion.",
+        "title": "Vtuber-videoprosessi",
+        "description": "Kulissien takana VTuber-animaatioprosessi taiteesta takilaan ja viimeiseen liikkeeseen.",
         "tags": {
-          "0": "Process",
-          "1": "Workflow"
+          "0": "Käsitellä",
+          "1": "Työnkulku"
         }
       },
       "live2d-animation-p1": {
-        "title": "Live2D Making Process",
-        "description": "Behind the scenes Live2D creation workflow from art through final animated performance.",
+        "title": "Live2D-valmistusprosessi",
+        "description": "Kulissien takana Live2D-luonnin työnkulku taiteesta lopulliseen animoituun esitykseen.",
         "tags": {
           "0": "Live2D",
-          "1": "Process"
+          "1": "Käsitellä"
         }
       },
       "live2d-animation-p2": {
-        "title": "Live2D Sample",
-        "description": "Finished Live2D character sample with expressive posing and polished motion.",
+        "title": "Live2D näyte",
+        "description": "Valmis Live2D-hahmonäyte ilmeikkäällä poseerauksella ja hiotulla liikkeellä.",
         "tags": {
           "0": "Live2D",
-          "1": "Sample"
+          "1": "Näyte"
         }
       },
       "live2d-animation-p3": {
-        "title": "Live2D Rigging Process",
-        "description": "Live2D rigging process film showing mesh, deformers, and parameter setup.",
+        "title": "Live2D-takilaprosessi",
+        "description": "Live2D-takilaprosessifilmi, jossa näkyy verkko, deformaattorit ja parametrien asetukset.",
         "tags": {
           "0": "Live2D",
-          "1": "Rigging"
+          "1": "Takila"
         }
       },
       "live2d-animation-p4": {
-        "title": "Sample Live2D Rigging",
-        "description": "Sample Live2D rigging demonstration with clean parameter control and facial acting.",
+        "title": "Esimerkki Live2D-takilasta",
+        "description": "Esimerkki Live2D-takilaesittelystä puhtaalla parametriohjauksella ja kasvojen näyttämisellä.",
         "tags": {
           "0": "Live2D",
-          "1": "Rigging"
+          "1": "Takila"
         }
       },
       "live2d-animation-p5": {
-        "title": "Live2D Rigging Result",
-        "description": "Final Live2D rigging result showcasing smooth motion and expressive character performance.",
+        "title": "Live2D-takilauksen tulos",
+        "description": "Lopullinen Live2D-takilatulos, joka esittelee sujuvaa liikettä ja ilmeikäs hahmojen suorituskykyä.",
         "tags": {
           "0": "Live2D",
-          "1": "Result"
+          "1": "Tulos"
         }
       },
       "live2d-animation-p6": {
-        "title": "Live2D Film",
-        "description": "Cinematic Live2D animation with dynamic character motion and polished presentation.",
+        "title": "Live2D elokuva",
+        "description": "Elokuvamainen Live2D-animaatio dynaamisella hahmoliikkeellä ja hienostuneella esityksellä.",
         "tags": {
           "0": "Live2D",
-          "1": "Film"
+          "1": "Elokuva"
         }
       },
       "2d-anime-animation-p1": {
-        "title": "Japanese Style 2D Anime",
-        "description": "Japanese anime style 2D animation with dynamic posing, expressive acting, and polished line work.",
+        "title": "Japanilaistyylinen 2D-anime",
+        "description": "Japanilainen anime-tyylinen 2D-animaatio dynaamisella poseerauksella, ilmeikkäillä näyttelijöillä ja hienostuneella linjatyöllä.",
         "tags": {
           "0": "Anime",
           "1": "2D"
         }
       },
       "2d-anime-animation-p2": {
-        "title": "Anime Music Video",
-        "description": "2D anime music video with character driven storytelling and cinematic timing.",
+        "title": "Anime musiikkivideo",
+        "description": "2D-anime-musiikkivideo hahmovetoisella tarinankerronnalla ja elokuvamaisella ajoituksella.",
         "tags": {
-          "0": "Music Video",
+          "0": "Musiikki Video",
           "1": "Anime"
         }
       },
       "2d-anime-animation-p3": {
-        "title": "Meme Song Animation",
-        "description": "Playful 2D anime character animation timed to a meme song with bold motion and humor.",
+        "title": "Meemilaulu-animaatio",
+        "description": "Leikkisä 2D-anime-hahmoanimaatio, joka on ajoitettu meemikappaleeseen rohkealla liikkeellä ja huumorilla.",
         "tags": {
           "0": "Anime",
-          "1": "Music"
+          "1": "Musiikki"
         }
       },
       "kids-learning-animation-p1": {
-        "title": "123 Number Kids Learning Video",
-        "description": "Educational number learning video with engaging characters and playful motion for kids.",
+        "title": "123 Number Kids -oppimisvideo",
+        "description": "Opettava numerooppimisvideo, jossa on mukaansatempaavia hahmoja ja leikkisää liikettä lapsille.",
         "tags": {
-          "0": "Kids",
-          "1": "Learning"
+          "0": "Lapset",
+          "1": "Oppiminen"
         }
       },
       "kids-learning-animation-p2": {
-        "title": "Custom 2D Character",
-        "description": "Custom 2D character animation with expressive acting and colorful stylized design.",
+        "title": "Mukautettu 2D-hahmo",
+        "description": "Mukautettu 2D-hahmoanimaatio, jossa on ilmeikäs näytteleminen ja värikäs tyylitelty muotoilu.",
         "tags": {
-          "0": "Character",
+          "0": "Merkki",
           "1": "2D"
         }
       },
       "kids-learning-animation-p3": {
-        "title": "Cute 2D Cartoon Character",
-        "description": "Cute 2D cartoon character film with friendly personality and polished kids content motion.",
+        "title": "Söpö 2D-sarjakuvahahmo",
+        "description": "Söpö 2D-sarjakuvahahmoelokuva, jossa on ystävällinen persoonallisuus ja hienostunut lastensisältö.",
         "tags": {
-          "0": "Cartoon",
-          "1": "Kids"
+          "0": "Sarjakuva",
+          "1": "Lapset"
         }
       },
       "3d-cartoon-animation-p1": {
-        "title": "3D Cartoon Animation",
-        "description": "Stylized 3D cartoon animation with expressive character performance and colorful presentation.",
+        "title": "3D-sarjakuva-animaatio",
+        "description": "Tyylitelty 3D-sarjakuvaanimaatio, jossa on ilmeikäs hahmoesitys ja värikäs esitys.",
         "tags": {
-          "0": "Cartoon",
+          "0": "Sarjakuva",
           "1": "3D"
         }
       },
       "3d-cartoon-animation-p2": {
-        "title": "Cute 3D Cartoon Character Showcase",
-        "description": "Cute 3D cartoon character video showcase with friendly personality and polished motion.",
+        "title": "Söpö 3D-sarjakuvahahmoesittely",
+        "description": "Söpö 3D-sarjakuvahahmovideo, jossa on ystävällinen persoonallisuus ja hienostunut liike.",
         "tags": {
-          "0": "Character",
+          "0": "Merkki",
           "1": "Showcase"
         }
       },
       "3d-explainer-video-p1": {
-        "title": "Winergy 3D Presentation",
-        "description": "Winergy 3D brand presentation with cinematic camera work and polished product storytelling.",
+        "title": "Winergy 3D-esitys",
+        "description": "Winergy 3D -brändin esittely elokuvamaisella kameratyöllä ja hiotulla tuotetarinalla.",
         "tags": {
-          "0": "Explainer",
-          "1": "Winergy"
+          "0": "Selittäjä",
+          "1": "Viiniruoka"
         }
       },
       "3d-explainer-video-p2": {
-        "title": "Popper Product 360 Display",
-        "description": "Popper product 360 display film showcasing form, materials, and packaging detail.",
+        "title": "Popper Product 360 -näyttö",
+        "description": "Popper-tuote 360 ​​-näyttökalvo, joka esittelee muodon, materiaalit ja pakkauksen yksityiskohdat.",
         "tags": {
           "0": "360",
-          "1": "Popper"
+          "1": "Neppari"
         }
       },
       "3d-explainer-video-p3": {
-        "title": "Popper Animation",
-        "description": "Popper 3D product animation with dynamic motion and commercial presentation.",
+        "title": "Popper Animaatio",
+        "description": "Popper 3D -tuoteanimaatio dynaamisella liikkeellä ja kaupallisella esittelyllä.",
         "tags": {
-          "0": "Product",
-          "1": "Popper"
+          "0": "Tuote",
+          "1": "Neppari"
         }
       },
       "3d-explainer-video-p4": {
-        "title": "Popper Animation 2",
-        "description": "Alternate Popper animation pass with refined lighting and campaign ready pacing.",
+        "title": "Popper-animaatio 2",
+        "description": "Vaihtoehtoinen Popper-animaatiopassi hienostuneella valaistuksella ja kampanjavalmiilla tahdilla.",
         "tags": {
-          "0": "Product",
-          "1": "Popper"
+          "0": "Tuote",
+          "1": "Neppari"
         }
       },
       "3d-explainer-video-p5": {
-        "title": "Client Video of Poppes",
-        "description": "Client facing Poppes video presenting the product with clear storytelling and polished CGI.",
+        "title": "Poppesin asiakasvideo",
+        "description": "Asiakasta päin oleva Poppes-video esittelee tuotteen selkeällä tarinankerronnalla ja hienostuneella CGI:llä.",
         "tags": {
-          "0": "Client",
+          "0": "Asiakas",
           "1": "Poppes"
         }
       },
       "3d-medical-animation-p1": {
-        "title": "High Quality 3D Medical Anatomy Animation",
-        "description": "High quality 3D medical animation with detailed anatomy visualization and polished cinematic presentation.",
+        "title": "Laadukas 3D Medical Anatomia -animaatio",
+        "description": "Laadukas 3D-lääketieteellinen animaatio yksityiskohtaisella anatomian visualisoinnilla ja hienostuneella elokuvallisella esityksellä.",
         "tags": {
-          "0": "Medical",
-          "1": "Anatomy"
+          "0": "Lääketieteellinen",
+          "1": "Anatomia"
         }
       },
       "3d-medical-animation-p2": {
-        "title": "3D Medical Animation 2",
-        "description": "Second 3D medical animation sample with clear anatomical storytelling and commercial finish.",
+        "title": "Lääketieteellinen 3D-animaatio 2",
+        "description": "Toinen lääketieteellisen 3D-animaationäyte, jossa on selkeä anatominen tarinankerronta ja kaupallinen viimeistely.",
         "tags": {
-          "0": "Medical",
-          "1": "Healthcare"
+          "0": "Lääketieteellinen",
+          "1": "Terveydenhuolto"
         }
       },
       "3d-anime-character-p1": {
-        "title": "3D Anime Character Showcase to Client",
-        "description": "3D anime character showcase film presenting modeling, materials, and polished stylized performance for client review.",
+        "title": "3D-anime-hahmojen esittely asiakkaalle",
+        "description": "3D-anime-hahmon esittelyelokuva, joka esittelee mallinnusta, materiaaleja ja kiillotettua tyyliteltyä esitystä asiakkaan arvioitavaksi.",
         "tags": {
           "0": "Anime",
-          "1": "Character"
+          "1": "Merkki"
         }
       },
       "watch-animation-p1": {
-        "title": "Watch Product Film",
-        "description": "Cinematic 3D watch animation with studio lighting, material detail, and premium packshot finish.",
+        "title": "Katso tuoteelokuva",
+        "description": "Elokuvamainen 3D-kellon animaatio studiovalaistuksella, materiaalin yksityiskohdilla ja ensiluokkaisella pakettikuvalla.",
         "tags": {
-          "0": "Watch",
-          "1": "Product"
+          "0": "Katsella",
+          "1": "Tuote"
         }
       },
       "watch-animation-p2": {
-        "title": "Rifari Wrist Watch",
-        "description": "Photoreal Rifari wrist watch product film with refined reflections and commercial presentation.",
+        "title": "Rifari Rannekello",
+        "description": "Photoreal Rifari -rannekellotuotekalvo hienostuneilla heijastuksilla ja kaupallisella esittelyllä.",
         "tags": {
-          "0": "Watch",
+          "0": "Katsella",
           "1": "Rifari"
         }
       },
       "watch-animation-p3": {
-        "title": "Steel Reef Wrist Watch",
-        "description": "Steel Reef wrist watch animation with premium materials, lighting, and campaign ready motion.",
+        "title": "Steel Reef Rannekello",
+        "description": "Steel Reef -rannekelloanimaatio laadukkailla materiaaleilla, valaistuksella ja kampanjavalmiilla liikkeillä.",
         "tags": {
-          "0": "Watch",
-          "1": "Steel Reef"
+          "0": "Katsella",
+          "1": "Teräsriutta"
         }
       },
       "ryse-drink-3d-product-animation-p1": {
-        "title": "Ryse Drink 3D Product Animation",
-        "description": "Cinematic 3D Ryse drink product animation with studio lighting, material detail, and commercial finish.",
+        "title": "Ryse Drink 3D -tuoteanimaatio",
+        "description": "Elokuvamainen 3D Ryse -juomatuoteanimaatio studiovalaistuksella, materiaaliyksityiskohtilla ja kaupallisella viimeistelyllä.",
         "tags": {
-          "0": "Beverage",
-          "1": "Product"
+          "0": "Juoma",
+          "1": "Tuote"
         }
       },
       "ryse-drink-3d-product-animation-p2": {
-        "title": "Lemonade Product Film",
-        "description": "Photoreal lemonade product animation with fluid motion, glass materials, and campaign ready presentation.",
+        "title": "Lemonade tuotekalvo",
+        "description": "Valokuvallinen limonadituoteanimaatio, jossa on sujuvaa liikettä, lasimateriaaleja ja kampanjavalmis esittely.",
         "tags": {
-          "0": "Lemonade",
-          "1": "Product"
+          "0": "Limonadi",
+          "1": "Tuote"
         }
       },
       "3d-perfume-animation-p1": {
-        "title": "Anabomfim 3D Perfume Video",
-        "description": "Cinematic 3D Anabomfim perfume animation with studio lighting, glass materials, and premium packshot finish.",
+        "title": "Anabomfim 3D hajuvesivideo",
+        "description": "Elokuvamainen 3D Anabomfim -hajuvesianimaatio studiovalaistuksella, lasimateriaaleilla ja ensiluokkaisella pakettikuvalla.",
         "tags": {
-          "0": "Perfume",
+          "0": "Hajuvesi",
           "1": "Anabomfim"
         }
       },
       "3d-perfume-animation-p2": {
-        "title": "Valentino Perfume Video",
-        "description": "Luxury Valentino perfume product film with refined reflections, fluid motion, and commercial presentation.",
+        "title": "Valentinon hajuvesivideo",
+        "description": "Ylellinen Valentinon hajuvesikalvo hienostuneilla heijastuksilla, sujuvalla liikkeellä ja kaupallisella esittelyllä.",
         "tags": {
-          "0": "Perfume",
+          "0": "Hajuvesi",
           "1": "Valentino"
         }
       },
       "3d-perfume-animation-p3": {
-        "title": "Soul of Amir 3D Animation",
-        "description": "Soul of Amir 3D fragrance animation with cinematic camera work and campaign ready polish.",
+        "title": "Soul of Amir 3D-animaatio",
+        "description": "Soul of Amir 3D-tuoksuanimaatio elokuvamaisella kameratyöllä ja kampanjavalmiilla lakoilla.",
         "tags": {
-          "0": "Perfume",
-          "1": "Soul of Amir"
+          "0": "Hajuvesi",
+          "1": "Amirin sielu"
         }
       },
       "3d-gadget-animation-p1": {
-        "title": "Shoks Earbud Animation",
-        "description": "Cinematic 3D Shoks earbud product animation with refined materials and commercial finish.",
+        "title": "Shoks Earbud Animaatio",
+        "description": "Cinematic 3D Shoks -kuulokeanimaatio, jossa on hienostuneita materiaaleja ja kaupallinen viimeistely.",
         "tags": {
-          "0": "Earbud",
+          "0": "Kuulokkeet",
           "1": "Gadget"
         }
       },
       "3d-gadget-animation-p2": {
-        "title": "Headphone Earbud Product Film",
-        "description": "3D headphone and earbud product animation with dynamic camera moves and premium packshot presentation.",
+        "title": "Kuulokkeiden nappikuulokkeiden tuotekalvo",
+        "description": "3D-kuulokkeiden ja nappikuulokkeiden tuoteanimaatio dynaamisilla kameran liikkeillä ja ensiluokkaisella pakettikuvaesityksellä.",
         "tags": {
-          "0": "Headphone",
-          "1": "Product"
+          "0": "Kuulokkeet",
+          "1": "Tuote"
         }
       },
       "vape-animation-p1": {
         "title": "Jojo Vape",
-        "description": "Cinematic 3D Jojo vape product animation with refined materials and commercial finish.",
+        "description": "Elokuvamainen 3D Jojo vape -tuoteanimaatio hienostuneilla materiaaleilla ja kaupallisella viimeistelyllä.",
         "tags": {
           "0": "Vape",
           "1": "Jojo"
         }
       },
       "vape-animation-p2": {
-        "title": "Juicy Cranberry Vape",
-        "description": "Juicy cranberry vape product film with vibrant color, lighting, and campaign ready presentation.",
+        "title": "Mehukas karpalo Vape",
+        "description": "Mehukas karpalo vape -tuotekalvo eloisilla väreillä, valaistuksella ja kampanjavalmis esittelyllä.",
         "tags": {
           "0": "Vape",
-          "1": "Cranberry"
+          "1": "Karpalo"
         }
       },
       "bag-suitcase-animation-p1": {
-        "title": "Realistic 3D Product Animation for Bags",
-        "description": "Photoreal 3D bag and suitcase product animation with premium materials and commercial presentation.",
+        "title": "Realistinen 3D-tuoteanimaatio laukkuille",
+        "description": "Photoreal 3D laukku- ja matkalaukkutuoteanimaatio ensiluokkaisilla materiaaleilla ja kaupallisella esittelyllä.",
         "tags": {
-          "0": "Bag",
-          "1": "Suitcase"
+          "0": "Laukku",
+          "1": "Matkalaukku"
         }
       },
       "drop-band-animation-p1": {
-        "title": "Drop Band Animation Process",
-        "description": "Behind the scenes Drop Band animation process from reference through final motion.",
+        "title": "Drop Band -animaatioprosessi",
+        "description": "Kulissien takana Drop Band -animaatioprosessi viitteestä lopulliseen liikkeeseen.",
         "tags": {
-          "0": "Process",
+          "0": "Käsitellä",
           "1": "Drop Band"
         }
       },
       "drop-band-animation-p2": {
-        "title": "Drop Band Animation Result",
-        "description": "Final Drop Band product animation with refined materials, lighting, and campaign ready finish.",
+        "title": "Drop Band -animaatiotulos",
+        "description": "Final Drop Band -tuoteanimaatio hienostuneilla materiaaleilla, valaistuksella ja kampanjavalmis viimeistelyllä.",
         "tags": {
-          "0": "Product",
+          "0": "Tuote",
           "1": "Drop Band"
         }
       },
       "3d-bed-animation-p1": {
-        "title": "Realistic 3D Mattress Animation",
-        "description": "Realistic 3D mattress product animation with soft materials, lighting, and campaign ready presentation.",
+        "title": "Realistinen 3D-patjaanimaatio",
+        "description": "Realistinen 3D-patjatuoteanimaatio pehmeillä materiaaleilla, valaistuksella ja kampanjavalmiilla esittelyillä.",
         "tags": {
-          "0": "Mattress",
-          "1": "Product"
+          "0": "Patja",
+          "1": "Tuote"
         }
       },
       "3d-bed-animation-p2": {
-        "title": "Simba Bed Animation",
-        "description": "Simba bed animation with cinematic camera work, material detail, and commercial finish.",
+        "title": "Simba Bed Animaatio",
+        "description": "Simba-sänky-animaatio elokuvamaisella kameratyöllä, materiaalin yksityiskohdilla ja kaupallisella viimeistelyllä.",
         "tags": {
-          "0": "Bed",
+          "0": "Vuode",
           "1": "Simba"
         }
       },
       "ronix-p1": {
-        "title": "Ronix 3D Industrial Animation | Power Tool CGI Product Showcase",
-        "description": "Cinematic Ronix power tool CGI showcase with technical detail and commercial polish.",
+        "title": "Ronix 3D Industrial Animation | Sähkötyökalujen CGI-tuoteesittely",
+        "description": "Elokuvamainen Ronix-sähkötyökalu CGI-vitriinissä teknisillä yksityiskohdilla ja kaupallisella kiillotuksella.",
         "tags": {
-          "0": "Industrial",
+          "0": "Teollinen",
           "1": "Ronix"
         }
       },
       "mintec-p1": {
-        "title": "MinTec Industries Product Showcase",
-        "description": "MinTec industries product showcase with technical storytelling and polished CGI.",
+        "title": "MinTec Industries -tuoteesittely",
+        "description": "MinTec Industries -tuotenäyttely, jossa on tekninen tarinankerronta ja hiottu CGI.",
         "tags": {
-          "0": "Industrial",
+          "0": "Teollinen",
           "1": "MinTec"
         }
       },
       "mintec-p2": {
-        "title": "Process of Making MinTec 3D Animation",
-        "description": "Behind the scenes look at the MinTec 3D industrial animation production workflow.",
+        "title": "MinTec 3D -animaatioiden valmistusprosessi",
+        "description": "Kulissien taakse katso MinTecin 3D-teollisen animaation tuotannon työnkulku.",
         "tags": {
-          "0": "Process",
+          "0": "Käsitellä",
           "1": "MinTec"
         }
       },
       "integra-pw-p1": {
-        "title": "Integra PW Video Making Process",
-        "description": "Behind the scenes making process for the Integra PW industrial animation build.",
+        "title": "Integra PW -videon valmistusprosessi",
+        "description": "Kulissien takana valmistusprosessi Integra PW teollisuusanimaatiolle.",
         "tags": {
-          "0": "Process",
+          "0": "Käsitellä",
           "1": "Integra PW"
         }
       },
       "integra-pw-p2": {
-        "title": "Integra PW Final Results",
-        "description": "Final Integra PW industrial product animation with dynamic camera moves and commercial finish.",
+        "title": "Integra PW lopulliset tulokset",
+        "description": "Lopullinen Integra PW teollisuustuoteanimaatio dynaamisilla kameraliikkeillä ja kaupallisella viimeistelyllä.",
         "tags": {
-          "0": "Industrial",
+          "0": "Teollinen",
           "1": "Integra PW"
         }
       },
       "credex-p1": {
-        "title": "Credex Vacuum Cleaner with SFX",
-        "description": "Final high definition CREDEX vacuum cleaner animation with sound design and commercial polish.",
+        "title": "Credex-pölynimuri SFX:llä",
+        "description": "Viimeinen teräväpiirtoinen CREDEX-pölynimurin animaatio äänisuunnittelulla ja kaupallisella kiillotuksella.",
         "tags": {
-          "0": "Industrial",
+          "0": "Teollinen",
           "1": "Credex"
         }
       },
       "phr-1-p1": {
-        "title": "PHR 1 Electric Power Train",
-        "description": "Photoreal PHR 1 electric power train animation with cinematic camera work and technical detail.",
+        "title": "PHR 1 Sähköinen voimansiirto",
+        "description": "Photoreal PHR 1 -sähkövoimansiirto-animaatio elokuvamaisella kameratyöllä ja teknisillä yksityiskohdilla.",
         "tags": {
-          "0": "Industrial",
+          "0": "Teollinen",
           "1": "PHR 1"
         }
       },
       "atx-p1": {
-        "title": "ATX 3D Industrial Animation",
-        "description": "ATX 3D industrial product animation with technical lighting and campaign ready finish.",
+        "title": "ATX 3D teollisuusanimaatio",
+        "description": "ATX 3D teollisuustuoteanimaatio teknisellä valaistuksella ja kampanjavalmis viimeistelyllä.",
         "tags": {
-          "0": "Industrial",
+          "0": "Teollinen",
           "1": "ATX"
         }
       },
       "prov-gap-p1": {
-        "title": "Prov GAP 3D Industrial Animation",
-        "description": "Prov GAP industrial product animation with mechanical detail and cinematic presentation.",
+        "title": "Prov GAP 3D teollisuusanimaatio",
+        "description": "Prov GAP teollisuustuoteanimaatio mekaanisilla yksityiskohdilla ja elokuvallisella esityksellä.",
         "tags": {
-          "0": "Industrial",
+          "0": "Teollinen",
           "1": "Prov GAP"
         }
       },
       "autoz-crave-p1": {
         "title": "Autoz Crave Industrial Animation",
-        "description": "Autoz Crave 3D industrial product video with mechanical technical animation and commercial polish.",
+        "description": "Autoz Crave 3D teollisuustuotevideo mekaanisella teknisellä animaatiolla ja kaupallisella kiillotuksella.",
         "tags": {
-          "0": "Industrial",
+          "0": "Teollinen",
           "1": "Autoz Crave"
         }
       }
@@ -1380,7 +1380,7 @@
         "items": {
           "01": {
             "question": "Millaisia projekteja teette?",
-            "answer": "We produce animation, VFX, cinematics, motion graphics, product films, and brand films for film, series, advertising, and DTC brands. Briefs range from single hero assets to full campaign packages."
+            "answer": "Tuotamme animaatio-, VFX-, elokuvamusiikkia, liikegrafiikkaa, tuoteelokuvia ja brändielokuvia elokuva-, sarja-, mainos- ja DTC-brändeille. Alushousut vaihtelevat yksittäisistä sankareista kokonaisiin kampanjapaketteihin."
           },
           "02": {
             "question": "Missä Starlights Visuals sijaitsee?",
@@ -1397,15 +1397,15 @@
         "items": {
           "01": {
             "question": "Mitä palveluja tarjoatte?",
-            "answer": "Our core services include 2D and 3D animation, VFX, character and concept art, motion graphics, product animation, and cinematic trailers. We can handle individual disciplines or full pipeline production."
+            "answer": "Ydinpalveluihimme kuuluvat 2D- ja 3D-animaatio, VFX, hahmo- ja konseptitaide, liikegrafiikka, tuoteanimaatio ja elokuvaperäiset trailerit. Voimme hoitaa yksittäisiä tieteenaloja tai koko putkituotannon."
           },
           "02": {
             "question": "Työskentelettekö indie-tiimien ja suurten studioiden kanssa?",
-            "answer": "Yes. We partner with indie creators, mid size studios, and global brands. Scope and team size flex to match your budget and timeline without compromising craft."
+            "answer": "Kyllä. Teemme yhteistyötä indie-tekijöiden, keskikokoisten studioiden ja maailmanlaajuisten tuotemerkkien kanssa. Laajuus ja tiimin koko sopivat budjettiisi ja aikajanaasi tinkimättä käsityöstä."
           },
           "03": {
             "question": "Pystyttekö vastaamaan nykyistä taidetyyliämme?",
-            "answer": "Absolutely. We start with style frames and a look development pass aligned to your brand guidelines or visual world before committing to full production."
+            "answer": "Täysin. Aloitamme tyylikehyksillä ja brändisi ohjeiden tai visuaalisen maailman mukaisella ilmeen kehityspassilla ennen kuin sitoudumme täysimääräiseen tuotantoon."
           }
         }
       },
@@ -1432,26 +1432,28 @@
     "ctaButton": "Ota yhteyttä"
   },
   "writeReviewPage": {
-    "label": "Client reviews",
-    "title": "WRITE YOURS",
-    "subtitle": "Worked with Starlights Visuals? Share your experience so other brands can see the results.",
-    "name": "Your name",
-    "email": "Email",
-    "emailOptional": "Optional, not shown publicly",
-    "role": "Your role",
-    "company": "Company",
-    "rating": "Rating",
-    "headline": "Headline",
-    "headlinePlaceholder": "A short line that captures your experience",
-    "quote": "Your review",
-    "quotePlaceholder": "Tell us about the collaboration, communication, quality, and results…",
-    "submit": "Submit review",
-    "submitting": "Submitting…",
-    "successTitle": "Thank you",
-    "successDesc": "Your review was received. It will appear on the site after a quick approval check.",
-    "backHome": "Back to home",
-    "errorConfig": "Review submissions are temporarily unavailable. Please try again later.",
-    "errorQuoteShort": "Please write at least 20 characters in your review.",
-    "errorGeneric": "Something went wrong while sending your review. Please try again."
+    "label": "Asiakkaiden arvostelut",
+    "title": "KIRJOITA OMASI",
+    "subtitle": "Työskenteletkö Starlights Visualsin kanssa? Jaa kokemuksesi, jotta muut merkit näkevät tulokset.",
+    "name": "Sinun nimesi",
+    "email": "Sähköposti",
+    "emailOptional": "Valinnainen, ei näytetä julkisesti",
+    "role": "Sinun roolisi",
+    "company": "Yritys",
+    "rating": "Luokitus",
+    "headline": "Otsikko",
+    "headlinePlaceholder": "Lyhyt rivi, joka vangitsee kokemuksesi",
+    "quote": "Sinun arvostelusi",
+    "quotePlaceholder": "Kerro meille yhteistyöstä, viestinnästä, laadusta ja tuloksista…",
+    "submit": "Lähetä arvostelu",
+    "submitting": "Lähetetään…",
+    "successTitle": "Kiitos",
+    "successDesc": "Arvostelusi vastaanotettiin. Se tulee näkyviin sivustolle nopean hyväksyntätarkistuksen jälkeen.",
+    "backHome": "Takaisin kotiin",
+    "errorConfig": "Arvostelulähetykset ovat tilapäisesti poissa käytöstä. Yritä myöhemmin uudelleen.",
+    "errorQuoteShort": "Kirjoita arvosteluusi vähintään 20 merkkiä.",
+    "errorGeneric": "Jotain meni pieleen lähetettäessä arvosteluasi. Yritä uudelleen.",
+    "metaTitle": "Kirjoita arvostelu | Starlights Visuals",
+    "metaDescription": "Jaa kokemuksesi Starlights Visualsin kanssa työskentelystä. Kirjoita asiakasarvostelu kokemuksistamme."
   }
 }
