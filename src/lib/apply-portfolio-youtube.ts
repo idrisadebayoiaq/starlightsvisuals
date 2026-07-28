@@ -3,7 +3,10 @@ import { PROJECT_PLACEHOLDER } from "@/data/portfolio-placeholder";
 import { resolveVideoEmbed } from "@/lib/youtube";
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
-function mapProject(project: WorkProject): WorkProject | null {
+function mapProject(
+  project: WorkProject,
+  videoOverrides?: Record<string, string>,
+): WorkProject | null {
   if (project.mediaType === "image") return null;
 
   if (
@@ -14,7 +17,10 @@ function mapProject(project: WorkProject): WorkProject | null {
     return null;
   }
 
-  const configured = projectYoutubeIds[project.id as keyof typeof projectYoutubeIds] ?? "";
+  const configured =
+    videoOverrides?.[project.id] ||
+    projectYoutubeIds[project.id as keyof typeof projectYoutubeIds] ||
+    "";
   const resolved = resolveVideoEmbed(configured);
 
   if (resolved) {
@@ -34,9 +40,9 @@ function mapProject(project: WorkProject): WorkProject | null {
   };
 }
 
-function mapClient(client: WorkClient): WorkClient {
+function mapClient(client: WorkClient, videoOverrides?: Record<string, string>): WorkClient {
   const projects = client.projects
-    .map(mapProject)
+    .map((project) => mapProject(project, videoOverrides))
     .filter((project): project is WorkProject => project !== null);
 
   const hero =
@@ -51,9 +57,12 @@ function mapClient(client: WorkClient): WorkClient {
   };
 }
 
-export function applyPortfolioYoutube(categories: WorkCategory[]): WorkCategory[] {
+export function applyPortfolioYoutube(
+  categories: WorkCategory[],
+  videoOverrides?: Record<string, string>,
+): WorkCategory[] {
   return categories.map((category) => ({
     ...category,
-    clients: category.clients.map(mapClient),
+    clients: category.clients.map((client) => mapClient(client, videoOverrides)),
   }));
 }

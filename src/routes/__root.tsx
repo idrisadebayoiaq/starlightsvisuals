@@ -4,12 +4,14 @@ import {
   Link,
   createRootRouteWithContext,
   useRouter,
+  useRouterState,
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 
 import { I18nShell } from "@/components/I18nShell";
+import { AuthProvider } from "@/contexts/auth-context";
 import { SidebarProvider, useSidebar } from "@/contexts/sidebar-context";
 import { ThemeProvider, THEME_STORAGE_KEY } from "@/contexts/theme-context";
 import { cn } from "@/lib/utils";
@@ -129,11 +131,14 @@ function RootShell({ children }: { children: React.ReactNode }) {
 
 function MainContent() {
   const { desktopOpen } = useSidebar();
+  const pathname = useRouterState({ select: (s) => s.location.pathname });
+  const isAdmin = pathname.startsWith("/admin");
+
   return (
     <div
       className={cn(
         "transition-[padding-left] duration-300 ease-out",
-        desktopOpen ? "md:pl-[200px]" : "md:pl-0",
+        !isAdmin && (desktopOpen ? "md:pl-[200px]" : "md:pl-0"),
       )}
     >
       <Outlet />
@@ -146,11 +151,13 @@ function RootComponent() {
   return (
     <QueryClientProvider client={queryClient}>
       <ThemeProvider>
-        <SidebarProvider>
-          <I18nShell>
-            <MainContent />
-          </I18nShell>
-        </SidebarProvider>
+        <AuthProvider>
+          <SidebarProvider>
+            <I18nShell>
+              <MainContent />
+            </I18nShell>
+          </SidebarProvider>
+        </AuthProvider>
       </ThemeProvider>
     </QueryClientProvider>
   );

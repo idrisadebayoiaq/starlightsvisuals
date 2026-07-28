@@ -1,11 +1,11 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowLeft } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { getBlogPost } from "@/data/blog-posts";
-import { useLocalizedBlogPost, useLocalizedBlogPosts } from "@/hooks/use-localized-blog";
+import { useCmsBlogPost, useCmsBlogs } from "@/hooks/use-cms-blogs";
 
 export const Route = createFileRoute("/blog/$slug")({
   head: ({ params }) => {
@@ -24,19 +24,41 @@ export const Route = createFileRoute("/blog/$slug")({
       ],
     };
   },
-  loader: ({ params }) => {
-    const post = getBlogPost(params.slug);
-    if (!post) throw notFound();
-    return { post };
-  },
   component: BlogPostPage,
 });
 
 function BlogPostPage() {
   const { t } = useTranslation();
-  const { post: staticPost } = Route.useLoaderData();
-  const post = useLocalizedBlogPost(staticPost.slug) ?? staticPost;
-  const allPosts = useLocalizedBlogPosts();
+  const { slug } = Route.useParams();
+  const { post, loading } = useCmsBlogPost(slug);
+  const { posts: allPosts } = useCmsBlogs();
+
+  if (loading && !post) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-background text-muted-foreground">
+        {t("blogPage.loading", { defaultValue: "Loading…" })}
+      </div>
+    );
+  }
+
+  if (!post) {
+    return (
+      <div className="min-h-screen bg-background text-foreground">
+        <SiteHeader />
+        <div className="mx-auto max-w-3xl px-6 py-24 text-center">
+          <h1 className="font-display text-3xl tracking-tight">{t("errors.notFoundTitle")}</h1>
+          <p className="mt-3 text-muted-foreground">{t("errors.notFoundDesc")}</p>
+          <Link
+            to="/blog"
+            className="mt-8 inline-flex font-display text-xs uppercase tracking-widest text-neon-green"
+          >
+            {t("blogPage.backToBlog")}
+          </Link>
+        </div>
+        <SiteFooter />
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-background text-foreground">

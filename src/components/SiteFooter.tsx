@@ -134,6 +134,13 @@ export function SiteFooter() {
 
       <div className="border-t border-border/40 py-5 text-center text-xs text-muted-foreground">
         {t("footer.copyright", { year: new Date().getFullYear() })}
+        <span className="mx-2 text-border">·</span>
+        <Link
+          to="/admin/login"
+          className="text-xs text-muted-foreground/70 transition hover:text-muted-foreground"
+        >
+          {t("footer.adminLogin")}
+        </Link>
       </div>
     </footer>
   );

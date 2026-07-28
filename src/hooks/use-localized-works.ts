@@ -6,6 +6,8 @@ import {
   workCategories as staticCategories,
   type WorkCategorySlug,
 } from "@/data/portfolio-works";
+import { mergeVideoUrlsIntoCategories } from "@/hooks/use-cms-videos";
+import { usePortfolioVideoMap } from "@/hooks/use-portfolio-video-map";
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 function localizeProject(t: (key: string, options?: { defaultValue?: string }) => string, project: WorkProject): WorkProject {
@@ -61,11 +63,12 @@ function localizeCategory(
 
 export function useLocalizedCategories(): WorkCategory[] {
   const { t, i18n } = useTranslation();
+  const { map: videoMap } = usePortfolioVideoMap();
 
-  return useMemo(
-    () => staticCategories.map((category) => localizeCategory(t, category)),
-    [t, i18n.language],
-  );
+  return useMemo(() => {
+    const withCmsVideos = mergeVideoUrlsIntoCategories(staticCategories, videoMap);
+    return withCmsVideos.map((category) => localizeCategory(t, category));
+  }, [t, i18n.language, videoMap]);
 }
 
 export function useLocalizedCategory(slug: string): WorkCategory | undefined {

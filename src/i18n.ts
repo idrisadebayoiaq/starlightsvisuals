@@ -10,7 +10,7 @@ import {
 
 import en from "@/locales/en/common.json";
 
-const localeLoaders: Record<string, () => Promise<{ default: typeof en }>> = {
+const localeLoaders: Record<string, () => Promise<{ default: unknown }>> = {
   de: () => import("@/locales/de/common.json"),
   fr: () => import("@/locales/fr/common.json"),
   es: () => import("@/locales/es/common.json"),
@@ -47,7 +47,7 @@ export async function loadLocale(lang: string): Promise<void> {
   if (!loader) return;
 
   const module = await loader();
-  i18n.addResourceBundle(code, "common", module.default, true, true);
+  i18n.addResourceBundle(code, "common", module.default as typeof en, true, true);
   loadedLocales.add(code);
 }
 

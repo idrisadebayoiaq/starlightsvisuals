@@ -3,6 +3,7 @@ import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { HomeBlogSection } from "@/components/HomeBlogSection";
 import { HomeFaqSection } from "@/components/HomeFaqSection";
 import { TextTestimonialsSection } from "@/components/TextTestimonialsSection";
 import { TrustedBySection } from "@/components/TrustedBySection";
@@ -167,6 +168,7 @@ function Home() {
         </div>
       </section>
 
+      <HomeBlogSection />
       <TextTestimonialsSection />
       <VideoTestimonialsSection />
       <HomeFaqSection />

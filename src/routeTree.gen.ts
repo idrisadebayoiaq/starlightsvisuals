@@ -15,11 +15,18 @@ import { Route as PortfolioRouteImport } from './routes/portfolio'
 import { Route as FaqRouteImport } from './routes/faq'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as BlogRouteImport } from './routes/blog'
+import { Route as AdminRouteImport } from './routes/admin'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as BlogIndexRouteImport } from './routes/blog.index'
+import { Route as AdminIndexRouteImport } from './routes/admin.index'
 import { Route as WorksCategoryRouteImport } from './routes/works.$category'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
+import { Route as AdminVideosRouteImport } from './routes/admin.videos'
+import { Route as AdminReviewsRouteImport } from './routes/admin.reviews'
+import { Route as AdminLoginRouteImport } from './routes/admin.login'
+import { Route as AdminBlogsRouteImport } from './routes/admin.blogs'
+import { Route as AdminAdminsRouteImport } from './routes/admin.admins'
 import { Route as WorksCategoryIndexRouteImport } from './routes/works.$category.index'
 import { Route as WorksCategoryClientRouteImport } from './routes/works.$category.$client'
 
@@ -53,6 +60,11 @@ const BlogRoute = BlogRouteImport.update({
   path: '/blog',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AdminRoute = AdminRouteImport.update({
+  id: '/admin',
+  path: '/admin',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AboutRoute = AboutRouteImport.update({
   id: '/about',
   path: '/about',
@@ -68,6 +80,11 @@ const BlogIndexRoute = BlogIndexRouteImport.update({
   path: '/',
   getParentRoute: () => BlogRoute,
 } as any)
+const AdminIndexRoute = AdminIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => AdminRoute,
+} as any)
 const WorksCategoryRoute = WorksCategoryRouteImport.update({
   id: '/works/$category',
   path: '/works/$category',
@@ -77,6 +94,31 @@ const BlogSlugRoute = BlogSlugRouteImport.update({
   id: '/$slug',
   path: '/$slug',
   getParentRoute: () => BlogRoute,
+} as any)
+const AdminVideosRoute = AdminVideosRouteImport.update({
+  id: '/videos',
+  path: '/videos',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminReviewsRoute = AdminReviewsRouteImport.update({
+  id: '/reviews',
+  path: '/reviews',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminLoginRoute = AdminLoginRouteImport.update({
+  id: '/login',
+  path: '/login',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminBlogsRoute = AdminBlogsRouteImport.update({
+  id: '/blogs',
+  path: '/blogs',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminAdminsRoute = AdminAdminsRouteImport.update({
+  id: '/admins',
+  path: '/admins',
+  getParentRoute: () => AdminRoute,
 } as any)
 const WorksCategoryIndexRoute = WorksCategoryIndexRouteImport.update({
   id: '/',
@@ -92,14 +134,21 @@ const WorksCategoryClientRoute = WorksCategoryClientRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/admin': typeof AdminRouteWithChildren
   '/blog': typeof BlogRouteWithChildren
   '/contact': typeof ContactRoute
   '/faq': typeof FaqRoute
   '/portfolio': typeof PortfolioRoute
   '/services': typeof ServicesRoute
   '/write-review': typeof WriteReviewRoute
+  '/admin/admins': typeof AdminAdminsRoute
+  '/admin/blogs': typeof AdminBlogsRoute
+  '/admin/login': typeof AdminLoginRoute
+  '/admin/reviews': typeof AdminReviewsRoute
+  '/admin/videos': typeof AdminVideosRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/works/$category': typeof WorksCategoryRouteWithChildren
+  '/admin/': typeof AdminIndexRoute
   '/blog/': typeof BlogIndexRoute
   '/works/$category/$client': typeof WorksCategoryClientRoute
   '/works/$category/': typeof WorksCategoryIndexRoute
@@ -112,7 +161,13 @@ export interface FileRoutesByTo {
   '/portfolio': typeof PortfolioRoute
   '/services': typeof ServicesRoute
   '/write-review': typeof WriteReviewRoute
+  '/admin/admins': typeof AdminAdminsRoute
+  '/admin/blogs': typeof AdminBlogsRoute
+  '/admin/login': typeof AdminLoginRoute
+  '/admin/reviews': typeof AdminReviewsRoute
+  '/admin/videos': typeof AdminVideosRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/admin': typeof AdminIndexRoute
   '/blog': typeof BlogIndexRoute
   '/works/$category/$client': typeof WorksCategoryClientRoute
   '/works/$category': typeof WorksCategoryIndexRoute
@@ -121,14 +176,21 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/admin': typeof AdminRouteWithChildren
   '/blog': typeof BlogRouteWithChildren
   '/contact': typeof ContactRoute
   '/faq': typeof FaqRoute
   '/portfolio': typeof PortfolioRoute
   '/services': typeof ServicesRoute
   '/write-review': typeof WriteReviewRoute
+  '/admin/admins': typeof AdminAdminsRoute
+  '/admin/blogs': typeof AdminBlogsRoute
+  '/admin/login': typeof AdminLoginRoute
+  '/admin/reviews': typeof AdminReviewsRoute
+  '/admin/videos': typeof AdminVideosRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/works/$category': typeof WorksCategoryRouteWithChildren
+  '/admin/': typeof AdminIndexRoute
   '/blog/': typeof BlogIndexRoute
   '/works/$category/$client': typeof WorksCategoryClientRoute
   '/works/$category/': typeof WorksCategoryIndexRoute
@@ -138,14 +200,21 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/about'
+    | '/admin'
     | '/blog'
     | '/contact'
     | '/faq'
     | '/portfolio'
     | '/services'
     | '/write-review'
+    | '/admin/admins'
+    | '/admin/blogs'
+    | '/admin/login'
+    | '/admin/reviews'
+    | '/admin/videos'
     | '/blog/$slug'
     | '/works/$category'
+    | '/admin/'
     | '/blog/'
     | '/works/$category/$client'
     | '/works/$category/'
@@ -158,7 +227,13 @@ export interface FileRouteTypes {
     | '/portfolio'
     | '/services'
     | '/write-review'
+    | '/admin/admins'
+    | '/admin/blogs'
+    | '/admin/login'
+    | '/admin/reviews'
+    | '/admin/videos'
     | '/blog/$slug'
+    | '/admin'
     | '/blog'
     | '/works/$category/$client'
     | '/works/$category'
@@ -166,14 +241,21 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/about'
+    | '/admin'
     | '/blog'
     | '/contact'
     | '/faq'
     | '/portfolio'
     | '/services'
     | '/write-review'
+    | '/admin/admins'
+    | '/admin/blogs'
+    | '/admin/login'
+    | '/admin/reviews'
+    | '/admin/videos'
     | '/blog/$slug'
     | '/works/$category'
+    | '/admin/'
     | '/blog/'
     | '/works/$category/$client'
     | '/works/$category/'
@@ -182,6 +264,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  AdminRoute: typeof AdminRouteWithChildren
   BlogRoute: typeof BlogRouteWithChildren
   ContactRoute: typeof ContactRoute
   FaqRoute: typeof FaqRoute
@@ -235,6 +318,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/admin': {
+      id: '/admin'
+      path: '/admin'
+      fullPath: '/admin'
+      preLoaderRoute: typeof AdminRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/about': {
       id: '/about'
       path: '/about'
@@ -256,6 +346,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogIndexRouteImport
       parentRoute: typeof BlogRoute
     }
+    '/admin/': {
+      id: '/admin/'
+      path: '/'
+      fullPath: '/admin/'
+      preLoaderRoute: typeof AdminIndexRouteImport
+      parentRoute: typeof AdminRoute
+    }
     '/works/$category': {
       id: '/works/$category'
       path: '/works/$category'
@@ -269,6 +366,41 @@ declare module '@tanstack/react-router' {
       fullPath: '/blog/$slug'
       preLoaderRoute: typeof BlogSlugRouteImport
       parentRoute: typeof BlogRoute
+    }
+    '/admin/videos': {
+      id: '/admin/videos'
+      path: '/videos'
+      fullPath: '/admin/videos'
+      preLoaderRoute: typeof AdminVideosRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/reviews': {
+      id: '/admin/reviews'
+      path: '/reviews'
+      fullPath: '/admin/reviews'
+      preLoaderRoute: typeof AdminReviewsRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/login': {
+      id: '/admin/login'
+      path: '/login'
+      fullPath: '/admin/login'
+      preLoaderRoute: typeof AdminLoginRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/blogs': {
+      id: '/admin/blogs'
+      path: '/blogs'
+      fullPath: '/admin/blogs'
+      preLoaderRoute: typeof AdminBlogsRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/admins': {
+      id: '/admin/admins'
+      path: '/admins'
+      fullPath: '/admin/admins'
+      preLoaderRoute: typeof AdminAdminsRouteImport
+      parentRoute: typeof AdminRoute
     }
     '/works/$category/': {
       id: '/works/$category/'
@@ -286,6 +418,26 @@ declare module '@tanstack/react-router' {
     }
   }
 }
+
+interface AdminRouteChildren {
+  AdminAdminsRoute: typeof AdminAdminsRoute
+  AdminBlogsRoute: typeof AdminBlogsRoute
+  AdminLoginRoute: typeof AdminLoginRoute
+  AdminReviewsRoute: typeof AdminReviewsRoute
+  AdminVideosRoute: typeof AdminVideosRoute
+  AdminIndexRoute: typeof AdminIndexRoute
+}
+
+const AdminRouteChildren: AdminRouteChildren = {
+  AdminAdminsRoute: AdminAdminsRoute,
+  AdminBlogsRoute: AdminBlogsRoute,
+  AdminLoginRoute: AdminLoginRoute,
+  AdminReviewsRoute: AdminReviewsRoute,
+  AdminVideosRoute: AdminVideosRoute,
+  AdminIndexRoute: AdminIndexRoute,
+}
+
+const AdminRouteWithChildren = AdminRoute._addFileChildren(AdminRouteChildren)
 
 interface BlogRouteChildren {
   BlogSlugRoute: typeof BlogSlugRoute
@@ -316,6 +468,7 @@ const WorksCategoryRouteWithChildren = WorksCategoryRoute._addFileChildren(
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  AdminRoute: AdminRouteWithChildren,
   BlogRoute: BlogRouteWithChildren,
   ContactRoute: ContactRoute,
   FaqRoute: FaqRoute,

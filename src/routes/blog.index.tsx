@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { useLocalizedBlogPosts } from "@/hooks/use-localized-blog";
+import { useCmsBlogs } from "@/hooks/use-cms-blogs";
 
 export const Route = createFileRoute("/blog/")({
   head: () => ({
@@ -27,7 +27,7 @@ export const Route = createFileRoute("/blog/")({
 
 function BlogPage() {
   const { t } = useTranslation();
-  const blogPosts = useLocalizedBlogPosts();
+  const { posts: blogPosts, loading } = useCmsBlogs();
   const [featured, ...rest] = blogPosts;
 
   return (
@@ -46,6 +46,12 @@ function BlogPage() {
           </p>
         </div>
       </section>
+
+      {loading && !featured ? (
+        <section className="mx-auto max-w-7xl px-6 py-20 md:px-14">
+          <p className="text-sm text-muted-foreground">{t("blogPage.loading", { defaultValue: "Loading…" })}</p>
+        </section>
+      ) : null}
 
       {featured && (
         <section className="border-b border-border/40">
