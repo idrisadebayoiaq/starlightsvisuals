@@ -1463,6 +1463,7 @@
   "admin": {
     "title": "CMS",
     "loading": "Loading…",
+    "backHome": "Back to site",
     "signOut": "Sign out",
     "save": "Save",
     "saving": "Saving…",

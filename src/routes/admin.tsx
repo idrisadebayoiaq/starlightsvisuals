@@ -2,6 +2,7 @@ import { createFileRoute, Link, Navigate, Outlet, useRouterState } from "@tansta
 import {
   Clapperboard,
   FileText,
+  Home,
   LayoutDashboard,
   LogOut,
   MessageSquareQuote,
@@ -85,6 +86,13 @@ function AdminLayout() {
           })}
         </nav>
         <div className="mt-auto border-t border-border/50 pt-4 px-2">
+          <Link
+            to="/"
+            className="mb-3 inline-flex items-center gap-2 text-xs text-muted-foreground transition hover:text-neon-green"
+          >
+            <Home className="h-3.5 w-3.5" />
+            {t("admin.backHome")}
+          </Link>
           <p className="truncate text-xs text-muted-foreground">{user?.email}</p>
           <button
             type="button"
