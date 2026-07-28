@@ -6,8 +6,7 @@ import {
   workCategories as staticCategories,
   type WorkCategorySlug,
 } from "@/data/portfolio-works";
-import { mergeVideoUrlsIntoCategories } from "@/hooks/use-cms-videos";
-import { usePortfolioVideoMap } from "@/hooks/use-portfolio-video-map";
+import { mergeCmsPortfolioIntoCategories, useCmsClients, useCmsVideos } from "@/hooks/use-cms-videos";
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 function localizeProject(t: (key: string, options?: { defaultValue?: string }) => string, project: WorkProject): WorkProject {
@@ -63,12 +62,13 @@ function localizeCategory(
 
 export function useLocalizedCategories(): WorkCategory[] {
   const { t, i18n } = useTranslation();
-  const { map: videoMap } = usePortfolioVideoMap();
+  const { clients: cmsClients } = useCmsClients();
+  const { videos: cmsVideos } = useCmsVideos();
 
   return useMemo(() => {
-    const withCmsVideos = mergeVideoUrlsIntoCategories(staticCategories, videoMap);
-    return withCmsVideos.map((category) => localizeCategory(t, category));
-  }, [t, i18n.language, videoMap]);
+    const merged = mergeCmsPortfolioIntoCategories(staticCategories, cmsClients, cmsVideos);
+    return merged.map((category) => localizeCategory(t, category));
+  }, [t, i18n.language, cmsClients, cmsVideos]);
 }
 
 export function useLocalizedCategory(slug: string): WorkCategory | undefined {

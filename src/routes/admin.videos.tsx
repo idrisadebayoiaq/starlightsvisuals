@@ -4,22 +4,26 @@ import { useCallback, useEffect, useMemo, useState, type FormEvent } from "react
 import { useTranslation } from "react-i18next";
 
 import type { WorkCategorySlug } from "@/data/portfolio-works";
+import { workCategories } from "@/data/portfolio-works";
+import { slugify } from "@/hooks/use-cms-videos";
 import { uploadMediaFile } from "@/lib/cms-media";
-import { getSupabase, type PortfolioVideoRow } from "@/lib/supabase";
+import {
+  getSupabase,
+  type PortfolioClientRow,
+  type PortfolioVideoRow,
+} from "@/lib/supabase";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/admin/videos")({
   component: AdminVideosPage,
 });
 
-const CATEGORY_OPTIONS: WorkCategorySlug[] = [
-  "2d-animation",
-  "3d-animation",
-  "motion-graphics",
-  "video-editing",
-  "vfx",
-  "branding",
-];
+const CATEGORY_OPTIONS: { slug: WorkCategorySlug; label: string }[] = workCategories.map((c) => ({
+  slug: c.slug as WorkCategorySlug,
+  label: c.title,
+}));
+
+const NEW_CLIENT = "__new__";
 
 type VideoFormState = {
   project_key: string;
@@ -35,6 +39,13 @@ type VideoFormState = {
   sort_order: number;
   featured: boolean;
   published: boolean;
+};
+
+type NewClientForm = {
+  name: string;
+  slug: string;
+  industry: string;
+  description: string;
 };
 
 const emptyForm = (): VideoFormState => ({
@@ -53,10 +64,17 @@ const emptyForm = (): VideoFormState => ({
   published: true,
 });
 
+const emptyNewClient = (): NewClientForm => ({
+  name: "",
+  slug: "",
+  industry: "",
+  description: "",
+});
+
 function rowToForm(row: PortfolioVideoRow): VideoFormState {
   return {
     project_key: row.project_key ?? "",
-    category_slug: (CATEGORY_OPTIONS.includes(row.category_slug as WorkCategorySlug)
+    category_slug: (CATEGORY_OPTIONS.some((c) => c.slug === row.category_slug)
       ? row.category_slug
       : "2d-animation") as WorkCategorySlug,
     client_slug: row.client_slug ?? "",
@@ -79,10 +97,13 @@ const inputClass =
 function AdminVideosPage() {
   const { t } = useTranslation();
   const [videos, setVideos] = useState<PortfolioVideoRow[]>([]);
+  const [clients, setClients] = useState<PortfolioClientRow[]>([]);
   const [filter, setFilter] = useState<string>("all");
   const [loading, setLoading] = useState(true);
   const [editingId, setEditingId] = useState<string | null>(null);
   const [form, setForm] = useState<VideoFormState>(emptyForm);
+  const [clientMode, setClientMode] = useState<"existing" | "new">("existing");
+  const [newClient, setNewClient] = useState<NewClientForm>(emptyNewClient());
   const [open, setOpen] = useState(false);
   const [saving, setSaving] = useState(false);
   const [uploading, setUploading] = useState(false);
@@ -91,13 +112,22 @@ function AdminVideosPage() {
   const load = useCallback(async () => {
     setLoading(true);
     try {
-      const { data, error: queryError } = await getSupabase()
-        .from("portfolio_videos")
-        .select("*")
-        .order("sort_order", { ascending: true })
-        .order("created_at", { ascending: false });
-      if (queryError) throw queryError;
-      setVideos((data as PortfolioVideoRow[]) ?? []);
+      const [videosRes, clientsRes] = await Promise.all([
+        getSupabase()
+          .from("portfolio_videos")
+          .select("*")
+          .order("sort_order", { ascending: true })
+          .order("created_at", { ascending: false }),
+        getSupabase()
+          .from("portfolio_clients")
+          .select("*")
+          .order("sort_order", { ascending: true })
+          .order("name", { ascending: true }),
+      ]);
+      if (videosRes.error) throw videosRes.error;
+      if (clientsRes.error) throw clientsRes.error;
+      setVideos((videosRes.data as PortfolioVideoRow[]) ?? []);
+      setClients((clientsRes.data as PortfolioClientRow[]) ?? []);
     } catch (err) {
       console.error(err);
       setError(err instanceof Error ? err.message : t("admin.videos.loadError"));
@@ -110,6 +140,11 @@ function AdminVideosPage() {
     void load();
   }, [load]);
 
+  const clientsForCategory = useMemo(
+    () => clients.filter((c) => c.category_slug === form.category_slug),
+    [clients, form.category_slug],
+  );
+
   const filtered = useMemo(
     () => (filter === "all" ? videos : videos.filter((v) => v.category_slug === filter)),
     [videos, filter],
@@ -117,7 +152,10 @@ function AdminVideosPage() {
 
   function openCreate() {
     setEditingId(null);
-    setForm(emptyForm());
+    const next = emptyForm();
+    setForm(next);
+    setClientMode("existing");
+    setNewClient(emptyNewClient());
     setError(null);
     setOpen(true);
   }
@@ -125,8 +163,44 @@ function AdminVideosPage() {
   function openEdit(row: PortfolioVideoRow) {
     setEditingId(row.id);
     setForm(rowToForm(row));
+    setClientMode("existing");
+    setNewClient(emptyNewClient());
     setError(null);
     setOpen(true);
+  }
+
+  function onCategoryChange(slug: WorkCategorySlug) {
+    setForm((f) => ({
+      ...f,
+      category_slug: slug,
+      client_slug: "",
+      client_name: "",
+    }));
+    setClientMode("existing");
+    setNewClient(emptyNewClient());
+  }
+
+  function onClientSelect(value: string) {
+    if (value === NEW_CLIENT) {
+      setClientMode("new");
+      setForm((f) => ({ ...f, client_slug: "", client_name: "" }));
+      setNewClient(emptyNewClient());
+      return;
+    }
+
+    setClientMode("existing");
+    const selected = clientsForCategory.find((c) => c.slug === value);
+    setForm((f) => ({
+      ...f,
+      client_slug: selected?.slug ?? value,
+      client_name: selected?.name ?? f.client_name,
+    }));
+  }
+
+  function onNewClientNameChange(name: string) {
+    const slug = slugify(name);
+    setNewClient((c) => ({ ...c, name, slug: c.slug && c.slug !== slugify(c.name) ? c.slug : slug }));
+    setForm((f) => ({ ...f, client_name: name, client_slug: slug }));
   }
 
   async function onUpload(file: File | null) {
@@ -143,31 +217,82 @@ function AdminVideosPage() {
     }
   }
 
+  async function ensureClient(): Promise<{ slug: string; name: string }> {
+    if (clientMode === "existing") {
+      if (!form.client_slug.trim()) {
+        throw new Error(t("admin.videos.clientRequired"));
+      }
+      const existing = clientsForCategory.find((c) => c.slug === form.client_slug);
+      return {
+        slug: form.client_slug.trim(),
+        name: (existing?.name || form.client_name).trim(),
+      };
+    }
+
+    const name = newClient.name.trim();
+    const slug = (newClient.slug.trim() || slugify(name)).toLowerCase();
+    if (!name || !slug) {
+      throw new Error(t("admin.videos.newClientRequired"));
+    }
+
+    const { error: upsertError } = await getSupabase().from("portfolio_clients").upsert(
+      {
+        category_slug: form.category_slug,
+        slug,
+        name,
+        industry: newClient.industry.trim(),
+        description: newClient.description.trim(),
+        published: true,
+        updated_at: new Date().toISOString(),
+      },
+      { onConflict: "category_slug,slug" },
+    );
+    if (upsertError) throw upsertError;
+
+    return { slug, name };
+  }
+
+  function nextProjectKey(clientSlug: string): string {
+    const prefix = `${clientSlug}-p`;
+    const nums = videos
+      .filter((v) => (v.project_key || "").startsWith(prefix) || v.client_slug === clientSlug)
+      .map((v) => {
+        const match = (v.project_key || "").match(/-p(\d+)$/);
+        return match ? Number(match[1]) : 0;
+      });
+    const next = (nums.length ? Math.max(...nums) : 0) + 1;
+    return `${clientSlug}-p${next}`;
+  }
+
   async function onSave(e: FormEvent) {
     e.preventDefault();
     setSaving(true);
     setError(null);
-    const payload = {
-      project_key: form.project_key.trim() || null,
-      category_slug: form.category_slug,
-      client_slug: form.client_slug.trim(),
-      client_name: form.client_name.trim(),
-      title: form.title.trim(),
-      description: form.description.trim(),
-      video_url: form.video_url.trim(),
-      thumbnail_url: form.thumbnail_url.trim(),
-      year: Number(form.year) || new Date().getFullYear(),
-      tags: form.tags
-        .split(",")
-        .map((tag) => tag.trim())
-        .filter(Boolean),
-      sort_order: Number(form.sort_order) || 0,
-      featured: form.featured,
-      published: form.published,
-      updated_at: new Date().toISOString(),
-    };
 
     try {
+      const clientRef = await ensureClient();
+      const projectKey = form.project_key.trim() || nextProjectKey(clientRef.slug);
+
+      const payload = {
+        project_key: projectKey,
+        category_slug: form.category_slug,
+        client_slug: clientRef.slug,
+        client_name: clientRef.name,
+        title: form.title.trim(),
+        description: form.description.trim(),
+        video_url: form.video_url.trim(),
+        thumbnail_url: form.thumbnail_url.trim(),
+        year: Number(form.year) || new Date().getFullYear(),
+        tags: form.tags
+          .split(",")
+          .map((tag) => tag.trim())
+          .filter(Boolean),
+        sort_order: Number(form.sort_order) || 0,
+        featured: form.featured,
+        published: form.published,
+        updated_at: new Date().toISOString(),
+      };
+
       if (editingId) {
         const { error: updateError } = await getSupabase()
           .from("portfolio_videos")
@@ -203,6 +328,9 @@ function AdminVideosPage() {
     }
   }
 
+  const selectedClientValue =
+    clientMode === "new" ? NEW_CLIENT : form.client_slug || "";
+
   return (
     <div>
       <div className="flex flex-wrap items-center justify-between gap-4">
@@ -223,9 +351,9 @@ function AdminVideosPage() {
         <FilterChip active={filter === "all"} onClick={() => setFilter("all")}>
           {t("admin.videos.allCategories")}
         </FilterChip>
-        {CATEGORY_OPTIONS.map((slug) => (
-          <FilterChip key={slug} active={filter === slug} onClick={() => setFilter(slug)}>
-            {slug}
+        {CATEGORY_OPTIONS.map((opt) => (
+          <FilterChip key={opt.slug} active={filter === opt.slug} onClick={() => setFilter(opt.slug)}>
+            {opt.label}
           </FilterChip>
         ))}
       </div>
@@ -233,12 +361,12 @@ function AdminVideosPage() {
       {error && !open && <p className="mt-4 text-sm text-destructive">{error}</p>}
 
       <div className="mt-6 overflow-x-auto border border-border/60">
-        <table className="w-full min-w-[860px] text-left text-sm">
+        <table className="w-full min-w-[920px] text-left text-sm">
           <thead className="border-b border-border/60 bg-card/60 text-[10px] uppercase tracking-widest text-muted-foreground">
             <tr>
               <th className="px-4 py-3">{t("admin.videos.colTitle")}</th>
               <th className="px-4 py-3">{t("admin.videos.colCategory")}</th>
-              <th className="px-4 py-3">{t("admin.videos.colProjectKey")}</th>
+              <th className="px-4 py-3">{t("admin.videos.colClient")}</th>
               <th className="px-4 py-3">{t("admin.videos.colOrder")}</th>
               <th className="px-4 py-3">{t("admin.videos.colStatus")}</th>
               <th className="px-4 py-3 text-right">{t("admin.videos.colActions")}</th>
@@ -262,12 +390,15 @@ function AdminVideosPage() {
                 <tr key={video.id} className="border-b border-border/40">
                   <td className="px-4 py-3">
                     <p className="font-medium">{video.title}</p>
-                    <p className="text-xs text-muted-foreground">{video.client_name}</p>
+                    <p className="font-mono text-[10px] text-muted-foreground">
+                      {video.project_key || "—"}
+                    </p>
                   </td>
-                  <td className="px-4 py-3 text-muted-foreground">{video.category_slug}</td>
-                  <td className="px-4 py-3 font-mono text-xs text-muted-foreground">
-                    {video.project_key || "—"}
+                  <td className="px-4 py-3 text-muted-foreground">
+                    {CATEGORY_OPTIONS.find((c) => c.slug === video.category_slug)?.label ??
+                      video.category_slug}
                   </td>
+                  <td className="px-4 py-3 text-muted-foreground">{video.client_name}</td>
                   <td className="px-4 py-3 text-muted-foreground">{video.sort_order}</td>
                   <td className="px-4 py-3">
                     <span
@@ -323,6 +454,95 @@ function AdminVideosPage() {
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2">
+              <Field label={t("admin.videos.category")} className="sm:col-span-2">
+                <select
+                  required
+                  value={form.category_slug}
+                  onChange={(e) => onCategoryChange(e.target.value as WorkCategorySlug)}
+                  className={inputClass}
+                >
+                  {CATEGORY_OPTIONS.map((opt) => (
+                    <option key={opt.slug} value={opt.slug}>
+                      {opt.label}
+                    </option>
+                  ))}
+                </select>
+              </Field>
+
+              <Field label={t("admin.videos.client")} className="sm:col-span-2">
+                <select
+                  required={clientMode === "existing"}
+                  value={selectedClientValue}
+                  onChange={(e) => onClientSelect(e.target.value)}
+                  className={inputClass}
+                >
+                  <option value="" disabled>
+                    {t("admin.videos.selectClient")}
+                  </option>
+                  {clientsForCategory.map((client) => (
+                    <option key={client.id} value={client.slug}>
+                      {client.name}
+                    </option>
+                  ))}
+                  <option value={NEW_CLIENT}>{t("admin.videos.createNewClient")}</option>
+                </select>
+                {clientsForCategory.length === 0 && clientMode === "existing" && (
+                  <p className="mt-1 text-xs text-muted-foreground">
+                    {t("admin.videos.noClientsHint")}
+                  </p>
+                )}
+              </Field>
+
+              {clientMode === "new" && (
+                <div className="sm:col-span-2 grid gap-4 rounded-md border border-border/60 bg-background/40 p-4 sm:grid-cols-2">
+                  <p className="sm:col-span-2 text-[10px] uppercase tracking-widest text-neon-green">
+                    {t("admin.videos.newClientHeading")}
+                  </p>
+                  <Field label={t("admin.videos.clientName")}>
+                    <input
+                      required
+                      value={newClient.name}
+                      onChange={(e) => onNewClientNameChange(e.target.value)}
+                      className={inputClass}
+                      placeholder="Acme Studios"
+                    />
+                  </Field>
+                  <Field label={t("admin.videos.clientSlug")}>
+                    <input
+                      required
+                      value={newClient.slug}
+                      onChange={(e) => {
+                        const slug = slugify(e.target.value);
+                        setNewClient((c) => ({ ...c, slug }));
+                        setForm((f) => ({ ...f, client_slug: slug }));
+                      }}
+                      className={inputClass}
+                      placeholder="acme-studios"
+                    />
+                  </Field>
+                  <Field label={t("admin.videos.clientIndustry")}>
+                    <input
+                      value={newClient.industry}
+                      onChange={(e) =>
+                        setNewClient((c) => ({ ...c, industry: e.target.value }))
+                      }
+                      className={inputClass}
+                      placeholder="Product / Brand"
+                    />
+                  </Field>
+                  <Field label={t("admin.videos.clientDescription")} className="sm:col-span-2">
+                    <textarea
+                      rows={2}
+                      value={newClient.description}
+                      onChange={(e) =>
+                        setNewClient((c) => ({ ...c, description: e.target.value }))
+                      }
+                      className={inputClass}
+                    />
+                  </Field>
+                </div>
+              )}
+
               <Field label={t("admin.videos.fieldTitle")} className="sm:col-span-2">
                 <input
                   required
@@ -336,43 +556,10 @@ function AdminVideosPage() {
                   value={form.project_key}
                   onChange={(e) => setForm((f) => ({ ...f, project_key: e.target.value }))}
                   className={inputClass}
-                  placeholder="category-client-p1"
+                  placeholder={t("admin.videos.projectKeyHint")}
                 />
               </Field>
-              <Field label={t("admin.videos.category")}>
-                <select
-                  value={form.category_slug}
-                  onChange={(e) =>
-                    setForm((f) => ({
-                      ...f,
-                      category_slug: e.target.value as WorkCategorySlug,
-                    }))
-                  }
-                  className={inputClass}
-                >
-                  {CATEGORY_OPTIONS.map((slug) => (
-                    <option key={slug} value={slug}>
-                      {slug}
-                    </option>
-                  ))}
-                </select>
-              </Field>
-              <Field label={t("admin.videos.clientSlug")}>
-                <input
-                  value={form.client_slug}
-                  onChange={(e) => setForm((f) => ({ ...f, client_slug: e.target.value }))}
-                  className={inputClass}
-                />
-              </Field>
-              <Field label={t("admin.videos.clientName")}>
-                <input
-                  required
-                  value={form.client_name}
-                  onChange={(e) => setForm((f) => ({ ...f, client_name: e.target.value }))}
-                  className={inputClass}
-                />
-              </Field>
-              <Field label={t("admin.videos.videoUrl")} className="sm:col-span-2">
+              <Field label={t("admin.videos.videoUrl")}>
                 <input
                   required
                   value={form.video_url}

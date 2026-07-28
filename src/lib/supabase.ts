@@ -67,6 +67,21 @@ export type PortfolioVideoRow = {
   updated_at: string;
 };
 
+export type PortfolioClientRow = {
+  id: string;
+  category_slug: string;
+  slug: string;
+  name: string;
+  industry: string;
+  description: string;
+  logo_url: string;
+  banner_url: string;
+  sort_order: number;
+  published: boolean;
+  created_at: string;
+  updated_at: string;
+};
+
 export type AdminRow = {
   email: string;
   created_at: string;

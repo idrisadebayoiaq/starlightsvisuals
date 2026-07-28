@@ -16,9 +16,28 @@ import type { WorkProject } from "@/types/portfolio-works";
 export const Route = createFileRoute("/works/$category/$client")({
   loader: ({ params }) => {
     const category = getCategory(params.category);
+    if (!category) throw notFound();
+
     const client = getClient(params.category, params.client);
-    if (!category || !client) throw notFound();
-    return { category, client };
+    // Allow CMS-only clients: stub so the page can hydrate from live data
+    return {
+      category,
+      client:
+        client ??
+        ({
+          slug: params.client,
+          name: params.client,
+          industry: "",
+          description: "",
+          projectCount: 0,
+          logo: "",
+          banner: "",
+          services: [],
+          timeline: "",
+          tools: [],
+          projects: [],
+        } satisfies typeof category.clients[number]),
+    };
   },
   head: ({ loaderData }) => ({
     meta: [
@@ -46,7 +65,8 @@ function ClientProjectsPage() {
       <ProjectLightbox project={lightboxProject} onClose={() => setLightboxProject(null)} />
 
       <SectionReveal as="section" className="mx-auto max-w-7xl px-6 pb-20 pt-28 md:px-14 md:pt-32">
-        <h1 className="font-display text-3xl tracking-tight md:text-4xl">{t("works.projectsTitle")}</h1>
+        <p className="font-script text-2xl text-neon-green">{client.name}</p>
+        <h1 className="mt-2 font-display text-3xl tracking-tight md:text-4xl">{t("works.projectsTitle")}</h1>
 
         <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {client.projects.map((project, i) => (
@@ -80,6 +100,11 @@ function ClientProjectsPage() {
             </motion.button>
           ))}
         </div>
+        {client.projects.length === 0 && (
+          <p className="mt-8 text-sm text-muted-foreground">
+            {t("works.noProjects", { defaultValue: "No projects yet." })}
+          </p>
+        )}
       </SectionReveal>
 
       <SiteFooter />
