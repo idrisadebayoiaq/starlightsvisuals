@@ -4,7 +4,7 @@
     "star": "STERN",
     "lights": "LICHTER",
     "visuals": "BILDER",
-    "email": "sternlichtespeciale@gmail.com"
+    "email": "info@starlightvisualstudio.de"
   },
   "nav": {
     "portfolio": "Portfolio",
@@ -37,6 +37,7 @@
     "translate": "Übersetzen",
     "stayEnglish": "Auf Englisch bleiben",
     "stayDefault": "Bei {{language}} bleiben",
+    "currentLanguage": "Aktuell angezeigt: {{language}}",
     "close": "Übersetzungsvorschlag schließen"
   },
   "footer": {
@@ -53,6 +54,8 @@
     "copyright": "© {{year}} Starlights Visuals. Geschaffen mit Licht & Code.",
     "joining": "Beitritt…",
     "subscribeError": "Konnte momentan nicht abonniert werden. Bitte versuchen Sie es erneut oder senden Sie uns direkt eine E-Mail.",
+    "emailRequired": "Bitte geben Sie Ihre E-Mail-Adresse ein.",
+    "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
     "adminLogin": "Admin"
   },
   "home": {
@@ -300,7 +303,16 @@
       "other": "Andere"
     },
     "sending": "Senden…",
-    "errorGeneric": "Ihre Nachricht konnte nicht gesendet werden. Bitte senden Sie uns direkt eine E-Mail oder versuchen Sie es erneut."
+    "sentToast": "Nachricht erfolgreich gesendet.",
+    "sendAnother": "Weitere Nachricht senden",
+    "errorGeneric": "Ihre Nachricht konnte nicht gesendet werden. Bitte senden Sie uns direkt eine E-Mail oder versuchen Sie es erneut.",
+    "errors": {
+      "nameRequired": "Bitte geben Sie Ihren Namen ein.",
+      "emailRequired": "Bitte geben Sie Ihre E-Mail-Adresse ein.",
+      "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "serviceRequired": "Bitte wählen Sie einen Service.",
+      "messageRequired": "Bitte geben Sie eine Nachricht ein."
+    }
   },
   "portfolioPage": {
     "metaTitle": "Portfolio | Starlights-Visuals",
@@ -1463,6 +1475,8 @@
   },
   "admin": {
     "title": "CMS",
+    "metaTitle": "Admin | Starlights-Visuals",
+    "metaDescription": "Content-Management-Dashboard von Starlights Visuals.",
     "loading": "Laden…",
     "signOut": "Abmelden",
     "save": "Speichern",
@@ -1479,7 +1493,8 @@
       "blogs": "Blogs",
       "videos": "Videos",
       "reviews": "Rezensionen",
-      "admins": "Administratoren"
+      "admins": "Administratoren",
+      "contacts": "Kontakte"
     },
     "login": {
       "script": "Zugang zum Studio",
@@ -1503,7 +1518,8 @@
       "subtitle": "Übersicht über CMS-Inhalte.",
       "blogs": "Blogbeiträge",
       "videos": "Portfolio-Videos",
-      "pendingReviews": "Ausstehende Bewertungen"
+      "pendingReviews": "Ausstehende Bewertungen",
+      "contacts": "Kontakt führt"
     },
     "blogs": {
       "title": "Blogbeiträge",
@@ -1615,6 +1631,43 @@
       "addError": "Administrator konnte nicht hinzugefügt werden",
       "deleteError": "Der Administrator konnte nicht entfernt werden"
     },
-    "backHome": "Zurück zur Website"
+    "backHome": "Zurück zur Website",
+    "contacts": {
+      "title": "Kontakte",
+      "subtitle": "Kunden-E-Mails aus Kontaktformularen und Newsletter-Anmeldungen. Senden Sie ihnen eine Nachricht aus dem Studio-Posteingang.",
+      "loadError": "Kontakte konnten nicht geladen werden",
+      "deleteConfirm": "Diesen Beitrag löschen?",
+      "deleted": "Beitrag gelöscht.",
+      "deleteError": "Die Übermittlung konnte nicht gelöscht werden",
+      "unauthorized": "Melden Sie sich erneut an, um Nachrichten zu senden.",
+      "subjectRequired": "Betreff ist erforderlich.",
+      "messageRequired": "Nachricht ist erforderlich.",
+      "sendSuccess": "{{sent}} von {{total}} Nachricht(en) gesendet.",
+      "sendError": "Nachricht konnte nicht gesendet werden",
+      "empty": "Noch keine Kontakteingaben.",
+      "filter": {
+        "all": "Alle",
+        "contact": "Kontakt",
+        "newsletter": "Newsletter"
+      },
+      "colWhen": "Wann",
+      "colKind": "Typ",
+      "colName": "Name",
+      "colEmail": "E-Mail",
+      "colDetails": "Details",
+      "colActions": "Aktionen",
+      "customersTitle": "Kunden",
+      "customersCount": "{{count}} einzigartige E-Mails",
+      "noCustomers": "Noch keine Kunden-E-Mails.",
+      "unknownName": "Unbekannt",
+      "composeTitle": "Nachricht senden",
+      "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
+      "recipient": "Empfänger",
+      "allCustomers": "Alle Kunden",
+      "subject": "Thema",
+      "message": "Nachricht",
+      "send": "E-Mail senden",
+      "sending": "Senden…"
+    }
   }
 }

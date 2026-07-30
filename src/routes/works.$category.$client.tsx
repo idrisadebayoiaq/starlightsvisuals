@@ -12,6 +12,7 @@ import { ProjectVideoCard } from "@/components/works/ProjectVideoCard";
 import { getCategory, getClient } from "@/lib/portfolio-works";
 import { useLocalizedClient } from "@/hooks/use-localized-works";
 import type { WorkProject } from "@/types/portfolio-works";
+import { pageHead, siteMeta } from "@/lib/site-meta";
 
 export const Route = createFileRoute("/works/$category/$client")({
   loader: ({ params }) => {
@@ -39,17 +40,11 @@ export const Route = createFileRoute("/works/$category/$client")({
         } satisfies typeof category.clients[number]),
     };
   },
-  head: ({ loaderData }) => ({
-    meta: [
-      {
-        title: `${loaderData?.client.name ?? "Client"} | ${loaderData?.category.title ?? ""} | Starlights Visuals`,
-      },
-      {
-        name: "description",
-        content: loaderData?.client.description ?? "",
-      },
-    ],
-  }),
+  head: ({ loaderData }) =>
+    pageHead({
+      title: `${loaderData?.client.name ?? "Client"} | ${loaderData?.category.title ?? ""} | ${siteMeta.siteName}`,
+      description: loaderData?.client.description || siteMeta.portfolio.description,
+    }),
   component: ClientProjectsPage,
 });
 

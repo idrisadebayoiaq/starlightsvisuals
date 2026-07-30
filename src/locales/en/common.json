@@ -37,6 +37,7 @@
     "translate": "Translate",
     "stayEnglish": "Stay in English",
     "stayDefault": "Stay in {{language}}",
+    "currentLanguage": "Currently showing: {{language}}",
     "close": "Close translation suggestion"
   },
   "footer": {
@@ -1474,6 +1475,8 @@
   },
   "admin": {
     "title": "CMS",
+    "metaTitle": "Admin | Starlights Visuals",
+    "metaDescription": "Starlights Visuals content management dashboard.",
     "loading": "Loading…",
     "backHome": "Back to site",
     "signOut": "Sign out",

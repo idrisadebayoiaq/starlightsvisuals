@@ -5,23 +5,10 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Sparkles, Target, Zap, Heart } from "lucide-react";
 import heroImg from "@/assets/portfolio-character.jpg";
+import { pageHead, siteMeta } from "@/lib/site-meta";
 
 export const Route = createFileRoute("/about")({
-  head: () => ({
-    meta: [
-      { title: "About | Starlights Visuals" },
-      {
-        name: "description",
-        content:
-          "Starlight Visuals is a world-class animation studio creating exceptional visual experiences across industrial product animation, game animation, product visualization, and 2D & 3D character animation.",
-      },
-      { property: "og:title", content: "About Starlights Visuals" },
-      {
-        property: "og:description",
-        content: "World-class animation that captivates, educates, and inspires.",
-      },
-    ],
-  }),
+  head: () => pageHead(siteMeta.about),
   component: AboutPage,
 });
 

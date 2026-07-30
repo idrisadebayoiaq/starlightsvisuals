@@ -11,24 +11,11 @@ import { VideoTestimonialsSection } from "@/components/VideoTestimonialsSection"
 import { HeroBackgroundVideo } from "@/components/HeroBackgroundVideo";
 import { SelectedWorkCard } from "@/components/works/SelectedWorkCard";
 import { useLocalizedShowcaseCategories } from "@/hooks/use-localized-works";
+import { pageHead, siteMeta } from "@/lib/site-meta";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Starlights Visuals | Animation & VFX Studio" },
-      {
-        name: "description",
-        content:
-          "A creative studio for 2D and 3D animation, VFX, and cinematic storytelling. We bring worlds, characters and films to life.",
-      },
-      { property: "og:title", content: "Starlights Visuals | Animation & VFX Studio" },
-      {
-        property: "og:description",
-        content: "Animation, VFX, and cinematic storytelling. Worlds, characters, cinematics.",
-      },
-    ],
-  }),
+  head: () => pageHead(siteMeta.home),
   component: Home,
 });
 

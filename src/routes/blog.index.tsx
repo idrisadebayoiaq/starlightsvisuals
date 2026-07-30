@@ -5,23 +5,10 @@ import { useTranslation } from "react-i18next";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { useCmsBlogs } from "@/hooks/use-cms-blogs";
+import { pageHead, siteMeta } from "@/lib/site-meta";
 
 export const Route = createFileRoute("/blog/")({
-  head: () => ({
-    meta: [
-      { title: "Blog | Starlights Visuals" },
-      {
-        name: "description",
-        content:
-          "Insights on animation, VFX, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
-      },
-      { property: "og:title", content: "Blog | Starlights Visuals" },
-      {
-        property: "og:description",
-        content: "Studio notes on craft, production, and conversion-focused creative.",
-      },
-    ],
-  }),
+  head: () => pageHead(siteMeta.blog),
   component: BlogPage,
 });
 

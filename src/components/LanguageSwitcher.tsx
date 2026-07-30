@@ -3,11 +3,10 @@ import { Check, ChevronDown, Globe } from "lucide-react";
 import { memo, useCallback, useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 
-import { loadLocale } from "@/i18n";
+import { setPublicLanguage } from "@/i18n";
 
 import {
   DEFAULT_LANGUAGE,
-  LANGUAGE_PREFERENCE_KEY,
   supportedLanguages,
   type SupportedLanguage,
 } from "@/i18n/languages";
@@ -37,16 +36,10 @@ function LanguageSwitcherInner({
 
   const changeLanguage = useCallback(
     async (lang: SupportedLanguage) => {
-      await loadLocale(lang.code);
-      await i18n.changeLanguage(lang.code);
-      try {
-        localStorage.setItem(LANGUAGE_PREFERENCE_KEY, lang.code);
-      } catch {
-        /* storage blocked */
-      }
+      await setPublicLanguage(lang.code);
       setOpen(false);
     },
-    [i18n],
+    [],
   );
 
   useEffect(() => {

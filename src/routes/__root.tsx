@@ -17,7 +17,7 @@ import { SidebarProvider, useSidebar } from "@/contexts/sidebar-context";
 import { ThemeProvider, THEME_STORAGE_KEY } from "@/contexts/theme-context";
 import { cn } from "@/lib/utils";
 import appCss from "../styles.css?url";
-import faviconUrl from "@/assets/brand logo/favicon-transparent.png?url";
+import { pageHead, siteMeta } from "@/lib/site-meta";
 import "@/i18n";
 
 const themeBootScript = `(function(){try{var t=localStorage.getItem(${JSON.stringify(THEME_STORAGE_KEY)});if(t==="light"){document.documentElement.classList.add("light");document.documentElement.classList.remove("dark");document.documentElement.style.colorScheme="light";}else{document.documentElement.classList.add("dark");document.documentElement.classList.remove("light");document.documentElement.style.colorScheme="dark";}}catch(e){document.documentElement.classList.add("dark");}})();`;
@@ -86,17 +86,12 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
+    ...pageHead(siteMeta.home),
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Starlights Visuals | Animation & VFX Studio" },
-      {
-        name: "description",
-        content:
-          "Starlights Visuals is a creative studio specializing in cinematic 2D animation, high-quality 3D animation, and VFX.",
-      },
+      ...pageHead(siteMeta.home).meta,
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "Starlights Visuals" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -106,7 +101,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: "https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@300;400;500;600;700&family=Caveat:wght@500;700&display=swap",
       },
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", href: faviconUrl },
+      { rel: "icon", href: "/favicon.png", type: "image/png" },
+      { rel: "icon", href: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { rel: "icon", href: "/favicon-48.png", sizes: "48x48", type: "image/png" },
+      { rel: "apple-touch-icon", href: "/apple-touch-icon.png", sizes: "180x180" },
+      { rel: "manifest", href: "/site.webmanifest" },
     ],
   }),
   shellComponent: RootShell,

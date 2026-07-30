@@ -11,26 +11,13 @@ import {
 } from "@/components/ui/accordion";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
+import { pageHead, siteMeta } from "@/lib/site-meta";
 
 const SECTION_IDS = ["general", "services", "production"] as const;
 const ITEM_IDS = ["01", "02", "03"] as const;
 
 export const Route = createFileRoute("/faq")({
-  head: () => ({
-    meta: [
-      { title: "FAQ | Starlights Visuals" },
-      {
-        name: "description",
-        content:
-          "Frequently asked questions about Starlights Visuals | services, process, timelines, and how to start a project.",
-      },
-      { property: "og:title", content: "FAQ | Starlights Visuals" },
-      {
-        property: "og:description",
-        content: "Answers about our animation, VFX, and cinematic services, process, and delivery.",
-      },
-    ],
-  }),
+  head: () => pageHead(siteMeta.faq),
   component: FaqPage,
 });
 

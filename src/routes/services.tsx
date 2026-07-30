@@ -6,23 +6,10 @@ import { SiteFooter } from "@/components/SiteFooter";
 import {
   Film, Box, Palette, Wand2, Sparkles, Clapperboard, ArrowRight,
 } from "lucide-react";
+import { pageHead, siteMeta } from "@/lib/site-meta";
 
 export const Route = createFileRoute("/services")({
-  head: () => ({
-    meta: [
-      { title: "Services | Starlights Visuals" },
-      {
-        name: "description",
-        content:
-          "2D animation, 3D animation, character design, motion graphics, VFX, product animation, and cinematic trailers.",
-      },
-      { property: "og:title", content: "Services | Starlights Visuals" },
-      {
-        property: "og:description",
-        content: "Full stack creative services for animation, VFX, and cinematic storytelling.",
-      },
-    ],
-  }),
+  head: () => pageHead(siteMeta.services),
   component: ServicesPage,
 });
 

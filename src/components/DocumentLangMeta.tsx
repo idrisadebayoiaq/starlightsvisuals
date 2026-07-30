@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useRouterState } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 
-/** Keep document title/description in sync with the active language. */
+/** Keep document title/description (and social tags) in sync with the active language. */
 export function DocumentLangMeta() {
   const { t, i18n } = useTranslation();
   const pathname = useRouterState({ select: (s) => s.location.pathname });
@@ -13,22 +13,37 @@ export function DocumentLangMeta() {
 
     document.title = meta.title;
 
-    let descriptionTag = document.querySelector('meta[name="description"]');
-    if (!descriptionTag) {
-      descriptionTag = document.createElement("meta");
-      descriptionTag.setAttribute("name", "description");
-      document.head.appendChild(descriptionTag);
-    }
-    descriptionTag.setAttribute("content", meta.description);
+    upsertMeta("name", "description", meta.description);
+    upsertMeta("property", "og:title", meta.title);
+    upsertMeta("property", "og:description", meta.description);
+    upsertMeta("name", "twitter:title", meta.title);
+    upsertMeta("name", "twitter:description", meta.description);
   }, [pathname, t, i18n.language]);
 
   return null;
+}
+
+function upsertMeta(attr: "name" | "property", key: string, content: string) {
+  const selector = `meta[${attr}="${key}"]`;
+  let tag = document.querySelector(selector);
+  if (!tag) {
+    tag = document.createElement("meta");
+    tag.setAttribute(attr, key);
+    document.head.appendChild(tag);
+  }
+  tag.setAttribute("content", content);
 }
 
 function resolvePageMeta(
   pathname: string,
   t: (key: string) => string,
 ): { title: string; description: string } | null {
+  if (pathname.startsWith("/admin")) {
+    return {
+      title: t("admin.metaTitle"),
+      description: t("admin.metaDescription"),
+    };
+  }
   if (pathname === "/" || pathname === "") {
     return {
       title: t("home.metaTitle"),
@@ -77,5 +92,8 @@ function resolvePageMeta(
       description: t("writeReviewPage.metaDescription"),
     };
   }
-  return null;
+  return {
+    title: t("home.metaTitle"),
+    description: t("home.metaDescription"),
+  };
 }

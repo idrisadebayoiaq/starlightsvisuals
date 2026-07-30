@@ -7,21 +7,11 @@ import { toast } from "sonner";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { getErrorMessage } from "@/lib/error-message";
+import { pageHead, siteMeta } from "@/lib/site-meta";
 import { submitStudioForm } from "@/lib/submit-form";
 
 export const Route = createFileRoute("/contact")({
-  head: () => ({
-    meta: [
-      { title: "Contact | Starlights Visuals" },
-      {
-        name: "description",
-        content:
-          "Get in touch with Starlights Visuals for 2D & 3D animation, motion graphics, VFX, product animation, and cinematic trailer projects.",
-      },
-      { property: "og:title", content: "Contact Starlights Visuals" },
-      { property: "og:description", content: "Start a project with our animation & VFX studio." },
-    ],
-  }),
+  head: () => pageHead(siteMeta.contact),
   component: ContactPage,
 });
 

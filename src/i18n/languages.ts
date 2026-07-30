@@ -14,7 +14,11 @@ export const DEFAULT_LANGUAGE = "de";
 export const ADMIN_UI_LANGUAGE = "en";
 
 export const POPUP_DISMISSED_KEY = "starlights_i18n_popup_dismissed";
-export const LANGUAGE_PREFERENCE_KEY = "i18nextLng";
+/** Public language preference. Kept separate from i18next's legacy `i18nextLng` key. */
+export const LANGUAGE_PREFERENCE_KEY = "starlights_lng";
+/** Legacy key written by older builds / i18next defaults. */
+export const LEGACY_LANGUAGE_PREFERENCE_KEY = "i18nextLng";
+
 
 export const supportedLanguages: SupportedLanguage[] = [
   { code: "de", label: "German", nativeLabel: "Deutsch", country: "Germany" },

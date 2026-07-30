@@ -6,23 +6,10 @@ import { SectionReveal } from "@/components/SectionReveal";
 import { CategoryCard } from "@/components/works/CategoryCard";
 import { WorksCta } from "@/components/works/WorksCta";
 import { useLocalizedCategories } from "@/hooks/use-localized-works";
+import { pageHead, siteMeta } from "@/lib/site-meta";
 
 export const Route = createFileRoute("/portfolio")({
-  head: () => ({
-    meta: [
-      { title: "Portfolio | Starlights Visuals" },
-      {
-        name: "description",
-        content:
-          "Explore animation, VFX, motion graphics, video editing, and branding work by category and client.",
-      },
-      { property: "og:title", content: "Portfolio | Starlights Visuals" },
-      {
-        property: "og:description",
-        content: "Multi-level portfolio: categories, clients, and project showcases.",
-      },
-    ],
-  }),
+  head: () => pageHead(siteMeta.portfolio),
   component: PortfolioPage,
 });
 

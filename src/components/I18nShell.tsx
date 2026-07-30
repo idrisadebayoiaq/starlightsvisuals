@@ -24,13 +24,17 @@ export function I18nShell({ children }: { children: React.ReactNode }) {
         return;
       }
 
-      await applyPublicLanguage();
+      if (!cancelled) {
+        await applyPublicLanguage();
+      }
     })();
 
     return () => {
       cancelled = true;
     };
-  }, [isAdminRoute, i18n]);
+    // Only re-sync when entering/leaving admin — not on every language change.
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- intentional
+  }, [isAdminRoute]);
 
   useEffect(() => {
     const lang = i18n.language?.split("-")[0] ?? DEFAULT_LANGUAGE;

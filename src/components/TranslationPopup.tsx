@@ -10,7 +10,7 @@ import {
   getLanguage,
   normalizeLanguageCode,
 } from "@/i18n/languages";
-import { loadLocale } from "@/i18n";
+import { setPublicLanguage } from "@/i18n";
 import { cn } from "@/lib/utils";
 
 function getDetectedLanguage(): string {
@@ -23,22 +23,25 @@ export function TranslationPopup() {
   const { t, i18n } = useTranslation();
   const [visible, setVisible] = useState(false);
   const [detectedCode, setDetectedCode] = useState(DEFAULT_LANGUAGE);
+  const [busy, setBusy] = useState(false);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
 
     let dismissed: string | null = null;
-    let saved: string | null = null;
+    let modern: string | null = null;
     try {
       dismissed = localStorage.getItem(POPUP_DISMISSED_KEY);
-      saved = localStorage.getItem(LANGUAGE_PREFERENCE_KEY);
+      modern = localStorage.getItem(LANGUAGE_PREFERENCE_KEY);
     } catch {
       return;
     }
 
     if (dismissed === "true") return;
 
-    if (saved && saved !== DEFAULT_LANGUAGE) return;
+    // Only skip the popup when the visitor explicitly chose a non-default language
+    // via the new preference key (not the legacy i18nextLng default).
+    if (modern && normalizeLanguageCode(modern) !== DEFAULT_LANGUAGE) return;
 
     const detected = getDetectedLanguage();
     setDetectedCode(detected);
@@ -59,26 +62,27 @@ export function TranslationPopup() {
   }, []);
 
   const handleTranslate = useCallback(async () => {
-    await loadLocale(detectedCode);
-    await i18n.changeLanguage(detectedCode);
+    if (busy) return;
+    setBusy(true);
     try {
-      localStorage.setItem(LANGUAGE_PREFERENCE_KEY, detectedCode);
-      localStorage.setItem(POPUP_DISMISSED_KEY, "true");
-    } catch {
-      /* storage blocked */
+      await setPublicLanguage(detectedCode);
+      dismiss();
+    } finally {
+      setBusy(false);
     }
-    setVisible(false);
-  }, [detectedCode, i18n]);
+  }, [busy, detectedCode, dismiss]);
 
-  const handleStayDefault = useCallback(() => {
-    void i18n.changeLanguage(DEFAULT_LANGUAGE);
+  const handleStayDefault = useCallback(async () => {
+    if (busy) return;
+    setBusy(true);
     try {
-      localStorage.setItem(LANGUAGE_PREFERENCE_KEY, DEFAULT_LANGUAGE);
-    } catch {
-      /* storage blocked */
+      // Persist + apply German before closing so nothing can race back to English.
+      await setPublicLanguage(DEFAULT_LANGUAGE);
+      dismiss();
+    } finally {
+      setBusy(false);
     }
-    dismiss();
-  }, [dismiss, i18n]);
+  }, [busy, dismiss]);
 
   useEffect(() => {
     if (!visible) return;
@@ -90,6 +94,7 @@ export function TranslationPopup() {
   }, [visible, dismiss]);
 
   const lang = getLanguage(detectedCode);
+  const defaultLang = getLanguage(DEFAULT_LANGUAGE);
   if (!lang) return null;
 
   return (
@@ -113,7 +118,9 @@ export function TranslationPopup() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            onClick={dismiss}
+            onClick={() => {
+              void handleStayDefault();
+            }}
           />
 
           <motion.div
@@ -132,7 +139,9 @@ export function TranslationPopup() {
 
             <button
               type="button"
-              onClick={dismiss}
+              onClick={() => {
+                void handleStayDefault();
+              }}
               className="absolute right-4 top-4 z-10 flex h-8 w-8 items-center justify-center rounded-full border border-white/10 text-muted-foreground transition hover:border-neon-green hover:text-neon-green"
               aria-label={t("popup.close")}
             >
@@ -164,21 +173,32 @@ export function TranslationPopup() {
               <div className="mt-7 flex flex-col gap-3 sm:flex-row">
                 <button
                   type="button"
-                  onClick={handleTranslate}
-                  className="flex-1 rounded-full bg-neon-green px-5 py-3 font-display text-xs uppercase tracking-widest text-background transition hover:shadow-[0_0_28px_-6px_oklch(0.88_0.27_142/0.65)]"
+                  disabled={busy}
+                  onClick={() => {
+                    void handleStayDefault();
+                  }}
+                  className="flex-1 rounded-full bg-neon-green px-5 py-3 font-display text-xs uppercase tracking-widest text-background transition hover:shadow-[0_0_28px_-6px_oklch(0.88_0.27_142/0.65)] disabled:opacity-60"
                 >
-                  {t("popup.translate")} · {lang.nativeLabel}
+                  {t("popup.stayDefault", {
+                    language: defaultLang?.nativeLabel ?? "Deutsch",
+                  })}
                 </button>
                 <button
                   type="button"
-                  onClick={handleStayDefault}
-                  className="flex-1 rounded-full border border-white/15 px-5 py-3 font-display text-xs uppercase tracking-widest text-foreground transition hover:border-neon-green/50 hover:text-neon-green"
+                  disabled={busy}
+                  onClick={() => {
+                    void handleTranslate();
+                  }}
+                  className="flex-1 rounded-full border border-white/15 px-5 py-3 font-display text-xs uppercase tracking-widest text-foreground transition hover:border-neon-green/50 hover:text-neon-green disabled:opacity-60"
                 >
-                  {t("popup.stayDefault", {
-                    language: getLanguage(DEFAULT_LANGUAGE)?.nativeLabel ?? "Deutsch",
-                  })}
+                  {t("popup.translate")} · {lang.nativeLabel}
                 </button>
               </div>
+              <p className="mt-3 text-[11px] text-muted-foreground">
+                {t("popup.currentLanguage", {
+                  language: getLanguage(i18n.language?.split("-")[0] ?? DEFAULT_LANGUAGE)?.nativeLabel ?? "Deutsch",
+                })}
+              </p>
             </div>
           </motion.div>
         </motion.div>

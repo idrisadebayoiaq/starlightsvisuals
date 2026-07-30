@@ -4,6 +4,7 @@ import { initReactI18next } from "react-i18next";
 import {
   DEFAULT_LANGUAGE,
   LANGUAGE_PREFERENCE_KEY,
+  LEGACY_LANGUAGE_PREFERENCE_KEY,
   normalizeLanguageCode,
   supportedLanguageCodes,
 } from "@/i18n/languages";
@@ -52,20 +53,40 @@ export async function loadLocale(lang: string): Promise<void> {
   loadedLocales.add(code);
 }
 
-function readStoredLanguage(): string | null {
-  if (typeof window === "undefined") return null;
+/** Resolve the public-site language (stored preference or German default). */
+export function getPreferredPublicLanguage(): string {
+  if (typeof window === "undefined") return DEFAULT_LANGUAGE;
+
   try {
-    return localStorage.getItem(LANGUAGE_PREFERENCE_KEY);
+    const modern = localStorage.getItem(LANGUAGE_PREFERENCE_KEY);
+    if (modern) return normalizeLanguageCode(modern);
+
+    const legacy = localStorage.getItem(LEGACY_LANGUAGE_PREFERENCE_KEY);
+    if (!legacy) return DEFAULT_LANGUAGE;
+
+    // Older builds defaulted to English and wrote `i18nextLng=en` automatically.
+    // Treat that legacy default as unset so the new German default can apply.
+    // Explicit English after this update is stored in `starlights_lng`.
+    if (normalizeLanguageCode(legacy) === "en") {
+      return DEFAULT_LANGUAGE;
+    }
+
+    return normalizeLanguageCode(legacy);
   } catch {
-    return null;
+    return DEFAULT_LANGUAGE;
   }
 }
 
-/** Resolve the public-site language (stored preference or German default). */
-export function getPreferredPublicLanguage(): string {
-  const stored = readStoredLanguage();
-  if (!stored) return DEFAULT_LANGUAGE;
-  return normalizeLanguageCode(stored);
+export function persistPublicLanguage(code: string): void {
+  if (typeof window === "undefined") return;
+  const normalized = normalizeLanguageCode(code);
+  try {
+    localStorage.setItem(LANGUAGE_PREFERENCE_KEY, normalized);
+    // Keep legacy key in sync so old readers don't resurrect English.
+    localStorage.setItem(LEGACY_LANGUAGE_PREFERENCE_KEY, normalized);
+  } catch {
+    /* storage blocked */
+  }
 }
 
 /** Apply the visitor's public language (not used on admin routes). */
@@ -75,6 +96,14 @@ export async function applyPublicLanguage(): Promise<void> {
   if (i18n.language?.split("-")[0] !== code) {
     await i18n.changeLanguage(code);
   }
+}
+
+/** Explicitly switch the public site language and persist the choice. */
+export async function setPublicLanguage(code: string): Promise<void> {
+  const normalized = normalizeLanguageCode(code);
+  persistPublicLanguage(normalized);
+  await loadLocale(normalized);
+  await i18n.changeLanguage(normalized);
 }
 
 /** @deprecated Prefer applyPublicLanguage — kept for existing imports. */
@@ -89,8 +118,10 @@ void i18n.use(initReactI18next).init({
   },
   lng: DEFAULT_LANGUAGE,
   supportedLngs: supportedLanguageCodes,
+  nonExplicitSupportedLngs: true,
+  load: "languageOnly",
   // Missing German keys fall back to English (source of truth for new CMS copy).
-  fallbackLng: { default: ["en"] },
+  fallbackLng: ["en"],
   returnNull: false,
   ns: ["common"],
   defaultNS: "common",

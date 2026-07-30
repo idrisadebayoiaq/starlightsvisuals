@@ -11,26 +11,13 @@ import {
   type ClientTestimonialInsert,
 } from "@/lib/supabase";
 import { cn } from "@/lib/utils";
+import { pageHead, siteMeta } from "@/lib/site-meta";
 
 const inputClassName =
   "w-full rounded-md border border-border bg-background/60 px-4 py-3 text-sm text-foreground focus:border-neon-green focus:outline-none focus:ring-1 focus:ring-neon-green";
 
 export const Route = createFileRoute("/write-review")({
-  head: () => ({
-    meta: [
-      { title: "Write a Review | Starlights Visuals" },
-      {
-        name: "description",
-        content:
-          "Share your experience working with Starlights Visuals. Write a client review for our testimonials.",
-      },
-      { property: "og:title", content: "Write a Review | Starlights Visuals" },
-      {
-        property: "og:description",
-        content: "Tell others what it was like to collaborate with Starlights Visuals.",
-      },
-    ],
-  }),
+  head: () => pageHead(siteMeta.writeReview),
   component: WriteReviewPage,
 });
 

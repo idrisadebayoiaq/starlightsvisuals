@@ -27,9 +27,9 @@ export function SiteLogo({ className, imageClassName, onClick }: SiteLogoProps) 
         height={625}
         decoding="async"
         className={cn(
-          "h-auto w-[132px] max-w-full object-contain object-left",
+          "h-auto w-[96px] max-w-full object-contain object-left",
           "drop-shadow-[0_0_14px_rgba(76,255,61,0.45)]",
-          "md:w-[148px]",
+          "sm:w-[124px] md:w-[148px] lg:w-[160px]",
           imageClassName,
         )}
       />

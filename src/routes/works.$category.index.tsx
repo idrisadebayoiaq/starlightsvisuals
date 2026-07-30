@@ -11,6 +11,7 @@ import { WorksCta } from "@/components/works/WorksCta";
 import type { WorkCategorySlug } from "@/data/portfolio-works";
 import { getCategory } from "@/lib/portfolio-works";
 import { useLocalizedCategory } from "@/hooks/use-localized-works";
+import { pageHead, siteMeta } from "@/lib/site-meta";
 
 export const Route = createFileRoute("/works/$category/")({
   loader: ({ params }) => {
@@ -18,17 +19,11 @@ export const Route = createFileRoute("/works/$category/")({
     if (!category) throw notFound();
     return { category };
   },
-  head: ({ loaderData }) => ({
-    meta: [
-      {
-        title: `${loaderData?.category.title ?? "Work"} | Clients | Starlights Visuals`,
-      },
-      {
-        name: "description",
-        content: loaderData?.category.description ?? "",
-      },
-    ],
-  }),
+  head: ({ loaderData }) =>
+    pageHead({
+      title: `${loaderData?.category.title ?? "Work"} | ${siteMeta.siteName}`,
+      description: loaderData?.category.description || siteMeta.portfolio.description,
+    }),
   component: CategoryClientsPage,
 });
 
