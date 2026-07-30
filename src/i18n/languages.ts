@@ -8,14 +8,17 @@ export type SupportedLanguage = {
   routePrefix?: string;
 };
 
-export const DEFAULT_LANGUAGE = "en";
+export const DEFAULT_LANGUAGE = "de";
+
+/** Admin CMS stays in English regardless of the public site language. */
+export const ADMIN_UI_LANGUAGE = "en";
 
 export const POPUP_DISMISSED_KEY = "starlights_i18n_popup_dismissed";
 export const LANGUAGE_PREFERENCE_KEY = "i18nextLng";
 
 export const supportedLanguages: SupportedLanguage[] = [
-  { code: "en", label: "English", nativeLabel: "English", country: "United States" },
   { code: "de", label: "German", nativeLabel: "Deutsch", country: "Germany" },
+  { code: "en", label: "English", nativeLabel: "English", country: "United States" },
   { code: "fr", label: "French", nativeLabel: "Français", country: "France" },
   { code: "es", label: "Spanish", nativeLabel: "Español", country: "Spain" },
   { code: "ar", label: "Arabic", nativeLabel: "العربية", country: "Saudi Arabia", rtl: true },

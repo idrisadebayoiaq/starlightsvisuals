@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 
 import {
   DEFAULT_LANGUAGE,
+  LANGUAGE_PREFERENCE_KEY,
   POPUP_DISMISSED_KEY,
   getLanguage,
   normalizeLanguageCode,
@@ -30,7 +31,7 @@ export function TranslationPopup() {
     let saved: string | null = null;
     try {
       dismissed = localStorage.getItem(POPUP_DISMISSED_KEY);
-      saved = localStorage.getItem("i18nextLng");
+      saved = localStorage.getItem(LANGUAGE_PREFERENCE_KEY);
     } catch {
       return;
     }
@@ -61,6 +62,7 @@ export function TranslationPopup() {
     await loadLocale(detectedCode);
     await i18n.changeLanguage(detectedCode);
     try {
+      localStorage.setItem(LANGUAGE_PREFERENCE_KEY, detectedCode);
       localStorage.setItem(POPUP_DISMISSED_KEY, "true");
     } catch {
       /* storage blocked */
@@ -68,8 +70,13 @@ export function TranslationPopup() {
     setVisible(false);
   }, [detectedCode, i18n]);
 
-  const handleStayEnglish = useCallback(() => {
+  const handleStayDefault = useCallback(() => {
     void i18n.changeLanguage(DEFAULT_LANGUAGE);
+    try {
+      localStorage.setItem(LANGUAGE_PREFERENCE_KEY, DEFAULT_LANGUAGE);
+    } catch {
+      /* storage blocked */
+    }
     dismiss();
   }, [dismiss, i18n]);
 
@@ -164,10 +171,12 @@ export function TranslationPopup() {
                 </button>
                 <button
                   type="button"
-                  onClick={handleStayEnglish}
+                  onClick={handleStayDefault}
                   className="flex-1 rounded-full border border-white/15 px-5 py-3 font-display text-xs uppercase tracking-widest text-foreground transition hover:border-neon-green/50 hover:text-neon-green"
                 >
-                  {t("popup.stayEnglish")}
+                  {t("popup.stayDefault", {
+                    language: getLanguage(DEFAULT_LANGUAGE)?.nativeLabel ?? "Deutsch",
+                  })}
                 </button>
               </div>
             </div>

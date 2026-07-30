@@ -8,10 +8,10 @@ import {
   supportedLanguageCodes,
 } from "@/i18n/languages";
 
+import de from "@/locales/de/common.json";
 import en from "@/locales/en/common.json";
 
 const localeLoaders: Record<string, () => Promise<{ default: unknown }>> = {
-  de: () => import("@/locales/de/common.json"),
   fr: () => import("@/locales/fr/common.json"),
   es: () => import("@/locales/es/common.json"),
   ar: () => import("@/locales/ar/common.json"),
@@ -37,11 +37,12 @@ const localeLoaders: Record<string, () => Promise<{ default: unknown }>> = {
   cs: () => import("@/locales/cs/common.json"),
 };
 
-const loadedLocales = new Set<string>([DEFAULT_LANGUAGE]);
+/** German (default) + English (admin UI / fallback) ship in the main bundle. */
+const loadedLocales = new Set<string>(["de", "en"]);
 
 export async function loadLocale(lang: string): Promise<void> {
   const code = lang.split("-")[0];
-  if (loadedLocales.has(code) || code === DEFAULT_LANGUAGE) return;
+  if (loadedLocales.has(code)) return;
 
   const loader = localeLoaders[code];
   if (!loader) return;
@@ -60,25 +61,36 @@ function readStoredLanguage(): string | null {
   }
 }
 
-/** Apply saved language after hydration to avoid SSR/client mismatches. */
-export async function applyStoredLanguage(): Promise<void> {
+/** Resolve the public-site language (stored preference or German default). */
+export function getPreferredPublicLanguage(): string {
   const stored = readStoredLanguage();
-  if (!stored) return;
+  if (!stored) return DEFAULT_LANGUAGE;
+  return normalizeLanguageCode(stored);
+}
 
-  const code = normalizeLanguageCode(stored);
-  if (code === DEFAULT_LANGUAGE) return;
-
+/** Apply the visitor's public language (not used on admin routes). */
+export async function applyPublicLanguage(): Promise<void> {
+  const code = getPreferredPublicLanguage();
   await loadLocale(code);
-  await i18n.changeLanguage(code);
+  if (i18n.language?.split("-")[0] !== code) {
+    await i18n.changeLanguage(code);
+  }
+}
+
+/** @deprecated Prefer applyPublicLanguage — kept for existing imports. */
+export async function applyStoredLanguage(): Promise<void> {
+  await applyPublicLanguage();
 }
 
 void i18n.use(initReactI18next).init({
   resources: {
+    de: { common: de },
     en: { common: en },
   },
   lng: DEFAULT_LANGUAGE,
   supportedLngs: supportedLanguageCodes,
-  fallbackLng: { default: [DEFAULT_LANGUAGE] },
+  // Missing German keys fall back to English (source of truth for new CMS copy).
+  fallbackLng: { default: ["en"] },
   returnNull: false,
   ns: ["common"],
   defaultNS: "common",
@@ -93,7 +105,7 @@ void i18n.use(initReactI18next).init({
 
 export default i18n;
 
-/** Future-ready locale path helper for SEO routing e.g. /de/services */
+/** Future-ready locale path helper for SEO routing e.g. /fr/services */
 export function localePath(locale: string, path: string): string {
   if (locale === DEFAULT_LANGUAGE) return path;
   return `/${locale}${path === "/" ? "" : path}`;

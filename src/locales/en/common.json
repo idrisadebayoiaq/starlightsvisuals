@@ -36,6 +36,7 @@
     "message": "We noticed you're visiting from {{country}}. Would you like to translate this website to {{language}}?",
     "translate": "Translate",
     "stayEnglish": "Stay in English",
+    "stayDefault": "Stay in {{language}}",
     "close": "Close translation suggestion"
   },
   "footer": {

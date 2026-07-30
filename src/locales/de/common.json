@@ -36,6 +36,7 @@
     "message": "Wir haben festgestellt, dass Sie aus {{country}} zu uns kommen. Möchten Sie diese Website auf {{language}} übersetzen?",
     "translate": "Übersetzen",
     "stayEnglish": "Auf Englisch bleiben",
+    "stayDefault": "Bei {{language}} bleiben",
     "close": "Übersetzungsvorschlag schließen"
   },
   "footer": {
