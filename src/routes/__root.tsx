@@ -11,6 +11,7 @@ import {
 import { useTranslation } from "react-i18next";
 
 import { I18nShell } from "@/components/I18nShell";
+import { Toaster } from "@/components/ui/sonner";
 import { AuthProvider } from "@/contexts/auth-context";
 import { SidebarProvider, useSidebar } from "@/contexts/sidebar-context";
 import { ThemeProvider, THEME_STORAGE_KEY } from "@/contexts/theme-context";
@@ -155,6 +156,7 @@ function RootComponent() {
           <SidebarProvider>
             <I18nShell>
               <MainContent />
+              <Toaster richColors position="top-right" />
             </I18nShell>
           </SidebarProvider>
         </AuthProvider>

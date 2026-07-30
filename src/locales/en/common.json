@@ -4,7 +4,7 @@
     "star": "STAR",
     "lights": "LIGHTS",
     "visuals": "VISUALS",
-    "email": "sternlichtespeciale@gmail.com"
+    "email": "info@starlightvisualstudio.de"
   },
   "nav": {
     "portfolio": "Portfolio",
@@ -47,6 +47,8 @@
     "joining": "Joining…",
     "subscribed": "✦ You're in. Welcome to Starlights.",
     "subscribeError": "Could not subscribe right now. Please try again or email us directly.",
+    "emailRequired": "Please enter your email address.",
+    "emailInvalid": "Please enter a valid email address.",
     "tagline": "A creative studio bringing imagination to life through cinematic 2D animation, high quality 3D experiences, and VFX.",
     "explore": "Explore",
     "follow": "Follow",
@@ -310,7 +312,16 @@
     "send": "Send Message",
     "sending": "Sending…",
     "sent": "✦ Message received. We'll be in touch shortly.",
+    "sentToast": "Message sent successfully.",
+    "sendAnother": "Send another message",
     "errorGeneric": "Could not send your message. Please email us directly or try again.",
+    "errors": {
+      "nameRequired": "Please enter your name.",
+      "emailRequired": "Please enter your email address.",
+      "emailInvalid": "Please enter a valid email address.",
+      "serviceRequired": "Please choose a service.",
+      "messageRequired": "Please enter a message."
+    },
     "emailUs": "EMAIL US",
     "emailDesc": "For new projects, press, and partnerships.",
     "studio": "STUDIO",
@@ -1479,6 +1490,7 @@
       "blogs": "Blogs",
       "videos": "Videos",
       "reviews": "Reviews",
+      "contacts": "Contacts",
       "admins": "Admins"
     },
     "login": {
@@ -1503,7 +1515,45 @@
       "subtitle": "Overview of CMS content.",
       "blogs": "Blog posts",
       "videos": "Portfolio videos",
-      "pendingReviews": "Pending reviews"
+      "pendingReviews": "Pending reviews",
+      "contacts": "Contact leads"
+    },
+    "contacts": {
+      "title": "Contacts",
+      "subtitle": "Customer emails from contact forms and newsletter signups. Message them from the studio inbox.",
+      "loadError": "Failed to load contacts",
+      "deleteConfirm": "Delete this submission?",
+      "deleted": "Submission deleted.",
+      "deleteError": "Failed to delete submission",
+      "unauthorized": "Sign in again to send messages.",
+      "subjectRequired": "Subject is required.",
+      "messageRequired": "Message is required.",
+      "sendSuccess": "Sent {{sent}} of {{total}} message(s).",
+      "sendError": "Failed to send message",
+      "empty": "No contact submissions yet.",
+      "filter": {
+        "all": "All",
+        "contact": "Contact",
+        "newsletter": "Newsletter"
+      },
+      "colWhen": "When",
+      "colKind": "Type",
+      "colName": "Name",
+      "colEmail": "Email",
+      "colDetails": "Details",
+      "colActions": "Actions",
+      "customersTitle": "Customers",
+      "customersCount": "{{count}} unique emails",
+      "noCustomers": "No customer emails yet.",
+      "unknownName": "Unknown",
+      "composeTitle": "Send message",
+      "composeHint": "Emails are sent from info@starlightvisualstudio.de via Resend.",
+      "recipient": "Recipient",
+      "allCustomers": "All customers",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send email",
+      "sending": "Sending…"
     },
     "blogs": {
       "title": "Blog posts",

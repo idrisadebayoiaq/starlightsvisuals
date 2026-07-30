@@ -5,6 +5,7 @@ import {
   Home,
   LayoutDashboard,
   LogOut,
+  Mail,
   MessageSquareQuote,
   Shield,
 } from "lucide-react";
@@ -19,7 +20,13 @@ export const Route = createFileRoute("/admin")({
 });
 
 const navItems: {
-  to: "/admin" | "/admin/blogs" | "/admin/videos" | "/admin/reviews" | "/admin/admins";
+  to:
+    | "/admin"
+    | "/admin/blogs"
+    | "/admin/videos"
+    | "/admin/reviews"
+    | "/admin/contacts"
+    | "/admin/admins";
   labelKey: string;
   icon: typeof LayoutDashboard;
   exact?: boolean;
@@ -28,6 +35,7 @@ const navItems: {
   { to: "/admin/blogs", labelKey: "admin.nav.blogs", icon: FileText },
   { to: "/admin/videos", labelKey: "admin.nav.videos", icon: Clapperboard },
   { to: "/admin/reviews", labelKey: "admin.nav.reviews", icon: MessageSquareQuote },
+  { to: "/admin/contacts", labelKey: "admin.nav.contacts", icon: Mail },
   { to: "/admin/admins", labelKey: "admin.nav.admins", icon: Shield },
 ];
 

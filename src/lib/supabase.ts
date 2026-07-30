@@ -106,6 +106,16 @@ export type AdminRow = {
   created_by: string | null;
 };
 
+export type ContactSubmissionRow = {
+  id: string;
+  kind: "contact" | "newsletter";
+  name: string | null;
+  email: string;
+  project_type: string | null;
+  message: string | null;
+  created_at: string;
+};
+
 let client: SupabaseClient | null = null;
 
 export function isSupabaseConfigured() {

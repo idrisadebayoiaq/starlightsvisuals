@@ -1,10 +1,14 @@
 import { Link } from "@tanstack/react-router";
-import { Instagram, Youtube, Twitter, Linkedin, Mail, Send } from "lucide-react";
+import { Instagram, Youtube, Twitter, Linkedin, Loader2, Mail, Send } from "lucide-react";
 import { useMemo, useState, type FormEvent } from "react";
 import { useTranslation } from "react-i18next";
+import { toast } from "sonner";
 
 import { SiteLogo } from "@/components/SiteLogo";
+import { getErrorMessage } from "@/lib/error-message";
 import { submitStudioForm } from "@/lib/submit-form";
+
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export function SiteFooter() {
   const { t } = useTranslation();
@@ -28,18 +32,37 @@ export function SiteFooter() {
 
   async function onSubscribe(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    if (submitting) return;
+
+    const trimmed = email.trim();
+    if (!trimmed) {
+      const message = t("footer.emailRequired");
+      setError(message);
+      toast.error(message);
+      return;
+    }
+    if (!EMAIL_RE.test(trimmed)) {
+      const message = t("footer.emailInvalid");
+      setError(message);
+      toast.error(message);
+      return;
+    }
+
     setError(null);
     setSubmitting(true);
     try {
       await submitStudioForm({
         kind: "newsletter",
-        email: email.trim(),
+        email: trimmed,
       });
       setSubscribed(true);
       setEmail("");
+      toast.success(t("footer.subscribed"));
     } catch (err) {
       console.error(err);
-      setError(t("footer.subscribeError"));
+      const message = getErrorMessage(err, t("footer.subscribeError"));
+      setError(message);
+      toast.error(message);
     } finally {
       setSubmitting(false);
     }
@@ -64,16 +87,19 @@ export function SiteFooter() {
               type="email"
               required
               value={email}
+              disabled={submitting}
               onChange={(e) => setEmail(e.target.value)}
               placeholder={t("footer.emailPlaceholder")}
-              className="flex-1 rounded-md border border-border bg-background/60 px-4 py-3 text-sm placeholder:text-muted-foreground focus:border-neon-blue focus:outline-none focus:ring-1 focus:ring-neon-blue"
+              className="flex-1 rounded-md border border-border bg-background/60 px-4 py-3 text-sm placeholder:text-muted-foreground focus:border-neon-blue focus:outline-none focus:ring-1 focus:ring-neon-blue disabled:cursor-not-allowed disabled:opacity-60"
             />
             <button
               type="submit"
               disabled={submitting}
+              aria-busy={submitting}
               className="inline-flex items-center gap-2 rounded-md neon-gradient px-5 py-3 text-sm font-display uppercase tracking-widest text-background transition hover:glow-purple disabled:cursor-not-allowed disabled:opacity-60"
             >
-              <Send className="h-4 w-4" /> {submitting ? t("footer.joining") : t("footer.join")}
+              {submitting ? <Loader2 className="h-4 w-4 animate-spin" /> : <Send className="h-4 w-4" />}
+              {submitting ? t("footer.joining") : t("footer.join")}
             </button>
           </form>
           {error && <p className="mt-3 text-sm text-destructive">{error}</p>}

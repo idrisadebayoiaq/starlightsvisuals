@@ -1,10 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Clock, Instagram, Linkedin, Mail, MapPin, Send, Twitter, Youtube } from "lucide-react";
+import { Clock, Instagram, Linkedin, Loader2, Mail, MapPin, Send, Twitter, Youtube } from "lucide-react";
 import { useMemo, useState, type FormEvent } from "react";
 import { useTranslation } from "react-i18next";
+import { toast } from "sonner";
 
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
+import { getErrorMessage } from "@/lib/error-message";
 import { submitStudioForm } from "@/lib/submit-form";
 
 export const Route = createFileRoute("/contact")({
@@ -30,6 +32,8 @@ type ContactFormState = {
   message: string;
 };
 
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
 function ContactPage() {
   const { t } = useTranslation();
   const [sent, setSent] = useState(false);
@@ -54,8 +58,28 @@ function ContactPage() {
     [t],
   );
 
+  function validate(): string | null {
+    if (!form.name.trim()) return t("contactPage.errors.nameRequired");
+    if (!form.email.trim()) return t("contactPage.errors.emailRequired");
+    if (!EMAIL_RE.test(form.email.trim())) return t("contactPage.errors.emailInvalid");
+    if (!(form.projectType || projectTypes[0]).trim()) {
+      return t("contactPage.errors.serviceRequired");
+    }
+    if (!form.message.trim()) return t("contactPage.errors.messageRequired");
+    return null;
+  }
+
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    if (submitting) return;
+
+    const validationError = validate();
+    if (validationError) {
+      setError(validationError);
+      toast.error(validationError);
+      return;
+    }
+
     setError(null);
     setSubmitting(true);
 
@@ -69,16 +93,19 @@ function ContactPage() {
       });
       setSent(true);
       setForm({ name: "", email: "", projectType: "", message: "" });
+      toast.success(t("contactPage.sentToast"));
     } catch (err) {
       console.error(err);
-      setError(t("contactPage.errorGeneric"));
+      const message = getErrorMessage(err, t("contactPage.errorGeneric"));
+      setError(message);
+      toast.error(message);
     } finally {
       setSubmitting(false);
     }
   }
 
   const inputClassName =
-    "mt-2 w-full rounded-md border border-border bg-background/60 px-4 py-3 text-sm focus:border-neon-green focus:outline-none focus:ring-1 focus:ring-neon-green";
+    "mt-2 w-full rounded-md border border-border bg-background/60 px-4 py-3 text-sm focus:border-neon-green focus:outline-none focus:ring-1 focus:ring-neon-green disabled:cursor-not-allowed disabled:opacity-60";
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -105,9 +132,18 @@ function ContactPage() {
           <p className="mt-2 text-sm text-muted-foreground">{t("contactPage.formDesc")}</p>
 
           {sent ? (
-            <p className="mt-8 text-sm text-neon-green">{t("contactPage.sent")}</p>
+            <div className="mt-8 space-y-4">
+              <p className="text-sm text-neon-green">{t("contactPage.sent")}</p>
+              <button
+                type="button"
+                onClick={() => setSent(false)}
+                className="text-xs uppercase tracking-widest text-muted-foreground transition hover:text-neon-green"
+              >
+                {t("contactPage.sendAnother")}
+              </button>
+            </div>
           ) : (
-            <form onSubmit={onSubmit} className="mt-8 grid gap-5">
+            <form onSubmit={onSubmit} className="mt-8 grid gap-5" noValidate>
               <div className="grid gap-5 sm:grid-cols-2">
                 <div>
                   <label className="font-display text-xs uppercase tracking-widest text-muted-foreground">
@@ -117,6 +153,7 @@ function ContactPage() {
                     required
                     name="name"
                     value={form.name}
+                    disabled={submitting}
                     onChange={(e) => setForm((f) => ({ ...f, name: e.target.value }))}
                     className={inputClassName}
                   />
@@ -130,6 +167,7 @@ function ContactPage() {
                     required
                     name="email"
                     value={form.email}
+                    disabled={submitting}
                     onChange={(e) => setForm((f) => ({ ...f, email: e.target.value }))}
                     className={inputClassName}
                   />
@@ -143,6 +181,7 @@ function ContactPage() {
                   required
                   name="projectType"
                   value={form.projectType || projectTypes[0]}
+                  disabled={submitting}
                   onChange={(e) => setForm((f) => ({ ...f, projectType: e.target.value }))}
                   className={inputClassName}
                 >
@@ -162,6 +201,7 @@ function ContactPage() {
                   required
                   name="message"
                   value={form.message}
+                  disabled={submitting}
                   onChange={(e) => setForm((f) => ({ ...f, message: e.target.value }))}
                   className={inputClassName}
                 />
@@ -170,9 +210,14 @@ function ContactPage() {
               <button
                 type="submit"
                 disabled={submitting}
+                aria-busy={submitting}
                 className="inline-flex items-center justify-center gap-2 rounded-md neon-gradient px-6 py-3 font-display text-sm uppercase tracking-widest text-background transition hover:glow-purple disabled:cursor-not-allowed disabled:opacity-60"
               >
-                <Send className="h-4 w-4" />
+                {submitting ? (
+                  <Loader2 className="h-4 w-4 animate-spin" />
+                ) : (
+                  <Send className="h-4 w-4" />
+                )}
                 {submitting ? t("contactPage.sending") : t("contactPage.send")}
               </button>
             </form>
