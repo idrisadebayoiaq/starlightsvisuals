@@ -9,8 +9,8 @@ const localesDir = path.join(__dirname, "..", "src", "locales");
 const heroByLang = {
   de: {
     heroScript: "Geschichten in Bewegung —",
-    heroTitle1: "ANIMATION",
-    heroTitle2: "& VFX",
+    heroTitle1: "ANIMATIONEN",
+    heroTitle2: "UND VFX",
     heroBody:
       "Starlights Visuals erweckt Geschichten mit Animation und visuellen Effekten zum Leben, die Publikum fesseln und jeden Frame aufwerten. Wir animieren Fantasy-Kreaturen, menschliche Charaktere, Fahrzeuge, Umgebungen, Requisiten und Hard-Surface-Objekte — für Film, Serien, Werbung und Markenkampagnen.",
   },

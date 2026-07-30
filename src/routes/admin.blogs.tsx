@@ -8,6 +8,7 @@ import { uploadMediaFile } from "@/lib/cms-media";
 import { getErrorMessage } from "@/lib/error-message";
 import { getSupabase, type BlogPostRow } from "@/lib/supabase";
 import { cn } from "@/lib/utils";
+import { syncBlogTranslationsFn } from "@/server/cms-translations";
 
 export const Route = createFileRoute("/admin/blogs")({
   component: AdminBlogsPage,
@@ -148,6 +149,7 @@ function AdminBlogsPage() {
     };
 
     try {
+      let postId = editingId;
       if (editingId) {
         const { error: updateError } = await getSupabase()
           .from("blog_posts")
@@ -155,11 +157,23 @@ function AdminBlogsPage() {
           .eq("id", editingId);
         if (updateError) throw updateError;
       } else {
-        const { error: insertError } = await getSupabase().from("blog_posts").insert(payload);
+        const { data: inserted, error: insertError } = await getSupabase()
+          .from("blog_posts")
+          .insert(payload)
+          .select("id")
+          .single();
         if (insertError) throw insertError;
+        postId = inserted?.id ?? null;
       }
+
       setOpen(false);
       await load();
+
+      if (postId) {
+        void syncBlogTranslationsFn({ data: { postId } }).catch((err) => {
+          console.error("Failed to sync blog translations", err);
+        });
+      }
     } catch (err) {
       setError(getErrorMessage(err, t("admin.blogs.saveError")));
     } finally {

@@ -36,7 +36,9 @@
     "message": "Chúng tôi nhận thấy bạn đang truy cập từ {{country}}. Bạn có muốn dịch trang web này sang {{language}} không?",
     "translate": "Dịch",
     "stayEnglish": "Giữ tiếng Anh",
-    "close": "Đóng gợi ý dịch"
+    "close": "Đóng gợi ý dịch",
+    "stayDefault": "Ở lại bằng {{ngôn ngữ}}",
+    "currentLanguage": "Hiện đang hiển thị: {{ngôn ngữ}}"
   },
   "footer": {
     "newsletterTitle": "THAM GIA",
@@ -52,7 +54,9 @@
     "copyright": "© {{year}} Starlights Visuals. Được tạo bằng ánh sáng & code.",
     "joining": "Đang tham gia…",
     "subscribeError": "Không thể đăng ký ngay bây giờ. Vui lòng thử lại hoặc gửi email trực tiếp cho chúng tôi.",
-    "adminLogin": "Quản trị viên"
+    "adminLogin": "Quản trị viên",
+    "emailRequired": "Vui lòng nhập địa chỉ email của bạn.",
+    "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ."
   },
   "home": {
     "metaTitle": "Hình ảnh ánh sao | Xưởng hoạt hình & VFX",
@@ -299,7 +303,16 @@
       "other": "Khác"
     },
     "sending": "Đang gửi…",
-    "errorGeneric": "Không thể gửi tin nhắn của bạn. Vui lòng gửi email trực tiếp cho chúng tôi hoặc thử lại."
+    "errorGeneric": "Không thể gửi tin nhắn của bạn. Vui lòng gửi email trực tiếp cho chúng tôi hoặc thử lại.",
+    "sentToast": "Tin nhắn đã được gửi thành công.",
+    "sendAnother": "Gửi tin nhắn khác",
+    "errors": {
+      "nameRequired": "Vui lòng nhập tên của bạn.",
+      "emailRequired": "Vui lòng nhập địa chỉ email của bạn.",
+      "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ.",
+      "serviceRequired": "Vui lòng chọn một dịch vụ.",
+      "messageRequired": "Vui lòng nhập tin nhắn."
+    }
   },
   "portfolioPage": {
     "metaTitle": "Danh mục đầu tư | Hình ảnh ánh sao",
@@ -485,6 +498,14 @@
       "vfx": {
         "tag": "Hiệu ứng hình ảnh (VFX)",
         "title": "Hiệu ứng hình ảnh (VFX)"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "sản phẩm hoạt động"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "Hoạt động nghiệp vụ"
       }
     },
     "clients": {
@@ -1478,7 +1499,8 @@
       "blogs": "Blog",
       "videos": "Video",
       "reviews": "Đánh giá",
-      "admins": "Quản trị viên"
+      "admins": "Quản trị viên",
+      "contacts": "Danh bạ"
     },
     "login": {
       "script": "Quyền truy cập studio",
@@ -1502,7 +1524,8 @@
       "subtitle": "Tổng quan về nội dung CMS.",
       "blogs": "bài đăng trên blog",
       "videos": "Video danh mục đầu tư",
-      "pendingReviews": "Đang chờ đánh giá"
+      "pendingReviews": "Đang chờ đánh giá",
+      "contacts": "Liên hệ khách hàng tiềm năng"
     },
     "blogs": {
       "title": "bài đăng trên blog",
@@ -1614,6 +1637,45 @@
       "addError": "Không thêm được quản trị viên",
       "deleteError": "Không xóa được quản trị viên"
     },
-    "backHome": "Quay lại trang web"
+    "backHome": "Quay lại trang web",
+    "metaTitle": "Quản trị viên | Hình ảnh ánh sao",
+    "metaDescription": "Bảng điều khiển quản lý nội dung Starlights Visuals.",
+    "contacts": {
+      "title": "Danh bạ",
+      "subtitle": "Email của khách hàng từ biểu mẫu liên hệ và đăng ký bản tin. Nhắn tin cho họ từ hộp thư đến của studio.",
+      "loadError": "Không tải được danh bạ",
+      "deleteConfirm": "Xóa nội dung gửi này?",
+      "deleted": "Đã xóa bài gửi.",
+      "deleteError": "Không thể xóa bài nộp",
+      "unauthorized": "Đăng nhập lại để gửi tin nhắn.",
+      "subjectRequired": "Chủ đề là bắt buộc.",
+      "messageRequired": "Tin nhắn là bắt buộc.",
+      "sendSuccess": "Đã gửi {{sent}} trong tổng số {{total}} tin nhắn.",
+      "sendError": "Không gửi được tin nhắn",
+      "empty": "Chưa có thông tin liên hệ nào được gửi.",
+      "filter": {
+        "all": "Tất cả",
+        "contact": "Liên hệ",
+        "newsletter": "Bản tin"
+      },
+      "colWhen": "Khi",
+      "colKind": "Kiểu",
+      "colName": "Tên",
+      "colEmail": "E-mail",
+      "colDetails": "Chi tiết",
+      "colActions": "hành động",
+      "customersTitle": "Khách hàng",
+      "customersCount": "{{count}} email duy nhất",
+      "noCustomers": "Chưa có email của khách hàng.",
+      "unknownName": "Không xác định",
+      "composeTitle": "Gửi tin nhắn",
+      "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
+      "recipient": "Người nhận",
+      "allCustomers": "Tất cả khách hàng",
+      "subject": "Chủ thể",
+      "message": "Tin nhắn",
+      "send": "Gửi email",
+      "sending": "Đang gửi…"
+    }
   }
 }

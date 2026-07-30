@@ -36,7 +36,9 @@
     "message": "हमने देखा कि आप {{country}} से आ रहे हैं। क्या आप इस वेबसाइट का अनुवाद {{language}} में करना चाहेंगे?",
     "translate": "अनुवाद करें",
     "stayEnglish": "अंग्रेज़ी में रहें",
-    "close": "अनुवाद सुझाव बंद करें"
+    "close": "अनुवाद सुझाव बंद करें",
+    "stayDefault": "{{भाषा}} में रहें",
+    "currentLanguage": "वर्तमान में प्रदर्शित हो रहा है: {{भाषा}}"
   },
   "footer": {
     "newsletterTitle": "मंडली में",
@@ -52,7 +54,9 @@
     "copyright": "© {{year}} Starlights Visuals. प्रकाश और कोड से तैयार।",
     "joining": "शामिल हो रहे हैं...",
     "subscribeError": "अभी सदस्यता नहीं ली जा सकी. कृपया पुनः प्रयास करें या हमें सीधे ईमेल करें।",
-    "adminLogin": "व्यवस्थापक"
+    "adminLogin": "व्यवस्थापक",
+    "emailRequired": "कृपया अपना ईमेल एड्रेस इंटर करें।",
+    "emailInvalid": "कृपया एक मान्य ईमेल पता प्रविष्ट करें।"
   },
   "home": {
     "metaTitle": "तारों की रोशनी के दृश्य | एनिमेशन और वीएफएक्स स्टूडियो",
@@ -299,7 +303,16 @@
       "other": "अन्य"
     },
     "sending": "भेजा जा रहा है...",
-    "errorGeneric": "आपका संदेश नहीं भेजा जा सका. कृपया हमें सीधे ईमेल करें या पुनः प्रयास करें।"
+    "errorGeneric": "आपका संदेश नहीं भेजा जा सका. कृपया हमें सीधे ईमेल करें या पुनः प्रयास करें।",
+    "sentToast": "संदेश सफलतापूर्वक भेजा गया.",
+    "sendAnother": "दूसरा संदेश भेजें",
+    "errors": {
+      "nameRequired": "कृपया अपना नाम दर्ज करें।",
+      "emailRequired": "कृपया अपना ईमेल एड्रेस इंटर करें।",
+      "emailInvalid": "कृपया एक मान्य ईमेल पता प्रविष्ट करें।",
+      "serviceRequired": "कृपया एक सेवा चुनें.",
+      "messageRequired": "कृपया एक संदेश दर्ज करें."
+    }
   },
   "portfolioPage": {
     "metaTitle": "पोर्टफोलियो | Starlights Visuals",
@@ -485,6 +498,14 @@
       "vfx": {
         "tag": "दृश्य प्रभाव (वीएफएक्स)",
         "title": "दृश्य प्रभाव (वीएफएक्स)"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "उत्पाद एनीमेशन"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "औद्योगिक एनीमेशन"
       }
     },
     "clients": {
@@ -1478,7 +1499,8 @@
       "blogs": "ब्लॉग",
       "videos": "वीडियो",
       "reviews": "समीक्षा",
-      "admins": "व्यवस्थापक"
+      "admins": "व्यवस्थापक",
+      "contacts": "संपर्क"
     },
     "login": {
       "script": "स्टूडियो पहुंच",
@@ -1502,7 +1524,8 @@
       "subtitle": "सीएमएस सामग्री का अवलोकन.",
       "blogs": "ब्लॉग पोस्ट",
       "videos": "पोर्टफोलियो वीडियो",
-      "pendingReviews": "लंबित समीक्षाएँ"
+      "pendingReviews": "लंबित समीक्षाएँ",
+      "contacts": "संपर्क सूत्र"
     },
     "blogs": {
       "title": "ब्लॉग पोस्ट",
@@ -1614,6 +1637,45 @@
       "addError": "व्यवस्थापक जोड़ने में विफल",
       "deleteError": "व्यवस्थापक को हटाने में विफल"
     },
-    "backHome": "साइट पर वापस जाएँ"
+    "backHome": "साइट पर वापस जाएँ",
+    "metaTitle": "एडमिन | तारों की रोशनी के दृश्य",
+    "metaDescription": "स्टारलाइट्स विज़ुअल्स सामग्री प्रबंधन डैशबोर्ड।",
+    "contacts": {
+      "title": "संपर्क",
+      "subtitle": "संपर्क फ़ॉर्म और न्यूज़लेटर साइनअप से ग्राहक ईमेल। उन्हें स्टूडियो इनबॉक्स से संदेश भेजें।",
+      "loadError": "संपर्क लोड करने में विफल",
+      "deleteConfirm": "यह सबमिशन हटाएं?",
+      "deleted": "सबमिशन हटा दिया गया.",
+      "deleteError": "सबमिशन हटाने में विफल",
+      "unauthorized": "संदेश भेजने के लिए पुनः साइन इन करें.",
+      "subjectRequired": "विषय आवश्यक है.",
+      "messageRequired": "संदेश आवश्यक है.",
+      "sendSuccess": "कुल {{भेजा गया}} संदेश(संदेशों) को भेजा गया।",
+      "sendError": "संदेश भेजने में विफल",
+      "empty": "अभी तक कोई संपर्क सबमिशन नहीं.",
+      "filter": {
+        "all": "सभी",
+        "contact": "संपर्क",
+        "newsletter": "समाचार पत्रिका"
+      },
+      "colWhen": "कब",
+      "colKind": "प्रकार",
+      "colName": "नाम",
+      "colEmail": "ईमेल",
+      "colDetails": "विवरण",
+      "colActions": "कार्रवाई",
+      "customersTitle": "ग्राहकों",
+      "customersCount": "अद्वितीय ईमेल {{गिनती}}",
+      "noCustomers": "अभी तक कोई ग्राहक ईमेल नहीं.",
+      "unknownName": "अज्ञात",
+      "composeTitle": "मेसेज भेजें",
+      "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
+      "recipient": "प्राप्तकर्ता",
+      "allCustomers": "सभी ग्राहक",
+      "subject": "विषय",
+      "message": "संदेश",
+      "send": "ईमेल भेजें",
+      "sending": "भेजा जा रहा है..."
+    }
   }
 }

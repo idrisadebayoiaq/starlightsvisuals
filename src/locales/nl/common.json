@@ -36,7 +36,9 @@
     "message": "We zien dat u vanuit {{country}} bezoekt. Wilt u deze website vertalen naar het {{language}}?",
     "translate": "Vertalen",
     "stayEnglish": "Engels houden",
-    "close": "Vertaalsuggestie sluiten"
+    "close": "Vertaalsuggestie sluiten",
+    "stayDefault": "Verblijf in {{taal}}",
+    "currentLanguage": "Momenteel getoond: {{taal}}"
   },
   "footer": {
     "newsletterTitle": "WORD LID VAN DE",
@@ -52,7 +54,9 @@
     "copyright": "© {{year}} Starlights Visuals. Gemaakt met licht & code.",
     "joining": "Deelnemen…",
     "subscribeError": "Kon momenteel niet abonneren. Probeer het opnieuw of stuur ons direct een e-mail.",
-    "adminLogin": "Beheerder"
+    "adminLogin": "Beheerder",
+    "emailRequired": "Voer uw e-mailadres in.",
+    "emailInvalid": "Voer een geldig e-mailadres in."
   },
   "home": {
     "metaTitle": "Starlights-beelden | Animatie- en VFX-studio",
@@ -299,7 +303,16 @@
       "other": "Ander"
     },
     "sending": "Verzenden…",
-    "errorGeneric": "Kan uw bericht niet verzenden. Stuur ons een directe e-mail of probeer het opnieuw."
+    "errorGeneric": "Kan uw bericht niet verzenden. Stuur ons een directe e-mail of probeer het opnieuw.",
+    "sentToast": "Bericht succesvol verzonden.",
+    "sendAnother": "Stuur nog een bericht",
+    "errors": {
+      "nameRequired": "Voer uw naam in.",
+      "emailRequired": "Voer uw e-mailadres in.",
+      "emailInvalid": "Voer een geldig e-mailadres in.",
+      "serviceRequired": "Kies een dienst.",
+      "messageRequired": "Voer een bericht in."
+    }
   },
   "portfolioPage": {
     "metaTitle": "Portefeuille | Starlights-beelden",
@@ -485,6 +498,14 @@
       "vfx": {
         "tag": "Visuele effecten (VFX)",
         "title": "Visuele effecten (VFX)"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "Productanimatie"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "Industriële animatie"
       }
     },
     "clients": {
@@ -1478,7 +1499,8 @@
       "blogs": "Blogs",
       "videos": "Video's",
       "reviews": "Recensies",
-      "admins": "Beheerders"
+      "admins": "Beheerders",
+      "contacts": "Contacten"
     },
     "login": {
       "script": "Toegang tot studio",
@@ -1502,7 +1524,8 @@
       "subtitle": "Overzicht van CMS-inhoud.",
       "blogs": "Blogberichten",
       "videos": "Portfoliovideo's",
-      "pendingReviews": "Beoordelingen in behandeling"
+      "pendingReviews": "Beoordelingen in behandeling",
+      "contacts": "Neem contact op met leads"
     },
     "blogs": {
       "title": "Blogberichten",
@@ -1614,6 +1637,45 @@
       "addError": "Kan beheerder niet toevoegen",
       "deleteError": "Kan de beheerder niet verwijderen"
     },
-    "backHome": "Terug naar de site"
+    "backHome": "Terug naar de site",
+    "metaTitle": "Beheerder | Sterrenlichten-beelden",
+    "metaDescription": "Starlights Visuals dashboard voor inhoudsbeheer.",
+    "contacts": {
+      "title": "Contacten",
+      "subtitle": "E-mails van klanten via contactformulieren en aanmeldingen voor nieuwsbrieven. Stuur ze een bericht vanuit de studio-inbox.",
+      "loadError": "Kan contacten niet laden",
+      "deleteConfirm": "Deze inzending verwijderen?",
+      "deleted": "Inzending verwijderd.",
+      "deleteError": "Kan inzending niet verwijderen",
+      "unauthorized": "Meld u opnieuw aan om berichten te verzenden.",
+      "subjectRequired": "Onderwerp is vereist.",
+      "messageRequired": "Bericht is vereist.",
+      "sendSuccess": "Verzonden {{verzonden}} van {{total}} bericht(en).",
+      "sendError": "Kan bericht niet verzenden",
+      "empty": "Nog geen contactinzendingen.",
+      "filter": {
+        "all": "Alle",
+        "contact": "Contact",
+        "newsletter": "Nieuwsbrief"
+      },
+      "colWhen": "Wanneer",
+      "colKind": "Type",
+      "colName": "Naam",
+      "colEmail": "E-mail",
+      "colDetails": "Details",
+      "colActions": "Acties",
+      "customersTitle": "Klanten",
+      "customersCount": "{{count}} unieke e-mails",
+      "noCustomers": "Nog geen klant-e-mails.",
+      "unknownName": "Onbekend",
+      "composeTitle": "Bericht verzenden",
+      "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
+      "recipient": "Ontvanger",
+      "allCustomers": "Alle klanten",
+      "subject": "Onderwerp",
+      "message": "Bericht",
+      "send": "E-mail verzenden",
+      "sending": "Verzenden…"
+    }
   }
 }

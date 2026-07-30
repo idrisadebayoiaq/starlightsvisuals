@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import { PROJECT_PLACEHOLDER } from "@/data/portfolio-placeholder";
 import {
@@ -8,9 +9,83 @@ import {
   type PortfolioVideoRow,
 } from "@/lib/supabase";
 import { resolveVideoEmbed } from "@/lib/youtube";
+import { ensureCmsTranslationsBatchFn, type CmsTranslationFields } from "@/server/cms-translations";
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
+const BATCH_SIZE = 40;
+
+async function ensureTranslationsBatched(
+  entityType: "portfolio_video" | "portfolio_client" | "blog_post",
+  entityIds: string[],
+  locale: string,
+): Promise<Record<string, CmsTranslationFields>> {
+  const fieldsById: Record<string, CmsTranslationFields> = {};
+  for (let i = 0; i < entityIds.length; i += BATCH_SIZE) {
+    const chunk = entityIds.slice(i, i + BATCH_SIZE);
+    const { fieldsById: chunkFields } = await ensureCmsTranslationsBatchFn({
+      data: { entityType, entityIds: chunk, locale },
+    });
+    Object.assign(fieldsById, chunkFields);
+  }
+  return fieldsById;
+}
+
+async function translateVideoRows(
+  rows: PortfolioVideoRow[],
+  locale: string,
+): Promise<PortfolioVideoRow[]> {
+  if (locale === "en" || rows.length === 0) return rows;
+  const ids = rows.map((row) => row.id);
+  try {
+    const fieldsById = await ensureTranslationsBatched("portfolio_video", ids, locale);
+    return rows.map((row) => {
+      const fields = fieldsById[row.id];
+      if (!fields) return row;
+      return {
+        ...row,
+        title: typeof fields.title === "string" ? fields.title : row.title,
+        description:
+          typeof fields.description === "string" ? fields.description : row.description,
+      };
+    });
+  } catch (err) {
+    console.error("Failed to translate CMS videos", err);
+    return rows;
+  }
+}
+
+async function translateClientRows(
+  rows: PortfolioClientRow[],
+  locale: string,
+): Promise<PortfolioClientRow[]> {
+  if (locale === "en" || rows.length === 0) return rows;
+  const ids = rows.map((row) => row.id).filter((id) => {
+    // Skip synthetic orphan ids that aren't UUIDs
+    return /^[0-9a-f-]{36}$/i.test(id);
+  });
+  if (ids.length === 0) return rows;
+
+  try {
+    const fieldsById = await ensureTranslationsBatched("portfolio_client", ids, locale);
+    return rows.map((row) => {
+      const fields = fieldsById[row.id];
+      if (!fields) return row;
+      return {
+        ...row,
+        industry: typeof fields.industry === "string" ? fields.industry : row.industry,
+        description:
+          typeof fields.description === "string" ? fields.description : row.description,
+      };
+    });
+  } catch (err) {
+    console.error("Failed to translate CMS clients", err);
+    return rows;
+  }
+}
+
 export function useCmsVideos(categorySlug?: string) {
+  const { i18n } = useTranslation();
+  const locale = i18n.language?.split("-")[0] ?? "de";
   const [videos, setVideos] = useState<PortfolioVideoRow[]>([]);
   const [loading, setLoading] = useState(isSupabaseConfigured());
   const [error, setError] = useState<string | null>(null);
@@ -24,6 +99,7 @@ export function useCmsVideos(categorySlug?: string) {
     let cancelled = false;
 
     (async () => {
+      setLoading(true);
       try {
         let query = getSupabase()
           .from("portfolio_videos")
@@ -40,30 +116,38 @@ export function useCmsVideos(categorySlug?: string) {
 
         const { data, error: queryError } = await query;
         if (queryError) throw queryError;
+        const rows = (data as PortfolioVideoRow[]) ?? [];
+        // Show English immediately, then hydrate translations for the active locale.
         if (!cancelled) {
-          setVideos((data as PortfolioVideoRow[]) ?? []);
+          setVideos(rows);
           setError(null);
+          setLoading(false);
+        }
+        if (locale !== "en" && rows.length > 0) {
+          const localized = await translateVideoRows(rows, locale);
+          if (!cancelled) setVideos(localized);
         }
       } catch (err) {
         console.error("Failed to load CMS portfolio videos", err);
         if (!cancelled) {
           setVideos([]);
           setError(err instanceof Error ? err.message : "Failed to load videos");
+          setLoading(false);
         }
-      } finally {
-        if (!cancelled) setLoading(false);
       }
     })();
 
     return () => {
       cancelled = true;
     };
-  }, [categorySlug]);
+  }, [categorySlug, locale]);
 
   return { videos, loading, error };
 }
 
 export function useCmsClients(categorySlug?: string) {
+  const { i18n } = useTranslation();
+  const locale = i18n.language?.split("-")[0] ?? "de";
   const [clients, setClients] = useState<PortfolioClientRow[]>([]);
   const [loading, setLoading] = useState(isSupabaseConfigured());
   const [error, setError] = useState<string | null>(null);
@@ -77,6 +161,7 @@ export function useCmsClients(categorySlug?: string) {
     let cancelled = false;
 
     (async () => {
+      setLoading(true);
       try {
         let query = getSupabase()
           .from("portfolio_clients")
@@ -91,27 +176,32 @@ export function useCmsClients(categorySlug?: string) {
 
         const { data, error: queryError } = await query;
         if (queryError) throw queryError;
+        const rows = (data as PortfolioClientRow[]) ?? [];
         if (!cancelled) {
-          setClients((data as PortfolioClientRow[]) ?? []);
+          setClients(rows);
           setError(null);
+          setLoading(false);
+        }
+        if (locale !== "en" && rows.length > 0) {
+          const localized = await translateClientRows(rows, locale);
+          if (!cancelled) setClients(localized);
         }
       } catch (err) {
         console.error("Failed to load CMS portfolio clients", err);
         if (!cancelled) {
           setClients([]);
           setError(err instanceof Error ? err.message : "Failed to load clients");
+          setLoading(false);
         }
-      } finally {
-        if (!cancelled) setLoading(false);
       }
     })();
 
     return () => {
       cancelled = true;
     };
-  }, [categorySlug]);
+  }, [categorySlug, locale]);
 
-  return { clients, loading, error, setClients };
+  return { clients, loading, error };
 }
 
 /** Map project_key → video_url for published portfolio videos. */
@@ -177,7 +267,6 @@ export function mergeCmsPortfolioIntoCategories(
       existingSlugs.add(cmsClient.slug);
     }
 
-    // Videos whose client isn't in portfolio_clients yet (legacy rows)
     const orphansByClient = new Map<string, PortfolioVideoRow[]>();
     for (const video of categoryVideos) {
       const slug = video.client_slug || slugify(video.client_name);
@@ -288,29 +377,20 @@ function mergeClientVideos(client: WorkClient, videoMap: Record<string, string>)
 function mergeProjectVideo(project: WorkProject, videoMap: Record<string, string>): WorkProject {
   const override = videoMap[project.id];
   if (!override) return project;
-
   const resolved = resolveVideoEmbed(override);
-  if (resolved) {
-    return {
-      ...project,
-      mediaType: resolved.provider,
-      mediaSrc: resolved.watchUrl,
-      thumbnail: resolved.thumbnail || project.thumbnail,
-    };
-  }
-
+  if (!resolved) return { ...project, mediaSrc: override };
   return {
     ...project,
-    mediaType: "video",
-    mediaSrc: override,
+    mediaType: resolved.provider,
+    mediaSrc: resolved.watchUrl,
+    thumbnail: project.thumbnail || resolved.thumbnail || project.thumbnail,
   };
 }
 
 export function slugify(value: string): string {
   return value
-    .trim()
     .toLowerCase()
+    .trim()
     .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "")
-    .slice(0, 64);
+    .replace(/^-|-$/g, "");
 }

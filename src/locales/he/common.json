@@ -36,7 +36,9 @@
     "message": "שמנו לב שאתם מבקרים מ-{{country}}. האם תרצו לתרגם את האתר ל-{{language}}?",
     "translate": "תרגם",
     "stayEnglish": "השאר באנגלית",
-    "close": "סגור הצעת תרגום"
+    "close": "סגור הצעת תרגום",
+    "stayDefault": "הישאר ב{{language}}",
+    "currentLanguage": "מציג כעת: {{language}}"
   },
   "footer": {
     "newsletterTitle": "הצטרפו ל",
@@ -52,7 +54,9 @@
     "copyright": "© {{year}} Starlights Visuals. נוצר באור ובקוד.",
     "joining": "הִצטָרְפוּת…",
     "subscribeError": "לא ניתן היה להירשם כרגע. אנא נסה שוב או שלח לנו דוא\"ל ישירות.",
-    "adminLogin": "מנהל מערכת"
+    "adminLogin": "מנהל מערכת",
+    "emailRequired": "אנא הכנס את כתובת הדוא\"ל שלך.",
+    "emailInvalid": "נא להזין כתובת אימייל חוקית."
   },
   "home": {
     "metaTitle": "Starlights Visuals | אנימציה ואולפן VFX",
@@ -299,7 +303,16 @@
       "other": "אַחֵר"
     },
     "sending": "שְׁלִיחָה…",
-    "errorGeneric": "לא ניתן לשלוח את ההודעה שלך. אנא שלח לנו דוא\"ל ישירות או נסה שוב."
+    "errorGeneric": "לא ניתן לשלוח את ההודעה שלך. אנא שלח לנו דוא\"ל ישירות או נסה שוב.",
+    "sentToast": "ההודעה נשלחה בהצלחה.",
+    "sendAnother": "שלח הודעה נוספת",
+    "errors": {
+      "nameRequired": "נא להזין את שמך.",
+      "emailRequired": "אנא הכנס את כתובת הדוא\"ל שלך.",
+      "emailInvalid": "נא להזין כתובת אימייל חוקית.",
+      "serviceRequired": "אנא בחר שירות.",
+      "messageRequired": "נא להזין הודעה."
+    }
   },
   "portfolioPage": {
     "metaTitle": "תיק עבודות | Starlights Visuals",
@@ -485,6 +498,14 @@
       "vfx": {
         "tag": "אפקטים חזותיים (VFX)",
         "title": "אפקטים חזותיים (VFX)"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "אנימציית מוצר"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "אנימציה תעשייתית"
       }
     },
     "clients": {
@@ -1478,7 +1499,8 @@
       "blogs": "בלוגים",
       "videos": "סרטונים",
       "reviews": "ביקורות",
-      "admins": "מנהלי מערכת"
+      "admins": "מנהלי מערכת",
+      "contacts": "אנשי קשר"
     },
     "login": {
       "script": "גישה לסטודיו",
@@ -1502,7 +1524,8 @@
       "subtitle": "סקירה כללית של תוכן CMS.",
       "blogs": "פוסטים בבלוג",
       "videos": "סרטוני פורטפוליו",
-      "pendingReviews": "ממתינים לביקורות"
+      "pendingReviews": "ממתינים לביקורות",
+      "contacts": "מובילים ליצירת קשר"
     },
     "blogs": {
       "title": "פוסטים בבלוג",
@@ -1614,6 +1637,45 @@
       "addError": "הוספת מנהל המערכת נכשלה",
       "deleteError": "הסרת מנהל המערכת נכשלה"
     },
-    "backHome": "חזרה לאתר"
+    "backHome": "חזרה לאתר",
+    "metaTitle": "אדמין | Starlights Visuals",
+    "metaDescription": "לוח המחוונים לניהול תוכן של Starlights Visuals.",
+    "contacts": {
+      "title": "אנשי קשר",
+      "subtitle": "אימיילים של לקוחות מטפסי יצירת קשר והרשמות לניוזלטר. שלח להם הודעה מתיבת הדואר הנכנס של הסטודיו.",
+      "loadError": "טעינת אנשי הקשר נכשלה",
+      "deleteConfirm": "למחוק את ההגשה הזו?",
+      "deleted": "ההגשה נמחקה.",
+      "deleteError": "מחיקת ההגשה נכשלה",
+      "unauthorized": "היכנס שוב כדי לשלוח הודעות.",
+      "subjectRequired": "נושא חובה.",
+      "messageRequired": "נדרשת הודעה.",
+      "sendSuccess": "נשלחו {{שלח}} מתוך {{סה\"כ}} הודעות.",
+      "sendError": "שליחת ההודעה נכשלה",
+      "empty": "עדיין אין הגשות ליצירת קשר.",
+      "filter": {
+        "all": "כֹּל",
+        "contact": "מַגָע",
+        "newsletter": "ניוזלטר"
+      },
+      "colWhen": "כַּאֲשֵׁר",
+      "colKind": "סוּג",
+      "colName": "שֵׁם",
+      "colEmail": "אֶלֶקטרוֹנִי",
+      "colDetails": "פרטים",
+      "colActions": "פעולות",
+      "customersTitle": "לקוחות",
+      "customersCount": "{{count}} הודעות דוא\"ל ייחודיות",
+      "noCustomers": "אין עדיין אימיילים של לקוחות.",
+      "unknownName": "לֹא יְדוּעַ",
+      "composeTitle": "שלח הודעה",
+      "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
+      "recipient": "מְקַבֵּל",
+      "allCustomers": "כל הלקוחות",
+      "subject": "נוֹשֵׂא",
+      "message": "הוֹדָעָה",
+      "send": "שלח אימייל",
+      "sending": "שְׁלִיחָה…"
+    }
   }
 }

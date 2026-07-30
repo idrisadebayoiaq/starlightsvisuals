@@ -36,7 +36,9 @@
     "message": "{{country}} からのアクセスを検出しました。このウェブサイトを {{language}} に翻訳しますか？",
     "translate": "翻訳する",
     "stayEnglish": "英語のまま",
-    "close": "翻訳の提案を閉じる"
+    "close": "翻訳の提案を閉じる",
+    "stayDefault": "{{言語}}に滞在",
+    "currentLanguage": "現在表示中: {{言語}}"
   },
   "footer": {
     "newsletterTitle": "星座に",
@@ -52,7 +54,9 @@
     "copyright": "© {{year}} Starlights Visuals. 光とコードで創造。",
     "joining": "接合…",
     "subscribeError": "現在購読できませんでした。もう一度お試しいただくか、直接メールでご連絡ください。",
-    "adminLogin": "管理者"
+    "adminLogin": "管理者",
+    "emailRequired": "メールアドレスを入力してください。",
+    "emailInvalid": "有効なメールアドレスを入力してください。"
   },
   "home": {
     "metaTitle": "スターライツのビジュアル |アニメーション & VFX スタジオ",
@@ -299,7 +303,16 @@
       "other": "他の"
     },
     "sending": "送信中…",
-    "errorGeneric": "メッセージを送信できませんでした。直接メールでご連絡いただくか、もう一度お試しください。"
+    "errorGeneric": "メッセージを送信できませんでした。直接メールでご連絡いただくか、もう一度お試しください。",
+    "sentToast": "メッセージは正常に送信されました。",
+    "sendAnother": "別のメッセージを送信する",
+    "errors": {
+      "nameRequired": "お名前を入力してください。",
+      "emailRequired": "メールアドレスを入力してください。",
+      "emailInvalid": "有効なメールアドレスを入力してください。",
+      "serviceRequired": "サービスを選択してください。",
+      "messageRequired": "メッセージを入力してください。"
+    }
   },
   "portfolioPage": {
     "metaTitle": "ポートフォリオ | Starlights Visuals",
@@ -485,6 +498,14 @@
       "vfx": {
         "tag": "視覚効果 (VFX)",
         "title": "視覚効果 (VFX)"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "製品アニメーション"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "インダストリアルアニメーション"
       }
     },
     "clients": {
@@ -1478,7 +1499,8 @@
       "blogs": "ブログ",
       "videos": "動画",
       "reviews": "レビュー",
-      "admins": "管理者"
+      "admins": "管理者",
+      "contacts": "連絡先"
     },
     "login": {
       "script": "スタジオへのアクセス",
@@ -1502,7 +1524,8 @@
       "subtitle": "CMS コンテンツの概要。",
       "blogs": "ブログ投稿",
       "videos": "ポートフォリオビデオ",
-      "pendingReviews": "保留中のレビュー"
+      "pendingReviews": "保留中のレビュー",
+      "contacts": "リードに連絡する"
     },
     "blogs": {
       "title": "ブログ投稿",
@@ -1614,6 +1637,45 @@
       "addError": "管理者の追加に失敗しました",
       "deleteError": "管理者の削除に失敗しました"
     },
-    "backHome": "サイトに戻る"
+    "backHome": "サイトに戻る",
+    "metaTitle": "管理者 |スターライツのビジュアル",
+    "metaDescription": "Starlights Visuals コンテンツ管理ダッシュボード。",
+    "contacts": {
+      "title": "連絡先",
+      "subtitle": "お問い合わせフォームやニュースレターの登録からの顧客の電子メール。スタジオの受信箱からメッセージを送ってください。",
+      "loadError": "連絡先のロードに失敗しました",
+      "deleteConfirm": "この提出物を削除しますか?",
+      "deleted": "提出物は削除されました。",
+      "deleteError": "提出物の削除に失敗しました",
+      "unauthorized": "メッセージを送信するには、再度サインインしてください。",
+      "subjectRequired": "件名は必須です。",
+      "messageRequired": "メッセージは必須です。",
+      "sendSuccess": "{{total}} 件中 {{sent}} 件のメッセージを送信しました。",
+      "sendError": "メッセージの送信に失敗しました",
+      "empty": "まだ連絡先の提出はありません。",
+      "filter": {
+        "all": "全て",
+        "contact": "接触",
+        "newsletter": "ニュースレター"
+      },
+      "colWhen": "いつ",
+      "colKind": "タイプ",
+      "colName": "名前",
+      "colEmail": "電子メール",
+      "colDetails": "詳細",
+      "colActions": "アクション",
+      "customersTitle": "お客様",
+      "customersCount": "{{count}} 件の固有のメール",
+      "noCustomers": "顧客からのメールはまだありません。",
+      "unknownName": "未知",
+      "composeTitle": "メッセージを送信する",
+      "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
+      "recipient": "受信者",
+      "allCustomers": "すべてのお客様",
+      "subject": "主題",
+      "message": "メッセージ",
+      "send": "電子メールを送信する",
+      "sending": "送信中…"
+    }
   }
 }

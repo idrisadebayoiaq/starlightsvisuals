@@ -36,7 +36,9 @@
     "message": "Kami melihat Anda mengunjungi dari {{country}}. Ingin menerjemahkan situs web ini ke {{language}}?",
     "translate": "Terjemahkan",
     "stayEnglish": "Tetap dalam Bahasa Inggris",
-    "close": "Tutup saran terjemahan"
+    "close": "Tutup saran terjemahan",
+    "stayDefault": "Tetap dalam bahasa {{bahasa}}",
+    "currentLanguage": "Saat ini ditayangkan: {{bahasa}}"
   },
   "footer": {
     "newsletterTitle": "BERGABUNGLAH DENGAN",
@@ -52,7 +54,9 @@
     "copyright": "© {{year}} Starlights Visuals. Dibuat dengan cahaya & kode.",
     "joining": "Bergabung…",
     "subscribeError": "Tidak dapat berlangganan saat ini. Silakan coba lagi atau kirim email langsung kepada kami.",
-    "adminLogin": "Admin"
+    "adminLogin": "Admin",
+    "emailRequired": "Silakan masukkan alamat email Anda.",
+    "emailInvalid": "Silakan masukkan alamat email yang valid."
   },
   "home": {
     "metaTitle": "Visual Cahaya Bintang | Studio Animasi & VFX",
@@ -299,7 +303,16 @@
       "other": "Lainnya"
     },
     "sending": "Mengirim…",
-    "errorGeneric": "Tidak dapat mengirim pesan Anda. Silakan kirim email langsung kepada kami atau coba lagi."
+    "errorGeneric": "Tidak dapat mengirim pesan Anda. Silakan kirim email langsung kepada kami atau coba lagi.",
+    "sentToast": "Pesan berhasil terkirim.",
+    "sendAnother": "Kirim pesan lain",
+    "errors": {
+      "nameRequired": "Silakan masukkan nama Anda.",
+      "emailRequired": "Silakan masukkan alamat email Anda.",
+      "emailInvalid": "Silakan masukkan alamat email yang valid.",
+      "serviceRequired": "Silakan pilih layanan.",
+      "messageRequired": "Silakan masukkan pesan."
+    }
   },
   "portfolioPage": {
     "metaTitle": "Portofolio | Starlights Visuals",
@@ -485,6 +498,14 @@
       "vfx": {
         "tag": "Efek Visual (VFX)",
         "title": "Efek Visual (VFX)"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "Animasi Produk"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "Animasi Industri"
       }
     },
     "clients": {
@@ -1478,7 +1499,8 @@
       "blogs": "Blog",
       "videos": "Video",
       "reviews": "Ulasan",
-      "admins": "Admin"
+      "admins": "Admin",
+      "contacts": "Kontak"
     },
     "login": {
       "script": "Akses studio",
@@ -1502,7 +1524,8 @@
       "subtitle": "Ikhtisar konten CMS.",
       "blogs": "Postingan blog",
       "videos": "Video portofolio",
-      "pendingReviews": "Peninjauan tertunda"
+      "pendingReviews": "Peninjauan tertunda",
+      "contacts": "Hubungi prospek"
     },
     "blogs": {
       "title": "Postingan blog",
@@ -1614,6 +1637,45 @@
       "addError": "Gagal menambahkan admin",
       "deleteError": "Gagal menghapus admin"
     },
-    "backHome": "Kembali ke situs"
+    "backHome": "Kembali ke situs",
+    "metaTitle": "Admin | Visual Cahaya Bintang",
+    "metaDescription": "Dasbor manajemen konten Starlights Visuals.",
+    "contacts": {
+      "title": "Kontak",
+      "subtitle": "Email pelanggan dari formulir kontak dan pendaftaran buletin. Message them from the studio inbox.",
+      "loadError": "Gagal memuat kontak",
+      "deleteConfirm": "Hapus kiriman ini?",
+      "deleted": "Kiriman dihapus.",
+      "deleteError": "Gagal menghapus kiriman",
+      "unauthorized": "Masuk lagi untuk mengirim pesan.",
+      "subjectRequired": "Subjek diperlukan.",
+      "messageRequired": "Pesan diperlukan.",
+      "sendSuccess": "Terkirim {{terkirim}} dari {{total}} pesan.",
+      "sendError": "Gagal mengirim pesan",
+      "empty": "Belum ada pengiriman kontak.",
+      "filter": {
+        "all": "Semua",
+        "contact": "Kontak",
+        "newsletter": "Buletin"
+      },
+      "colWhen": "Kapan",
+      "colKind": "Jenis",
+      "colName": "Nama",
+      "colEmail": "E-mail",
+      "colDetails": "Detail",
+      "colActions": "Tindakan",
+      "customersTitle": "Pelanggan",
+      "customersCount": "{{count}} email unik",
+      "noCustomers": "Belum ada email pelanggan.",
+      "unknownName": "Tidak dikenal",
+      "composeTitle": "Kirim pesan",
+      "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
+      "recipient": "Penerima",
+      "allCustomers": "Semua pelanggan",
+      "subject": "Subjek",
+      "message": "Pesan",
+      "send": "Kirim email",
+      "sending": "Mengirim…"
+    }
   }
 }

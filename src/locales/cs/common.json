@@ -36,7 +36,9 @@
     "message": "Všimli jsme si, že navštěvujete z {{country}}. Chcete přeložit tento web do {{language}}?",
     "translate": "Přeložit",
     "stayEnglish": "Zůstat v angličtině",
-    "close": "Zavřít návrh překladu"
+    "close": "Zavřít návrh překladu",
+    "stayDefault": "Zůstaňte v {{language}}",
+    "currentLanguage": "Aktuálně se zobrazuje: {{language}}"
   },
   "footer": {
     "newsletterTitle": "PŘIPOJTE SE K",
@@ -52,7 +54,9 @@
     "copyright": "© {{year}} Starlights Visuals. Vytvořeno se světlem a kódem.",
     "joining": "Připojování…",
     "subscribeError": "Momentálně se nelze přihlásit. Zkuste to znovu nebo nám napište přímo.",
-    "adminLogin": "Admin"
+    "adminLogin": "Admin",
+    "emailRequired": "Zadejte prosím svou e-mailovou adresu.",
+    "emailInvalid": "Zadejte prosím platnou e-mailovou adresu."
   },
   "home": {
     "metaTitle": "Vizuály Starlights | Studio animace a VFX",
@@ -299,7 +303,16 @@
       "other": "Ostatní"
     },
     "sending": "Odesílání…",
-    "errorGeneric": "Vaši zprávu nelze odeslat. Napište nám přímo nebo to zkuste znovu."
+    "errorGeneric": "Vaši zprávu nelze odeslat. Napište nám přímo nebo to zkuste znovu.",
+    "sentToast": "Zpráva byla úspěšně odeslána.",
+    "sendAnother": "Pošlete další zprávu",
+    "errors": {
+      "nameRequired": "Zadejte prosím své jméno.",
+      "emailRequired": "Zadejte prosím svou e-mailovou adresu.",
+      "emailInvalid": "Zadejte prosím platnou e-mailovou adresu.",
+      "serviceRequired": "Vyberte prosím službu.",
+      "messageRequired": "Zadejte zprávu."
+    }
   },
   "portfolioPage": {
     "metaTitle": "Portfolio | Vizuály Starlights",
@@ -485,6 +498,14 @@
       "vfx": {
         "tag": "Vizuální efekty (VFX)",
         "title": "Vizuální efekty (VFX)"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "Animace produktu"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "Průmyslová animace"
       }
     },
     "clients": {
@@ -1478,7 +1499,8 @@
       "blogs": "Blogy",
       "videos": "videa",
       "reviews": "Recenze",
-      "admins": "Správci"
+      "admins": "Správci",
+      "contacts": "Kontakty"
     },
     "login": {
       "script": "Přístup do studia",
@@ -1502,7 +1524,8 @@
       "subtitle": "Přehled obsahu CMS.",
       "blogs": "Příspěvky na blogu",
       "videos": "Portfoliová videa",
-      "pendingReviews": "Čeká na recenze"
+      "pendingReviews": "Čeká na recenze",
+      "contacts": "Kontaktní kontakty"
     },
     "blogs": {
       "title": "Příspěvky na blogu",
@@ -1614,6 +1637,45 @@
       "addError": "Přidání správce se nezdařilo",
       "deleteError": "Odebrání správce se nezdařilo"
     },
-    "backHome": "Zpět na stránku"
+    "backHome": "Zpět na stránku",
+    "metaTitle": "Admin | Vizuály Starlights",
+    "metaDescription": "Řídicí panel správy obsahu Starlights Visuals.",
+    "contacts": {
+      "title": "Kontakty",
+      "subtitle": "E-maily zákazníků z kontaktních formulářů a přihlášení k odběru newsletteru. Pošlete jim zprávu z doručené pošty ve studiu.",
+      "loadError": "Kontakty se nepodařilo načíst",
+      "deleteConfirm": "Smazat tento příspěvek?",
+      "deleted": "Příspěvek byl smazán.",
+      "deleteError": "Odeslání příspěvku se nepodařilo smazat",
+      "unauthorized": "Chcete-li odesílat zprávy, znovu se přihlaste.",
+      "subjectRequired": "Předmět je povinný.",
+      "messageRequired": "Zpráva je povinná.",
+      "sendSuccess": "Odesláno {{sent}} z {{total}} zpráv.",
+      "sendError": "Odeslání zprávy se nezdařilo",
+      "empty": "Zatím žádné odeslání kontaktů.",
+      "filter": {
+        "all": "Vše",
+        "contact": "Kontakt",
+        "newsletter": "Bulletin"
+      },
+      "colWhen": "Když",
+      "colKind": "Typ",
+      "colName": "Jméno",
+      "colEmail": "E-mail",
+      "colDetails": "Podrobnosti",
+      "colActions": "Akce",
+      "customersTitle": "Zákazníci",
+      "customersCount": "{{count}} unikátních e-mailů",
+      "noCustomers": "Zatím žádné e-maily zákazníků.",
+      "unknownName": "Neznámý",
+      "composeTitle": "Odeslat zprávu",
+      "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
+      "recipient": "Příjemce",
+      "allCustomers": "Všichni zákazníci",
+      "subject": "Podrobit",
+      "message": "Zpráva",
+      "send": "Odeslat email",
+      "sending": "Odesílání…"
+    }
   }
 }

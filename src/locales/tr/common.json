@@ -36,7 +36,9 @@
     "message": "{{country}} üzerinden ziyaret ettiğinizi fark ettik. Bu web sitesini {{language}} diline çevirmek ister misiniz?",
     "translate": "Çevir",
     "stayEnglish": "İngilizce kalsın",
-    "close": "Çeviri önerisini kapat"
+    "close": "Çeviri önerisini kapat",
+    "stayDefault": "{{language}} dilinde kalın",
+    "currentLanguage": "Şu anda gösterilen: {{language}}"
   },
   "footer": {
     "newsletterTitle": "TAKIM YILDIZINA",
@@ -52,7 +54,9 @@
     "copyright": "© {{year}} Starlights Visuals. Işık ve kodla üretildi.",
     "joining": "Katılıyor…",
     "subscribeError": "Şu anda abone olunamıyor. Lütfen tekrar deneyin veya doğrudan bize e-posta gönderin.",
-    "adminLogin": "Yönetici"
+    "adminLogin": "Yönetici",
+    "emailRequired": "Lütfen e-posta adresinizi girin.",
+    "emailInvalid": "Geçerli bir e."
   },
   "home": {
     "metaTitle": "Yıldız Işıkları Görselleri | Animasyon ve VFX Stüdyosu",
@@ -299,7 +303,16 @@
       "other": "Diğer"
     },
     "sending": "Gönderiliyor…",
-    "errorGeneric": "Mesajınız gönderilemedi. Lütfen doğrudan bize e-posta gönderin veya tekrar deneyin."
+    "errorGeneric": "Mesajınız gönderilemedi. Lütfen doğrudan bize e-posta gönderin veya tekrar deneyin.",
+    "sentToast": "Mesaj başarıyla gönderildi.",
+    "sendAnother": "Başka bir mesaj gönder",
+    "errors": {
+      "nameRequired": "Lütfen isminizi giriniz.",
+      "emailRequired": "Lütfen e-posta adresinizi girin.",
+      "emailInvalid": "Geçerli bir e.",
+      "serviceRequired": "Lütfen bir hizmet seçin.",
+      "messageRequired": "Lütfen bir mesaj girin."
+    }
   },
   "portfolioPage": {
     "metaTitle": "Portfolyo | Starlights Visuals",
@@ -485,6 +498,14 @@
       "vfx": {
         "tag": "Görsel Efektler (VFX)",
         "title": "Görsel Efektler (VFX)"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "Ürün Animasyonu"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "Endüstriyel Animasyon"
       }
     },
     "clients": {
@@ -1478,7 +1499,8 @@
       "blogs": "Bloglar",
       "videos": "Videolar",
       "reviews": "Yorumlar",
-      "admins": "Yöneticiler"
+      "admins": "Yöneticiler",
+      "contacts": "Kişiler"
     },
     "login": {
       "script": "Stüdyo erişimi",
@@ -1502,7 +1524,8 @@
       "subtitle": "CMS içeriğine genel bakış.",
       "blogs": "Blog gönderileri",
       "videos": "Portföy videoları",
-      "pendingReviews": "Bekleyen incelemeler"
+      "pendingReviews": "Bekleyen incelemeler",
+      "contacts": "Potansiyel müşterilerle iletişime geçin"
     },
     "blogs": {
       "title": "Blog gönderileri",
@@ -1614,6 +1637,45 @@
       "addError": "Yönetici eklenemedi",
       "deleteError": "Yönetici kaldırılamadı"
     },
-    "backHome": "Siteye geri dön"
+    "backHome": "Siteye geri dön",
+    "metaTitle": "Yönetici | Yıldız Işıkları Görselleri",
+    "metaDescription": "Starlights Visuals içerik yönetimi kontrol paneli.",
+    "contacts": {
+      "title": "Kişiler",
+      "subtitle": "İletişim formlarından ve bülten kayıtlarından gelen müşteri e-postaları. Onlara stüdyonun gelen kutusundan mesaj gönderin.",
+      "loadError": "Kişiler yüklenemedi",
+      "deleteConfirm": "Bu gönderim silinsin mi?",
+      "deleted": "Gönderim silindi.",
+      "deleteError": "Gönderim silinemedi",
+      "unauthorized": "Mesaj göndermek için tekrar oturum açın.",
+      "subjectRequired": "Konu gereklidir.",
+      "messageRequired": "Mesaj gerekli.",
+      "sendSuccess": "{{total}} mesajdan {{sent}} tanesi gönderildi.",
+      "sendError": "Mesaj gönderilemedi",
+      "empty": "Henüz iletişim gönderimi yok.",
+      "filter": {
+        "all": "Tüm",
+        "contact": "Temas etmek",
+        "newsletter": "Bülten"
+      },
+      "colWhen": "Ne zaman",
+      "colKind": "Tip",
+      "colName": "İsim",
+      "colEmail": "E-posta",
+      "colDetails": "Detaylar",
+      "colActions": "Eylemler",
+      "customersTitle": "Müşteriler",
+      "customersCount": "{{count}} benzersiz e-posta",
+      "noCustomers": "Henüz müşteri e-postası yok.",
+      "unknownName": "Bilinmiyor",
+      "composeTitle": "Mesaj gönder",
+      "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
+      "recipient": "Alıcı",
+      "allCustomers": "Tüm müşteriler",
+      "subject": "Ders",
+      "message": "Mesaj",
+      "send": "E-posta gönder",
+      "sending": "Gönderiliyor…"
+    }
   }
 }

@@ -36,7 +36,9 @@
     "message": "Vi ser att du besöker från {{country}}. Vill du översätta webbplatsen till {{language}}?",
     "translate": "Översätt",
     "stayEnglish": "Fortsätt på engelska",
-    "close": "Stäng översättningsförslag"
+    "close": "Stäng översättningsförslag",
+    "stayDefault": "Bo på {{language}}",
+    "currentLanguage": "Visar för närvarande: {{language}}"
   },
   "footer": {
     "newsletterTitle": "BLI DEL AV",
@@ -52,7 +54,9 @@
     "copyright": "© {{year}} Starlights Visuals. Skapat med ljus & kod.",
     "joining": "Sammanfogning…",
     "subscribeError": "Det gick inte att prenumerera just nu. Försök igen eller maila oss direkt.",
-    "adminLogin": "Administration"
+    "adminLogin": "Administration",
+    "emailRequired": "Vänligen ange din e-postadress.",
+    "emailInvalid": "Ange en giltig e-postadress."
   },
   "home": {
     "metaTitle": "Starlights Visuals | Animation & VFX Studio",
@@ -299,7 +303,16 @@
       "other": "Andra"
     },
     "sending": "Sändning…",
-    "errorGeneric": "Det gick inte att skicka ditt meddelande. Vänligen maila oss direkt eller försök igen."
+    "errorGeneric": "Det gick inte att skicka ditt meddelande. Vänligen maila oss direkt eller försök igen.",
+    "sentToast": "Meddelandet har skickats.",
+    "sendAnother": "Skicka ett annat meddelande",
+    "errors": {
+      "nameRequired": "Vänligen ange ditt namn.",
+      "emailRequired": "Vänligen ange din e-postadress.",
+      "emailInvalid": "Ange en giltig e-postadress.",
+      "serviceRequired": "Välj en tjänst.",
+      "messageRequired": "Vänligen ange ett meddelande."
+    }
   },
   "portfolioPage": {
     "metaTitle": "Portfölj | Starlights Visuals",
@@ -485,6 +498,14 @@
       "vfx": {
         "tag": "Visuella effekter (VFX)",
         "title": "Visuella effekter (VFX)"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "Produktanimation"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "Industriell animation"
       }
     },
     "clients": {
@@ -1478,7 +1499,8 @@
       "blogs": "Bloggar",
       "videos": "Videor",
       "reviews": "Recensioner",
-      "admins": "Administratörer"
+      "admins": "Administratörer",
+      "contacts": "Kontakter"
     },
     "login": {
       "script": "Tillgång till studio",
@@ -1502,7 +1524,8 @@
       "subtitle": "Översikt över CMS-innehåll.",
       "blogs": "Blogginlägg",
       "videos": "Portföljvideor",
-      "pendingReviews": "Väntar på recensioner"
+      "pendingReviews": "Väntar på recensioner",
+      "contacts": "Kontaktledare"
     },
     "blogs": {
       "title": "Blogginlägg",
@@ -1614,6 +1637,45 @@
       "addError": "Det gick inte att lägga till admin",
       "deleteError": "Det gick inte att ta bort admin"
     },
-    "backHome": "Tillbaka till webbplatsen"
+    "backHome": "Tillbaka till webbplatsen",
+    "metaTitle": "Admin | Starlights Visuals",
+    "metaDescription": "Starlights Visuals instrumentpanel för innehållshantering.",
+    "contacts": {
+      "title": "Kontakter",
+      "subtitle": "Kundernas e-postmeddelanden från kontaktformulär och nyhetsbrevsregistreringar. Meddela dem från studions inkorg.",
+      "loadError": "Det gick inte att ladda kontakter",
+      "deleteConfirm": "Vill du ta bort detta bidrag?",
+      "deleted": "Inlämningen raderad.",
+      "deleteError": "Det gick inte att ta bort inlämningen",
+      "unauthorized": "Logga in igen för att skicka meddelanden.",
+      "subjectRequired": "Ämne krävs.",
+      "messageRequired": "Meddelande krävs.",
+      "sendSuccess": "Skickade {{sent}} av {{total}} meddelande(n).",
+      "sendError": "Det gick inte att skicka meddelandet",
+      "empty": "Inga kontaktuppgifter ännu.",
+      "filter": {
+        "all": "Alla",
+        "contact": "Kontakta",
+        "newsletter": "Nyhetsbrev"
+      },
+      "colWhen": "När",
+      "colKind": "Typ",
+      "colName": "Namn",
+      "colEmail": "E-post",
+      "colDetails": "Detaljer",
+      "colActions": "Åtgärder",
+      "customersTitle": "Kunder",
+      "customersCount": "{{count}} unika e-postmeddelanden",
+      "noCustomers": "Inga kundmail ännu.",
+      "unknownName": "Okänd",
+      "composeTitle": "Skicka meddelande",
+      "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
+      "recipient": "Mottagare",
+      "allCustomers": "Alla kunder",
+      "subject": "Ämne",
+      "message": "Meddelande",
+      "send": "Skicka e-post",
+      "sending": "Sändning…"
+    }
   }
 }

@@ -36,7 +36,9 @@
     "message": "Notamos que você está visitando de {{country}}. Gostaria de traduzir este site para {{language}}?",
     "translate": "Traduzir",
     "stayEnglish": "Manter em inglês",
-    "close": "Fechar sugestão de tradução"
+    "close": "Fechar sugestão de tradução",
+    "stayDefault": "Fique em {{idioma}}",
+    "currentLanguage": "Atualmente em exibição: {{idioma}}"
   },
   "footer": {
     "newsletterTitle": "JUNTE SE À",
@@ -52,7 +54,9 @@
     "copyright": "© {{year}} Starlights Visuals. Criado com luz e código.",
     "joining": "Juntando-se…",
     "subscribeError": "Não foi possível assinar agora. Por favor, tente novamente ou envie-nos um e-mail diretamente.",
-    "adminLogin": "Administrador"
+    "adminLogin": "Administrador",
+    "emailRequired": "Por favor, insira seu endereço de e-mail.",
+    "emailInvalid": "Insira um endereço de e-mail válido."
   },
   "home": {
     "metaTitle": "Visuais das luzes das estrelas | Estúdio de animação e efeitos visuais",
@@ -299,7 +303,16 @@
       "other": "Outro"
     },
     "sending": "Enviando…",
-    "errorGeneric": "Não foi possível enviar sua mensagem. Envie-nos um e-mail diretamente ou tente novamente."
+    "errorGeneric": "Não foi possível enviar sua mensagem. Envie-nos um e-mail diretamente ou tente novamente.",
+    "sentToast": "Mensagem enviada com sucesso.",
+    "sendAnother": "Envie outra mensagem",
+    "errors": {
+      "nameRequired": "Por favor, digite seu nome.",
+      "emailRequired": "Por favor, insira seu endereço de e-mail.",
+      "emailInvalid": "Insira um endereço de e-mail válido.",
+      "serviceRequired": "Por favor escolha um serviço.",
+      "messageRequired": "Por favor insira uma mensagem."
+    }
   },
   "portfolioPage": {
     "metaTitle": "Portfólio | Starlights Visuals",
@@ -485,6 +498,14 @@
       "vfx": {
         "tag": "Efeitos Visuais (VFX)",
         "title": "Efeitos Visuais (VFX)"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "Animação de produto"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "Animação Industrial"
       }
     },
     "clients": {
@@ -1478,7 +1499,8 @@
       "blogs": "Blogues",
       "videos": "Vídeos",
       "reviews": "Avaliações",
-      "admins": "Administradores"
+      "admins": "Administradores",
+      "contacts": "Contatos"
     },
     "login": {
       "script": "Acesso ao estúdio",
@@ -1502,7 +1524,8 @@
       "subtitle": "Visão geral do conteúdo do CMS.",
       "blogs": "Postagens de blog",
       "videos": "Vídeos do portfólio",
-      "pendingReviews": "Revisões pendentes"
+      "pendingReviews": "Revisões pendentes",
+      "contacts": "Contatos potenciais"
     },
     "blogs": {
       "title": "Postagens de blog",
@@ -1614,6 +1637,45 @@
       "addError": "Falha ao adicionar administrador",
       "deleteError": "Falha ao remover administrador"
     },
-    "backHome": "Voltar ao site"
+    "backHome": "Voltar ao site",
+    "metaTitle": "Administrador | Visuais das luzes das estrelas",
+    "metaDescription": "Painel de gerenciamento de conteúdo Starlights Visuals.",
+    "contacts": {
+      "title": "Contatos",
+      "subtitle": "E-mails de clientes de formulários de contato e inscrições em boletins informativos. Envie mensagens para eles na caixa de entrada do estúdio.",
+      "loadError": "Falha ao carregar contatos",
+      "deleteConfirm": "Excluir este envio?",
+      "deleted": "Envio excluído.",
+      "deleteError": "Falha ao excluir o envio",
+      "unauthorized": "Faça login novamente para enviar mensagens.",
+      "subjectRequired": "O assunto é obrigatório.",
+      "messageRequired": "A mensagem é obrigatória.",
+      "sendSuccess": "Enviou {{enviado}} de {{total}} mensagem(s).",
+      "sendError": "Falha ao enviar mensagem",
+      "empty": "Nenhum envio de contato ainda.",
+      "filter": {
+        "all": "Todos",
+        "contact": "Contato",
+        "newsletter": "Boletim informativo"
+      },
+      "colWhen": "Quando",
+      "colKind": "Tipo",
+      "colName": "Nome",
+      "colEmail": "E-mail",
+      "colDetails": "Detalhes",
+      "colActions": "Ações",
+      "customersTitle": "Clientes",
+      "customersCount": "{{count}} e-mails únicos",
+      "noCustomers": "Ainda não há e-mails de clientes.",
+      "unknownName": "Desconhecido",
+      "composeTitle": "Enviar mensagem",
+      "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
+      "recipient": "Destinatário",
+      "allCustomers": "Todos os clientes",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "send": "Enviar e-mail",
+      "sending": "Enviando…"
+    }
   }
 }

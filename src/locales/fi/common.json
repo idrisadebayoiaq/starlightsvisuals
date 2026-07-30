@@ -36,7 +36,9 @@
     "message": "Huomasimme, että vierailet maasta {{country}}. Haluatko kääntää sivuston kielelle {{language}}?",
     "translate": "Käännä",
     "stayEnglish": "Pysy englanniksi",
-    "close": "Sulje käännösehdotus"
+    "close": "Sulje käännösehdotus",
+    "stayDefault": "Pysy {{language}}",
+    "currentLanguage": "Tällä hetkellä näytetään: {{language}}"
   },
   "footer": {
     "newsletterTitle": "LIITY",
@@ -52,7 +54,9 @@
     "copyright": "© {{year}} Starlights Visuals. Luotu valolla & koodilla.",
     "joining": "Liitytään…",
     "subscribeError": "Tilaus ei onnistu juuri nyt. Yritä uudelleen tai lähetä meille sähköpostia.",
-    "adminLogin": "Admin"
+    "adminLogin": "Admin",
+    "emailRequired": "Anna sähköpostiosoitteesi.",
+    "emailInvalid": "Anna kelvollinen sähköpostiosoite."
   },
   "home": {
     "metaTitle": "Starlights Visuals | Animaatio & VFX Studio",
@@ -299,7 +303,16 @@
       "other": "Muut"
     },
     "sending": "Lähetetään…",
-    "errorGeneric": "Viestiäsi ei voitu lähettää. Lähetä meille sähköpostia suoraan tai yritä uudelleen."
+    "errorGeneric": "Viestiäsi ei voitu lähettää. Lähetä meille sähköpostia suoraan tai yritä uudelleen.",
+    "sentToast": "Viesti lähetetty onnistuneesti.",
+    "sendAnother": "Lähetä toinen viesti",
+    "errors": {
+      "nameRequired": "Kirjoita nimesi.",
+      "emailRequired": "Anna sähköpostiosoitteesi.",
+      "emailInvalid": "Anna kelvollinen sähköpostiosoite.",
+      "serviceRequired": "Valitse palvelu.",
+      "messageRequired": "Kirjoita viesti."
+    }
   },
   "portfolioPage": {
     "metaTitle": "Portfolio | Starlights Visuals",
@@ -485,6 +498,14 @@
       "vfx": {
         "tag": "Visuaaliset tehosteet (VFX)",
         "title": "Visuaaliset tehosteet (VFX)"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "Tuoteanimaatio"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "Teollinen animaatio"
       }
     },
     "clients": {
@@ -1478,7 +1499,8 @@
       "blogs": "Blogit",
       "videos": "Videot",
       "reviews": "Arvostelut",
-      "admins": "Järjestelmänvalvojat"
+      "admins": "Järjestelmänvalvojat",
+      "contacts": "Yhteystiedot"
     },
     "login": {
       "script": "Studioon pääsy",
@@ -1502,7 +1524,8 @@
       "subtitle": "Yleiskatsaus CMS-sisällöstä.",
       "blogs": "Blogikirjoituksia",
       "videos": "Portfolion videoita",
-      "pendingReviews": "Odottaa arvosteluja"
+      "pendingReviews": "Odottaa arvosteluja",
+      "contacts": "Yhteysjohdot"
     },
     "blogs": {
       "title": "Blogikirjoituksia",
@@ -1614,6 +1637,45 @@
       "addError": "Järjestelmänvalvojan lisääminen epäonnistui",
       "deleteError": "Järjestelmänvalvojan poistaminen epäonnistui"
     },
-    "backHome": "Takaisin sivustolle"
+    "backHome": "Takaisin sivustolle",
+    "metaTitle": "Admin | Starlights Visuals",
+    "metaDescription": "Starlights Visuals -sisällönhallinnan hallintapaneeli.",
+    "contacts": {
+      "title": "Yhteystiedot",
+      "subtitle": "Asiakassähköpostit yhteydenottolomakkeista ja uutiskirjeiden tilauksista. Lähetä heille viesti studion postilaatikosta.",
+      "loadError": "Yhteystietojen lataaminen epäonnistui",
+      "deleteConfirm": "Poistetaanko tämä lähetys?",
+      "deleted": "Lähetys poistettu.",
+      "deleteError": "Lähetyksen poistaminen epäonnistui",
+      "unauthorized": "Kirjaudu uudelleen sisään lähettääksesi viestejä.",
+      "subjectRequired": "Aihe vaaditaan.",
+      "messageRequired": "Viesti vaaditaan.",
+      "sendSuccess": "Lähetetty {{sent}}/{{total}} viestiä.",
+      "sendError": "Viestin lähettäminen epäonnistui",
+      "empty": "Yhteystietoja ei ole vielä lähetetty.",
+      "filter": {
+        "all": "Kaikki",
+        "contact": "Ota yhteyttä",
+        "newsletter": "Uutiskirje"
+      },
+      "colWhen": "Kun",
+      "colKind": "Tyyppi",
+      "colName": "Nimi",
+      "colEmail": "Sähköposti",
+      "colDetails": "Yksityiskohdat",
+      "colActions": "Toiminnot",
+      "customersTitle": "Asiakkaat",
+      "customersCount": "{{count}} yksilöityä sähköpostia",
+      "noCustomers": "Ei vielä asiakassähköpostiviestejä.",
+      "unknownName": "Tuntematon",
+      "composeTitle": "Lähetä viesti",
+      "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
+      "recipient": "Vastaanottaja",
+      "allCustomers": "Kaikki asiakkaat",
+      "subject": "Aihe",
+      "message": "Viesti",
+      "send": "Lähetä sähköpostia",
+      "sending": "Lähetetään…"
+    }
   }
 }

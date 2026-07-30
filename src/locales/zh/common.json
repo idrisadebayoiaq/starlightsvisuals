@@ -36,7 +36,9 @@
     "message": "我们注意到您来自 {{country}}。是否将此网站翻译为 {{language}}？",
     "translate": "翻译",
     "stayEnglish": "保持英语",
-    "close": "关闭翻译建议"
+    "close": "关闭翻译建议",
+    "stayDefault": "保持{{语言}}",
+    "currentLanguage": "当前显示：{{语言}}"
   },
   "footer": {
     "newsletterTitle": "加入",
@@ -52,7 +54,9 @@
     "copyright": "© {{year}} Starlights Visuals. 以光与代码精心打造。",
     "joining": "正在加入……",
     "subscribeError": "目前无法订阅。请重试或直接给我们发电子邮件。",
-    "adminLogin": "行政"
+    "adminLogin": "行政",
+    "emailRequired": "请输入您的电子邮件地址。",
+    "emailInvalid": "请输入有效的电子邮件地址。"
   },
   "home": {
     "metaTitle": "星光视觉 |动画和视觉特效工作室",
@@ -299,7 +303,16 @@
       "other": "其他"
     },
     "sending": "正在发送...",
-    "errorGeneric": "无法发送您的消息。请直接给我们发电子邮件或重试。"
+    "errorGeneric": "无法发送您的消息。请直接给我们发电子邮件或重试。",
+    "sentToast": "消息发送成功。",
+    "sendAnother": "发送另一条消息",
+    "errors": {
+      "nameRequired": "请输入您的姓名。",
+      "emailRequired": "请输入您的电子邮件地址。",
+      "emailInvalid": "请输入有效的电子邮件地址。",
+      "serviceRequired": "请选择一项服务。",
+      "messageRequired": "请输入留言。"
+    }
   },
   "portfolioPage": {
     "metaTitle": "作品集 | Starlights Visuals",
@@ -485,6 +498,14 @@
       "vfx": {
         "tag": "视觉效果（VFX）",
         "title": "视觉效果（VFX）"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "产品动画"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "动画工业"
       }
     },
     "clients": {
@@ -1478,7 +1499,8 @@
       "blogs": "博客",
       "videos": "视频",
       "reviews": "评论",
-      "admins": "管理员"
+      "admins": "管理员",
+      "contacts": "联系方式"
     },
     "login": {
       "script": "进入工作室",
@@ -1502,7 +1524,8 @@
       "subtitle": "CMS 内容概述。",
       "blogs": "博客文章",
       "videos": "作品集视频",
-      "pendingReviews": "待审核"
+      "pendingReviews": "待审核",
+      "contacts": "联系线索"
     },
     "blogs": {
       "title": "博客文章",
@@ -1614,6 +1637,45 @@
       "addError": "添加管理员失败",
       "deleteError": "删除管理员失败"
     },
-    "backHome": "返回网站"
+    "backHome": "返回网站",
+    "metaTitle": "管理员 |星光视觉效果",
+    "metaDescription": "Starlights Visuals 内容管理仪表板。",
+    "contacts": {
+      "title": "联系方式",
+      "subtitle": "来自联系表格和新闻通讯注册的客户电子邮件。从工作室收件箱给他们发消息。",
+      "loadError": "加载联系人失败",
+      "deleteConfirm": "删除此提交吗？",
+      "deleted": "提交已删除。",
+      "deleteError": "删除提交失败",
+      "unauthorized": "重新登录以发送消息。",
+      "subjectRequired": "主题为必填项。",
+      "messageRequired": "需要留言。",
+      "sendSuccess": "已发送 {{sent}} 条消息，共 {{total}} 条。",
+      "sendError": "发送消息失败",
+      "empty": "尚未提交任何联系信息。",
+      "filter": {
+        "all": "全部",
+        "contact": "接触",
+        "newsletter": "通讯"
+      },
+      "colWhen": "什么时候",
+      "colKind": "类型",
+      "colName": "姓名",
+      "colEmail": "电子邮件",
+      "colDetails": "细节",
+      "colActions": "行动",
+      "customersTitle": "顾客",
+      "customersCount": "{{count}} 封独特的电子邮件",
+      "noCustomers": "还没有客户电子邮件。",
+      "unknownName": "未知",
+      "composeTitle": "发送消息",
+      "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
+      "recipient": "接受者",
+      "allCustomers": "所有客户",
+      "subject": "主题",
+      "message": "信息",
+      "send": "发送电子邮件",
+      "sending": "正在发送..."
+    }
   }
 }

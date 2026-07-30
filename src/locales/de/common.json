@@ -62,8 +62,8 @@
     "metaTitle": "Starlights Visuals | Animations- und VFX-Studio",
     "metaDescription": "Ein Kreativstudio für 2D- und 3D-Animation, VFX und filmisches Storytelling. Wir erwecken Welten, Charaktere und Filme zum Leben.",
     "heroScript": "Geschichten in Bewegung —",
-    "heroTitle1": "ANIMATION",
-    "heroTitle2": "& VFX",
+    "heroTitle1": "ANIMATIONEN",
+    "heroTitle2": "UND VFX",
     "heroBody": "Starlights Visuals erweckt Geschichten mit Animation und visuellen Effekten zum Leben, die Publikum fesseln und jeden Frame aufwerten. Wir animieren Fantasy-Kreaturen, menschliche Charaktere, Fahrzeuge, Umgebungen, Requisiten und Hard-Surface-Objekte — für Film, Serien, Werbung und Markenkampagnen.",
     "heroAlt": "Filmheld von Starlights Visuals",
     "seePortfolio": "Siehe Portfolio",
@@ -357,9 +357,9 @@
   "blogPage": {
     "metaTitle": "Blog | Starlights-Visuals",
     "metaDescription": "Einblicke in Animation, VFX, Kinotrailer und Premium-Marken-Storytelling von Starlights Visuals.",
-    "label": "Studio Journal",
-    "title1": "DER",
-    "title2": "BLOG",
+    "label": "Studio-Journal",
+    "title1": "DAS",
+    "title2": "TAGEBUCH",
     "subtitle": "Gedanken zu cineastischem Handwerk, Produktions Workflows und Visuals, die konvertieren.",
     "featured": "Empfohlen · {{category}}",
     "backToBlog": "Zurück zum Blog",
@@ -495,9 +495,17 @@
         "tag": "Bewegungsgrafiken",
         "title": "Bewegungsgrafiken"
       },
+      "video-editing": {
+        "tag": "3D",
+        "title": "Produktanimation"
+      },
       "vfx": {
-        "tag": "Visuelle Effekte (VFX)",
-        "title": "Visuelle Effekte (VFX)"
+        "tag": "Visuelle Effekte",
+        "title": "Visuelle Effekte"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "Industrieanimation"
       }
     },
     "clients": {

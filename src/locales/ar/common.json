@@ -36,7 +36,9 @@
     "message": "لاحظنا أنك تزورنا من {{country}}. هل ترغب في ترجمة هذا الموقع إلى {{language}}؟",
     "translate": "ترجم",
     "stayEnglish": "البقاء بالإنجليزية",
-    "close": "إغلاق اقتراح الترجمة"
+    "close": "إغلاق اقتراح الترجمة",
+    "stayDefault": "البقاء باللغة {{language}}",
+    "currentLanguage": "المعروض حاليا: {{language}}"
   },
   "footer": {
     "newsletterTitle": "انضم إلى",
@@ -52,7 +54,9 @@
     "copyright": "© {{year}} Starlights Visuals. صُنع بالضوء والكود.",
     "joining": "الانضمام…",
     "subscribeError": "لا يمكن الاشتراك الآن. يرجى المحاولة مرة أخرى أو مراسلتنا عبر البريد الإلكتروني مباشرة.",
-    "adminLogin": "مسؤل"
+    "adminLogin": "مسؤل",
+    "emailRequired": "الرجاء إدخال عنوان البريد الإلكتروني الخاص بك.",
+    "emailInvalid": "يرجى إدخال عنوان بريد إلكتروني صالح."
   },
   "home": {
     "metaTitle": "مرئيات أضواء النجوم | استوديو الرسوم المتحركة والمؤثرات البصرية",
@@ -299,7 +303,16 @@
       "other": "آخر"
     },
     "sending": "إرسال…",
-    "errorGeneric": "لا يمكن إرسال رسالتك. يرجى مراسلتنا عبر البريد الإلكتروني مباشرة أو حاول مرة أخرى."
+    "errorGeneric": "لا يمكن إرسال رسالتك. يرجى مراسلتنا عبر البريد الإلكتروني مباشرة أو حاول مرة أخرى.",
+    "sentToast": "تم إرسال الرسالة بنجاح.",
+    "sendAnother": "أرسل رسالة أخرى",
+    "errors": {
+      "nameRequired": "الرجاء إدخال اسمك.",
+      "emailRequired": "الرجاء إدخال عنوان البريد الإلكتروني الخاص بك.",
+      "emailInvalid": "يرجى إدخال عنوان بريد إلكتروني صالح.",
+      "serviceRequired": "الرجاء اختيار الخدمة.",
+      "messageRequired": "الرجاء إدخال رسالة."
+    }
   },
   "portfolioPage": {
     "metaTitle": "معرض الأعمال | Starlights Visuals",
@@ -485,6 +498,14 @@
       "vfx": {
         "tag": "المؤثرات البصرية (VFX)",
         "title": "المؤثرات البصرية (VFX)"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "الرسوم المتحركة للمنتج"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "الرسوم المتحركة الصناعية"
       }
     },
     "clients": {
@@ -1478,7 +1499,8 @@
       "blogs": "مدونات",
       "videos": "فيديوهات",
       "reviews": "التعليقات",
-      "admins": "المشرفين"
+      "admins": "المشرفين",
+      "contacts": "اتصالات"
     },
     "login": {
       "script": "الوصول إلى الاستوديو",
@@ -1502,7 +1524,8 @@
       "subtitle": "نظرة عامة على محتوى نظام إدارة المحتوى (CMS).",
       "blogs": "مشاركات المدونة",
       "videos": "فيديوهات المحفظة",
-      "pendingReviews": "في انتظار المراجعات"
+      "pendingReviews": "في انتظار المراجعات",
+      "contacts": "الاتصال يؤدي"
     },
     "blogs": {
       "title": "مشاركات المدونة",
@@ -1614,6 +1637,45 @@
       "addError": "فشلت إضافة المشرف",
       "deleteError": "فشل في إزالة المشرف"
     },
-    "backHome": "العودة إلى الموقع"
+    "backHome": "العودة إلى الموقع",
+    "metaTitle": "المشرف | مرئيات ستارلايت",
+    "metaDescription": "لوحة تحكم إدارة محتوى Starlights Visuals.",
+    "contacts": {
+      "title": "اتصالات",
+      "subtitle": "رسائل البريد الإلكتروني للعملاء من نماذج الاتصال والاشتراكات في النشرة الإخبارية. أرسل لهم رسالة من البريد الوارد في الاستوديو.",
+      "loadError": "فشل تحميل جهات الاتصال",
+      "deleteConfirm": "هل تريد حذف هذا الإرسال؟",
+      "deleted": "تم حذف الإرسال.",
+      "deleteError": "فشل حذف الإرسال",
+      "unauthorized": "قم بتسجيل الدخول مرة أخرى لإرسال الرسائل.",
+      "subjectRequired": "الموضوع مطلوب.",
+      "messageRequired": "الرسالة مطلوبة.",
+      "sendSuccess": "تم إرسال {{sent}} من {{total}} رسالة (رسائل).",
+      "sendError": "فشل في إرسال الرسالة",
+      "empty": "لا يوجد تقديمات الاتصال حتى الآن.",
+      "filter": {
+        "all": "الجميع",
+        "contact": "اتصال",
+        "newsletter": "النشرة الإخبارية"
+      },
+      "colWhen": "متى",
+      "colKind": "يكتب",
+      "colName": "اسم",
+      "colEmail": "بريد إلكتروني",
+      "colDetails": "تفاصيل",
+      "colActions": "الإجراءات",
+      "customersTitle": "عملاء",
+      "customersCount": "{{count}} رسائل بريد إلكتروني فريدة",
+      "noCustomers": "لا توجد رسائل بريد إلكتروني للعملاء حتى الآن.",
+      "unknownName": "مجهول",
+      "composeTitle": "أرسل رسالة",
+      "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
+      "recipient": "متلقي",
+      "allCustomers": "جميع العملاء",
+      "subject": "موضوع",
+      "message": "رسالة",
+      "send": "إرسال البريد الإلكتروني",
+      "sending": "إرسال…"
+    }
   }
 }

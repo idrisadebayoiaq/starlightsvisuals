@@ -36,7 +36,9 @@
     "message": "เราสังเกตว่าคุณเข้าชมจาก {{country}} ต้องการแปลเว็บไซต์นี้เป็น {{language}} หรือไม่?",
     "translate": "แปล",
     "stayEnglish": "ใช้ภาษาอังกฤษต่อ",
-    "close": "ปิดคำแนะนำการแปล"
+    "close": "ปิดคำแนะนำการแปล",
+    "stayDefault": "อยู่ใน {{ภาษา}}",
+    "currentLanguage": "กำลังแสดง: {{ภาษา}}"
   },
   "footer": {
     "newsletterTitle": "เข้าร่วม",
@@ -52,7 +54,9 @@
     "copyright": "© {{year}} Starlights Visuals. สร้างด้วยแสงและโค้ด",
     "joining": "กำลังเข้าร่วม...",
     "subscribeError": "ไม่สามารถสมัครสมาชิกได้ในขณะนี้ โปรดลองอีกครั้งหรือส่งอีเมลถึงเราโดยตรง",
-    "adminLogin": "ผู้ดูแลระบบ"
+    "adminLogin": "ผู้ดูแลระบบ",
+    "emailRequired": "กรุณากรอกที่อยู่อีเมลของคุณ",
+    "emailInvalid": "กรุณากรอกที่อยู่อีเมลที่ถูกต้อง"
   },
   "home": {
     "metaTitle": "ภาพแสงดาว | Animation & VFX Studio",
@@ -299,7 +303,16 @@
       "other": "อื่น"
     },
     "sending": "กำลังส่ง...",
-    "errorGeneric": "ไม่สามารถส่งข้อความของคุณได้ กรุณาส่งอีเมลถึงเราโดยตรงหรือลองอีกครั้ง"
+    "errorGeneric": "ไม่สามารถส่งข้อความของคุณได้ กรุณาส่งอีเมลถึงเราโดยตรงหรือลองอีกครั้ง",
+    "sentToast": "ส่งข้อความเรียบร้อยแล้ว",
+    "sendAnother": "ส่งข้อความอีก",
+    "errors": {
+      "nameRequired": "กรุณากรอกชื่อของคุณ",
+      "emailRequired": "กรุณากรอกที่อยู่อีเมลของคุณ",
+      "emailInvalid": "กรุณากรอกที่อยู่อีเมลที่ถูกต้อง",
+      "serviceRequired": "กรุณาเลือกบริการ",
+      "messageRequired": "กรุณากรอกข้อความ"
+    }
   },
   "portfolioPage": {
     "metaTitle": "ผลงาน | Starlights Visuals",
@@ -485,6 +498,14 @@
       "vfx": {
         "tag": "วิชวลเอฟเฟกต์ (VFX)",
         "title": "วิชวลเอฟเฟกต์ (VFX)"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "ผลิตภัณฑ์แอนิเมชั่น"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "อนิเมชั่นอุตสาหกรรม"
       }
     },
     "clients": {
@@ -1478,7 +1499,8 @@
       "blogs": "บล็อก",
       "videos": "วิดีโอ",
       "reviews": "รีวิว",
-      "admins": "ผู้ดูแลระบบ"
+      "admins": "ผู้ดูแลระบบ",
+      "contacts": "รายชื่อผู้ติดต่อ"
     },
     "login": {
       "script": "สิทธิ์เข้าใช้สตูดิโอ",
@@ -1502,7 +1524,8 @@
       "subtitle": "ภาพรวมของเนื้อหา CMS",
       "blogs": "โพสต์ในบล็อก",
       "videos": "วิดีโอผลงาน",
-      "pendingReviews": "รอการตรวจสอบ"
+      "pendingReviews": "รอการตรวจสอบ",
+      "contacts": "ติดต่อลูกค้าเป้าหมาย"
     },
     "blogs": {
       "title": "โพสต์ในบล็อก",
@@ -1614,6 +1637,45 @@
       "addError": "ไม่สามารถเพิ่มผู้ดูแลระบบ",
       "deleteError": "ลบผู้ดูแลระบบไม่สำเร็จ"
     },
-    "backHome": "กลับไปที่ไซต์"
+    "backHome": "กลับไปที่ไซต์",
+    "metaTitle": "ผู้ดูแลระบบ | ภาพแสงดาว",
+    "metaDescription": "แดชบอร์ดการจัดการเนื้อหา Starlights Visuals",
+    "contacts": {
+      "title": "รายชื่อผู้ติดต่อ",
+      "subtitle": "อีเมลลูกค้าจากแบบฟอร์มติดต่อและการสมัครรับจดหมายข่าว ส่งข้อความจากกล่องจดหมายของสตูดิโอ",
+      "loadError": "โหลดที่อยู่ติดต่อไม่สำเร็จ",
+      "deleteConfirm": "ลบการส่งนี้ใช่ไหม",
+      "deleted": "ลบการส่งแล้ว",
+      "deleteError": "ไม่สามารถลบการส่ง",
+      "unauthorized": "ลงชื่อเข้าใช้อีกครั้งเพื่อส่งข้อความ",
+      "subjectRequired": "ต้องระบุหัวเรื่อง",
+      "messageRequired": "จำเป็นต้องมีข้อความ",
+      "sendSuccess": "ส่งข้อความแล้ว {{sent}} จากทั้งหมด {{total}} ข้อความ",
+      "sendError": "ไม่สามารถส่งข้อความได้",
+      "empty": "ยังไม่มีการส่งรายชื่อติดต่อ",
+      "filter": {
+        "all": "ทั้งหมด",
+        "contact": "ติดต่อ",
+        "newsletter": "จดหมายข่าว"
+      },
+      "colWhen": "เมื่อไร",
+      "colKind": "พิมพ์",
+      "colName": "ชื่อ",
+      "colEmail": "อีเมล",
+      "colDetails": "รายละเอียด",
+      "colActions": "การดำเนินการ",
+      "customersTitle": "ลูกค้า",
+      "customersCount": "อีเมลที่ไม่ซ้ำ {{count}} ฉบับ",
+      "noCustomers": "ยังไม่มีอีเมลลูกค้า",
+      "unknownName": "ไม่ทราบ",
+      "composeTitle": "ส่งข้อความ",
+      "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
+      "recipient": "ผู้รับ",
+      "allCustomers": "ลูกค้าทุกท่าน",
+      "subject": "เรื่อง",
+      "message": "ข้อความ",
+      "send": "ส่งอีเมล",
+      "sending": "กำลังส่ง..."
+    }
   }
 }

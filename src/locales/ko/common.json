@@ -36,7 +36,9 @@
     "message": "{{country}}에서 방문 중이신 것을 확인했습니다. 이 웹사이트를 {{language}}로 번역하시겠습니까?",
     "translate": "번역하기",
     "stayEnglish": "영어로 유지",
-    "close": "번역 제안 닫기"
+    "close": "번역 제안 닫기",
+    "stayDefault": "{{언어}}로 머무르세요",
+    "currentLanguage": "현재 표시되는 언어: {{언어}}"
   },
   "footer": {
     "newsletterTitle": "별자리에",
@@ -52,7 +54,9 @@
     "copyright": "© {{year}} Starlights Visuals. 빛과 코드로 제작.",
     "joining": "합류…",
     "subscribeError": "지금은 구독할 수 없습니다. 다시 시도하거나 직접 이메일을 보내주세요.",
-    "adminLogin": "관리자"
+    "adminLogin": "관리자",
+    "emailRequired": "이메일 주소를 입력해주세요.",
+    "emailInvalid": "유효한 이메일 주소를 입력하세요."
   },
   "home": {
     "metaTitle": "별빛 비주얼 | 애니메이션 및 VFX 스튜디오",
@@ -299,7 +303,16 @@
       "other": "다른"
     },
     "sending": "배상…",
-    "errorGeneric": "메시지를 보낼 수 없습니다. 직접 이메일을 보내시거나 다시 시도해 주세요."
+    "errorGeneric": "메시지를 보낼 수 없습니다. 직접 이메일을 보내시거나 다시 시도해 주세요.",
+    "sentToast": "메시지가 성공적으로 전송되었습니다.",
+    "sendAnother": "다른 메시지 보내기",
+    "errors": {
+      "nameRequired": "이름을 입력해주세요.",
+      "emailRequired": "이메일 주소를 입력해주세요.",
+      "emailInvalid": "유효한 이메일 주소를 입력하세요.",
+      "serviceRequired": "서비스를 선택해주세요.",
+      "messageRequired": "메시지를 입력해주세요."
+    }
   },
   "portfolioPage": {
     "metaTitle": "포트폴리오 | Starlights Visuals",
@@ -485,6 +498,14 @@
       "vfx": {
         "tag": "시각 효과(VFX)",
         "title": "시각 효과(VFX)"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "제품 애니메이션"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "산업 애니메이션"
       }
     },
     "clients": {
@@ -1478,7 +1499,8 @@
       "blogs": "블로그",
       "videos": "비디오",
       "reviews": "리뷰",
-      "admins": "관리자"
+      "admins": "관리자",
+      "contacts": "콘택트 렌즈"
     },
     "login": {
       "script": "스튜디오 이용",
@@ -1502,7 +1524,8 @@
       "subtitle": "CMS 콘텐츠 개요.",
       "blogs": "블로그 게시물",
       "videos": "포트폴리오 비디오",
-      "pendingReviews": "리뷰 대기 중"
+      "pendingReviews": "리뷰 대기 중",
+      "contacts": "리드에게 연락하기"
     },
     "blogs": {
       "title": "블로그 게시물",
@@ -1614,6 +1637,45 @@
       "addError": "관리자를 추가하지 못했습니다.",
       "deleteError": "관리자를 제거하지 못했습니다."
     },
-    "backHome": "사이트로 돌아가기"
+    "backHome": "사이트로 돌아가기",
+    "metaTitle": "관리자 | 별빛 비주얼",
+    "metaDescription": "Starlights Visuals 콘텐츠 관리 대시보드.",
+    "contacts": {
+      "title": "콘택트 렌즈",
+      "subtitle": "문의 양식 및 뉴스레터 가입을 통한 고객 이메일입니다. 스튜디오 받은 편지함에서 메시지를 보내세요.",
+      "loadError": "연락처를 로드하지 못했습니다.",
+      "deleteConfirm": "이 제출물을 삭제하시겠습니까?",
+      "deleted": "제출물이 삭제되었습니다.",
+      "deleteError": "제출물을 삭제하지 못했습니다.",
+      "unauthorized": "메시지를 보내려면 다시 로그인하세요.",
+      "subjectRequired": "제목은 필수입니다.",
+      "messageRequired": "메시지가 필요합니다.",
+      "sendSuccess": "메시지 {{total}}개 중 {{sent}}개를 보냈습니다.",
+      "sendError": "메시지를 보내지 못했습니다.",
+      "empty": "아직 연락처 제출이 없습니다.",
+      "filter": {
+        "all": "모두",
+        "contact": "연락하다",
+        "newsletter": "회람 신문"
+      },
+      "colWhen": "언제",
+      "colKind": "유형",
+      "colName": "이름",
+      "colEmail": "이메일",
+      "colDetails": "세부",
+      "colActions": "행위",
+      "customersTitle": "고객",
+      "customersCount": "{{count}}개의 고유한 이메일",
+      "noCustomers": "아직 고객 이메일이 없습니다.",
+      "unknownName": "알려지지 않은",
+      "composeTitle": "메시지 보내기",
+      "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
+      "recipient": "받는 사람",
+      "allCustomers": "모든 고객",
+      "subject": "주제",
+      "message": "메시지",
+      "send": "이메일 보내기",
+      "sending": "배상…"
+    }
   }
 }

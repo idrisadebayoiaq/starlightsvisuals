@@ -14,6 +14,7 @@ import {
   type PortfolioVideoRow,
 } from "@/lib/supabase";
 import { cn } from "@/lib/utils";
+import { syncClientTranslationsFn, syncVideoTranslationsFn } from "@/server/cms-translations";
 
 export const Route = createFileRoute("/admin/videos")({
   component: AdminVideosPage,
@@ -236,19 +237,29 @@ function AdminVideosPage() {
       throw new Error(t("admin.videos.newClientRequired"));
     }
 
-    const { error: upsertError } = await getSupabase().from("portfolio_clients").upsert(
-      {
-        category_slug: form.category_slug,
-        slug,
-        name,
-        industry: newClient.industry.trim(),
-        description: newClient.description.trim(),
-        published: true,
-        updated_at: new Date().toISOString(),
-      },
-      { onConflict: "category_slug,slug" },
-    );
+    const { data: upserted, error: upsertError } = await getSupabase()
+      .from("portfolio_clients")
+      .upsert(
+        {
+          category_slug: form.category_slug,
+          slug,
+          name,
+          industry: newClient.industry.trim(),
+          description: newClient.description.trim(),
+          published: true,
+          updated_at: new Date().toISOString(),
+        },
+        { onConflict: "category_slug,slug" },
+      )
+      .select("id")
+      .single();
     if (upsertError) throw upsertError;
+
+    if (upserted?.id) {
+      void syncClientTranslationsFn({ data: { clientId: upserted.id } }).catch((err) => {
+        console.error("Failed to sync client translations", err);
+      });
+    }
 
     return { slug, name };
   }
@@ -300,11 +311,21 @@ function AdminVideosPage() {
           .update(payload)
           .eq("id", editingId);
         if (updateError) throw updateError;
+        void syncVideoTranslationsFn({ data: { videoId: editingId } }).catch((err) => {
+          console.error("Failed to sync video translations", err);
+        });
       } else {
-        const { error: insertError } = await getSupabase()
+        const { data: inserted, error: insertError } = await getSupabase()
           .from("portfolio_videos")
-          .insert(payload);
+          .insert(payload)
+          .select("id")
+          .single();
         if (insertError) throw insertError;
+        if (inserted?.id) {
+          void syncVideoTranslationsFn({ data: { videoId: inserted.id } }).catch((err) => {
+            console.error("Failed to sync video translations", err);
+          });
+        }
       }
       setOpen(false);
       await load();
