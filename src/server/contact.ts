@@ -2,9 +2,10 @@ import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
 
 import {
-  buildContactConfirmationText,
-  buildContactNotificationText,
-  buildNewsletterNotificationText,
+  buildContactConfirmationEmail,
+  buildContactNotificationEmail,
+  buildNewsletterNotificationEmail,
+  buildNewsletterWelcomeEmail,
 } from "@/lib/email-templates";
 import { getContactInbox, getResendClient, RESEND_FROM } from "@/lib/resend.server";
 import { getServerSupabaseAnon } from "@/lib/supabase-admin.server";
@@ -55,19 +56,22 @@ export const submitContactFn = createServerFn({ method: "POST" })
     const inbox = getContactInbox();
     const resend = getResendClient();
 
+    const notificationEmail = buildContactNotificationEmail({
+      name: data.name,
+      email: data.email,
+      phone: data.phone,
+      service: data.projectType,
+      company: data.company,
+      message: data.message,
+    });
+
     const notification = await resend.emails.send({
       from: RESEND_FROM,
       to: inbox,
       replyTo: data.email,
-      subject: "New Contact Form Submission",
-      text: buildContactNotificationText({
-        name: data.name,
-        email: data.email,
-        phone: data.phone,
-        service: data.projectType,
-        company: data.company,
-        message: data.message,
-      }),
+      subject: notificationEmail.subject,
+      text: notificationEmail.text,
+      html: notificationEmail.html,
     });
 
     if (notification.error) {
@@ -75,12 +79,14 @@ export const submitContactFn = createServerFn({ method: "POST" })
       throw new Error(notification.error.message || "Failed to send your message. Please try again.");
     }
 
+    const confirmationEmail = buildContactConfirmationEmail(data.name);
     const confirmation = await resend.emails.send({
       from: RESEND_FROM,
       to: data.email,
       replyTo: inbox,
-      subject: "We've Received Your Message",
-      text: buildContactConfirmationText(data.name),
+      subject: confirmationEmail.subject,
+      text: confirmationEmail.text,
+      html: confirmationEmail.html,
     });
 
     if (confirmation.error) {
@@ -109,17 +115,33 @@ export const submitNewsletterFn = createServerFn({ method: "POST" })
     const inbox = getContactInbox();
     const resend = getResendClient();
 
+    const notificationEmail = buildNewsletterNotificationEmail(data.email);
     const notification = await resend.emails.send({
       from: RESEND_FROM,
       to: inbox,
       replyTo: data.email,
-      subject: "New Newsletter Signup",
-      text: buildNewsletterNotificationText(data.email),
+      subject: notificationEmail.subject,
+      text: notificationEmail.text,
+      html: notificationEmail.html,
     });
 
     if (notification.error) {
       console.error("[newsletter] Resend notification failed", notification.error);
       throw new Error(notification.error.message || "Could not complete signup. Please try again.");
+    }
+
+    const welcomeEmail = buildNewsletterWelcomeEmail(data.email);
+    const welcome = await resend.emails.send({
+      from: RESEND_FROM,
+      to: data.email,
+      replyTo: inbox,
+      subject: welcomeEmail.subject,
+      text: welcomeEmail.text,
+      html: welcomeEmail.html,
+    });
+
+    if (welcome.error) {
+      console.error("[newsletter] Welcome email failed", welcome.error);
     }
 
     await persistSubmission({

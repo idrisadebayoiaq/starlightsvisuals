@@ -1,6 +1,7 @@
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
 
+import { buildAdminCustomerEmail } from "@/lib/email-templates";
 import { getResendClient, RESEND_FROM } from "@/lib/resend.server";
 import {
   assertAdminFromAccessToken,
@@ -55,6 +56,7 @@ export const sendAdminCustomerEmailFn = createServerFn({ method: "POST" })
       throw new Error("No customer emails found to message.");
     }
 
+    const content = buildAdminCustomerEmail(data.subject, data.message);
     const resend = getResendClient();
     let sent = 0;
     const failures: string[] = [];
@@ -68,8 +70,9 @@ export const sendAdminCustomerEmailFn = createServerFn({ method: "POST" })
           const result = await resend.emails.send({
             from: RESEND_FROM,
             to: email,
-            subject: data.subject,
-            text: data.message,
+            subject: content.subject,
+            text: content.text,
+            html: content.html,
           });
           if (result.error) {
             throw new Error(result.error.message || `Failed to send to ${email}`);
