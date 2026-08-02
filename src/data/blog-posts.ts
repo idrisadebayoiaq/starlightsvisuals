@@ -1,9 +1,9 @@
-import portfolioTrailer from "@/assets/portfolio-trailer.jpg";
-import portfolioCharacter from "@/assets/portfolio-character.jpg";
 import portfolioMotion from "@/assets/portfolio-motion.jpg";
 import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolioCreature from "@/assets/portfolio-creature.jpg";
-import portfolioIndustrial from "@/assets/portfolio-industrial.jpg";
+import blogCinematicTrailers from "@/assets/blog/cinematic-trailers-that-convert.jpg";
+import blogCharacterDesign from "@/assets/blog/character-design-for-ip.jpg";
+import blogProductionPipelines from "@/assets/blog/production-pipelines-that-ship.jpg";
 
 export type BlogPostSection = {
   heading?: string;
@@ -30,7 +30,7 @@ export const blogPosts: BlogPost[] = [
     category: "Strategy",
     date: "May 12, 2026",
     readTime: "6 min read",
-    image: portfolioTrailer,
+    image: blogCinematicTrailers,
     author: "Starlights Visuals",
     sections: [
       {
@@ -69,7 +69,7 @@ export const blogPosts: BlogPost[] = [
     category: "Craft",
     date: "May 3, 2026",
     readTime: "5 min read",
-    image: portfolioCharacter,
+    image: blogCharacterDesign,
     author: "Starlights Visuals",
     sections: [
       {
@@ -100,7 +100,7 @@ export const blogPosts: BlogPost[] = [
     category: "Production",
     date: "Apr 21, 2026",
     readTime: "8 min read",
-    image: portfolioIndustrial,
+    image: blogProductionPipelines,
     author: "Starlights Visuals",
     sections: [
       {
