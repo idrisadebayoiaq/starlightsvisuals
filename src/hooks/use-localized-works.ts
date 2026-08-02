@@ -1,11 +1,11 @@
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 
+import { workCategories as staticCategories } from "@/data/portfolio-works";
 import {
-  showcaseCategories as staticShowcase,
-  workCategories as staticCategories,
-  type WorkCategorySlug,
-} from "@/data/portfolio-works";
+  mergeCmsCategoryCatalog,
+  useCmsCategories,
+} from "@/hooks/use-cms-categories";
 import { mergeCmsPortfolioIntoCategories, useCmsClients, useCmsVideos } from "@/hooks/use-cms-videos";
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
@@ -62,13 +62,15 @@ function localizeCategory(
 
 export function useLocalizedCategories(): WorkCategory[] {
   const { t, i18n } = useTranslation();
+  const { categories: cmsCategories } = useCmsCategories();
   const { clients: cmsClients } = useCmsClients();
   const { videos: cmsVideos } = useCmsVideos();
 
   return useMemo(() => {
-    const merged = mergeCmsPortfolioIntoCategories(staticCategories, cmsClients, cmsVideos);
+    const catalog = mergeCmsCategoryCatalog(staticCategories, cmsCategories);
+    const merged = mergeCmsPortfolioIntoCategories(catalog, cmsClients, cmsVideos);
     return merged.map((category) => localizeCategory(t, category));
-  }, [t, i18n.language, cmsClients, cmsVideos]);
+  }, [t, i18n.language, cmsCategories, cmsClients, cmsVideos]);
 }
 
 export function useLocalizedCategory(slug: string): WorkCategory | undefined {
@@ -83,24 +85,29 @@ export function useLocalizedClient(categorySlug: string, clientSlug: string): Wo
 
 export function useLocalizedShowcaseCategories() {
   const { t, i18n } = useTranslation();
+  const categories = useLocalizedCategories();
+  const { categories: cmsRows } = useCmsCategories();
 
   return useMemo(
     () =>
-      staticShowcase.map((item) => {
+      categories.map((item) => {
+        const cms = cmsRows.find((row) => row.slug === item.slug);
         const base = `works.showcase.${item.slug}`;
+        const defaultTag = cms?.showcase_tag || item.title;
         return {
-          ...item,
-          tag: t(`${base}.tag`, { defaultValue: item.tag }),
+          slug: item.slug,
+          tag: t(`${base}.tag`, { defaultValue: defaultTag }),
           title: t(`${base}.title`, { defaultValue: item.title }),
+          coverImage: item.coverImage,
         };
       }),
-    [t, i18n.language],
+    [t, i18n.language, categories, cmsRows],
   );
 }
 
 export function getLocalizedCategoryTitle(
   t: (key: string, options?: { defaultValue?: string }) => string,
-  slug: WorkCategorySlug,
+  slug: string,
   fallback: string,
 ): string {
   return t(`works.categories.${slug}.title`, { defaultValue: fallback });

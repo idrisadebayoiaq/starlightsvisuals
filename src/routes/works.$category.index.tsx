@@ -1,4 +1,4 @@
-import { createFileRoute, notFound } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
@@ -8,16 +8,28 @@ import { SectionReveal } from "@/components/SectionReveal";
 import { ClientCard } from "@/components/works/ClientCard";
 import { WorksBreadcrumb } from "@/components/works/WorksBreadcrumb";
 import { WorksCta } from "@/components/works/WorksCta";
-import type { WorkCategorySlug } from "@/data/portfolio-works";
-import { getCategory } from "@/lib/portfolio-works";
+import { PROJECT_PLACEHOLDER } from "@/data/portfolio-placeholder";
+import { fetchPublishedCategoryBySlug } from "@/hooks/use-cms-categories";
 import { useLocalizedCategory } from "@/hooks/use-localized-works";
+import { getCategory } from "@/lib/portfolio-works";
 import { pageHead, siteMeta } from "@/lib/site-meta";
 
 export const Route = createFileRoute("/works/$category/")({
-  loader: ({ params }) => {
-    const category = getCategory(params.category);
-    if (!category) throw notFound();
-    return { category };
+  loader: async ({ params }) => {
+    const staticCategory = getCategory(params.category);
+    if (staticCategory) return { category: staticCategory };
+    const cmsCategory = await fetchPublishedCategoryBySlug(params.category);
+    if (cmsCategory) return { category: cmsCategory };
+    return {
+      category: {
+        slug: params.category,
+        title: params.category,
+        tagline: "",
+        description: "",
+        coverImage: PROJECT_PLACEHOLDER,
+        clients: [],
+      },
+    };
   },
   head: ({ loaderData }) =>
     pageHead({
@@ -29,9 +41,9 @@ export const Route = createFileRoute("/works/$category/")({
 
 function CategoryClientsPage() {
   const { t } = useTranslation();
-  const { category: staticCategory } = Route.useLoaderData();
-  const category = useLocalizedCategory(staticCategory.slug) ?? staticCategory;
-  const slug = category.slug as WorkCategorySlug;
+  const { category: loaderCategory } = Route.useLoaderData();
+  const category = useLocalizedCategory(loaderCategory.slug) ?? loaderCategory;
+  const slug = category.slug;
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -69,7 +81,9 @@ function CategoryClientsPage() {
             ]}
           />
           <p className="mt-8 font-script text-2xl text-neon-green">{category.tagline}</p>
-          <h1 className="mt-3 font-display text-5xl tracking-tight md:text-7xl">{t("works.clientsTitle")}</h1>
+          <h1 className="mt-3 font-display text-5xl tracking-tight md:text-7xl">
+            {t("works.clientsTitle")}
+          </h1>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">{category.description}</p>
         </div>
       </motion.section>
@@ -80,9 +94,6 @@ function CategoryClientsPage() {
             <ClientCard key={c.slug} categorySlug={slug} client={c} index={i} />
           ))}
         </div>
-        {category.clients.length === 0 && (
-          <p className="text-center text-muted-foreground">{t("works.noClients")}</p>
-        )}
       </SectionReveal>
 
       <WorksCta />

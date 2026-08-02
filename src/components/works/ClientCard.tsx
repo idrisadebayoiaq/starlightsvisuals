@@ -3,11 +3,10 @@ import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-import type { WorkCategorySlug } from "@/data/portfolio-works";
 import type { WorkClient } from "@/types/portfolio-works";
 
 type ClientCardProps = {
-  categorySlug: WorkCategorySlug;
+  categorySlug: string;
   client: WorkClient;
   index?: number;
 };

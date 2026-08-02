@@ -10,13 +10,18 @@ import { ProjectLightbox } from "@/components/works/ProjectLightbox";
 import { ProjectYouTubeCard } from "@/components/works/ProjectYouTubeCard";
 import { ProjectVideoCard } from "@/components/works/ProjectVideoCard";
 import { getCategory, getClient } from "@/lib/portfolio-works";
+import { fetchPublishedCategoryBySlug } from "@/hooks/use-cms-categories";
 import { useLocalizedClient } from "@/hooks/use-localized-works";
 import type { WorkProject } from "@/types/portfolio-works";
 import { pageHead, siteMeta } from "@/lib/site-meta";
 
 export const Route = createFileRoute("/works/$category/$client")({
-  loader: ({ params }) => {
-    const category = getCategory(params.category);
+  loader: async ({ params }) => {
+    const staticCategory = getCategory(params.category);
+    const cmsCategory = staticCategory
+      ? null
+      : await fetchPublishedCategoryBySlug(params.category);
+    const category = staticCategory ?? cmsCategory;
     if (!category) throw notFound();
 
     const client = getClient(params.category, params.client);

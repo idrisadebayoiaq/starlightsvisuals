@@ -100,6 +100,20 @@ export type PortfolioClientRow = {
   updated_at: string;
 };
 
+export type PortfolioCategoryRow = {
+  id: string;
+  slug: string;
+  title: string;
+  tagline: string;
+  description: string;
+  cover_image_url: string;
+  showcase_tag: string;
+  sort_order: number;
+  published: boolean;
+  created_at: string;
+  updated_at: string;
+};
+
 export type AdminRow = {
   email: string;
   created_at: string;

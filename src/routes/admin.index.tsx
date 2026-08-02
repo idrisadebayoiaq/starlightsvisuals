@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Clapperboard, FileText, Mail, MessageSquareQuote } from "lucide-react";
+import { Clapperboard, FileText, FolderKanban, Mail, MessageSquareQuote } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -11,6 +11,7 @@ export const Route = createFileRoute("/admin/")({
 
 type Counts = {
   blogs: number;
+  categories: number;
   videos: number;
   pendingReviews: number;
   contacts: number;
@@ -20,6 +21,7 @@ function AdminDashboard() {
   const { t } = useTranslation();
   const [counts, setCounts] = useState<Counts>({
     blogs: 0,
+    categories: 0,
     videos: 0,
     pendingReviews: 0,
     contacts: 0,
@@ -37,8 +39,9 @@ function AdminDashboard() {
 
     (async () => {
       try {
-        const [blogsRes, videosRes, reviewsRes, contactsRes] = await Promise.all([
+        const [blogsRes, categoriesRes, videosRes, reviewsRes, contactsRes] = await Promise.all([
           supabase.from("blog_posts").select("id", { count: "exact", head: true }),
+          supabase.from("portfolio_categories").select("id", { count: "exact", head: true }),
           supabase.from("portfolio_videos").select("id", { count: "exact", head: true }),
           supabase
             .from("client_testimonials")
@@ -50,6 +53,7 @@ function AdminDashboard() {
         if (!cancelled) {
           setCounts({
             blogs: blogsRes.count ?? 0,
+            categories: categoriesRes.count ?? 0,
             videos: videosRes.count ?? 0,
             pendingReviews: reviewsRes.count ?? 0,
             contacts: contactsRes.count ?? 0,
@@ -73,6 +77,12 @@ function AdminDashboard() {
       label: t("admin.dashboard.blogs"),
       value: counts.blogs,
       icon: FileText,
+    },
+    {
+      to: "/admin/categories" as const,
+      label: t("admin.dashboard.categories"),
+      value: counts.categories,
+      icon: FolderKanban,
     },
     {
       to: "/admin/videos" as const,
@@ -99,7 +109,7 @@ function AdminDashboard() {
       <h1 className="font-display text-3xl tracking-tight">{t("admin.dashboard.title")}</h1>
       <p className="mt-2 text-sm text-muted-foreground">{t("admin.dashboard.subtitle")}</p>
 
-      <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {cards.map((card) => {
           const Icon = card.icon;
           return (

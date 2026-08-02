@@ -2,11 +2,10 @@ import { Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 
-import type { WorkCategorySlug } from "@/data/portfolio-works";
 import { cn } from "@/lib/utils";
 
 type SelectedWorkCardProps = {
-  slug: WorkCategorySlug;
+  slug: string;
   tag: string;
   title: string;
   coverImage: string;

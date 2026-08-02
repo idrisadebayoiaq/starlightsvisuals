@@ -2,6 +2,7 @@ import { createFileRoute, Link, Navigate, Outlet, useRouterState } from "@tansta
 import {
   Clapperboard,
   FileText,
+  FolderKanban,
   Home,
   LayoutDashboard,
   LogOut,
@@ -23,6 +24,7 @@ const navItems: {
   to:
     | "/admin"
     | "/admin/blogs"
+    | "/admin/categories"
     | "/admin/videos"
     | "/admin/reviews"
     | "/admin/contacts"
@@ -33,6 +35,7 @@ const navItems: {
 }[] = [
   { to: "/admin", labelKey: "admin.nav.dashboard", icon: LayoutDashboard, exact: true },
   { to: "/admin/blogs", labelKey: "admin.nav.blogs", icon: FileText },
+  { to: "/admin/categories", labelKey: "admin.nav.categories", icon: FolderKanban },
   { to: "/admin/videos", labelKey: "admin.nav.videos", icon: Clapperboard },
   { to: "/admin/reviews", labelKey: "admin.nav.reviews", icon: MessageSquareQuote },
   { to: "/admin/contacts", labelKey: "admin.nav.contacts", icon: Mail },

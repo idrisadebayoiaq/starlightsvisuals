@@ -21,6 +21,7 @@ import { Route as WriteReviewRouteImport } from './routes/write-review'
 import { Route as AdminIndexRouteImport } from './routes/admin.index'
 import { Route as AdminAdminsRouteImport } from './routes/admin.admins'
 import { Route as AdminBlogsRouteImport } from './routes/admin.blogs'
+import { Route as AdminCategoriesRouteImport } from './routes/admin.categories'
 import { Route as AdminContactsRouteImport } from './routes/admin.contacts'
 import { Route as AdminLoginRouteImport } from './routes/admin.login'
 import { Route as AdminReviewsRouteImport } from './routes/admin.reviews'
@@ -91,6 +92,11 @@ const AdminBlogsRoute = AdminBlogsRouteImport.update({
   path: '/blogs',
   getParentRoute: () => AdminRoute,
 } as any)
+const AdminCategoriesRoute = AdminCategoriesRouteImport.update({
+  id: '/categories',
+  path: '/categories',
+  getParentRoute: () => AdminRoute,
+} as any)
 const AdminContactsRoute = AdminContactsRouteImport.update({
   id: '/contacts',
   path: '/contacts',
@@ -149,6 +155,7 @@ export interface FileRoutesByFullPath {
   '/write-review': typeof WriteReviewRoute
   '/admin/admins': typeof AdminAdminsRoute
   '/admin/blogs': typeof AdminBlogsRoute
+  '/admin/categories': typeof AdminCategoriesRoute
   '/admin/contacts': typeof AdminContactsRoute
   '/admin/login': typeof AdminLoginRoute
   '/admin/reviews': typeof AdminReviewsRoute
@@ -170,6 +177,7 @@ export interface FileRoutesByTo {
   '/write-review': typeof WriteReviewRoute
   '/admin/admins': typeof AdminAdminsRoute
   '/admin/blogs': typeof AdminBlogsRoute
+  '/admin/categories': typeof AdminCategoriesRoute
   '/admin/contacts': typeof AdminContactsRoute
   '/admin/login': typeof AdminLoginRoute
   '/admin/reviews': typeof AdminReviewsRoute
@@ -193,6 +201,7 @@ export interface FileRoutesById {
   '/write-review': typeof WriteReviewRoute
   '/admin/admins': typeof AdminAdminsRoute
   '/admin/blogs': typeof AdminBlogsRoute
+  '/admin/categories': typeof AdminCategoriesRoute
   '/admin/contacts': typeof AdminContactsRoute
   '/admin/login': typeof AdminLoginRoute
   '/admin/reviews': typeof AdminReviewsRoute
@@ -218,6 +227,7 @@ export interface FileRouteTypes {
     | '/write-review'
     | '/admin/admins'
     | '/admin/blogs'
+    | '/admin/categories'
     | '/admin/contacts'
     | '/admin/login'
     | '/admin/reviews'
@@ -239,6 +249,7 @@ export interface FileRouteTypes {
     | '/write-review'
     | '/admin/admins'
     | '/admin/blogs'
+    | '/admin/categories'
     | '/admin/contacts'
     | '/admin/login'
     | '/admin/reviews'
@@ -261,6 +272,7 @@ export interface FileRouteTypes {
     | '/write-review'
     | '/admin/admins'
     | '/admin/blogs'
+    | '/admin/categories'
     | '/admin/contacts'
     | '/admin/login'
     | '/admin/reviews'
@@ -372,6 +384,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AdminBlogsRouteImport
       parentRoute: typeof AdminRoute
     }
+    '/admin/categories': {
+      id: '/admin/categories'
+      path: '/categories'
+      fullPath: '/admin/categories'
+      preLoaderRoute: typeof AdminCategoriesRouteImport
+      parentRoute: typeof AdminRoute
+    }
     '/admin/contacts': {
       id: '/admin/contacts'
       path: '/contacts'
@@ -441,6 +460,7 @@ declare module '@tanstack/react-router' {
 interface AdminRouteChildren {
   AdminAdminsRoute: typeof AdminAdminsRoute
   AdminBlogsRoute: typeof AdminBlogsRoute
+  AdminCategoriesRoute: typeof AdminCategoriesRoute
   AdminContactsRoute: typeof AdminContactsRoute
   AdminLoginRoute: typeof AdminLoginRoute
   AdminReviewsRoute: typeof AdminReviewsRoute
@@ -451,6 +471,7 @@ interface AdminRouteChildren {
 const AdminRouteChildren: AdminRouteChildren = {
   AdminAdminsRoute: AdminAdminsRoute,
   AdminBlogsRoute: AdminBlogsRoute,
+  AdminCategoriesRoute: AdminCategoriesRoute,
   AdminContactsRoute: AdminContactsRoute,
   AdminLoginRoute: AdminLoginRoute,
   AdminReviewsRoute: AdminReviewsRoute,

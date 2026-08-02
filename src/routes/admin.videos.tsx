@@ -3,8 +3,8 @@ import { Pencil, Plus, Trash2, X } from "lucide-react";
 import { useCallback, useEffect, useMemo, useState, type FormEvent } from "react";
 import { useTranslation } from "react-i18next";
 
-import type { WorkCategorySlug } from "@/data/portfolio-works";
 import { workCategories } from "@/data/portfolio-works";
+import { useCmsCategories } from "@/hooks/use-cms-categories";
 import { slugify } from "@/hooks/use-cms-videos";
 import { uploadMediaFile } from "@/lib/cms-media";
 import { getErrorMessage } from "@/lib/error-message";
@@ -20,16 +20,11 @@ export const Route = createFileRoute("/admin/videos")({
   component: AdminVideosPage,
 });
 
-const CATEGORY_OPTIONS: { slug: WorkCategorySlug; label: string }[] = workCategories.map((c) => ({
-  slug: c.slug as WorkCategorySlug,
-  label: c.title,
-}));
-
 const NEW_CLIENT = "__new__";
 
 type VideoFormState = {
   project_key: string;
-  category_slug: WorkCategorySlug;
+  category_slug: string;
   client_slug: string;
   client_name: string;
   title: string;
@@ -73,12 +68,10 @@ const emptyNewClient = (): NewClientForm => ({
   description: "",
 });
 
-function rowToForm(row: PortfolioVideoRow): VideoFormState {
+function rowToForm(row: PortfolioVideoRow, fallbackSlug: string): VideoFormState {
   return {
     project_key: row.project_key ?? "",
-    category_slug: (CATEGORY_OPTIONS.some((c) => c.slug === row.category_slug)
-      ? row.category_slug
-      : "2d-animation") as WorkCategorySlug,
+    category_slug: row.category_slug || fallbackSlug,
     client_slug: row.client_slug ?? "",
     client_name: row.client_name ?? "",
     title: row.title,
@@ -98,12 +91,24 @@ const inputClass =
 
 function AdminVideosPage() {
   const { t } = useTranslation();
+  const { categories: cmsCategories } = useCmsCategories({ includeDrafts: true });
+  const categoryOptions = useMemo(() => {
+    if (cmsCategories.length > 0) {
+      return cmsCategories.map((c) => ({ slug: c.slug, label: c.title }));
+    }
+    return workCategories.map((c) => ({ slug: c.slug, label: c.title }));
+  }, [cmsCategories]);
+  const defaultCategorySlug = categoryOptions[0]?.slug ?? "2d-animation";
+
   const [videos, setVideos] = useState<PortfolioVideoRow[]>([]);
   const [clients, setClients] = useState<PortfolioClientRow[]>([]);
   const [filter, setFilter] = useState<string>("all");
   const [loading, setLoading] = useState(true);
   const [editingId, setEditingId] = useState<string | null>(null);
-  const [form, setForm] = useState<VideoFormState>(emptyForm);
+  const [form, setForm] = useState<VideoFormState>(() => ({
+    ...emptyForm(),
+    category_slug: "2d-animation",
+  }));
   const [clientMode, setClientMode] = useState<"existing" | "new">("existing");
   const [newClient, setNewClient] = useState<NewClientForm>(emptyNewClient());
   const [open, setOpen] = useState(false);
@@ -154,8 +159,7 @@ function AdminVideosPage() {
 
   function openCreate() {
     setEditingId(null);
-    const next = emptyForm();
-    setForm(next);
+    setForm({ ...emptyForm(), category_slug: defaultCategorySlug });
     setClientMode("existing");
     setNewClient(emptyNewClient());
     setError(null);
@@ -164,14 +168,14 @@ function AdminVideosPage() {
 
   function openEdit(row: PortfolioVideoRow) {
     setEditingId(row.id);
-    setForm(rowToForm(row));
+    setForm(rowToForm(row, defaultCategorySlug));
     setClientMode("existing");
     setNewClient(emptyNewClient());
     setError(null);
     setOpen(true);
   }
 
-  function onCategoryChange(slug: WorkCategorySlug) {
+  function onCategoryChange(slug: string) {
     setForm((f) => ({
       ...f,
       category_slug: slug,
@@ -373,7 +377,7 @@ function AdminVideosPage() {
         <FilterChip active={filter === "all"} onClick={() => setFilter("all")}>
           {t("admin.videos.allCategories")}
         </FilterChip>
-        {CATEGORY_OPTIONS.map((opt) => (
+        {categoryOptions.map((opt) => (
           <FilterChip key={opt.slug} active={filter === opt.slug} onClick={() => setFilter(opt.slug)}>
             {opt.label}
           </FilterChip>
@@ -417,7 +421,7 @@ function AdminVideosPage() {
                     </p>
                   </td>
                   <td className="px-4 py-3 text-muted-foreground">
-                    {CATEGORY_OPTIONS.find((c) => c.slug === video.category_slug)?.label ??
+                    {categoryOptions.find((c) => c.slug === video.category_slug)?.label ??
                       video.category_slug}
                   </td>
                   <td className="px-4 py-3 text-muted-foreground">{video.client_name}</td>
@@ -480,10 +484,10 @@ function AdminVideosPage() {
                 <select
                   required
                   value={form.category_slug}
-                  onChange={(e) => onCategoryChange(e.target.value as WorkCategorySlug)}
+                  onChange={(e) => onCategoryChange(e.target.value)}
                   className={inputClass}
                 >
-                  {CATEGORY_OPTIONS.map((opt) => (
+                  {categoryOptions.map((opt) => (
                     <option key={opt.slug} value={opt.slug}>
                       {opt.label}
                     </option>

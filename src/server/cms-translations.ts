@@ -6,7 +6,12 @@ import { DEFAULT_LANGUAGE, supportedLanguageCodes } from "@/i18n/languages";
 import { getServerSupabaseAnon } from "@/lib/supabase-admin.server";
 import { translateText } from "@/lib/translate.server";
 
-export type CmsEntityType = "blog_post" | "portfolio_video" | "portfolio_client" | "testimonial";
+export type CmsEntityType =
+  | "blog_post"
+  | "portfolio_video"
+  | "portfolio_client"
+  | "portfolio_category"
+  | "testimonial";
 
 /** JSON-safe translation payload for TanStack Start server functions. */
 export type CmsTranslationFields = {
@@ -16,6 +21,8 @@ export type CmsTranslationFields = {
   read_time?: string;
   description?: string;
   industry?: string;
+  tagline?: string;
+  showcase_tag?: string;
   sections?: BlogPostSection[];
 };
 
@@ -35,6 +42,13 @@ export type VideoTranslationFields = {
 export type ClientTranslationFields = {
   industry: string;
   description: string;
+};
+
+export type CategoryTranslationFields = {
+  title: string;
+  tagline: string;
+  description: string;
+  showcase_tag: string;
 };
 
 async function upsertTranslation(
@@ -130,6 +144,18 @@ async function translateClientFields(
   };
 }
 
+async function translateCategoryFields(
+  source: CategoryTranslationFields,
+  locale: string,
+): Promise<CategoryTranslationFields> {
+  return {
+    title: await translateText(source.title, locale),
+    tagline: await translateText(source.tagline, locale),
+    description: await translateText(source.description, locale),
+    showcase_tag: await translateText(source.showcase_tag, locale),
+  };
+}
+
 function priorityLocales(requested?: string[]): string[] {
   const base = requested?.length
     ? requested
@@ -140,7 +166,7 @@ function priorityLocales(requested?: string[]): string[] {
 }
 
 async function ensureOne(
-  entityType: "blog_post" | "portfolio_video" | "portfolio_client",
+  entityType: "blog_post" | "portfolio_video" | "portfolio_client" | "portfolio_category",
   entityId: string,
   localeRaw: string,
 ): Promise<{ cached: boolean; fields: CmsTranslationFields | null }> {
@@ -189,6 +215,27 @@ async function ensureOne(
       locale,
     );
     await upsertTranslation("portfolio_video", row.id, locale, fields);
+    return { cached: false, fields };
+  }
+
+  if (entityType === "portfolio_category") {
+    const { data: row, error } = await supabase
+      .from("portfolio_categories")
+      .select("id,title,tagline,description,showcase_tag")
+      .eq("id", entityId)
+      .maybeSingle();
+    if (error || !row) throw new Error(error?.message || "Category not found");
+
+    const fields = await translateCategoryFields(
+      {
+        title: row.title,
+        tagline: row.tagline ?? "",
+        description: row.description ?? "",
+        showcase_tag: row.showcase_tag || row.title,
+      },
+      locale,
+    );
+    await upsertTranslation("portfolio_category", row.id, locale, fields);
     return { cached: false, fields };
   }
 
@@ -260,7 +307,12 @@ export const ensureCmsTranslationFn = createServerFn({ method: "POST" })
   .inputValidator((data: unknown) => {
     const parsed = z
       .object({
-        entityType: z.enum(["blog_post", "portfolio_video", "portfolio_client"]),
+        entityType: z.enum([
+          "blog_post",
+          "portfolio_video",
+          "portfolio_client",
+          "portfolio_category",
+        ]),
         entityId: z.string().uuid(),
         locale: z.string().min(2).max(8),
       })
@@ -277,7 +329,12 @@ export const ensureCmsTranslationsBatchFn = createServerFn({ method: "POST" })
   .inputValidator((data: unknown) => {
     const parsed = z
       .object({
-        entityType: z.enum(["blog_post", "portfolio_video", "portfolio_client"]),
+        entityType: z.enum([
+          "blog_post",
+          "portfolio_video",
+          "portfolio_client",
+          "portfolio_category",
+        ]),
         entityIds: z.array(z.string().uuid()).max(40),
         locale: z.string().min(2).max(8),
       })
@@ -394,6 +451,47 @@ export const syncClientTranslationsFn = createServerFn({ method: "POST" })
         translated += 1;
       } catch (err) {
         console.error("[cms-translations] client locale failed", locale, err);
+      }
+    }
+    return { ok: true as const, translated };
+  });
+
+export const syncCategoryTranslationsFn = createServerFn({ method: "POST" })
+  .inputValidator((data: unknown) => {
+    const parsed = z
+      .object({
+        categoryId: z.string().uuid(),
+        locales: z.array(z.string()).optional(),
+      })
+      .safeParse(data);
+    if (!parsed.success) throw new Error(parsed.error.issues[0]?.message ?? "Invalid request");
+    return parsed.data;
+  })
+  .handler(async ({ data }) => {
+    const supabase = getServerSupabaseAnon();
+    const { data: row, error } = await supabase
+      .from("portfolio_categories")
+      .select("id,title,tagline,description,showcase_tag")
+      .eq("id", data.categoryId)
+      .maybeSingle();
+    if (error || !row) throw new Error(error?.message || "Category not found");
+
+    const source: CategoryTranslationFields = {
+      title: row.title,
+      tagline: row.tagline ?? "",
+      description: row.description ?? "",
+      showcase_tag: row.showcase_tag || row.title,
+    };
+    await upsertTranslation("portfolio_category", row.id, "en", source);
+
+    let translated = 0;
+    for (const locale of priorityLocales(data.locales)) {
+      try {
+        const fields = await translateCategoryFields(source, locale);
+        await upsertTranslation("portfolio_category", row.id, locale, fields);
+        translated += 1;
+      } catch (err) {
+        console.error("[cms-translations] category locale failed", locale, err);
       }
     }
     return { ok: true as const, translated };
