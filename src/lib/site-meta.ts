@@ -34,6 +34,14 @@ export const siteMeta = {
     title: de.writeReviewPage.metaTitle,
     description: de.writeReviewPage.metaDescription,
   },
+  privacy: {
+    title: de.privacyPage.metaTitle,
+    description: de.privacyPage.metaDescription,
+  },
+  imprint: {
+    title: de.imprintPage.metaTitle,
+    description: de.imprintPage.metaDescription,
+  },
   siteName: de.brand.name,
 } as const;
 

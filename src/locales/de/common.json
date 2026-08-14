@@ -56,7 +56,9 @@
     "subscribeError": "Konnte momentan nicht abonniert werden. Bitte versuchen Sie es erneut oder senden Sie uns direkt eine E-Mail.",
     "emailRequired": "Bitte geben Sie Ihre E-Mail-Adresse ein.",
     "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
-    "adminLogin": "Admin"
+    "adminLogin": "Admin",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum"
   },
   "home": {
     "metaTitle": "Starlights Visuals | Animations- und VFX-Studio",
@@ -410,6 +412,86 @@
         "category": "Produktion",
         "date": "21. April 2026",
         "readTime": "8 Min. Lektüre"
+      }
+    }
+  },
+  "privacyPage": {
+    "metaTitle": "Datenschutzerklärung | Starlights Visuals",
+    "metaDescription": "Erfahren Sie, welche Daten Starlights Visuals erhebt, warum sie verwendet werden und wie sie geschützt werden.",
+    "label": "Ihre Privatsphäre",
+    "title": "DATENSCHUTZ",
+    "subtitle": "Eine klare Erklärung zum Umgang mit Informationen, wenn Sie unsere Website nutzen oder unser Studio kontaktieren.",
+    "updated": "Zuletzt aktualisiert: 2026",
+    "summary": "Wir verkaufen, vermieten oder handeln nicht mit Ihren personenbezogenen Daten. Freiwillig bereitgestellte Informationen verwenden wir nur, um Ihnen zu antworten, gewünschte Leistungen zu erbringen, Bewertungen zu verwalten oder angeforderte Studio-Updates zu senden.",
+    "sections": {
+      "information": {
+        "title": "Welche Informationen wir erheben",
+        "body": "Wir erheben nur Informationen, die Sie freiwillig übermitteln. Eine Projektanfrage kann Ihren Namen, Ihre E-Mail-Adresse, die gewählte Leistung und Ihre Nachricht enthalten. Bei einer Newsletter-Anmeldung wird Ihre E-Mail-Adresse erfasst. Eine Bewertung kann Name, E-Mail-Adresse, Position, Unternehmen, Bewertung, Überschrift und Bewertungstext enthalten.\n\nUnsere Hosting- und Dienstanbieter können außerdem grundlegende technische Daten wie IP-Adresse, Browsertyp, Geräteinformationen, Anfragezeit und Fehlerprotokolle verarbeiten, um die Website zu betreiben und zu schützen."
+      },
+      "use": {
+        "title": "Wie wir Informationen verwenden",
+        "body": "Wir verwenden übermittelte Informationen, um Anfragen zu beantworten, gewünschte Kreativleistungen vorzubereiten oder zu erbringen, transaktionale Antworten zu senden, Newsletter-Kommunikation zu verwalten, Erfahrungsberichte zu prüfen und nach Freigabe zu veröffentlichen, die Website zu schützen, Missbrauch zu verhindern und geltendes Recht einzuhalten.\n\nKundenprojektdetails und personenbezogene Daten verwenden wir nicht für sachfremde Zwecke."
+      },
+      "sharing": {
+        "title": "Wann Informationen weitergegeben werden",
+        "body": "Wir verkaufen oder vermieten keine personenbezogenen Daten. Informationen werden nur an Dienstanbieter weitergegeben, die für den Betrieb der Website und die Kommunikation erforderlich sind, darunter Supabase für Datenbankdienste, Resend für den E-Mail-Versand und unser Website-Hosting-Anbieter. Diese Anbieter verarbeiten Daten in unserem Auftrag nach ihren eigenen Sicherheits- und Datenschutzbedingungen. Wir können Informationen auch offenlegen, wenn dies gesetzlich vorgeschrieben ist oder dem Schutz rechtlicher Interessen und der Website-Sicherheit dient."
+      },
+      "storage": {
+        "title": "Cookies und lokaler Speicher",
+        "body": "Diese Website verwendet derzeit keine Werbe-Cookies oder Analysedienste von Drittanbietern. Der lokale Speicher Ihres Browsers merkt sich Ihre Sprachwahl, die Einstellung des Übersetzungshinweises und Ihre Design-Auswahl. Diese Informationen bleiben auf Ihrem Gerät, bis Ihr Browser sie löscht. Die notwendige Dienstinfrastruktur kann technische Speicherungen oder Protokolle für Sicherheit und Betrieb verwenden."
+      },
+      "retention": {
+        "title": "Speicherdauer",
+        "body": "Wir speichern Anfrage- und Projektinformationen nur so lange, wie dies für Antworten, Leistungen, Geschäftsunterlagen, Streitbeilegung und gesetzliche Pflichten angemessen erforderlich ist. Newsletter-Daten bleiben gespeichert, bis Sie sich abmelden oder die Löschung verlangen. Bewertungsdaten werden gespeichert, solange die Bewertung geprüft oder veröffentlicht wird, sofern keine Löschung verlangt wird oder eine gesetzliche Aufbewahrungspflicht besteht."
+      },
+      "rights": {
+        "title": "Ihre Wahlmöglichkeiten und Rechte",
+        "body": "Sie können Auskunft, Berichtigung oder Löschung Ihrer bei uns gespeicherten personenbezogenen Daten verlangen oder bestimmten Verwendungen widersprechen. Marketing-E-Mails können Sie jederzeit über eine vorhandene Abmeldefunktion oder durch Kontaktaufnahme abbestellen. Je nach US-Bundesstaat können weitere Datenschutzrechte gelten. Wir prüfen und beantworten Anfragen gemäß geltendem Recht und benachteiligen niemanden wegen der Ausübung von Datenschutzrechten."
+      },
+      "children": {
+        "title": "Datenschutz von Kindern",
+        "body": "Diese Website und unsere Leistungen richten sich nicht an Kinder unter 13 Jahren. Wir erheben wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren. Wenn Sie glauben, dass ein Kind Daten übermittelt hat, kontaktieren Sie uns bitte, damit wir sie löschen können."
+      },
+      "security": {
+        "title": "Sicherheit und internationale Verarbeitung",
+        "body": "Wir setzen angemessene organisatorische und technische Schutzmaßnahmen ein. Eine vollständig sichere Übertragung oder Speicherung im Internet kann jedoch nicht garantiert werden. Da wir remote arbeiten und Cloud-Anbieter nutzen, können Informationen in den Vereinigten Staaten oder anderen Ländern verarbeitet werden, in denen unsere Anbieter tätig sind."
+      },
+      "changes": {
+        "title": "Änderungen dieser Erklärung",
+        "body": "Wir können diese Erklärung aktualisieren, wenn sich unsere Leistungen, Anbieter oder rechtlichen Pflichten ändern. Die aktualisierte Fassung erscheint mit einem neuen Datum auf dieser Seite."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "Bei Datenschutzfragen oder Anfragen schreiben Sie an info@starlightvisualstudio.de. Bitte beschreiben Sie Ihr Anliegen und nennen Sie die damit verbundene E-Mail-Adresse, damit wir antworten können."
+      }
+    }
+  },
+  "imprintPage": {
+    "metaTitle": "Impressum | Starlights Visuals",
+    "metaDescription": "Unternehmens- und Kontaktdaten des Betreibers der Website von Starlights Visuals.",
+    "label": "Rechtliche Hinweise",
+    "title": "IMPRESSUM",
+    "subtitle": "Unternehmens- und Kontaktdaten zu dieser Website.",
+    "sections": {
+      "operator": {
+        "title": "Websitebetreiber",
+        "body": "Starlights Visuals\nKreativstudio für Animation und VFX\nVereinigte Staaten\nRemote First Studio mit internationalen Kunden"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "E-Mail: info@starlightvisualstudio.de\nFür Projektanfragen, rechtliche Hinweise oder Datenschutzanfragen kontaktieren Sie uns bitte per E-Mail."
+      },
+      "responsibility": {
+        "title": "Verantwortung für Inhalte",
+        "body": "Wir bemühen uns, die Informationen auf dieser Website richtig und aktuell zu halten. Wir garantieren jedoch nicht, dass alle Inhalte vollständig, fehlerfrei oder jederzeit verfügbar sind. Die Inhalte dienen der allgemeinen Information und stellen keine rechtliche, finanzielle oder sonstige professionelle Beratung dar."
+      },
+      "links": {
+        "title": "Externe Links",
+        "body": "Diese Website kann Links zu Websites oder Plattformen Dritter enthalten. Wir kontrollieren deren Inhalte, Verfügbarkeit oder Datenschutzpraktiken nicht und übernehmen dafür keine Verantwortung. Für die Inhalte verlinkter Angebote ist der jeweilige Betreiber verantwortlich."
+      },
+      "copyright": {
+        "title": "Urheberrecht",
+        "body": "Sofern nicht anders angegeben, sind Texte, Design, Animationen, Kunstwerke, Videos und andere Originalinhalte dieser Website Eigentum von Starlights Visuals oder werden mit Genehmigung verwendet. Vervielfältigung, Verbreitung oder kommerzielle Nutzung erfordern eine vorherige schriftliche Genehmigung, soweit das geltende Recht nichts anderes erlaubt."
       }
     }
   },

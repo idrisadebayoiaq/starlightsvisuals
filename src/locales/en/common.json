@@ -56,7 +56,9 @@
     "follow": "Follow",
     "social": "Social link",
     "copyright": "© {{year}} Starlights Visuals. Crafted with light & code.",
-    "adminLogin": "Admin"
+    "adminLogin": "Admin",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint"
   },
   "home": {
     "metaTitle": "Starlights Visuals | Animation & VFX Studio",
@@ -1454,6 +1456,86 @@
           "0": "Industrial",
           "1": "Autoz Crave"
         }
+      }
+    }
+  },
+  "privacyPage": {
+    "metaTitle": "Privacy Policy | Starlights Visuals",
+    "metaDescription": "Learn what information Starlights Visuals collects, why it is used, and how it is protected.",
+    "label": "Your privacy",
+    "title": "PRIVACY POLICY",
+    "subtitle": "A clear explanation of how information is handled when you use our website or contact our studio.",
+    "updated": "Last updated: 2026",
+    "summary": "We do not sell, rent, or trade your personal information. We use information you choose to provide only to respond to you, deliver requested services, manage reviews, or send studio updates you requested.",
+    "sections": {
+      "information": {
+        "title": "Information we collect",
+        "body": "We collect only information you voluntarily submit. A project inquiry may include your name, email address, selected service, and message. A newsletter signup includes your email address. A submitted review may include your name, email address, role, company, rating, headline, and review text.\n\nOur hosting and service providers may also process basic technical data, such as IP address, browser type, device information, request time, and error logs, to operate and secure the website."
+      },
+      "use": {
+        "title": "How we use information",
+        "body": "We use submitted information to answer inquiries, prepare or provide requested creative services, send transactional replies, manage newsletter communications, review and publish testimonials with approval, maintain website security, prevent abuse, and comply with applicable law.\n\nWe do not use client project details or personal information for unrelated purposes."
+      },
+      "sharing": {
+        "title": "When information is shared",
+        "body": "We do not sell or rent personal information. Information is shared only with service providers needed to run the website and communications, including Supabase for database services, Resend for email delivery, and our website hosting provider. These providers process data on our behalf under their own security and privacy terms. We may also disclose information when required by law or to protect legal rights and website security."
+      },
+      "storage": {
+        "title": "Cookies and local storage",
+        "body": "This website currently does not use advertising cookies or third party analytics. It uses browser local storage to remember your language choice, translation prompt preference, and theme preference. This information stays on your device unless your browser clears it. Essential service infrastructure may use technical storage or logs necessary for security and operation."
+      },
+      "retention": {
+        "title": "How long we keep information",
+        "body": "We keep inquiry and project information only as long as reasonably needed to respond, provide services, maintain business records, resolve disputes, and meet legal obligations. Newsletter information is kept until you unsubscribe or ask us to delete it. Review information is kept while the review is pending or published, unless removal is requested or retention is legally required."
+      },
+      "rights": {
+        "title": "Your choices and privacy rights",
+        "body": "You may ask to access, correct, or delete personal information we hold about you, or object to certain uses. You may unsubscribe from marketing emails at any time by contacting us or using an unsubscribe option when provided. Depending on your U.S. state, additional privacy rights may apply. We will verify and respond to requests as required by applicable law. We do not discriminate against anyone for exercising privacy rights."
+      },
+      "children": {
+        "title": "Children's privacy",
+        "body": "This website and our services are not directed to children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child has provided information, contact us so we can delete it."
+      },
+      "security": {
+        "title": "Security and international processing",
+        "body": "We use reasonable administrative and technical safeguards designed to protect submitted information. No internet transmission or storage system can be guaranteed completely secure. Because we work remotely and use cloud providers, information may be processed in the United States or other countries where our providers operate."
+      },
+      "changes": {
+        "title": "Changes to this policy",
+        "body": "We may update this policy when our services, providers, or legal obligations change. The updated version will appear on this page with a revised date."
+      },
+      "contact": {
+        "title": "Contact us",
+        "body": "For privacy questions or requests, email info@starlightvisualstudio.de. Please describe your request and the email address connected with the information so we can respond."
+      }
+    }
+  },
+  "imprintPage": {
+    "metaTitle": "Imprint | Starlights Visuals",
+    "metaDescription": "Business and contact information for the operator of the Starlights Visuals website.",
+    "label": "Legal notice",
+    "title": "IMPRINT",
+    "subtitle": "Business and contact information for this website.",
+    "sections": {
+      "operator": {
+        "title": "Website operator",
+        "body": "Starlights Visuals\nCreative animation and VFX studio\nUnited States\nRemote first studio serving clients internationally"
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Email: info@starlightvisualstudio.de\nFor project inquiries, legal notices, or privacy requests, please contact us by email."
+      },
+      "responsibility": {
+        "title": "Responsibility for content",
+        "body": "We make reasonable efforts to keep the information on this website accurate and current. However, we do not guarantee that all content is complete, error free, or continuously available. Website content is provided for general information and does not constitute legal, financial, or other professional advice."
+      },
+      "links": {
+        "title": "External links",
+        "body": "This website may link to third party websites or platforms. We do not control their content, availability, or privacy practices and are not responsible for them. The operator of each linked service is responsible for its own content."
+      },
+      "copyright": {
+        "title": "Copyright",
+        "body": "Unless otherwise stated, the text, design, animation, artwork, video, and other original content on this website are owned by Starlights Visuals or used with permission. Reproduction, distribution, or commercial use requires prior written permission, except where applicable law allows otherwise."
       }
     }
   },

@@ -79,10 +79,7 @@ export function SiteFooter() {
             <span className="neon-text">{t("footer.newsletterHighlight")}</span>
           </h3>
           <p className="mt-3 text-muted-foreground">{t("footer.newsletterDesc")}</p>
-          <form
-            onSubmit={onSubscribe}
-            className="mt-6 mx-auto flex max-w-md gap-2"
-          >
+          <form onSubmit={onSubscribe} className="mt-6 mx-auto flex max-w-md gap-2">
             <input
               type="email"
               required
@@ -98,14 +95,16 @@ export function SiteFooter() {
               aria-busy={submitting}
               className="inline-flex items-center gap-2 rounded-md neon-gradient px-5 py-3 text-sm font-display uppercase tracking-widest text-background transition hover:glow-purple disabled:cursor-not-allowed disabled:opacity-60"
             >
-              {submitting ? <Loader2 className="h-4 w-4 animate-spin" /> : <Send className="h-4 w-4" />}
+              {submitting ? (
+                <Loader2 className="h-4 w-4 animate-spin" />
+              ) : (
+                <Send className="h-4 w-4" />
+              )}
               {submitting ? t("footer.joining") : t("footer.join")}
             </button>
           </form>
           {error && <p className="mt-3 text-sm text-destructive">{error}</p>}
-          {subscribed && (
-            <p className="mt-3 text-sm text-neon-blue">{t("footer.subscribed")}</p>
-          )}
+          {subscribed && <p className="mt-3 text-sm text-neon-blue">{t("footer.subscribed")}</p>}
         </div>
       </div>
 
@@ -158,12 +157,20 @@ export function SiteFooter() {
         </div>
       </div>
 
-      <div className="border-t border-border/40 py-5 text-center text-xs text-muted-foreground">
-        {t("footer.copyright", { year: new Date().getFullYear() })}
+      <div className="border-t border-border/40 px-6 py-5 text-center text-xs text-muted-foreground">
+        <span>{t("footer.copyright", { year: 2026 })}</span>
+        <span className="mx-2 text-border">·</span>
+        <Link to="/privacy" className="transition hover:text-neon-green">
+          {t("footer.privacy")}
+        </Link>
+        <span className="mx-2 text-border">·</span>
+        <Link to="/imprint" className="transition hover:text-neon-green">
+          {t("footer.imprint")}
+        </Link>
         <span className="mx-2 text-border">·</span>
         <Link
           to="/admin/login"
-          className="text-xs text-muted-foreground/70 transition hover:text-muted-foreground"
+          className="text-muted-foreground/70 transition hover:text-muted-foreground"
         >
           {t("footer.adminLogin")}
         </Link>
