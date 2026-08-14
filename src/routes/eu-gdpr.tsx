@@ -6,25 +6,26 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { pageHead, siteMeta } from "@/lib/site-meta";
 
 const SECTION_IDS = [
-  "information",
-  "use",
-  "sharing",
-  "international",
-  "storage",
+  "scope",
+  "controller",
+  "data",
+  "purposes",
+  "legalBases",
+  "recipients",
+  "transfers",
   "retention",
   "rights",
-  "children",
-  "security",
-  "changes",
+  "complaints",
+  "decisions",
   "contact",
 ] as const;
 
-export const Route = createFileRoute("/privacy")({
-  head: () => pageHead(siteMeta.privacy),
-  component: PrivacyPage,
+export const Route = createFileRoute("/eu-gdpr")({
+  head: () => pageHead(siteMeta.euGdpr),
+  component: EuGdprPage,
 });
 
-function PrivacyPage() {
+function EuGdprPage() {
   const { t } = useTranslation();
 
   return (
@@ -35,31 +36,33 @@ function PrivacyPage() {
         <div className="absolute inset-0 -z-10 grid-bg" />
         <div className="mx-auto max-w-5xl px-6 py-24 text-center md:py-32">
           <p className="font-display text-xs uppercase tracking-[0.3em] text-neon-green">
-            {t("privacyPage.label")}
+            {t("euGdprPage.label")}
           </p>
           <h1 className="mt-4 font-display text-5xl font-bold tracking-tight md:text-7xl">
-            {t("privacyPage.title")}
+            {t("euGdprPage.title")}
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
-            {t("privacyPage.subtitle")}
+            {t("euGdprPage.subtitle")}
           </p>
-          <p className="mt-4 text-sm text-muted-foreground">{t("privacyPage.updated")}</p>
+          <p className="mt-4 text-sm text-muted-foreground">{t("euGdprPage.updated")}</p>
         </div>
       </section>
 
       <main className="mx-auto max-w-3xl px-6 py-16 md:py-20">
         <div className="rounded-xl border border-neon-green/25 bg-card/40 p-6 md:p-8">
-          <p className="text-base leading-relaxed text-foreground">{t("privacyPage.summary")}</p>
+          <p className="whitespace-pre-line text-base leading-8 text-foreground">
+            {t("euGdprPage.summary")}
+          </p>
         </div>
 
         <div className="mt-12 space-y-12">
           {SECTION_IDS.map((id) => (
             <section key={id}>
               <h2 className="font-display text-xl uppercase tracking-wide text-neon-green md:text-2xl">
-                {t(`privacyPage.sections.${id}.title`)}
+                {t(`euGdprPage.sections.${id}.title`)}
               </h2>
               <p className="mt-4 whitespace-pre-line text-base leading-8 text-muted-foreground">
-                {t(`privacyPage.sections.${id}.body`)}
+                {t(`euGdprPage.sections.${id}.body`)}
               </p>
             </section>
           ))}

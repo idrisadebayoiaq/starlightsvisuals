@@ -58,6 +58,7 @@
     "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
     "adminLogin": "Admin",
     "privacy": "Datenschutz",
+    "euGdpr": "EU DSGVO",
     "imprint": "Impressum"
   },
   "home": {
@@ -420,9 +421,9 @@
     "metaDescription": "Erfahren Sie, welche Daten Starlights Visuals erhebt, warum sie verwendet werden und wie sie geschützt werden.",
     "label": "Ihre Privatsphäre",
     "title": "DATENSCHUTZ",
-    "subtitle": "Eine klare Erklärung zum Umgang mit Informationen, wenn Sie unsere Website nutzen oder unser Studio kontaktieren.",
+    "subtitle": "Wie unser Studio mit Sitz in den USA Daten von Kunden und Besuchern weltweit verarbeitet.",
     "updated": "Zuletzt aktualisiert: 2026",
-    "summary": "Wir verkaufen, vermieten oder handeln nicht mit Ihren personenbezogenen Daten. Freiwillig bereitgestellte Informationen verwenden wir nur, um Ihnen zu antworten, gewünschte Leistungen zu erbringen, Bewertungen zu verwalten oder angeforderte Studio-Updates zu senden.",
+    "summary": "Wir betreuen Kunden weltweit, mit einem wichtigen Schwerpunkt auf Europa und Deutschland. Wir verkaufen, vermieten oder handeln nicht mit personenbezogenen Daten und geben die Daten eines Kunden niemals an andere Kunden in den USA, Deutschland, Europa oder anderswo weiter.",
     "sections": {
       "information": {
         "title": "Welche Informationen wir erheben",
@@ -434,7 +435,11 @@
       },
       "sharing": {
         "title": "Wann Informationen weitergegeben werden",
-        "body": "Wir verkaufen oder vermieten keine personenbezogenen Daten. Informationen werden nur an Dienstanbieter weitergegeben, die für den Betrieb der Website und die Kommunikation erforderlich sind, darunter Supabase für Datenbankdienste, Resend für den E-Mail-Versand und unser Website-Hosting-Anbieter. Diese Anbieter verarbeiten Daten in unserem Auftrag nach ihren eigenen Sicherheits- und Datenschutzbedingungen. Wir können Informationen auch offenlegen, wenn dies gesetzlich vorgeschrieben ist oder dem Schutz rechtlicher Interessen und der Website-Sicherheit dient."
+        "body": "Wir verkaufen oder vermieten keine personenbezogenen Daten und geben Kundendaten nicht an Kunden in einem anderen Land weiter. Der Zugriff ist auf Starlights Visuals und Dienstanbieter beschränkt, die die Daten für den Betrieb der Website, die Kommunikation mit Ihnen oder die Erbringung angeforderter Leistungen benötigen. Zu den derzeitigen Anbietern gehören Supabase für Datenbankdienste, Resend für den E-Mail-Versand und unser Hostinganbieter. Wir können Daten außerdem offenlegen, wenn dies gesetzlich vorgeschrieben oder zum Schutz rechtlicher Interessen und der Websitesicherheit erforderlich ist."
+      },
+      "international": {
+        "title": "Weltweite Kunden und internationale Übermittlungen",
+        "body": "Starlights Visuals ist in den Vereinigten Staaten tätig und arbeitet mit Menschen weltweit, insbesondere in Europa und Deutschland. Daten von Kunden aus den USA werden nicht an deutsche oder europäische Kunden weitergegeben. Ebenso werden Daten deutscher oder europäischer Kunden nicht an Kunden in den USA weitergegeben.\n\nDiese Trennung zwischen Kunden bedeutet nicht, dass Daten immer innerhalb eines Landes verbleiben. Unser autorisiertes Team und unsere Cloudanbieter können Daten in den USA, im Europäischen Wirtschaftsraum, in Deutschland oder an anderen Standorten verarbeiten, an denen sie tätig sind. Werden europäische personenbezogene Daten außerhalb des Europäischen Wirtschaftsraums übermittelt, verwenden wir, soweit erforderlich, einen zulässigen Übermittlungsmechanismus, etwa einen Angemessenheitsbeschluss, die Standardvertragsklauseln der EU oder eine andere gesetzlich anerkannte Garantie. Weitere Einzelheiten enthält unser Hinweis zur EU DSGVO."
       },
       "storage": {
         "title": "Cookies und lokaler Speicher",
@@ -446,7 +451,7 @@
       },
       "rights": {
         "title": "Ihre Wahlmöglichkeiten und Rechte",
-        "body": "Sie können Auskunft, Berichtigung oder Löschung Ihrer bei uns gespeicherten personenbezogenen Daten verlangen oder bestimmten Verwendungen widersprechen. Marketing-E-Mails können Sie jederzeit über eine vorhandene Abmeldefunktion oder durch Kontaktaufnahme abbestellen. Je nach US-Bundesstaat können weitere Datenschutzrechte gelten. Wir prüfen und beantworten Anfragen gemäß geltendem Recht und benachteiligen niemanden wegen der Ausübung von Datenschutzrechten."
+        "body": "Sie können Auskunft, Berichtigung oder Löschung Ihrer bei uns gespeicherten personenbezogenen Daten verlangen oder bestimmten Verwendungen widersprechen. Marketingnachrichten können Sie jederzeit über eine vorhandene Abmeldefunktion oder durch Kontaktaufnahme abbestellen. Je nach Bundesstaat der USA können weitere Datenschutzrechte gelten. Personen im Europäischen Wirtschaftsraum, in Deutschland und im Vereinigten Königreich können außerdem Rechte nach europäischem Datenschutzrecht haben, die in unserem Hinweis zur EU DSGVO beschrieben sind. Wir prüfen und beantworten Anfragen nach geltendem Recht und benachteiligen niemanden wegen der Ausübung von Datenschutzrechten."
       },
       "children": {
         "title": "Datenschutz von Kindern",
@@ -454,7 +459,7 @@
       },
       "security": {
         "title": "Sicherheit und internationale Verarbeitung",
-        "body": "Wir setzen angemessene organisatorische und technische Schutzmaßnahmen ein. Eine vollständig sichere Übertragung oder Speicherung im Internet kann jedoch nicht garantiert werden. Da wir remote arbeiten und Cloud-Anbieter nutzen, können Informationen in den Vereinigten Staaten oder anderen Ländern verarbeitet werden, in denen unsere Anbieter tätig sind."
+        "body": "Wir setzen angemessene organisatorische und technische Schutzmaßnahmen ein, darunter die Beschränkung des Zugriffs auf Personen und Anbieter, die Daten für einen angegebenen Zweck benötigen. Eine vollständig sichere Übertragung oder Speicherung im Internet kann jedoch nicht garantiert werden."
       },
       "changes": {
         "title": "Änderungen dieser Erklärung",
@@ -463,6 +468,65 @@
       "contact": {
         "title": "Kontakt",
         "body": "Bei Datenschutzfragen oder Anfragen schreiben Sie an info@starlightvisualstudio.de. Bitte beschreiben Sie Ihr Anliegen und nennen Sie die damit verbundene E-Mail-Adresse, damit wir antworten können."
+      }
+    }
+  },
+  "euGdprPage": {
+    "metaTitle": "EU DSGVO Hinweis | Starlights Visuals",
+    "metaDescription": "DSGVO Informationen für Personen im Europäischen Wirtschaftsraum und in Deutschland, die mit Starlights Visuals interagieren.",
+    "label": "Europäischer Datenschutz",
+    "title": "EU DSGVO HINWEIS",
+    "subtitle": "Informationen für Personen im Europäischen Wirtschaftsraum und in Deutschland.",
+    "updated": "Zuletzt aktualisiert: 2026",
+    "summary": "Starlights Visuals hat seinen Sitz in den Vereinigten Staaten und betreut Kunden weltweit, insbesondere in Europa und Deutschland. Dieser Hinweis ergänzt unsere Datenschutzerklärung und erläutert die Verarbeitung personenbezogener Daten, die unter die Datenschutzgrundverordnung der Europäischen Union fallen.",
+    "sections": {
+      "scope": {
+        "title": "Geltungsbereich",
+        "body": "Dieser Hinweis gilt, wenn die EU DSGVO auf unsere Verarbeitung personenbezogener Daten anwendbar ist, insbesondere wenn eine Person im Europäischen Wirtschaftsraum unsere Website besucht, uns wegen Leistungen kontaktiert, unseren Newsletter abonniert, eine Bewertung einreicht oder mit uns an einem Projekt arbeitet. Er ist zusammen mit unserer allgemeinen Datenschutzerklärung zu lesen."
+      },
+      "controller": {
+        "title": "Verantwortlicher",
+        "body": "Starlights Visuals\nVereinigte Staaten\nE-Mail: info@starlightvisualstudio.de\n\nStarlights Visuals entscheidet, warum und wie über diese Website eingereichte personenbezogene Daten verarbeitet werden. Datenschutzanfragen und Anfragen zur DSGVO können an die oben genannte E-Mail-Adresse gesendet werden."
+      },
+      "data": {
+        "title": "Verarbeitete personenbezogene Daten",
+        "body": "Je nach Interaktion verarbeiten wir Name, E-Mail-Adresse, Unternehmen, Position, Projektart, Projektnachricht, Newsletterpräferenz, Bewertungstext und Bewertung, Korrespondenz sowie grundlegende technische Daten wie IP-Adresse, Browserdetails, Geräteinformationen, Zeitstempel und Sicherheitsprotokolle. Bitte senden Sie keine sensiblen personenbezogenen Daten, sofern diese nicht erforderlich und ausdrücklich angefordert sind."
+      },
+      "purposes": {
+        "title": "Zwecke der Verarbeitung",
+        "body": "Wir verarbeiten personenbezogene Daten, um Anfragen zu beantworten, vorvertragliche Maßnahmen durchzuführen oder einen Vertrag zu erfüllen, kreative Leistungen zu erbringen, Kundenkommunikation zu verwalten, angeforderte Newsletter zu senden, Erfahrungsberichte nach Freigabe zu prüfen und zu veröffentlichen, die Website zu sichern und zu warten, Missbrauch zu verhindern, erforderliche Geschäftsunterlagen aufzubewahren, Rechtsansprüche geltend zu machen oder zu verteidigen und gesetzliche Pflichten zu erfüllen."
+      },
+      "legalBases": {
+        "title": "Rechtsgrundlagen",
+        "body": "Je nach Tätigkeit stützen wir uns auf eine oder mehrere Rechtsgrundlagen nach Artikel 6 DSGVO: angeforderte vorvertragliche Maßnahmen oder Vertragserfüllung; Einwilligung für optionale Werbung und Tätigkeiten, die eine Einwilligung erfordern; unsere berechtigten Interessen an der Beantwortung geschäftlicher Anfragen, dem Betrieb und Schutz unserer Leistungen und der Pflege von Kundenbeziehungen, soweit Ihre Rechte nicht überwiegen; sowie die Erfüllung gesetzlicher Pflichten. Eine Einwilligung kann jederzeit mit Wirkung für die Zukunft widerrufen werden."
+      },
+      "recipients": {
+        "title": "Empfänger und Kundentrennung",
+        "body": "Wir verkaufen keine personenbezogenen Daten. Wir geben Daten eines Kunden aus den USA nicht an Kunden in Deutschland oder Europa weiter und geben Daten deutscher oder europäischer Kunden nicht an Kunden in den USA weiter. Personenbezogene Daten sind nur autorisiertem Personal von Starlights Visuals und Anbietern zugänglich, die sie für einen angegebenen Zweck benötigen. Dazu gehören Supabase für Datenbankdienste, Resend für den E-Mail-Versand und unser Hostinganbieter. Anbieter sollen Daten nur nach geeigneten Weisungen und Schutzmaßnahmen verarbeiten."
+      },
+      "transfers": {
+        "title": "Übermittlungen außerhalb Europas",
+        "body": "Da Starlights Visuals seinen Sitz in den USA hat und internationale Clouddienste nutzt, können europäische personenbezogene Daten in Länder außerhalb des Europäischen Wirtschaftsraums, einschließlich der USA, übermittelt oder von dort abgerufen werden. Die Trennung von Kundendaten verhindert diese notwendigen Dienstübermittlungen nicht. Soweit die DSGVO eine Übermittlungsgarantie verlangt, stützen wir uns auf einen anwendbaren Angemessenheitsbeschluss, die Standardvertragsklauseln der EU, den Datenschutzrahmen zwischen der EU und den USA für teilnehmende Anbieter oder einen anderen zulässigen Mechanismus. Sie können uns kontaktieren, um Informationen über die für Ihre Daten relevante Garantie zu erhalten."
+      },
+      "retention": {
+        "title": "Speicherdauer",
+        "body": "Wir speichern personenbezogene Daten nur so lange, wie dies für den Erhebungszweck angemessen erforderlich ist. Dazu gehören die Beantwortung von Anfragen, die Erbringung von Leistungen, die Aufbewahrung von Geschäftsunterlagen und Steuerunterlagen, die Beilegung von Streitigkeiten und gesetzliche Pflichten. Newsletterdaten werden bis zur Abmeldung oder einem Löschverlangen gespeichert. Bewertungsdaten bleiben gespeichert, solange sie geprüft oder veröffentlicht werden, sofern keine Löschung verlangt wird oder eine gesetzliche Aufbewahrungspflicht besteht."
+      },
+      "rights": {
+        "title": "Ihre Rechte nach der DSGVO",
+        "body": "Unter den gesetzlichen Voraussetzungen und Ausnahmen können Sie Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung oder Datenübertragbarkeit verlangen und einer Verarbeitung aufgrund berechtigter Interessen oder für Direktwerbung widersprechen. Eine Einwilligung kann jederzeit widerrufen werden. Zur Ausübung eines Rechts schreiben Sie an info@starlightvisualstudio.de. Wir können zur Identitätsprüfung erforderliche Informationen anfordern und antworten innerhalb der gesetzlich vorgeschriebenen Frist."
+      },
+      "complaints": {
+        "title": "Beschwerderecht",
+        "body": "Sie können sich bei einer Datenschutzaufsichtsbehörde beschweren, insbesondere in dem Mitgliedstaat der EU, in dem Sie leben, arbeiten oder einen Verstoß vermuten. Personen in Deutschland können sich an die zuständige Datenschutzbehörde ihres Bundeslandes wenden."
+      },
+      "decisions": {
+        "title": "Automatisierte Entscheidungen und Pflichtangaben",
+        "body": "Wir verwenden eingereichte personenbezogene Daten nicht für ausschließlich automatisierte Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung. Als erforderlich gekennzeichnete Felder werden benötigt, um eine Anfrage zu beantworten oder die gewünschte Funktion bereitzustellen. Ohne erforderliche Angaben können wir möglicherweise nicht antworten oder die Funktion anbieten."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "Bei Fragen zur DSGVO, Anträgen auf Ausübung Ihrer Rechte, Fragen zu Übermittlungsgarantien oder Datenschutzanliegen schreiben Sie an info@starlightvisualstudio.de."
       }
     }
   },

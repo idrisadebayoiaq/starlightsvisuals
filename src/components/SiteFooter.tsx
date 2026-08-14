@@ -164,6 +164,10 @@ export function SiteFooter() {
           {t("footer.privacy")}
         </Link>
         <span className="mx-2 text-border">·</span>
+        <Link to="/eu-gdpr" className="transition hover:text-neon-green">
+          {t("footer.euGdpr")}
+        </Link>
+        <span className="mx-2 text-border">·</span>
         <Link to="/imprint" className="transition hover:text-neon-green">
           {t("footer.imprint")}
         </Link>

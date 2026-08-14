@@ -15,6 +15,7 @@ import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as PortfolioRouteImport } from './routes/portfolio'
 import { Route as ImprintRouteImport } from './routes/imprint'
 import { Route as FaqRouteImport } from './routes/faq'
+import { Route as EuGdprRouteImport } from './routes/eu-gdpr'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as BlogRouteImport } from './routes/blog'
 import { Route as AdminRouteImport } from './routes/admin'
@@ -62,6 +63,11 @@ const ImprintRoute = ImprintRouteImport.update({
 const FaqRoute = FaqRouteImport.update({
   id: '/faq',
   path: '/faq',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EuGdprRoute = EuGdprRouteImport.update({
+  id: '/eu-gdpr',
+  path: '/eu-gdpr',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ContactRoute = ContactRouteImport.update({
@@ -161,6 +167,7 @@ export interface FileRoutesByFullPath {
   '/admin': typeof AdminRouteWithChildren
   '/blog': typeof BlogRouteWithChildren
   '/contact': typeof ContactRoute
+  '/eu-gdpr': typeof EuGdprRoute
   '/faq': typeof FaqRoute
   '/imprint': typeof ImprintRoute
   '/portfolio': typeof PortfolioRoute
@@ -185,6 +192,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
+  '/eu-gdpr': typeof EuGdprRoute
   '/faq': typeof FaqRoute
   '/imprint': typeof ImprintRoute
   '/portfolio': typeof PortfolioRoute
@@ -211,6 +219,7 @@ export interface FileRoutesById {
   '/admin': typeof AdminRouteWithChildren
   '/blog': typeof BlogRouteWithChildren
   '/contact': typeof ContactRoute
+  '/eu-gdpr': typeof EuGdprRoute
   '/faq': typeof FaqRoute
   '/imprint': typeof ImprintRoute
   '/portfolio': typeof PortfolioRoute
@@ -239,6 +248,7 @@ export interface FileRouteTypes {
     | '/admin'
     | '/blog'
     | '/contact'
+    | '/eu-gdpr'
     | '/faq'
     | '/imprint'
     | '/portfolio'
@@ -263,6 +273,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/contact'
+    | '/eu-gdpr'
     | '/faq'
     | '/imprint'
     | '/portfolio'
@@ -288,6 +299,7 @@ export interface FileRouteTypes {
     | '/admin'
     | '/blog'
     | '/contact'
+    | '/eu-gdpr'
     | '/faq'
     | '/imprint'
     | '/portfolio'
@@ -315,6 +327,7 @@ export interface RootRouteChildren {
   AdminRoute: typeof AdminRouteWithChildren
   BlogRoute: typeof BlogRouteWithChildren
   ContactRoute: typeof ContactRoute
+  EuGdprRoute: typeof EuGdprRoute
   FaqRoute: typeof FaqRoute
   ImprintRoute: typeof ImprintRoute
   PortfolioRoute: typeof PortfolioRoute
@@ -366,6 +379,13 @@ declare module '@tanstack/react-router' {
       path: '/faq'
       fullPath: '/faq'
       preLoaderRoute: typeof FaqRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/eu-gdpr': {
+      id: '/eu-gdpr'
+      path: '/eu-gdpr'
+      fullPath: '/eu-gdpr'
+      preLoaderRoute: typeof EuGdprRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/contact': {
@@ -553,6 +573,7 @@ const rootRouteChildren: RootRouteChildren = {
   AdminRoute: AdminRouteWithChildren,
   BlogRoute: BlogRouteWithChildren,
   ContactRoute: ContactRoute,
+  EuGdprRoute: EuGdprRoute,
   FaqRoute: FaqRoute,
   ImprintRoute: ImprintRoute,
   PortfolioRoute: PortfolioRoute,

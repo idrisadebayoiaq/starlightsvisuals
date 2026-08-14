@@ -38,6 +38,10 @@ export const siteMeta = {
     title: de.privacyPage.metaTitle,
     description: de.privacyPage.metaDescription,
   },
+  euGdpr: {
+    title: de.euGdprPage.metaTitle,
+    description: de.euGdprPage.metaDescription,
+  },
   imprint: {
     title: de.imprintPage.metaTitle,
     description: de.imprintPage.metaDescription,

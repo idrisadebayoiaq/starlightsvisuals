@@ -58,6 +58,7 @@
     "copyright": "© {{year}} Starlights Visuals. Crafted with light & code.",
     "adminLogin": "Admin",
     "privacy": "Privacy Policy",
+    "euGdpr": "EU GDPR",
     "imprint": "Imprint"
   },
   "home": {
@@ -1464,9 +1465,9 @@
     "metaDescription": "Learn what information Starlights Visuals collects, why it is used, and how it is protected.",
     "label": "Your privacy",
     "title": "PRIVACY POLICY",
-    "subtitle": "A clear explanation of how information is handled when you use our website or contact our studio.",
+    "subtitle": "How our United States based studio handles information from clients and visitors around the world.",
     "updated": "Last updated: 2026",
-    "summary": "We do not sell, rent, or trade your personal information. We use information you choose to provide only to respond to you, deliver requested services, manage reviews, or send studio updates you requested.",
+    "summary": "We serve clients worldwide, with an important focus on Europe and Germany. We do not sell, rent, or trade personal information, and we never share one client's information with another client in the United States, Germany, Europe, or elsewhere.",
     "sections": {
       "information": {
         "title": "Information we collect",
@@ -1478,7 +1479,11 @@
       },
       "sharing": {
         "title": "When information is shared",
-        "body": "We do not sell or rent personal information. Information is shared only with service providers needed to run the website and communications, including Supabase for database services, Resend for email delivery, and our website hosting provider. These providers process data on our behalf under their own security and privacy terms. We may also disclose information when required by law or to protect legal rights and website security."
+        "body": "We do not sell or rent personal information and do not disclose a client's information to clients in another country. Access is limited to Starlights Visuals and service providers that need the information to operate the website, communicate with you, or deliver requested work. Current providers include Supabase for database services, Resend for email delivery, and our website hosting provider. We may also disclose information when required by law or necessary to protect legal rights and website security."
+      },
+      "international": {
+        "title": "Worldwide clients and international transfers",
+        "body": "Starlights Visuals operates from the United States and works with people worldwide, especially in Europe and Germany. United States client information is not shared with German or European clients, and German or European client information is not shared with United States clients.\n\nThis client separation does not mean data always remains inside one country. Our authorized team and cloud providers may process information in the United States, the European Economic Area, Germany, or other locations where they operate. When European personal data is transferred outside the European Economic Area, we use an applicable legal transfer mechanism where required, such as an adequacy decision, the EU Standard Contractual Clauses, or another safeguard recognized by law. See our EU GDPR Notice for additional details."
       },
       "storage": {
         "title": "Cookies and local storage",
@@ -1490,7 +1495,7 @@
       },
       "rights": {
         "title": "Your choices and privacy rights",
-        "body": "You may ask to access, correct, or delete personal information we hold about you, or object to certain uses. You may unsubscribe from marketing emails at any time by contacting us or using an unsubscribe option when provided. Depending on your U.S. state, additional privacy rights may apply. We will verify and respond to requests as required by applicable law. We do not discriminate against anyone for exercising privacy rights."
+        "body": "You may ask to access, correct, or delete personal information we hold about you, or object to certain uses. You may unsubscribe from marketing emails at any time by contacting us or using an unsubscribe option when provided. Depending on your United States state, additional privacy rights may apply. People in the European Economic Area, Germany, and the United Kingdom may also have rights under applicable European privacy law, as described in our EU GDPR Notice. We verify and respond to requests as required by applicable law and do not discriminate against anyone for exercising privacy rights."
       },
       "children": {
         "title": "Children's privacy",
@@ -1498,7 +1503,7 @@
       },
       "security": {
         "title": "Security and international processing",
-        "body": "We use reasonable administrative and technical safeguards designed to protect submitted information. No internet transmission or storage system can be guaranteed completely secure. Because we work remotely and use cloud providers, information may be processed in the United States or other countries where our providers operate."
+        "body": "We use reasonable administrative and technical safeguards designed to protect submitted information, including limiting access to people and providers that need it for a stated purpose. No internet transmission or storage system can be guaranteed completely secure."
       },
       "changes": {
         "title": "Changes to this policy",
@@ -1507,6 +1512,65 @@
       "contact": {
         "title": "Contact us",
         "body": "For privacy questions or requests, email info@starlightvisualstudio.de. Please describe your request and the email address connected with the information so we can respond."
+      }
+    }
+  },
+  "euGdprPage": {
+    "metaTitle": "EU GDPR Notice | Starlights Visuals",
+    "metaDescription": "GDPR information for people in the European Economic Area and Germany who interact with Starlights Visuals.",
+    "label": "European data protection",
+    "title": "EU GDPR NOTICE",
+    "subtitle": "Information for people in the European Economic Area and Germany.",
+    "updated": "Last updated: 2026",
+    "summary": "Starlights Visuals is based in the United States and serves clients worldwide, especially in Europe and Germany. This notice supplements our Privacy Policy and explains how we handle personal data covered by the European Union General Data Protection Regulation.",
+    "sections": {
+      "scope": {
+        "title": "Scope",
+        "body": "This notice applies when the EU GDPR covers our processing of personal data, including when a person in the European Economic Area visits our website, contacts us about services, joins our newsletter, submits a review, or works with us on a project. It should be read together with our general Privacy Policy."
+      },
+      "controller": {
+        "title": "Data controller",
+        "body": "Starlights Visuals\nUnited States\nEmail: info@starlightvisualstudio.de\n\nStarlights Visuals determines why and how personal data submitted through this website is processed. Privacy and GDPR requests may be sent to the email address above."
+      },
+      "data": {
+        "title": "Personal data we process",
+        "body": "Depending on your interaction, we may process your name, email address, company, role, project type, project message, newsletter preference, review content and rating, correspondence, and basic technical data such as IP address, browser details, device information, timestamps, and security logs. We ask you not to send sensitive personal data unless it is necessary and specifically requested."
+      },
+      "purposes": {
+        "title": "Purposes of processing",
+        "body": "We process personal data to answer inquiries, take steps toward or perform a contract, deliver creative services, manage client communication, send requested newsletter messages, review and publish testimonials with approval, secure and maintain the website, prevent misuse, keep required business records, establish or defend legal claims, and comply with law."
+      },
+      "legalBases": {
+        "title": "Legal bases",
+        "body": "Depending on the activity, we rely on one or more legal bases under Article 6 of the GDPR: steps requested before entering a contract or performance of a contract; consent for optional marketing and any activity that requires consent; our legitimate interests in responding to business inquiries, operating and securing our services, and managing client relationships, where those interests are not overridden by your rights; and compliance with legal obligations. You may withdraw consent at any time without affecting earlier lawful processing."
+      },
+      "recipients": {
+        "title": "Recipients and client separation",
+        "body": "We do not sell personal data. We do not share a United States client's information with clients in Germany or Europe, and we do not share a German or European client's information with clients in the United States. Personal data is available only to authorized Starlights Visuals personnel and providers that need it for a stated purpose, including Supabase for database services, Resend for email delivery, and our website hosting provider. Providers are expected to process data only under appropriate instructions and safeguards."
+      },
+      "transfers": {
+        "title": "Transfers outside Europe",
+        "body": "Because Starlights Visuals is based in the United States and uses international cloud services, European personal data may be transferred to or accessed from countries outside the European Economic Area, including the United States. Client separation does not prevent these necessary service transfers. Where the GDPR requires a transfer safeguard, we rely on an applicable adequacy decision, the EU Standard Contractual Clauses, the EU United States Data Privacy Framework for a participating provider, or another lawful mechanism. You may contact us for information about the safeguard relevant to your data."
+      },
+      "retention": {
+        "title": "Retention",
+        "body": "We keep personal data only as long as reasonably necessary for the purpose collected, including responding to inquiries, performing services, maintaining business and tax records, resolving disputes, and meeting legal obligations. Newsletter data is kept until you unsubscribe or request deletion. Review data is kept while pending or published unless removal is requested or retention is legally required."
+      },
+      "rights": {
+        "title": "Your GDPR rights",
+        "body": "Subject to legal conditions and exceptions, you may request access to your personal data, correction, deletion, restriction of processing, data portability, or objection to processing based on legitimate interests or direct marketing. You may withdraw consent at any time. To exercise a right, email info@starlightvisualstudio.de. We may request information needed to verify your identity and will respond within the period required by law."
+      },
+      "complaints": {
+        "title": "Right to complain",
+        "body": "You may lodge a complaint with a data protection supervisory authority, particularly in the European Union member state where you live, work, or believe an infringement occurred. People in Germany may contact the competent German federal state data protection authority."
+      },
+      "decisions": {
+        "title": "Automated decisions and required data",
+        "body": "We do not use submitted personal data for solely automated decisions that produce legal or similarly significant effects. Fields marked as required are needed to answer an inquiry or provide the requested function. If required information is not provided, we may be unable to respond or deliver that function."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "For GDPR questions, rights requests, transfer safeguard information, or privacy concerns, email info@starlightvisualstudio.de."
       }
     }
   },
