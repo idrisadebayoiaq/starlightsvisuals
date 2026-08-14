@@ -56,7 +56,10 @@
     "subscribeError": "Không thể đăng ký ngay bây giờ. Vui lòng thử lại hoặc gửi email trực tiếp cho chúng tôi.",
     "adminLogin": "Quản trị viên",
     "emailRequired": "Vui lòng nhập địa chỉ email của bạn.",
-    "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ."
+    "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ.",
+    "privacy": "Chính sách bảo mật",
+    "euGdpr": "GDPR của EU",
+    "imprint": "dấu ấn"
   },
   "home": {
     "metaTitle": "Hình ảnh ánh sao | Xưởng hoạt hình & VFX",
@@ -1676,6 +1679,149 @@
       "message": "Tin nhắn",
       "send": "Gửi email",
       "sending": "Đang gửi…"
+    }
+  },
+  "privacyPage": {
+    "metaTitle": "Chính sách bảo mật | ĐƯỢC BẢO VỆ PHÁP LUẬT0",
+    "metaDescription": "Tìm hiểu những thông tin Starlights Visuals thu thập, lý do thông tin đó được sử dụng và cách thông tin được bảo vệ.",
+    "label": "Quyền riêng tư của bạn",
+    "title": "CHÍNH SÁCH RIÊNG TƯ",
+    "subtitle": "Cách studio có trụ sở tại Hoa Kỳ của chúng tôi xử lý thông tin từ khách hàng và du khách trên khắp thế giới.",
+    "updated": "Cập nhật lần cuối: 2026",
+    "summary": "Chúng tôi phục vụ khách hàng trên toàn thế giới, tập trung quan trọng vào Châu Âu và Đức. Chúng tôi không bán, cho thuê hoặc trao đổi thông tin cá nhân và chúng tôi không bao giờ chia sẻ thông tin của một khách hàng với một khách hàng khác ở Hoa Kỳ, Đức, Châu Âu hoặc nơi khác.",
+    "sections": {
+      "information": {
+        "title": "Thông tin chúng tôi thu thập",
+        "body": "Chúng tôi chỉ thu thập thông tin bạn tự nguyện gửi. Yêu cầu dự án có thể bao gồm tên, địa chỉ email, dịch vụ đã chọn và tin nhắn của bạn. Đăng ký bản tin bao gồm địa chỉ email của bạn. Đánh giá được gửi có thể bao gồm tên, địa chỉ email, vai trò, công ty, xếp hạng, tiêu đề và văn bản đánh giá của bạn.\n\nCác nhà cung cấp dịch vụ và lưu trữ của chúng tôi cũng có thể xử lý dữ liệu kỹ thuật cơ bản, chẳng hạn như địa chỉ IP, loại trình duyệt, thông tin thiết bị, thời gian yêu cầu và nhật ký lỗi để vận hành và bảo mật trang web."
+      },
+      "use": {
+        "title": "Cách chúng tôi sử dụng thông tin",
+        "body": "Chúng tôi sử dụng thông tin đã gửi để trả lời các câu hỏi, chuẩn bị hoặc cung cấp các dịch vụ sáng tạo được yêu cầu, gửi phản hồi giao dịch, quản lý thông tin liên lạc qua bản tin, xem xét và xuất bản các lời chứng thực với sự phê duyệt, duy trì bảo mật trang web, ngăn chặn lạm dụng và tuân thủ luật hiện hành.\n\nChúng tôi không sử dụng chi tiết dự án của khách hàng hoặc thông tin cá nhân cho các mục đích không liên quan."
+      },
+      "sharing": {
+        "title": "Khi thông tin được chia sẻ",
+        "body": "Chúng tôi không bán hoặc cho thuê thông tin cá nhân và không tiết lộ thông tin của khách hàng cho khách hàng ở quốc gia khác. Quyền truy cập được giới hạn ở Starlights Visuals và các nhà cung cấp dịch vụ cần thông tin để vận hành trang web, liên lạc với bạn hoặc thực hiện công việc được yêu cầu. Các nhà cung cấp hiện tại bao gồm Supabase cho các dịch vụ cơ sở dữ liệu, Resend cho việc gửi email và nhà cung cấp dịch vụ lưu trữ trang web của chúng tôi. Chúng tôi cũng có thể tiết lộ thông tin khi pháp luật yêu cầu hoặc cần thiết để bảo vệ quyền lợi hợp pháp và bảo mật trang web."
+      },
+      "international": {
+        "title": "Khách hàng trên toàn thế giới và chuyển khoản quốc tế",
+        "body": "Starlights Visuals hoạt động tại Hoa Kỳ và làm việc với mọi người trên toàn thế giới, đặc biệt là ở Châu Âu và Đức. Thông tin khách hàng Hoa Kỳ không được chia sẻ với khách hàng Đức hoặc Châu Âu và thông tin khách hàng Đức hoặc Châu Âu không được chia sẻ với khách hàng Hoa Kỳ.\n\nSự tách biệt khách hàng này không có nghĩa là dữ liệu luôn được lưu giữ trong một quốc gia. Nhóm được ủy quyền và nhà cung cấp dịch vụ đám mây của chúng tôi có thể xử lý thông tin tại Hoa Kỳ, Khu vực kinh tế Châu Âu, Đức hoặc các địa điểm khác nơi họ hoạt động. Khi dữ liệu cá nhân của Châu Âu được chuyển ra ngoài Khu vực Kinh tế Châu Âu, chúng tôi sử dụng cơ chế chuyển giao hợp pháp hiện hành khi cần thiết, chẳng hạn như quyết định thỏa đáng, Điều khoản Hợp đồng Tiêu chuẩn của Liên minh Châu Âu hoặc biện pháp bảo vệ khác được pháp luật công nhận. Xem Thông báo GDPR EU của chúng tôi để biết thêm chi tiết."
+      },
+      "storage": {
+        "title": "Cookie và bộ nhớ cục bộ",
+        "body": "Trang web này hiện không sử dụng cookie quảng cáo hoặc phân tích của bên thứ ba. Nó sử dụng bộ nhớ cục bộ của trình duyệt để ghi nhớ lựa chọn ngôn ngữ, tùy chọn nhắc dịch và tùy chọn chủ đề của bạn. Thông tin này vẫn còn trên thiết bị của bạn trừ khi trình duyệt của bạn xóa nó. Cơ sở hạ tầng dịch vụ thiết yếu có thể sử dụng lưu trữ kỹ thuật hoặc nhật ký cần thiết cho hoạt động bảo mật và vận hành."
+      },
+      "retention": {
+        "title": "Chúng tôi lưu giữ thông tin trong bao lâu",
+        "body": "Chúng tôi chỉ lưu giữ thông tin yêu cầu và thông tin dự án khi cần thiết một cách hợp lý để phản hồi, cung cấp dịch vụ, duy trì hồ sơ kinh doanh, giải quyết tranh chấp và đáp ứng các nghĩa vụ pháp lý. Thông tin bản tin được lưu giữ cho đến khi bạn hủy đăng ký hoặc yêu cầu chúng tôi xóa nó. Thông tin đánh giá được lưu giữ trong khi đánh giá đang chờ xử lý hoặc được xuất bản, trừ khi có yêu cầu xóa hoặc lưu giữ theo yêu cầu pháp lý."
+      },
+      "rights": {
+        "title": "Lựa chọn và quyền riêng tư của bạn",
+        "body": "Chúng tôi làm việc với mọi người trên toàn thế giới. Dù bạn sống ở đâu, bạn có thể yêu cầu truy cập, chỉnh sửa hoặc xóa thông tin cá nhân mà chúng tôi lưu giữ về bạn hoặc phản đối một số mục đích sử dụng nhất định. Bạn có thể hủy đăng ký nhận email tiếp thị bất cứ lúc nào bằng cách liên hệ với chúng tôi hoặc sử dụng tùy chọn hủy đăng ký khi được cung cấp. Các quyền bổ sung có thể được áp dụng theo luật riêng tư của quốc gia hoặc khu vực của bạn. Những người ở Khu vực Kinh tế Châu Âu, Đức và Vương quốc Anh cũng có thể có các quyền được mô tả trong Thông báo GDPR của Liên minh Châu Âu của chúng tôi. Chúng tôi xác minh và phản hồi các yêu cầu theo yêu cầu của luật hiện hành và không phân biệt đối xử với bất kỳ ai khi thực hiện quyền riêng tư."
+      },
+      "children": {
+        "title": "Quyền riêng tư của trẻ em",
+        "body": "Trang web này và các dịch vụ của chúng tôi không hướng tới trẻ em dưới 13 tuổi và chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em dưới 13 tuổi. Nếu bạn cho rằng một đứa trẻ đã cung cấp thông tin, hãy liên hệ với chúng tôi để chúng tôi có thể xóa thông tin đó."
+      },
+      "security": {
+        "title": "An ninh và xử lý quốc tế",
+        "body": "Chúng tôi sử dụng các biện pháp bảo vệ hành chính và kỹ thuật hợp lý được thiết kế để bảo vệ thông tin được gửi, bao gồm cả việc hạn chế quyền truy cập của những người và nhà cung cấp cần thông tin đó cho mục đích đã nêu. Không có hệ thống truyền tải hoặc lưu trữ internet nào có thể được đảm bảo an toàn tuyệt đối."
+      },
+      "changes": {
+        "title": "Những thay đổi đối với chính sách này",
+        "body": "Chúng tôi có thể cập nhật chính sách này khi dịch vụ, nhà cung cấp hoặc nghĩa vụ pháp lý của chúng tôi thay đổi. Phiên bản cập nhật sẽ xuất hiện trên trang này với ngày sửa đổi."
+      },
+      "contact": {
+        "title": "Liên hệ với chúng tôi",
+        "body": "Đối với các câu hỏi hoặc yêu cầu về quyền riêng tư, hãy gửi email đến info@starlightvisualstudio.de. Vui lòng mô tả yêu cầu của bạn và địa chỉ email được kết nối với thông tin để chúng tôi có thể phản hồi."
+      }
+    }
+  },
+  "euGdprPage": {
+    "metaTitle": "Thông báo GDPR của EU | ĐƯỢC BẢO VỆ PHÁP LUẬT0",
+    "metaDescription": "Thông tin GDPR dành cho những người ở Khu vực Kinh tế Châu Âu và Đức tương tác với Starlights Visuals.",
+    "label": "Bảo vệ dữ liệu châu Âu",
+    "title": "THÔNG BÁO GDPR của EU",
+    "subtitle": "Thông tin dành cho người dân ở Khu vực Kinh tế Châu Âu và Đức.",
+    "updated": "Cập nhật lần cuối: 2026",
+    "summary": "Starlights Visuals có trụ sở tại Hoa Kỳ và phục vụ khách hàng trên toàn thế giới, đặc biệt là ở Châu Âu và Đức. Thông báo này bổ sung cho Chính sách quyền riêng tư của chúng tôi và giải thích cách chúng tôi xử lý dữ liệu cá nhân theo Quy định bảo vệ dữ liệu chung của Liên minh Châu Âu.",
+    "sections": {
+      "scope": {
+        "title": "phạm vi",
+        "body": "Thông báo này áp dụng khi GDPR của EU quy định việc xử lý dữ liệu cá nhân của chúng tôi, kể cả khi một người ở Khu vực Kinh tế Châu Âu truy cập trang web của chúng tôi, liên hệ với chúng tôi về các dịch vụ, tham gia bản tin của chúng tôi, gửi đánh giá hoặc làm việc với chúng tôi trong một dự án. Nó nên được đọc cùng với Chính sách bảo mật chung của chúng tôi."
+      },
+      "controller": {
+        "title": "Bộ điều khiển dữ liệu",
+        "body": "ĐƯỢC BẢO VỆ PHÁP LUẬT0\nHoa Kỳ\nEmail: info@starlightvisualstudio.de\n\nStarlights Visuals xác định lý do và cách xử lý dữ liệu cá nhân được gửi qua trang web này. Yêu cầu về quyền riêng tư và GDPR có thể được gửi đến địa chỉ email ở trên."
+      },
+      "data": {
+        "title": "Dữ liệu cá nhân chúng tôi xử lý",
+        "body": "Tùy thuộc vào sự tương tác của bạn, chúng tôi có thể xử lý tên, địa chỉ email, công ty, vai trò, loại dự án, thông báo dự án, tùy chọn bản tin, đánh giá nội dung và xếp hạng, thư từ và dữ liệu kỹ thuật cơ bản như địa chỉ IP, chi tiết trình duyệt, thông tin thiết bị, dấu thời gian và nhật ký bảo mật. Chúng tôi yêu cầu bạn không gửi dữ liệu cá nhân nhạy cảm trừ khi điều đó là cần thiết và được yêu cầu cụ thể."
+      },
+      "purposes": {
+        "title": "Mục đích xử lý",
+        "body": "Chúng tôi xử lý dữ liệu cá nhân để trả lời các câu hỏi, thực hiện các bước hướng tới hoặc thực hiện hợp đồng, cung cấp dịch vụ sáng tạo, quản lý liên lạc với khách hàng, gửi tin nhắn bản tin được yêu cầu, xem xét và xuất bản lời chứng thực với sự chấp thuận, bảo mật và duy trì trang web, ngăn chặn việc lạm dụng, lưu giữ hồ sơ kinh doanh cần thiết, thiết lập hoặc bảo vệ các khiếu nại pháp lý và tuân thủ pháp luật."
+      },
+      "legalBases": {
+        "title": "Căn cứ pháp lý",
+        "body": "Tùy thuộc vào hoạt động, chúng tôi dựa vào một hoặc nhiều cơ sở pháp lý theo Điều 6 của GDPR: các bước được yêu cầu trước khi ký kết hợp đồng hoặc thực hiện hợp đồng; sự đồng ý cho hoạt động tiếp thị tùy chọn và bất kỳ hoạt động nào cần có sự đồng ý; lợi ích hợp pháp của chúng tôi trong việc trả lời các yêu cầu kinh doanh, vận hành và bảo mật các dịch vụ của chúng tôi cũng như quản lý các mối quan hệ với khách hàng, trong đó các quyền lợi đó không bị quyền của bạn lấn át; và tuân thủ các nghĩa vụ pháp lý. Bạn có thể rút lại sự đồng ý bất cứ lúc nào mà không ảnh hưởng đến quá trình xử lý hợp pháp trước đó."
+      },
+      "recipients": {
+        "title": "Tách biệt người nhận và khách hàng",
+        "body": "Chúng tôi không bán dữ liệu cá nhân. Chúng tôi không chia sẻ thông tin của khách hàng Hoa Kỳ với khách hàng ở Đức hoặc Châu Âu và chúng tôi không chia sẻ thông tin của khách hàng Đức hoặc Châu Âu với khách hàng ở Hoa Kỳ. Dữ liệu cá nhân chỉ được cung cấp cho các nhân viên và nhà cung cấp Starlights Visuals được ủy quyền cần dữ liệu đó cho mục đích đã nêu, bao gồm Supabase cho các dịch vụ cơ sở dữ liệu, Resend để gửi email và nhà cung cấp dịch vụ lưu trữ trang web của chúng tôi. Các nhà cung cấp dự kiến ​​chỉ xử lý dữ liệu theo hướng dẫn và biện pháp bảo vệ thích hợp."
+      },
+      "transfers": {
+        "title": "Chuyển khoản bên ngoài châu Âu",
+        "body": "Vì Starlights Visuals có trụ sở tại Hoa Kỳ và sử dụng dịch vụ đám mây quốc tế nên dữ liệu cá nhân ở Châu Âu có thể được chuyển đến hoặc truy cập từ các quốc gia ngoài Khu vực Kinh tế Châu Âu, bao gồm cả Hoa Kỳ. Việc tách khách hàng không ngăn cản việc chuyển giao dịch vụ cần thiết này. Trong trường hợp GDPR yêu cầu biện pháp bảo vệ chuyển giao, chúng tôi dựa vào quyết định thích hợp hiện hành, Điều khoản hợp đồng tiêu chuẩn của Liên minh Châu Âu, Khung bảo mật dữ liệu của Hoa Kỳ tại Liên minh Châu Âu dành cho nhà cung cấp tham gia hoặc cơ chế hợp pháp khác. Bạn có thể liên hệ với chúng tôi để biết thông tin về biện pháp bảo vệ liên quan đến dữ liệu của bạn."
+      },
+      "retention": {
+        "title": "giữ lại",
+        "body": "Chúng tôi chỉ lưu giữ dữ liệu cá nhân trong khoảng thời gian cần thiết một cách hợp lý cho mục đích được thu thập, bao gồm trả lời các câu hỏi, thực hiện dịch vụ, duy trì hồ sơ kinh doanh và thuế, giải quyết tranh chấp và đáp ứng các nghĩa vụ pháp lý. Dữ liệu bản tin được lưu giữ cho đến khi bạn hủy đăng ký hoặc yêu cầu xóa. Dữ liệu đánh giá được lưu giữ trong khi chờ xử lý hoặc xuất bản trừ khi có yêu cầu xóa hoặc lưu giữ theo yêu cầu pháp lý."
+      },
+      "rights": {
+        "title": "Quyền GDPR của bạn",
+        "body": "Tùy thuộc vào các điều kiện pháp lý và ngoại lệ, bạn có thể yêu cầu quyền truy cập vào dữ liệu cá nhân của mình, chỉnh sửa, xóa, hạn chế xử lý, di chuyển dữ liệu hoặc phản đối việc xử lý dựa trên lợi ích hợp pháp hoặc tiếp thị trực tiếp. Bạn có thể rút lại sự đồng ý bất cứ lúc nào. Để thực hiện quyền, hãy gửi email info@starlightvisualstudio.de. Chúng tôi có thể yêu cầu thông tin cần thiết để xác minh danh tính của bạn và sẽ phản hồi trong khoảng thời gian pháp luật yêu cầu."
+      },
+      "complaints": {
+        "title": "Quyền khiếu nại",
+        "body": "Bạn có thể khiếu nại với cơ quan giám sát bảo vệ dữ liệu, đặc biệt là ở quốc gia thành viên Liên minh Châu Âu nơi bạn sinh sống, làm việc hoặc cho rằng đã xảy ra hành vi vi phạm. Người dân ở Đức có thể liên hệ với cơ quan bảo vệ dữ liệu liên bang Đức có thẩm quyền."
+      },
+      "decisions": {
+        "title": "Quyết định tự động và dữ liệu cần thiết",
+        "body": "Chúng tôi không sử dụng dữ liệu cá nhân đã gửi cho các quyết định hoàn toàn tự động tạo ra hiệu quả pháp lý hoặc có ý nghĩa tương tự. Các trường được đánh dấu là bắt buộc là cần thiết để trả lời câu hỏi hoặc cung cấp chức năng được yêu cầu. Nếu thông tin bắt buộc không được cung cấp, chúng tôi có thể không đáp ứng hoặc cung cấp chức năng đó."
+      },
+      "contact": {
+        "title": "Liên hệ",
+        "body": "Đối với các câu hỏi về GDPR, yêu cầu về quyền, chuyển thông tin về biện pháp bảo vệ hoặc các mối quan ngại về quyền riêng tư, hãy gửi email đến info@starlightvisualstudio.de."
+      }
+    }
+  },
+  "imprintPage": {
+    "metaTitle": "Dấu ấn | ĐƯỢC BẢO VỆ PHÁP LUẬT0",
+    "metaDescription": "Thông tin doanh nghiệp và liên hệ của nhà điều hành trang web Starlights Visuals.",
+    "label": "Thông báo pháp lý",
+    "title": "DẤU",
+    "subtitle": "Thông tin doanh nghiệp và liên hệ cho trang web này.",
+    "sections": {
+      "operator": {
+        "title": "Nhà điều hành trang web",
+        "body": "ĐƯỢC BẢO VỆ PHÁP LUẬT0\nStudio hoạt hình sáng tạo và VFX\nHoa Kỳ\nStudio đầu tiên từ xa phục vụ khách hàng quốc tế"
+      },
+      "contact": {
+        "title": "Liên hệ",
+        "body": "Email: info@starlightvisualstudio.de\nNếu có thắc mắc về dự án, thông báo pháp lý hoặc yêu cầu về quyền riêng tư, vui lòng liên hệ với chúng tôi qua email."
+      },
+      "responsibility": {
+        "title": "Trách nhiệm về nội dung",
+        "body": "Chúng tôi thực hiện những nỗ lực hợp lý để giữ cho thông tin trên trang web này chính xác và cập nhật. Tuy nhiên, chúng tôi không đảm bảo rằng tất cả nội dung đều hoàn chỉnh, không có lỗi hoặc có sẵn liên tục. Nội dung trang web được cung cấp để cung cấp thông tin chung và không cấu thành tư vấn pháp lý, tài chính hoặc chuyên môn khác."
+      },
+      "links": {
+        "title": "Liên kết ngoài",
+        "body": "Trang web này có thể liên kết đến các trang web hoặc nền tảng của bên thứ ba. Chúng tôi không kiểm soát nội dung, tính sẵn có hoặc các biện pháp bảo mật của họ và không chịu trách nhiệm về chúng. Nhà điều hành của mỗi dịch vụ được liên kết chịu trách nhiệm về nội dung của chính mình."
+      },
+      "copyright": {
+        "title": "Bản quyền",
+        "body": "Trừ khi có quy định khác, văn bản, thiết kế, hoạt ảnh, tác phẩm nghệ thuật, video và nội dung gốc khác trên trang web này thuộc quyền sở hữu của Starlights Visuals hoặc được sử dụng với sự cho phép. Việc sao chép, phân phối hoặc sử dụng vì mục đích thương mại cần có sự cho phép trước bằng văn bản, trừ khi luật hiện hành cho phép khác."
+      }
     }
   }
 }

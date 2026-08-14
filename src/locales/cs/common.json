@@ -56,7 +56,10 @@
     "subscribeError": "Momentálně se nelze přihlásit. Zkuste to znovu nebo nám napište přímo.",
     "adminLogin": "Admin",
     "emailRequired": "Zadejte prosím svou e-mailovou adresu.",
-    "emailInvalid": "Zadejte prosím platnou e-mailovou adresu."
+    "emailInvalid": "Zadejte prosím platnou e-mailovou adresu.",
+    "privacy": "Zásady ochrany osobních údajů",
+    "euGdpr": "EU GDPR",
+    "imprint": "Otisk"
   },
   "home": {
     "metaTitle": "Vizuály Starlights | Studio animace a VFX",
@@ -1676,6 +1679,149 @@
       "message": "Zpráva",
       "send": "Odeslat email",
       "sending": "Odesílání…"
+    }
+  },
+  "privacyPage": {
+    "metaTitle": "Zásady ochrany osobních údajů | PRÁVNÍ CHRÁNĚNO0",
+    "metaDescription": "Přečtěte si, jaké informace Starlights Visuals shromažďuje, proč jsou používány a jak jsou chráněny.",
+    "label": "Vaše soukromí",
+    "title": "ZÁSADY OCHRANY OSOBNÍCH ÚDAJŮ",
+    "subtitle": "Jak naše studio se sídlem ve Spojených státech zpracovává informace od klientů a návštěvníků z celého světa.",
+    "updated": "Poslední aktualizace: 2026",
+    "summary": "Poskytujeme služby klientům po celém světě, s důležitým zaměřením na Evropu a Německo. Osobní údaje neprodáváme, nepronajímáme ani s nimi neobchodujeme a nikdy nesdílíme informace jednoho klienta s jiným klientem ve Spojených státech, Německu, Evropě nebo jinde.",
+    "sections": {
+      "information": {
+        "title": "Informace, které shromažďujeme",
+        "body": "Shromažďujeme pouze informace, které nám poskytnete dobrovolně. Dotaz na projekt může obsahovat vaše jméno, e-mailovou adresu, vybranou službu a zprávu. Přihlášení k odběru newsletteru obsahuje vaši e-mailovou adresu. Odeslaná recenze může obsahovat vaše jméno, e-mailovou adresu, roli, společnost, hodnocení, nadpis a text recenze.\n\nNaši poskytovatelé hostingu a služeb mohou také zpracovávat základní technické údaje, jako je IP adresa, typ prohlížeče, informace o zařízení, doba požadavku a protokoly chyb, za účelem provozu a zabezpečení webových stránek."
+      },
+      "use": {
+        "title": "Jak využíváme informace",
+        "body": "Odeslané informace používáme k zodpovězení dotazů, přípravě nebo poskytování požadovaných kreativních služeb, zasílání transakčních odpovědí, správě komunikace s informačními bulletiny, ke kontrole a publikování posudků se schválením, udržování bezpečnosti webových stránek, zabránění zneužití a dodržování platných zákonů.\n\nNepoužíváme detaily klientských projektů ani osobní údaje pro nesouvisející účely."
+      },
+      "sharing": {
+        "title": "Při sdílení informací",
+        "body": "Neprodáváme ani nepronajímáme osobní údaje a nezveřejňujeme informace o klientovi klientům v jiné zemi. Přístup je omezen na Starlights Visuals a poskytovatele služeb, kteří potřebují informace k provozování webových stránek, komunikaci s vámi nebo poskytování požadované práce. Mezi současné poskytovatele patří Supabase pro databázové služby, Resend pro doručování e-mailů a náš poskytovatel hostingu webových stránek. Můžeme také zveřejnit informace, pokud to vyžaduje zákon nebo je to nutné k ochraně zákonných práv a bezpečnosti webových stránek."
+      },
+      "international": {
+        "title": "Celosvětová klientela a mezinárodní převody",
+        "body": "Starlights Visuals operates from the United States and works with people worldwide, especially in Europe and Germany. United States client information is not shared with German or European clients, and German or European client information is not shared with United States clients.\n\nThis client separation does not mean data always remains inside one country. Our authorized team and cloud providers may process information in the United States, the European Economic Area, Germany, or other locations where they operate. When European personal data is transferred outside the European Economic Area, we use an applicable legal transfer mechanism where required, such as an adequacy decision, the EU Standard Contractual Clauses, or another safeguard recognized by law. Další podrobnosti naleznete v našem Oznámení EU GDPR."
+      },
+      "storage": {
+        "title": "Soubory cookie a místní úložiště",
+        "body": "Tento web v současné době nepoužívá reklamní soubory cookie ani analýzy třetích stran. Používá místní úložiště prohlížeče k zapamatování vašeho výběru jazyka, předvolby výzvy k překladu a předvolby motivu. Tyto informace zůstanou ve vašem zařízení, dokud je váš prohlížeč nevymaže. Infrastruktura základních služeb může využívat technické úložiště nebo protokoly nezbytné pro zabezpečení a provoz."
+      },
+      "retention": {
+        "title": "Jak dlouho informace uchováváme",
+        "body": "Informace o dotazech a projektech uchováváme pouze tak dlouho, jak je to přiměřeně nutné k odpovědi, poskytování služeb, vedení obchodních záznamů, řešení sporů a plnění zákonných povinností. Informace o newsletteru jsou uchovávány, dokud se neodhlásíte nebo nás nepožádáte o jejich smazání. Informace o recenzi jsou uchovávány po dobu čekání na kontrolu nebo publikování, pokud není požadováno odstranění nebo uchování není zákonem vyžadováno."
+      },
+      "rights": {
+        "title": "Vaše volby a práva na soukromí",
+        "body": "Pracujeme s lidmi po celém světě. Ať žijete kdekoli, můžete požádat o přístup, opravu nebo vymazání osobních údajů, které o vás uchováváme, nebo můžete vznést námitku proti určitému použití. Z odběru marketingových e-mailů se můžete kdykoli odhlásit tím, že nás kontaktujete nebo použijete možnost odhlášení, pokud je k dispozici. Podle zákonů na ochranu osobních údajů vaší země nebo regionu mohou platit další práva. Lidé v Evropském hospodářském prostoru, Německu a Spojeném království mohou mít také práva popsaná v našem oznámení EU GDPR. Žádosti ověřujeme a odpovídáme na ně v souladu s platnými zákony a nikoho nediskriminujeme za uplatňování práv na ochranu soukromí."
+      },
+      "children": {
+        "title": "Soukromí dětí",
+        "body": "Tyto webové stránky a naše služby nejsou zaměřeny na děti mladší 13 let a vědomě neshromažďujeme osobní údaje od dětí mladších 13 let. Pokud se domníváte, že nějaké dítě poskytlo informace, kontaktujte nás, abychom je mohli smazat."
+      },
+      "security": {
+        "title": "Bezpečnost a mezinárodní zpracování",
+        "body": "Používáme přiměřená administrativní a technická ochranná opatření určená k ochraně odeslaných informací, včetně omezení přístupu lidem a poskytovatelům, kteří je potřebují pro stanovený účel. Žádný internetový přenos nebo úložný systém nelze zaručit zcela bezpečný."
+      },
+      "changes": {
+        "title": "Změny těchto zásad",
+        "body": "Tyto zásady můžeme aktualizovat, když se změní naše služby, poskytovatelé nebo právní závazky. Aktualizovaná verze se objeví na této stránce s upraveným datem."
+      },
+      "contact": {
+        "title": "Kontaktujte nás",
+        "body": "V případě dotazů nebo požadavků na ochranu osobních údajů zašlete e-mail na info@starlightvisualstudio.de. Popište prosím svůj požadavek a e-mailovou adresu spojenou s informacemi, abychom vám mohli odpovědět."
+      }
+    }
+  },
+  "euGdprPage": {
+    "metaTitle": "Oznámení EU GDPR | PRÁVNÍ CHRÁNĚNO0",
+    "metaDescription": "Informace GDPR pro lidi v Evropském hospodářském prostoru a Německu, kteří komunikují s Starlights Visuals.",
+    "label": "Evropská ochrana dat",
+    "title": "OZNÁMENÍ EU GDPR",
+    "subtitle": "Informace pro lidi v Evropském hospodářském prostoru a Německu.",
+    "updated": "Poslední aktualizace: 2026",
+    "summary": "Starlights Visuals sídlí ve Spojených státech a slouží klientům po celém světě, zejména v Evropě a Německu. Toto oznámení doplňuje naše zásady ochrany osobních údajů a vysvětluje, jak nakládáme s osobními údaji, na které se vztahuje obecné nařízení Evropské unie o ochraně osobních údajů.",
+    "sections": {
+      "scope": {
+        "title": "Rozsah",
+        "body": "Toto oznámení platí, když se GDPR EU vztahuje na naše zpracování osobních údajů, včetně případů, kdy osoba v Evropském hospodářském prostoru navštíví naše webové stránky, kontaktuje nás ohledně služeb, připojí se k našemu newsletteru, odešle recenzi nebo s námi spolupracuje na projektu. Měli byste si je přečíst společně s našimi obecnými zásadami ochrany osobních údajů."
+      },
+      "controller": {
+        "title": "Správce údajů",
+        "body": "PRÁVNÍ CHRÁNĚNO0\nSpojené státy americké\nE-mail: info@starlightvisualstudio.de\n\nStarlights Visuals určuje, proč a jak jsou zpracovávány osobní údaje poskytnuté prostřednictvím této webové stránky. Žádosti o ochranu osobních údajů a GDPR mohou být zasílány na výše uvedenou e-mailovou adresu."
+      },
+      "data": {
+        "title": "Osobní údaje, které zpracováváme",
+        "body": "V závislosti na vaší interakci můžeme zpracovávat vaše jméno, e-mailovou adresu, společnost, roli, typ projektu, projektovou zprávu, preferenci newsletteru, obsah recenze a hodnocení, korespondenci a základní technické údaje, jako je IP adresa, podrobnosti o prohlížeči, informace o zařízení, časová razítka a bezpečnostní protokoly. Žádáme vás, abyste nezasílali citlivé osobní údaje, pokud to není nutné a výslovně požadováno."
+      },
+      "purposes": {
+        "title": "Účely zpracování",
+        "body": "Zpracováváme osobní údaje za účelem zodpovězení dotazů, přijímání kroků směřujících k uzavření smlouvy nebo plnění smlouvy, poskytování kreativních služeb, správy klientské komunikace, zasílání požadovaných newsletterů, kontroly a zveřejňování posudků se schválením, zabezpečení a údržby webových stránek, zabránění zneužití, vedení požadovaných obchodních záznamů, zakládání nebo obhajoby právních nároků a dodržování zákonů."
+      },
+      "legalBases": {
+        "title": "Právní základy",
+        "body": "V závislosti na činnosti se opíráme o jeden nebo více právních základů podle článku 6 GDPR: kroky požadované před uzavřením smlouvy nebo plněním smlouvy; souhlas s volitelným marketingem a jakoukoli činností, která vyžaduje souhlas; naše oprávněné zájmy při odpovídání na obchodní dotazy, provozování a zabezpečení našich služeb a řízení vztahů s klienty, pokud tyto zájmy nepřevažují nad vašimi právy; a dodržování zákonných povinností. Souhlas můžete kdykoli odvolat, aniž by to ovlivnilo dřívější zákonné zpracování."
+      },
+      "recipients": {
+        "title": "Oddělení příjemců a klientů",
+        "body": "Osobní údaje neprodáváme. Nesdílíme informace klienta z USA s klienty v Německu nebo Evropě a nesdílíme informace o německém nebo evropském klientovi s klienty ve Spojených státech. Osobní údaje jsou dostupné pouze oprávněným pracovníkům Starlights Visuals a poskytovatelům, kteří je potřebují pro stanovený účel, včetně Supabase pro databázové služby, Resend pro doručování e-mailů a našeho poskytovatele hostingu webových stránek. Očekává se, že poskytovatelé budou zpracovávat údaje pouze podle příslušných pokynů a záruk."
+      },
+      "transfers": {
+        "title": "Přestupy mimo Evropu",
+        "body": "Vzhledem k tomu, že Starlights Visuals sídlí ve Spojených státech amerických a využívá mezinárodní cloudové služby, mohou být evropské osobní údaje přenášeny do zemí mimo Evropský hospodářský prostor, včetně Spojených států, nebo k nim mohou být přístupné ze zemí mimo Evropský hospodářský prostor. Oddělení klientů nebrání těmto nezbytným převodům služeb. Tam, kde GDPR vyžaduje ochranu před přenosem, spoléháme na příslušné rozhodnutí o přiměřenosti, standardní smluvní doložky EU, rámec EU pro ochranu osobních údajů ve Spojených státech pro zúčastněného poskytovatele nebo jiný zákonný mechanismus. Můžete nás kontaktovat ohledně informací o zabezpečení souvisejícím s vašimi údaji."
+      },
+      "retention": {
+        "title": "Udržení",
+        "body": "Osobní údaje uchováváme pouze tak dlouho, jak je to přiměřeně nutné pro shromažďovaný účel, včetně odpovídání na dotazy, poskytování služeb, vedení obchodní a daňové evidence, řešení sporů a plnění zákonných povinností. Údaje newsletteru jsou uchovávány, dokud se neodhlásíte nebo nepožádáte o smazání. Údaje o kontrole jsou uchovávány během čekání nebo zveřejněny, pokud není požadováno odstranění nebo uchování není zákonem vyžadováno."
+      },
+      "rights": {
+        "title": "Vaše práva GDPR",
+        "body": "Při dodržení zákonných podmínek a výjimek můžete požadovat přístup ke svým osobním údajům, opravu, výmaz, omezení zpracování, přenositelnost údajů nebo vznést námitku proti zpracování na základě oprávněných zájmů nebo přímého marketingu. Souhlas můžete kdykoli odvolat. Pro uplatnění práva zašlete e-mail na info@starlightvisualstudio.de. Můžeme si vyžádat informace potřebné k ověření vaší identity a odpovíme vám ve lhůtě vyžadované zákonem."
+      },
+      "complaints": {
+        "title": "Právo si stěžovat",
+        "body": "Můžete podat stížnost u dozorového úřadu pro ochranu osobních údajů, zejména v členském státě Evropské unie, kde žijete, pracujete nebo se domníváte, že došlo k porušení. Lidé v Německu se mohou obrátit na příslušný německý federální státní úřad pro ochranu údajů."
+      },
+      "decisions": {
+        "title": "Automatizované rozhodování a požadovaná data",
+        "body": "Předané osobní údaje nepoužíváme pouze pro automatizovaná rozhodnutí, která mají právní nebo obdobně významné účinky. Pole označená jako povinná jsou potřebná pro zodpovězení dotazu nebo poskytnutí požadované funkce. Pokud požadované informace neposkytnete, nemusíme být schopni odpovědět nebo tuto funkci dodat."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "V případě otázek týkajících se GDPR, žádostí o práva, informací o zabezpečení přenosu nebo problémů s ochranou soukromí zašlete e-mail info@starlightvisualstudio.de."
+      }
+    }
+  },
+  "imprintPage": {
+    "metaTitle": "Otisk | PRÁVNÍ CHRÁNĚNO0",
+    "metaDescription": "Obchodní a kontaktní údaje na provozovatele webu Starlights Visuals.",
+    "label": "Právní upozornění",
+    "title": "OTISK",
+    "subtitle": "Obchodní a kontaktní informace pro tento web.",
+    "sections": {
+      "operator": {
+        "title": "Provozovatel webu",
+        "body": "PRÁVNÍ CHRÁNĚNO0\nKreativní animace a VFX studio\nSpojené státy americké\nPrvní vzdálené studio obsluhující klienty mezinárodně"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "E-mail: info@starlightvisualstudio.de\nV případě dotazů na projekt, právních upozornění nebo požadavků na ochranu osobních údajů nás prosím kontaktujte e-mailem."
+      },
+      "responsibility": {
+        "title": "Zodpovědnost za obsah",
+        "body": "Vynakládáme přiměřené úsilí, aby informace na této webové stránce byly přesné a aktuální. Nezaručujeme však, že veškerý obsah je úplný, bezchybný nebo nepřetržitě dostupný. Obsah webových stránek je poskytován pro obecné informace a nepředstavuje právní, finanční nebo jiné odborné poradenství."
+      },
+      "links": {
+        "title": "Externí odkazy",
+        "body": "Tato webová stránka může odkazovat na webové stránky nebo platformy třetích stran. Nekontrolujeme jejich obsah, dostupnost ani postupy ochrany osobních údajů a neneseme za ně odpovědnost. Provozovatel každé propojené služby odpovídá za její vlastní obsah."
+      },
+      "copyright": {
+        "title": "Copyright",
+        "body": "Pokud není uvedeno jinak, text, design, animace, umělecká díla, video a další originální obsah na této webové stránce jsou ve vlastnictví Starlights Visuals nebo jsou používány se svolením. Reprodukce, distribuce nebo komerční použití vyžaduje předchozí písemné svolení, pokud příslušné zákony nepovolují jinak."
+      }
     }
   }
 }

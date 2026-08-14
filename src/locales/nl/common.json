@@ -56,7 +56,10 @@
     "subscribeError": "Kon momenteel niet abonneren. Probeer het opnieuw of stuur ons direct een e-mail.",
     "adminLogin": "Beheerder",
     "emailRequired": "Voer uw e-mailadres in.",
-    "emailInvalid": "Voer een geldig e-mailadres in."
+    "emailInvalid": "Voer een geldig e-mailadres in.",
+    "privacy": "Privacybeleid",
+    "euGdpr": "EU AVG",
+    "imprint": "Afdruk"
   },
   "home": {
     "metaTitle": "Starlights-beelden | Animatie- en VFX-studio",
@@ -1676,6 +1679,149 @@
       "message": "Bericht",
       "send": "E-mail verzenden",
       "sending": "Verzenden…"
+    }
+  },
+  "privacyPage": {
+    "metaTitle": "Privacybeleid | WETTELIJK BESCHERMD0",
+    "metaDescription": "Ontdek welke informatie Starlights Visuals verzamelt, waarom deze wordt gebruikt en hoe deze wordt beschermd.",
+    "label": "Uw privacy",
+    "title": "PRIVACYBELEID",
+    "subtitle": "Hoe onze in de Verenigde Staten gevestigde studio omgaat met informatie van klanten en bezoekers over de hele wereld.",
+    "updated": "Laatst bijgewerkt: 2026",
+    "summary": "Wij bedienen klanten wereldwijd, met een belangrijke focus op Europa en Duitsland. Wij verkopen, verhuren of verhandelen geen persoonlijke informatie, en we delen nooit de informatie van een klant met een andere klant in de Verenigde Staten, Duitsland, Europa of elders.",
+    "sections": {
+      "information": {
+        "title": "Informatie die we verzamelen",
+        "body": "Wij verzamelen alleen informatie die u vrijwillig verstrekt. Een projectaanvraag kan uw naam, e-mailadres, geselecteerde service en bericht bevatten. Bij een aanmelding voor de nieuwsbrief is uw e-mailadres inbegrepen. Een ingediende recensie kan uw naam, e-mailadres, rol, bedrijf, beoordeling, kop en recensietekst bevatten.\n\nOnze hosting- en serviceproviders kunnen ook technische basisgegevens verwerken, zoals IP-adres, browsertype, apparaatinformatie, verzoektijd en foutenlogboeken, om de website te laten functioneren en beveiligen."
+      },
+      "use": {
+        "title": "Hoe wij informatie gebruiken",
+        "body": "We gebruiken de ingediende informatie om vragen te beantwoorden, gevraagde creatieve diensten voor te bereiden of te leveren, transactionele antwoorden te verzenden, nieuwsbriefcommunicatie te beheren, getuigenissen met goedkeuring te beoordelen en te publiceren, de websitebeveiliging te handhaven, misbruik te voorkomen en te voldoen aan de toepasselijke wetgeving.\n\nWe gebruiken geen projectgegevens van klanten of persoonlijke informatie voor niet-gerelateerde doeleinden."
+      },
+      "sharing": {
+        "title": "Wanneer informatie wordt gedeeld",
+        "body": "Wij verkopen of verhuren geen persoonlijke informatie en maken de informatie van een klant niet bekend aan klanten in een ander land. De toegang is beperkt tot Starlights Visuals en dienstverleners die de informatie nodig hebben om de website te exploiteren, met u te communiceren of het gevraagde werk te leveren. Huidige providers zijn onder meer Supabase voor databasediensten, Resend voor e-mailbezorging en onze websitehostingprovider. We kunnen ook informatie openbaar maken wanneer dit wettelijk vereist is of noodzakelijk is om wettelijke rechten en websitebeveiliging te beschermen."
+      },
+      "international": {
+        "title": "Wereldwijde klanten en internationale overboekingen",
+        "body": "Starlights Visuals opereert vanuit de Verenigde Staten en werkt met mensen over de hele wereld, vooral in Europa en Duitsland. Klantinformatie uit de Verenigde Staten wordt niet gedeeld met Duitse of Europese klanten, en Duitse of Europese klantinformatie wordt niet gedeeld met klanten uit de Verenigde Staten.\n\nDeze klantenscheiding betekent niet dat gegevens altijd binnen één land blijven. Ons geautoriseerde team en onze cloudproviders kunnen informatie verwerken in de Verenigde Staten, de Europese Economische Ruimte, Duitsland of andere locaties waar zij actief zijn. Wanneer Europese persoonsgegevens buiten de Europese Economische Ruimte worden overgedragen, maken wij waar nodig gebruik van een toepasselijk juridisch overdrachtsmechanisme, zoals een adequaatheidsbesluit, de EU-standaardcontractbepalingen of een andere door de wet erkende waarborg. Zie onze EU AVG-kennisgeving voor meer informatie."
+      },
+      "storage": {
+        "title": "Cookies en lokale opslag",
+        "body": "Deze website maakt momenteel geen gebruik van advertentiecookies of analyses van derden. Het maakt gebruik van lokale browseropslag om uw taalkeuze, voorkeur voor vertaalprompts en themavoorkeur te onthouden. Deze informatie blijft op uw apparaat staan, tenzij uw browser deze wist. Essentiële service-infrastructuur kan gebruik maken van technische opslag of logboeken die nodig zijn voor beveiliging en werking."
+      },
+      "retention": {
+        "title": "Hoe lang we informatie bewaren",
+        "body": "We bewaren onderzoeks- en projectinformatie slechts zo lang als redelijkerwijs nodig is om te reageren, diensten te verlenen, zakelijke documenten bij te houden, geschillen op te lossen en aan wettelijke verplichtingen te voldoen. Nieuwsbriefinformatie wordt bewaard totdat u zich afmeldt of ons vraagt ​​deze te verwijderen. Recensie-informatie wordt bewaard zolang de recensie in behandeling is of wordt gepubliceerd, tenzij verwijdering wordt aangevraagd of bewaring wettelijk vereist is."
+      },
+      "rights": {
+        "title": "Uw keuzes en privacyrechten",
+        "body": "Wij werken met mensen over de hele wereld. Waar u ook woont, u kunt vragen om toegang tot de persoonlijke gegevens die wij over u bewaren, deze te corrigeren of te verwijderen, of u kunt bezwaar maken tegen bepaald gebruik. U kunt zich op elk moment afmelden voor marketing-e-mails door contact met ons op te nemen of door een afmeldoptie te gebruiken wanneer deze wordt aangeboden. Er kunnen aanvullende rechten van toepassing zijn op grond van de privacywetgeving van uw land of regio. Mensen in de Europese Economische Ruimte, Duitsland en het Verenigd Koninkrijk hebben mogelijk ook de rechten die worden beschreven in onze EU AVG-kennisgeving. We verifiëren en reageren op verzoeken zoals vereist door de toepasselijke wetgeving en discrimineren niemand vanwege het uitoefenen van privacyrechten."
+      },
+      "children": {
+        "title": "Privacy van kinderen",
+        "body": "Deze website en onze diensten zijn niet gericht op kinderen jonger dan 13 jaar, en we verzamelen niet bewust persoonlijke gegevens van kinderen jonger dan 13 jaar. Als u denkt dat een kind informatie heeft verstrekt, neem dan contact met ons op zodat we deze kunnen verwijderen."
+      },
+      "security": {
+        "title": "Beveiliging en internationale verwerking",
+        "body": "We gebruiken redelijke administratieve en technische veiligheidsmaatregelen die zijn ontworpen om ingediende informatie te beschermen, inclusief het beperken van de toegang tot mensen en providers die deze nodig hebben voor een bepaald doel. Geen enkel internettransmissie- of opslagsysteem kan volledig veilig worden gegarandeerd."
+      },
+      "changes": {
+        "title": "Wijzigingen in dit beleid",
+        "body": "We kunnen dit beleid bijwerken wanneer onze diensten, leveranciers of wettelijke verplichtingen veranderen. De bijgewerkte versie verschijnt op deze pagina met een herziene datum."
+      },
+      "contact": {
+        "title": "Neem contact met ons op",
+        "body": "Voor privacyvragen of -verzoeken kunt u een e-mail sturen naar info@starlightvisualstudio.de. Beschrijf uw verzoek en het e-mailadres dat bij de informatie hoort, zodat we kunnen reageren."
+      }
+    }
+  },
+  "euGdprPage": {
+    "metaTitle": "EU AVG-kennisgeving | WETTELIJK BESCHERMD0",
+    "metaDescription": "AVG-informatie voor mensen in de Europese Economische Ruimte en Duitsland die interactie hebben met Starlights Visuals.",
+    "label": "Europese gegevensbescherming",
+    "title": "EU AVG-MEDEDELING",
+    "subtitle": "Informatie voor mensen in de Europese Economische Ruimte en Duitsland.",
+    "updated": "Laatst bijgewerkt: 2026",
+    "summary": "Starlights Visuals is gevestigd in de Verenigde Staten en bedient klanten over de hele wereld, vooral in Europa en Duitsland. Deze verklaring vormt een aanvulling op ons privacybeleid en legt uit hoe we omgaan met persoonlijke gegevens die vallen onder de Algemene Verordening Gegevensbescherming van de Europese Unie.",
+    "sections": {
+      "scope": {
+        "title": "Domein",
+        "body": "Deze kennisgeving is van toepassing wanneer de EU AVG onze verwerking van persoonsgegevens omvat, inclusief wanneer een persoon in de Europese Economische Ruimte onze website bezoekt, contact met ons opneemt over diensten, zich aanmeldt voor onze nieuwsbrief, een beoordeling indient of met ons aan een project werkt. Het moet samen met ons algemene privacybeleid worden gelezen."
+      },
+      "controller": {
+        "title": "Gegevensbeheerder",
+        "body": "WETTELIJK BESCHERMD0\nVerenigde Staten\nE-mail: WETTELIJK BESCHERMD1\n\nStarlights Visuals bepaalt waarom en hoe persoonsgegevens die via deze website worden verstrekt, worden verwerkt. Privacy- en AVG-verzoeken kunnen naar het bovenstaande e-mailadres worden gestuurd."
+      },
+      "data": {
+        "title": "Persoonsgegevens die wij verwerken",
+        "body": "Afhankelijk van uw interactie kunnen we uw naam, e-mailadres, bedrijf, rol, projecttype, projectbericht, nieuwsbriefvoorkeur, beoordelingsinhoud en beoordeling, correspondentie en technische basisgegevens zoals IP-adres, browsergegevens, apparaatinformatie, tijdstempels en beveiligingslogboeken verwerken. Wij vragen u geen gevoelige persoonsgegevens te versturen, tenzij dit noodzakelijk en specifiek gevraagd is."
+      },
+      "purposes": {
+        "title": "Doeleinden van de verwerking",
+        "body": "We verwerken persoonlijke gegevens om vragen te beantwoorden, stappen te ondernemen in de richting van een contract of deze uit te voeren, creatieve diensten te leveren, de communicatie met klanten te beheren, aangevraagde nieuwsbriefberichten te verzenden, getuigenissen met goedkeuring te beoordelen en te publiceren, de website te beveiligen en te onderhouden, misbruik te voorkomen, de vereiste zakelijke gegevens bij te houden, juridische claims vast te stellen of te verdedigen en de wet na te leven."
+      },
+      "legalBases": {
+        "title": "Juridische grondslagen",
+        "body": "Afhankelijk van de activiteit vertrouwen we op een of meer rechtsgrondslagen onder artikel 6 van de AVG: stappen die worden gevraagd vóór het aangaan van een contract of de uitvoering van een contract; toestemming voor optionele marketing en elke activiteit waarvoor toestemming vereist is; onze legitieme belangen bij het reageren op zakelijke vragen, het exploiteren en beveiligen van onze diensten en het beheren van klantrelaties, waarbij deze belangen niet terzijde worden geschoven door uw rechten; en het naleven van wettelijke verplichtingen. U kunt uw toestemming op elk moment intrekken, zonder dat dit gevolgen heeft voor eerdere rechtmatige verwerkingen."
+      },
+      "recipients": {
+        "title": "Ontvangers en klanten gescheiden",
+        "body": "Wij verkopen geen persoonlijke gegevens. We delen de informatie van een klant uit de Verenigde Staten niet met klanten in Duitsland of Europa, en we delen de informatie van een Duitse of Europese klant niet met klanten in de Verenigde Staten. Persoonlijke gegevens zijn alleen beschikbaar voor geautoriseerd Starlights Visuals-personeel en providers die deze nodig hebben voor een bepaald doel, inclusief Supabase voor databasediensten, Resend voor e-mailbezorging en onze websitehostingprovider. Van aanbieders wordt verwacht dat zij gegevens alleen verwerken onder passende instructies en waarborgen."
+      },
+      "transfers": {
+        "title": "Overdrachten buiten Europa",
+        "body": "Omdat Starlights Visuals gevestigd is in de Verenigde Staten en gebruik maakt van internationale clouddiensten, kunnen Europese persoonsgegevens worden overgedragen naar of toegankelijk worden gemaakt vanuit landen buiten de Europese Economische Ruimte, waaronder de Verenigde Staten. Het scheiden van klanten staat deze noodzakelijke serviceoverdrachten niet in de weg. Wanneer de AVG een overdrachtsgarantie vereist, vertrouwen we op een toepasselijk adequaatheidsbesluit, de EU-standaardcontractbepalingen, het EU-Verenigde Staten Data Privacy Framework voor een deelnemende aanbieder, of een ander wettig mechanisme. U kunt contact met ons opnemen voor informatie over de beveiliging die relevant is voor uw gegevens."
+      },
+      "retention": {
+        "title": "Behoud",
+        "body": "We bewaren persoonlijke gegevens slechts zo lang als redelijkerwijs nodig is voor het verzamelde doel, inclusief het reageren op vragen, het uitvoeren van diensten, het bijhouden van bedrijfs- en belastinggegevens, het oplossen van geschillen en het voldoen aan wettelijke verplichtingen. Nieuwsbriefgegevens worden bewaard totdat u zich afmeldt of verzoekt om verwijdering. Beoordelingsgegevens worden bewaard terwijl ze in behandeling zijn of worden gepubliceerd, tenzij verwijdering wordt aangevraagd of bewaring wettelijk vereist is."
+      },
+      "rights": {
+        "title": "Uw AVG-rechten",
+        "body": "Behoudens wettelijke voorwaarden en uitzonderingen kunt u verzoeken om toegang tot uw persoonsgegevens, correctie, verwijdering, beperking van de verwerking, gegevensportabiliteit of bezwaar tegen verwerking op basis van legitieme belangen of direct marketing. U kunt uw toestemming op elk moment intrekken. Om een ​​recht uit te oefenen, kunt u een e-mail sturen naar info@starlightvisualstudio.de. Wij kunnen om informatie vragen die nodig is om uw identiteit te verifiëren en zullen binnen de door de wet vereiste termijn reageren."
+      },
+      "complaints": {
+        "title": "Recht om te klagen",
+        "body": "U kunt een klacht indienen bij een toezichthoudende autoriteit voor gegevensbescherming, met name in de lidstaat van de Europese Unie waar u woont, werkt of denkt dat er een inbreuk heeft plaatsgevonden. Mensen in Duitsland kunnen contact opnemen met de bevoegde gegevensbeschermingsautoriteit van de Duitse federale staat."
+      },
+      "decisions": {
+        "title": "Geautomatiseerde beslissingen en benodigde gegevens",
+        "body": "Wij gebruiken de ingediende persoonsgegevens niet uitsluitend voor geautomatiseerde besluiten die juridische of vergelijkbare significante gevolgen hebben. Velden die als verplicht zijn gemarkeerd, zijn nodig om een ​​vraag te beantwoorden of de gevraagde functie te bieden. Als de vereiste informatie niet wordt verstrekt, kunnen we mogelijk niet reageren of die functie niet leveren."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Voor AVG-vragen, rechtenverzoeken, informatie over overdrachtsbeveiliging of privacyproblemen kunt u een e-mail sturen naar info@starlightvisualstudio.de."
+      }
+    }
+  },
+  "imprintPage": {
+    "metaTitle": "Impressum | WETTELIJK BESCHERMD0",
+    "metaDescription": "Bedrijfs- en contactinformatie voor de exploitant van de Starlights Visuals-website.",
+    "label": "Juridische mededeling",
+    "title": "AFDRUK",
+    "subtitle": "Bedrijfs- en contactinformatie voor deze website.",
+    "sections": {
+      "operator": {
+        "title": "Website-exploitant",
+        "body": "WETTELIJK BESCHERMD0\nCreatieve animatie- en VFX-studio\nVerenigde Staten\nEerste studio op afstand die klanten internationaal bedient"
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "E-mail: WETTELIJK BESCHERMD1\nVoor projectvragen, juridische kennisgevingen of privacyverzoeken kunt u per e-mail contact met ons opnemen."
+      },
+      "responsibility": {
+        "title": "Verantwoordelijkheid voor de inhoud",
+        "body": "Wij doen redelijke inspanningen om de informatie op deze website accuraat en actueel te houden. We kunnen echter niet garanderen dat alle inhoud compleet, foutloos of continu beschikbaar is. De inhoud van de website is bedoeld voor algemene informatie en vormt geen juridisch, financieel of ander professioneel advies."
+      },
+      "links": {
+        "title": "Externe links",
+        "body": "Deze website kan linken naar websites of platforms van derden. Wij hebben geen controle over de inhoud, beschikbaarheid of privacypraktijken ervan en zijn er niet verantwoordelijk voor. De exploitant van elke gekoppelde dienst is verantwoordelijk voor de eigen inhoud ervan."
+      },
+      "copyright": {
+        "title": "Copyright",
+        "body": "Tenzij anders vermeld, zijn de tekst, het ontwerp, de animatie, het artwork, de video en andere originele inhoud op deze website eigendom van Starlights Visuals of worden ze met toestemming gebruikt. Voor reproductie, distributie of commercieel gebruik is voorafgaande schriftelijke toestemming vereist, tenzij de toepasselijke wetgeving anders toestaat."
+      }
     }
   }
 }

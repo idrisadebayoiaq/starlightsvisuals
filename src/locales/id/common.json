@@ -56,7 +56,10 @@
     "subscribeError": "Tidak dapat berlangganan saat ini. Silakan coba lagi atau kirim email langsung kepada kami.",
     "adminLogin": "Admin",
     "emailRequired": "Silakan masukkan alamat email Anda.",
-    "emailInvalid": "Silakan masukkan alamat email yang valid."
+    "emailInvalid": "Silakan masukkan alamat email yang valid.",
+    "privacy": "Kebijakan Privasi",
+    "euGdpr": "GDPR UE",
+    "imprint": "Jejak"
   },
   "home": {
     "metaTitle": "Visual Cahaya Bintang | Studio Animasi & VFX",
@@ -1676,6 +1679,149 @@
       "message": "Pesan",
       "send": "Kirim email",
       "sending": "Mengirim…"
+    }
+  },
+  "privacyPage": {
+    "metaTitle": "Kebijakan Privasi | DILINDUNGI HUKUM0",
+    "metaDescription": "Pelajari informasi apa yang dikumpulkan Starlights Visuals, alasan penggunaannya, dan cara perlindungannya.",
+    "label": "Privasi Anda",
+    "title": "KEBIJAKAN PRIVASI",
+    "subtitle": "Bagaimana studio kami yang berbasis di Amerika menangani informasi dari klien dan pengunjung di seluruh dunia.",
+    "updated": "Terakhir diperbarui: 2026",
+    "summary": "Kami melayani klien di seluruh dunia, dengan fokus penting di Eropa dan Jerman. Kami tidak menjual, menyewakan, atau memperdagangkan informasi pribadi, dan kami tidak pernah membagikan informasi satu klien dengan klien lain di Amerika Serikat, Jerman, Eropa, atau di tempat lain.",
+    "sections": {
+      "information": {
+        "title": "Informasi yang kami kumpulkan",
+        "body": "Kami hanya mengumpulkan informasi yang Anda kirimkan secara sukarela. Permintaan proyek mungkin mencakup nama, alamat email, layanan yang dipilih, dan pesan Anda. Pendaftaran buletin menyertakan alamat email Anda. Ulasan yang dikirimkan dapat menyertakan nama, alamat email, peran, perusahaan, peringkat, judul, dan teks ulasan Anda.\n\nPenyedia hosting dan layanan kami juga dapat memproses data teknis dasar, seperti alamat IP, jenis browser, informasi perangkat, waktu permintaan, dan log kesalahan, untuk mengoperasikan dan mengamankan situs web."
+      },
+      "use": {
+        "title": "Bagaimana kami menggunakan informasi",
+        "body": "Kami menggunakan informasi yang dikirimkan untuk menjawab pertanyaan, menyiapkan atau menyediakan layanan kreatif yang diminta, mengirim balasan transaksional, mengelola komunikasi buletin, meninjau dan mempublikasikan testimonial dengan persetujuan, menjaga keamanan situs web, mencegah penyalahgunaan, dan mematuhi hukum yang berlaku.\n\nKami tidak menggunakan rincian proyek klien atau informasi pribadi untuk tujuan yang tidak terkait."
+      },
+      "sharing": {
+        "title": "Ketika informasi dibagikan",
+        "body": "Kami tidak menjual atau menyewakan informasi pribadi dan tidak mengungkapkan informasi klien kepada klien di negara lain. Akses terbatas pada Starlights Visuals dan penyedia layanan yang memerlukan informasi untuk mengoperasikan situs web, berkomunikasi dengan Anda, atau menyampaikan pekerjaan yang diminta. Penyedia saat ini termasuk Supabase untuk layanan database, Resend untuk pengiriman email, dan penyedia hosting situs web kami. Kami juga dapat mengungkapkan informasi bila diwajibkan oleh hukum atau diperlukan untuk melindungi hak hukum dan keamanan situs web."
+      },
+      "international": {
+        "title": "Klien di seluruh dunia dan transfer internasional",
+        "body": "Starlights Visuals beroperasi dari Amerika Serikat dan bekerja dengan orang-orang di seluruh dunia, terutama di Eropa dan Jerman. Informasi klien Amerika Serikat tidak dibagikan kepada klien Jerman atau Eropa, dan informasi klien Jerman atau Eropa tidak dibagikan kepada klien Amerika Serikat.\n\nPemisahan klien ini tidak berarti data selalu berada di satu negara. Tim resmi dan penyedia cloud kami dapat memproses informasi di Amerika Serikat, Wilayah Ekonomi Eropa, Jerman, atau lokasi lain tempat mereka beroperasi. Ketika data pribadi Eropa ditransfer ke luar Wilayah Ekonomi Eropa, kami menggunakan mekanisme transfer hukum yang berlaku jika diperlukan, seperti keputusan kecukupan, Klausul Kontrak Standar UE, atau perlindungan lain yang diakui oleh hukum. Lihat Pemberitahuan GDPR UE kami untuk detail tambahan."
+      },
+      "storage": {
+        "title": "Cookie dan penyimpanan lokal",
+        "body": "Situs web ini saat ini tidak menggunakan cookie iklan atau analisis pihak ketiga. Ini menggunakan penyimpanan lokal browser untuk mengingat pilihan bahasa Anda, preferensi perintah terjemahan, dan preferensi tema. Informasi ini tetap ada di perangkat Anda kecuali browser Anda menghapusnya. Infrastruktur layanan penting mungkin menggunakan penyimpanan teknis atau log yang diperlukan untuk keamanan dan pengoperasian."
+      },
+      "retention": {
+        "title": "Berapa lama kami menyimpan informasi",
+        "body": "Kita menyimpan pertanyaan dan memproyeksikan informasi hanya selama diperlukan secara wajar untuk merespons, memberikan layanan, menyimpan catatan bisnis, menyelesaikan perselisihan, dan memenuhi kewajiban hukum. Informasi buletin disimpan sampai Anda berhenti berlangganan atau meminta kami untuk menghapusnya. Informasi ulasan disimpan saat ulasan ditunda atau diterbitkan, kecuali jika diminta penghapusan atau penyimpanan diperlukan secara hukum."
+      },
+      "rights": {
+        "title": "Pilihan dan hak privasi Anda",
+        "body": "Kami bekerja dengan orang-orang di seluruh dunia. Di mana pun Anda tinggal, Anda mungkin meminta untuk mengakses, memperbaiki, atau menghapus informasi pribadi yang kami simpan tentang Anda, atau menolak penggunaan tertentu. Anda dapat berhenti berlangganan email pemasaran kapan saja dengan menghubungi kami atau menggunakan opsi berhenti berlangganan bila disediakan. Hak tambahan mungkin berlaku berdasarkan undang-undang privasi negara atau wilayah Anda. Masyarakat di Wilayah Ekonomi Eropa, Jerman, dan Inggris mungkin juga memiliki hak yang dijelaskan dalam Pemberitahuan GDPR UE kami. Kami memverifikasi dan menanggapi permintaan sebagaimana diwajibkan oleh hukum yang berlaku dan tidak mendiskriminasi siapa pun yang menjalankan hak privasi."
+      },
+      "children": {
+        "title": "Privasi anak-anak",
+        "body": "Situs web ini dan layanan kami tidak ditujukan untuk anak-anak di bawah 13 tahun, dan kami tidak dengan sengaja mengumpulkan informasi pribadi dari anak-anak di bawah 13 tahun. Jika Anda yakin ada anak yang memberikan informasi, hubungi kami agar kami dapat menghapusnya."
+      },
+      "security": {
+        "title": "Keamanan dan pemrosesan internasional",
+        "body": "Kami menggunakan perlindungan administratif dan teknis yang wajar yang dirancang untuk melindungi informasi yang dikirimkan, termasuk membatasi akses kepada orang-orang dan penyedia yang membutuhkannya untuk tujuan tertentu. Tidak ada sistem transmisi atau penyimpanan internet yang dapat dijamin sepenuhnya aman."
+      },
+      "changes": {
+        "title": "Perubahan pada kebijakan ini",
+        "body": "Kami dapat memperbarui kebijakan ini ketika layanan, penyedia, atau kewajiban hukum kami berubah. Versi yang diperbarui akan muncul di halaman ini dengan tanggal revisi."
+      },
+      "contact": {
+        "title": "Hubungi kami",
+        "body": "Untuk pertanyaan atau permintaan privasi, kirim email ke info@starlightvisualstudio.de. Harap jelaskan permintaan Anda dan alamat email yang terkait dengan informasi tersebut sehingga kami dapat merespons."
+      }
+    }
+  },
+  "euGdprPage": {
+    "metaTitle": "Pemberitahuan GDPR UE | DILINDUNGI HUKUM0",
+    "metaDescription": "Informasi GDPR untuk orang-orang di Wilayah Ekonomi Eropa dan Jerman yang berinteraksi dengan Starlights Visuals.",
+    "label": "Perlindungan data Eropa",
+    "title": "PEMBERITAHUAN GDPR UE",
+    "subtitle": "Informasi untuk masyarakat di Wilayah Ekonomi Eropa dan Jerman.",
+    "updated": "Terakhir diperbarui: 2026",
+    "summary": "Starlights Visuals berbasis di Amerika Serikat dan melayani klien di seluruh dunia, terutama di Eropa dan Jerman. Pemberitahuan ini melengkapi Kebijakan Privasi kami dan menjelaskan cara kami menangani data pribadi yang tercakup dalam Peraturan Perlindungan Data Umum Uni Eropa.",
+    "sections": {
+      "scope": {
+        "title": "Cakupan",
+        "body": "Pemberitahuan ini berlaku ketika GDPR UE mencakup pemrosesan data pribadi kami, termasuk ketika seseorang di Wilayah Ekonomi Eropa mengunjungi situs web kami, menghubungi kami tentang layanan, bergabung dengan buletin kami, mengirimkan ulasan, atau bekerja bersama kami dalam sebuah proyek. Ini harus dibaca bersama dengan Kebijakan Privasi umum kami."
+      },
+      "controller": {
+        "title": "Pengontrol data",
+        "body": "DILINDUNGI HUKUM0\nAmerika Serikat\nEmail: DILINDUNGI HUKUM1\n\nStarlights Visuals menentukan mengapa dan bagaimana data pribadi yang dikirimkan melalui situs web ini diproses. Permintaan privasi dan GDPR dapat dikirim ke alamat email di atas."
+      },
+      "data": {
+        "title": "Data pribadi yang kami proses",
+        "body": "Tergantung pada interaksi Anda, kami dapat memproses nama Anda, alamat email, perusahaan, peran, jenis proyek, pesan proyek, preferensi buletin, konten ulasan dan peringkat, korespondensi, dan data teknis dasar seperti alamat IP, detail browser, informasi perangkat, stempel waktu, dan log keamanan. Kami meminta Anda untuk tidak mengirimkan data pribadi sensitif kecuali diperlukan dan diminta secara khusus."
+      },
+      "purposes": {
+        "title": "Tujuan pemrosesan",
+        "body": "Kami memproses data pribadi untuk menjawab pertanyaan, mengambil langkah menuju atau melaksanakan kontrak, memberikan layanan kreatif, mengelola komunikasi klien, mengirim pesan buletin yang diminta, meninjau dan mempublikasikan testimonial dengan persetujuan, mengamankan dan memelihara situs web, mencegah penyalahgunaan, menyimpan catatan bisnis yang diperlukan, membuat atau membela klaim hukum, dan mematuhi hukum."
+      },
+      "legalBases": {
+        "title": "Dasar hukum",
+        "body": "Bergantung pada aktivitasnya, kami mengandalkan satu atau lebih dasar hukum berdasarkan Pasal 6 GDPR: langkah-langkah yang diminta sebelum menandatangani kontrak atau melaksanakan kontrak; persetujuan untuk pemasaran opsional dan aktivitas apa pun yang memerlukan persetujuan; kepentingan sah kami dalam menanggapi pertanyaan bisnis, mengoperasikan dan mengamankan layanan kami, dan mengelola hubungan klien, di mana kepentingan tersebut tidak dikesampingkan oleh hak Anda; dan kepatuhan terhadap kewajiban hukum. Anda dapat membatalkan persetujuan kapan saja tanpa mempengaruhi proses hukum sebelumnya."
+      },
+      "recipients": {
+        "title": "Penerima dan pemisahan klien",
+        "body": "Kami tidak menjual data pribadi. Kami tidak membagikan informasi klien Amerika Serikat dengan klien di Jerman atau Eropa, dan kami tidak membagikan informasi klien Jerman atau Eropa dengan klien di Amerika Serikat. Data pribadi hanya tersedia untuk personel dan penyedia resmi Starlights Visuals yang membutuhkannya untuk tujuan tertentu, termasuk Supabase untuk layanan basis data, Resend untuk pengiriman email, dan penyedia hosting situs web kami. Penyedia diharapkan memproses data hanya berdasarkan instruksi dan pengamanan yang sesuai."
+      },
+      "transfers": {
+        "title": "Transfer ke luar Eropa",
+        "body": "Karena Starlights Visuals berbasis di Amerika Serikat dan menggunakan layanan cloud internasional, data pribadi Eropa dapat ditransfer ke atau diakses dari negara di luar Wilayah Ekonomi Eropa, termasuk Amerika Serikat. Pemisahan klien tidak mencegah transfer layanan yang diperlukan ini. Jika GDPR mewajibkan perlindungan transfer, kami mengandalkan keputusan kecukupan yang berlaku, Klausul Kontrak Standar UE, Kerangka Privasi Data UE Amerika Serikat untuk penyedia yang berpartisipasi, atau mekanisme lain yang sah. Anda dapat menghubungi kami untuk informasi tentang perlindungan yang relevan dengan data Anda."
+      },
+      "retention": {
+        "title": "Penyimpanan",
+        "body": "Kami menyimpan data pribadi hanya selama diperlukan secara wajar untuk tujuan pengumpulannya, termasuk menanggapi pertanyaan, melakukan layanan, memelihara catatan bisnis dan pajak, menyelesaikan perselisihan, dan memenuhi kewajiban hukum. Data buletin disimpan sampai Anda berhenti berlangganan atau meminta penghapusan. Data tinjauan disimpan sementara menunggu keputusan atau dipublikasikan kecuali jika diminta penghapusan atau penyimpanan diperlukan secara hukum."
+      },
+      "rights": {
+        "title": "Hak GDPR Anda",
+        "body": "Tunduk pada ketentuan dan pengecualian hukum, Anda dapat meminta akses ke data pribadi Anda, koreksi, penghapusan, pembatasan pemrosesan, portabilitas data, atau penolakan terhadap pemrosesan berdasarkan kepentingan sah atau pemasaran langsung. Anda dapat menarik persetujuan kapan saja. Untuk menggunakan hak, kirim email ke info@starlightvisualstudio.de. Kami mungkin meminta informasi yang diperlukan untuk memverifikasi identitas Anda dan akan merespons dalam jangka waktu yang diwajibkan oleh hukum."
+      },
+      "complaints": {
+        "title": "Hak untuk mengeluh",
+        "body": "Anda dapat mengajukan keluhan kepada otoritas pengawas perlindungan data, khususnya di negara anggota Uni Eropa tempat Anda tinggal, bekerja, atau yakin telah terjadi pelanggaran. Masyarakat di Jerman dapat menghubungi otoritas perlindungan data negara federal Jerman yang kompeten."
+      },
+      "decisions": {
+        "title": "Keputusan otomatis dan data yang dibutuhkan",
+        "body": "Kami tidak menggunakan data pribadi yang dikirimkan hanya untuk pengambilan keputusan otomatis yang menghasilkan dampak hukum atau dampak signifikan serupa. Bidang yang ditandai sebagai wajib diperlukan untuk menjawab pertanyaan atau menyediakan fungsi yang diminta. Jika informasi yang diperlukan tidak diberikan, kami mungkin tidak dapat merespons atau melaksanakan fungsi tersebut."
+      },
+      "contact": {
+        "title": "Kontak",
+        "body": "Untuk pertanyaan GDPR, permintaan hak, transfer informasi perlindungan, atau masalah privasi, kirim email ke info@starlightvisualstudio.de."
+      }
+    }
+  },
+  "imprintPage": {
+    "metaTitle": "Jejak | DILINDUNGI HUKUM0",
+    "metaDescription": "Informasi bisnis dan kontak untuk operator situs web Starlights Visuals.",
+    "label": "Pemberitahuan hukum",
+    "title": "JEJAK",
+    "subtitle": "Informasi bisnis dan kontak untuk situs web ini.",
+    "sections": {
+      "operator": {
+        "title": "Operator situs web",
+        "body": "DILINDUNGI HUKUM0\nAnimasi kreatif dan studio VFX\nAmerika Serikat\nStudio jarak jauh pertama yang melayani klien internasional"
+      },
+      "contact": {
+        "title": "Kontak",
+        "body": "Email: DILINDUNGI HUKUM1\nUntuk pertanyaan proyek, pemberitahuan hukum, atau permintaan privasi, silakan hubungi kami melalui email."
+      },
+      "responsibility": {
+        "title": "Tanggung jawab atas konten",
+        "body": "Kami melakukan upaya wajar untuk menjaga informasi di situs web ini akurat dan terkini. Namun, kami tidak menjamin bahwa semua konten lengkap, bebas kesalahan, atau tersedia terus-menerus. Konten situs web disediakan untuk informasi umum dan bukan merupakan nasihat hukum, keuangan, atau profesional lainnya."
+      },
+      "links": {
+        "title": "Tautan eksternal",
+        "body": "Situs web ini mungkin tertaut ke situs web atau platform pihak ketiga. Kami tidak mengontrol konten, ketersediaan, atau praktik privasinya dan tidak bertanggung jawab atas hal tersebut. Operator setiap layanan tertaut bertanggung jawab atas kontennya sendiri."
+      },
+      "copyright": {
+        "title": "Hak cipta",
+        "body": "Kecuali dinyatakan lain, teks, desain, animasi, karya seni, video, dan konten asli lainnya di situs web ini adalah milik Starlights Visuals atau digunakan dengan izin. Reproduksi, distribusi, atau penggunaan komersial memerlukan izin tertulis sebelumnya, kecuali jika hukum yang berlaku mengizinkan sebaliknya."
+      }
     }
   }
 }

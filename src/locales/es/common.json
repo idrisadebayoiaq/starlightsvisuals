@@ -56,7 +56,10 @@
     "subscribeError": "No se pudo suscribir en este momento. Inténtelo de nuevo o envíenos un correo electrónico directamente.",
     "adminLogin": "Administración",
     "emailRequired": "Por favor ingrese su dirección de correo electrónico.",
-    "emailInvalid": "Por favor, introduce una dirección de correo electrónico válida."
+    "emailInvalid": "Por favor, introduce una dirección de correo electrónico válida.",
+    "privacy": "política de privacidad",
+    "euGdpr": "RGPD UE",
+    "imprint": "Imprimir"
   },
   "home": {
     "metaTitle": "Imágenes visuales de luces de estrellas | Estudio de animación y efectos visuales",
@@ -1676,6 +1679,149 @@
       "message": "Mensaje",
       "send": "Enviar correo electrónico",
       "sending": "Envío…"
+    }
+  },
+  "privacyPage": {
+    "metaTitle": "Política de privacidad | Starlights Visuals",
+    "metaDescription": "Conozca qué información recopila Starlights Visuals, por qué se utiliza y cómo se protege.",
+    "label": "Tu privacidad",
+    "title": "POLÍTICA DE PRIVACIDAD",
+    "subtitle": "Cómo nuestro estudio con sede en Estados Unidos maneja la información de clientes y visitantes de todo el mundo.",
+    "updated": "Última actualización: 2026",
+    "summary": "Atendemos a clientes en todo el mundo, con un importante enfoque en Europa y Alemania. No vendemos, alquilamos ni intercambiamos información personal, y nunca compartimos la información de un cliente con otro cliente en los Estados Unidos, Alemania, Europa o cualquier otro lugar.",
+    "sections": {
+      "information": {
+        "title": "Información que recopilamos",
+        "body": "Recopilamos únicamente información que usted envía voluntariamente. Una consulta de proyecto puede incluir su nombre, dirección de correo electrónico, servicio seleccionado y mensaje. Una suscripción al boletín incluye su dirección de correo electrónico. Una reseña enviada puede incluir su nombre, dirección de correo electrónico, función, empresa, calificación, título y texto de la reseña.\n\nNuestros proveedores de alojamiento y servicios también pueden procesar datos técnicos básicos, como dirección IP, tipo de navegador, información del dispositivo, tiempo de solicitud y registros de errores, para operar y proteger el sitio web."
+      },
+      "use": {
+        "title": "Cómo utilizamos la información",
+        "body": "Utilizamos la información enviada para responder consultas, preparar o proporcionar servicios creativos solicitados, enviar respuestas transaccionales, administrar comunicaciones de boletines, revisar y publicar testimonios con aprobación, mantener la seguridad del sitio web, prevenir abusos y cumplir con la ley aplicable.\n\nNo utilizamos detalles del proyecto del cliente ni información personal para fines no relacionados."
+      },
+      "sharing": {
+        "title": "Cuando se comparte información",
+        "body": "No vendemos ni alquilamos información personal y no revelamos la información de un cliente a clientes en otro país. El acceso está limitado a Starlights Visuals y proveedores de servicios que necesitan la información para operar el sitio web, comunicarse con usted o entregar el trabajo solicitado. Los proveedores actuales incluyen Supabase para servicios de bases de datos, Resend para entrega de correo electrónico y nuestro proveedor de alojamiento de sitios web. También podemos divulgar información cuando lo exija la ley o sea necesario para proteger los derechos legales y la seguridad del sitio web."
+      },
+      "international": {
+        "title": "Clientes en todo el mundo y transferencias internacionales.",
+        "body": "Starlights Visuals opera desde los Estados Unidos y trabaja con personas en todo el mundo, especialmente en Europa y Alemania. La información de los clientes de Estados Unidos no se comparte con clientes alemanes o europeos, y la información de los clientes alemanes o europeos no se comparte con clientes de Estados Unidos.\n\nEsta separación de clientes no significa que los datos permanezcan siempre dentro de un país. Nuestro equipo autorizado y proveedores de nube pueden procesar información en los Estados Unidos, el Espacio Económico Europeo, Alemania u otros lugares donde operan. Cuando los datos personales europeos se transfieren fuera del Espacio Económico Europeo, utilizamos un mecanismo de transferencia legal aplicable cuando sea necesario, como una decisión de adecuación, las Cláusulas Contractuales Estándar de la UE u otra salvaguardia reconocida por la ley. Consulte nuestro Aviso GDPR de la UE para obtener detalles adicionales."
+      },
+      "storage": {
+        "title": "Cookies y almacenamiento local",
+        "body": "Este sitio web actualmente no utiliza cookies publicitarias ni análisis de terceros. Utiliza el almacenamiento local del navegador para recordar su elección de idioma, preferencia de solicitud de traducción y preferencia de tema. Esta información permanece en su dispositivo a menos que su navegador la borre. La infraestructura de servicios esenciales puede utilizar almacenamiento técnico o registros necesarios para la seguridad y el funcionamiento."
+      },
+      "retention": {
+        "title": "¿Cuánto tiempo conservamos la información?",
+        "body": "Conservamos la información de consultas y proyectos solo durante el tiempo razonablemente necesario para responder, brindar servicios, mantener registros comerciales, resolver disputas y cumplir obligaciones legales. La información del boletín se conserva hasta que usted cancele su suscripción o nos solicite que la eliminemos. La información de la revisión se conserva mientras la revisión está pendiente o publicada, a menos que se solicite su eliminación o su retención sea requerida legalmente."
+      },
+      "rights": {
+        "title": "Sus opciones y derechos de privacidad",
+        "body": "Trabajamos con personas de todo el mundo. Dondequiera que viva, puede solicitar acceder, corregir o eliminar la información personal que tenemos sobre usted, u oponerse a ciertos usos. Puede darse de baja de los correos electrónicos de marketing en cualquier momento comunicándose con nosotros o utilizando una opción para cancelar la suscripción cuando se proporcione. Es posible que se apliquen derechos adicionales según las leyes de privacidad de su país o región. Las personas en el Espacio Económico Europeo, Alemania y el Reino Unido también pueden tener los derechos descritos en nuestro Aviso GDPR de la UE. Verificamos y respondemos a las solicitudes según lo exige la ley aplicable y no discriminamos a nadie por ejercer sus derechos de privacidad."
+      },
+      "children": {
+        "title": "privacidad de los niños",
+        "body": "Este sitio web y nuestros servicios no están dirigidos a niños menores de 13 años y no recopilamos intencionalmente información personal de niños menores de 13 años. Si cree que un niño ha proporcionado información, contáctenos para que podamos eliminarla."
+      },
+      "security": {
+        "title": "Seguridad y tramitación internacional",
+        "body": "Utilizamos medidas de seguridad administrativas y técnicas razonables diseñadas para proteger la información enviada, incluida la limitación del acceso a personas y proveedores que la necesitan para un propósito establecido. Ningún sistema de transmisión o almacenamiento de Internet puede garantizarse completamente seguro."
+      },
+      "changes": {
+        "title": "Cambios a esta política",
+        "body": "Podemos actualizar esta política cuando nuestros servicios, proveedores u obligaciones legales cambien. La versión actualizada aparecerá en esta página con una fecha revisada."
+      },
+      "contact": {
+        "title": "Contáctenos",
+        "body": "Para preguntas o solicitudes de privacidad, envíe un correo electrónico a info@starlightvisualstudio.de. Describa su solicitud y la dirección de correo electrónico relacionada con la información para que podamos responder."
+      }
+    }
+  },
+  "euGdprPage": {
+    "metaTitle": "Aviso GDPR de la UE | Starlights Visuals",
+    "metaDescription": "Información GDPR para personas en el Espacio Económico Europeo y Alemania que interactúan con Starlights Visuals.",
+    "label": "protección de datos europea",
+    "title": "AVISO RGPD UE",
+    "subtitle": "Información para personas del Espacio Económico Europeo y Alemania.",
+    "updated": "Última actualización: 2026",
+    "summary": "Starlights Visuals tiene su sede en los Estados Unidos y atiende a clientes en todo el mundo, especialmente en Europa y Alemania. Este aviso complementa nuestra Política de Privacidad y explica cómo manejamos los datos personales cubiertos por el Reglamento General de Protección de Datos de la Unión Europea.",
+    "sections": {
+      "scope": {
+        "title": "Alcance",
+        "body": "Este aviso se aplica cuando el RGPD de la UE cubre nuestro procesamiento de datos personales, incluso cuando una persona en el Espacio Económico Europeo visita nuestro sitio web, se comunica con nosotros sobre servicios, se une a nuestro boletín informativo, envía una reseña o trabaja con nosotros en un proyecto. Debe leerse junto con nuestra Política de Privacidad general."
+      },
+      "controller": {
+        "title": "Responsable del tratamiento",
+        "body": "Starlights Visuals\nEstados Unidos\nCorreo electrónico: info@starlightvisualstudio.de\n\nStarlights Visuals determina por qué y cómo se procesan los datos personales enviados a través de este sitio web. Las solicitudes de privacidad y GDPR pueden enviarse a la dirección de correo electrónico anterior."
+      },
+      "data": {
+        "title": "Datos personales que procesamos",
+        "body": "Dependiendo de su interacción, podemos procesar su nombre, dirección de correo electrónico, empresa, función, tipo de proyecto, mensaje del proyecto, preferencia del boletín, revisión de contenido y calificación, correspondencia y datos técnicos básicos como dirección IP, detalles del navegador, información del dispositivo, marcas de tiempo y registros de seguridad. Le solicitamos que no envíe datos personales sensibles a menos que sea necesario y específicamente solicitado."
+      },
+      "purposes": {
+        "title": "Finalidades del tratamiento",
+        "body": "Procesamos datos personales para responder consultas, tomar medidas o ejecutar un contrato, brindar servicios creativos, administrar la comunicación con el cliente, enviar mensajes de boletines solicitados, revisar y publicar testimonios con aprobación, proteger y mantener el sitio web, evitar el uso indebido, mantener los registros comerciales requeridos, establecer o defender reclamos legales y cumplir con la ley."
+      },
+      "legalBases": {
+        "title": "Bases legales",
+        "body": "Dependiendo de la actividad, nos basamos en una o más bases legales según el artículo 6 del RGPD: pasos solicitados antes de celebrar un contrato o ejecutar un contrato; consentimiento para marketing opcional y cualquier actividad que requiera consentimiento; nuestros intereses legítimos en responder a consultas comerciales, operar y asegurar nuestros servicios y gestionar las relaciones con los clientes, cuando esos intereses no sean anulados por sus derechos; y cumplimiento de obligaciones legales. Puede retirar su consentimiento en cualquier momento sin que ello afecte al procesamiento legal anterior."
+      },
+      "recipients": {
+        "title": "Separación de destinatarios y clientes",
+        "body": "No vendemos datos personales. No compartimos la información de un cliente de Estados Unidos con clientes en Alemania o Europa, y no compartimos la información de un cliente alemán o europeo con clientes en los Estados Unidos. Los datos personales están disponibles solo para el personal y los proveedores autorizados de Starlights Visuals que los necesitan para un propósito establecido, incluido Supabase para servicios de bases de datos, Resend para entrega de correo electrónico y nuestro proveedor de alojamiento de sitios web. Se espera que los proveedores procesen datos únicamente siguiendo las instrucciones y salvaguardias adecuadas."
+      },
+      "transfers": {
+        "title": "Transferencias fuera de Europa",
+        "body": "Debido a que Starlights Visuals tiene su sede en los Estados Unidos y utiliza servicios internacionales en la nube, los datos personales europeos pueden transferirse o accederse a ellos desde países fuera del Espacio Económico Europeo, incluidos los Estados Unidos. La separación de clientes no impide estas necesarias transferencias de servicios. Cuando el RGPD requiere una salvaguardia de transferencia, nos basamos en una decisión de adecuación aplicable, las Cláusulas Contractuales Estándar de la UE, el Marco de Privacidad de Datos de los Estados Unidos de la UE para un proveedor participante u otro mecanismo legal. Puede contactarnos para obtener información sobre la protección relevante para sus datos."
+      },
+      "retention": {
+        "title": "Retención",
+        "body": "Conservamos datos personales solo el tiempo que sea razonablemente necesario para el propósito recopilado, lo que incluye responder consultas, prestar servicios, mantener registros comerciales y fiscales, resolver disputas y cumplir obligaciones legales. Los datos del boletín se conservan hasta que usted se dé de baja o solicite su eliminación. Los datos de revisión se conservan mientras están pendientes o publicados, a menos que se solicite su eliminación o su conservación sea requerida legalmente."
+      },
+      "rights": {
+        "title": "Tus derechos RGPD",
+        "body": "Sujeto a condiciones y excepciones legales, podrá solicitar acceso a sus datos personales, corrección, eliminación, restricción del procesamiento, portabilidad de datos u oposición al procesamiento basado en intereses legítimos o marketing directo. Puede retirar el consentimiento en cualquier momento. Para ejercer un derecho, envíe un correo electrónico a info@starlightvisualstudio.de. Podremos solicitar información necesaria para verificar su identidad y le responderemos dentro del plazo exigido por la ley."
+      },
+      "complaints": {
+        "title": "Derecho a quejarse",
+        "body": "Puede presentar una queja ante una autoridad supervisora ​​de protección de datos, particularmente en el estado miembro de la Unión Europea donde vive, trabaja o cree que se produjo una infracción. Las personas en Alemania pueden ponerse en contacto con la autoridad competente en materia de protección de datos del estado federal alemán."
+      },
+      "decisions": {
+        "title": "Decisiones automatizadas y datos requeridos",
+        "body": "No utilizamos los datos personales enviados únicamente para decisiones automatizadas que produzcan efectos legales o igualmente significativos. Los campos marcados como obligatorios son necesarios para responder una consulta o proporcionar la función solicitada. Si no se proporciona la información requerida, es posible que no podamos responder o entregar esa función."
+      },
+      "contact": {
+        "title": "Contacto",
+        "body": "Si tiene preguntas sobre el RGPD, solicitudes de derechos, transferencia de información de protección o inquietudes sobre privacidad, envíe un correo electrónico a info@starlightvisualstudio.de."
+      }
+    }
+  },
+  "imprintPage": {
+    "metaTitle": "Pie de imprenta | Starlights Visuals",
+    "metaDescription": "Información comercial y de contacto del operador del sitio web Starlights Visuals.",
+    "label": "Aviso legal",
+    "title": "IMPRIMIR",
+    "subtitle": "Información comercial y de contacto de este sitio web.",
+    "sections": {
+      "operator": {
+        "title": "Operador del sitio web",
+        "body": "Starlights Visuals\nEstudio de animación creativa y VFX.\nEstados Unidos\nPrimer estudio remoto que atiende a clientes a nivel internacional"
+      },
+      "contact": {
+        "title": "Contacto",
+        "body": "Correo electrónico: info@starlightvisualstudio.de\nPara consultas sobre proyectos, avisos legales o solicitudes de privacidad, contáctenos por correo electrónico."
+      },
+      "responsibility": {
+        "title": "Responsabilidad por el contenido",
+        "body": "Hacemos esfuerzos razonables para mantener la información de este sitio web precisa y actualizada. Sin embargo, no garantizamos que todo el contenido esté completo, libre de errores o disponible continuamente. El contenido del sitio web se proporciona para información general y no constituye asesoramiento legal, financiero ni de otro tipo."
+      },
+      "links": {
+        "title": "Enlaces externos",
+        "body": "Este sitio web puede contener enlaces a sitios web o plataformas de terceros. No controlamos su contenido, disponibilidad o prácticas de privacidad y no somos responsables de ellas. El operador de cada servicio enlazado es responsable de su propio contenido."
+      },
+      "copyright": {
+        "title": "Derechos de autor",
+        "body": "A menos que se indique lo contrario, el texto, el diseño, la animación, el arte, el video y otro contenido original de este sitio web son propiedad de Starlights Visuals o se utilizan con permiso. La reproducción, distribución o uso comercial requiere permiso previo por escrito, excepto cuando la ley aplicable permita lo contrario."
+      }
     }
   }
 }

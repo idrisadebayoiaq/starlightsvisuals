@@ -56,7 +56,10 @@
     "subscribeError": "Tilaus ei onnistu juuri nyt. Yritä uudelleen tai lähetä meille sähköpostia.",
     "adminLogin": "Admin",
     "emailRequired": "Anna sähköpostiosoitteesi.",
-    "emailInvalid": "Anna kelvollinen sähköpostiosoite."
+    "emailInvalid": "Anna kelvollinen sähköpostiosoite.",
+    "privacy": "Tietosuojakäytäntö",
+    "euGdpr": "EU GDPR",
+    "imprint": "Jälki"
   },
   "home": {
     "metaTitle": "Starlights Visuals | Animaatio & VFX Studio",
@@ -1676,6 +1679,149 @@
       "message": "Viesti",
       "send": "Lähetä sähköpostia",
       "sending": "Lähetetään…"
+    }
+  },
+  "privacyPage": {
+    "metaTitle": "Tietosuojakäytäntö | OIKEUSSUOJATTU0",
+    "metaDescription": "Opi mitä tietoja Starlights Visuals kerää, miksi niitä käytetään ja miten niitä suojataan.",
+    "label": "Yksityisyytesi",
+    "title": "TIETOSUOJAKÄYTTÖ",
+    "subtitle": "Kuinka Yhdysvalloissa sijaitseva studiomme käsittelee tietoja asiakkailta ja vierailijoilta ympäri maailmaa.",
+    "updated": "Viimeksi päivitetty: 2026",
+    "summary": "Palvelemme asiakkaitamme maailmanlaajuisesti, painopisteenä Eurooppa ja Saksa. Emme myy, vuokraa tai vaihda henkilötietoja, emmekä koskaan jaa yhden asiakkaan tietoja toisen asiakkaan kanssa Yhdysvalloissa, Saksassa, Euroopassa tai muualla.",
+    "sections": {
+      "information": {
+        "title": "Keräämämme tiedot",
+        "body": "Keräämme vain vapaaehtoisesti lähettämiäsi tietoja. Projektikysely voi sisältää nimesi, sähköpostiosoitteesi, valitsemasi palvelu ja viesti. Uutiskirjeen tilaus sisältää sähköpostiosoitteesi. Lähetetty arvostelu voi sisältää nimesi, sähköpostiosoitteesi, roolisi, yrityksesi, luokituksen, otsikon ja arvostelun tekstin.\n\nIsännöinti- ja palveluntarjoajamme voivat myös käsitellä teknisiä perustietoja, kuten IP-osoitetta, selaintyyppiä, laitetietoja, pyyntöaikaa ja virhelokeja, verkkosivuston käyttöä ja suojaamista varten."
+      },
+      "use": {
+        "title": "Kuinka käytämme tietoa",
+        "body": "Käytämme toimitettuja tietoja vastataksemme tiedusteluihin, valmistellaksemme tai tarjotaksemme pyydettyjä luovia palveluita, lähettääksemme transaktiovastauksia, hallinnoidaksemme uutiskirjeviestintää, tarkistaaksemme ja julkaistaksemme suosituksia hyväksytyllä tavalla, ylläpitääksemme verkkosivuston turvallisuutta, estääksemme väärinkäytöksiä ja noudattaaksemme sovellettavaa lakia.\n\nEmme käytä asiakasprojektin tietoja tai henkilötietoja asiaankuulumattomiin tarkoituksiin."
+      },
+      "sharing": {
+        "title": "Kun tietoa jaetaan",
+        "body": "Emme myy tai vuokraa henkilötietoja emmekä luovuta asiakkaan tietoja toisessa maassa oleville asiakkaille. Pääsy on rajoitettu Starlights Visuals- ja palveluntarjoajiin, jotka tarvitsevat tietoja verkkosivuston käyttämiseen, kanssasi kommunikointiin tai pyydettyjen töiden toimittamiseen. Nykyisiä palveluntarjoajia ovat Supabase tietokantapalveluille, Resend sähköpostin toimittamiseen ja verkkosivustojen isännöintipalvelumme. Saatamme myös luovuttaa tietoja, kun laki vaatii tai se on tarpeen laillisten oikeuksien ja verkkosivuston turvallisuuden suojaamiseksi."
+      },
+      "international": {
+        "title": "Maailmanlaajuiset asiakkaat ja kansainväliset siirrot",
+        "body": "Starlights Visuals toimii Yhdysvalloista ja työskentelee ihmisten kanssa maailmanlaajuisesti, erityisesti Euroopassa ja Saksassa. Yhdysvaltalaisten asiakkaiden tietoja ei jaeta saksalaisten tai eurooppalaisten asiakkaiden kanssa, eikä saksalaisten tai eurooppalaisten asiakkaiden tietoja jaeta yhdysvaltalaisten asiakkaiden kanssa.\n\nTämä asiakkaiden erottelu ei tarkoita, että tiedot pysyvät aina yhden maan sisällä. Valtuutettu tiimimme ja pilvipalveluntarjoajamme voivat käsitellä tietoja Yhdysvalloissa, Euroopan talousalueella, Saksassa tai muissa paikoissa, joissa ne toimivat. Kun eurooppalaisia ​​henkilötietoja siirretään Euroopan talousalueen ulkopuolelle, käytämme tarvittaessa soveltuvaa laillista siirtomekanismia, kuten riittävyyspäätöstä, EU:n mallisopimuslausekkeita tai muuta laissa tunnustettua suojakeinoa. Katso lisätietoja EU:n GDPR-ilmoituksestamme."
+      },
+      "storage": {
+        "title": "Evästeet ja paikallinen tallennustila",
+        "body": "Tämä verkkosivusto ei tällä hetkellä käytä mainosevästeitä tai kolmannen osapuolen analytiikkaa. Se käyttää selaimen paikallista tallennustilaa muistaakseen kielivalinnan, käännöskehotteen ja teemavalinnan. Nämä tiedot pysyvät laitteessasi, ellei selain tyhjennä niitä. Olennainen palveluinfrastruktuuri voi käyttää turvallisuuden ja toiminnan kannalta tarpeellista teknistä tallennustilaa tai lokeja."
+      },
+      "retention": {
+        "title": "Kuinka kauan säilytämme tietoja",
+        "body": "Säilytämme tiedustelu- ja projektitietoja vain niin kauan kuin on kohtuudella tarpeen vastataksemme, tarjotaksemme palveluja, ylläpitääksemme liiketoimintatietoja, ratkaistaksemme riita-asioita ja täyttääksemme lakisääteisiä velvoitteita. Uutiskirjeen tiedot säilytetään, kunnes peruutat tilauksen tai pyydät meitä poistamaan ne. Arvostelutiedot säilytetään, kun arvostelu on vireillä tai julkaistu, ellei poistamista pyydetä tai säilyttämistä ei vaadita lain mukaan."
+      },
+      "rights": {
+        "title": "Sinun valintasi ja tietosuojaoikeutesi",
+        "body": "Työskentelemme ihmisten kanssa ympäri maailmaa. Missä tahansa asutkin, voit pyytää pääsyä hallussamme oleviin henkilötietoihin, korjata tai poistaa niitä tai vastustaa tiettyjä käyttöjä. Voit peruuttaa markkinointiviestien tilauksen milloin tahansa ottamalla meihin yhteyttä tai käyttämällä tilauksen peruutusvaihtoehtoa. Maasi tai alueesi tietosuojalakien alaisia ​​lisäoikeuksia voidaan soveltaa. Myös Euroopan talousalueella, Saksassa ja Isossa-Britanniassa asuvilla henkilöillä voi olla EU:n GDPR-ilmoituksessamme kuvatut oikeudet. Tarkistamme ja vastaamme pyyntöihin sovellettavan lain edellyttämällä tavalla emmekä syrji ketään yksityisyyden suojaa koskevien oikeuksien käyttämisen vuoksi."
+      },
+      "children": {
+        "title": "Lasten yksityisyys",
+        "body": "Tätä verkkosivustoa ja palveluitamme ei ole suunnattu alle 13-vuotiaille lapsille, emmekä tietoisesti kerää henkilötietoja alle 13-vuotiailta lapsilta. Jos uskot, että lapsi on antanut tietoja, ota meihin yhteyttä, jotta voimme poistaa ne."
+      },
+      "security": {
+        "title": "Turvallisuus ja kansainvälinen käsittely",
+        "body": "Käytämme kohtuullisia hallinnollisia ja teknisiä suojakeinoja, jotka on suunniteltu suojelemaan lähetettyä tietoa, mukaan lukien pääsyn rajoittaminen ihmisille ja palveluntarjoajille, jotka tarvitsevat niitä tiettyyn tarkoitukseen. Mikään Internet-lähetys- tai tallennusjärjestelmä ei voi olla täysin turvallista."
+      },
+      "changes": {
+        "title": "Muutoksia tähän käytäntöön",
+        "body": "Saatamme päivittää tätä käytäntöä, kun palvelumme, palveluntarjoajamme tai lailliset velvoitteemme muuttuvat. Päivitetty versio ilmestyy tälle sivulle tarkistettuna päivämääränä."
+      },
+      "contact": {
+        "title": "Ota yhteyttä",
+        "body": "Jos sinulla on tietosuojakysymyksiä tai pyyntöjä, lähetä sähköpostia info@starlightvisualstudio.de. Kuvaile pyyntösi ja tietoihin liittyvä sähköpostiosoite, jotta voimme vastata."
+      }
+    }
+  },
+  "euGdprPage": {
+    "metaTitle": "EU:n GDPR-ilmoitus | OIKEUSSUOJATTU0",
+    "metaDescription": "GDPR-tiedot ihmisille Euroopan talousalueella ja Saksassa, jotka ovat vuorovaikutuksessa Starlights Visuals:n kanssa.",
+    "label": "Euroopan tietosuoja",
+    "title": "EU:n GDPR-ILMOITUS",
+    "subtitle": "Tietoa Euroopan talousalueen ja Saksan asukkaille.",
+    "updated": "Viimeksi päivitetty: 2026",
+    "summary": "Starlights Visuals sijaitsee Yhdysvalloissa ja palvelee asiakkaita maailmanlaajuisesti, erityisesti Euroopassa ja Saksassa. Tämä ilmoitus täydentää tietosuojakäytäntöämme ja selittää, kuinka käsittelemme Euroopan unionin yleisen tietosuoja-asetuksen kattamia henkilötietoja.",
+    "sections": {
+      "scope": {
+        "title": "Laajuus",
+        "body": "Tätä ilmoitusta sovelletaan, kun EU:n GDPR kattaa henkilötietojemme käsittelyn, mukaan lukien silloin, kun Euroopan talousalueen henkilö vierailee verkkosivustollamme, ottaa meihin yhteyttä palveluistamme, liittyy uutiskirjeemme, lähettää arvion tai työskentelee kanssamme projektin parissa. Se tulee lukea yhdessä yleisen tietosuojakäytäntömme kanssa."
+      },
+      "controller": {
+        "title": "Rekisterinpitäjä",
+        "body": "OIKEUSSUOJATTU0\nYhdysvallat\nSähköposti: info@starlightvisualstudio.de\n\nStarlights Visuals määrittää, miksi ja miten tämän verkkosivuston kautta lähetettyjä henkilötietoja käsitellään. Tietosuoja- ja GDPR-pyynnöt voidaan lähettää yllä olevaan sähköpostiosoitteeseen."
+      },
+      "data": {
+        "title": "Käsittelemämme henkilötiedot",
+        "body": "Vuorovaikutuksestasi riippuen saatamme käsitellä nimeäsi, sähköpostiosoitettasi, yritystäsi, rooliasi, projektityyppiäsi, projektiviestiäsi, uutiskirjeen mieltymyksiäsi, tarkastelun sisältöä ja luokituksia, kirjeenvaihtoa ja teknisiä perustietoja, kuten IP-osoite, selaintiedot, laitetiedot, aikaleimat ja suojauslokit. Pyydämme sinua olemaan lähettämättä arkaluonteisia henkilötietoja, ellei se ole välttämätöntä ja erityisesti pyydetty."
+      },
+      "purposes": {
+        "title": "Käsittelyn tarkoitukset",
+        "body": "Käsittelemme henkilötietoja vastataksemme tiedusteluihin, ryhtyäksemme toimenpiteisiin tai toteuttaaksemme sopimusta, toimittaaksemme luovia palveluita, hoitaaksemme asiakasviestintää, lähettääksemme pyydettyjä uutiskirjeviestejä, tarkistaaksemme ja julkaistaksemme suosituksia hyväksytyllä tavalla, suojataksemme ja ylläpitääksemme verkkosivustoa, estääksemme väärinkäytön, säilyttääksemme tarvittavat liiketoimintatiedot, laatiaksemme tai puolustaaksemme oikeudellisia vaateita ja noudattaaksemme lakia."
+      },
+      "legalBases": {
+        "title": "Oikeudelliset perusteet",
+        "body": "Toiminnasta riippuen luotamme yhteen tai useampaan oikeusperustaan ​​GDPR:n artiklan 6 mukaisesti: vaiheet, joita vaaditaan ennen sopimuksen tekemistä tai sopimuksen täyttämistä; suostumus valinnaiseen markkinointiin ja kaikkiin suostumusta edellyttäviin toimiin; oikeutettuja etujamme vastata liiketiedusteluihin, käyttää ja turvata palvelujamme sekä hoitaa asiakassuhteita, jos oikeutesi eivät syrjäytä näitä etuja; ja lakisääteisten velvoitteiden noudattaminen. Voit peruuttaa suostumuksen milloin tahansa vaikuttamatta aiempaan lailliseen käsittelyyn."
+      },
+      "recipients": {
+        "title": "Vastaanottajien ja asiakkaiden erottelu",
+        "body": "Emme myy henkilötietoja. Emme jaa yhdysvaltalaisen asiakkaan tietoja Saksassa tai Euroopassa oleville asiakkaille, emmekä saksalaisten tai eurooppalaisten asiakkaiden tietoja Yhdysvalloissa oleville asiakkaille. Henkilötiedot ovat saatavilla vain valtuutetuille Starlights Visuals-henkilöstölle ja palveluntarjoajille, jotka tarvitsevat niitä tiettyyn tarkoitukseen, mukaan lukien Supabase tietokantapalveluihin, Resend sähköpostin toimittamiseen ja verkkosivustomme isännöintipalveluntarjoajamme. Palveluntarjoajien odotetaan käsittelevän tietoja vain asianmukaisten ohjeiden ja suojatoimien mukaisesti."
+      },
+      "transfers": {
+        "title": "Siirrot Euroopan ulkopuolelle",
+        "body": "Koska Starlights Visuals sijaitsee Yhdysvalloissa ja käyttää kansainvälisiä pilvipalveluita, eurooppalaisia ​​henkilötietoja voidaan siirtää Euroopan talousalueen ulkopuolisiin maihin, mukaan lukien Yhdysvallat, tai niitä voidaan käyttää maista. Asiakkaiden erottaminen ei estä näitä välttämättömiä palvelujen siirtoja. Jos GDPR edellyttää siirtosuojaa, luotamme sovellettavaan riittävyyspäätökseen, EU:n vakiosopimuslausekkeisiin, EU:n Yhdysvaltojen tietosuojakehykseen osallistuvan palveluntarjoajan osalta tai muuhun lailliseen mekanismiin. Voit ottaa meihin yhteyttä saadaksesi lisätietoja tietoihisi liittyvistä suojatoimenpiteistä."
+      },
+      "retention": {
+        "title": "Säilytys",
+        "body": "Säilytämme henkilötietoja vain niin kauan kuin se on kohtuudella tarpeen kerättyyn tarkoitukseen, mukaan lukien tiedusteluihin vastaaminen, palveluiden suorittaminen, liiketoiminta- ja verokirjanpito, riitojen ratkaiseminen ja lakisääteisten velvoitteiden täyttäminen. Uutiskirjeen tietoja säilytetään, kunnes peruutat tilauksen tai pyydät poistamista. Tarkastustiedot säilytetään odottavan tai julkaistun ajan, ellei poistamista pyydetä tai säilyttämistä ei vaadita lain mukaan."
+      },
+      "rights": {
+        "title": "GDPR-oikeutesi",
+        "body": "Oikeudellisin ehdoin ja poikkeuksin voit pyytää pääsyä henkilötietoihisi, oikaisua, poistamista, käsittelyn rajoittamista, tietojen siirrettävyyttä tai vastustaa käsittelyä oikeutetun edun tai suoramarkkinoinnin perusteella. Voit peruuttaa suostumuksen milloin tahansa. Käytä oikeutta lähettämällä sähköpostia info@starlightvisualstudio.de. Saatamme pyytää henkilöllisyytesi vahvistamiseen tarvittavia tietoja ja vastaamme lain edellyttämän ajan kuluessa."
+      },
+      "complaints": {
+        "title": "Oikeus valittaa",
+        "body": "Voit tehdä valituksen tietosuojavalvontaviranomaiselle, erityisesti siinä Euroopan unionin jäsenvaltiossa, jossa asut, työskentelet tai uskot rikkomuksen tapahtuneen. Saksalaiset voivat ottaa yhteyttä toimivaltaiseen Saksan liittovaltion tietosuojaviranomaiseen."
+      },
+      "decisions": {
+        "title": "Automaattiset päätökset ja tarvittavat tiedot",
+        "body": "Emme käytä toimitettuja henkilötietoja yksinomaan automatisoituihin päätöksiin, joilla on oikeudellisia tai vastaavia merkittäviä vaikutuksia. Pakollisiksi merkityt kentät ovat tarpeen kyselyyn vastaamiseksi tai pyydetyn toiminnon suorittamiseksi. Jos vaadittuja tietoja ei anneta, emme ehkä pysty vastaamaan tai toimittamaan kyseistä toimintoa."
+      },
+      "contact": {
+        "title": "Ota yhteyttä",
+        "body": "Jos sinulla on GDPR-kysymyksiä, oikeuspyyntöjä, siirtoa koskevia suojatietoja tai yksityisyyttä koskevia huolenaiheita, lähetä sähköpostia info@starlightvisualstudio.de."
+      }
+    }
+  },
+  "imprintPage": {
+    "metaTitle": "Jälki | OIKEUSSUOJATTU0",
+    "metaDescription": "Starlights Visuals-verkkosivuston ylläpitäjän yritys- ja yhteystiedot.",
+    "label": "Oikeudellinen huomautus",
+    "title": "JÄDIN",
+    "subtitle": "Tämän sivuston yritys- ja yhteystiedot.",
+    "sections": {
+      "operator": {
+        "title": "Verkkosivuston ylläpitäjä",
+        "body": "OIKEUSSUOJATTU0\nLuova animaatio ja VFX-studio\nYhdysvallat\nEnsimmäinen etästudio, joka palvelee asiakkaita kansainvälisesti"
+      },
+      "contact": {
+        "title": "Ota yhteyttä",
+        "body": "Sähköposti: info@starlightvisualstudio.de\nOta yhteyttä sähköpostitse, jos sinulla on projektikyselyjä, oikeudellisia huomautuksia tai tietosuojapyyntöjä."
+      },
+      "responsibility": {
+        "title": "Vastuu sisällöstä",
+        "body": "Pyrimme kohtuullisin keinoin pitämään tällä verkkosivustolla olevat tiedot oikeina ja ajan tasalla. Emme kuitenkaan takaa, että kaikki sisältö on täydellistä, virheetöntä tai jatkuvasti saatavilla. Verkkosivuston sisältö on tarkoitettu yleiseksi tiedoksi, eikä se ole oikeudellista, taloudellista tai muuta ammatillista neuvontaa."
+      },
+      "links": {
+        "title": "Ulkoiset linkit",
+        "body": "Tämä verkkosivusto voi linkittää kolmansien osapuolien verkkosivustoille tai alustoille. Emme hallitse niiden sisältöä, saatavuutta tai tietosuojakäytäntöjä, emmekä ole niistä vastuussa. Jokaisen linkitetyn palvelun ylläpitäjä vastaa omasta sisällöstään."
+      },
+      "copyright": {
+        "title": "Tekijänoikeus",
+        "body": "Ellei toisin mainita, tämän verkkosivuston teksti, suunnittelu, animaatiot, taideteokset, videot ja muu alkuperäinen sisältö ovat Starlights Visuals:n omaisuutta tai niitä käytetään luvalla. Kopiointi, jakelu tai kaupallinen käyttö edellyttää kirjallista etukäteislupaa, ellei sovellettava laki toisin määrää."
+      }
     }
   }
 }

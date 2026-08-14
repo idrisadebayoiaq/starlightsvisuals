@@ -56,7 +56,10 @@
     "subscribeError": "Şu anda abone olunamıyor. Lütfen tekrar deneyin veya doğrudan bize e-posta gönderin.",
     "adminLogin": "Yönetici",
     "emailRequired": "Lütfen e-posta adresinizi girin.",
-    "emailInvalid": "Geçerli bir e."
+    "emailInvalid": "Geçerli bir e.",
+    "privacy": "Gizlilik Politikası",
+    "euGdpr": "AB GDPR",
+    "imprint": "Baskı"
   },
   "home": {
     "metaTitle": "Yıldız Işıkları Görselleri | Animasyon ve VFX Stüdyosu",
@@ -1676,6 +1679,149 @@
       "message": "Mesaj",
       "send": "E-posta gönder",
       "sending": "Gönderiliyor…"
+    }
+  },
+  "privacyPage": {
+    "metaTitle": "Gizlilik Politikası | YASAL KORUMA0",
+    "metaDescription": "Starlights Visuals'ın hangi bilgileri topladığını, neden kullanıldığını ve nasıl korunduğunu öğrenin.",
+    "label": "Gizliliğiniz",
+    "title": "GİZLİLİK POLİTİKASI",
+    "subtitle": "Amerika Birleşik Devletleri merkezli stüdyomuz dünya çapındaki müşterilerden ve ziyaretçilerden gelen bilgileri nasıl ele alıyor?",
+    "updated": "Son güncelleme: 2026",
+    "summary": "Avrupa ve Almanya başta olmak üzere dünya çapındaki müşterilerimize hizmet vermekteyiz. Kişisel bilgileri satmıyor, kiralamıyor veya ticaretini yapmıyoruz ve bir müşterinin bilgilerini Amerika Birleşik Devletleri, Almanya, Avrupa veya başka yerlerdeki başka bir müşteriyle asla paylaşmıyoruz.",
+    "sections": {
+      "information": {
+        "title": "Topladığımız bilgiler",
+        "body": "Yalnızca gönüllü olarak gönderdiğiniz bilgileri topluyoruz. Bir proje sorgusu adınızı, e-posta adresinizi, seçtiğiniz hizmeti ve mesajınızı içerebilir. Bülten kaydı e-posta adresinizi içerir. Gönderilen inceleme adınızı, e-posta adresinizi, rolünüzü, şirketinizi, derecelendirmenizi, başlığınızı ve inceleme metninizi içerebilir.\n\nBarındırma ve hizmet sağlayıcılarımız ayrıca web sitesini işletmek ve güvenliğini sağlamak için IP adresi, tarayıcı türü, cihaz bilgileri, istek süresi ve hata kayıtları gibi temel teknik verileri de işleyebilir."
+      },
+      "use": {
+        "title": "Bilgileri nasıl kullanıyoruz?",
+        "body": "Gönderilen bilgileri soruları yanıtlamak, talep edilen yaratıcı hizmetleri hazırlamak veya sağlamak, işlemsel yanıtlar göndermek, haber bülteni iletişimlerini yönetmek, referansları onaylayarak incelemek ve yayınlamak, web sitesi güvenliğini sağlamak, kötüye kullanımı önlemek ve geçerli yasalara uymak için kullanırız.\n\nMüşteri proje ayrıntılarını veya kişisel bilgilerini ilgisiz amaçlarla kullanmayız."
+      },
+      "sharing": {
+        "title": "Bilgi paylaşıldığında",
+        "body": "Kişisel bilgileri satmıyor veya kiralamıyoruz ve bir müşterinin bilgilerini başka bir ülkedeki müşterilere açıklamıyoruz. Erişim Starlights Visuals ve web sitesini işletmek, sizinle iletişim kurmak veya talep edilen işi sunmak için bilgiye ihtiyaç duyan hizmet sağlayıcılarla sınırlıdır. Mevcut sağlayıcılar arasında veritabanı hizmetleri için Supabase, e-posta dağıtımı için Resend ve web sitesi barındırma sağlayıcımız bulunmaktadır. Ayrıca yasaların gerektirdiği durumlarda veya yasal hakları ve web sitesi güvenliğini korumak için gerekli olduğunda bilgileri açıklayabiliriz."
+      },
+      "international": {
+        "title": "Dünya çapındaki müşteriler ve uluslararası transferler",
+        "body": "Starlights Visuals, Amerika Birleşik Devletleri'nde faaliyet göstermektedir ve başta Avrupa ve Almanya olmak üzere dünya çapındaki insanlarla çalışmaktadır. Amerika Birleşik Devletleri müşteri bilgileri Alman veya Avrupalı ​​müşterilerle paylaşılmaz ve Alman veya Avrupalı ​​müşteri bilgileri Amerika Birleşik Devletleri müşterileriyle paylaşılmaz.\n\nBu müşteri ayrımı, verilerin her zaman tek bir ülkede kalacağı anlamına gelmez. Yetkili ekibimiz ve bulut sağlayıcılarımız bilgileri Amerika Birleşik Devletleri'nde, Avrupa Ekonomik Alanı'nda, Almanya'da veya faaliyet gösterdikleri diğer yerlerde işleyebilir. Avrupa'daki kişisel veriler Avrupa Ekonomik Alanı dışına aktarıldığında, gerektiğinde yeterlilik kararı, AB Standart Sözleşme Maddeleri veya yasalarca tanınan başka bir koruma gibi geçerli bir yasal aktarım mekanizması kullanırız. Ek ayrıntılar için AB GDPR Bildirimimize bakın."
+      },
+      "storage": {
+        "title": "Çerezler ve yerel depolama",
+        "body": "Bu web sitesi şu anda reklam çerezleri veya üçüncü taraf analizlerini kullanmamaktadır. Dil seçiminizi, çeviri istemi tercihinizi ve tema tercihinizi hatırlamak için tarayıcının yerel depolama alanını kullanır. Bu bilgiler, tarayıcınız temizlemediği sürece cihazınızda kalır. Temel hizmet altyapısı, güvenlik ve işletim için gerekli teknik depolamayı veya günlükleri kullanabilir."
+      },
+      "retention": {
+        "title": "Bilgileri ne kadar süre saklıyoruz",
+        "body": "Sorgulama ve proje bilgilerini yalnızca yanıt vermek, hizmet sunmak, iş kayıtlarını tutmak, anlaşmazlıkları çözmek ve yasal yükümlülükleri yerine getirmek için makul ölçüde ihtiyaç duyulan süre boyunca saklıyoruz. Bülten bilgileri siz aboneliğinizi iptal edene veya bizden silmemizi talep edene kadar saklanır. İnceleme bilgileri, inceleme beklemedeyken veya yayınlanırken, kaldırılması talep edilmediği veya yasal olarak saklanması gerekmediği sürece saklanır."
+      },
+      "rights": {
+        "title": "Seçimleriniz ve gizlilik haklarınız",
+        "body": "Dünya çapında insanlarla çalışıyoruz. Nerede yaşarsanız yaşayın, hakkınızda tuttuğumuz kişisel bilgilere erişmeyi, bunları düzeltmeyi veya silmeyi isteyebilir veya belirli kullanımlara itiraz edebilirsiniz. İstediğiniz zaman bizimle iletişime geçerek veya sağlandığında abonelikten çıkma seçeneğini kullanarak pazarlama e-postalarının aboneliğinden çıkabilirsiniz. Ülkenizin veya bölgenizin gizlilik yasaları kapsamında ek haklar geçerli olabilir. Avrupa Ekonomik Alanı, Almanya ve Birleşik Krallık'taki kişiler de AB GDPR Bildirimimizde açıklanan haklara sahip olabilir. Talepleri geçerli yasaların gerektirdiği şekilde doğruluyor ve yanıtlıyoruz ve gizlilik haklarını kullanırken hiç kimseye ayrımcılık yapmıyoruz."
+      },
+      "children": {
+        "title": "Çocukların mahremiyeti",
+        "body": "Bu web sitesi ve hizmetlerimiz 13 yaşın altındaki çocuklara yönelik değildir ve 13 yaşın altındaki çocuklardan bilerek kişisel bilgi toplamıyoruz. Bir çocuğun bilgi sağladığını düşünüyorsanız bizimle iletişime geçin, böylece bu bilgiyi silebiliriz."
+      },
+      "security": {
+        "title": "Güvenlik ve uluslararası işleme",
+        "body": "Belirtilen amaç için bu bilgilere ihtiyaç duyan kişiler ve sağlayıcılarla erişimin sınırlandırılması da dahil olmak üzere, gönderilen bilgileri korumak için tasarlanmış makul idari ve teknik önlemler kullanıyoruz. Hiçbir internet iletim veya depolama sisteminin tamamen güvenli olduğu garanti edilemez."
+      },
+      "changes": {
+        "title": "Bu politikadaki değişiklikler",
+        "body": "Hizmetlerimiz, sağlayıcılarımız veya yasal yükümlülüklerimiz değiştiğinde bu politikayı güncelleyebiliriz. Güncellenmiş sürüm, revize edilmiş bir tarihle birlikte bu sayfada görünecektir."
+      },
+      "contact": {
+        "title": "Bize Ulaşın",
+        "body": "Gizlilikle ilgili sorularınız veya istekleriniz için info@starlightvisualstudio.de'e e-posta gönderin. Yanıt verebilmemiz için lütfen isteğinizi ve bilgilerin yer aldığı e-posta adresini açıklayın."
+      }
+    }
+  },
+  "euGdprPage": {
+    "metaTitle": "AB GDPR Bildirimi | YASAL KORUMA0",
+    "metaDescription": "Avrupa Ekonomik Alanı ve Almanya'da Starlights Visuals ile etkileşimde bulunan kişiler için GDPR bilgileri.",
+    "label": "Avrupa veri koruması",
+    "title": "AB GDPR BİLDİRİMİ",
+    "subtitle": "Avrupa Ekonomik Alanı ve Almanya'daki insanlar için bilgiler.",
+    "updated": "Son güncelleme: 2026",
+    "summary": "Starlights Visuals merkezi Amerika Birleşik Devletleri'ndedir ve başta Avrupa ve Almanya olmak üzere dünya çapındaki müşterilerine hizmet vermektedir. Bu bildirim Gizlilik Politikamızı tamamlar ve Avrupa Birliği Genel Veri Koruma Yönetmeliği kapsamındaki kişisel verileri nasıl işlediğimizi açıklar.",
+    "sections": {
+      "scope": {
+        "title": "Kapsam",
+        "body": "Bu bildirim, Avrupa Ekonomik Alanı'ndaki bir kişinin web sitemizi ziyaret etmesi, hizmetler hakkında bizimle iletişim kurması, bültenimize katılması, inceleme göndermesi veya bizimle bir proje üzerinde çalışması dahil olmak üzere, AB GDPR'nin kişisel verileri işlememizi kapsadığı durumlarda geçerlidir. Genel Gizlilik Politikamızla birlikte okunmalıdır."
+      },
+      "controller": {
+        "title": "Veri denetleyicisi",
+        "body": "YASAL KORUMA0\nAmerika Birleşik Devletleri\nE-posta: info@starlightvisualstudio.de\n\nStarlights Visuals, bu web sitesi aracılığıyla gönderilen kişisel verilerin neden ve nasıl işlendiğini belirler. Gizlilik ve GDPR talepleri yukarıdaki e-posta adresine gönderilebilir."
+      },
+      "data": {
+        "title": "İşlediğimiz kişisel veriler",
+        "body": "Etkileşiminize bağlı olarak adınızı, e-posta adresinizi, şirketinizi, rolünüzü, proje türünüzü, proje mesajınızı, bülten tercihinizi, inceleme içeriğini ve derecelendirmenizi, yazışmalarınızı ve IP adresi, tarayıcı ayrıntıları, cihaz bilgileri, zaman damgaları ve güvenlik kayıtları gibi temel teknik verilerinizi işleyebiliriz. Gerekli olmadıkça ve özellikle talep edilmedikçe hassas kişisel verileri göndermemenizi rica ediyoruz."
+      },
+      "purposes": {
+        "title": "İşlemenin amaçları",
+        "body": "Soruları yanıtlamak, bir sözleşmeye yönelik adımlar atmak veya bir sözleşmeyi gerçekleştirmek, yaratıcı hizmetler sunmak, müşteri iletişimini yönetmek, talep edilen bülten mesajlarını göndermek, referansları onayla incelemek ve yayınlamak, web sitesini güvence altına almak ve sürdürmek, kötüye kullanımı önlemek, gerekli ticari kayıtları tutmak, yasal iddiaları oluşturmak veya savunmak ve yasalara uymak için kişisel verileri işleriz."
+      },
+      "legalBases": {
+        "title": "Yasal dayanaklar",
+        "body": "Faaliyete bağlı olarak, GDPR'nin 6. Maddesi kapsamında bir veya daha fazla yasal dayanağa güveniyoruz: bir sözleşmeye girmeden veya bir sözleşmenin ifasından önce talep edilen adımlar; isteğe bağlı pazarlama ve onay gerektiren herhangi bir faaliyet için onay; haklarınızın bu çıkarları geçersiz kılmadığı durumlarda, ticari sorulara yanıt verme, hizmetlerimizi işletme ve güvence altına alma ve müşteri ilişkilerini yönetme konusundaki meşru çıkarlarımız; ve yasal yükümlülüklere uyum. Daha önceki yasal işlemeyi etkilemeden onayınızı istediğiniz zaman geri çekebilirsiniz."
+      },
+      "recipients": {
+        "title": "Alıcı ve müşteri ayrımı",
+        "body": "Kişisel verileri satmıyoruz. Amerika Birleşik Devletleri'ndeki bir müşterinin bilgilerini Almanya veya Avrupa'daki müşterilerle paylaşmayız ve bir Alman veya Avrupalı ​​müşterinin bilgilerini Amerika Birleşik Devletleri'ndeki müşterilerle paylaşmayız. Kişisel veriler yalnızca yetkili Starlights Visuals personeli ve veri tabanı hizmetleri için Supabase, e-posta dağıtımı için Resend ve web sitesi barındırma sağlayıcımız dahil olmak üzere belirtilen bir amaç için bunlara ihtiyaç duyan sağlayıcılar tarafından kullanılabilir. Sağlayıcıların verileri yalnızca uygun talimatlar ve güvenlik önlemleri altında işlemesi beklenir."
+      },
+      "transfers": {
+        "title": "Avrupa dışına transferler",
+        "body": "Starlights Visuals merkezi Amerika Birleşik Devletleri'nde olduğundan ve uluslararası bulut hizmetlerini kullandığından, Avrupa'daki kişisel veriler Amerika Birleşik Devletleri de dahil olmak üzere Avrupa Ekonomik Alanı dışındaki ülkelere aktarılabilir veya bu ülkelerden bu verilere erişilebilir. Müşteri ayrılması bu gerekli hizmet aktarımlarını engellemez. GDPR'nin bir aktarım koruması gerektirdiği durumlarda geçerli bir yeterlilik kararına, AB Standart Sözleşme Maddelerine, katılımcı bir sağlayıcı için AB Amerika Birleşik Devletleri Veri Gizliliği Çerçevesine veya başka bir yasal mekanizmaya güveniriz. Verilerinizle ilgili koruma hakkında bilgi almak için bizimle iletişime geçebilirsiniz."
+      },
+      "retention": {
+        "title": "Tutulma",
+        "body": "Kişisel verileri yalnızca sorulara yanıt vermek, hizmetleri gerçekleştirmek, iş ve vergi kayıtlarını tutmak, anlaşmazlıkları çözmek ve yasal yükümlülükleri yerine getirmek de dahil olmak üzere, toplanan amaç için makul ölçüde gerekli olduğu sürece saklıyoruz. Bülten verileri siz aboneliğinizi iptal edene veya silinmesini talep edene kadar saklanır. İnceleme verileri, kaldırılması talep edilmediği veya yasal olarak saklanması gerekmediği sürece beklemede veya yayınlanırken saklanır."
+      },
+      "rights": {
+        "title": "GDPR haklarınız",
+        "body": "Yasal şartlara ve istisnalara tabi olarak, meşru menfaatlere veya doğrudan pazarlamaya dayalı olarak kişisel verilerinize erişim, düzeltme, silme, işlemenin kısıtlanması, veri taşınabilirliği veya işlemeye itiraz talebinde bulunabilirsiniz. Onayınızı istediğiniz zaman geri çekebilirsiniz. Bir hakkı kullanmak için info@starlightvisualstudio.de'e e-posta gönderin. Kimliğinizi doğrulamak için gerekli bilgileri talep edebiliriz ve yasaların gerektirdiği süre içinde yanıt vereceğiz."
+      },
+      "complaints": {
+        "title": "Şikayet etme hakkı",
+        "body": "Özellikle yaşadığınız, çalıştığınız veya bir ihlalin gerçekleştiğine inandığınız Avrupa Birliği üye devletindeki bir veri koruma denetleme makamına şikayette bulunabilirsiniz. Almanya'daki kişiler yetkili Alman federal eyaleti veri koruma makamıyla iletişime geçebilir."
+      },
+      "decisions": {
+        "title": "Otomatik kararlar ve gerekli veriler",
+        "body": "Gönderilen kişisel verileri yalnızca yasal veya benzer şekilde önemli sonuçlar doğuran otomatik kararlar için kullanmayız. Zorunlu olarak işaretlenen alanlar, bir soruyu yanıtlamak veya istenen işlevi sağlamak için gereklidir. Gerekli bilgiler sağlanmazsa yanıt veremeyebilir veya bu işlevi yerine getiremeyebiliriz."
+      },
+      "contact": {
+        "title": "Temas etmek",
+        "body": "GDPR soruları, hak talepleri, aktarım koruma bilgileri veya gizlilik endişeleri için info@starlightvisualstudio.de'e e-posta gönderin."
+      }
+    }
+  },
+  "imprintPage": {
+    "metaTitle": "Künye | YASAL KORUMA0",
+    "metaDescription": "Starlights Visuals web sitesinin operatörünün iş ve iletişim bilgileri.",
+    "label": "Yasal uyarı",
+    "title": "KÜNYE",
+    "subtitle": "Bu web sitesinin iş ve iletişim bilgileri.",
+    "sections": {
+      "operator": {
+        "title": "Web sitesi operatörü",
+        "body": "YASAL KORUMA0\nYaratıcı animasyon ve VFX stüdyosu\nAmerika Birleşik Devletleri\nUluslararası müşterilere hizmet veren uzaktan ilk stüdyo"
+      },
+      "contact": {
+        "title": "Temas etmek",
+        "body": "E-posta: info@starlightvisualstudio.de\nProje soruları, yasal bildirimler veya gizlilik talepleri için lütfen bizimle e-posta yoluyla iletişime geçin."
+      },
+      "responsibility": {
+        "title": "İçerik sorumluluğu",
+        "body": "Bu web sitesindeki bilgilerin doğru ve güncel kalması için makul çabayı gösteriyoruz. Ancak tüm içeriğin eksiksiz, hatasız veya sürekli olarak kullanılabilir olduğunu garanti etmiyoruz. Web sitesi içeriği genel bilgi amaçlı sağlanmıştır ve hukuki, mali veya diğer profesyonel tavsiye niteliğinde değildir."
+      },
+      "links": {
+        "title": "Dış bağlantılar",
+        "body": "Bu web sitesi üçüncü taraf web sitelerine veya platformlarına bağlantı verebilir. İçeriklerini, kullanılabilirliklerini veya gizlilik uygulamalarını kontrol etmiyoruz ve bunlardan sorumlu değiliz. Her bağlantılı hizmetin operatörü kendi içeriğinden sorumludur."
+      },
+      "copyright": {
+        "title": "Telif hakkı",
+        "body": "Aksi belirtilmediği sürece bu web sitesindeki metin, tasarım, animasyon, çizim, video ve diğer orijinal içerik Starlights Visuals'a aittir veya izin alınarak kullanılmaktadır. Yürürlükteki yasaların aksine izin verdiği durumlar dışında, çoğaltılması, dağıtılması veya ticari kullanımı önceden yazılı izin gerektirir."
+      }
     }
   }
 }

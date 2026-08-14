@@ -56,7 +56,10 @@
     "subscribeError": "Nie można teraz subskrybować. Spróbuj ponownie lub napisz do nas bezpośrednio.",
     "adminLogin": "Administrator",
     "emailRequired": "Proszę podać swój adres e-mail.",
-    "emailInvalid": "Proszę podać prawidłowy adres e-mail."
+    "emailInvalid": "Proszę podać prawidłowy adres e-mail.",
+    "privacy": "Polityka prywatności",
+    "euGdpr": "RODO UE",
+    "imprint": "Odcisk"
   },
   "home": {
     "metaTitle": "Wizualizacje gwiazd | Studio animacji i efektów wizualnych",
@@ -1676,6 +1679,149 @@
       "message": "Wiadomość",
       "send": "Wyślij e-mail",
       "sending": "Przesyłka…"
+    }
+  },
+  "privacyPage": {
+    "metaTitle": "Polityka prywatności | OCHRONA PRAWNA0",
+    "metaDescription": "Dowiedz się, jakie informacje gromadzi Starlights Visuals, dlaczego są wykorzystywane i w jaki sposób są chronione.",
+    "label": "Twoja prywatność",
+    "title": "POLITYKA PRYWATNOŚCI",
+    "subtitle": "Jak nasze studio z siedzibą w Stanach Zjednoczonych przetwarza informacje od klientów i gości z całego świata.",
+    "updated": "Ostatnia aktualizacja: 2026",
+    "summary": "Obsługujemy klientów na całym świecie, ze szczególnym naciskiem na Europę i Niemcy. Nie sprzedajemy, nie wynajmujemy ani nie handlujemy danymi osobowymi i nigdy nie udostępniamy danych jednego klienta innemu klientowi w Stanach Zjednoczonych, Niemczech, Europie ani gdzie indziej.",
+    "sections": {
+      "information": {
+        "title": "Informacje, które zbieramy",
+        "body": "Gromadzimy wyłącznie informacje, które przekazujesz dobrowolnie. Zapytanie projektowe może zawierać Twoje imię i nazwisko, adres e-mail, wybraną usługę i wiadomość. Zapis do newslettera obejmuje Twój adres e-mail. Przesłana recenzja może zawierać Twoje imię i nazwisko, adres e-mail, rolę, firmę, ocenę, nagłówek i tekst recenzji.\n\nNasi dostawcy usług hostingowych i usług mogą również przetwarzać podstawowe dane techniczne, takie jak adres IP, typ przeglądarki, informacje o urządzeniu, czas żądania i dzienniki błędów, aby obsługiwać i zabezpieczać witrynę."
+      },
+      "use": {
+        "title": "Jak wykorzystujemy informacje",
+        "body": "Wykorzystujemy przesłane informacje w celu odpowiadania na zapytania, przygotowywania lub świadczenia żądanych usług kreatywnych, wysyłania odpowiedzi transakcyjnych, zarządzania komunikacją w biuletynie, przeglądania i publikowania opinii za zgodą, utrzymywania bezpieczeństwa witryny, zapobiegania nadużyciom i przestrzegania obowiązującego prawa.\n\nNie wykorzystujemy szczegółów projektu klienta ani danych osobowych do niezwiązanych celów."
+      },
+      "sharing": {
+        "title": "Kiedy informacje są udostępniane",
+        "body": "Nie sprzedajemy ani nie wynajmujemy danych osobowych i nie ujawniamy danych klientów klientom w innym kraju. Dostęp jest ograniczony do Starlights Visuals i dostawców usług, którzy potrzebują informacji do obsługi witryny, komunikowania się z Tobą lub wykonywania żądanej pracy. Obecni dostawcy to Supabase do usług baz danych, Resend do dostarczania poczty e-mail oraz nasz dostawca hostingu witryn internetowych. Możemy również ujawnić informacje, jeśli jest to wymagane przez prawo lub jest to konieczne w celu ochrony praw i bezpieczeństwa strony internetowej."
+      },
+      "international": {
+        "title": "Klienci na całym świecie i przelewy międzynarodowe",
+        "body": "Starlights Visuals działa w Stanach Zjednoczonych i współpracuje z ludźmi na całym świecie, zwłaszcza w Europie i Niemczech. Informacje o klientach ze Stanów Zjednoczonych nie są udostępniane klientom z Niemiec ani Europy, a informacje o klientach z Niemiec i Europy nie są udostępniane klientom ze Stanów Zjednoczonych.\n\nTo oddzielenie klientów nie oznacza, że ​​dane zawsze pozostają w jednym kraju. Nasz autoryzowany zespół i dostawcy usług w chmurze mogą przetwarzać informacje w Stanach Zjednoczonych, Europejskim Obszarze Gospodarczym, Niemczech lub innych lokalizacjach, w których prowadzą działalność. Kiedy europejskie dane osobowe są przekazywane poza Europejski Obszar Gospodarczy, w razie potrzeby korzystamy z obowiązującego prawnego mechanizmu przekazywania danych, takiego jak decyzja stwierdzająca odpowiedni stopień ochrony, standardowe klauzule umowne UE lub inne zabezpieczenie uznane przez prawo. Dodatkowe szczegóły można znaleźć w naszym zawiadomieniu o RODO UE."
+      },
+      "storage": {
+        "title": "Pliki cookie i pamięć lokalna",
+        "body": "Ta strona internetowa nie korzysta obecnie z reklamowych plików cookie ani analiz stron trzecich. Wykorzystuje pamięć lokalną przeglądarki, aby zapamiętać wybór języka, preferencje dotyczące podpowiedzi tłumaczenia i preferencje tematyczne. Informacje te pozostają na Twoim urządzeniu, chyba że Twoja przeglądarka je wyczyści. Niezbędna infrastruktura usługowa może wykorzystywać techniczną pamięć masową lub logi niezbędne do zapewnienia bezpieczeństwa i funkcjonowania."
+      },
+      "retention": {
+        "title": "Jak długo przechowujemy informacje",
+        "body": "Informacje dotyczące zapytań i projektów przechowujemy tylko tak długo, jak jest to zasadnie potrzebne do udzielenia odpowiedzi, świadczenia usług, prowadzenia dokumentacji biznesowej, rozstrzygania sporów i wypełniania zobowiązań prawnych. Informacje o newsletterze przechowywane są do czasu rezygnacji z subskrypcji lub poproszenia nas o jego usunięcie. Informacje dotyczące recenzji są przechowywane w czasie oczekiwania na recenzję lub jej publikacji, chyba że zażądano usunięcia lub zachowanie jest wymagane prawnie."
+      },
+      "rights": {
+        "title": "Twoje wybory i prawa do prywatności",
+        "body": "Współpracujemy z ludźmi na całym świecie. Gdziekolwiek mieszkasz, możesz poprosić o dostęp do danych osobowych, które posiadamy na Twój temat, ich poprawienie lub usunięcie, a także sprzeciwić się niektórym sposobom ich wykorzystania. Możesz w każdej chwili zrezygnować z otrzymywania marketingowych wiadomości e-mail, kontaktując się z nami lub korzystając z opcji rezygnacji z subskrypcji, jeśli jest dostępna. Dodatkowe prawa mogą obowiązywać zgodnie z przepisami dotyczącymi prywatności obowiązującymi w Twoim kraju lub regionie. Mieszkańcy Europejskiego Obszaru Gospodarczego, Niemiec i Wielkiej Brytanii mogą również mieć prawa opisane w naszej Informacji o RODO UE. Weryfikujemy i odpowiadamy na żądania zgodnie z wymogami obowiązującego prawa i nie dyskryminujemy nikogo za korzystanie z praw do prywatności."
+      },
+      "children": {
+        "title": "Prywatność dzieci",
+        "body": "Niniejsza witryna internetowa i nasze usługi nie są skierowane do dzieci poniżej 13 roku życia i nie gromadzimy świadomie danych osobowych dzieci poniżej 13 roku życia. Jeśli uważasz, że informacje przekazało dziecko, skontaktuj się z nami, abyśmy mogli je usunąć."
+      },
+      "security": {
+        "title": "Bezpieczeństwo i przetwarzanie międzynarodowe",
+        "body": "Stosujemy rozsądne zabezpieczenia administracyjne i techniczne mające na celu ochronę przekazywanych informacji, w tym ograniczanie dostępu do osób i dostawców, którzy potrzebują ich w określonym celu. Żaden system transmisji internetowej ani systemu przechowywania danych nie może zagwarantować całkowitego bezpieczeństwa."
+      },
+      "changes": {
+        "title": "Zmiany w niniejszej polityce",
+        "body": "Możemy aktualizować tę politykę, gdy ulegną zmianie nasze usługi, dostawcy lub zobowiązania prawne. Zaktualizowana wersja pojawi się na tej stronie ze zmienioną datą."
+      },
+      "contact": {
+        "title": "Skontaktuj się z nami",
+        "body": "Jeśli masz pytania lub prośby dotyczące prywatności, wyślij e-mail na adres info@starlightvisualstudio.de. Proszę opisać swoją prośbę i adres e-mail powiązany z informacjami, abyśmy mogli odpowiedzieć."
+      }
+    }
+  },
+  "euGdprPage": {
+    "metaTitle": "Informacja o RODO UE | OCHRONA PRAWNA0",
+    "metaDescription": "Informacje RODO dla osób z Europejskiego Obszaru Gospodarczego i Niemiec, które wchodzą w interakcję z Starlights Visuals.",
+    "label": "Europejska ochrona danych",
+    "title": "INFORMACJA o RODO UE",
+    "subtitle": "Informacje dla osób z Europejskiego Obszaru Gospodarczego i Niemiec.",
+    "updated": "Ostatnia aktualizacja: 2026",
+    "summary": "Starlights Visuals ma siedzibę w Stanach Zjednoczonych i obsługuje klientów na całym świecie, szczególnie w Europie i Niemczech. Niniejsza informacja stanowi uzupełnienie naszej Polityki prywatności i wyjaśnia, w jaki sposób postępujemy z danymi osobowymi objętymi ogólnym rozporządzeniem Unii Europejskiej o ochronie danych.",
+    "sections": {
+      "scope": {
+        "title": "Zakres",
+        "body": "Niniejsza informacja ma zastosowanie, gdy RODO UE obejmuje przetwarzanie przez nas danych osobowych, w tym gdy osoba z Europejskiego Obszaru Gospodarczego odwiedza naszą stronę internetową, kontaktuje się z nami w sprawie usług, dołącza do naszego biuletynu, przesyła recenzję lub współpracuje z nami nad projektem. Należy ją czytać łącznie z naszą ogólną Polityką Prywatności."
+      },
+      "controller": {
+        "title": "Administrator danych",
+        "body": "OCHRONA PRAWNA0\nStany Zjednoczone\nE-mail: info@starlightvisualstudio.de\n\nStarlights Visuals określa, dlaczego i w jaki sposób przetwarzane są dane osobowe przekazywane za pośrednictwem tej witryny. Żądania dotyczące prywatności i RODO można przesyłać na powyższy adres e-mail."
+      },
+      "data": {
+        "title": "Dane osobowe, które przetwarzamy",
+        "body": "W zależności od Twojej interakcji możemy przetwarzać Twoje imię i nazwisko, adres e-mail, firmę, rolę, rodzaj projektu, przesłanie projektu, preferencje dotyczące biuletynu, przeglądanie treści i ocen, korespondencję oraz podstawowe dane techniczne, takie jak adres IP, dane przeglądarki, informacje o urządzeniu, znaczniki czasu i dzienniki bezpieczeństwa. Prosimy o nieprzesyłanie wrażliwych danych osobowych, chyba że jest to konieczne i wyraźnie wymagane."
+      },
+      "purposes": {
+        "title": "Cele przetwarzania",
+        "body": "Przetwarzamy dane osobowe, aby odpowiadać na zapytania, podejmować kroki w kierunku zawarcia umowy lub ją wykonywać, świadczyć usługi kreatywne, zarządzać komunikacją z klientami, wysyłać żądane wiadomości biuletynowe, przeglądać i publikować referencje za zgodą, zabezpieczać i utrzymywać witrynę internetową, zapobiegać nadużyciom, prowadzić wymaganą dokumentację biznesową, ustalać lub bronić roszczeń prawnych oraz przestrzegać prawa."
+      },
+      "legalBases": {
+        "title": "Podstawy prawne",
+        "body": "W zależności od działalności opieramy się na jednej lub kilku podstawach prawnych wynikających z art. 6 RODO: czynności wymagane przed zawarciem umowy lub wykonaniem umowy; zgoda na marketing fakultatywny i wszelką działalność wymagającą zgody; nasze uzasadnione interesy polegające na odpowiadaniu na zapytania biznesowe, obsłudze i zabezpieczaniu naszych usług oraz zarządzaniu relacjami z klientami, jeżeli interesy te nie są nadrzędne w stosunku do Twoich praw; i przestrzeganie obowiązków prawnych. Zgodę możesz wycofać w dowolnym momencie bez wpływu na wcześniejsze przetwarzanie zgodne z prawem."
+      },
+      "recipients": {
+        "title": "Odbiorcy i separacja klientów",
+        "body": "Nie sprzedajemy danych osobowych. Nie udostępniamy danych klientów ze Stanów Zjednoczonych klientom w Niemczech ani w Europie ani nie udostępniamy danych klientów z Niemiec ani Europy klientom w Stanach Zjednoczonych. Dane osobowe są dostępne wyłącznie dla autoryzowanego personelu Starlights Visuals i dostawców, którzy potrzebują ich do określonego celu, w tym Supabase do usług baz danych, Resend do dostarczania poczty e-mail oraz naszego dostawcy usług hostingowych. Oczekuje się, że dostawcy będą przetwarzać dane wyłącznie zgodnie z odpowiednimi instrukcjami i zabezpieczeniami."
+      },
+      "transfers": {
+        "title": "Transfery poza Europę",
+        "body": "Ponieważ Starlights Visuals ma siedzibę w Stanach Zjednoczonych i korzysta z międzynarodowych usług w chmurze, europejskie dane osobowe mogą być przesyłane lub udostępniane z krajów spoza Europejskiego Obszaru Gospodarczego, w tym Stanów Zjednoczonych. Oddzielenie klientów nie uniemożliwia koniecznych transferów usług. Tam, gdzie RODO wymaga zabezpieczenia przekazania, opieramy się na obowiązującej decyzji stwierdzającej odpowiedni stopień ochrony, standardowych klauzulach umownych UE, ramach prawnych UE dotyczących ochrony danych w Stanach Zjednoczonych dla uczestniczącego dostawcy lub innym zgodnym z prawem mechanizmie. Możesz skontaktować się z nami w celu uzyskania informacji na temat zabezpieczeń odpowiednich dla Twoich danych."
+      },
+      "retention": {
+        "title": "Zatrzymanie",
+        "body": "Przechowujemy dane osobowe tylko tak długo, jak jest to zasadnie konieczne do zebranego celu, w tym odpowiadania na zapytania, świadczenia usług, prowadzenia dokumentacji biznesowej i podatkowej, rozwiązywania sporów i wypełniania obowiązków prawnych. Dane dotyczące newslettera przechowywane są do momentu rezygnacji z subskrypcji lub żądania usunięcia. Dane z przeglądu są przechowywane w oczekiwaniu na dane lub publikowane, chyba że zażądano ich usunięcia lub ich przechowywanie jest wymagane prawnie."
+      },
+      "rights": {
+        "title": "Twoje prawa RODO",
+        "body": "Z zastrzeżeniem warunków prawnych i wyjątków, możesz żądać dostępu do swoich danych osobowych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych lub sprzeciwu wobec przetwarzania na podstawie prawnie uzasadnionych interesów lub marketingu bezpośredniego. Zgodę możesz wycofać w dowolnym momencie. Aby skorzystać z prawa, wyślij e-mail na adres info@starlightvisualstudio.de. Możemy poprosić o informacje potrzebne do zweryfikowania Twojej tożsamości i odpowiemy w terminie wymaganym przez prawo."
+      },
+      "complaints": {
+        "title": "Prawo do narzekania",
+        "body": "Możesz złożyć skargę do organu nadzorczego ds. ochrony danych, szczególnie w państwie członkowskim Unii Europejskiej, w którym mieszkasz, pracujesz lub w którym uważasz, że doszło do naruszenia. Osoby przebywające w Niemczech mogą kontaktować się z właściwym organem ochrony danych w niemieckim kraju związkowym."
+      },
+      "decisions": {
+        "title": "Zautomatyzowane decyzje i wymagane dane",
+        "body": "Nie wykorzystujemy przekazanych danych osobowych do wyłącznie zautomatyzowanych decyzji wywołujących skutki prawne lub o podobnym znaczeniu. Pola oznaczone jako wymagane są potrzebne do udzielenia odpowiedzi na zapytanie lub udostępnienia żądanej funkcji. Jeśli wymagane informacje nie zostaną podane, możemy nie być w stanie odpowiedzieć lub zapewnić tej funkcji."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "W przypadku pytań związanych z RODO, wniosków o prawa, informacji o zabezpieczeniu transferu lub problemów związanych z prywatnością, napisz e-mail info@starlightvisualstudio.de."
+      }
+    }
+  },
+  "imprintPage": {
+    "metaTitle": "Odcisk | OCHRONA PRAWNA0",
+    "metaDescription": "Informacje biznesowe i kontaktowe operatora serwisu Starlights Visuals.",
+    "label": "Nota prawna",
+    "title": "ODCISK",
+    "subtitle": "Informacje biznesowe i kontaktowe dotyczące tej witryny.",
+    "sections": {
+      "operator": {
+        "title": "Operator strony internetowej",
+        "body": "OCHRONA PRAWNA0\nStudio animacji kreatywnej i efektów specjalnych\nStany Zjednoczone\nPierwsze zdalne studio obsługujące klientów na arenie międzynarodowej"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "E-mail: info@starlightvisualstudio.de\nW przypadku zapytań dotyczących projektów, informacji prawnych lub próśb o prywatność prosimy o kontakt e-mailem."
+      },
+      "responsibility": {
+        "title": "Odpowiedzialność za treść",
+        "body": "Dokładamy wszelkich starań, aby informacje zawarte na tej stronie były dokładne i aktualne. Nie gwarantujemy jednak, że cała zawartość jest kompletna, wolna od błędów i stale dostępna. Treść witryny ma charakter ogólny i nie stanowi porady prawnej, finansowej ani innej profesjonalnej porady."
+      },
+      "links": {
+        "title": "Linki zewnętrzne",
+        "body": "Niniejsza witryna internetowa może zawierać łącza do witryn lub platform stron trzecich. Nie kontrolujemy ich treści, dostępności ani praktyk dotyczących prywatności i nie ponosimy za nie odpowiedzialności. Operator każdej połączonej usługi jest odpowiedzialny za własną treść."
+      },
+      "copyright": {
+        "title": "Prawo autorskie",
+        "body": "O ile nie zaznaczono inaczej, tekst, projekt, animacja, grafika, wideo i inna oryginalna zawartość tej witryny są własnością Starlights Visuals lub są wykorzystywane za zgodą. Powielanie, dystrybucja lub wykorzystanie komercyjne wymaga uprzedniej pisemnej zgody, chyba że obowiązujące prawo stanowi inaczej."
+      }
     }
   }
 }

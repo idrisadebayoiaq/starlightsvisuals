@@ -56,7 +56,10 @@
     "subscribeError": "Kunne ikke abonnere akkurat nå. Vennligst prøv igjen eller send oss ​​en e-post direkte.",
     "adminLogin": "Admin",
     "emailRequired": "Vennligst skriv inn e-postadressen din.",
-    "emailInvalid": "Vennligst skriv inn en gyldig e-postadresse."
+    "emailInvalid": "Vennligst skriv inn en gyldig e-postadresse.",
+    "privacy": "Personvernerklæring",
+    "euGdpr": "EU GDPR",
+    "imprint": "Avtrykk"
   },
   "home": {
     "metaTitle": "Starlights Visuals | Animasjon og VFX Studio",
@@ -1676,6 +1679,149 @@
       "message": "Beskjed",
       "send": "Send e-post",
       "sending": "Sender …"
+    }
+  },
+  "privacyPage": {
+    "metaTitle": "Personvernerklæring | JURIDISK BESKYTTET0",
+    "metaDescription": "Finn ut hvilken informasjon Starlights Visuals samler inn, hvorfor den brukes og hvordan den er beskyttet.",
+    "label": "Ditt personvern",
+    "title": "PERSONVERN",
+    "subtitle": "Hvordan vårt USA-baserte studio håndterer informasjon fra kunder og besøkende over hele verden.",
+    "updated": "Sist oppdatert: 2026",
+    "summary": "Vi betjener kunder over hele verden, med et viktig fokus på Europa og Tyskland. Vi selger, leier eller bytter ikke med personlig informasjon, og vi deler aldri en klients informasjon med en annen klient i USA, Tyskland, Europa eller andre steder.",
+    "sections": {
+      "information": {
+        "title": "Informasjon vi samler inn",
+        "body": "Vi samler kun inn informasjon du frivillig sender inn. En prosjektforespørsel kan inneholde navn, e-postadresse, valgt tjeneste og melding. Påmelding til nyhetsbrev inkluderer e-postadressen din. En innsendt anmeldelse kan inneholde navn, e-postadresse, rolle, selskap, vurdering, overskrift og anmeldelsestekst.\n\nVåre verts- og tjenesteleverandører kan også behandle grunnleggende tekniske data, som IP-adresse, nettlesertype, enhetsinformasjon, forespørselstid og feillogger, for å drive og sikre nettstedet."
+      },
+      "use": {
+        "title": "Hvordan vi bruker informasjon",
+        "body": "Vi bruker innsendt informasjon til å besvare forespørsler, forberede eller tilby forespurte kreative tjenester, sende transaksjonssvar, administrere nyhetsbrevkommunikasjon, gjennomgå og publisere attester med godkjenning, opprettholde nettstedssikkerhet, forhindre misbruk og overholde gjeldende lov.\n\nVi bruker ikke klientprosjektdetaljer eller personlig informasjon til urelaterte formål."
+      },
+      "sharing": {
+        "title": "Når informasjon deles",
+        "body": "Vi selger eller leier ikke ut personlig informasjon og avslører ikke en klients informasjon til klienter i et annet land. Tilgangen er begrenset til Starlights Visuals og tjenesteleverandører som trenger informasjonen for å betjene nettstedet, kommunisere med deg eller levere etterspurt arbeid. Nåværende leverandører inkluderer Supabase for databasetjenester, Resend for e-postlevering og vår vertsleverandør for nettsider. Vi kan også avsløre informasjon når det er lovpålagt eller nødvendig for å beskytte juridiske rettigheter og nettstedsikkerhet."
+      },
+      "international": {
+        "title": "Globale kunder og internasjonale overføringer",
+        "body": "Starlights Visuals opererer fra USA og jobber med mennesker over hele verden, spesielt i Europa og Tyskland. Kundeinformasjon i USA deles ikke med tyske eller europeiske kunder, og tysk eller europeisk kundeinformasjon deles ikke med kunder i USA.\n\nDenne klientseparasjonen betyr ikke at data alltid forblir i ett land. Vårt autoriserte team og skyleverandører kan behandle informasjon i USA, Det europeiske økonomiske samarbeidsområdet, Tyskland eller andre steder der de opererer. Når europeiske personopplysninger overføres utenfor det europeiske økonomiske samarbeidsområdet, bruker vi en gjeldende juridisk overføringsmekanisme der det er nødvendig, for eksempel en tilstrekkelighetsbeslutning, EUs standardkontraktsklausuler eller en annen beskyttelse som er anerkjent av loven. Se vår EU GDPR-melding for ytterligere detaljer."
+      },
+      "storage": {
+        "title": "Informasjonskapsler og lokal lagring",
+        "body": "Denne nettsiden bruker for øyeblikket ikke reklameinformasjonskapsler eller tredjepartsanalyser. Den bruker lokal lagring i nettleseren for å huske språkvalg, oversettelsespreferanse og temapreferanse. Denne informasjonen forblir på enheten din med mindre nettleseren din sletter den. Viktig tjenesteinfrastruktur kan bruke teknisk lagring eller logger som er nødvendige for sikkerhet og drift."
+      },
+      "retention": {
+        "title": "Hvor lenge vi beholder informasjon",
+        "body": "Vi oppbevarer forespørsler og prosjektinformasjon bare så lenge det er rimelig nødvendig for å svare, yte tjenester, vedlikeholde forretningsregistre, løse tvister og oppfylle juridiske forpliktelser. Nyhetsbrevinformasjon oppbevares til du melder deg av eller ber oss om å slette den. Anmeldelsesinformasjon oppbevares mens anmeldelsen venter eller publiseres, med mindre fjerning er forespurt eller oppbevaring er lovpålagt."
+      },
+      "rights": {
+        "title": "Dine valg og personvernrettigheter",
+        "body": "Vi jobber med mennesker over hele verden. Uansett hvor du bor, kan du be om å få tilgang til, korrigere eller slette personlig informasjon vi har om deg, eller protestere mot visse bruksområder. Du kan melde deg av markedsførings-e-poster når som helst ved å kontakte oss eller bruke et avmeldingsalternativ når det er gitt. Ytterligere rettigheter kan gjelde under personvernlovene i ditt land eller din region. Personer i Det europeiske økonomiske samarbeidsområdet, Tyskland og Storbritannia kan også ha rettighetene beskrevet i vår EU GDPR-erklæring. Vi verifiserer og svarer på forespørsler som kreves av gjeldende lov og diskriminerer ikke noen for å utøve personvernrettigheter."
+      },
+      "children": {
+        "title": "Barns privatliv",
+        "body": "Denne nettsiden og våre tjenester er ikke rettet mot barn under 13 år, og vi samler ikke bevisst inn personopplysninger fra barn under 13. Hvis du mener at et barn har gitt informasjon, kontakt oss slik at vi kan slette den."
+      },
+      "security": {
+        "title": "Sikkerhet og internasjonal behandling",
+        "body": "Vi bruker rimelige administrative og tekniske sikkerhetstiltak utformet for å beskytte innsendt informasjon, inkludert å begrense tilgangen til personer og leverandører som trenger det for et uttalt formål. Ingen internettoverføring eller lagringssystem kan garanteres helt sikkert."
+      },
+      "changes": {
+        "title": "Endringer i denne policyen",
+        "body": "Vi kan oppdatere denne policyen når våre tjenester, leverandører eller juridiske forpliktelser endres. Den oppdaterte versjonen vil vises på denne siden med en revidert dato."
+      },
+      "contact": {
+        "title": "Kontakt oss",
+        "body": "For spørsmål eller forespørsler om personvern, send e-post til info@starlightvisualstudio.de. Vennligst beskriv forespørselen din og e-postadressen knyttet til informasjonen slik at vi kan svare."
+      }
+    }
+  },
+  "euGdprPage": {
+    "metaTitle": "EU GDPR-varsel | JURIDISK BESKYTTET0",
+    "metaDescription": "GDPR-informasjon for personer i Det europeiske økonomiske samarbeidsområdet og Tyskland som samhandler med Starlights Visuals.",
+    "label": "Europeisk databeskyttelse",
+    "title": "EU GDPR MERKNAD",
+    "subtitle": "Informasjon for personer i Det europeiske økonomiske samarbeidsområdet og Tyskland.",
+    "updated": "Sist oppdatert: 2026",
+    "summary": "Starlights Visuals er basert i USA og betjener kunder over hele verden, spesielt i Europa og Tyskland. Denne merknaden supplerer vår personvernerklæring og forklarer hvordan vi håndterer personopplysninger som dekkes av EUs generelle databeskyttelsesforordning.",
+    "sections": {
+      "scope": {
+        "title": "Omfang",
+        "body": "Denne merknaden gjelder når EU GDPR dekker vår behandling av personopplysninger, inkludert når en person i det europeiske økonomiske samarbeidsområdet besøker nettstedet vårt, kontakter oss om tjenester, blir med i vårt nyhetsbrev, sender inn en anmeldelse eller jobber med oss ​​på et prosjekt. Den bør leses sammen med vår generelle personvernerklæring."
+      },
+      "controller": {
+        "title": "Behandlingsansvarlig",
+        "body": "JURIDISK BESKYTTET0\nUSA\nE-post: info@starlightvisualstudio.de\n\nStarlights Visuals bestemmer hvorfor og hvordan personopplysninger som sendes inn via denne nettsiden behandles. Forespørsler om personvern og GDPR kan sendes til e-postadressen ovenfor."
+      },
+      "data": {
+        "title": "Personopplysninger vi behandler",
+        "body": "Avhengig av interaksjonen din, kan vi behandle navn, e-postadresse, firma, rolle, prosjekttype, prosjektmelding, nyhetsbrevpreferanse, vurderingsinnhold og vurdering, korrespondanse og grunnleggende tekniske data som IP-adresse, nettleserdetaljer, enhetsinformasjon, tidsstempler og sikkerhetslogger. Vi ber deg om ikke å sende sensitive personopplysninger med mindre det er nødvendig og spesifikt etterspurt."
+      },
+      "purposes": {
+        "title": "Formål med behandlingen",
+        "body": "Vi behandler personopplysninger for å svare på forespørsler, ta skritt mot eller utføre en kontrakt, levere kreative tjenester, administrere kundekommunikasjon, sende forespurte nyhetsbrevmeldinger, gjennomgå og publisere attester med godkjenning, sikre og vedlikeholde nettstedet, forhindre misbruk, føre nødvendige forretningsdokumenter, etablere eller forsvare juridiske krav og overholde lover."
+      },
+      "legalBases": {
+        "title": "Rettsgrunnlag",
+        "body": "Avhengig av aktiviteten, stoler vi på ett eller flere juridiske grunnlag i henhold til artikkel 6 i GDPR: trinn som kreves før inngåelse av en kontrakt eller utførelsen av en kontrakt; samtykke til valgfri markedsføring og enhver aktivitet som krever samtykke; våre legitime interesser i å svare på forretningshenvendelser, drifte og sikre tjenestene våre og administrere kundeforhold, der disse interessene ikke overstyres av dine rettigheter; og overholdelse av juridiske forpliktelser. Du kan trekke tilbake samtykket når som helst uten å påvirke tidligere lovlig behandling."
+      },
+      "recipients": {
+        "title": "Mottakere og klientseparasjon",
+        "body": "Vi selger ikke personopplysninger. Vi deler ikke en amerikansk klients informasjon med klienter i Tyskland eller Europa, og vi deler ikke en tysk eller europeisk klients informasjon med klienter i USA. Personopplysninger er kun tilgjengelig for autorisert Starlights Visuals-personell og leverandører som trenger dem for et uttalt formål, inkludert Supabase for databasetjenester, Resend for e-postlevering og vår vertsleverandør for nettstedet. Leverandører forventes å behandle data kun under passende instruksjoner og sikkerhetstiltak."
+      },
+      "transfers": {
+        "title": "Overføringer utenfor Europa",
+        "body": "Fordi Starlights Visuals er basert i USA og bruker internasjonale skytjenester, kan europeiske personopplysninger overføres til eller få tilgang til fra land utenfor det europeiske økonomiske samarbeidsområdet, inkludert USA. Klientseparasjon forhindrer ikke disse nødvendige tjenesteoverføringene. Der GDPR krever en overføringsbeskyttelse, stoler vi på en gjeldende avgjørelse om tilstrekkelighet, EUs standardkontraktsklausuler, EUs USAs datavernramme for en deltakende leverandør eller en annen lovlig mekanisme. Du kan kontakte oss for informasjon om beskyttelsen som er relevant for dine data."
+      },
+      "retention": {
+        "title": "Bevaring",
+        "body": "Vi oppbevarer personopplysninger bare så lenge det er rimelig nødvendig for formålet som samles inn, inkludert å svare på forespørsler, utføre tjenester, vedlikeholde forretnings- og skatteregister, løse tvister og oppfylle juridiske forpliktelser. Nyhetsbrevdata oppbevares til du melder deg av eller ber om sletting. Gjennomgangsdata oppbevares mens de venter eller publiseres med mindre fjerning blir bedt om eller oppbevaring er lovpålagt."
+      },
+      "rights": {
+        "title": "Dine GDPR-rettigheter",
+        "body": "Med forbehold om juridiske betingelser og unntak, kan du be om tilgang til dine personopplysninger, retting, sletting, begrensning av behandling, dataportabilitet eller innvendinger mot behandling basert på legitime interesser eller direkte markedsføring. Du kan trekke tilbake samtykket når som helst. For å utøve en rett, send e-post til info@starlightvisualstudio.de. Vi kan be om informasjon som er nødvendig for å bekrefte identiteten din, og vil svare innen lovens krav."
+      },
+      "complaints": {
+        "title": "Rett til å klage",
+        "body": "Du kan sende inn en klage til en tilsynsmyndighet for databeskyttelse, spesielt i EU-medlemsstaten der du bor, jobber eller tror at en overtredelse har skjedd. Folk i Tyskland kan kontakte den kompetente tyske forbundsstatens databeskyttelsesmyndighet."
+      },
+      "decisions": {
+        "title": "Automatiserte beslutninger og nødvendige data",
+        "body": "Vi bruker ikke innsendte personopplysninger utelukkende til automatiserte avgjørelser som gir juridiske eller lignende betydelige virkninger. Felter merket som påkrevd er nødvendig for å svare på en forespørsel eller gi den forespurte funksjonen. Hvis nødvendig informasjon ikke er gitt, kan det hende vi ikke kan svare eller levere den funksjonen."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "For GDPR-spørsmål, rettighetsforespørsler, overføring av beskyttelsesinformasjon eller personvernproblemer, send e-post til info@starlightvisualstudio.de."
+      }
+    }
+  },
+  "imprintPage": {
+    "metaTitle": "Avtrykk | JURIDISK BESKYTTET0",
+    "metaDescription": "Forretnings- og kontaktinformasjon for operatøren av nettstedet Starlights Visuals.",
+    "label": "Juridisk varsel",
+    "title": "AVTRYKK",
+    "subtitle": "Bedrifts- og kontaktinformasjon for denne nettsiden.",
+    "sections": {
+      "operator": {
+        "title": "Nettstedsoperatør",
+        "body": "JURIDISK BESKYTTET0\nKreativ animasjon og VFX-studio\nUSA\nEksternt første studio som betjener kunder internasjonalt"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "E-post: info@starlightvisualstudio.de\nFor prosjekthenvendelser, juridiske merknader eller personvernforespørsler, vennligst kontakt oss på e-post."
+      },
+      "responsibility": {
+        "title": "Ansvar for innhold",
+        "body": "Vi gjør rimelige anstrengelser for å holde informasjonen på denne nettsiden nøyaktig og oppdatert. Vi garanterer imidlertid ikke at alt innhold er fullstendig, feilfritt eller kontinuerlig tilgjengelig. Nettstedets innhold er gitt for generell informasjon og utgjør ikke juridisk, økonomisk eller annen profesjonell rådgivning."
+      },
+      "links": {
+        "title": "Eksterne lenker",
+        "body": "Denne nettsiden kan lenke til tredjeparts nettsteder eller plattformer. Vi kontrollerer ikke innholdet, tilgjengeligheten eller personvernpraksisen deres og er ikke ansvarlige for dem. Operatøren av hver tilknyttede tjeneste er ansvarlig for sitt eget innhold."
+      },
+      "copyright": {
+        "title": "Opphavsrett",
+        "body": "Med mindre annet er oppgitt, eies teksten, designen, animasjonen, kunstverkene, videoen og annet originalt innhold på denne nettsiden av Starlights Visuals eller brukes med tillatelse. Reproduksjon, distribusjon eller kommersiell bruk krever skriftlig forhåndstillatelse, med mindre gjeldende lov tillater noe annet."
+      }
     }
   }
 }
