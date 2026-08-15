@@ -1700,7 +1700,7 @@
       },
       "sharing": {
         "title": "När information delas",
-        "body": "Vi säljer eller hyr inte ut personlig information och lämnar inte ut en kunds information till kunder i ett annat land. Åtkomsten är begränsad till Starlights Visuals och tjänsteleverantörer som behöver informationen för att driva webbplatsen, kommunicera med dig eller leverera efterfrågat arbete. Nuvarande leverantörer inkluderar Supabase för databastjänster, Resend för e-postleverans och vår webbhotellleverantör. Vi kan också avslöja information när det krävs enligt lag eller är nödvändigt för att skydda juridiska rättigheter och webbplatsens säkerhet."
+        "body": "Vi säljer eller hyr inte ut personlig information och lämnar inte ut en kunds information till kunder i ett annat land. Åtkomsten är begränsad till Starlights Visuals och tjänsteleverantörer som behöver informationen för att driva webbplatsen, kommunicera med dig eller leverera efterfrågat arbete. Nuvarande leverantörer inkluderar Supabase för databastjänster, Resend för e-postleverans och vår webbhotellleverantör. Alla avslöjande som krävs enligt lag hanteras enligt standarderna för begäran från myndigheter och myndigheter nedan."
       },
       "international": {
         "title": "Globala kunder och internationella överföringar",
@@ -1733,6 +1733,10 @@
       "contact": {
         "title": "Kontakta oss",
         "body": "För sekretessfrågor eller förfrågningar, maila info@starlightvisualstudio.de. Beskriv din förfrågan och e-postadressen som är kopplad till informationen så att vi kan svara."
+      },
+      "governmentRequests": {
+        "title": "Regeringens och myndighetens önskemål",
+        "body": "Vi delar inte frivilligt kundinformation i USA med tyska eller andra europeiska myndigheter, och vi delar inte frivilligt tysk eller europeisk kundinformation med amerikanska myndigheter. Om en regering, tillsynsmyndighet, domstol eller brottsbekämpande organ begär personlig information, avslöjar vi den endast när vi rimligen tror att begäran är giltig, juridiskt bindande, inom det begärande organets lagliga befogenhet och tillämplig på oss.\n\nDär det är lagligt tillåtet och rimligen praktiskt, granskar vi begäran, ifrågasätter förfrågningar som verkar olagliga eller överdrivna, avslöjar endast den minsta information som krävs enligt lag och meddelar den berörda personen innan avslöjandet. Vi kan enligt lag vara förbjudna att lämna meddelande. Ingenting i denna policy hindrar ett avslöjande som är nödvändigt för att skydda en person från allvarlig skada eller för att fastställa, utöva eller försvara rättsliga anspråk."
       }
     }
   },
@@ -1792,6 +1796,10 @@
       "contact": {
         "title": "Kontakta",
         "body": "För GDPR-frågor, rättighetsförfrågningar, överföringsskyddsinformation eller integritetsproblem, maila info@starlightvisualstudio.de."
+      },
+      "governmentRequests": {
+        "title": "Tillträde till myndigheter och myndigheter",
+        "body": "Vi tillhandahåller inte frivilligt europeiska eller tyska kunddata till myndigheter i USA, och vi tillhandahåller inte frivilligt amerikanska kunddata till tyska eller andra europeiska myndigheter. En gränsöverskridande myndighetsbegäran får inte automatisk tillgång till personuppgifter.\n\nInnan vi svarar bedömer vi rimligen om begäran är giltig, juridiskt bindande, proportionerlig, inom myndighetens jurisdiktion och tillämplig på oss. Där det är lagligt tillåtet och rimligen praktiskt, ifrågasätter vi olagliga eller överdrivna förfrågningar, avslöjar endast den minsta information som krävs enligt lag, dokumenterar begäran och svaret och underrättar den drabbade personen. Meddelandet kan vara försenat eller förbjudet enligt lag. Dessa rutiner kompletterar, men ersätter inte, eventuella överföringsskydd som krävs enligt GDPR."
       }
     }
   },

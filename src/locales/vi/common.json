@@ -1700,7 +1700,7 @@
       },
       "sharing": {
         "title": "Khi thông tin được chia sẻ",
-        "body": "Chúng tôi không bán hoặc cho thuê thông tin cá nhân và không tiết lộ thông tin của khách hàng cho khách hàng ở quốc gia khác. Quyền truy cập được giới hạn ở Starlights Visuals và các nhà cung cấp dịch vụ cần thông tin để vận hành trang web, liên lạc với bạn hoặc thực hiện công việc được yêu cầu. Các nhà cung cấp hiện tại bao gồm Supabase cho các dịch vụ cơ sở dữ liệu, Resend cho việc gửi email và nhà cung cấp dịch vụ lưu trữ trang web của chúng tôi. Chúng tôi cũng có thể tiết lộ thông tin khi pháp luật yêu cầu hoặc cần thiết để bảo vệ quyền lợi hợp pháp và bảo mật trang web."
+        "body": "Chúng tôi không bán hoặc cho thuê thông tin cá nhân và không tiết lộ thông tin của khách hàng cho khách hàng ở quốc gia khác. Quyền truy cập được giới hạn ở Starlights Visuals và các nhà cung cấp dịch vụ cần thông tin để vận hành trang web, liên lạc với bạn hoặc thực hiện công việc được yêu cầu. Các nhà cung cấp hiện tại bao gồm Supabase cho dịch vụ cơ sở dữ liệu, Resend cho gửi email và nhà cung cấp dịch vụ lưu trữ trang web của chúng tôi. Bất kỳ việc tiết lộ nào theo yêu cầu của pháp luật đều được xử lý theo các tiêu chuẩn yêu cầu của chính phủ và cơ quan có thẩm quyền dưới đây."
       },
       "international": {
         "title": "Khách hàng trên toàn thế giới và chuyển khoản quốc tế",
@@ -1733,6 +1733,10 @@
       "contact": {
         "title": "Liên hệ với chúng tôi",
         "body": "Đối với các câu hỏi hoặc yêu cầu về quyền riêng tư, hãy gửi email đến info@starlightvisualstudio.de. Vui lòng mô tả yêu cầu của bạn và địa chỉ email được kết nối với thông tin để chúng tôi có thể phản hồi."
+      },
+      "governmentRequests": {
+        "title": "Yêu cầu của chính phủ và cơ quan có thẩm quyền",
+        "body": "Chúng tôi không tự nguyện chia sẻ thông tin khách hàng Hoa Kỳ với các cơ quan có thẩm quyền của Đức hoặc Châu Âu khác và chúng tôi không tự nguyện chia sẻ thông tin khách hàng Đức hoặc Châu Âu với các cơ quan có thẩm quyền của Hoa Kỳ. Nếu chính phủ, cơ quan quản lý, tòa án hoặc cơ quan thực thi pháp luật yêu cầu thông tin cá nhân, chúng tôi chỉ tiết lộ thông tin đó khi chúng tôi có lý do hợp lý để tin rằng yêu cầu đó là hợp lệ, ràng buộc về mặt pháp lý, trong thẩm quyền hợp pháp của cơ quan yêu cầu và áp dụng cho chúng tôi.\n\nKhi được pháp luật cho phép và thực tế một cách hợp lý, chúng tôi sẽ xem xét yêu cầu, phản đối các yêu cầu có vẻ trái pháp luật hoặc quá mức, chỉ tiết lộ thông tin tối thiểu được yêu cầu về mặt pháp lý và thông báo cho người bị ảnh hưởng trước khi tiết lộ. Chúng tôi có thể bị pháp luật cấm cung cấp thông báo. Không có nội dung nào trong chính sách này ngăn cản việc tiết lộ thông tin cần thiết để bảo vệ một người khỏi bị tổn hại nghiêm trọng hoặc để thiết lập, thực hiện hoặc bảo vệ các khiếu nại pháp lý."
       }
     }
   },
@@ -1792,6 +1796,10 @@
       "contact": {
         "title": "Liên hệ",
         "body": "Đối với các câu hỏi về GDPR, yêu cầu về quyền, chuyển thông tin về biện pháp bảo vệ hoặc các mối quan ngại về quyền riêng tư, hãy gửi email đến info@starlightvisualstudio.de."
+      },
+      "governmentRequests": {
+        "title": "Quyền truy cập của chính phủ và cơ quan có thẩm quyền",
+        "body": "Chúng tôi không tự nguyện cung cấp dữ liệu khách hàng Châu Âu hoặc Đức cho các cơ quan có thẩm quyền của Hoa Kỳ và chúng tôi không tự nguyện cung cấp dữ liệu khách hàng Hoa Kỳ cho các cơ quan có thẩm quyền của Đức hoặc Châu Âu khác. Yêu cầu của cơ quan có thẩm quyền xuyên biên giới không nhận được quyền truy cập tự động vào dữ liệu cá nhân.\n\nTrước khi phản hồi, chúng tôi đánh giá một cách hợp lý xem yêu cầu đó có hợp lệ, ràng buộc về mặt pháp lý, phù hợp, trong phạm vi quyền hạn của cơ quan có thẩm quyền và có thể áp dụng cho chúng tôi hay không. Khi được pháp luật cho phép và thực tế hợp lý, chúng tôi sẽ phản đối các yêu cầu trái pháp luật hoặc quá mức, chỉ tiết lộ thông tin tối thiểu được yêu cầu về mặt pháp lý, ghi lại yêu cầu và phản hồi cũng như thông báo cho người bị ảnh hưởng. Thông báo có thể bị trì hoãn hoặc bị pháp luật cấm. Những biện pháp này bổ sung nhưng không thay thế bất kỳ biện pháp bảo vệ chuyển giao nào theo yêu cầu của GDPR."
       }
     }
   },

@@ -1700,7 +1700,7 @@
       },
       "sharing": {
         "title": "Při sdílení informací",
-        "body": "Neprodáváme ani nepronajímáme osobní údaje a nezveřejňujeme informace o klientovi klientům v jiné zemi. Přístup je omezen na Starlights Visuals a poskytovatele služeb, kteří potřebují informace k provozování webových stránek, komunikaci s vámi nebo poskytování požadované práce. Mezi současné poskytovatele patří Supabase pro databázové služby, Resend pro doručování e-mailů a náš poskytovatel hostingu webových stránek. Můžeme také zveřejnit informace, pokud to vyžaduje zákon nebo je to nutné k ochraně zákonných práv a bezpečnosti webových stránek."
+        "body": "Neprodáváme ani nepronajímáme osobní údaje a nezveřejňujeme informace o klientovi klientům v jiné zemi. Přístup je omezen na Starlights Visuals a poskytovatele služeb, kteří potřebují informace k provozování webových stránek, komunikaci s vámi nebo poskytování požadované práce. Mezi současné poskytovatele patří Supabase pro databázové služby, Resend pro doručování e-mailů a náš poskytovatel hostingu webových stránek. Jakékoli zveřejnění vyžadované zákonem se řídí níže uvedenými standardy žádostí vlády a úřadů."
       },
       "international": {
         "title": "Celosvětová klientela a mezinárodní převody",
@@ -1733,6 +1733,10 @@
       "contact": {
         "title": "Kontaktujte nás",
         "body": "V případě dotazů nebo požadavků na ochranu osobních údajů zašlete e-mail na info@starlightvisualstudio.de. Popište prosím svůj požadavek a e-mailovou adresu spojenou s informacemi, abychom vám mohli odpovědět."
+      },
+      "governmentRequests": {
+        "title": "Žádosti vlády a úřadů",
+        "body": "Informace o klientech z USA dobrovolně nesdílíme s německými nebo jinými evropskými úřady a dobrovolně nesdílíme německé nebo evropské klientské informace s úřady Spojených států. Pokud vláda, regulační orgán, soud nebo orgán činný v trestním řízení požaduje osobní údaje, zpřístupníme je pouze tehdy, pokud se důvodně domníváme, že je žádost platná, právně závazná, v rámci zákonné pravomoci žádajícího orgánu a vztahuje se na nás.\n\nTam, kde je to zákonem povolené a přiměřeně praktické, žádost posoudíme, napadneme žádosti, které se zdají být nezákonné nebo nepřiměřené, zpřístupníme pouze minimální zákonem požadované informace a před zveřejněním informujeme dotčenou osobu. Může nám být zákonem zakázáno poskytovat upozornění. Nic v těchto zásadách nebrání zveřejnění nezbytnému k ochraně osoby před vážnou újmou nebo ke stanovení, uplatnění nebo obhajobě právních nároků."
       }
     }
   },
@@ -1792,6 +1796,10 @@
       "contact": {
         "title": "Kontakt",
         "body": "V případě otázek týkajících se GDPR, žádostí o práva, informací o zabezpečení přenosu nebo problémů s ochranou soukromí zašlete e-mail info@starlightvisualstudio.de."
+      },
+      "governmentRequests": {
+        "title": "Přístup vlády a úřadů",
+        "body": "Neposkytujeme dobrovolně evropské nebo německé klientské údaje úřadům Spojených států a dobrovolně neposkytujeme údaje amerických klientů německým nebo jiným evropským úřadům. Žádost přeshraničních orgánů nezíská automatický přístup k osobním údajům.\n\nNež odpovíme, přiměřeně posoudíme, zda je žádost platná, právně závazná, přiměřená, v rámci jurisdikce úřadu a zda se na nás vztahuje. Tam, kde je to zákonem povoleno a přiměřeně praktické, napadáme nezákonné nebo nepřiměřené požadavky, zveřejňujeme pouze minimální zákonem požadované informace, dokumentujeme žádost a odpověď a informujeme dotčenou osobu. Oznámení může být zpožděno nebo zakázáno zákonem. Tyto postupy doplňují, ale nenahrazují žádné záruky přenosu požadované GDPR."
       }
     }
   },

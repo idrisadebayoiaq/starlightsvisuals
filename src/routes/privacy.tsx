@@ -10,6 +10,7 @@ const SECTION_IDS = [
   "use",
   "sharing",
   "international",
+  "governmentRequests",
   "storage",
   "retention",
   "rights",

@@ -1700,7 +1700,7 @@
       },
       "sharing": {
         "title": "Quando a informação é compartilhada",
-        "body": "Não vendemos nem alugamos informações pessoais e não divulgamos informações de clientes a clientes de outro país. O acesso é limitado a Starlights Visuals e prestadores de serviços que precisam das informações para operar o site, comunicar-se com você ou entregar o trabalho solicitado. Os provedores atuais incluem Supabase para serviços de banco de dados, Resend para entrega de e-mail e nosso provedor de hospedagem de sites. Também poderemos divulgar informações quando exigido por lei ou necessário para proteger os direitos legais e a segurança do site."
+        "body": "Não vendemos nem alugamos informações pessoais e não divulgamos informações de clientes a clientes de outro país. O acesso é limitado a Starlights Visuals e prestadores de serviços que precisam das informações para operar o site, comunicar-se com você ou entregar o trabalho solicitado. Os provedores atuais incluem Supabase para serviços de banco de dados, Resend para entrega de e-mail e nosso provedor de hospedagem de sites. Qualquer divulgação exigida por lei é tratada de acordo com os padrões de solicitação do governo e das autoridades abaixo."
       },
       "international": {
         "title": "Clientes mundiais e transferências internacionais",
@@ -1733,6 +1733,10 @@
       "contact": {
         "title": "Contate-nos",
         "body": "Para dúvidas ou solicitações de privacidade, envie um e-mail para info@starlightvisualstudio.de. Por favor, descreva sua solicitação e o endereço de e-mail conectado às informações para que possamos responder."
+      },
+      "governmentRequests": {
+        "title": "Solicitações do governo e das autoridades",
+        "body": "Não partilhamos voluntariamente informações de clientes dos Estados Unidos com autoridades alemãs ou outras autoridades europeias, e não partilhamos voluntariamente informações de clientes alemães ou europeus com autoridades dos Estados Unidos. Se um governo, regulador, tribunal ou órgão de aplicação da lei solicitar informações pessoais, nós as divulgaremos somente quando acreditarmos razoavelmente que a solicitação é válida, juridicamente vinculativa, dentro da autoridade legal do órgão solicitante e aplicável a nós.\n\nSempre que for legalmente permitido e razoavelmente prático, analisamos o pedido, contestamos os pedidos que pareçam ilegais ou excessivos, divulgamos apenas as informações mínimas legalmente exigidas e notificamos a pessoa afetada antes da divulgação. Podemos ser proibidos por lei de fornecer avisos. Nada nesta política impede a divulgação necessária para proteger uma pessoa de danos graves ou para estabelecer, exercer ou defender reivindicações legais."
       }
     }
   },
@@ -1792,6 +1796,10 @@
       "contact": {
         "title": "Contato",
         "body": "Para perguntas sobre GDPR, solicitações de direitos, transferência de informações de proteção ou questões de privacidade, envie um e-mail para info@starlightvisualstudio.de."
+      },
+      "governmentRequests": {
+        "title": "Acesso do governo e das autoridades",
+        "body": "Não fornecemos voluntariamente dados de clientes europeus ou alemães às autoridades dos Estados Unidos e não fornecemos voluntariamente dados de clientes dos Estados Unidos às autoridades alemãs ou outras autoridades europeias. Uma solicitação de autoridade transfronteiriça não recebe acesso automático aos dados pessoais.\n\nAntes de responder, avaliamos razoavelmente se a solicitação é válida, juridicamente vinculativa, proporcional, dentro da jurisdição da autoridade e aplicável a nós. Sempre que legalmente permitido e razoavelmente prático, contestamos pedidos ilegais ou excessivos, divulgamos apenas as informações mínimas legalmente exigidas, documentamos o pedido e a resposta e notificamos a pessoa afetada. A notificação pode ser atrasada ou proibida por lei. Estas práticas complementam, mas não substituem, quaisquer salvaguardas de transferência exigidas pelo GDPR."
       }
     }
   },

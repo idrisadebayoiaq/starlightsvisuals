@@ -1700,7 +1700,7 @@
       },
       "sharing": {
         "title": "Bilgi paylaşıldığında",
-        "body": "Kişisel bilgileri satmıyor veya kiralamıyoruz ve bir müşterinin bilgilerini başka bir ülkedeki müşterilere açıklamıyoruz. Erişim Starlights Visuals ve web sitesini işletmek, sizinle iletişim kurmak veya talep edilen işi sunmak için bilgiye ihtiyaç duyan hizmet sağlayıcılarla sınırlıdır. Mevcut sağlayıcılar arasında veritabanı hizmetleri için Supabase, e-posta dağıtımı için Resend ve web sitesi barındırma sağlayıcımız bulunmaktadır. Ayrıca yasaların gerektirdiği durumlarda veya yasal hakları ve web sitesi güvenliğini korumak için gerekli olduğunda bilgileri açıklayabiliriz."
+        "body": "Kişisel bilgileri satmıyor veya kiralamıyoruz ve bir müşterinin bilgilerini başka bir ülkedeki müşterilere açıklamıyoruz. Erişim, Starlights Visuals ve web sitesini işletmek, sizinle iletişim kurmak veya talep edilen işi sunmak için bilgiye ihtiyaç duyan hizmet sağlayıcılarla sınırlıdır. Mevcut sağlayıcılar arasında veritabanı hizmetleri için Supabase, e-posta dağıtımı için Resend ve web sitesi barındırma sağlayıcımız bulunmaktadır. Yasaların gerektirdiği her türlü açıklama, aşağıdaki hükümet ve otorite talep standartlarına göre gerçekleştirilir."
       },
       "international": {
         "title": "Dünya çapındaki müşteriler ve uluslararası transferler",
@@ -1733,6 +1733,10 @@
       "contact": {
         "title": "Bize Ulaşın",
         "body": "Gizlilikle ilgili sorularınız veya istekleriniz için info@starlightvisualstudio.de'e e-posta gönderin. Yanıt verebilmemiz için lütfen isteğinizi ve bilgilerin yer aldığı e-posta adresini açıklayın."
+      },
+      "governmentRequests": {
+        "title": "Hükümet ve otorite talepleri",
+        "body": "Amerika Birleşik Devletleri müşteri bilgilerini gönüllü olarak Alman veya diğer Avrupalı yetkililerle paylaşmıyoruz ve Alman veya Avrupalı müşteri bilgilerini ABD yetkilileriyle gönüllü olarak paylaşmıyoruz. Bir hükümet, düzenleyici kurum, mahkeme veya kolluk kuvvetinin kişisel bilgi talep etmesi halinde, bu bilgiyi yalnızca talebin geçerli, yasal olarak bağlayıcı, talepte bulunan kurumun yasal yetkisi dahilinde ve bizim için geçerli olduğuna makul ölçüde inandığımızda açıklarız.\n\nYasal olarak izin verildiği ve makul ölçüde uygulanabilir olduğu durumlarda, talebi inceler, yasa dışı veya aşırı görünen taleplere itiraz eder, yalnızca yasal olarak gereken minimum bilgileri açıklar ve etkilenen kişiyi açıklamadan önce bilgilendiririz. Kanunen bildirimde bulunmamız yasaklanmış olabilir. Bu politikadaki hiçbir şey, bir kişiyi ciddi zarardan korumak veya yasal hak taleplerini oluşturmak, uygulamak veya savunmak için gerekli olan açıklamayı engellemez."
       }
     }
   },
@@ -1792,6 +1796,10 @@
       "contact": {
         "title": "Temas etmek",
         "body": "GDPR soruları, hak talepleri, aktarım koruma bilgileri veya gizlilik endişeleri için info@starlightvisualstudio.de'e e-posta gönderin."
+      },
+      "governmentRequests": {
+        "title": "Hükümet ve otorite erişimi",
+        "body": "Avrupa veya Alman müşteri verilerini ABD yetkililerine gönüllü olarak vermiyoruz ve ABD müşteri verilerini Alman veya diğer Avrupa yetkililerine gönüllü olarak vermiyoruz. Sınır ötesi yetkilinin talebi, kişisel verilere otomatik erişim sağlamaz.\n\nYanıt vermeden önce talebin geçerli, yasal olarak bağlayıcı, orantılı, yetkili makamın yetki alanı dahilinde ve bizim için geçerli olup olmadığını makul bir şekilde değerlendiriyoruz. Yasal olarak izin verildiği ve makul ölçüde uygulanabilir olduğu durumlarda, yasa dışı veya aşırı taleplere karşı çıkıyoruz, yalnızca yasal olarak gerekli olan minimum bilgileri açıklıyoruz, talebi ve yanıtı belgeliyoruz ve etkilenen kişiyi bilgilendiriyoruz. Bildirim gecikebilir veya kanunen yasaklanabilir. Bu uygulamalar, GDPR'nin gerektirdiği transfer önlemlerini tamamlar ancak bunların yerine geçmez."
       }
     }
   },

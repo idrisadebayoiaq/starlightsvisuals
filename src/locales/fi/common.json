@@ -1700,7 +1700,7 @@
       },
       "sharing": {
         "title": "Kun tietoa jaetaan",
-        "body": "Emme myy tai vuokraa henkilötietoja emmekä luovuta asiakkaan tietoja toisessa maassa oleville asiakkaille. Pääsy on rajoitettu Starlights Visuals- ja palveluntarjoajiin, jotka tarvitsevat tietoja verkkosivuston käyttämiseen, kanssasi kommunikointiin tai pyydettyjen töiden toimittamiseen. Nykyisiä palveluntarjoajia ovat Supabase tietokantapalveluille, Resend sähköpostin toimittamiseen ja verkkosivustojen isännöintipalvelumme. Saatamme myös luovuttaa tietoja, kun laki vaatii tai se on tarpeen laillisten oikeuksien ja verkkosivuston turvallisuuden suojaamiseksi."
+        "body": "Emme myy tai vuokraa henkilötietoja emmekä luovuta asiakkaan tietoja toisessa maassa oleville asiakkaille. Pääsy on rajoitettu Starlights Visuals:iin ja palveluntarjoajiin, jotka tarvitsevat tietoja käyttääkseen verkkosivustoa, kommunikoidakseen kanssasi tai toimittaakseen pyydetyn työn. Nykyisiä palveluntarjoajia ovat Supabase tietokantapalveluihin, Resend sähköpostin toimittamiseen ja verkkosivustojen isännöintipalvelumme. Kaikki lain edellyttämät tiedot käsitellään alla olevien hallituksen ja viranomaisten pyyntöstandardien mukaisesti."
       },
       "international": {
         "title": "Maailmanlaajuiset asiakkaat ja kansainväliset siirrot",
@@ -1733,6 +1733,10 @@
       "contact": {
         "title": "Ota yhteyttä",
         "body": "Jos sinulla on tietosuojakysymyksiä tai pyyntöjä, lähetä sähköpostia info@starlightvisualstudio.de. Kuvaile pyyntösi ja tietoihin liittyvä sähköpostiosoite, jotta voimme vastata."
+      },
+      "governmentRequests": {
+        "title": "Hallituksen ja viranomaisten pyynnöt",
+        "body": "Emme jaa vapaaehtoisesti Yhdysvaltojen asiakastietoja Saksan tai muiden Euroopan viranomaisten kanssa, emmekä vapaaehtoisesti jaa Saksan tai Euroopan asiakastietoja Yhdysvaltojen viranomaisille. Jos hallitus, sääntelyviranomainen, tuomioistuin tai lainvalvontaelin pyytää henkilökohtaisia ​​tietoja, paljastamme ne vain, kun uskomme kohtuudella, että pyyntö on pätevä, oikeudellisesti sitova, pyynnön esittäneen elimen laillisten valtuuksien puitteissa ja sovellettavissa meihin.\n\nJos se on lain mukaan sallittua ja kohtuullisen käytännöllistä, tarkistamme pyynnön, kiistämme pyynnöt, jotka vaikuttavat laittomilta tai liiallisilta, paljastamme vain lakisääteiset vähimmäistiedot ja ilmoitamme asiasta henkilölle ennen paljastamista. Laki saattaa kieltää meidät antamasta ilmoitusta. Mikään tässä käytännössä ei estä paljastamasta, joka on tarpeen henkilön suojelemiseksi vakavalta vahingolta tai oikeudellisten vaatimusten esittämiseksi, esittämiseksi tai puolustamiseksi."
       }
     }
   },
@@ -1792,6 +1796,10 @@
       "contact": {
         "title": "Ota yhteyttä",
         "body": "Jos sinulla on GDPR-kysymyksiä, oikeuspyyntöjä, siirtoa koskevia suojatietoja tai yksityisyyttä koskevia huolenaiheita, lähetä sähköpostia info@starlightvisualstudio.de."
+      },
+      "governmentRequests": {
+        "title": "Hallituksen ja viranomaisten pääsy",
+        "body": "Emme luovuta vapaaehtoisesti eurooppalaisia tai saksalaisia asiakastietoja Yhdysvaltojen viranomaisille, emmekä vapaaehtoisesti luovuta Yhdysvaltojen asiakastietoja Saksan tai muille Euroopan viranomaisille. Rajat ylittävä viranomainenpyyntö ei saa automaattista pääsyä henkilötietoihin.\n\nEnnen vastaamista arvioimme kohtuudella, onko pyyntö pätevä, oikeudellisesti sitova, oikeasuhteinen, viranomaisen toimivaltaan kuuluva ja sovellettavissa meihin. Jos se on lain sallimaa ja kohtuullisen käytännöllistä, kiistämme laittomat tai liialliset pyynnöt, paljastamme vain lakisääteiset vähimmäistiedot, dokumentoimme pyynnön ja vastauksen ja ilmoitamme asiasta asianomaiselle henkilölle. Ilmoitus saattaa viivästyä tai olla lailla kielletty. Nämä käytännöt täydentävät, mutta eivät korvaa GDPR:n edellyttämiä siirtosuojatoimia."
       }
     }
   },

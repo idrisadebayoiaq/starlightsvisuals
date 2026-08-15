@@ -1479,11 +1479,15 @@
       },
       "sharing": {
         "title": "When information is shared",
-        "body": "We do not sell or rent personal information and do not disclose a client's information to clients in another country. Access is limited to Starlights Visuals and service providers that need the information to operate the website, communicate with you, or deliver requested work. Current providers include Supabase for database services, Resend for email delivery, and our website hosting provider. We may also disclose information when required by law or necessary to protect legal rights and website security."
+        "body": "We do not sell or rent personal information and do not disclose a client's information to clients in another country. Access is limited to Starlights Visuals and service providers that need the information to operate the website, communicate with you, or deliver requested work. Current providers include Supabase for database services, Resend for email delivery, and our website hosting provider. Any disclosure required by law is handled under the government and authority request standards below."
       },
       "international": {
         "title": "Worldwide clients and international transfers",
         "body": "Starlights Visuals operates from the United States and works with people worldwide, especially in Europe and Germany. United States client information is not shared with German or European clients, and German or European client information is not shared with United States clients.\n\nThis client separation does not mean data always remains inside one country. Our authorized team and cloud providers may process information in the United States, the European Economic Area, Germany, or other locations where they operate. When European personal data is transferred outside the European Economic Area, we use an applicable legal transfer mechanism where required, such as an adequacy decision, the EU Standard Contractual Clauses, or another safeguard recognized by law. See our EU GDPR Notice for additional details."
+      },
+      "governmentRequests": {
+        "title": "Government and authority requests",
+        "body": "We do not voluntarily share United States client information with German or other European authorities, and we do not voluntarily share German or European client information with United States authorities. If a government, regulator, court, or law enforcement body requests personal information, we disclose it only when we reasonably believe the request is valid, legally binding, within the requesting body's lawful authority, and applicable to us.\n\nWhere legally permitted and reasonably practical, we review the request, challenge requests that appear unlawful or excessive, disclose only the minimum information legally required, and notify the affected person before disclosure. We may be prohibited by law from providing notice. Nothing in this policy prevents a disclosure necessary to protect a person from serious harm or to establish, exercise, or defend legal claims."
       },
       "storage": {
         "title": "Cookies and local storage",
@@ -1551,6 +1555,10 @@
       "transfers": {
         "title": "Transfers outside Europe",
         "body": "Because Starlights Visuals is based in the United States and uses international cloud services, European personal data may be transferred to or accessed from countries outside the European Economic Area, including the United States. Client separation does not prevent these necessary service transfers. Where the GDPR requires a transfer safeguard, we rely on an applicable adequacy decision, the EU Standard Contractual Clauses, the EU United States Data Privacy Framework for a participating provider, or another lawful mechanism. You may contact us for information about the safeguard relevant to your data."
+      },
+      "governmentRequests": {
+        "title": "Government and authority access",
+        "body": "We do not voluntarily provide European or German client data to United States authorities, and we do not voluntarily provide United States client data to German or other European authorities. A cross border authority request does not receive automatic access to personal data.\n\nBefore responding, we reasonably assess whether the request is valid, legally binding, proportionate, within the authority's jurisdiction, and applicable to us. Where legally permitted and reasonably practical, we challenge unlawful or excessive requests, disclose only the minimum information legally required, document the request and response, and notify the affected person. Notice may be delayed or prohibited by law. These practices supplement, but do not replace, any transfer safeguards required by the GDPR."
       },
       "retention": {
         "title": "Retention",

@@ -1700,7 +1700,7 @@
       },
       "sharing": {
         "title": "Quando le informazioni vengono condivise",
-        "body": "Non vendiamo né affittiamo informazioni personali e non divulghiamo le informazioni di un cliente a clienti in un altro Paese. L'accesso è limitato a Starlights Visuals e ai fornitori di servizi che necessitano delle informazioni per gestire il sito Web, comunicare con te o fornire il lavoro richiesto. I fornitori attuali includono Supabase per i servizi di database, Resend per la consegna della posta elettronica e il nostro provider di hosting del sito web. Potremmo anche divulgare informazioni quando richiesto dalla legge o necessario per proteggere i diritti legali e la sicurezza del sito web."
+        "body": "Non vendiamo né affittiamo informazioni personali e non divulghiamo le informazioni di un cliente a clienti in un altro Paese. L'accesso è limitato a Starlights Visuals e ai fornitori di servizi che necessitano delle informazioni per gestire il sito Web, comunicare con te o fornire il lavoro richiesto. I fornitori attuali includono Supabase per i servizi di database, Resend per la consegna della posta elettronica e il nostro provider di hosting del sito web. Qualsiasi divulgazione richiesta dalla legge viene gestita in base agli standard richiesti dal governo e dalle autorità riportati di seguito."
       },
       "international": {
         "title": "Clienti in tutto il mondo e trasferimenti internazionali",
@@ -1733,6 +1733,10 @@
       "contact": {
         "title": "Contattaci",
         "body": "Per domande o richieste sulla privacy, inviare un'e-mail a info@starlightvisualstudio.de. Descrivi la tua richiesta e l'indirizzo email collegato alle informazioni in modo che possiamo rispondere."
+      },
+      "governmentRequests": {
+        "title": "Richieste del governo e delle autorità",
+        "body": "Non condividiamo volontariamente le informazioni sui clienti statunitensi con le autorità tedesche o altre autorità europee, e non condividiamo volontariamente le informazioni sui clienti tedeschi o europei con le autorità statunitensi. Se un governo, un regolatore, un tribunale o un organismo di polizia richiede informazioni personali, le divulghiamo solo quando riteniamo ragionevolmente che la richiesta sia valida, legalmente vincolante, nell'ambito della legittima autorità dell'organismo richiedente e applicabile a noi.\n\nLaddove consentito dalla legge e ragionevolmente pratico, esaminiamo la richiesta, contestiamo le richieste che appaiono illegali o eccessive, divulghiamo solo le informazioni minime richieste dalla legge e informiamo la persona interessata prima della divulgazione. La legge potrebbe vietarci di fornire notifiche. Niente in questa politica impedisce la divulgazione necessaria per proteggere una persona da danni gravi o per stabilire, esercitare o difendere rivendicazioni legali."
       }
     }
   },
@@ -1792,6 +1796,10 @@
       "contact": {
         "title": "Contatto",
         "body": "Per domande sul GDPR, richieste di diritti, informazioni di salvaguardia del trasferimento o problemi di privacy, inviare un'e-mail a info@starlightvisualstudio.de."
+      },
+      "governmentRequests": {
+        "title": "Accesso al governo e alle autorità",
+        "body": "Non forniamo volontariamente i dati dei clienti europei o tedeschi alle autorità degli Stati Uniti, né forniamo volontariamente i dati dei clienti statunitensi alle autorità tedesche o di altre autorità europee. Una richiesta dell'autorità transfrontaliera non riceve l'accesso automatico ai dati personali.\n\nPrima di rispondere, valutiamo ragionevolmente se la richiesta è valida, giuridicamente vincolante, proporzionata, rientrante nella giurisdizione dell'autorità e applicabile a noi. Laddove consentito dalla legge e ragionevolmente pratico, contestiamo richieste illegali o eccessive, divulghiamo solo le informazioni minime richieste dalla legge, documentiamo la richiesta e la risposta e informiamo la persona interessata. La notifica può essere ritardata o vietata dalla legge. Queste pratiche integrano, ma non sostituiscono, le garanzie di trasferimento richieste dal GDPR."
       }
     }
   },

@@ -1700,7 +1700,7 @@
       },
       "sharing": {
         "title": "Kiedy informacje są udostępniane",
-        "body": "Nie sprzedajemy ani nie wynajmujemy danych osobowych i nie ujawniamy danych klientów klientom w innym kraju. Dostęp jest ograniczony do Starlights Visuals i dostawców usług, którzy potrzebują informacji do obsługi witryny, komunikowania się z Tobą lub wykonywania żądanej pracy. Obecni dostawcy to Supabase do usług baz danych, Resend do dostarczania poczty e-mail oraz nasz dostawca hostingu witryn internetowych. Możemy również ujawnić informacje, jeśli jest to wymagane przez prawo lub jest to konieczne w celu ochrony praw i bezpieczeństwa strony internetowej."
+        "body": "Nie sprzedajemy ani nie wynajmujemy danych osobowych i nie ujawniamy danych klientów klientom w innym kraju. Dostęp jest ograniczony do Starlights Visuals i dostawców usług, którzy potrzebują informacji do obsługi witryny, komunikowania się z Tobą lub wykonywania żądanej pracy. Obecni dostawcy to Supabase do usług baz danych, Resend do dostarczania poczty e-mail oraz nasz dostawca hostingu witryn internetowych. Wszelkie ujawnienia wymagane przez prawo podlegają poniższym standardom dotyczącym żądań rządów i organów."
       },
       "international": {
         "title": "Klienci na całym świecie i przelewy międzynarodowe",
@@ -1733,6 +1733,10 @@
       "contact": {
         "title": "Skontaktuj się z nami",
         "body": "Jeśli masz pytania lub prośby dotyczące prywatności, wyślij e-mail na adres info@starlightvisualstudio.de. Proszę opisać swoją prośbę i adres e-mail powiązany z informacjami, abyśmy mogli odpowiedzieć."
+      },
+      "governmentRequests": {
+        "title": "Żądania rządu i władz",
+        "body": "Nie udostępniamy dobrowolnie informacji o klientach ze Stanów Zjednoczonych władzom niemieckim ani innym organom europejskim ani dobrowolnie nie udostępniamy informacji o klientach niemieckich ani europejskich władzom Stanów Zjednoczonych. Jeśli rząd, organ regulacyjny, sąd lub organ egzekwowania prawa zażąda danych osobowych, ujawniamy je tylko wtedy, gdy mamy uzasadnione przekonanie, że żądanie jest ważne, prawnie wiążące, w ramach prawnych uprawnień organu wzywającego i ma do nas zastosowanie.\n\nJeżeli jest to prawnie dozwolone i rozsądnie praktyczne, rozpatrujemy wniosek, kwestionujemy żądania, które wydają się niezgodne z prawem lub nadmierne, ujawniamy jedynie minimum informacji wymaganych prawnie i powiadamiamy osobę, której to dotyczy, przed ujawnieniem. Prawo może zabraniać nam wysyłania powiadomień. Żadne z postanowień niniejszej polityki nie uniemożliwia ujawnienia informacji niezbędnych do ochrony danej osoby przed poważną krzywdą lub do ustalenia, dochodzenia lub obrony roszczeń prawnych."
       }
     }
   },
@@ -1792,6 +1796,10 @@
       "contact": {
         "title": "Kontakt",
         "body": "W przypadku pytań związanych z RODO, wniosków o prawa, informacji o zabezpieczeniu transferu lub problemów związanych z prywatnością, napisz e-mail info@starlightvisualstudio.de."
+      },
+      "governmentRequests": {
+        "title": "Dostęp rządu i władz",
+        "body": "Nie przekazujemy dobrowolnie danych klientów z Europy ani Niemiec władzom Stanów Zjednoczonych ani dobrowolnie nie przekazujemy danych klientów ze Stanów Zjednoczonych władzom Niemiec ani innych krajów europejskich. Wniosek organu transgranicznego nie zapewnia automatycznego dostępu do danych osobowych.\n\nPrzed udzieleniem odpowiedzi rozsądnie oceniamy, czy wniosek jest ważny, prawnie wiążący, proporcjonalny, podlega jurysdykcji danego organu i ma do nas zastosowanie. Jeżeli jest to prawnie dozwolone i racjonalnie praktyczne, kwestionujemy żądania niezgodne z prawem lub nadmierne, ujawniamy jedynie minimalne informacje wymagane prawnie, dokumentujemy wniosek i odpowiedź oraz powiadamiamy osobę, której to dotyczy. Zawiadomienie może zostać opóźnione lub zabronione przez prawo. Praktyki te uzupełniają, ale nie zastępują, wszelkich zabezpieczeń transferu wymaganych przez RODO."
       }
     }
   },

@@ -1700,7 +1700,7 @@
       },
       "sharing": {
         "title": "Wanneer informatie wordt gedeeld",
-        "body": "Wij verkopen of verhuren geen persoonlijke informatie en maken de informatie van een klant niet bekend aan klanten in een ander land. De toegang is beperkt tot Starlights Visuals en dienstverleners die de informatie nodig hebben om de website te exploiteren, met u te communiceren of het gevraagde werk te leveren. Huidige providers zijn onder meer Supabase voor databasediensten, Resend voor e-mailbezorging en onze websitehostingprovider. We kunnen ook informatie openbaar maken wanneer dit wettelijk vereist is of noodzakelijk is om wettelijke rechten en websitebeveiliging te beschermen."
+        "body": "Wij verkopen of verhuren geen persoonlijke informatie en maken de informatie van een klant niet bekend aan klanten in een ander land. De toegang is beperkt tot Starlights Visuals en dienstverleners die de informatie nodig hebben om de website te beheren, met u te communiceren of het gevraagde werk te leveren. Huidige providers zijn onder meer Supabase voor databasediensten, Resend voor e-mailbezorging en onze websitehostingprovider. Elke door de wet vereiste openbaarmaking wordt afgehandeld volgens de onderstaande normen voor verzoeken van de overheid en autoriteiten."
       },
       "international": {
         "title": "Wereldwijde klanten en internationale overboekingen",
@@ -1733,6 +1733,10 @@
       "contact": {
         "title": "Neem contact met ons op",
         "body": "Voor privacyvragen of -verzoeken kunt u een e-mail sturen naar info@starlightvisualstudio.de. Beschrijf uw verzoek en het e-mailadres dat bij de informatie hoort, zodat we kunnen reageren."
+      },
+      "governmentRequests": {
+        "title": "Verzoeken van overheden en autoriteiten",
+        "body": "We delen niet vrijwillig klantinformatie uit de Verenigde Staten met Duitse of andere Europese autoriteiten, en we delen niet vrijwillig Duitse of Europese klantinformatie met de Amerikaanse autoriteiten. Als een overheid, toezichthouder, rechtbank of wetshandhavingsinstantie om persoonlijke informatie vraagt, maken we deze alleen openbaar als we redelijkerwijs van mening zijn dat het verzoek geldig en juridisch bindend is, binnen de wettelijke bevoegdheid van de verzoekende instantie valt en op ons van toepassing is.\n\nWaar wettelijk toegestaan ​​en redelijkerwijs praktisch mogelijk, beoordelen we het verzoek, betwisten we verzoeken die onwettig of buitensporig lijken, maken we alleen de minimaal wettelijk vereiste informatie bekend en stellen we de betrokken persoon op de hoogte voordat deze openbaar wordt gemaakt. Het kan ons wettelijk verboden zijn om kennisgeving te doen. Niets in dit beleid verhindert een openbaarmaking die noodzakelijk is om een ​​persoon te beschermen tegen ernstige schade of om juridische claims vast te stellen, uit te oefenen of te verdedigen."
       }
     }
   },
@@ -1792,6 +1796,10 @@
       "contact": {
         "title": "Contact",
         "body": "Voor AVG-vragen, rechtenverzoeken, informatie over overdrachtsbeveiliging of privacyproblemen kunt u een e-mail sturen naar info@starlightvisualstudio.de."
+      },
+      "governmentRequests": {
+        "title": "Toegang van overheden en autoriteiten",
+        "body": "Wij verstrekken niet vrijwillig Europese of Duitse klantgegevens aan de Amerikaanse autoriteiten, en we verstrekken niet vrijwillig Amerikaanse klantgegevens aan Duitse of andere Europese autoriteiten. Een grensoverschrijdend autoriteitsverzoek krijgt niet automatisch toegang tot persoonsgegevens.\n\nVoordat we reageren, beoordelen we redelijkerwijs of het verzoek geldig, juridisch bindend, proportioneel, binnen de jurisdictie van de autoriteit ligt en op ons van toepassing is. Waar wettelijk toegestaan ​​en redelijkerwijs praktisch mogelijk, bestrijden we onwettige of buitensporige verzoeken, maken we alleen de minimaal wettelijk vereiste informatie bekend, documenteren we het verzoek en de reactie en stellen we de betrokken persoon op de hoogte. Kennisgeving kan worden uitgesteld of bij wet verboden. Deze praktijken vormen een aanvulling op, maar vervangen niet, de door de AVG vereiste waarborgen voor overdracht."
       }
     }
   },

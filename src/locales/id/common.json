@@ -1700,7 +1700,7 @@
       },
       "sharing": {
         "title": "Ketika informasi dibagikan",
-        "body": "Kami tidak menjual atau menyewakan informasi pribadi dan tidak mengungkapkan informasi klien kepada klien di negara lain. Akses terbatas pada Starlights Visuals dan penyedia layanan yang memerlukan informasi untuk mengoperasikan situs web, berkomunikasi dengan Anda, atau menyampaikan pekerjaan yang diminta. Penyedia saat ini termasuk Supabase untuk layanan database, Resend untuk pengiriman email, dan penyedia hosting situs web kami. Kami juga dapat mengungkapkan informasi bila diwajibkan oleh hukum atau diperlukan untuk melindungi hak hukum dan keamanan situs web."
+        "body": "Kami tidak menjual atau menyewakan informasi pribadi dan tidak mengungkapkan informasi klien kepada klien di negara lain. Akses dibatasi pada Starlights Visuals dan penyedia layanan yang memerlukan informasi untuk mengoperasikan situs web, berkomunikasi dengan Anda, atau menyampaikan pekerjaan yang diminta. Penyedia saat ini termasuk Supabase untuk layanan database, Resend untuk pengiriman email, dan penyedia hosting situs web kami. Pengungkapan apa pun yang diwajibkan oleh hukum ditangani berdasarkan standar permintaan pemerintah dan otoritas di bawah ini."
       },
       "international": {
         "title": "Klien di seluruh dunia dan transfer internasional",
@@ -1733,6 +1733,10 @@
       "contact": {
         "title": "Hubungi kami",
         "body": "Untuk pertanyaan atau permintaan privasi, kirim email ke info@starlightvisualstudio.de. Harap jelaskan permintaan Anda dan alamat email yang terkait dengan informasi tersebut sehingga kami dapat merespons."
+      },
+      "governmentRequests": {
+        "title": "Permintaan pemerintah dan otoritas",
+        "body": "Kami tidak secara sukarela membagikan informasi klien Amerika Serikat kepada otoritas Jerman atau Eropa lainnya, dan kami tidak secara sukarela membagikan informasi klien Jerman atau Eropa kepada otoritas Amerika Serikat. Jika pemerintah, regulator, pengadilan, atau badan penegak hukum meminta informasi pribadi, kami mengungkapkannya hanya jika kami yakin bahwa permintaan tersebut sah, mengikat secara hukum, sesuai dengan kewenangan sah badan yang meminta, dan berlaku bagi kami.\n\nJika diizinkan secara hukum dan cukup praktis, kami meninjau permintaan tersebut, menentang permintaan yang tampak melanggar hukum atau berlebihan, hanya mengungkapkan informasi minimum yang diwajibkan secara hukum, dan memberi tahu orang yang terkena dampak sebelum mengungkapkannya. Kami mungkin dilarang oleh hukum untuk memberikan pemberitahuan. Tidak ada ketentuan dalam kebijakan ini yang menghalangi pengungkapan yang diperlukan untuk melindungi seseorang dari bahaya serius atau untuk membuat, melaksanakan, atau membela tuntutan hukum."
       }
     }
   },
@@ -1792,6 +1796,10 @@
       "contact": {
         "title": "Kontak",
         "body": "Untuk pertanyaan GDPR, permintaan hak, transfer informasi perlindungan, atau masalah privasi, kirim email ke info@starlightvisualstudio.de."
+      },
+      "governmentRequests": {
+        "title": "Akses pemerintah dan otoritas",
+        "body": "Kami tidak secara sukarela memberikan data klien Eropa atau Jerman kepada otoritas Amerika Serikat, dan kami tidak secara sukarela memberikan data klien Amerika Serikat kepada otoritas Jerman atau Eropa lainnya. Permintaan otoritas lintas batas tidak menerima akses otomatis ke data pribadi.\n\nSebelum menanggapi, kami menilai secara wajar apakah permintaan tersebut valid, mengikat secara hukum, proporsional, sesuai dengan yurisdiksi otoritas, dan berlaku bagi kami. Apabila diizinkan secara hukum dan cukup praktis, kami menentang permintaan yang melanggar hukum atau berlebihan, hanya mengungkapkan informasi minimum yang diwajibkan secara hukum, mendokumentasikan permintaan dan tanggapan, dan memberi tahu orang yang terkena dampak. Pemberitahuan mungkin tertunda atau dilarang oleh hukum. Praktik-praktik ini melengkapi, namun tidak menggantikan, perlindungan transfer apa pun yang diwajibkan oleh GDPR."
       }
     }
   },

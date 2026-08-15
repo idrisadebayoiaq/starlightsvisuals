@@ -1700,7 +1700,7 @@
       },
       "sharing": {
         "title": "Når information deles",
-        "body": "Vi sælger eller udlejer ikke personlige oplysninger og videregiver ikke en kundes oplysninger til kunder i et andet land. Adgangen er begrænset til Starlights Visuals og tjenesteudbydere, der har brug for oplysningerne til at drive hjemmesiden, kommunikere med dig eller levere efterspurgt arbejde. Nuværende udbydere inkluderer Supabase til databasetjenester, Resend til levering af e-mail og vores webstedshostingudbyder. Vi kan også videregive oplysninger, når det er påkrævet ved lov eller nødvendigt for at beskytte juridiske rettigheder og webstedssikkerhed."
+        "body": "Vi sælger eller udlejer ikke personlige oplysninger og videregiver ikke en kundes oplysninger til kunder i et andet land. Adgangen er begrænset til Starlights Visuals og tjenesteudbydere, der har brug for oplysningerne for at drive hjemmesiden, kommunikere med dig eller levere efterspurgt arbejde. Nuværende udbydere inkluderer Supabase til databasetjenester, Resend til levering af e-mail og vores webstedshostingudbyder. Enhver afsløring, der kræves ved lov, håndteres i henhold til standarderne for anmodninger fra myndigheder og myndigheder nedenfor."
       },
       "international": {
         "title": "Verdensomspændende kunder og internationale overførsler",
@@ -1733,6 +1733,10 @@
       "contact": {
         "title": "Kontakt os",
         "body": "For spørgsmål eller anmodninger om beskyttelse af personlige oplysninger, send en e-mail til info@starlightvisualstudio.de. Beskriv venligst din anmodning og den e-mailadresse, der er forbundet med oplysningerne, så vi kan svare."
+      },
+      "governmentRequests": {
+        "title": "Regeringens og myndighedernes anmodninger",
+        "body": "Vi deler ikke frivilligt amerikanske klientoplysninger med tyske eller andre europæiske myndigheder, og vi deler ikke frivilligt tyske eller europæiske klientoplysninger med amerikanske myndigheder. Hvis en regering, tilsynsmyndighed, domstol eller retshåndhævende organ anmoder om personlige oplysninger, videregiver vi dem kun, når vi med rimelighed mener, at anmodningen er gyldig, juridisk bindende, inden for det anmodende organs lovlige myndighed og gælder for os.\n\nHvor det er lovligt tilladt og rimeligt praktisk, gennemgår vi anmodningen, bestrider anmodninger, der forekommer ulovlige eller overdrevne, afslører kun de minimumsoplysninger, der er lovpligtigt påkrævet, og underretter den berørte person før offentliggørelse. Vi kan blive forbudt ved lov at give besked. Intet i denne politik forhindrer en offentliggørelse, der er nødvendig for at beskytte en person mod alvorlig skade eller for at etablere, udøve eller forsvare juridiske krav."
       }
     }
   },
@@ -1792,6 +1796,10 @@
       "contact": {
         "title": "Kontakte",
         "body": "For GDPR-spørgsmål, rettighedsanmodninger, overførsel af beskyttelsesoplysninger eller privatlivsproblemer, send en e-mail til info@starlightvisualstudio.de."
+      },
+      "governmentRequests": {
+        "title": "Regerings- og myndighedsadgang",
+        "body": "Vi giver ikke frivilligt europæiske eller tyske klientdata til amerikanske myndigheder, og vi giver ikke frivilligt amerikanske klientdata til tyske eller andre europæiske myndigheder. En grænseoverskridende myndighedsanmodning modtager ikke automatisk adgang til personoplysninger.\n\nFør vi svarer, vurderer vi med rimelighed, om anmodningen er gyldig, juridisk bindende, forholdsmæssig, inden for myndighedens jurisdiktion og gælder for os. Hvor det er lovligt tilladt og rimeligt praktisk, udfordrer vi ulovlige eller overdrevne anmodninger, afslører kun de minimumsoplysninger, der kræves lovligt, dokumenterer anmodningen og svaret og underretter den berørte person. Meddelelsen kan være forsinket eller forbudt ved lov. Disse praksisser supplerer, men erstatter ikke, eventuelle overførselsgarantier, der kræves af GDPR."
       }
     }
   },

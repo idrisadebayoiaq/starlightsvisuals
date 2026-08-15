@@ -1700,7 +1700,7 @@
       },
       "sharing": {
         "title": "Quand les informations sont partagées",
-        "body": "Nous ne vendons ni ne louons d'informations personnelles et ne divulguons pas les informations d'un client à des clients dans un autre pays. L'accès est limité à Starlights Visuals et aux prestataires de services qui ont besoin de ces informations pour exploiter le site Web, communiquer avec vous ou fournir le travail demandé. Les fournisseurs actuels incluent Supabase pour les services de base de données, Resend pour la livraison d'e-mails et notre fournisseur d'hébergement de sites Web. Nous pouvons également divulguer des informations lorsque la loi l’exige ou lorsque cela est nécessaire pour protéger les droits légaux et la sécurité du site Web."
+        "body": "Nous ne vendons ni ne louons d'informations personnelles et ne divulguons pas les informations d'un client à des clients dans un autre pays. L'accès est limité à Starlights Visuals et aux prestataires de services qui ont besoin de ces informations pour exploiter le site Web, communiquer avec vous ou effectuer le travail demandé. Les fournisseurs actuels incluent Supabase pour les services de base de données, Resend pour la livraison d'e-mails et notre fournisseur d'hébergement de sites Web. Toute divulgation requise par la loi est traitée conformément aux normes de demande du gouvernement et des autorités ci-dessous."
       },
       "international": {
         "title": "Clientèle mondiale et transferts internationaux",
@@ -1733,6 +1733,10 @@
       "contact": {
         "title": "Contactez-nous",
         "body": "Pour toute question ou demande relative à la confidentialité, envoyez un e-mail à info@starlightvisualstudio.de. Veuillez décrire votre demande et l'adresse e-mail associée aux informations afin que nous puissions y répondre."
+      },
+      "governmentRequests": {
+        "title": "Demandes du gouvernement et des autorités",
+        "body": "Nous ne partageons pas volontairement les informations des clients américains avec les autorités allemandes ou européennes, et nous ne partageons pas volontairement les informations des clients allemands ou européens avec les autorités américaines. Si un gouvernement, un régulateur, un tribunal ou un organisme chargé de l'application de la loi demande des informations personnelles, nous les divulguons uniquement lorsque nous pensons raisonnablement que la demande est valide, juridiquement contraignante, relevant de l'autorité légale de l'organisme demandeur et applicable à nous.\n\nLorsque la loi le permet et que cela est raisonnablement pratique, nous examinons la demande, contestons les demandes qui semblent illégales ou excessives, ne divulguons que les informations minimales légalement requises et informons la personne concernée avant la divulgation. La loi peut nous interdire de fournir un avis. Rien dans cette politique n'empêche une divulgation nécessaire pour protéger une personne contre un préjudice grave ou pour établir, exercer ou défendre des réclamations légales."
       }
     }
   },
@@ -1792,6 +1796,10 @@
       "contact": {
         "title": "Contact",
         "body": "Pour des questions sur le RGPD, des demandes de droits, des informations de protection des transferts ou des problèmes de confidentialité, envoyez un e-mail à info@starlightvisualstudio.de."
+      },
+      "governmentRequests": {
+        "title": "Accès du gouvernement et des autorités",
+        "body": "Nous ne fournissons pas volontairement les données des clients européens ou allemands aux autorités américaines, et nous ne fournissons pas volontairement les données des clients américains aux autorités allemandes ou européennes. Une demande d’autorité transfrontalière ne donne pas automatiquement accès aux données personnelles.\n\nAvant de répondre, nous évaluons raisonnablement si la demande est valide, juridiquement contraignante, proportionnée, relevant de la compétence de l'autorité et applicable à nous. Lorsque la loi le permet et que cela est raisonnablement pratique, nous contestons les demandes illégales ou excessives, ne divulguons que le minimum d'informations légalement requis, documentons la demande et la réponse et informons la personne concernée. La notification peut être retardée ou interdite par la loi. Ces pratiques complètent, mais ne remplacent pas, les garanties de transfert requises par le RGPD."
       }
     }
   },

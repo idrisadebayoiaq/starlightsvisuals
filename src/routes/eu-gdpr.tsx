@@ -13,6 +13,7 @@ const SECTION_IDS = [
   "legalBases",
   "recipients",
   "transfers",
+  "governmentRequests",
   "retention",
   "rights",
   "complaints",

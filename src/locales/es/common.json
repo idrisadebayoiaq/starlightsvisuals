@@ -1700,7 +1700,7 @@
       },
       "sharing": {
         "title": "Cuando se comparte información",
-        "body": "No vendemos ni alquilamos información personal y no revelamos la información de un cliente a clientes en otro país. El acceso está limitado a Starlights Visuals y proveedores de servicios que necesitan la información para operar el sitio web, comunicarse con usted o entregar el trabajo solicitado. Los proveedores actuales incluyen Supabase para servicios de bases de datos, Resend para entrega de correo electrónico y nuestro proveedor de alojamiento de sitios web. También podemos divulgar información cuando lo exija la ley o sea necesario para proteger los derechos legales y la seguridad del sitio web."
+        "body": "No vendemos ni alquilamos información personal y no revelamos la información de un cliente a clientes en otro país. El acceso está limitado a Starlights Visuals y proveedores de servicios que necesitan la información para operar el sitio web, comunicarse con usted o entregar el trabajo solicitado. Los proveedores actuales incluyen Supabase para servicios de bases de datos, Resend para entrega de correo electrónico y nuestro proveedor de alojamiento de sitios web. Cualquier divulgación requerida por la ley se maneja según los estándares de solicitud del gobierno y las autoridades que se detallan a continuación."
       },
       "international": {
         "title": "Clientes en todo el mundo y transferencias internacionales.",
@@ -1733,6 +1733,10 @@
       "contact": {
         "title": "Contáctenos",
         "body": "Para preguntas o solicitudes de privacidad, envíe un correo electrónico a info@starlightvisualstudio.de. Describa su solicitud y la dirección de correo electrónico relacionada con la información para que podamos responder."
+      },
+      "governmentRequests": {
+        "title": "Solicitudes de gobiernos y autoridades.",
+        "body": "No compartimos voluntariamente información de clientes de Estados Unidos con autoridades alemanas u otras autoridades europeas, y no compartimos voluntariamente información de clientes alemanes o europeos con autoridades de Estados Unidos. Si un gobierno, regulador, tribunal u organismo encargado de hacer cumplir la ley solicita información personal, la divulgamos solo cuando creemos razonablemente que la solicitud es válida, legalmente vinculante, dentro de la autoridad legal del organismo solicitante y aplicable a nosotros.\n\nCuando lo permita la ley y sea razonablemente práctico, revisamos la solicitud, impugnamos las solicitudes que parezcan ilegales o excesivas, divulgamos solo la información mínima requerida legalmente y notificamos a la persona afectada antes de la divulgación. Es posible que la ley nos prohíba proporcionar avisos. Nada en esta política impide una divulgación necesaria para proteger a una persona de daños graves o para establecer, ejercer o defender reclamos legales."
       }
     }
   },
@@ -1792,6 +1796,10 @@
       "contact": {
         "title": "Contacto",
         "body": "Si tiene preguntas sobre el RGPD, solicitudes de derechos, transferencia de información de protección o inquietudes sobre privacidad, envíe un correo electrónico a info@starlightvisualstudio.de."
+      },
+      "governmentRequests": {
+        "title": "Acceso al gobierno y a las autoridades",
+        "body": "No proporcionamos voluntariamente datos de clientes europeos o alemanes a las autoridades de los Estados Unidos, y no proporcionamos voluntariamente datos de clientes de los Estados Unidos a las autoridades alemanas u otras autoridades europeas. Una solicitud de autoridad transfronteriza no recibe acceso automático a datos personales.\n\nAntes de responder, evaluamos razonablemente si la solicitud es válida, legalmente vinculante, proporcionada, dentro de la jurisdicción de la autoridad y aplicable a nosotros. Cuando lo permita la ley y sea razonablemente práctico, impugnaremos las solicitudes ilegales o excesivas, divulgaremos solo la información mínima requerida legalmente, documentaremos la solicitud y la respuesta, y notificaremos a la persona afectada. El aviso puede retrasarse o estar prohibido por ley. Estas prácticas complementan, pero no reemplazan, las salvaguardas de transferencia requeridas por el RGPD."
       }
     }
   },
