@@ -1812,11 +1812,43 @@
     "sections": {
       "operator": {
         "title": "ที่อยู่ของผู้ประกอบการและธุรกิจ",
-        "body": "Starlights Visuals\nแอนิเมชั่นเชิงสร้างสรรค์และสตูดิโอ VFX\nผู้ก่อตั้งและกรรมการผู้จัดการ: Boluwaji Ominiran\n\nสำนักงานทางกายภาพหลัก:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nสหรัฐอเมริกา\n\nที่อยู่ทางจดหมายของยุโรป (ผ่าน Wise):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nที่อยู่ธุรกิจในสหราชอาณาจักร:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nสหราชอาณาจักร\n\nเราดำเนินงานจากระยะไกลและทำงานร่วมกับลูกค้าในทุกประเทศ"
+        "company": "Starlights Visuals",
+        "tagline": "แอนิเมชั่นเชิงสร้างสรรค์และสตูดิโอ VFX",
+        "founderLabel": "ผู้ก่อตั้งและกรรมการผู้จัดการ",
+        "founderName": "Boluwaji Ominiran",
+        "addresses": {
+          "us": {
+            "label": "สำนักงานหลัก (สหรัฐอเมริกา)",
+            "lines": "6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States"
+          },
+          "be": {
+            "label": "ที่อยู่ทางจดหมายของยุโรป (ผ่าน Wise)",
+            "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
+          },
+          "uk": {
+            "label": "ที่อยู่ธุรกิจในสหราชอาณาจักร",
+            "lines": "4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nUnited Kingdom"
+          }
+        },
+        "remote": "เราทำงานจากระยะไกลกับลูกค้าในทุกประเทศ"
       },
       "contact": {
         "title": "ติดต่อ",
-        "body": "โทรศัพท์: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nอีเมล์: info@starlightvisualstudio.de\n\nหากมีข้อสงสัยเกี่ยวกับโครงการ ประกาศทางกฎหมาย หรือคำขอความเป็นส่วนตัว โปรดติดต่อเราโดยใช้รายละเอียดด้านบน"
+        "items": {
+          "phone": {
+            "label": "โทรศัพท์",
+            "value": "+1 (317) 339-6029"
+          },
+          "whatsapp": {
+            "label": "WhatsApp",
+            "value": "+44 7348 550667"
+          },
+          "email": {
+            "label": "อีเมล",
+            "value": "info@starlightvisualstudio.de"
+          }
+        },
+        "note": "สำหรับการสอบถามเกี่ยวกับโครงการ ประกาศทางกฎหมาย หรือการร้องขอความเป็นส่วนตัว โปรดใช้รายละเอียดด้านบน"
       },
       "responsibility": {
         "title": "ความรับผิดชอบต่อเนื้อหา",

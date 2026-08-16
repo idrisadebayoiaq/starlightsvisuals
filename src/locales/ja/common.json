@@ -1812,11 +1812,43 @@
     "sections": {
       "operator": {
         "title": "オペレーターとビジネスの住所",
-        "body": "Starlights Visuals\nクリエイティブなアニメーションと VFX スタジオ\n創設者兼マネージングディレクター: Boluwaji Ominiran\n\n主な物理的なオフィス:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\n米国\n\nヨーロッパの通信アドレス (Wise 経由):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\n英国のビジネス住所:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nイギリス\n\n私たちはリモートで運営し、あらゆる国のクライアントと協力しています。"
+        "company": "Starlights Visuals",
+        "tagline": "クリエイティブなアニメーションと VFX スタジオ",
+        "founderLabel": "創設者兼代表取締役",
+        "founderName": "Boluwaji Ominiran",
+        "addresses": {
+          "us": {
+            "label": "主なオフィス（米国）",
+            "lines": "6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States"
+          },
+          "be": {
+            "label": "ヨーロッパの通信アドレス (Wise 経由)",
+            "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
+          },
+          "uk": {
+            "label": "英国のビジネス住所",
+            "lines": "4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nUnited Kingdom"
+          }
+        },
+        "remote": "私たちはあらゆる国のクライアントとリモートで仕事をしています。"
       },
       "contact": {
-        "title": "接触",
-        "body": "電話: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\n電子メール: info@starlightvisualstudio.de\n\nプロジェクトに関するお問い合わせ、法的通知、またはプライバシーの要求については、上記の詳細を使用して当社にお問い合わせください。"
+        "title": "お問い合わせ",
+        "items": {
+          "phone": {
+            "label": "電話",
+            "value": "+1 (317) 339-6029"
+          },
+          "whatsapp": {
+            "label": "WhatsApp",
+            "value": "+44 7348 550667"
+          },
+          "email": {
+            "label": "電子メール",
+            "value": "info@starlightvisualstudio.de"
+          }
+        },
+        "note": "プロジェクトに関するお問い合わせ、法的通知、またはプライバシーの要求については、上記の詳細をご利用ください。"
       },
       "responsibility": {
         "title": "コンテンツに対する責任",

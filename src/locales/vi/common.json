@@ -1812,11 +1812,43 @@
     "sections": {
       "operator": {
         "title": "Địa chỉ điều hành và kinh doanh",
-        "body": "Starlights Visuals\nStudio hoạt hình sáng tạo và VFX\nNgười sáng lập & Giám đốc điều hành: Boluwaji Ominiran\n\nVăn phòng vật lý chính:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nHoa Kỳ\n\nĐịa chỉ thư từ ở Châu Âu (thông qua Wise):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nĐịa chỉ kinh doanh tại Vương quốc Anh:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nVương quốc Anh\n\nChúng tôi hoạt động từ xa và làm việc với khách hàng ở tất cả các quốc gia."
+        "company": "Starlights Visuals",
+        "tagline": "Studio hoạt hình sáng tạo và VFX",
+        "founderLabel": "Người sáng lập và Giám đốc điều hành",
+        "founderName": "Boluwaji Ominiran",
+        "addresses": {
+          "us": {
+            "label": "Văn phòng chính (Hoa Kỳ)",
+            "lines": "6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States"
+          },
+          "be": {
+            "label": "Địa chỉ thư từ ở Châu Âu (thông qua Wise)",
+            "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
+          },
+          "uk": {
+            "label": "Địa chỉ kinh doanh Vương quốc Anh",
+            "lines": "4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nUnited Kingdom"
+          }
+        },
+        "remote": "Chúng tôi làm việc từ xa với khách hàng ở mọi quốc gia."
       },
       "contact": {
         "title": "Liên hệ",
-        "body": "Điện thoại: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nEmail: info@starlightvisualstudio.de\n\nNếu có thắc mắc về dự án, thông báo pháp lý hoặc yêu cầu về quyền riêng tư, hãy liên hệ với chúng tôi bằng cách sử dụng thông tin chi tiết ở trên."
+        "items": {
+          "phone": {
+            "label": "Điện thoại",
+            "value": "+1 (317) 339-6029"
+          },
+          "whatsapp": {
+            "label": "WhatsApp",
+            "value": "+44 7348 550667"
+          },
+          "email": {
+            "label": "E-mail",
+            "value": "info@starlightvisualstudio.de"
+          }
+        },
+        "note": "Đối với các yêu cầu về dự án, thông báo pháp lý hoặc yêu cầu về quyền riêng tư, vui lòng sử dụng thông tin chi tiết ở trên."
       },
       "responsibility": {
         "title": "Trách nhiệm về nội dung",

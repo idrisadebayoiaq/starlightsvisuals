@@ -1812,11 +1812,43 @@
     "sections": {
       "operator": {
         "title": "Operatör ve iş adresleri",
-        "body": "Starlights Visuals\nYaratıcı animasyon ve VFX stüdyosu\nKurucu ve Genel Müdür: Boluwaji Ominiran\n\nBirincil fiziksel ofis:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nAmerika Birleşik Devletleri\n\nAvrupa yazışma adresi (Wise aracılığıyla):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nBirleşik Krallık iş adresi:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nBirleşik Krallık\n\nUzaktan çalışıyoruz ve tüm ülkelerdeki müşterilerimizle çalışıyoruz."
+        "company": "Starlights Visuals",
+        "tagline": "Yaratıcı animasyon ve VFX stüdyosu",
+        "founderLabel": "Kurucu ve Genel Müdür",
+        "founderName": "Boluwaji Ominiran",
+        "addresses": {
+          "us": {
+            "label": "Birincil ofis (Amerika Birleşik Devletleri)",
+            "lines": "6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States"
+          },
+          "be": {
+            "label": "Avrupa yazışma adresi (Wise aracılığıyla)",
+            "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
+          },
+          "uk": {
+            "label": "Birleşik Krallık iş adresi",
+            "lines": "4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nUnited Kingdom"
+          }
+        },
+        "remote": "Her ülkedeki müşterilerle uzaktan çalışıyoruz."
       },
       "contact": {
-        "title": "Temas etmek",
-        "body": "Telefon: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nE-posta: info@starlightvisualstudio.de\n\nProje soruları, yasal bildirimler veya gizlilik talepleri için yukarıdaki bilgileri kullanarak bizimle iletişime geçin."
+        "title": "İletişim",
+        "items": {
+          "phone": {
+            "label": "Telefon",
+            "value": "+1 (317) 339-6029"
+          },
+          "whatsapp": {
+            "label": "WhatsApp",
+            "value": "+44 7348 550667"
+          },
+          "email": {
+            "label": "E-posta",
+            "value": "info@starlightvisualstudio.de"
+          }
+        },
+        "note": "Proje soruları, yasal bildirimler veya gizlilik talepleri için lütfen yukarıdaki ayrıntıları kullanın."
       },
       "responsibility": {
         "title": "İçerik sorumluluğu",

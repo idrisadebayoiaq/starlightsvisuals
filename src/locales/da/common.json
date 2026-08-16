@@ -1812,11 +1812,43 @@
     "sections": {
       "operator": {
         "title": "Operatør- og virksomhedsadresser",
-        "body": "Starlights Visuals\nKreativ animation og VFX-studie\nGrundlægger og administrerende direktør: Boluwaji Ominiran\n\nPrimært fysisk kontor:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUSA\n\nEuropæisk korrespondanceadresse (via Wise):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nForretningsadresse i Storbritannien:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nStorbritannien\n\nVi opererer eksternt og arbejder med kunder i alle lande."
+        "company": "Starlights Visuals",
+        "tagline": "Kreativ animation og VFX-studie",
+        "founderLabel": "Grundlægger og administrerende direktør",
+        "founderName": "Boluwaji Ominiran",
+        "addresses": {
+          "us": {
+            "label": "Primært kontor (USA)",
+            "lines": "6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States"
+          },
+          "be": {
+            "label": "Europæisk korrespondanceadresse (via Wise)",
+            "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
+          },
+          "uk": {
+            "label": "Forretningsadresse i Storbritannien",
+            "lines": "4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nUnited Kingdom"
+          }
+        },
+        "remote": "Vi arbejder eksternt med kunder i alle lande."
       },
       "contact": {
-        "title": "Kontakte",
-        "body": "Telefon: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nE-mail: info@starlightvisualstudio.de\n\nFor projektforespørgsler, juridiske meddelelser eller anmodninger om beskyttelse af personlige oplysninger, kontakt os ved at bruge oplysningerne ovenfor."
+        "title": "Kontakt",
+        "items": {
+          "phone": {
+            "label": "Telefon",
+            "value": "+1 (317) 339-6029"
+          },
+          "whatsapp": {
+            "label": "WhatsApp",
+            "value": "+44 7348 550667"
+          },
+          "email": {
+            "label": "E-mail",
+            "value": "info@starlightvisualstudio.de"
+          }
+        },
+        "note": "For projektforespørgsler, juridiske meddelelser eller anmodninger om beskyttelse af personlige oplysninger, bedes du bruge oplysningerne ovenfor."
       },
       "responsibility": {
         "title": "Ansvar for indhold",

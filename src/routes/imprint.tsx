@@ -5,7 +5,15 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { pageHead, siteMeta } from "@/lib/site-meta";
 
-const SECTION_IDS = ["operator", "contact", "responsibility", "links", "copyright"] as const;
+const ADDRESS_IDS = ["us", "be", "uk"] as const;
+const CONTACT_IDS = ["phone", "whatsapp", "email"] as const;
+const TEXT_SECTION_IDS = ["responsibility", "links", "copyright"] as const;
+
+const CONTACT_HREFS: Record<(typeof CONTACT_IDS)[number], (value: string) => string> = {
+  phone: (value) => `tel:${value.replace(/[^+\d]/g, "")}`,
+  whatsapp: (value) => `https://wa.me/${value.replace(/\D/g, "")}`,
+  email: (value) => `mailto:${value}`,
+};
 
 export const Route = createFileRoute("/imprint")({
   head: () => pageHead(siteMeta.imprint),
@@ -36,16 +44,95 @@ function ImprintPage() {
 
       <main className="mx-auto max-w-3xl px-6 py-16 md:py-20">
         <div className="space-y-12">
-          {SECTION_IDS.map((id) => (
+          <section className="rounded-xl border border-border/60 bg-card/30 p-6 md:p-8">
+            <h2 className="font-display text-xl uppercase tracking-wide text-neon-green md:text-2xl">
+              {t("imprintPage.sections.operator.title")}
+            </h2>
+
+            <div className="mt-6 space-y-1">
+              <p className="font-display text-lg tracking-wide text-foreground">
+                {t("imprintPage.sections.operator.company")}
+              </p>
+              <p className="text-base text-muted-foreground">
+                {t("imprintPage.sections.operator.tagline")}
+              </p>
+            </div>
+
+            <dl className="mt-8 space-y-8">
+              <div>
+                <dt className="font-display text-xs uppercase tracking-[0.2em] text-neon-green">
+                  {t("imprintPage.sections.operator.founderLabel")}
+                </dt>
+                <dd className="mt-2 text-base text-foreground">
+                  {t("imprintPage.sections.operator.founderName")}
+                </dd>
+              </div>
+
+              {ADDRESS_IDS.map((id) => (
+                <div key={id}>
+                  <dt className="font-display text-xs uppercase tracking-[0.2em] text-neon-green">
+                    {t(`imprintPage.sections.operator.addresses.${id}.label`)}
+                  </dt>
+                  <dd className="mt-2 space-y-1 text-base leading-7 text-muted-foreground">
+                    {t(`imprintPage.sections.operator.addresses.${id}.lines`)
+                      .split("\n")
+                      .map((line) => (
+                        <span key={line} className="block">
+                          {line}
+                        </span>
+                      ))}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+
+            <p className="mt-8 border-t border-border/40 pt-6 text-base leading-7 text-muted-foreground">
+              {t("imprintPage.sections.operator.remote")}
+            </p>
+          </section>
+
+          <section className="rounded-xl border border-border/60 bg-card/30 p-6 md:p-8">
+            <h2 className="font-display text-xl uppercase tracking-wide text-neon-green md:text-2xl">
+              {t("imprintPage.sections.contact.title")}
+            </h2>
+
+            <dl className="mt-6 space-y-6">
+              {CONTACT_IDS.map((id) => {
+                const value = t(`imprintPage.sections.contact.items.${id}.value`);
+                return (
+                  <div key={id} className="sm:flex sm:items-baseline sm:gap-6">
+                    <dt className="font-display text-xs uppercase tracking-[0.2em] text-neon-green sm:w-32 sm:shrink-0">
+                      {t(`imprintPage.sections.contact.items.${id}.label`)}
+                    </dt>
+                    <dd className="mt-2 text-base sm:mt-0">
+                      <a
+                        href={CONTACT_HREFS[id](value)}
+                        className="break-all text-foreground transition hover:text-neon-green"
+                      >
+                        {value}
+                      </a>
+                    </dd>
+                  </div>
+                );
+              })}
+            </dl>
+
+            <p className="mt-8 border-t border-border/40 pt-6 text-base leading-7 text-muted-foreground">
+              {t("imprintPage.sections.contact.note")}
+            </p>
+          </section>
+
+          {TEXT_SECTION_IDS.map((id) => (
             <section key={id} className="rounded-xl border border-border/60 bg-card/30 p-6 md:p-8">
               <h2 className="font-display text-xl uppercase tracking-wide text-neon-green md:text-2xl">
                 {t(`imprintPage.sections.${id}.title`)}
               </h2>
-              <p className="mt-4 whitespace-pre-line text-base leading-8 text-muted-foreground">
+              <p className="mt-4 text-base leading-8 text-muted-foreground">
                 {t(`imprintPage.sections.${id}.body`)}
               </p>
             </section>
           ))}
+
           <section className="rounded-xl border border-neon-green/25 bg-card/30 p-6 md:p-8">
             <h2 className="font-display text-xl uppercase tracking-wide text-neon-green md:text-2xl">
               {t("imprintPage.sections.privacy.title")}
@@ -53,7 +140,7 @@ function ImprintPage() {
             <p className="mt-4 text-base leading-8 text-muted-foreground">
               {t("imprintPage.sections.privacy.body")}
             </p>
-            <div className="mt-5 flex flex-wrap gap-4">
+            <div className="mt-6 flex flex-wrap gap-x-6 gap-y-3">
               <Link
                 to="/privacy"
                 className="font-display text-sm uppercase tracking-wider text-neon-green transition hover:text-foreground"

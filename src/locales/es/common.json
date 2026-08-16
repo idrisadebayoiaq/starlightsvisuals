@@ -1812,11 +1812,43 @@
     "sections": {
       "operator": {
         "title": "Direcciones del operador y del negocio",
-        "body": "Starlights Visuals\nEstudio de animación creativa y VFX.\nFundador y director general: Boluwaji Ominiran\n\nOficina física primaria:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nEstados Unidos\n\nDirección de correspondencia europea (a través de Wise):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nDirección comercial del Reino Unido:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nReino Unido\n\nOperamos de forma remota y trabajamos con clientes en todos los países."
+        "company": "Starlights Visuals",
+        "tagline": "Estudio de animación creativa y VFX.",
+        "founderLabel": "Fundador y Director General",
+        "founderName": "Boluwaji Ominiran",
+        "addresses": {
+          "us": {
+            "label": "Oficina principal (Estados Unidos)",
+            "lines": "6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States"
+          },
+          "be": {
+            "label": "Dirección de correspondencia europea (a través de Wise)",
+            "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
+          },
+          "uk": {
+            "label": "Dirección comercial en Reino Unido",
+            "lines": "4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nUnited Kingdom"
+          }
+        },
+        "remote": "Trabajamos de forma remota con clientes en todos los países."
       },
       "contact": {
         "title": "Contacto",
-        "body": "Teléfono: +1 (317) 339-6029\nWhatsapp: +44 7348 550667\nCorreo electrónico: info@starlightvisualstudio.de\n\nPara consultas sobre proyectos, avisos legales o solicitudes de privacidad, contáctenos utilizando los detalles anteriores."
+        "items": {
+          "phone": {
+            "label": "Teléfono",
+            "value": "+1 (317) 339-6029"
+          },
+          "whatsapp": {
+            "label": "WhatsApp",
+            "value": "+44 7348 550667"
+          },
+          "email": {
+            "label": "Correo electrónico",
+            "value": "info@starlightvisualstudio.de"
+          }
+        },
+        "note": "Para consultas sobre proyectos, avisos legales o solicitudes de privacidad, utilice los detalles anteriores."
       },
       "responsibility": {
         "title": "Responsabilidad por el contenido",

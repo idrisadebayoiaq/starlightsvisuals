@@ -547,11 +547,43 @@
     "sections": {
       "operator": {
         "title": "Betreiber und Geschäftsadressen",
-        "body": "Starlights Visuals\nKreativstudio für Animation und VFX\nGründer und Geschäftsführer: Boluwaji Ominiran\n\nPhysisches Hauptbüro:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nVereinigte Staaten\n\nEuropäische Korrespondenzadresse (über Wise):\nWise, Rue du Trône 100, 3rd floor\n1050 Brüssel, Belgien\n\nGeschäftsadresse im Vereinigten Königreich:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nVereinigtes Königreich\n\nWir arbeiten remote mit Kunden in allen Ländern."
+        "company": "Starlights Visuals",
+        "tagline": "Kreativstudio für Animation und VFX",
+        "founderLabel": "Gründer und Geschäftsführer",
+        "founderName": "Boluwaji Ominiran",
+        "addresses": {
+          "us": {
+            "label": "Hauptbüro (Vereinigte Staaten)",
+            "lines": "6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States"
+          },
+          "be": {
+            "label": "Europäische Korrespondenzadresse (über Wise)",
+            "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
+          },
+          "uk": {
+            "label": "Geschäftsadresse im Vereinigten Königreich",
+            "lines": "4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nUnited Kingdom"
+          }
+        },
+        "remote": "Wir arbeiten remote mit Kunden in allen Ländern."
       },
       "contact": {
         "title": "Kontakt",
-        "body": "Telefon: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nE-Mail: info@starlightvisualstudio.de\n\nFür Projektanfragen, rechtliche Hinweise oder Datenschutzanfragen nutzen Sie bitte die oben genannten Kontaktdaten."
+        "items": {
+          "phone": {
+            "label": "Telefon",
+            "value": "+1 (317) 339-6029"
+          },
+          "whatsapp": {
+            "label": "WhatsApp",
+            "value": "+44 7348 550667"
+          },
+          "email": {
+            "label": "E-Mail",
+            "value": "info@starlightvisualstudio.de"
+          }
+        },
+        "note": "Für Projektanfragen, rechtliche Hinweise oder Datenschutzanfragen nutzen Sie bitte die oben genannten Kontaktdaten."
       },
       "responsibility": {
         "title": "Verantwortung für Inhalte",

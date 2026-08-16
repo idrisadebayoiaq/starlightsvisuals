@@ -1812,11 +1812,43 @@
     "sections": {
       "operator": {
         "title": "Provozovatel a obchodní adresy",
-        "body": "Starlights Visuals\nKreativní animace a VFX studio\nZakladatel a výkonný ředitel: Boluwaji Ominiran\n\nPrimární fyzická kancelář:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nSpojené státy americké\n\nEvropská korespondenční adresa (přes Wise):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nObchodní adresa Spojeného království:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nSpojené království\n\nPůsobíme na dálku a spolupracujeme s klienty ve všech zemích."
+        "company": "Starlights Visuals",
+        "tagline": "Kreativní animace a VFX studio",
+        "founderLabel": "Zakladatel a jednatel",
+        "founderName": "Boluwaji Ominiran",
+        "addresses": {
+          "us": {
+            "label": "Primární kancelář (Spojené státy americké)",
+            "lines": "6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States"
+          },
+          "be": {
+            "label": "Evropská korespondenční adresa (přes Wise)",
+            "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
+          },
+          "uk": {
+            "label": "Obchodní adresa Spojeného království",
+            "lines": "4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nUnited Kingdom"
+          }
+        },
+        "remote": "Pracujeme na dálku s klienty v každé zemi."
       },
       "contact": {
         "title": "Kontakt",
-        "body": "Telefon: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nE-mail: info@starlightvisualstudio.de\n\nV případě dotazů na projekt, právních upozornění nebo požadavků na ochranu osobních údajů nás kontaktujte pomocí výše uvedených údajů."
+        "items": {
+          "phone": {
+            "label": "Telefon",
+            "value": "+1 (317) 339-6029"
+          },
+          "whatsapp": {
+            "label": "WhatsApp",
+            "value": "+44 7348 550667"
+          },
+          "email": {
+            "label": "E-mail",
+            "value": "info@starlightvisualstudio.de"
+          }
+        },
+        "note": "Pro dotazy k projektu, právní upozornění nebo žádosti o ochranu osobních údajů použijte výše uvedené údaje."
       },
       "responsibility": {
         "title": "Zodpovědnost za obsah",

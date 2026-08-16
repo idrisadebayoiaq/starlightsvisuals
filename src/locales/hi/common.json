@@ -1812,11 +1812,43 @@
     "sections": {
       "operator": {
         "title": "ऑपरेटर और व्यावसायिक पते",
-        "body": "Starlights Visuals\nक्रिएटिव एनिमेशन और वीएफएक्स स्टूडियो\nसंस्थापक एवं प्रबंध निदेशक: Boluwaji Ominiran\n\nप्राथमिक भौतिक कार्यालय:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nसंयुक्त राज्य अमेरिका\n\nयूरोपीय पत्राचार पता (वाइज के माध्यम से):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nयूनाइटेड किंगडम व्यवसाय पता:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nयूनाइटेड किंगडम\n\nहम दूर से काम करते हैं और सभी देशों में ग्राहकों के साथ काम करते हैं।"
+        "company": "Starlights Visuals",
+        "tagline": "क्रिएटिव एनिमेशन और वीएफएक्स स्टूडियो",
+        "founderLabel": "संस्थापक एवं प्रबंध निदेशक",
+        "founderName": "Boluwaji Ominiran",
+        "addresses": {
+          "us": {
+            "label": "प्राथमिक कार्यालय (संयुक्त राज्य अमेरिका)",
+            "lines": "6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States"
+          },
+          "be": {
+            "label": "यूरोपीय पत्राचार पता (वाइज के माध्यम से)",
+            "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
+          },
+          "uk": {
+            "label": "यूनाइटेड किंगडम व्यवसाय पता",
+            "lines": "4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nUnited Kingdom"
+          }
+        },
+        "remote": "हम हर देश में ग्राहकों के साथ दूर से काम करते हैं।"
       },
       "contact": {
         "title": "संपर्क",
-        "body": "फ़ोन: +1 (317) 339-6029\nव्हाट्सएप: +44 7348 550667\nईमेल: info@starlightvisualstudio.de\n\nप्रोजेक्ट पूछताछ, कानूनी नोटिस या गोपनीयता अनुरोधों के लिए, उपरोक्त विवरण का उपयोग करके हमसे संपर्क करें।"
+        "items": {
+          "phone": {
+            "label": "फ़ोन",
+            "value": "+1 (317) 339-6029"
+          },
+          "whatsapp": {
+            "label": "WhatsApp",
+            "value": "+44 7348 550667"
+          },
+          "email": {
+            "label": "ईमेल",
+            "value": "info@starlightvisualstudio.de"
+          }
+        },
+        "note": "प्रोजेक्ट पूछताछ, कानूनी नोटिस या गोपनीयता अनुरोधों के लिए, कृपया उपरोक्त विवरण का उपयोग करें।"
       },
       "responsibility": {
         "title": "सामग्री के लिए जिम्मेदारी",

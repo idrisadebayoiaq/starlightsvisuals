@@ -1812,11 +1812,43 @@
     "sections": {
       "operator": {
         "title": "عناوين المشغلين والشركات",
-        "body": "Starlights Visuals\nالرسوم المتحركة الإبداعية واستوديو VFX\nالمؤسس والمدير الإداري: Boluwaji Ominiran\n\nالمكتب المادي الأساسي:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nالولايات المتحدة\n\nعنوان المراسلات الأوروبي (عبر Wise):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nعنوان العمل في المملكة المتحدة:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nالمملكة المتحدة\n\nنعمل عن بعد ونعمل مع العملاء في جميع البلدان."
+        "company": "Starlights Visuals",
+        "tagline": "الرسوم المتحركة الإبداعية واستوديو VFX",
+        "founderLabel": "المؤسس والمدير العام",
+        "founderName": "Boluwaji Ominiran",
+        "addresses": {
+          "us": {
+            "label": "المكتب الرئيسي (الولايات المتحدة)",
+            "lines": "6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States"
+          },
+          "be": {
+            "label": "عنوان المراسلات الأوروبي (عبر Wise)",
+            "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
+          },
+          "uk": {
+            "label": "عنوان العمل في المملكة المتحدة",
+            "lines": "4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nUnited Kingdom"
+          }
+        },
+        "remote": "نحن نعمل عن بعد مع العملاء في كل بلد."
       },
       "contact": {
-        "title": "اتصال",
-        "body": "الهاتف: +1 (317) 339-6029\nواتساب: +44 7348 550667\nالبريد الإلكتروني: info@starlightvisualstudio.de\n\nللاستفسارات حول المشروع أو الإشعارات القانونية أو طلبات الخصوصية، اتصل بنا باستخدام التفاصيل المذكورة أعلاه."
+        "title": "اتصل بنا",
+        "items": {
+          "phone": {
+            "label": "هاتف",
+            "value": "+1 (317) 339-6029"
+          },
+          "whatsapp": {
+            "label": "WhatsApp",
+            "value": "+44 7348 550667"
+          },
+          "email": {
+            "label": "بريد إلكتروني",
+            "value": "info@starlightvisualstudio.de"
+          }
+        },
+        "note": "للاستفسارات المتعلقة بالمشروع، أو الإشعارات القانونية، أو طلبات الخصوصية، يرجى استخدام التفاصيل أعلاه."
       },
       "responsibility": {
         "title": "المسؤولية عن المحتوى",

@@ -1812,11 +1812,43 @@
     "sections": {
       "operator": {
         "title": "Оператор и юридические адреса",
-        "body": "Starlights Visuals\nКреативная студия анимации и визуальных эффектов\nОснователь и управляющий директор: Boluwaji Ominiran\n\nОсновной физический офис:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nСоединенные Штаты\n\nЕвропейский адрес для переписки (через Wise):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nЮридический адрес Соединенного Королевства:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nВеликобритания\n\nМы работаем удаленно и работаем с клиентами во всех странах."
+        "company": "Starlights Visuals",
+        "tagline": "Креативная студия анимации и визуальных эффектов",
+        "founderLabel": "Основатель и управляющий директор",
+        "founderName": "Boluwaji Ominiran",
+        "addresses": {
+          "us": {
+            "label": "Основной офис (США)",
+            "lines": "6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States"
+          },
+          "be": {
+            "label": "Европейский адрес для переписки (через Wise)",
+            "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
+          },
+          "uk": {
+            "label": "Юридический адрес Великобритании",
+            "lines": "4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nUnited Kingdom"
+          }
+        },
+        "remote": "Мы работаем удаленно с клиентами в любой стране."
       },
       "contact": {
-        "title": "Контакт",
-        "body": "Телефон: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nЭлектронная почта: info@starlightvisualstudio.de\n\nПо вопросам проекта, юридическим уведомлениям или запросам о конфиденциальности свяжитесь с нами, используя контактную информацию выше."
+        "title": "Контакты",
+        "items": {
+          "phone": {
+            "label": "Телефон",
+            "value": "+1 (317) 339-6029"
+          },
+          "whatsapp": {
+            "label": "WhatsApp",
+            "value": "+44 7348 550667"
+          },
+          "email": {
+            "label": "Электронная почта",
+            "value": "info@starlightvisualstudio.de"
+          }
+        },
+        "note": "Для запросов по проекту, юридических уведомлений или запросов о конфиденциальности используйте приведенную выше информацию."
       },
       "responsibility": {
         "title": "Ответственность за контент",

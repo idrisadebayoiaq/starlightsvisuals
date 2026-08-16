@@ -1812,11 +1812,43 @@
     "sections": {
       "operator": {
         "title": "כתובות מפעיל ועסק",
-        "body": "Starlights Visuals\nאנימציה יצירתית וסטודיו VFX\nמייסד ומנהל: Boluwaji Ominiran\n\nמשרד פיזי ראשי:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nארצות הברית\n\nכתובת התכתבות אירופית (דרך ווייז):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nכתובת העסק בבריטניה:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nבריטניה\n\nאנו פועלים מרחוק ועובדים עם לקוחות בכל המדינות."
+        "company": "Starlights Visuals",
+        "tagline": "אנימציה יצירתית וסטודיו VFX",
+        "founderLabel": "מייסד ומנהל",
+        "founderName": "Boluwaji Ominiran",
+        "addresses": {
+          "us": {
+            "label": "משרד ראשי (ארצות הברית)",
+            "lines": "6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States"
+          },
+          "be": {
+            "label": "כתובת התכתבות אירופית (דרך ווייז)",
+            "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
+          },
+          "uk": {
+            "label": "כתובת העסק בבריטניה",
+            "lines": "4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nUnited Kingdom"
+          }
+        },
+        "remote": "אנו עובדים מרחוק עם לקוחות בכל מדינה."
       },
       "contact": {
-        "title": "מַגָע",
-        "body": "טלפון: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nדוא\"ל: info@starlightvisualstudio.de\n\nלשאלות פרויקטים, הודעות משפטיות או בקשות לפרטיות, צור איתנו קשר באמצעות הפרטים שלמעלה."
+        "title": "צור קשר",
+        "items": {
+          "phone": {
+            "label": "טֵלֵפוֹן",
+            "value": "+1 (317) 339-6029"
+          },
+          "whatsapp": {
+            "label": "WhatsApp",
+            "value": "+44 7348 550667"
+          },
+          "email": {
+            "label": "אֶלֶקטרוֹנִי",
+            "value": "info@starlightvisualstudio.de"
+          }
+        },
+        "note": "עבור פניות לפרויקט, הודעות משפטיות או בקשות לפרטיות, אנא השתמש בפרטים שלמעלה."
       },
       "responsibility": {
         "title": "אחריות על התוכן",
