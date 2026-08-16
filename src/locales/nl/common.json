@@ -47,27 +47,27 @@
     "emailPlaceholder": "your@email.com",
     "join": "Aanmelden",
     "subscribed": "✦ Je bent binnen. Welkom bij Starlights.",
-    "tagline": "Een creatieve studio die de verbeelding tot leven brengt door middel van filmische 2D-animatie, hoogwaardige 3D-ervaringen en VFX.",
+    "tagline": "Een creatieve studio die de verbeelding tot leven brengt door middel van filmische 2D animatie, hoogwaardige 3D ervaringen en VFX.",
     "explore": "Ontdekken",
     "follow": "Volgen",
     "social": "Sociale link",
     "copyright": "© {{year}} Starlights Visuals. Gemaakt met licht & code.",
     "joining": "Deelnemen…",
-    "subscribeError": "Kon momenteel niet abonneren. Probeer het opnieuw of stuur ons direct een e-mail.",
+    "subscribeError": "Kon momenteel niet abonneren. Probeer het opnieuw of stuur ons direct een e mail.",
     "adminLogin": "Beheerder",
-    "emailRequired": "Voer uw e-mailadres in.",
-    "emailInvalid": "Voer een geldig e-mailadres in.",
+    "emailRequired": "Voer uw e mailadres in.",
+    "emailInvalid": "Voer een geldig e mailadres in.",
     "privacy": "Privacybeleid",
     "euGdpr": "EU AVG",
     "imprint": "Afdruk"
   },
   "home": {
-    "metaTitle": "Starlights-beelden | Animatie- en VFX-studio",
-    "metaDescription": "Een creatieve studio voor 2D- en 3D-animatie, VFX en filmische verhalen. Wij brengen werelden, personages en films tot leven.",
+    "metaTitle": "Starlights Visuals | Animatie- en VFX studio",
+    "metaDescription": "Een creatieve studio voor 2D- en 3D animatie, VFX en filmische verhalen. Wij brengen werelden, personages en films tot leven.",
     "heroScript": "Verhalen in beweging —",
     "heroTitle1": "ANIMATIE",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals brengt verhalen tot leven met animatie en visuele effecten die het publiek boeien en elk frame verheffen. We animeren fantasy-wezens, menselijke personages, voertuigen, omgevingen, props en hard-surface objecten — voor film, series, reclame en merkcampagnes.",
+    "heroBody": "Starlights Visuals brengt verhalen tot leven met animatie en visuele effecten die het publiek boeien en elk frame verheffen. We animeren fantasy wezens, menselijke personages, voertuigen, omgevingen, props en hard surface objecten — voor film, series, reclame en merkcampagnes.",
     "heroAlt": "Starlights Visuals filmheld",
     "seePortfolio": "Zie Portefeuille",
     "startProject": "Start een project",
@@ -85,7 +85,7 @@
     "services": {
       "01": {
         "title": "Animatie en VFX",
-        "desc": "Filmische 2D- en 3D-animatie, personage-rigs en visuele effecten voor film, series en merken."
+        "desc": "Filmische 2D- en 3D animatie, personage rigs en visuele effecten voor film, series en merken."
       },
       "02": {
         "title": "Productanimatie",
@@ -102,16 +102,16 @@
     },
     "showcase": {
       "character": {
-        "tag": "3D-animatie",
-        "title": "3D-animatie"
+        "tag": "3D animatie",
+        "title": "3D animatie"
       },
       "gameArt": {
         "tag": "Bewegende grafische afbeeldingen",
         "title": "Bewegende grafische afbeeldingen"
       },
       "animation2d": {
-        "tag": "2D-animatie",
-        "title": "2D-animatie"
+        "tag": "2D animatie",
+        "title": "2D animatie"
       },
       "cinematic": {
         "tag": "VFX",
@@ -151,27 +151,27 @@
     "items": {
       "hauke": {
         "headline": "Efficiënt, betrouwbaar en ten zeerste aanbevolen",
-        "quote": "Starlight Visuals ondersteunde ons bij het maken van een CGI-video voor SmarAct Automation, met als doel onze kerncompetenties op een duidelijke, professionele en visueel aantrekkelijke manier te presenteren. De samenwerking verliep van begin tot eind zeer efficiënt en betrouwbaar. We waardeerden vooral de snelle reactietijden, snelle doorlooptijd, sterke communicatie en betrouwbare levering van de definitieve bestanden. Onze wensen werden snel begrepen en professioneel geïmplementeerd. Wij zijn zeer tevreden met het resultaat en kunnen Starlight Visuals met vertrouwen aanbevelen voor hoogwaardige CGI- en visuele contentprojecten.",
+        "quote": "Starlight Visuals ondersteunde ons bij het maken van een CGI video voor SmarAct Automation, met als doel onze kerncompetenties op een duidelijke, professionele en visueel aantrekkelijke manier te presenteren. De samenwerking verliep van begin tot eind zeer efficiënt en betrouwbaar. We waardeerden vooral de snelle reactietijden, snelle doorlooptijd, sterke communicatie en betrouwbare levering van de definitieve bestanden. Onze wensen werden snel begrepen en professioneel geïmplementeerd. Wij zijn zeer tevreden met het resultaat en kunnen Starlight Visuals met vertrouwen aanbevelen voor hoogwaardige CGI- en visuele contentprojecten.",
         "role": "Digitale marketing- en contentmanager"
       },
       "jeremy": {
         "headline": "Van schetsen tot een afgewerkte helmfilm",
-        "quote": "Het werken met Starlight Visuals was van begin tot eind een geweldige ervaring. Ze creëerden niet alleen een animatie, maar waren bij het hele proces betrokken, van het verfijnen van onze eerste schetsen tot het ondersteunen van de CAD-ontwikkeling en het leveren van een uiteindelijke helmanimatie die ons concept tot leven bracht. Wat het meest opviel, was hoe snel ze het product begrepen en technische details vertaalden naar beelden die zowel accuraat als boeiend waren. De uiteindelijke presentatievideo bood ons een professionele manier om ons helmontwerp aan partners en belanghebbenden te presenteren. Ze waren responsief, gemakkelijk om mee samen te werken en deden er echt alles aan om elk detail goed te krijgen. Ik zou ze graag aanbevelen aan iedereen die op zoek is naar hoogwaardige productanimatie en -visualisatie.",
+        "quote": "Het werken met Starlight Visuals was van begin tot eind een geweldige ervaring. Ze creëerden niet alleen een animatie, maar waren bij het hele proces betrokken, van het verfijnen van onze eerste schetsen tot het ondersteunen van de CAD ontwikkeling en het leveren van een uiteindelijke helmanimatie die ons concept tot leven bracht. Wat het meest opviel, was hoe snel ze het product begrepen en technische details vertaalden naar beelden die zowel accuraat als boeiend waren. De uiteindelijke presentatievideo bood ons een professionele manier om ons helmontwerp aan partners en belanghebbenden te presenteren. Ze waren responsief, gemakkelijk om mee samen te werken en deden er echt alles aan om elk detail goed te krijgen. Ik zou ze graag aanbevelen aan iedereen die op zoek is naar hoogwaardige productanimatie en -visualisatie.",
         "role": "Oprichter"
       },
       "raiv": {
         "headline": "Ze gaven echt om elk personage",
-        "quote": "Ik vond het erg leuk om met het team te werken. Het voelde alsof ze echt om het project gaven en wilden dat de personages er goed uitzagen en aanvoelden. De communicatie was altijd gemakkelijk, ze stonden open voor feedback en elke herziening werd probleemloos afgehandeld. Het was spannend om onze NSFW-personages tot leven te zien komen.",
+        "quote": "Ik vond het erg leuk om met het team te werken. Het voelde alsof ze echt om het project gaven en wilden dat de personages er goed uitzagen en aanvoelden. De communicatie was altijd gemakkelijk, ze stonden open voor feedback en elke herziening werd probleemloos afgehandeld. Het was spannend om onze NSFW personages tot leven te zien komen.",
         "role": "Speldirecteur"
       },
       "ilija": {
         "headline": "Duidelijke beelden voor elektrische voertuigtechnologie",
-        "quote": "Ze hielpen ons PHR-concept op creatieve wijze vorm te geven en leverden geweldige video's op, waarbij ze ervoor zorgden dat de beelden duidelijk laten zien hoe onze elektrische voertuigtechnologie werkt. Hun aandacht voor detail, creativiteit en bereidheid om te herhalen zorgden ervoor dat het hele proces soepel verliep. De uiteindelijke animatie gaf ons een veel duidelijkere manier om ons product aan partners en belanghebbenden te presenteren.",
+        "quote": "Ze hielpen ons PHR concept op creatieve wijze vorm te geven en leverden geweldige video's op, waarbij ze ervoor zorgden dat de beelden duidelijk laten zien hoe onze elektrische voertuigtechnologie werkt. Hun aandacht voor detail, creativiteit en bereidheid om te herhalen zorgden ervoor dat het hele proces soepel verliep. De uiteindelijke animatie gaf ons een veel duidelijkere manier om ons product aan partners en belanghebbenden te presenteren.",
         "role": "Oprichter"
       },
       "luigi": {
         "headline": "Precies wat we nodig hadden voor M12 en B12",
-        "quote": "We hadden een duidelijke manier nodig om de verschillen tussen onze M12- en B12-producten te laten zien, en Starlight Visuals leverde precies wat we zochten. De animaties waren van hoge kwaliteit, gemakkelijk te begrijpen en legden elk belangrijk detail vast.",
+        "quote": "We hadden een duidelijke manier nodig om de verschillen tussen onze M12- en B12 producten te laten zien, en Starlight Visuals leverde precies wat we zochten. De animaties waren van hoge kwaliteit, gemakkelijk te begrijpen en legden elk belangrijk detail vast.",
         "role": "Productiemanager"
       },
       "jason": {
@@ -204,8 +204,8 @@
     "tapToRead": "Tik om de volledige recensie te lezen"
   },
   "servicesPage": {
-    "metaTitle": "Diensten | Starlights-beelden",
-    "metaDescription": "2D-animatie, 3D-animatie, karakterontwerp, motion graphics, VFX, productanimatie en filmische trailers.",
+    "metaTitle": "Diensten | Starlights Visuals",
+    "metaDescription": "2D animatie, 3D animatie, karakterontwerp, motion graphics, VFX, productanimatie en filmische trailers.",
     "label": "Wat wij bouwen",
     "title": "DIENSTEN",
     "subtitle": "Eén studio, elke productiefase, van de eerste schets tot de laatste pixel.",
@@ -216,11 +216,11 @@
     "ctaButton": "Neem contact op",
     "items": {
       "2d": {
-        "title": "2D-animatie",
+        "title": "2D animatie",
         "desc": "Frame voor frame & rigged 2D voor series, korte films, uitlegfilms en merkfilms. We combineren klassiek vakmanschap met digitale pijplijnen."
       },
       "3d": {
-        "title": "3D-animatie",
+        "title": "3D animatie",
         "desc": "Gestileerde en fotorealistische 3D, personages, omgevingen en volledige filmische sequenties met hoogwaardige afwerking."
       },
       "character": {
@@ -229,11 +229,11 @@
       },
       "motion": {
         "title": "Bewegende grafische afbeeldingen",
-        "desc": "Merkbewegingen, UI-animatie, uitzendpakketten en uitlegvideo's met filmisch tintje."
+        "desc": "Merkbewegingen, UI animatie, uitzendpakketten en uitlegvideo's met filmisch tintje."
       },
       "vfx": {
         "title": "Visuele effecten (VFX)",
-        "desc": "Compositie, deeltjes-FX en CG-integratie voor film-, reclame- en digitale campagnes."
+        "desc": "Compositie, deeltjes FX en CG integratie voor film-, reclame- en digitale campagnes."
       },
       "trailer": {
         "title": "Filmische trailers",
@@ -242,14 +242,14 @@
     }
   },
   "aboutPage": {
-    "metaTitle": "Over | Starlights-beelden",
-    "metaDescription": "Starlight Visuals is een animatiestudio van wereldklasse die uitzonderlijke visuele ervaringen creëert op het gebied van industriële productanimatie, game-animatie, productvisualisatie en 2D- en 3D-karakteranimatie.",
+    "metaTitle": "Over | Starlights Visuals",
+    "metaDescription": "Starlight Visuals is een animatiestudio van wereldklasse die uitzonderlijke visuele ervaringen creëert op het gebied van industriële productanimatie, game animatie, productvisualisatie en 2D- en 3D karakteranimatie.",
     "label": "Wie we zijn",
     "title1": "EEN STUDIO OPGEBOUWD",
     "title2": "LICHT, CODE & VERHAAL",
-    "p1": "Starlight Visuals is een animatiestudio van wereldklasse die uitzonderlijke visuele ervaringen creëert op het gebied van industriële productanimatie, game-animatie, productvisualisatie en 2D- en 3D-karakteranimatie. We combineren artistieke uitmuntendheid met de allernieuwste technologie om ideeën om te zetten in beelden die boeien, onderwijzen en inspireren. Van technisch aangestuurde industriële animaties en fotorealistische productweergaven tot gestileerde tekenfilms, expressieve karakteruitvoeringen en filmische spelsequenties: wij creëren animaties die zowel visuele impact als betekenisvolle resultaten opleveren.",
-    "p2": "Of het nu gaat om het presenteren van de innovatie van een product, het tot leven brengen van een game-universum of het creëren van gedenkwaardige geanimeerde personages, elk frame is doelbewust en nauwkeurig ontworpen. Ons multidisciplinaire team van animators, technische kunstenaars, modelbouwers, riggers, motion designers en visuele verhalenvertellers werkt naadloos samen om werk te produceren dat aan de hoogste creatieve en technische normen voldoet. Wij geloven dat geweldige animatie meer doet dan er mooi uitzien: het communiceert complexe ideeën, versterkt merken en creëert blijvende emotionele verbindingen.",
-    "p3": "We werken samen met fabrikanten, productbedrijven, game-ontwikkelaars, creatieve bureaus en wereldwijde merken om premium animatie te leveren voor marketing, productlanceringen, training, entertainment, reclame en digitale ervaringen. Elk project wordt gedreven door innovatie, vakmanschap en een compromisloze toewijding aan kwaliteit. Bij Starlight Visuals animeren we niet alleen, we ontwikkelen ervaringen, bouwen onvergetelijke personages en creëren visuals die mensen en bedrijven vooruit helpen.",
+    "p1": "Starlight Visuals is een animatiestudio van wereldklasse die uitzonderlijke visuele ervaringen creëert op het gebied van industriële productanimatie, game animatie, productvisualisatie en 2D- en 3D karakteranimatie. We combineren artistieke uitmuntendheid met de allernieuwste technologie om ideeën om te zetten in beelden die boeien, onderwijzen en inspireren. Van technisch aangestuurde industriële animaties en fotorealistische productweergaven tot gestileerde tekenfilms, expressieve karakteruitvoeringen en filmische spelsequenties: wij creëren animaties die zowel visuele impact als betekenisvolle resultaten opleveren.",
+    "p2": "Of het nu gaat om het presenteren van de innovatie van een product, het tot leven brengen van een game universum of het creëren van gedenkwaardige geanimeerde personages, elk frame is doelbewust en nauwkeurig ontworpen. Ons multidisciplinaire team van animators, technische kunstenaars, modelbouwers, riggers, motion designers en visuele verhalenvertellers werkt naadloos samen om werk te produceren dat aan de hoogste creatieve en technische normen voldoet. Wij geloven dat geweldige animatie meer doet dan er mooi uitzien: het communiceert complexe ideeën, versterkt merken en creëert blijvende emotionele verbindingen.",
+    "p3": "We werken samen met fabrikanten, productbedrijven, game ontwikkelaars, creatieve bureaus en wereldwijde merken om premium animatie te leveren voor marketing, productlanceringen, training, entertainment, reclame en digitale ervaringen. Elk project wordt gedreven door innovatie, vakmanschap en een compromisloze toewijding aan kwaliteit. Bij Starlight Visuals animeren we niet alleen, we ontwikkelen ervaringen, bouwen onvergetelijke personages en creëren visuals die mensen en bedrijven vooruit helpen.",
     "valuesLabel": "Kernwaarden",
     "valuesTitle": "WAT ONS drijft",
     "values": {
@@ -278,8 +278,8 @@
     }
   },
   "contactPage": {
-    "metaTitle": "Contact | Starlights-beelden",
-    "metaDescription": "Neem contact op met Starlights Visuals voor 2D- en 3D-animatie, motion graphics, VFX, productanimatie en filmische trailerprojecten.",
+    "metaTitle": "Contact | Starlights Visuals",
+    "metaDescription": "Neem contact op met Starlights Visuals voor 2D- en 3D animatie, motion graphics, VFX, productanimatie en filmische trailerprojecten.",
     "label": "Laten we praten",
     "title": "CONTACT",
     "subtitle": "Productieaanvragen, samenwerkingen of gewoon hallo zeggen, stuur ons een signaal.",
@@ -298,28 +298,28 @@
     "responseTime": "REACTIETIJD",
     "responseDesc": "Binnen 24 uur, ma, vr.",
     "projectTypes": {
-      "2d": "2D-animatie",
-      "3d": "3D-animatie",
+      "2d": "2D animatie",
+      "3d": "3D animatie",
       "trailer": "Filmische trailer",
       "character": "Karakterontwerp",
       "motion": "Bewegende beelden en VFX",
       "other": "Ander"
     },
     "sending": "Verzenden…",
-    "errorGeneric": "Kan uw bericht niet verzenden. Stuur ons een directe e-mail of probeer het opnieuw.",
+    "errorGeneric": "Kan uw bericht niet verzenden. Stuur ons een directe e mail of probeer het opnieuw.",
     "sentToast": "Bericht succesvol verzonden.",
     "sendAnother": "Stuur nog een bericht",
     "errors": {
       "nameRequired": "Voer uw naam in.",
-      "emailRequired": "Voer uw e-mailadres in.",
-      "emailInvalid": "Voer een geldig e-mailadres in.",
+      "emailRequired": "Voer uw e mailadres in.",
+      "emailInvalid": "Voer een geldig e mailadres in.",
       "serviceRequired": "Kies een dienst.",
       "messageRequired": "Voer een bericht in."
     }
   },
   "portfolioPage": {
-    "metaTitle": "Portefeuille | Starlights-beelden",
-    "metaDescription": "Geselecteerde projecten: animatieseries, filmische trailers, karakterontwerpen en studio-showcaserollen van Starlights Visuals.",
+    "metaTitle": "Portefeuille | Starlights Visuals",
+    "metaDescription": "Geselecteerde projecten: animatieseries, filmische trailers, karakterontwerpen en studio showcaserollen van Starlights Visuals.",
     "label": "Geselecteerd werk",
     "title1": "HAVEN",
     "title2": "FOLIO",
@@ -336,9 +336,9 @@
         "desc": "Heldenhoofdrolspelerblad."
       },
       "2d": {
-        "tag": "2D-animatie",
-        "title": "Neon-horizon",
-        "desc": "Op anime geïnspireerde pilot-aflevering."
+        "tag": "2D animatie",
+        "title": "Neon horizon",
+        "desc": "Op anime geïnspireerde pilot aflevering."
       },
       "creature": {
         "tag": "Ontwerp van wezens",
@@ -352,13 +352,13 @@
       },
       "motionEnv": {
         "tag": "Bewegende grafische afbeeldingen",
-        "title": "Pulse-werelden",
+        "title": "Pulse werelden",
         "desc": "Meeslepende merkomgevingskunst."
       }
     }
   },
   "blogPage": {
-    "metaTitle": "Blog | Starlights-beelden",
+    "metaTitle": "Blog | Starlights Visuals",
     "metaDescription": "Inzichten over animatie, VFX, filmische trailers en premium merkverhalen van Starlights Visuals.",
     "label": "Studiojournaal",
     "title1": "DE",
@@ -381,21 +381,21 @@
       },
       "character-design-for-ip": {
         "title": "Karakterontwerp dat uw IP op elk kanaal verankert",
-        "excerpt": "Van de leesbaarheid van silhouet tot merchandise-ready turnarounds, de checklist die we gebruiken voordat een held in productie gaat.",
+        "excerpt": "Van de leesbaarheid van silhouet tot merchandise ready turnarounds, de checklist die we gebruiken voordat een held in productie gaat.",
         "category": "Ambacht",
         "date": "3 mei 2026",
         "readTime": "5 minuten lezen"
       },
       "motion-systems-for-brands": {
         "title": "Merken van bewegingssystemen kunnen ze daadwerkelijk hergebruiken",
-        "excerpt": "Modulaire bewegingsbibliotheken, logo-strings en UI-micro-interacties die campagnes op schaal consistent houden.",
+        "excerpt": "Modulaire bewegingsbibliotheken, logo strings en UI micro interacties die campagnes op schaal consistent houden.",
         "category": "Beweging",
         "date": "8 april 2026",
         "readTime": "4 minuten lezen"
       },
       "2d-animation-in-2026": {
-        "title": "2D-animatie in 2026: hybride pijpleidingen die nog steeds handgemaakt aanvoelen",
-        "excerpt": "Door rigoureuze efficiëntie te combineren met frame-voor-frame accenten, wanneer je elke techniek moet pushen voor eersteklas resultaten.",
+        "title": "2D animatie in 2026: hybride pijpleidingen die nog steeds handgemaakt aanvoelen",
+        "excerpt": "Door rigoureuze efficiëntie te combineren met frame voor frame accenten, wanneer je elke techniek moet pushen voor eersteklas resultaten.",
         "category": "Animatie",
         "date": "29 maart 2026",
         "readTime": "7 minuten lezen"
@@ -429,8 +429,8 @@
     "goHome": "Naar home"
   },
   "meta": {
-    "rootTitle": "Starlights-beelden | Animatie- en VFX-studio",
-    "rootDescription": "Starlights Visuals is een creatieve studio gespecialiseerd in filmische 2D-animatie, hoogwaardige 3D-animatie en VFX.",
+    "rootTitle": "Starlights Visuals | Animatie- en VFX studio",
+    "rootDescription": "Starlights Visuals is een creatieve studio gespecialiseerd in filmische 2D animatie, hoogwaardige 3D animatie en VFX.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -465,34 +465,34 @@
     "portfolioHubDesc": "Ontdek werk per categorie, animatie, VFX, beweging en meer.",
     "categories": {
       "2d-animation": {
-        "title": "2D-animatie",
+        "title": "2D animatie",
         "tagline": "Frame voor frame ambacht voor campagnes en series",
-        "description": "Karaktergestuurde 2D-animatie voor commercials, uitleggers en episodische inhoud met gedurfde bewegingen en filmische timing."
+        "description": "Karaktergestuurde 2D animatie voor commercials, uitleggers en episodische inhoud met gedurfde bewegingen en filmische timing."
       },
       "3d-animation": {
-        "title": "3D-animatie",
+        "title": "3D animatie",
         "tagline": "Gestileerde en fotorealistische 3D voor film en merken",
-        "description": "Hoogwaardige 3D-personage-, product- en filmische animaties met verfijning van de functies voor campagnes en series."
+        "description": "Hoogwaardige 3D personage-, product- en filmische animaties met verfijning van de functies voor campagnes en series."
       },
       "motion-graphics": {
         "title": "Bewegende grafische afbeeldingen",
-        "tagline": "Ontwerp led-bewegingssystemen voor lanceringen en merkwerelden",
-        "description": "Ontwerp led-bewegingssystemen voor lanceringen, dashboards en merkwerelden die over alle kanalen heen schalen."
+        "tagline": "Ontwerp led bewegingssystemen voor lanceringen en merkwerelden",
+        "description": "Ontwerp led bewegingssystemen voor lanceringen, dashboards en merkwerelden die over alle kanalen heen schalen."
       },
       "vfx": {
         "title": "Visuele effecten (VFX)",
         "tagline": "Compositie, FX en filmische afwerking",
-        "description": "Visuele effecten voor trailers, productfilms en merkinhoud, van opruimacties tot volledige CG-integratie."
+        "description": "Visuele effecten voor trailers, productfilms en merkinhoud, van opruimacties tot volledige CG integratie."
       }
     },
     "showcase": {
       "2d-animation": {
-        "tag": "2D-animatie",
-        "title": "2D-animatie"
+        "tag": "2D animatie",
+        "title": "2D animatie"
       },
       "3d-animation": {
-        "tag": "3D-animatie",
-        "title": "3D-animatie"
+        "tag": "3D animatie",
+        "title": "3D animatie"
       },
       "motion-graphics": {
         "tag": "Bewegende grafische afbeeldingen",
@@ -516,11 +516,11 @@
         "chibi-art": {
           "name": "CHIBI ART",
           "industry": "Karakter en animatie",
-          "description": "2D-karakteranimatie in Chibi-stijl met expressieve scènes en procesfilms achter de schermen.",
+          "description": "2D karakteranimatie in Chibi stijl met expressieve scènes en procesfilms achter de schermen.",
           "timeline": "2025",
           "services": {
-            "0": "2D-animatie",
-            "1": "Chibi-kunst",
+            "0": "2D animatie",
+            "1": "Chibi kunst",
             "2": "Karakteranimatie"
           },
           "tools": {
@@ -532,12 +532,12 @@
         "vtuber-animation": {
           "name": "VTUBER ANIMATION",
           "industry": "VTuber & Karakter",
-          "description": "VTuber-personagekunst en 2D-animatie met modelleringsprocesfilms, gepolijste samples en prestaties in Live2D-stijl.",
+          "description": "VTuber personagekunst en 2D animatie met modelleringsprocesfilms, gepolijste samples en prestaties in Live2D stijl.",
           "timeline": "2025",
           "services": {
-            "0": "VTuber-animatie",
-            "1": "2D-karakter",
-            "2": "Live2D-stijl"
+            "0": "VTuber animatie",
+            "1": "2D karakter",
+            "2": "Live2D stijl"
           },
           "tools": {
             "0": "Live2D",
@@ -548,26 +548,26 @@
         "live2d-animation": {
           "name": "LIVE2D ANIMATION",
           "industry": "Live2D en karakter",
-          "description": "Live2D-karakterkunst, rigging en animatie, van het maken van procesfilms tot gepolijste voorbeelduitvoeringen.",
+          "description": "Live2D karakterkunst, rigging en animatie, van het maken van procesfilms tot gepolijste voorbeelduitvoeringen.",
           "timeline": "2025",
           "services": {
             "0": "Live2D",
             "1": "Tuigage",
-            "2": "2D-karakteranimatie"
+            "2": "2D karakteranimatie"
           },
           "tools": {
-            "0": "Live2D-kubisme",
+            "0": "Live2D kubisme",
             "1": "Na effecten",
             "2": "Photoshoppen"
           }
         },
         "2d-anime-animation": {
           "name": "2D ANIME ANIMATION",
-          "industry": "Anime en 2D-animatie",
-          "description": "Hoogwaardige 2D-animatie in anime-stijl en muziekvideo's met expressieve karakters en filmische bewegingen.",
+          "industry": "Anime en 2D animatie",
+          "description": "Hoogwaardige 2D animatie in anime stijl en muziekvideo's met expressieve karakters en filmische bewegingen.",
           "timeline": "2025",
           "services": {
-            "0": "2D-anime",
+            "0": "2D anime",
             "1": "Muziekvideo",
             "2": "Karakteranimatie"
           },
@@ -598,10 +598,10 @@
         "3d-cartoon-animation": {
           "name": "3D CARTOON ANIMATION",
           "industry": "Karakter en animatie",
-          "description": "Gestileerde 3D-tekenfilmkarakteranimatie en showcasefilms met speelse bewegingen en gepolijste presentatie.",
+          "description": "Gestileerde 3D tekenfilmkarakteranimatie en showcasefilms met speelse bewegingen en gepolijste presentatie.",
           "timeline": "2025",
           "services": {
-            "0": "3D-tekenfilmanimatie",
+            "0": "3D tekenfilmanimatie",
             "1": "Karaktershow",
             "2": "Gestileerde CGI"
           },
@@ -614,10 +614,10 @@
         "3d-explainer-video": {
           "name": "3D EXPLAINER VIDEO",
           "industry": "Product en uitleg",
-          "description": "3D-uitleg- en productpresentatiefilms over merkverhalen, 360° productdisplays en commerciële animatie.",
+          "description": "3D uitleg- en productpresentatiefilms over merkverhalen, 360° productdisplays en commerciële animatie.",
           "timeline": "2025",
           "services": {
-            "0": "3D-uitleg",
+            "0": "3D uitleg",
             "1": "Productpresentatie",
             "2": "360 productweergave"
           },
@@ -630,7 +630,7 @@
         "3d-medical-animation": {
           "name": "3D MEDICAL ANIMATION",
           "industry": "Gezondheidszorg en medische visualisatie",
-          "description": "Hoogwaardige medische 3D-animatie over anatomie, chirurgische procedures en visualisatie van medische apparatuur.",
+          "description": "Hoogwaardige medische 3D animatie over anatomie, chirurgische procedures en visualisatie van medische apparatuur.",
           "timeline": "2025",
           "services": {
             "0": "Medische animatie",
@@ -646,11 +646,11 @@
         "3d-anime-character": {
           "name": "3D ANIME CHARACTER",
           "industry": "Karakter en anime",
-          "description": "3D-anime-karaktermodellering en showcasefilms voor klanten met gestileerde materialen en een gepolijste presentatie.",
+          "description": "3D anime karaktermodellering en showcasefilms voor klanten met gestileerde materialen en een gepolijste presentatie.",
           "timeline": "2025",
           "services": {
-            "0": "3D-karakter",
-            "1": "Anime-CGI",
+            "0": "3D karakter",
+            "1": "Anime CGI",
             "2": "Klantenshow"
           },
           "tools": {
@@ -664,12 +664,12 @@
         "watch-animation": {
           "name": "WATCH ANIMATION",
           "industry": "Luxe horloges",
-          "description": "Fotorealistische 3D-productanimaties en filmische packshot-films voor luxe uurwerken.",
+          "description": "Fotorealistische 3D productanimaties en filmische packshot films voor luxe uurwerken.",
           "timeline": "2025",
           "services": {
-            "0": "3D-productanimatie",
+            "0": "3D productanimatie",
             "1": "Bekijk CGI",
-            "2": "Packshot-films"
+            "2": "Packshot films"
           },
           "tools": {
             "0": "Bioscoop 4D",
@@ -679,13 +679,13 @@
         },
         "ryse-drink-3d-product-animation": {
           "name": "RYSE DRINK 3D PRODUCT ANIMATION",
-          "industry": "Drank- en product-CGI",
-          "description": "Fotorealistische 3D-drankproductanimatie voor Ryse-drank- en limonadecampagnes met filmische packshot-afwerking.",
+          "industry": "Drank- en product CGI",
+          "description": "Fotorealistische 3D drankproductanimatie voor Ryse drank- en limonadecampagnes met filmische packshot afwerking.",
           "timeline": "2025",
           "services": {
-            "0": "3D-productanimatie",
-            "1": "Drank-CGI",
-            "2": "Packshot-films"
+            "0": "3D productanimatie",
+            "1": "Drank CGI",
+            "2": "Packshot films"
           },
           "tools": {
             "0": "Bioscoop 4D",
@@ -696,12 +696,12 @@
         "3d-perfume-animation": {
           "name": "3D PERFUME ANIMATION",
           "industry": "Schoonheid en geur",
-          "description": "Fotorealistische 3D-parfumproductanimatie voor luxe geurlanceringen en campagneheldenfilms.",
+          "description": "Fotorealistische 3D parfumproductanimatie voor luxe geurlanceringen en campagneheldenfilms.",
           "timeline": "2025",
           "services": {
-            "0": "3D-productanimatie",
-            "1": "Geur-CGI",
-            "2": "Packshot-films"
+            "0": "3D productanimatie",
+            "1": "Geur CGI",
+            "2": "Packshot films"
           },
           "tools": {
             "0": "Bioscoop 4D",
@@ -712,12 +712,12 @@
         "3d-gadget-animation": {
           "name": "3D GADGET ANIMATION",
           "industry": "Consumentenelektronica",
-          "description": "Fotorealistische 3D-gadget- en oordopjesproductanimatie met studioverlichting, materiaaldetails en campagneklare beweging.",
+          "description": "Fotorealistische 3D gadget- en oordopjesproductanimatie met studioverlichting, materiaaldetails en campagneklare beweging.",
           "timeline": "2025",
           "services": {
-            "0": "3D-productanimatie",
-            "1": "Gadget-CGI",
-            "2": "Packshot-films"
+            "0": "3D productanimatie",
+            "1": "Gadget CGI",
+            "2": "Packshot films"
           },
           "tools": {
             "0": "Bioscoop 4D",
@@ -728,12 +728,12 @@
         "vape-animation": {
           "name": "VAPE ANIMATION",
           "industry": "Consumentenproducten",
-          "description": "Fotorealistische 3D-vape-productanimatie met studioverlichting, materiaaldetails en packshot-films die klaar zijn voor campagne.",
+          "description": "Fotorealistische 3D vape productanimatie met studioverlichting, materiaaldetails en packshot films die klaar zijn voor campagne.",
           "timeline": "2025",
           "services": {
-            "0": "3D-productanimatie",
-            "1": "Vape-CGI",
-            "2": "Packshot-films"
+            "0": "3D productanimatie",
+            "1": "Vape CGI",
+            "2": "Packshot films"
           },
           "tools": {
             "0": "Bioscoop 4D",
@@ -744,12 +744,12 @@
         "bag-suitcase-animation": {
           "name": "BAG/SUITCASE ANIMATION",
           "industry": "Reizen en levensstijl",
-          "description": "Realistische 3D-productanimatie voor tassen en koffers met filmische packshot-afwerking.",
+          "description": "Realistische 3D productanimatie voor tassen en koffers met filmische packshot afwerking.",
           "timeline": "2025",
           "services": {
-            "0": "3D-productanimatie",
+            "0": "3D productanimatie",
             "1": "Zak CGI",
-            "2": "Packshot-films"
+            "2": "Packshot films"
           },
           "tools": {
             "0": "Bioscoop 4D",
@@ -760,10 +760,10 @@
         "drop-band-animation": {
           "name": "DROP BAND ANIMATION",
           "industry": "Draagbare artikelen en accessoires",
-          "description": "Drop Band-productanimatie over films over het productieproces en de uiteindelijke gepolijste resultaten.",
+          "description": "Drop Band productanimatie over films over het productieproces en de uiteindelijke gepolijste resultaten.",
           "timeline": "2025",
           "services": {
-            "0": "3D-productanimatie",
+            "0": "3D productanimatie",
             "1": "Procesfilm",
             "2": "Draagbare CGI"
           },
@@ -776,12 +776,12 @@
         "3d-bed-animation": {
           "name": "3D BED ANIMATION",
           "industry": "Meubels en beddengoed",
-          "description": "Fotorealistische 3D-matras- en bedproductanimatie voor meubelmerken met filmische packshot-afwerking.",
+          "description": "Fotorealistische 3D matras- en bedproductanimatie voor meubelmerken met filmische packshot afwerking.",
           "timeline": "2025",
           "services": {
-            "0": "3D-productanimatie",
-            "1": "Meubel-CGI",
-            "2": "Packshot-films"
+            "0": "3D productanimatie",
+            "1": "Meubel CGI",
+            "2": "Packshot films"
           },
           "tools": {
             "0": "Bioscoop 4D",
@@ -794,7 +794,7 @@
         "ronix": {
           "name": "RONIX",
           "industry": "Elektrisch gereedschap en productie",
-          "description": "Ronix 3D industriële animatie en CGI-productshowfilms voor elektrisch gereedschap.",
+          "description": "Ronix 3D industriële animatie en CGI productshowfilms voor elektrisch gereedschap.",
           "timeline": "2025",
           "services": {
             "0": "Industriële animatie",
@@ -810,7 +810,7 @@
         "mintec": {
           "name": "MINTEC",
           "industry": "Industriële productie",
-          "description": "MinTec Industries presenteert producten en verwerkt films voor industriële 3D-animatie.",
+          "description": "MinTec Industries presenteert producten en verwerkt films voor industriële 3D animatie.",
           "timeline": "2025",
           "services": {
             "0": "Industriële animatie",
@@ -831,7 +831,7 @@
           "services": {
             "0": "Industriële animatie",
             "1": "Procesfilm",
-            "2": "Product-CGI"
+            "2": "Product CGI"
           },
           "tools": {
             "0": "Bioscoop 4D",
@@ -842,11 +842,11 @@
         "credex": {
           "name": "CREDEX",
           "industry": "Reinigingsapparatuur",
-          "description": "CREDEX tapijtreinigingsmachine industriële animatie met filmische SFX-afwerking.",
+          "description": "CREDEX tapijtreinigingsmachine industriële animatie met filmische SFX afwerking.",
           "timeline": "2025",
           "services": {
             "0": "Industriële animatie",
-            "1": "Product-CGI",
+            "1": "Product CGI",
             "2": "Geluidsontwerp"
           },
           "tools": {
@@ -894,7 +894,7 @@
           "timeline": "2025",
           "services": {
             "0": "Industriële animatie",
-            "1": "Product-CGI",
+            "1": "Product CGI",
             "2": "Technische film"
           },
           "tools": {
@@ -906,7 +906,7 @@
         "autoz-crave": {
           "name": "AUTOZ CRAVE",
           "industry": "Automobiel en mechanisch",
-          "description": "Autoz Crave industriële animatie voor mechanische en technische 3D-productfilms.",
+          "description": "Autoz Crave industriële animatie voor mechanische en technische 3D productfilms.",
           "timeline": "2025",
           "services": {
             "0": "Industriële animatie",
@@ -923,16 +923,16 @@
     },
     "projects": {
       "chibi-art-p1": {
-        "title": "Chibi-kunstscène 1",
-        "description": "Expressieve chibi-personagescène met gepolijste 2D-animatie en campagneklare beweging.",
+        "title": "Chibi kunstscène 1",
+        "description": "Expressieve chibi personagescène met gepolijste 2D animatie en campagneklare beweging.",
         "tags": {
           "0": "Chibi",
           "1": "Scène"
         }
       },
       "chibi-art-p2": {
-        "title": "Chibi-kunstscène 2",
-        "description": "Tweede chibi-personagescène met persoonlijkheid, timing en kleurrijke 2D-prestaties.",
+        "title": "Chibi kunstscène 2",
+        "description": "Tweede chibi personagescène met persoonlijkheid, timing en kleurrijke 2D prestaties.",
         "tags": {
           "0": "Chibi",
           "1": "Scène"
@@ -947,127 +947,127 @@
         }
       },
       "vtuber-animation-p1": {
-        "title": "Creatie van Vtuber-modellen",
-        "description": "VTuber-film voor het maken van karaktermodellering over art direction en bouwworkflow.",
+        "title": "Creatie van Vtuber modellen",
+        "description": "VTuber film voor het maken van karaktermodellering over art direction en bouwworkflow.",
         "tags": {
           "0": "VTuber",
           "1": "Modellering"
         }
       },
       "vtuber-animation-p2": {
-        "title": "Vtuber 2D-videoresultaten",
-        "description": "Voltooide 2D VTuber-animatieresultaten met expressieve prestaties en gepolijste bewegingen.",
+        "title": "Vtuber 2D videoresultaten",
+        "description": "Voltooide 2D VTuber animatieresultaten met expressieve prestaties en gepolijste bewegingen.",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p3": {
-        "title": "Prinses Vtuber-modellering",
-        "description": "Prinses VTuber-modelleringsvoorbeeld met karakterontwerp en geanimeerde prestaties.",
+        "title": "Prinses Vtuber modellering",
+        "description": "Prinses VTuber modelleringsvoorbeeld met karakterontwerp en geanimeerde prestaties.",
         "tags": {
           "0": "VTuber",
           "1": "Prinses"
         }
       },
       "vtuber-animation-p4": {
-        "title": "Vtuber 2D-video",
-        "description": "Filmische 2D VTuber-animatie met dynamische karakterbewegingen en expressief acteerwerk.",
+        "title": "Vtuber 2D video",
+        "description": "Filmische 2D VTuber animatie met dynamische karakterbewegingen en expressief acteerwerk.",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p5": {
-        "title": "Vtuber-monster 2",
-        "description": "Tweede VTuber-animatievoorbeeld met gedurfd karakterspel en gepolijste bewegingen.",
+        "title": "Vtuber monster 2",
+        "description": "Tweede VTuber animatievoorbeeld met gedurfd karakterspel en gepolijste bewegingen.",
         "tags": {
           "0": "VTuber",
           "1": "Steekproef"
         }
       },
       "vtuber-animation-p6": {
-        "title": "Vtuber-voorbeeld 3",
-        "description": "Uitgebreide VTuber-personageshowcase met filmisch tempo en expressieve 2D-animatie.",
+        "title": "Vtuber voorbeeld 3",
+        "description": "Uitgebreide VTuber personageshowcase met filmisch tempo en expressieve 2D animatie.",
         "tags": {
           "0": "VTuber",
           "1": "Steekproef"
         }
       },
       "vtuber-animation-p7": {
-        "title": "Vtuber-videoproces",
-        "description": "Achter de schermen VTuber-animatieproces van kunst tot rigging en eindbeweging.",
+        "title": "Vtuber videoproces",
+        "description": "Achter de schermen VTuber animatieproces van kunst tot rigging en eindbeweging.",
         "tags": {
           "0": "Proces",
           "1": "Werkstroom"
         }
       },
       "live2d-animation-p1": {
-        "title": "Live2D-maakproces",
-        "description": "Achter de schermen Live2D-creatieworkflow van kunst tot uiteindelijke geanimeerde uitvoering.",
+        "title": "Live2D maakproces",
+        "description": "Achter de schermen Live2D creatieworkflow van kunst tot uiteindelijke geanimeerde uitvoering.",
         "tags": {
           "0": "Live2D",
           "1": "Proces"
         }
       },
       "live2d-animation-p2": {
-        "title": "Live2D-voorbeeld",
-        "description": "Afgewerkt Live2D-personagevoorbeeld met expressieve poses en gepolijste bewegingen.",
+        "title": "Live2D voorbeeld",
+        "description": "Afgewerkt Live2D personagevoorbeeld met expressieve poses en gepolijste bewegingen.",
         "tags": {
           "0": "Live2D",
           "1": "Steekproef"
         }
       },
       "live2d-animation-p3": {
-        "title": "Live2D-riggingproces",
-        "description": "Live2D rigging-procesfilm met mesh, vervormers en parameterinstellingen.",
+        "title": "Live2D riggingproces",
+        "description": "Live2D rigging procesfilm met mesh, vervormers en parameterinstellingen.",
         "tags": {
           "0": "Live2D",
           "1": "Tuigage"
         }
       },
       "live2d-animation-p4": {
-        "title": "Voorbeeld van Live2D-rigging",
-        "description": "Voorbeeld van een Live2D-tuigagedemonstratie met zuivere parametercontrole en gezichtsacteren.",
+        "title": "Voorbeeld van Live2D rigging",
+        "description": "Voorbeeld van een Live2D tuigagedemonstratie met zuivere parametercontrole en gezichtsacteren.",
         "tags": {
           "0": "Live2D",
           "1": "Tuigage"
         }
       },
       "live2d-animation-p5": {
-        "title": "Live2D-riggingresultaat",
-        "description": "Het uiteindelijke Live2D-rigging-resultaat toont vloeiende bewegingen en expressieve karakterprestaties.",
+        "title": "Live2D riggingresultaat",
+        "description": "Het uiteindelijke Live2D rigging resultaat toont vloeiende bewegingen en expressieve karakterprestaties.",
         "tags": {
           "0": "Live2D",
           "1": "Resultaat"
         }
       },
       "live2d-animation-p6": {
-        "title": "Live2D-film",
-        "description": "Filmische Live2D-animatie met dynamische karakterbewegingen en gepolijste presentatie.",
+        "title": "Live2D film",
+        "description": "Filmische Live2D animatie met dynamische karakterbewegingen en gepolijste presentatie.",
         "tags": {
           "0": "Live2D",
           "1": "Film"
         }
       },
       "2d-anime-animation-p1": {
-        "title": "2D-anime in Japanse stijl",
-        "description": "2D-animatie in Japanse anime-stijl met dynamisch poseren, expressief acteren en gepolijst lijnwerk.",
+        "title": "2D anime in Japanse stijl",
+        "description": "2D animatie in Japanse anime stijl met dynamisch poseren, expressief acteren en gepolijst lijnwerk.",
         "tags": {
           "0": "Anime",
           "1": "2D"
         }
       },
       "2d-anime-animation-p2": {
-        "title": "Anime-muziekvideo",
-        "description": "2D anime-muziekvideo met karaktergedreven verhalen en filmische timing.",
+        "title": "Anime muziekvideo",
+        "description": "2D anime muziekvideo met karaktergedreven verhalen en filmische timing.",
         "tags": {
           "0": "Muziekvideo",
           "1": "Anime"
         }
       },
       "2d-anime-animation-p3": {
-        "title": "Meme Song-animatie",
+        "title": "Meme Song animatie",
         "description": "Speelse 2D anime karakteranimatie getimed op een memesong met gedurfde bewegingen en humor.",
         "tags": {
           "0": "Anime",
@@ -1083,64 +1083,64 @@
         }
       },
       "kids-learning-animation-p2": {
-        "title": "Aangepast 2D-personage",
-        "description": "Aangepaste 2D-karakteranimatie met expressief acteerwerk en kleurrijk gestileerd ontwerp.",
+        "title": "Aangepast 2D personage",
+        "description": "Aangepaste 2D karakteranimatie met expressief acteerwerk en kleurrijk gestileerd ontwerp.",
         "tags": {
           "0": "Karakter",
           "1": "2D"
         }
       },
       "kids-learning-animation-p3": {
-        "title": "Schattig 2D-stripfiguur",
-        "description": "Leuke 2D-tekenfilm met vriendelijke persoonlijkheid en gepolijste kinderinhoudbewegingen.",
+        "title": "Schattig 2D stripfiguur",
+        "description": "Leuke 2D tekenfilm met vriendelijke persoonlijkheid en gepolijste kinderinhoudbewegingen.",
         "tags": {
           "0": "Tekenfilm",
           "1": "Kinderen"
         }
       },
       "3d-cartoon-animation-p1": {
-        "title": "3D-tekenfilmanimatie",
-        "description": "Gestileerde 3D-tekenfilmanimatie met expressieve karakterprestaties en kleurrijke presentatie.",
+        "title": "3D tekenfilmanimatie",
+        "description": "Gestileerde 3D tekenfilmanimatie met expressieve karakterprestaties en kleurrijke presentatie.",
         "tags": {
           "0": "Tekenfilm",
           "1": "3D"
         }
       },
       "3d-cartoon-animation-p2": {
-        "title": "Leuke 3D-stripfiguurshowcase",
-        "description": "Leuke 3D-videoshowcase met stripfiguren met vriendelijke persoonlijkheid en gepolijste bewegingen.",
+        "title": "Leuke 3D stripfiguurshowcase",
+        "description": "Leuke 3D videoshowcase met stripfiguren met vriendelijke persoonlijkheid en gepolijste bewegingen.",
         "tags": {
           "0": "Karakter",
           "1": "Etalage"
         }
       },
       "3d-explainer-video-p1": {
-        "title": "Winergy 3D-presentatie",
-        "description": "Winergy 3D-merkpresentatie met filmisch camerawerk en gepolijste productstorytelling.",
+        "title": "Winergy 3D presentatie",
+        "description": "Winergy 3D merkpresentatie met filmisch camerawerk en gepolijste productstorytelling.",
         "tags": {
           "0": "Uitlegger",
           "1": "Wijnerg"
         }
       },
       "3d-explainer-video-p2": {
-        "title": "Popperproduct 360-display",
-        "description": "Popper-product 360-displayfilm met vorm, materialen en verpakkingsdetails.",
+        "title": "Popperproduct 360 display",
+        "description": "Popper product 360 displayfilm met vorm, materialen en verpakkingsdetails.",
         "tags": {
           "0": "360",
           "1": "Popper"
         }
       },
       "3d-explainer-video-p3": {
-        "title": "Popper-animatie",
-        "description": "Popper 3D-productanimatie met dynamische beweging en commerciële presentatie.",
+        "title": "Popper animatie",
+        "description": "Popper 3D productanimatie met dynamische beweging en commerciële presentatie.",
         "tags": {
           "0": "Product",
           "1": "Popper"
         }
       },
       "3d-explainer-video-p4": {
-        "title": "Popper-animatie 2",
-        "description": "Alternatieve Popper-animatiepas met verfijnde verlichting en campagneklaar tempo.",
+        "title": "Popper animatie 2",
+        "description": "Alternatieve Popper animatiepas met verfijnde verlichting en campagneklaar tempo.",
         "tags": {
           "0": "Product",
           "1": "Popper"
@@ -1148,15 +1148,15 @@
       },
       "3d-explainer-video-p5": {
         "title": "Klantvideo van Poppes",
-        "description": "Klantgerichte Poppes-video waarin het product wordt gepresenteerd met duidelijke verhalen en gepolijste CGI.",
+        "description": "Klantgerichte Poppes video waarin het product wordt gepresenteerd met duidelijke verhalen en gepolijste CGI.",
         "tags": {
           "0": "Cliënt",
           "1": "Poppes"
         }
       },
       "3d-medical-animation-p1": {
-        "title": "Hoge kwaliteit 3D medische anatomie-animatie",
-        "description": "Hoogwaardige medische 3D-animatie met gedetailleerde anatomievisualisatie en gepolijste filmische presentatie.",
+        "title": "Hoge kwaliteit 3D medische anatomie animatie",
+        "description": "Hoogwaardige medische 3D animatie met gedetailleerde anatomievisualisatie en gepolijste filmische presentatie.",
         "tags": {
           "0": "Medisch",
           "1": "Anatomie"
@@ -1164,15 +1164,15 @@
       },
       "3d-medical-animation-p2": {
         "title": "3D medische animatie 2",
-        "description": "Tweede medische 3D-animatievoorbeeld met duidelijke anatomische verhalen en commerciële afwerking.",
+        "description": "Tweede medische 3D animatievoorbeeld met duidelijke anatomische verhalen en commerciële afwerking.",
         "tags": {
           "0": "Medisch",
           "1": "Gezondheidszorg"
         }
       },
       "3d-anime-character-p1": {
-        "title": "3D Anime-karaktershowcase voor klant",
-        "description": "Showcasefilm van 3D-anime-personages met modellering, materialen en gepolijste gestileerde prestaties voor klantbeoordeling.",
+        "title": "3D Anime karaktershowcase voor klant",
+        "description": "Showcasefilm van 3D anime personages met modellering, materialen en gepolijste gestileerde prestaties voor klantbeoordeling.",
         "tags": {
           "0": "Anime",
           "1": "Karakter"
@@ -1180,31 +1180,31 @@
       },
       "watch-animation-p1": {
         "title": "Bekijk de productfilm",
-        "description": "Filmische 3D-animatie met studioverlichting, materiaaldetails en hoogwaardige packshot-afwerking.",
+        "description": "Filmische 3D animatie met studioverlichting, materiaaldetails en hoogwaardige packshot afwerking.",
         "tags": {
           "0": "Horloge",
           "1": "Product"
         }
       },
       "watch-animation-p2": {
-        "title": "Rifari-polshorloge",
-        "description": "Fotoreal Rifari polshorloge-productfilm met verfijnde reflecties en commerciële presentatie.",
+        "title": "Rifari polshorloge",
+        "description": "Fotoreal Rifari polshorloge productfilm met verfijnde reflecties en commerciële presentatie.",
         "tags": {
           "0": "Horloge",
           "1": "Rifari"
         }
       },
       "watch-animation-p3": {
-        "title": "Stalen Reef-polshorloge",
-        "description": "Steel Reef-polshorloge-animatie met hoogwaardige materialen, verlichting en campagneklare beweging.",
+        "title": "Stalen Reef polshorloge",
+        "description": "Steel Reef polshorloge animatie met hoogwaardige materialen, verlichting en campagneklare beweging.",
         "tags": {
           "0": "Horloge",
           "1": "Stalen rif"
         }
       },
       "ryse-drink-3d-product-animation-p1": {
-        "title": "Ryse Drink 3D-productanimatie",
-        "description": "Filmische 3D Ryse-drankproductanimatie met studioverlichting, materiaaldetails en commerciële afwerking.",
+        "title": "Ryse Drink 3D productanimatie",
+        "description": "Filmische 3D Ryse drankproductanimatie met studioverlichting, materiaaldetails en commerciële afwerking.",
         "tags": {
           "0": "Drank",
           "1": "Product"
@@ -1219,8 +1219,8 @@
         }
       },
       "3d-perfume-animation-p1": {
-        "title": "Anabomfim 3D-parfumvideo",
-        "description": "Filmische 3D Anabomfim-parfumanimatie met studioverlichting, glasmaterialen en hoogwaardige packshot-afwerking.",
+        "title": "Anabomfim 3D parfumvideo",
+        "description": "Filmische 3D Anabomfim parfumanimatie met studioverlichting, glasmaterialen en hoogwaardige packshot afwerking.",
         "tags": {
           "0": "Parfum",
           "1": "Anabomfim"
@@ -1228,22 +1228,22 @@
       },
       "3d-perfume-animation-p2": {
         "title": "Valentino parfumvideo",
-        "description": "Luxe Valentino-parfumproductfilm met verfijnde reflecties, vloeiende bewegingen en commerciële presentatie.",
+        "description": "Luxe Valentino parfumproductfilm met verfijnde reflecties, vloeiende bewegingen en commerciële presentatie.",
         "tags": {
           "0": "Parfum",
           "1": "Valentino"
         }
       },
       "3d-perfume-animation-p3": {
-        "title": "Ziel van Amir 3D-animatie",
-        "description": "Soul of Amir 3D-geuranimatie met filmisch camerawerk en campagneklare nagellak.",
+        "title": "Ziel van Amir 3D animatie",
+        "description": "Soul of Amir 3D geuranimatie met filmisch camerawerk en campagneklare nagellak.",
         "tags": {
           "0": "Parfum",
           "1": "Ziel van Amir"
         }
       },
       "3d-gadget-animation-p1": {
-        "title": "Shoks oordopjes-animatie",
+        "title": "Shoks oordopjes animatie",
         "description": "Filmische 3D Shoks oordopjesproductanimatie met verfijnde materialen en commerciële afwerking.",
         "tags": {
           "0": "Oordopje",
@@ -1252,7 +1252,7 @@
       },
       "3d-gadget-animation-p2": {
         "title": "Koptelefoon Oordopjes Productfilm",
-        "description": "3D-productanimatie van hoofdtelefoons en oordopjes met dynamische camerabewegingen en premium packshot-presentatie.",
+        "description": "3D productanimatie van hoofdtelefoons en oordopjes met dynamische camerabewegingen en premium packshot presentatie.",
         "tags": {
           "0": "Koptelefoon",
           "1": "Product"
@@ -1260,63 +1260,63 @@
       },
       "vape-animation-p1": {
         "title": "Jojo Vape",
-        "description": "Filmische 3D Jojo vape-productanimatie met verfijnde materialen en commerciële afwerking.",
+        "description": "Filmische 3D Jojo vape productanimatie met verfijnde materialen en commerciële afwerking.",
         "tags": {
           "0": "Vapen",
           "1": "Jojo"
         }
       },
       "vape-animation-p2": {
-        "title": "Sappige Cranberry-vape",
-        "description": "Sappige cranberry-vape-productfilm met levendige kleuren, verlichting en campagneklare presentatie.",
+        "title": "Sappige Cranberry vape",
+        "description": "Sappige cranberry vape productfilm met levendige kleuren, verlichting en campagneklare presentatie.",
         "tags": {
           "0": "Vapen",
           "1": "Cranberry"
         }
       },
       "bag-suitcase-animation-p1": {
-        "title": "Realistische 3D-productanimatie voor tassen",
-        "description": "Fotorealistische 3D-tassen- en kofferproductanimatie met hoogwaardige materialen en commerciële presentatie.",
+        "title": "Realistische 3D productanimatie voor tassen",
+        "description": "Fotorealistische 3D tassen- en kofferproductanimatie met hoogwaardige materialen en commerciële presentatie.",
         "tags": {
           "0": "Tas",
           "1": "Koffer"
         }
       },
       "drop-band-animation-p1": {
-        "title": "Drop Band-animatieproces",
-        "description": "Achter de schermen Drop Band-animatieproces van referentie tot uiteindelijke beweging.",
+        "title": "Drop Band animatieproces",
+        "description": "Achter de schermen Drop Band animatieproces van referentie tot uiteindelijke beweging.",
         "tags": {
           "0": "Proces",
-          "1": "Drop-band"
+          "1": "Drop band"
         }
       },
       "drop-band-animation-p2": {
-        "title": "Drop Band-animatieresultaat",
-        "description": "Laatste Drop Band-productanimatie met verfijnde materialen, verlichting en campagneklare afwerking.",
+        "title": "Drop Band animatieresultaat",
+        "description": "Laatste Drop Band productanimatie met verfijnde materialen, verlichting en campagneklare afwerking.",
         "tags": {
           "0": "Product",
-          "1": "Drop-band"
+          "1": "Drop band"
         }
       },
       "3d-bed-animation-p1": {
-        "title": "Realistische 3D-matrasanimatie",
-        "description": "Realistische 3D-matrasproductanimatie met zachte materialen, verlichting en campagneklare presentatie.",
+        "title": "Realistische 3D matrasanimatie",
+        "description": "Realistische 3D matrasproductanimatie met zachte materialen, verlichting en campagneklare presentatie.",
         "tags": {
           "0": "Matras",
           "1": "Product"
         }
       },
       "3d-bed-animation-p2": {
-        "title": "Simba Bed-animatie",
-        "description": "Simba-bedanimatie met filmisch camerawerk, materiaaldetails en commerciële afwerking.",
+        "title": "Simba Bed animatie",
+        "description": "Simba bedanimatie met filmisch camerawerk, materiaaldetails en commerciële afwerking.",
         "tags": {
           "0": "Bed",
           "1": "Simba"
         }
       },
       "ronix-p1": {
-        "title": "Ronix 3D industriële animatie | Power Tool CGI-productshowcase",
-        "description": "Filmische Ronix elektrisch gereedschap CGI-showcase met technische details en commerciële glans.",
+        "title": "Ronix 3D industriële animatie | Power Tool CGI productshowcase",
+        "description": "Filmische Ronix elektrisch gereedschap CGI showcase met technische details en commerciële glans.",
         "tags": {
           "0": "Industrieel",
           "1": "Ronix"
@@ -1331,7 +1331,7 @@
         }
       },
       "mintec-p2": {
-        "title": "Proces voor het maken van MinTec 3D-animatie",
+        "title": "Proces voor het maken van MinTec 3D animatie",
         "description": "Kijk achter de schermen bij de MinTec 3D industriële animatieproductieworkflow.",
         "tags": {
           "0": "Proces",
@@ -1339,15 +1339,15 @@
         }
       },
       "integra-pw-p1": {
-        "title": "Integra PW-videomaakproces",
-        "description": "Maakproces achter de schermen voor de Integra PW industriële animatie-build.",
+        "title": "Integra PW videomaakproces",
+        "description": "Maakproces achter de schermen voor de Integra PW industriële animatie build.",
         "tags": {
           "0": "Proces",
           "1": "Integra PW"
         }
       },
       "integra-pw-p2": {
-        "title": "Integra PW-eindresultaten",
+        "title": "Integra PW eindresultaten",
         "description": "Finale Integra PW industriële productanimatie met dynamische camerabewegingen en commerciële afwerking.",
         "tags": {
           "0": "Industrieel",
@@ -1356,7 +1356,7 @@
       },
       "credex-p1": {
         "title": "Credex Stofzuiger met SFX",
-        "description": "Laatste high-definition CREDEX-stofzuigeranimatie met geluidsontwerp en commerciële glans.",
+        "description": "Laatste high definition CREDEX stofzuigeranimatie met geluidsontwerp en commerciële glans.",
         "tags": {
           "0": "Industrieel",
           "1": "Credex"
@@ -1388,7 +1388,7 @@
       },
       "autoz-crave-p1": {
         "title": "Autoz hunkert naar industriële animatie",
-        "description": "Autoz Crave 3D industriële productvideo met mechanisch-technische animatie en commerciële afwerking.",
+        "description": "Autoz Crave 3D industriële productvideo met mechanisch technische animatie en commerciële afwerking.",
         "tags": {
           "0": "Industrieel",
           "1": "Autoz verlangen"
@@ -1408,11 +1408,11 @@
         "items": {
           "01": {
             "question": "Aan welke soorten projecten werken jullie?",
-            "answer": "Wij produceren animatie, VFX, cinematics, motion graphics, productfilms en merkfilms voor film-, series-, reclame- en DTC-merken. Briefs variëren van afzonderlijke helden tot volledige campagnepakketten."
+            "answer": "Wij produceren animatie, VFX, cinematics, motion graphics, productfilms en merkfilms voor film-, series-, reclame- en DTC merken. Briefs variëren van afzonderlijke helden tot volledige campagnepakketten."
           },
           "02": {
             "question": "Waar is Starlights Visuals gevestigd?",
-            "answer": "Wij zijn een remote-first studio met teamleden in meerdere tijdzones. We werken wereldwijd met klanten samen en leveren production-ready assets via gestructureerde asynchrone workflows en live reviews."
+            "answer": "Wij zijn een remote first studio met teamleden in meerdere tijdzones. We werken wereldwijd met klanten samen en leveren production ready assets via gestructureerde asynchrone workflows en live reviews."
           },
           "03": {
             "question": "Hoe start ik een project?",
@@ -1425,15 +1425,15 @@
         "items": {
           "01": {
             "question": "Welke diensten bieden jullie aan?",
-            "answer": "Onze kerndiensten omvatten 2D- en 3D-animatie, VFX, karakter- en conceptkunst, motion graphics, productanimatie en filmische trailers. We kunnen individuele disciplines of volledige pijplijnproductie aan."
+            "answer": "Onze kerndiensten omvatten 2D- en 3D animatie, VFX, karakter- en conceptkunst, motion graphics, productanimatie en filmische trailers. We kunnen individuele disciplines of volledige pijplijnproductie aan."
           },
           "02": {
-            "question": "Werken jullie met indie-teams en grote studio's?",
+            "question": "Werken jullie met indie teams en grote studio's?",
             "answer": "Ja. We werken samen met indiemakers, middelgrote studio's en wereldwijde merken. De reikwijdte en teamgrootte passen zich aan uw budget en tijdlijn aan, zonder concessies te doen aan uw vakmanschap."
           },
           "03": {
             "question": "Kunnen jullie onze bestaande art style matchen?",
-            "answer": "Absoluut. We beginnen met stijlframes en een look-ontwikkelingspas afgestemd op uw merkrichtlijnen of visuele wereld voordat we overgaan tot de volledige productie."
+            "answer": "Absoluut. We beginnen met stijlframes en een look ontwikkelingspas afgestemd op uw merkrichtlijnen of visuele wereld voordat we overgaan tot de volledige productie."
           }
         }
       },
@@ -1450,7 +1450,7 @@
           },
           "03": {
             "question": "Welke bestandsformaten leveren jullie op?",
-            "answer": "We leveren formatklare exports voor jullie pipeline — MP4/MOV voor video, PNG/EXR-sequenties waar nodig, gelaagde bronbestanden op aanvraag en engine-ready assets voor real-time projecten."
+            "answer": "We leveren formatklare exports voor jullie pipeline — MP4/MOV voor video, PNG/EXR sequenties waar nodig, gelaagde bronbestanden op aanvraag en engine ready assets voor real time projecten."
           }
         }
       }
@@ -1464,7 +1464,7 @@
     "title": "SCHRIJF DE JOUW",
     "subtitle": "Heeft u gewerkt met Starlights Visuals? Deel uw ervaring zodat andere merken de resultaten kunnen zien.",
     "name": "Jouw naam",
-    "email": "E-mail",
+    "email": "E mail",
     "emailOptional": "Optioneel, niet openbaar getoond",
     "role": "Jouw rol",
     "company": "Bedrijf",
@@ -1478,10 +1478,10 @@
     "successTitle": "Bedankt",
     "successDesc": "Uw beoordeling is ontvangen. Na een snelle goedkeuringscontrole verschijnt deze op de site.",
     "backHome": "Terug naar huis",
-    "errorConfig": "Recensie-inzendingen zijn tijdelijk niet beschikbaar. Probeer het later opnieuw.",
+    "errorConfig": "Recensie inzendingen zijn tijdelijk niet beschikbaar. Probeer het later opnieuw.",
     "errorQuoteShort": "Schrijf minimaal 20 tekens in uw recensie.",
     "errorGeneric": "Er is iets misgegaan bij het verzenden van uw recensie. Probeer het opnieuw.",
-    "metaTitle": "Schrijf een recensie | Starlights-beelden",
+    "metaTitle": "Schrijf een recensie | Starlights Visuals",
     "metaDescription": "Deel uw ervaring met het werken met Starlights Visuals. Schrijf een klantrecensie voor onze getuigenissen."
   },
   "admin": {
@@ -1509,7 +1509,7 @@
       "script": "Toegang tot studio",
       "title": "Beheerder inloggen",
       "subtitle": "Meld u aan met een geautoriseerd beheerdersmailadres.",
-      "email": "E-mail",
+      "email": "E mail",
       "password": "Wachtwoord",
       "signIn": "Log in",
       "signUp": "Account aanmaken",
@@ -1519,12 +1519,12 @@
       "backHome": "Terug naar de site",
       "notConfigured": "Supabase is niet geconfigureerd.",
       "failed": "Authenticatie mislukt",
-      "confirmEmail": "Account aangemaakt. Controleer uw e-mail om te bevestigen en log vervolgens in.",
+      "confirmEmail": "Account aangemaakt. Controleer uw e mail om te bevestigen en log vervolgens in.",
       "notAuthorized": "Niet geautoriseerd als beheerder"
     },
     "dashboard": {
       "title": "Dashboard",
-      "subtitle": "Overzicht van CMS-inhoud.",
+      "subtitle": "Overzicht van CMS inhoud.",
       "blogs": "Blogberichten",
       "videos": "Portfoliovideo's",
       "pendingReviews": "Beoordelingen in behandeling",
@@ -1550,7 +1550,7 @@
       "readTime": "Lees tijd",
       "author": "Auteur",
       "sortOrder": "Sorteervolgorde",
-      "imageUrl": "Afbeeldings-URL",
+      "imageUrl": "Afbeeldings URL",
       "uploading": "Uploaden…",
       "sections": "Secties",
       "addSection": "Sectie toevoegen",
@@ -1583,8 +1583,8 @@
       "category": "Categorie",
       "clientSlug": "Klant slak",
       "clientName": "Klantnaam",
-      "videoUrl": "Video-URL",
-      "thumbnailUrl": "Miniatuur-URL",
+      "videoUrl": "Video URL",
+      "thumbnailUrl": "Miniatuur URL",
       "description": "Beschrijving",
       "year": "Jaar",
       "sortOrder": "Sorteervolgorde",
@@ -1627,25 +1627,25 @@
     },
     "admins": {
       "title": "Beheerders",
-      "subtitle": "E-mails hebben toegang tot het CMS.",
+      "subtitle": "E mails hebben toegang tot het CMS.",
       "add": "Toevoegen",
       "emailPlaceholder": "admin@example.com",
-      "colEmail": "E-mail",
+      "colEmail": "E mail",
       "colAdded": "Toegevoegd",
       "colActions": "Acties",
       "you": "Jij",
-      "cannotDeleteSelf": "U kunt uw eigen beheerders-e-mailadres niet verwijderen.",
+      "cannotDeleteSelf": "U kunt uw eigen beheerders e mailadres niet verwijderen.",
       "deleteConfirm": "{{email}} verwijderen uit beheerders?",
       "loadError": "Kan beheerders niet laden",
       "addError": "Kan beheerder niet toevoegen",
       "deleteError": "Kan de beheerder niet verwijderen"
     },
     "backHome": "Terug naar de site",
-    "metaTitle": "Beheerder | Sterrenlichten-beelden",
+    "metaTitle": "Beheerder | Starlights Visuals",
     "metaDescription": "Starlights Visuals dashboard voor inhoudsbeheer.",
     "contacts": {
       "title": "Contacten",
-      "subtitle": "E-mails van klanten via contactformulieren en aanmeldingen voor nieuwsbrieven. Stuur ze een bericht vanuit de studio-inbox.",
+      "subtitle": "E mails van klanten via contactformulieren en aanmeldingen voor nieuwsbrieven. Stuur ze een bericht vanuit de studio inbox.",
       "loadError": "Kan contacten niet laden",
       "deleteConfirm": "Deze inzending verwijderen?",
       "deleted": "Inzending verwijderd.",
@@ -1664,12 +1664,12 @@
       "colWhen": "Wanneer",
       "colKind": "Type",
       "colName": "Naam",
-      "colEmail": "E-mail",
+      "colEmail": "E mail",
       "colDetails": "Details",
       "colActions": "Acties",
       "customersTitle": "Klanten",
-      "customersCount": "{{count}} unieke e-mails",
-      "noCustomers": "Nog geen klant-e-mails.",
+      "customersCount": "{{count}} unieke e mails",
+      "noCustomers": "Nog geen klant e mails.",
       "unknownName": "Onbekend",
       "composeTitle": "Bericht verzenden",
       "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
@@ -1677,7 +1677,7 @@
       "allCustomers": "Alle klanten",
       "subject": "Onderwerp",
       "message": "Bericht",
-      "send": "E-mail verzenden",
+      "send": "E mail verzenden",
       "sending": "Verzenden…"
     }
   },
@@ -1692,31 +1692,31 @@
     "sections": {
       "information": {
         "title": "Informatie die we verzamelen",
-        "body": "Wij verzamelen alleen informatie die u vrijwillig verstrekt. Een projectaanvraag kan uw naam, e-mailadres, geselecteerde service en bericht bevatten. Bij een aanmelding voor de nieuwsbrief is uw e-mailadres inbegrepen. Een ingediende recensie kan uw naam, e-mailadres, rol, bedrijf, beoordeling, kop en recensietekst bevatten.\n\nOnze hosting- en serviceproviders kunnen ook technische basisgegevens verwerken, zoals IP-adres, browsertype, apparaatinformatie, verzoektijd en foutenlogboeken, om de website te laten functioneren en beveiligen."
+        "body": "Wij verzamelen alleen informatie die u vrijwillig verstrekt. Een projectaanvraag kan uw naam, e mailadres, geselecteerde service en bericht bevatten. Bij een aanmelding voor de nieuwsbrief is uw e mailadres inbegrepen. Een ingediende recensie kan uw naam, e mailadres, rol, bedrijf, beoordeling, kop en recensietekst bevatten. Onze hosting- en serviceproviders kunnen ook technische basisgegevens verwerken, zoals IP adres, browsertype, apparaatinformatie, verzoektijd en foutenlogboeken, om de website te laten functioneren en beveiligen."
       },
       "use": {
         "title": "Hoe wij informatie gebruiken",
-        "body": "We gebruiken de ingediende informatie om vragen te beantwoorden, gevraagde creatieve diensten voor te bereiden of te leveren, transactionele antwoorden te verzenden, nieuwsbriefcommunicatie te beheren, getuigenissen met goedkeuring te beoordelen en te publiceren, de websitebeveiliging te handhaven, misbruik te voorkomen en te voldoen aan de toepasselijke wetgeving.\n\nWe gebruiken geen projectgegevens van klanten of persoonlijke informatie voor niet-gerelateerde doeleinden."
+        "body": "We gebruiken de ingediende informatie om vragen te beantwoorden, gevraagde creatieve diensten voor te bereiden of te leveren, transactionele antwoorden te verzenden, nieuwsbriefcommunicatie te beheren, getuigenissen met goedkeuring te beoordelen en te publiceren, de websitebeveiliging te handhaven, misbruik te voorkomen en te voldoen aan de toepasselijke wetgeving. We gebruiken geen projectgegevens van klanten of persoonlijke informatie voor niet gerelateerde doeleinden."
       },
       "sharing": {
         "title": "Wanneer informatie wordt gedeeld",
-        "body": "Wij verkopen of verhuren geen persoonlijke informatie en maken de informatie van een klant niet bekend aan klanten in een ander land. De toegang is beperkt tot Starlights Visuals en dienstverleners die de informatie nodig hebben om de website te beheren, met u te communiceren of het gevraagde werk te leveren. Huidige providers zijn onder meer Supabase voor databasediensten, Resend voor e-mailbezorging en onze websitehostingprovider. Elke door de wet vereiste openbaarmaking wordt afgehandeld volgens de onderstaande normen voor verzoeken van de overheid en autoriteiten."
+        "body": "Wij verkopen of verhuren geen persoonlijke informatie en maken de informatie van een klant niet bekend aan klanten in een ander land. De toegang is beperkt tot Starlights Visuals en dienstverleners die de informatie nodig hebben om de website te beheren, met u te communiceren of het gevraagde werk te leveren. Huidige providers zijn onder meer Supabase voor databasediensten, Resend voor e mailbezorging en onze websitehostingprovider. Elke door de wet vereiste openbaarmaking wordt afgehandeld volgens de onderstaande normen voor verzoeken van de overheid en autoriteiten."
       },
       "international": {
         "title": "Wereldwijde klanten en internationale overboekingen",
-        "body": "Starlights Visuals opereert vanuit de Verenigde Staten en werkt met mensen over de hele wereld, vooral in Europa en Duitsland. Klantinformatie uit de Verenigde Staten wordt niet gedeeld met Duitse of Europese klanten, en Duitse of Europese klantinformatie wordt niet gedeeld met klanten uit de Verenigde Staten.\n\nDeze klantenscheiding betekent niet dat gegevens altijd binnen één land blijven. Ons geautoriseerde team en onze cloudproviders kunnen informatie verwerken in de Verenigde Staten, de Europese Economische Ruimte, Duitsland of andere locaties waar zij actief zijn. Wanneer Europese persoonsgegevens buiten de Europese Economische Ruimte worden overgedragen, maken wij waar nodig gebruik van een toepasselijk juridisch overdrachtsmechanisme, zoals een adequaatheidsbesluit, de EU-standaardcontractbepalingen of een andere door de wet erkende waarborg. Zie onze EU AVG-kennisgeving voor meer informatie."
+        "body": "Starlights Visuals opereert vanuit de Verenigde Staten en werkt met mensen over de hele wereld, vooral in Europa en Duitsland. Klantinformatie uit de Verenigde Staten wordt niet gedeeld met Duitse of Europese klanten, en Duitse of Europese klantinformatie wordt niet gedeeld met klanten uit de Verenigde Staten. Deze klantenscheiding betekent niet dat gegevens altijd binnen één land blijven. Ons geautoriseerde team en onze cloudproviders kunnen informatie verwerken in de Verenigde Staten, de Europese Economische Ruimte, Duitsland of andere locaties waar zij actief zijn. Wanneer Europese persoonsgegevens buiten de Europese Economische Ruimte worden overgedragen, maken wij waar nodig gebruik van een toepasselijk juridisch overdrachtsmechanisme, zoals een adequaatheidsbesluit, de EU standaardcontractbepalingen of een andere door de wet erkende waarborg. Zie onze EU AVG kennisgeving voor meer informatie."
       },
       "storage": {
         "title": "Cookies en lokale opslag",
-        "body": "Deze website maakt momenteel geen gebruik van advertentiecookies of analyses van derden. Het maakt gebruik van lokale browseropslag om uw taalkeuze, voorkeur voor vertaalprompts en themavoorkeur te onthouden. Deze informatie blijft op uw apparaat staan, tenzij uw browser deze wist. Essentiële service-infrastructuur kan gebruik maken van technische opslag of logboeken die nodig zijn voor beveiliging en werking."
+        "body": "Deze website maakt momenteel geen gebruik van advertentiecookies of analyses van derden. Het maakt gebruik van lokale browseropslag om uw taalkeuze, voorkeur voor vertaalprompts en themavoorkeur te onthouden. Deze informatie blijft op uw apparaat staan, tenzij uw browser deze wist. Essentiële service infrastructuur kan gebruik maken van technische opslag of logboeken die nodig zijn voor beveiliging en werking."
       },
       "retention": {
         "title": "Hoe lang we informatie bewaren",
-        "body": "We bewaren onderzoeks- en projectinformatie slechts zo lang als redelijkerwijs nodig is om te reageren, diensten te verlenen, zakelijke documenten bij te houden, geschillen op te lossen en aan wettelijke verplichtingen te voldoen. Nieuwsbriefinformatie wordt bewaard totdat u zich afmeldt of ons vraagt ​​deze te verwijderen. Recensie-informatie wordt bewaard zolang de recensie in behandeling is of wordt gepubliceerd, tenzij verwijdering wordt aangevraagd of bewaring wettelijk vereist is."
+        "body": "We bewaren onderzoeks- en projectinformatie slechts zo lang als redelijkerwijs nodig is om te reageren, diensten te verlenen, zakelijke documenten bij te houden, geschillen op te lossen en aan wettelijke verplichtingen te voldoen. Nieuwsbriefinformatie wordt bewaard totdat u zich afmeldt of ons vraagt ​​deze te verwijderen. Recensie informatie wordt bewaard zolang de recensie in behandeling is of wordt gepubliceerd, tenzij verwijdering wordt aangevraagd of bewaring wettelijk vereist is."
       },
       "rights": {
         "title": "Uw keuzes en privacyrechten",
-        "body": "Wij werken met mensen over de hele wereld. Waar u ook woont, u kunt vragen om toegang tot de persoonlijke gegevens die wij over u bewaren, deze te corrigeren of te verwijderen, of u kunt bezwaar maken tegen bepaald gebruik. U kunt zich op elk moment afmelden voor marketing-e-mails door contact met ons op te nemen of door een afmeldoptie te gebruiken wanneer deze wordt aangeboden. Er kunnen aanvullende rechten van toepassing zijn op grond van de privacywetgeving van uw land of regio. Mensen in de Europese Economische Ruimte, Duitsland en het Verenigd Koninkrijk hebben mogelijk ook de rechten die worden beschreven in onze EU AVG-kennisgeving. We verifiëren en reageren op verzoeken zoals vereist door de toepasselijke wetgeving en discrimineren niemand vanwege het uitoefenen van privacyrechten."
+        "body": "Wij werken met mensen over de hele wereld. Waar u ook woont, u kunt vragen om toegang tot de persoonlijke gegevens die wij over u bewaren, deze te corrigeren of te verwijderen, of u kunt bezwaar maken tegen bepaald gebruik. U kunt zich op elk moment afmelden voor marketing e mails door contact met ons op te nemen of door een afmeldoptie te gebruiken wanneer deze wordt aangeboden. Er kunnen aanvullende rechten van toepassing zijn op grond van de privacywetgeving van uw land of regio. Mensen in de Europese Economische Ruimte, Duitsland en het Verenigd Koninkrijk hebben mogelijk ook de rechten die worden beschreven in onze EU AVG kennisgeving. We verifiëren en reageren op verzoeken zoals vereist door de toepasselijke wetgeving en discrimineren niemand vanwege het uitoefenen van privacyrechten."
       },
       "children": {
         "title": "Privacy van kinderen",
@@ -1732,19 +1732,19 @@
       },
       "contact": {
         "title": "Neem contact met ons op",
-        "body": "Voor privacyvragen of -verzoeken kunt u een e-mail sturen naar info@starlightvisualstudio.de. Beschrijf uw verzoek en het e-mailadres dat bij de informatie hoort, zodat we kunnen reageren."
+        "body": "Voor privacyvragen of -verzoeken kunt u een e mail sturen naar info@starlightvisualstudio.de. Beschrijf uw verzoek en het e mailadres dat bij de informatie hoort, zodat we kunnen reageren."
       },
       "governmentRequests": {
         "title": "Verzoeken van overheden en autoriteiten",
-        "body": "We delen niet vrijwillig klantinformatie uit de Verenigde Staten met Duitse of andere Europese autoriteiten, en we delen niet vrijwillig Duitse of Europese klantinformatie met de Amerikaanse autoriteiten. Als een overheid, toezichthouder, rechtbank of wetshandhavingsinstantie om persoonlijke informatie vraagt, maken we deze alleen openbaar als we redelijkerwijs van mening zijn dat het verzoek geldig en juridisch bindend is, binnen de wettelijke bevoegdheid van de verzoekende instantie valt en op ons van toepassing is.\n\nWaar wettelijk toegestaan ​​en redelijkerwijs praktisch mogelijk, beoordelen we het verzoek, betwisten we verzoeken die onwettig of buitensporig lijken, maken we alleen de minimaal wettelijk vereiste informatie bekend en stellen we de betrokken persoon op de hoogte voordat deze openbaar wordt gemaakt. Het kan ons wettelijk verboden zijn om kennisgeving te doen. Niets in dit beleid verhindert een openbaarmaking die noodzakelijk is om een ​​persoon te beschermen tegen ernstige schade of om juridische claims vast te stellen, uit te oefenen of te verdedigen."
+        "body": "We delen niet vrijwillig klantinformatie uit de Verenigde Staten met Duitse of andere Europese autoriteiten, en we delen niet vrijwillig Duitse of Europese klantinformatie met de Amerikaanse autoriteiten. Als een overheid, toezichthouder, rechtbank of wetshandhavingsinstantie om persoonlijke informatie vraagt, maken we deze alleen openbaar als we redelijkerwijs van mening zijn dat het verzoek geldig en juridisch bindend is, binnen de wettelijke bevoegdheid van de verzoekende instantie valt en op ons van toepassing is. Waar wettelijk toegestaan ​​en redelijkerwijs praktisch mogelijk, beoordelen we het verzoek, betwisten we verzoeken die onwettig of buitensporig lijken, maken we alleen de minimaal wettelijk vereiste informatie bekend en stellen we de betrokken persoon op de hoogte voordat deze openbaar wordt gemaakt. Het kan ons wettelijk verboden zijn om kennisgeving te doen. Niets in dit beleid verhindert een openbaarmaking die noodzakelijk is om een ​​persoon te beschermen tegen ernstige schade of om juridische claims vast te stellen, uit te oefenen of te verdedigen."
       }
     }
   },
   "euGdprPage": {
-    "metaTitle": "EU AVG-kennisgeving | WETTELIJK BESCHERMD0",
-    "metaDescription": "AVG-informatie voor mensen in de Europese Economische Ruimte en Duitsland die interactie hebben met Starlights Visuals.",
+    "metaTitle": "EU AVG kennisgeving | WETTELIJK BESCHERMD0",
+    "metaDescription": "AVG informatie voor mensen in de Europese Economische Ruimte en Duitsland die interactie hebben met Starlights Visuals.",
     "label": "Europese gegevensbescherming",
-    "title": "EU AVG-MEDEDELING",
+    "title": "EU AVG MEDEDELING",
     "subtitle": "Informatie voor mensen in de Europese Economische Ruimte en Duitsland.",
     "updated": "Laatst bijgewerkt: 2026",
     "summary": "Starlights Visuals is gevestigd in de Verenigde Staten en bedient klanten over de hele wereld, vooral in Europa en Duitsland. Deze verklaring vormt een aanvulling op ons privacybeleid en legt uit hoe we omgaan met persoonlijke gegevens die vallen onder de Algemene Verordening Gegevensbescherming van de Europese Unie.",
@@ -1755,11 +1755,11 @@
       },
       "controller": {
         "title": "Gegevensbeheerder",
-        "body": "Starlights Visuals\nVerenigde Staten\nE-mail: info@starlightvisualstudio.de\n\nStarlights Visuals bepaalt waarom en hoe persoonsgegevens die via deze website worden verstrekt, worden verwerkt. Privacy- en AVG-verzoeken kunnen naar het bovenstaande e-mailadres worden gestuurd."
+        "body": "Starlights Visuals\nVerenigde Staten\nE mail: info@starlightvisualstudio.de Starlights Visuals bepaalt waarom en hoe persoonsgegevens die via deze website worden verstrekt, worden verwerkt. Privacy- en AVG verzoeken kunnen naar het bovenstaande e mailadres worden gestuurd."
       },
       "data": {
         "title": "Persoonsgegevens die wij verwerken",
-        "body": "Afhankelijk van uw interactie kunnen we uw naam, e-mailadres, bedrijf, rol, projecttype, projectbericht, nieuwsbriefvoorkeur, beoordelingsinhoud en beoordeling, correspondentie en technische basisgegevens zoals IP-adres, browsergegevens, apparaatinformatie, tijdstempels en beveiligingslogboeken verwerken. Wij vragen u geen gevoelige persoonsgegevens te versturen, tenzij dit noodzakelijk en specifiek gevraagd is."
+        "body": "Afhankelijk van uw interactie kunnen we uw naam, e mailadres, bedrijf, rol, projecttype, projectbericht, nieuwsbriefvoorkeur, beoordelingsinhoud en beoordeling, correspondentie en technische basisgegevens zoals IP adres, browsergegevens, apparaatinformatie, tijdstempels en beveiligingslogboeken verwerken. Wij vragen u geen gevoelige persoonsgegevens te versturen, tenzij dit noodzakelijk en specifiek gevraagd is."
       },
       "purposes": {
         "title": "Doeleinden van de verwerking",
@@ -1771,19 +1771,19 @@
       },
       "recipients": {
         "title": "Ontvangers en klanten gescheiden",
-        "body": "Wij verkopen geen persoonlijke gegevens. We delen de informatie van een klant uit de Verenigde Staten niet met klanten in Duitsland of Europa, en we delen de informatie van een Duitse of Europese klant niet met klanten in de Verenigde Staten. Persoonlijke gegevens zijn alleen beschikbaar voor geautoriseerd Starlights Visuals-personeel en providers die deze nodig hebben voor een bepaald doel, inclusief Supabase voor databasediensten, Resend voor e-mailbezorging en onze websitehostingprovider. Van aanbieders wordt verwacht dat zij gegevens alleen verwerken onder passende instructies en waarborgen."
+        "body": "Wij verkopen geen persoonlijke gegevens. We delen de informatie van een klant uit de Verenigde Staten niet met klanten in Duitsland of Europa, en we delen de informatie van een Duitse of Europese klant niet met klanten in de Verenigde Staten. Persoonlijke gegevens zijn alleen beschikbaar voor geautoriseerd Starlights Visuals personeel en providers die deze nodig hebben voor een bepaald doel, inclusief Supabase voor databasediensten, Resend voor e mailbezorging en onze websitehostingprovider. Van aanbieders wordt verwacht dat zij gegevens alleen verwerken onder passende instructies en waarborgen."
       },
       "transfers": {
         "title": "Overdrachten buiten Europa",
-        "body": "Omdat Starlights Visuals gevestigd is in de Verenigde Staten en gebruik maakt van internationale clouddiensten, kunnen Europese persoonsgegevens worden overgedragen naar of toegankelijk worden gemaakt vanuit landen buiten de Europese Economische Ruimte, waaronder de Verenigde Staten. Het scheiden van klanten staat deze noodzakelijke serviceoverdrachten niet in de weg. Wanneer de AVG een overdrachtsgarantie vereist, vertrouwen we op een toepasselijk adequaatheidsbesluit, de EU-standaardcontractbepalingen, het EU-Verenigde Staten Data Privacy Framework voor een deelnemende aanbieder, of een ander wettig mechanisme. U kunt contact met ons opnemen voor informatie over de beveiliging die relevant is voor uw gegevens."
+        "body": "Omdat Starlights Visuals gevestigd is in de Verenigde Staten en gebruik maakt van internationale clouddiensten, kunnen Europese persoonsgegevens worden overgedragen naar of toegankelijk worden gemaakt vanuit landen buiten de Europese Economische Ruimte, waaronder de Verenigde Staten. Het scheiden van klanten staat deze noodzakelijke serviceoverdrachten niet in de weg. Wanneer de AVG een overdrachtsgarantie vereist, vertrouwen we op een toepasselijk adequaatheidsbesluit, de EU standaardcontractbepalingen, het EU Verenigde Staten Data Privacy Framework voor een deelnemende aanbieder, of een ander wettig mechanisme. U kunt contact met ons opnemen voor informatie over de beveiliging die relevant is voor uw gegevens."
       },
       "retention": {
         "title": "Behoud",
         "body": "We bewaren persoonlijke gegevens slechts zo lang als redelijkerwijs nodig is voor het verzamelde doel, inclusief het reageren op vragen, het uitvoeren van diensten, het bijhouden van bedrijfs- en belastinggegevens, het oplossen van geschillen en het voldoen aan wettelijke verplichtingen. Nieuwsbriefgegevens worden bewaard totdat u zich afmeldt of verzoekt om verwijdering. Beoordelingsgegevens worden bewaard terwijl ze in behandeling zijn of worden gepubliceerd, tenzij verwijdering wordt aangevraagd of bewaring wettelijk vereist is."
       },
       "rights": {
-        "title": "Uw AVG-rechten",
-        "body": "Behoudens wettelijke voorwaarden en uitzonderingen kunt u verzoeken om toegang tot uw persoonsgegevens, correctie, verwijdering, beperking van de verwerking, gegevensportabiliteit of bezwaar tegen verwerking op basis van legitieme belangen of direct marketing. U kunt uw toestemming op elk moment intrekken. Om een ​​recht uit te oefenen, kunt u een e-mail sturen naar info@starlightvisualstudio.de. Wij kunnen om informatie vragen die nodig is om uw identiteit te verifiëren en zullen binnen de door de wet vereiste termijn reageren."
+        "title": "Uw AVG rechten",
+        "body": "Behoudens wettelijke voorwaarden en uitzonderingen kunt u verzoeken om toegang tot uw persoonsgegevens, correctie, verwijdering, beperking van de verwerking, gegevensportabiliteit of bezwaar tegen verwerking op basis van legitieme belangen of direct marketing. U kunt uw toestemming op elk moment intrekken. Om een ​​recht uit te oefenen, kunt u een e mail sturen naar info@starlightvisualstudio.de. Wij kunnen om informatie vragen die nodig is om uw identiteit te verifiëren en zullen binnen de door de wet vereiste termijn reageren."
       },
       "complaints": {
         "title": "Recht om te klagen",
@@ -1795,11 +1795,11 @@
       },
       "contact": {
         "title": "Contact",
-        "body": "Voor AVG-vragen, rechtenverzoeken, informatie over overdrachtsbeveiliging of privacyproblemen kunt u een e-mail sturen naar info@starlightvisualstudio.de."
+        "body": "Voor AVG vragen, rechtenverzoeken, informatie over overdrachtsbeveiliging of privacyproblemen kunt u een e mail sturen naar info@starlightvisualstudio.de."
       },
       "governmentRequests": {
         "title": "Toegang van overheden en autoriteiten",
-        "body": "Wij verstrekken niet vrijwillig Europese of Duitse klantgegevens aan de Amerikaanse autoriteiten, en we verstrekken niet vrijwillig Amerikaanse klantgegevens aan Duitse of andere Europese autoriteiten. Een grensoverschrijdend autoriteitsverzoek krijgt niet automatisch toegang tot persoonsgegevens.\n\nVoordat we reageren, beoordelen we redelijkerwijs of het verzoek geldig, juridisch bindend, proportioneel, binnen de jurisdictie van de autoriteit ligt en op ons van toepassing is. Waar wettelijk toegestaan ​​en redelijkerwijs praktisch mogelijk, bestrijden we onwettige of buitensporige verzoeken, maken we alleen de minimaal wettelijk vereiste informatie bekend, documenteren we het verzoek en de reactie en stellen we de betrokken persoon op de hoogte. Kennisgeving kan worden uitgesteld of bij wet verboden. Deze praktijken vormen een aanvulling op, maar vervangen niet, de door de AVG vereiste waarborgen voor overdracht."
+        "body": "Wij verstrekken niet vrijwillig Europese of Duitse klantgegevens aan de Amerikaanse autoriteiten, en we verstrekken niet vrijwillig Amerikaanse klantgegevens aan Duitse of andere Europese autoriteiten. Een grensoverschrijdend autoriteitsverzoek krijgt niet automatisch toegang tot persoonsgegevens. Voordat we reageren, beoordelen we redelijkerwijs of het verzoek geldig, juridisch bindend, proportioneel, binnen de jurisdictie van de autoriteit ligt en op ons van toepassing is. Waar wettelijk toegestaan ​​en redelijkerwijs praktisch mogelijk, bestrijden we onwettige of buitensporige verzoeken, maken we alleen de minimaal wettelijk vereiste informatie bekend, documenteren we het verzoek en de reactie en stellen we de betrokken persoon op de hoogte. Kennisgeving kan worden uitgesteld of bij wet verboden. Deze praktijken vormen een aanvulling op, maar vervangen niet, de door de AVG vereiste waarborgen voor overdracht."
       }
     }
   },
@@ -1813,7 +1813,7 @@
       "operator": {
         "title": "Operator- en bedrijfsadressen",
         "company": "Starlights Visuals",
-        "tagline": "Creatieve animatie- en VFX-studio",
+        "tagline": "Creatieve animatie- en VFX studio",
         "founderLabel": "Oprichter en algemeen directeur",
         "founderName": "Boluwaji Ominiran",
         "addresses": {
@@ -1826,7 +1826,7 @@
             "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
           },
           "uk": {
-            "label": "Zakelijk adres in Groot-Brittannië",
+            "label": "Zakelijk adres in Groot Brittannië",
             "lines": "4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nUnited Kingdom"
           }
         },
@@ -1844,7 +1844,7 @@
             "value": "+44 7348 550667"
           },
           "email": {
-            "label": "E-mail",
+            "label": "E mail",
             "value": "info@starlightvisualstudio.de"
           }
         },
@@ -1864,9 +1864,9 @@
       },
       "privacy": {
         "title": "Privacy en gegevensbescherming",
-        "body": "Informatie over hoe we persoonlijke gegevens verzamelen, gebruiken, beschermen en overdragen is beschikbaar in ons Privacybeleid en de aanvullende EU AVG-kennisgeving.",
+        "body": "Informatie over hoe we persoonlijke gegevens verzamelen, gebruiken, beschermen en overdragen is beschikbaar in ons Privacybeleid en de aanvullende EU AVG kennisgeving.",
         "privacyLink": "Bekijk privacybeleid",
-        "gdprLink": "Bekijk de EU AVG-kennisgeving"
+        "gdprLink": "Bekijk de EU AVG kennisgeving"
       }
     }
   }

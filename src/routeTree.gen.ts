@@ -26,6 +26,7 @@ import { Route as AdminIndexRouteImport } from './routes/admin.index'
 import { Route as WorksCategoryRouteImport } from './routes/works.$category'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as AdminVideosRouteImport } from './routes/admin.videos'
+import { Route as AdminTranslationsRouteImport } from './routes/admin.translations'
 import { Route as AdminReviewsRouteImport } from './routes/admin.reviews'
 import { Route as AdminLoginRouteImport } from './routes/admin.login'
 import { Route as AdminContactsRouteImport } from './routes/admin.contacts'
@@ -120,6 +121,11 @@ const AdminVideosRoute = AdminVideosRouteImport.update({
   path: '/videos',
   getParentRoute: () => AdminRoute,
 } as any)
+const AdminTranslationsRoute = AdminTranslationsRouteImport.update({
+  id: '/translations',
+  path: '/translations',
+  getParentRoute: () => AdminRoute,
+} as any)
 const AdminReviewsRoute = AdminReviewsRouteImport.update({
   id: '/reviews',
   path: '/reviews',
@@ -180,6 +186,7 @@ export interface FileRoutesByFullPath {
   '/admin/contacts': typeof AdminContactsRoute
   '/admin/login': typeof AdminLoginRoute
   '/admin/reviews': typeof AdminReviewsRoute
+  '/admin/translations': typeof AdminTranslationsRoute
   '/admin/videos': typeof AdminVideosRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/works/$category': typeof WorksCategoryRouteWithChildren
@@ -205,6 +212,7 @@ export interface FileRoutesByTo {
   '/admin/contacts': typeof AdminContactsRoute
   '/admin/login': typeof AdminLoginRoute
   '/admin/reviews': typeof AdminReviewsRoute
+  '/admin/translations': typeof AdminTranslationsRoute
   '/admin/videos': typeof AdminVideosRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/admin': typeof AdminIndexRoute
@@ -232,6 +240,7 @@ export interface FileRoutesById {
   '/admin/contacts': typeof AdminContactsRoute
   '/admin/login': typeof AdminLoginRoute
   '/admin/reviews': typeof AdminReviewsRoute
+  '/admin/translations': typeof AdminTranslationsRoute
   '/admin/videos': typeof AdminVideosRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/works/$category': typeof WorksCategoryRouteWithChildren
@@ -261,6 +270,7 @@ export interface FileRouteTypes {
     | '/admin/contacts'
     | '/admin/login'
     | '/admin/reviews'
+    | '/admin/translations'
     | '/admin/videos'
     | '/blog/$slug'
     | '/works/$category'
@@ -286,6 +296,7 @@ export interface FileRouteTypes {
     | '/admin/contacts'
     | '/admin/login'
     | '/admin/reviews'
+    | '/admin/translations'
     | '/admin/videos'
     | '/blog/$slug'
     | '/admin'
@@ -312,6 +323,7 @@ export interface FileRouteTypes {
     | '/admin/contacts'
     | '/admin/login'
     | '/admin/reviews'
+    | '/admin/translations'
     | '/admin/videos'
     | '/blog/$slug'
     | '/works/$category'
@@ -458,6 +470,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AdminVideosRouteImport
       parentRoute: typeof AdminRoute
     }
+    '/admin/translations': {
+      id: '/admin/translations'
+      path: '/translations'
+      fullPath: '/admin/translations'
+      preLoaderRoute: typeof AdminTranslationsRouteImport
+      parentRoute: typeof AdminRoute
+    }
     '/admin/reviews': {
       id: '/admin/reviews'
       path: '/reviews'
@@ -524,6 +543,7 @@ interface AdminRouteChildren {
   AdminContactsRoute: typeof AdminContactsRoute
   AdminLoginRoute: typeof AdminLoginRoute
   AdminReviewsRoute: typeof AdminReviewsRoute
+  AdminTranslationsRoute: typeof AdminTranslationsRoute
   AdminVideosRoute: typeof AdminVideosRoute
   AdminIndexRoute: typeof AdminIndexRoute
 }
@@ -535,6 +555,7 @@ const AdminRouteChildren: AdminRouteChildren = {
   AdminContactsRoute: AdminContactsRoute,
   AdminLoginRoute: AdminLoginRoute,
   AdminReviewsRoute: AdminReviewsRoute,
+  AdminTranslationsRoute: AdminTranslationsRoute,
   AdminVideosRoute: AdminVideosRoute,
   AdminIndexRoute: AdminIndexRoute,
 }

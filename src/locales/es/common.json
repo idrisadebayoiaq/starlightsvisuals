@@ -1412,7 +1412,7 @@
           },
           "02": {
             "question": "¿Dónde está ubicado Starlights Visuals?",
-            "answer": "Somos un estudio remote-first con integrantes del equipo en múltiples zonas horarias. Colaboramos con clientes de todo el mundo y entregamos assets listos para producción mediante flujos asíncronos estructurados y revisiones en vivo."
+            "answer": "Somos un estudio remote first con integrantes del equipo en múltiples zonas horarias. Colaboramos con clientes de todo el mundo y entregamos assets listos para producción mediante flujos asíncronos estructurados y revisiones en vivo."
           },
           "03": {
             "question": "¿Cómo inicio un proyecto?",
@@ -1692,11 +1692,11 @@
     "sections": {
       "information": {
         "title": "Información que recopilamos",
-        "body": "Recopilamos únicamente información que usted envía voluntariamente. Una consulta de proyecto puede incluir su nombre, dirección de correo electrónico, servicio seleccionado y mensaje. Una suscripción al boletín incluye su dirección de correo electrónico. Una reseña enviada puede incluir su nombre, dirección de correo electrónico, función, empresa, calificación, título y texto de la reseña.\n\nNuestros proveedores de alojamiento y servicios también pueden procesar datos técnicos básicos, como dirección IP, tipo de navegador, información del dispositivo, tiempo de solicitud y registros de errores, para operar y proteger el sitio web."
+        "body": "Recopilamos únicamente información que usted envía voluntariamente. Una consulta de proyecto puede incluir su nombre, dirección de correo electrónico, servicio seleccionado y mensaje. Una suscripción al boletín incluye su dirección de correo electrónico. Una reseña enviada puede incluir su nombre, dirección de correo electrónico, función, empresa, calificación, título y texto de la reseña. Nuestros proveedores de alojamiento y servicios también pueden procesar datos técnicos básicos, como dirección IP, tipo de navegador, información del dispositivo, tiempo de solicitud y registros de errores, para operar y proteger el sitio web."
       },
       "use": {
         "title": "Cómo utilizamos la información",
-        "body": "Utilizamos la información enviada para responder consultas, preparar o proporcionar servicios creativos solicitados, enviar respuestas transaccionales, administrar comunicaciones de boletines, revisar y publicar testimonios con aprobación, mantener la seguridad del sitio web, prevenir abusos y cumplir con la ley aplicable.\n\nNo utilizamos detalles del proyecto del cliente ni información personal para fines no relacionados."
+        "body": "Utilizamos la información enviada para responder consultas, preparar o proporcionar servicios creativos solicitados, enviar respuestas transaccionales, administrar comunicaciones de boletines, revisar y publicar testimonios con aprobación, mantener la seguridad del sitio web, prevenir abusos y cumplir con la ley aplicable. No utilizamos detalles del proyecto del cliente ni información personal para fines no relacionados."
       },
       "sharing": {
         "title": "Cuando se comparte información",
@@ -1704,7 +1704,7 @@
       },
       "international": {
         "title": "Clientes en todo el mundo y transferencias internacionales.",
-        "body": "Starlights Visuals opera desde los Estados Unidos y trabaja con personas en todo el mundo, especialmente en Europa y Alemania. La información de los clientes de Estados Unidos no se comparte con clientes alemanes o europeos, y la información de los clientes alemanes o europeos no se comparte con clientes de Estados Unidos.\n\nEsta separación de clientes no significa que los datos permanezcan siempre dentro de un país. Nuestro equipo autorizado y proveedores de nube pueden procesar información en los Estados Unidos, el Espacio Económico Europeo, Alemania u otros lugares donde operan. Cuando los datos personales europeos se transfieren fuera del Espacio Económico Europeo, utilizamos un mecanismo de transferencia legal aplicable cuando sea necesario, como una decisión de adecuación, las Cláusulas Contractuales Estándar de la UE u otra salvaguardia reconocida por la ley. Consulte nuestro Aviso GDPR de la UE para obtener detalles adicionales."
+        "body": "Starlights Visuals opera desde los Estados Unidos y trabaja con personas en todo el mundo, especialmente en Europa y Alemania. La información de los clientes de Estados Unidos no se comparte con clientes alemanes o europeos, y la información de los clientes alemanes o europeos no se comparte con clientes de Estados Unidos. Esta separación de clientes no significa que los datos permanezcan siempre dentro de un país. Nuestro equipo autorizado y proveedores de nube pueden procesar información en los Estados Unidos, el Espacio Económico Europeo, Alemania u otros lugares donde operan. Cuando los datos personales europeos se transfieren fuera del Espacio Económico Europeo, utilizamos un mecanismo de transferencia legal aplicable cuando sea necesario, como una decisión de adecuación, las Cláusulas Contractuales Estándar de la UE u otra salvaguardia reconocida por la ley. Consulte nuestro Aviso GDPR de la UE para obtener detalles adicionales."
       },
       "storage": {
         "title": "Cookies y almacenamiento local",
@@ -1736,7 +1736,7 @@
       },
       "governmentRequests": {
         "title": "Solicitudes de gobiernos y autoridades.",
-        "body": "No compartimos voluntariamente información de clientes de Estados Unidos con autoridades alemanas u otras autoridades europeas, y no compartimos voluntariamente información de clientes alemanes o europeos con autoridades de Estados Unidos. Si un gobierno, regulador, tribunal u organismo encargado de hacer cumplir la ley solicita información personal, la divulgamos solo cuando creemos razonablemente que la solicitud es válida, legalmente vinculante, dentro de la autoridad legal del organismo solicitante y aplicable a nosotros.\n\nCuando lo permita la ley y sea razonablemente práctico, revisamos la solicitud, impugnamos las solicitudes que parezcan ilegales o excesivas, divulgamos solo la información mínima requerida legalmente y notificamos a la persona afectada antes de la divulgación. Es posible que la ley nos prohíba proporcionar avisos. Nada en esta política impide una divulgación necesaria para proteger a una persona de daños graves o para establecer, ejercer o defender reclamos legales."
+        "body": "No compartimos voluntariamente información de clientes de Estados Unidos con autoridades alemanas u otras autoridades europeas, y no compartimos voluntariamente información de clientes alemanes o europeos con autoridades de Estados Unidos. Si un gobierno, regulador, tribunal u organismo encargado de hacer cumplir la ley solicita información personal, la divulgamos solo cuando creemos razonablemente que la solicitud es válida, legalmente vinculante, dentro de la autoridad legal del organismo solicitante y aplicable a nosotros. Cuando lo permita la ley y sea razonablemente práctico, revisamos la solicitud, impugnamos las solicitudes que parezcan ilegales o excesivas, divulgamos solo la información mínima requerida legalmente y notificamos a la persona afectada antes de la divulgación. Es posible que la ley nos prohíba proporcionar avisos. Nada en esta política impide una divulgación necesaria para proteger a una persona de daños graves o para establecer, ejercer o defender reclamos legales."
       }
     }
   },
@@ -1755,7 +1755,7 @@
       },
       "controller": {
         "title": "Responsable del tratamiento",
-        "body": "Starlights Visuals\nEstados Unidos\nCorreo electrónico: info@starlightvisualstudio.de\n\nStarlights Visuals determina por qué y cómo se procesan los datos personales enviados a través de este sitio web. Las solicitudes de privacidad y GDPR pueden enviarse a la dirección de correo electrónico anterior."
+        "body": "Starlights Visuals\nEstados Unidos\nCorreo electrónico: info@starlightvisualstudio.de Starlights Visuals determina por qué y cómo se procesan los datos personales enviados a través de este sitio web. Las solicitudes de privacidad y GDPR pueden enviarse a la dirección de correo electrónico anterior."
       },
       "data": {
         "title": "Datos personales que procesamos",
@@ -1799,7 +1799,7 @@
       },
       "governmentRequests": {
         "title": "Acceso al gobierno y a las autoridades",
-        "body": "No proporcionamos voluntariamente datos de clientes europeos o alemanes a las autoridades de los Estados Unidos, y no proporcionamos voluntariamente datos de clientes de los Estados Unidos a las autoridades alemanas u otras autoridades europeas. Una solicitud de autoridad transfronteriza no recibe acceso automático a datos personales.\n\nAntes de responder, evaluamos razonablemente si la solicitud es válida, legalmente vinculante, proporcionada, dentro de la jurisdicción de la autoridad y aplicable a nosotros. Cuando lo permita la ley y sea razonablemente práctico, impugnaremos las solicitudes ilegales o excesivas, divulgaremos solo la información mínima requerida legalmente, documentaremos la solicitud y la respuesta, y notificaremos a la persona afectada. El aviso puede retrasarse o estar prohibido por ley. Estas prácticas complementan, pero no reemplazan, las salvaguardas de transferencia requeridas por el RGPD."
+        "body": "No proporcionamos voluntariamente datos de clientes europeos o alemanes a las autoridades de los Estados Unidos, y no proporcionamos voluntariamente datos de clientes de los Estados Unidos a las autoridades alemanas u otras autoridades europeas. Una solicitud de autoridad transfronteriza no recibe acceso automático a datos personales. Antes de responder, evaluamos razonablemente si la solicitud es válida, legalmente vinculante, proporcionada, dentro de la jurisdicción de la autoridad y aplicable a nosotros. Cuando lo permita la ley y sea razonablemente práctico, impugnaremos las solicitudes ilegales o excesivas, divulgaremos solo la información mínima requerida legalmente, documentaremos la solicitud y la respuesta, y notificaremos a la persona afectada. El aviso puede retrasarse o estar prohibido por ley. Estas prácticas complementan, pero no reemplazan, las salvaguardas de transferencia requeridas por el RGPD."
       }
     }
   },

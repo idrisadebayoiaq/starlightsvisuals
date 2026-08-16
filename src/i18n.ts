@@ -8,6 +8,8 @@ import {
   normalizeLanguageCode,
   supportedLanguageCodes,
 } from "@/i18n/languages";
+import { deepMerge } from "@/lib/translation-utils";
+import { getPublicSiteCopyFn } from "@/server/cms-translations";
 
 import de from "@/locales/de/common.json";
 import en from "@/locales/en/common.json";
@@ -40,20 +42,47 @@ const localeLoaders: Record<string, () => Promise<{ default: unknown }>> = {
 
 /** German (default) + English (admin UI / fallback) ship in the main bundle. */
 const loadedLocales = new Set<string>(["de", "en"]);
+const siteCopyApplied = new Set<string>();
 
-export async function loadLocale(lang: string): Promise<void> {
-  const code = lang.split("-")[0];
-  if (loadedLocales.has(code)) return;
+async function applySiteCopyOverride(code: string): Promise<void> {
+  if (typeof window === "undefined") return;
+  if (siteCopyApplied.has(code)) return;
 
-  const loader = localeLoaders[code];
-  if (!loader) return;
-
-  const module = await loader();
-  i18n.addResourceBundle(code, "common", module.default as typeof en, true, true);
-  loadedLocales.add(code);
+  try {
+    const result = await getPublicSiteCopyFn({ data: { locale: code } });
+    if (result.copy && typeof result.copy === "object") {
+      const current = (i18n.getResourceBundle(code, "common") ?? {}) as Record<string, unknown>;
+      const merged = deepMerge(current, result.copy);
+      i18n.addResourceBundle(code, "common", merged, true, true);
+    }
+    siteCopyApplied.add(code);
+  } catch (err) {
+    console.error("[i18n] site copy override failed", code, err);
+    // Still mark applied to avoid hammering a failing endpoint on every nav.
+    siteCopyApplied.add(code);
+  }
 }
 
-/** Resolve the public-site language (stored preference or German default). */
+/** Force re-fetch of curated site copy (e.g. after admin save on another tab). */
+export function invalidateSiteCopyOverride(code?: string) {
+  if (code) siteCopyApplied.delete(code.split("-")[0]!);
+  else siteCopyApplied.clear();
+}
+
+export async function loadLocale(lang: string): Promise<void> {
+  const code = lang.split("-")[0]!;
+  if (!loadedLocales.has(code)) {
+    const loader = localeLoaders[code];
+    if (loader) {
+      const module = await loader();
+      i18n.addResourceBundle(code, "common", module.default as typeof en, true, true);
+      loadedLocales.add(code);
+    }
+  }
+  await applySiteCopyOverride(code);
+}
+
+/** Resolve the visitor's public language (stored preference or German default). */
 export function getPreferredPublicLanguage(): string {
   if (typeof window === "undefined") return DEFAULT_LANGUAGE;
 

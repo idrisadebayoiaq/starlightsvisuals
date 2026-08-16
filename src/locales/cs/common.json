@@ -55,8 +55,8 @@
     "joining": "Připojování…",
     "subscribeError": "Momentálně se nelze přihlásit. Zkuste to znovu nebo nám napište přímo.",
     "adminLogin": "Admin",
-    "emailRequired": "Zadejte prosím svou e-mailovou adresu.",
-    "emailInvalid": "Zadejte prosím platnou e-mailovou adresu.",
+    "emailRequired": "Zadejte prosím svou e mailovou adresu.",
+    "emailInvalid": "Zadejte prosím platnou e mailovou adresu.",
     "privacy": "Zásady ochrany osobních údajů",
     "euGdpr": "EU GDPR",
     "imprint": "Otisk"
@@ -67,7 +67,7 @@
     "heroScript": "Příběhy v pohybu —",
     "heroTitle1": "ANIMACE",
     "heroTitle2": "A VFX",
-    "heroBody": "Starlights Visuals oživuje příběhy animací a vizuálními efekty, které zaujmou publikum a pozvednou každý snímek. Animujeme fantasy bytosti, lidské postavy, vozidla, prostředí, rekvizity a hard-surface objekty — pro film, seriály, reklamu a brandové kampaně.",
+    "heroBody": "Starlights Visuals oživuje příběhy animací a vizuálními efekty, které zaujmou publikum a pozvednou každý snímek. Animujeme fantasy bytosti, lidské postavy, vozidla, prostředí, rekvizity a hard surface objekty — pro film, seriály, reklamu a brandové kampaně.",
     "heroAlt": "Filmový hrdina Starlights Visuals",
     "seePortfolio": "Viz Portfolio",
     "startProject": "Spusťte projekt",
@@ -286,7 +286,7 @@
     "formTitle": "ZAHÁJIT PROJEKT",
     "formDesc": "Vyplňte formulář níže, ozveme se do 24 hodin.",
     "name": "Jméno",
-    "email": "E-mail",
+    "email": "E mail",
     "projectType": "Typ projektu",
     "message": "Řekněte nám víc",
     "send": "Odeslat zprávu",
@@ -311,8 +311,8 @@
     "sendAnother": "Pošlete další zprávu",
     "errors": {
       "nameRequired": "Zadejte prosím své jméno.",
-      "emailRequired": "Zadejte prosím svou e-mailovou adresu.",
-      "emailInvalid": "Zadejte prosím platnou e-mailovou adresu.",
+      "emailRequired": "Zadejte prosím svou e mailovou adresu.",
+      "emailInvalid": "Zadejte prosím platnou e mailovou adresu.",
       "serviceRequired": "Vyberte prosím službu.",
       "messageRequired": "Zadejte zprávu."
     }
@@ -1412,7 +1412,7 @@
           },
           "02": {
             "question": "Kde sídlí Starlights Visuals?",
-            "answer": "Jsme remote-first studio s členy týmu napříč více časovými pásmy. Spolupracujeme s klienty globálně a dodáváme production-ready assety prostřednictvím strukturovaných asynchronních workflow a live review."
+            "answer": "Jsme remote first studio s členy týmu napříč více časovými pásmy. Spolupracujeme s klienty globálně a dodáváme production ready assety prostřednictvím strukturovaných asynchronních workflow a live review."
           },
           "03": {
             "question": "Jak zahájím projekt?",
@@ -1450,7 +1450,7 @@
           },
           "03": {
             "question": "V jakých formátech souborů dodáváte?",
-            "answer": "Dodáváme exporty připravené pro váš pipeline — MP4/MOV pro video, PNG/EXR sekvence tam, kde je to potřeba, vrstvené source soubory na vyžádání a engine-ready assety pro real-time projekty."
+            "answer": "Dodáváme exporty připravené pro váš pipeline — MP4/MOV pro video, PNG/EXR sekvence tam, kde je to potřeba, vrstvené source soubory na vyžádání a engine ready assety pro real time projekty."
           }
         }
       }
@@ -1464,7 +1464,7 @@
     "title": "NAPIŠTE SVŮJ",
     "subtitle": "Pracoval(a) jste se Starlights Visuals? Podělte se o své zkušenosti, aby ostatní značky viděly výsledky.",
     "name": "Vaše jméno",
-    "email": "E-mail",
+    "email": "E mail",
     "emailOptional": "Volitelné, nezobrazuje se veřejně",
     "role": "Vaše role",
     "company": "Společnost",
@@ -1508,8 +1508,8 @@
     "login": {
       "script": "Přístup do studia",
       "title": "Přihlášení správce",
-      "subtitle": "Přihlaste se pomocí e-mailu oprávněného správce.",
-      "email": "E-mail",
+      "subtitle": "Přihlaste se pomocí e mailu oprávněného správce.",
+      "email": "E mail",
       "password": "Heslo",
       "signIn": "Přihlaste se",
       "signUp": "Vytvořit účet",
@@ -1519,7 +1519,7 @@
       "backHome": "Zpět na stránku",
       "notConfigured": "Supabase není nakonfigurován.",
       "failed": "Ověření se nezdařilo",
-      "confirmEmail": "Účet vytvořen. Potvrďte svůj e-mail a poté se přihlaste.",
+      "confirmEmail": "Účet vytvořen. Potvrďte svůj e mail a poté se přihlaste.",
       "notAuthorized": "Nemáte oprávnění jako správce"
     },
     "dashboard": {
@@ -1627,14 +1627,14 @@
     },
     "admins": {
       "title": "Správci",
-      "subtitle": "E-maily s povoleným přístupem k CMS.",
+      "subtitle": "E maily s povoleným přístupem k CMS.",
       "add": "Přidat",
       "emailPlaceholder": "admin@example.com",
-      "colEmail": "E-mail",
+      "colEmail": "E mail",
       "colAdded": "Přidáno",
       "colActions": "Akce",
       "you": "Vy",
-      "cannotDeleteSelf": "Nemůžete odstranit svůj vlastní e-mail správce.",
+      "cannotDeleteSelf": "Nemůžete odstranit svůj vlastní e mail správce.",
       "deleteConfirm": "Odebrat {{email}} z administrátorů?",
       "loadError": "Nepodařilo se načíst správce",
       "addError": "Přidání správce se nezdařilo",
@@ -1645,12 +1645,12 @@
     "metaDescription": "Řídicí panel správy obsahu Starlights Visuals.",
     "contacts": {
       "title": "Kontakty",
-      "subtitle": "E-maily zákazníků z kontaktních formulářů a přihlášení k odběru newsletteru. Pošlete jim zprávu z doručené pošty ve studiu.",
+      "subtitle": "E maily zákazníků z kontaktních formulářů a přihlášení k odběru newsletteru. Pošlete jim zprávu z doručené pošty ve studiu.",
       "loadError": "Kontakty se nepodařilo načíst",
       "deleteConfirm": "Smazat tento příspěvek?",
       "deleted": "Příspěvek byl smazán.",
       "deleteError": "Odeslání příspěvku se nepodařilo smazat",
-      "unauthorized": "Chcete-li odesílat zprávy, znovu se přihlaste.",
+      "unauthorized": "Chcete li odesílat zprávy, znovu se přihlaste.",
       "subjectRequired": "Předmět je povinný.",
       "messageRequired": "Zpráva je povinná.",
       "sendSuccess": "Odesláno {{sent}} z {{total}} zpráv.",
@@ -1664,12 +1664,12 @@
       "colWhen": "Když",
       "colKind": "Typ",
       "colName": "Jméno",
-      "colEmail": "E-mail",
+      "colEmail": "E mail",
       "colDetails": "Podrobnosti",
       "colActions": "Akce",
       "customersTitle": "Zákazníci",
-      "customersCount": "{{count}} unikátních e-mailů",
-      "noCustomers": "Zatím žádné e-maily zákazníků.",
+      "customersCount": "{{count}} unikátních e mailů",
+      "noCustomers": "Zatím žádné e maily zákazníků.",
       "unknownName": "Neznámý",
       "composeTitle": "Odeslat zprávu",
       "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
@@ -1692,19 +1692,19 @@
     "sections": {
       "information": {
         "title": "Informace, které shromažďujeme",
-        "body": "Shromažďujeme pouze informace, které nám poskytnete dobrovolně. Dotaz na projekt může obsahovat vaše jméno, e-mailovou adresu, vybranou službu a zprávu. Přihlášení k odběru newsletteru obsahuje vaši e-mailovou adresu. Odeslaná recenze může obsahovat vaše jméno, e-mailovou adresu, roli, společnost, hodnocení, nadpis a text recenze.\n\nNaši poskytovatelé hostingu a služeb mohou také zpracovávat základní technické údaje, jako je IP adresa, typ prohlížeče, informace o zařízení, doba požadavku a protokoly chyb, za účelem provozu a zabezpečení webových stránek."
+        "body": "Shromažďujeme pouze informace, které nám poskytnete dobrovolně. Dotaz na projekt může obsahovat vaše jméno, e mailovou adresu, vybranou službu a zprávu. Přihlášení k odběru newsletteru obsahuje vaši e mailovou adresu. Odeslaná recenze může obsahovat vaše jméno, e mailovou adresu, roli, společnost, hodnocení, nadpis a text recenze. Naši poskytovatelé hostingu a služeb mohou také zpracovávat základní technické údaje, jako je IP adresa, typ prohlížeče, informace o zařízení, doba požadavku a protokoly chyb, za účelem provozu a zabezpečení webových stránek."
       },
       "use": {
         "title": "Jak využíváme informace",
-        "body": "Odeslané informace používáme k zodpovězení dotazů, přípravě nebo poskytování požadovaných kreativních služeb, zasílání transakčních odpovědí, správě komunikace s informačními bulletiny, ke kontrole a publikování posudků se schválením, udržování bezpečnosti webových stránek, zabránění zneužití a dodržování platných zákonů.\n\nNepoužíváme detaily klientských projektů ani osobní údaje pro nesouvisející účely."
+        "body": "Odeslané informace používáme k zodpovězení dotazů, přípravě nebo poskytování požadovaných kreativních služeb, zasílání transakčních odpovědí, správě komunikace s informačními bulletiny, ke kontrole a publikování posudků se schválením, udržování bezpečnosti webových stránek, zabránění zneužití a dodržování platných zákonů. Nepoužíváme detaily klientských projektů ani osobní údaje pro nesouvisející účely."
       },
       "sharing": {
         "title": "Při sdílení informací",
-        "body": "Neprodáváme ani nepronajímáme osobní údaje a nezveřejňujeme informace o klientovi klientům v jiné zemi. Přístup je omezen na Starlights Visuals a poskytovatele služeb, kteří potřebují informace k provozování webových stránek, komunikaci s vámi nebo poskytování požadované práce. Mezi současné poskytovatele patří Supabase pro databázové služby, Resend pro doručování e-mailů a náš poskytovatel hostingu webových stránek. Jakékoli zveřejnění vyžadované zákonem se řídí níže uvedenými standardy žádostí vlády a úřadů."
+        "body": "Neprodáváme ani nepronajímáme osobní údaje a nezveřejňujeme informace o klientovi klientům v jiné zemi. Přístup je omezen na Starlights Visuals a poskytovatele služeb, kteří potřebují informace k provozování webových stránek, komunikaci s vámi nebo poskytování požadované práce. Mezi současné poskytovatele patří Supabase pro databázové služby, Resend pro doručování e mailů a náš poskytovatel hostingu webových stránek. Jakékoli zveřejnění vyžadované zákonem se řídí níže uvedenými standardy žádostí vlády a úřadů."
       },
       "international": {
         "title": "Celosvětová klientela a mezinárodní převody",
-        "body": "Starlights Visuals operates from the United States and works with people worldwide, especially in Europe and Germany. United States client information is not shared with German or European clients, and German or European client information is not shared with United States clients.\n\nThis client separation does not mean data always remains inside one country. Our authorized team and cloud providers may process information in the United States, the European Economic Area, Germany, or other locations where they operate. When European personal data is transferred outside the European Economic Area, we use an applicable legal transfer mechanism where required, such as an adequacy decision, the EU Standard Contractual Clauses, or another safeguard recognized by law. Další podrobnosti naleznete v našem Oznámení EU GDPR."
+        "body": "Starlights Visuals operates from the United States and works with people worldwide, especially in Europe and Germany. United States client information is not shared with German or European clients, and German or European client information is not shared with United States clients. This client separation does not mean data always remains inside one country. Our authorized team and cloud providers may process information in the United States, the European Economic Area, Germany, or other locations where they operate. When European personal data is transferred outside the European Economic Area, we use an applicable legal transfer mechanism where required, such as an adequacy decision, the EU Standard Contractual Clauses, or another safeguard recognized by law. Další podrobnosti naleznete v našem Oznámení EU GDPR."
       },
       "storage": {
         "title": "Soubory cookie a místní úložiště",
@@ -1716,7 +1716,7 @@
       },
       "rights": {
         "title": "Vaše volby a práva na soukromí",
-        "body": "Pracujeme s lidmi po celém světě. Ať žijete kdekoli, můžete požádat o přístup, opravu nebo vymazání osobních údajů, které o vás uchováváme, nebo můžete vznést námitku proti určitému použití. Z odběru marketingových e-mailů se můžete kdykoli odhlásit tím, že nás kontaktujete nebo použijete možnost odhlášení, pokud je k dispozici. Podle zákonů na ochranu osobních údajů vaší země nebo regionu mohou platit další práva. Lidé v Evropském hospodářském prostoru, Německu a Spojeném království mohou mít také práva popsaná v našem oznámení EU GDPR. Žádosti ověřujeme a odpovídáme na ně v souladu s platnými zákony a nikoho nediskriminujeme za uplatňování práv na ochranu soukromí."
+        "body": "Pracujeme s lidmi po celém světě. Ať žijete kdekoli, můžete požádat o přístup, opravu nebo vymazání osobních údajů, které o vás uchováváme, nebo můžete vznést námitku proti určitému použití. Z odběru marketingových e mailů se můžete kdykoli odhlásit tím, že nás kontaktujete nebo použijete možnost odhlášení, pokud je k dispozici. Podle zákonů na ochranu osobních údajů vaší země nebo regionu mohou platit další práva. Lidé v Evropském hospodářském prostoru, Německu a Spojeném království mohou mít také práva popsaná v našem oznámení EU GDPR. Žádosti ověřujeme a odpovídáme na ně v souladu s platnými zákony a nikoho nediskriminujeme za uplatňování práv na ochranu soukromí."
       },
       "children": {
         "title": "Soukromí dětí",
@@ -1732,11 +1732,11 @@
       },
       "contact": {
         "title": "Kontaktujte nás",
-        "body": "V případě dotazů nebo požadavků na ochranu osobních údajů zašlete e-mail na info@starlightvisualstudio.de. Popište prosím svůj požadavek a e-mailovou adresu spojenou s informacemi, abychom vám mohli odpovědět."
+        "body": "V případě dotazů nebo požadavků na ochranu osobních údajů zašlete e mail na info@starlightvisualstudio.de. Popište prosím svůj požadavek a e mailovou adresu spojenou s informacemi, abychom vám mohli odpovědět."
       },
       "governmentRequests": {
         "title": "Žádosti vlády a úřadů",
-        "body": "Informace o klientech z USA dobrovolně nesdílíme s německými nebo jinými evropskými úřady a dobrovolně nesdílíme německé nebo evropské klientské informace s úřady Spojených států. Pokud vláda, regulační orgán, soud nebo orgán činný v trestním řízení požaduje osobní údaje, zpřístupníme je pouze tehdy, pokud se důvodně domníváme, že je žádost platná, právně závazná, v rámci zákonné pravomoci žádajícího orgánu a vztahuje se na nás.\n\nTam, kde je to zákonem povolené a přiměřeně praktické, žádost posoudíme, napadneme žádosti, které se zdají být nezákonné nebo nepřiměřené, zpřístupníme pouze minimální zákonem požadované informace a před zveřejněním informujeme dotčenou osobu. Může nám být zákonem zakázáno poskytovat upozornění. Nic v těchto zásadách nebrání zveřejnění nezbytnému k ochraně osoby před vážnou újmou nebo ke stanovení, uplatnění nebo obhajobě právních nároků."
+        "body": "Informace o klientech z USA dobrovolně nesdílíme s německými nebo jinými evropskými úřady a dobrovolně nesdílíme německé nebo evropské klientské informace s úřady Spojených států. Pokud vláda, regulační orgán, soud nebo orgán činný v trestním řízení požaduje osobní údaje, zpřístupníme je pouze tehdy, pokud se důvodně domníváme, že je žádost platná, právně závazná, v rámci zákonné pravomoci žádajícího orgánu a vztahuje se na nás. Tam, kde je to zákonem povolené a přiměřeně praktické, žádost posoudíme, napadneme žádosti, které se zdají být nezákonné nebo nepřiměřené, zpřístupníme pouze minimální zákonem požadované informace a před zveřejněním informujeme dotčenou osobu. Může nám být zákonem zakázáno poskytovat upozornění. Nic v těchto zásadách nebrání zveřejnění nezbytnému k ochraně osoby před vážnou újmou nebo ke stanovení, uplatnění nebo obhajobě právních nároků."
       }
     }
   },
@@ -1755,11 +1755,11 @@
       },
       "controller": {
         "title": "Správce údajů",
-        "body": "Starlights Visuals\nSpojené státy americké\nE-mail: info@starlightvisualstudio.de\n\nStarlights Visuals určuje, proč a jak jsou zpracovávány osobní údaje poskytnuté prostřednictvím této webové stránky. Žádosti o ochranu osobních údajů a GDPR mohou být zasílány na výše uvedenou e-mailovou adresu."
+        "body": "Starlights Visuals\nSpojené státy americké\nE mail: info@starlightvisualstudio.de Starlights Visuals určuje, proč a jak jsou zpracovávány osobní údaje poskytnuté prostřednictvím této webové stránky. Žádosti o ochranu osobních údajů a GDPR mohou být zasílány na výše uvedenou e mailovou adresu."
       },
       "data": {
         "title": "Osobní údaje, které zpracováváme",
-        "body": "V závislosti na vaší interakci můžeme zpracovávat vaše jméno, e-mailovou adresu, společnost, roli, typ projektu, projektovou zprávu, preferenci newsletteru, obsah recenze a hodnocení, korespondenci a základní technické údaje, jako je IP adresa, podrobnosti o prohlížeči, informace o zařízení, časová razítka a bezpečnostní protokoly. Žádáme vás, abyste nezasílali citlivé osobní údaje, pokud to není nutné a výslovně požadováno."
+        "body": "V závislosti na vaší interakci můžeme zpracovávat vaše jméno, e mailovou adresu, společnost, roli, typ projektu, projektovou zprávu, preferenci newsletteru, obsah recenze a hodnocení, korespondenci a základní technické údaje, jako je IP adresa, podrobnosti o prohlížeči, informace o zařízení, časová razítka a bezpečnostní protokoly. Žádáme vás, abyste nezasílali citlivé osobní údaje, pokud to není nutné a výslovně požadováno."
       },
       "purposes": {
         "title": "Účely zpracování",
@@ -1771,7 +1771,7 @@
       },
       "recipients": {
         "title": "Oddělení příjemců a klientů",
-        "body": "Osobní údaje neprodáváme. Nesdílíme informace klienta z USA s klienty v Německu nebo Evropě a nesdílíme informace o německém nebo evropském klientovi s klienty ve Spojených státech. Osobní údaje jsou dostupné pouze oprávněným pracovníkům Starlights Visuals a poskytovatelům, kteří je potřebují pro stanovený účel, včetně Supabase pro databázové služby, Resend pro doručování e-mailů a našeho poskytovatele hostingu webových stránek. Očekává se, že poskytovatelé budou zpracovávat údaje pouze podle příslušných pokynů a záruk."
+        "body": "Osobní údaje neprodáváme. Nesdílíme informace klienta z USA s klienty v Německu nebo Evropě a nesdílíme informace o německém nebo evropském klientovi s klienty ve Spojených státech. Osobní údaje jsou dostupné pouze oprávněným pracovníkům Starlights Visuals a poskytovatelům, kteří je potřebují pro stanovený účel, včetně Supabase pro databázové služby, Resend pro doručování e mailů a našeho poskytovatele hostingu webových stránek. Očekává se, že poskytovatelé budou zpracovávat údaje pouze podle příslušných pokynů a záruk."
       },
       "transfers": {
         "title": "Přestupy mimo Evropu",
@@ -1783,7 +1783,7 @@
       },
       "rights": {
         "title": "Vaše práva GDPR",
-        "body": "Při dodržení zákonných podmínek a výjimek můžete požadovat přístup ke svým osobním údajům, opravu, výmaz, omezení zpracování, přenositelnost údajů nebo vznést námitku proti zpracování na základě oprávněných zájmů nebo přímého marketingu. Souhlas můžete kdykoli odvolat. Pro uplatnění práva zašlete e-mail na info@starlightvisualstudio.de. Můžeme si vyžádat informace potřebné k ověření vaší identity a odpovíme vám ve lhůtě vyžadované zákonem."
+        "body": "Při dodržení zákonných podmínek a výjimek můžete požadovat přístup ke svým osobním údajům, opravu, výmaz, omezení zpracování, přenositelnost údajů nebo vznést námitku proti zpracování na základě oprávněných zájmů nebo přímého marketingu. Souhlas můžete kdykoli odvolat. Pro uplatnění práva zašlete e mail na info@starlightvisualstudio.de. Můžeme si vyžádat informace potřebné k ověření vaší identity a odpovíme vám ve lhůtě vyžadované zákonem."
       },
       "complaints": {
         "title": "Právo si stěžovat",
@@ -1795,11 +1795,11 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": "V případě otázek týkajících se GDPR, žádostí o práva, informací o zabezpečení přenosu nebo problémů s ochranou soukromí zašlete e-mail info@starlightvisualstudio.de."
+        "body": "V případě otázek týkajících se GDPR, žádostí o práva, informací o zabezpečení přenosu nebo problémů s ochranou soukromí zašlete e mail info@starlightvisualstudio.de."
       },
       "governmentRequests": {
         "title": "Přístup vlády a úřadů",
-        "body": "Neposkytujeme dobrovolně evropské nebo německé klientské údaje úřadům Spojených států a dobrovolně neposkytujeme údaje amerických klientů německým nebo jiným evropským úřadům. Žádost přeshraničních orgánů nezíská automatický přístup k osobním údajům.\n\nNež odpovíme, přiměřeně posoudíme, zda je žádost platná, právně závazná, přiměřená, v rámci jurisdikce úřadu a zda se na nás vztahuje. Tam, kde je to zákonem povoleno a přiměřeně praktické, napadáme nezákonné nebo nepřiměřené požadavky, zveřejňujeme pouze minimální zákonem požadované informace, dokumentujeme žádost a odpověď a informujeme dotčenou osobu. Oznámení může být zpožděno nebo zakázáno zákonem. Tyto postupy doplňují, ale nenahrazují žádné záruky přenosu požadované GDPR."
+        "body": "Neposkytujeme dobrovolně evropské nebo německé klientské údaje úřadům Spojených států a dobrovolně neposkytujeme údaje amerických klientů německým nebo jiným evropským úřadům. Žádost přeshraničních orgánů nezíská automatický přístup k osobním údajům. Než odpovíme, přiměřeně posoudíme, zda je žádost platná, právně závazná, přiměřená, v rámci jurisdikce úřadu a zda se na nás vztahuje. Tam, kde je to zákonem povoleno a přiměřeně praktické, napadáme nezákonné nebo nepřiměřené požadavky, zveřejňujeme pouze minimální zákonem požadované informace, dokumentujeme žádost a odpověď a informujeme dotčenou osobu. Oznámení může být zpožděno nebo zakázáno zákonem. Tyto postupy doplňují, ale nenahrazují žádné záruky přenosu požadované GDPR."
       }
     }
   },
@@ -1844,7 +1844,7 @@
             "value": "+44 7348 550667"
           },
           "email": {
-            "label": "E-mail",
+            "label": "E mail",
             "value": "info@starlightvisualstudio.de"
           }
         },

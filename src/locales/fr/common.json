@@ -53,9 +53,9 @@
     "social": "Lien social",
     "copyright": "© {{year}} Starlights Visuals. Créé avec lumière & code.",
     "joining": "Adhésion…",
-    "subscribeError": "Impossible de s'abonner pour le moment. Veuillez réessayer ou envoyez-nous un e-mail directement.",
+    "subscribeError": "Impossible de s'abonner pour le moment. Veuillez réessayer ou envoyez nous un e mail directement.",
     "adminLogin": "Administrateur",
-    "emailRequired": "Veuillez entrer votre adresse e-mail.",
+    "emailRequired": "Veuillez entrer votre adresse e mail.",
     "emailInvalid": "S'il vous plaît, mettez une adresse email valide.",
     "privacy": "politique de confidentialité",
     "euGdpr": "RGPD UE",
@@ -67,7 +67,7 @@
     "heroScript": "Des histoires en mouvement —",
     "heroTitle1": "ANIMATION",
     "heroTitle2": "& effets visuels",
-    "heroBody": "Starlights Visuals donne vie aux histoires grâce à l'animation et aux effets visuels qui captivent le public et subliment chaque image. Nous animons créatures fantastiques, personnages humains, véhicules, environnements, accessoires et objets hard-surface — pour le cinéma, la série, la publicité et les campagnes de marque.",
+    "heroBody": "Starlights Visuals donne vie aux histoires grâce à l'animation et aux effets visuels qui captivent le public et subliment chaque image. Nous animons créatures fantastiques, personnages humains, véhicules, environnements, accessoires et objets hard surface — pour le cinéma, la série, la publicité et les campagnes de marque.",
     "heroAlt": "Héros cinématographique de Starlights Visuals",
     "seePortfolio": "Voir le portefeuille",
     "startProject": "Démarrer un projet",
@@ -96,8 +96,8 @@
         "desc": "Personnages, créatures, environnements et accessoires originaux qui ancrent votre IP."
       },
       "04": {
-        "title": "Bandes-annonces cinématographiques",
-        "desc": "Bandes-annonces basées sur une histoire conçues pour lancer des marques, des adresses IP et des campagnes."
+        "title": "Bandes annonces cinématographiques",
+        "desc": "Bandes annonces basées sur une histoire conçues pour lancer des marques, des adresses IP et des campagnes."
       }
     },
     "showcase": {
@@ -175,7 +175,7 @@
         "role": "Responsable de production"
       },
       "jason": {
-        "headline": "Qualité exceptionnelle au-delà de ce que nous avions imaginé",
+        "headline": "Qualité exceptionnelle au delà de ce que nous avions imaginé",
         "quote": "La qualité de l'animation était exceptionnelle. Starlight Visuals nous a aidés à présenter notre produit d'une manière claire, attrayante et mémorable. La présentation finale était bien meilleure que ce que nous avions imaginé.",
         "role": "PDG"
       },
@@ -185,8 +185,8 @@
         "role": "Chef des ventes"
       },
       "robert": {
-        "headline": "Des films premium au-delà de ce que nous imaginions",
-        "quote": "Il y avait une vision claire de la manière dont nous souhaitions que nos montres soient présentées, mais Starlight Visuals est allé au-delà de ce que nous avions imaginé. Ils n'ont pas seulement animé notre produit, ils ont capturé les détails, la précision et la qualité supérieure qui définissent notre marque. La présentation finale a donné à notre collection un niveau de sophistication qui a instantanément élevé la façon dont les clients la percevaient. L’ensemble du processus a été fluide, collaboratif et géré de manière professionnelle du début à la fin.",
+        "headline": "Des films premium au delà de ce que nous imaginions",
+        "quote": "Il y avait une vision claire de la manière dont nous souhaitions que nos montres soient présentées, mais Starlight Visuals est allé au delà de ce que nous avions imaginé. Ils n'ont pas seulement animé notre produit, ils ont capturé les détails, la précision et la qualité supérieure qui définissent notre marque. La présentation finale a donné à notre collection un niveau de sophistication qui a instantanément élevé la façon dont les clients la percevaient. L’ensemble du processus a été fluide, collaboratif et géré de manière professionnelle du début à la fin.",
         "role": "Fondateur"
       }
     },
@@ -195,7 +195,7 @@
       "artDirector": "Directeur artistique",
       "founder": "Fondateur",
       "headProduction": "Directeur de production",
-      "vpMarketing": "Vice-président marketing",
+      "vpMarketing": "Vice président marketing",
       "coFounder": "Co fondateur"
     },
     "seeMore": "Voir plus",
@@ -205,14 +205,14 @@
   },
   "servicesPage": {
     "metaTitle": "Prestations | Visuels Starlights",
-    "metaDescription": "Animation 2D, animation 3D, conception de personnages, animations graphiques, VFX, animation de produits et bandes-annonces cinématiques.",
+    "metaDescription": "Animation 2D, animation 3D, conception de personnages, animations graphiques, VFX, animation de produits et bandes annonces cinématiques.",
     "label": "Ce que nous construisons",
     "title": "SERVICES",
     "subtitle": "Un studio, chaque étape de la production, du premier croquis au pixel final.",
     "ctaTitle1": "AVOIR UN",
     "ctaTitle2": "PROJET",
     "ctaTitle3": "EN TÊTE ?",
-    "ctaDesc": "Faites-nous part de votre vision, nous apporterons la puissance de feu.",
+    "ctaDesc": "Faites nous part de votre vision, nous apporterons la puissance de feu.",
     "ctaButton": "Entrer en contact",
     "items": {
       "2d": {
@@ -236,8 +236,8 @@
         "desc": "Intégration de composition, d'effets de particules et d'images de synthèse pour les campagnes cinématographiques, publicitaires et numériques."
       },
       "trailer": {
-        "title": "Bandes-annonces cinématographiques",
-        "desc": "Des bandes-annonces basées sur des histoires conçues pour lancer des marques, des adresses IP et des campagnes avec un impact maximal."
+        "title": "Bandes annonces cinématographiques",
+        "desc": "Des bandes annonces basées sur des histoires conçues pour lancer des marques, des adresses IP et des campagnes avec un impact maximal."
       }
     }
   },
@@ -249,7 +249,7 @@
     "title2": "LUMIÈRE, CODE ET HISTOIRE",
     "p1": "Starlight Visuals est un studio d'animation de classe mondiale créant des expériences visuelles exceptionnelles en matière d'animation de produits industriels, d'animation de jeux, de visualisation de produits et d'animation de personnages 2D et 3D. Nous combinons l’excellence artistique avec une technologie de pointe pour transformer les idées en visuels captivants, éduquants et inspirants. Des animations industrielles basées sur l'ingénierie aux rendus de produits photoréalistes, en passant par les dessins animés stylisés, les performances expressives des personnages et les séquences de jeux cinématographiques, nous créons des animations qui offrent à la fois un impact visuel et des résultats significatifs.",
     "p2": "Qu'il s'agisse de présenter l'innovation d'un produit, de donner vie à un univers de jeu ou de créer des personnages animés mémorables, chaque cadre est conçu avec détermination et précision. Notre équipe multidisciplinaire d'animateurs, d'artistes techniques, de modélistes, de gréeurs, de motion designers et de conteurs visuels collabore en toute transparence pour produire un travail qui répond aux normes créatives et techniques les plus élevées. Nous pensons qu’une bonne animation fait plus que paraître belle, elle communique des idées complexes, renforce les marques et crée des liens émotionnels durables.",
-    "p3": "Nous travaillons en partenariat avec des fabricants, des sociétés de produits, des développeurs de jeux, des agences de création et des marques mondiales pour proposer des animations haut de gamme pour le marketing, les lancements de produits, la formation, le divertissement, la publicité et les expériences numériques. Chaque projet est motivé par l'innovation, le savoir-faire et un engagement sans compromis envers la qualité. Chez Starlight Visuals, nous ne nous contentons pas d'animer, nous concevons des expériences, construisons des personnages inoubliables et créons des visuels qui font avancer les gens et les entreprises.",
+    "p3": "Nous travaillons en partenariat avec des fabricants, des sociétés de produits, des développeurs de jeux, des agences de création et des marques mondiales pour proposer des animations haut de gamme pour le marketing, les lancements de produits, la formation, le divertissement, la publicité et les expériences numériques. Chaque projet est motivé par l'innovation, le savoir faire et un engagement sans compromis envers la qualité. Chez Starlight Visuals, nous ne nous contentons pas d'animer, nous concevons des expériences, construisons des personnages inoubliables et créons des visuels qui font avancer les gens et les entreprises.",
     "valuesLabel": "Valeurs fondamentales",
     "valuesTitle": "CE QUI NOUS MOTIF",
     "values": {
@@ -279,7 +279,7 @@
   },
   "contactPage": {
     "metaTitle": "Contacter | Visuels Starlights",
-    "metaDescription": "Entrez en contact avec Starlights Visuals pour des projets d'animation 2D et 3D, d'animation graphique, d'effets visuels, d'animation de produits et de bandes-annonces cinématographiques.",
+    "metaDescription": "Entrez en contact avec Starlights Visuals pour des projets d'animation 2D et 3D, d'animation graphique, d'effets visuels, d'animation de produits et de bandes annonces cinématographiques.",
     "label": "Parlons en",
     "title": "CONTACT",
     "subtitle": "Demandes de production, collaborations ou simple bonjour, envoyez nous un signal.",
@@ -300,18 +300,18 @@
     "projectTypes": {
       "2d": "Animations 2D",
       "3d": "Animations 3D",
-      "trailer": "Bande-annonce cinématographique",
+      "trailer": "Bande annonce cinématographique",
       "character": "Conception de personnages",
       "motion": "Graphiques animés et VFX",
       "other": "Autre"
     },
     "sending": "Envoi…",
-    "errorGeneric": "Impossible d'envoyer votre message. Veuillez nous envoyer un e-mail directement ou réessayer.",
+    "errorGeneric": "Impossible d'envoyer votre message. Veuillez nous envoyer un e mail directement ou réessayer.",
     "sentToast": "Message envoyé avec succès.",
     "sendAnother": "Envoyer un autre message",
     "errors": {
       "nameRequired": "Veuillez entrer votre nom.",
-      "emailRequired": "Veuillez entrer votre adresse e-mail.",
+      "emailRequired": "Veuillez entrer votre adresse e mail.",
       "emailInvalid": "S'il vous plaît, mettez une adresse email valide.",
       "serviceRequired": "Veuillez choisir un service.",
       "messageRequired": "Veuillez saisir un message."
@@ -319,20 +319,20 @@
   },
   "portfolioPage": {
     "metaTitle": "Portefeuille | Visuels Starlights",
-    "metaDescription": "Projets sélectionnés : séries animées, bandes-annonces cinématographiques, conceptions de personnages et bobines de présentation en studio par Starlights Visuals.",
+    "metaDescription": "Projets sélectionnés : séries animées, bandes annonces cinématographiques, conceptions de personnages et bobines de présentation en studio par Starlights Visuals.",
     "label": "Travaux sélectionnés",
     "title1": "PORT",
     "title2": "FOLIO",
     "subtitle": "Un aperçu des mondes, personnages et histoires que nous avons aidé à donner vie.",
     "projects": {
       "trailer": {
-        "tag": "Bande-annonce cinématographique",
+        "tag": "Bande annonce cinématographique",
         "title": "Sentinelle de Fer",
-        "desc": "Bande-annonce cinématographique de lancement de la marque."
+        "desc": "Bande annonce cinématographique de lancement de la marque."
       },
       "character": {
         "tag": "Conception de personnages",
-        "title": "Avant-garde Nova",
+        "title": "Avant garde Nova",
         "desc": "Feuille de protagoniste du héros."
       },
       "2d": {
@@ -359,7 +359,7 @@
   },
   "blogPage": {
     "metaTitle": "Blogue | Visuels Starlights",
-    "metaDescription": "Informations sur l'animation, les effets visuels, les bandes-annonces cinématographiques et la narration de marque haut de gamme de Starlights Visuals.",
+    "metaDescription": "Informations sur l'animation, les effets visuels, les bandes annonces cinématographiques et la narration de marque haut de gamme de Starlights Visuals.",
     "label": "Journal du studio",
     "title1": "LE",
     "title2": "BLOGUE",
@@ -369,11 +369,11 @@
     "startProject": "Lancer un projet",
     "moreFromJournal": "Plus du journal",
     "postBody1": "Chez Starlights Visuals, nous traitons chaque image comme une opportunité de conversion, pas seulement comme une belle image. Cet article approfondit la réflexion derrière notre travail {{category}} et les choix qui séparent un bon créatif d'un créatif prêt au lancement.",
-    "postBody2": "Que vous expédiiez une bande-annonce, mettiez à l'échelle un système de mouvement de marque ou construisiez des visuels de campagne pour un produit en direct, le même principe s'applique : la clarté de l'histoire d'abord, la finition ensuite et un montage impitoyable en dernier. Cette discipline permet aux équipes de respecter les délais sans se sentir presque là.",
+    "postBody2": "Que vous expédiiez une bande annonce, mettiez à l'échelle un système de mouvement de marque ou construisiez des visuels de campagne pour un produit en direct, le même principe s'applique : la clarté de l'histoire d'abord, la finition ensuite et un montage impitoyable en dernier. Cette discipline permet aux équipes de respecter les délais sans se sentir presque là.",
     "postBody3": "Envie d'appliquer cette approche à votre prochain projet? Nous serions ravis d'entendre ce que vous construisez, envoyez nous un brief et nous tracerons un parcours cinématographique du concept à la livraison.",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "Pourquoi les bandes-annonces cinématiques convertissent mieux que les démos de produits",
+        "title": "Pourquoi les bandes annonces cinématiques convertissent mieux que les démos de produits",
         "excerpt": "Les films de lancement de l’histoire créent des enjeux émotionnels avant le CTA. Voici comment nous structurons les crochets, le rythme et la note pour une rétention maximale.",
         "category": "Stratégie",
         "date": "12 mai 2026",
@@ -388,7 +388,7 @@
       },
       "motion-systems-for-brands": {
         "title": "Les marques de systèmes de mouvement de construction peuvent réellement réutiliser",
-        "excerpt": "Bibliothèques de mouvements modulaires, piqûres de logo et micro-interactions de l'interface utilisateur qui maintiennent la cohérence des campagnes à grande échelle.",
+        "excerpt": "Bibliothèques de mouvements modulaires, piqûres de logo et micro interactions de l'interface utilisateur qui maintiennent la cohérence des campagnes à grande échelle.",
         "category": "Mouvement",
         "date": "8 avril 2026",
         "readTime": "4 minutes de lecture"
@@ -460,7 +460,7 @@
     "closePreview": "Fermer l'aperçu",
     "ctaScript": "Prêt quand vous l'êtes —",
     "ctaTitle": "Lancez votre projet avec nous",
-    "ctaDesc": "Parlez-nous de votre marque, de vos délais et de vos objectifs.",
+    "ctaDesc": "Parlez nous de votre marque, de vos délais et de vos objectifs.",
     "ctaButton": "Démarrer un projet",
     "portfolioHubDesc": "Explorez nos travaux par catégorie — animation, VFX, motion et plus.",
     "categories": {
@@ -482,7 +482,7 @@
       "vfx": {
         "title": "Effets visuels (VFX)",
         "tagline": "Compositing, FX et finition cinématique",
-        "description": "Effets visuels pour les bandes-annonces, les films de produits et le contenu de marque, depuis les nettoyages jusqu'à l'intégration complète de CG."
+        "description": "Effets visuels pour les bandes annonces, les films de produits et le contenu de marque, depuis les nettoyages jusqu'à l'intégration complète de CG."
       }
     },
     "showcase": {
@@ -1187,16 +1187,16 @@
         }
       },
       "watch-animation-p2": {
-        "title": "Montre-bracelet Rifari",
-        "description": "Film produit photoréaliste de la montre-bracelet Rifari avec des reflets raffinés et une présentation commerciale.",
+        "title": "Montre bracelet Rifari",
+        "description": "Film produit photoréaliste de la montre bracelet Rifari avec des reflets raffinés et une présentation commerciale.",
         "tags": {
           "0": "Montre",
           "1": "Rifari"
         }
       },
       "watch-animation-p3": {
-        "title": "Montre-bracelet en acier récif",
-        "description": "Animation de montre-bracelet Steel Reef avec des matériaux, un éclairage et un mouvement prêts pour la campagne.",
+        "title": "Montre bracelet en acier récif",
+        "description": "Animation de montre bracelet Steel Reef avec des matériaux, un éclairage et un mouvement prêts pour la campagne.",
         "tags": {
           "0": "Montre",
           "1": "Récif d'acier"
@@ -1407,16 +1407,16 @@
         "title": "Général",
         "items": {
           "01": {
-            "question": "Sur quels types de projets travaillez-vous ?",
+            "question": "Sur quels types de projets travaillez vous ?",
             "answer": "Nous produisons des animations, des VFX, des cinématiques, des animations graphiques, des films de produits et des films de marque pour les marques de cinéma, de séries, de publicité et de DTC. Les briefs vont des ressources d'un seul héros aux packages de campagne complets."
           },
           "02": {
             "question": "Où est basé Starlights Visuals ?",
-            "answer": "Nous sommes un studio remote-first avec des membres d'équipe répartis sur plusieurs fuseaux horaires. Nous collaborons avec des clients dans le monde entier et livrons des assets prêts pour la production via des workflows asynchrones structurés et des revues en direct."
+            "answer": "Nous sommes un studio remote first avec des membres d'équipe répartis sur plusieurs fuseaux horaires. Nous collaborons avec des clients dans le monde entier et livrons des assets prêts pour la production via des workflows asynchrones structurés et des revues en direct."
           },
           "03": {
             "question": "Comment démarrer un projet ?",
-            "answer": "Contactez-nous via le formulaire de contact avec votre brief, votre calendrier et vos liens de référence. Nous planifierons un appel de découverte, cadrerons le périmètre et enverrons une proposition avec jalons et livrables."
+            "answer": "Contactez nous via le formulaire de contact avec votre brief, votre calendrier et vos liens de référence. Nous planifierons un appel de découverte, cadrerons le périmètre et enverrons une proposition avec jalons et livrables."
           }
         }
       },
@@ -1424,15 +1424,15 @@
         "title": "Services & périmètre",
         "items": {
           "01": {
-            "question": "Quels services proposez-vous ?",
-            "answer": "Nos services de base comprennent l'animation 2D et 3D, les effets visuels, les illustrations de personnages et conceptuels, les graphiques animés, l'animation de produits et les bandes-annonces cinématiques. Nous pouvons gérer des disciplines individuelles ou une production complète en pipeline."
+            "question": "Quels services proposez vous ?",
+            "answer": "Nos services de base comprennent l'animation 2D et 3D, les effets visuels, les illustrations de personnages et conceptuels, les graphiques animés, l'animation de produits et les bandes annonces cinématiques. Nous pouvons gérer des disciplines individuelles ou une production complète en pipeline."
           },
           "02": {
-            "question": "Travaillez-vous avec des équipes indé et de grands studios ?",
-            "answer": "Oui. Nous travaillons en partenariat avec des créateurs indépendants, des studios de taille moyenne et des marques mondiales. La portée et la taille de l'équipe s'adaptent à votre budget et à votre calendrier sans compromettre le savoir-faire."
+            "question": "Travaillez vous avec des équipes indé et de grands studios ?",
+            "answer": "Oui. Nous travaillons en partenariat avec des créateurs indépendants, des studios de taille moyenne et des marques mondiales. La portée et la taille de l'équipe s'adaptent à votre budget et à votre calendrier sans compromettre le savoir faire."
           },
           "03": {
-            "question": "Pouvez-vous reproduire notre style artistique existant ?",
+            "question": "Pouvez vous reproduire notre style artistique existant ?",
             "answer": "Absolument. Nous commençons par des cadres de style et une passe de développement de look alignée sur les directives de votre marque ou votre monde visuel avant de nous engager dans la production complète."
           }
         }
@@ -1449,7 +1449,7 @@
             "answer": "Chaque jalon inclut un nombre défini de tours de révision. Nous regroupons les retours dans des sessions structurées afin que les changements restent efficaces et respectent le planning."
           },
           "03": {
-            "question": "Quels formats de fichiers livrez-vous ?",
+            "question": "Quels formats de fichiers livrez vous ?",
             "answer": "Nous livrons des exports adaptés à votre pipeline — MP4/MOV pour la vidéo, séquences PNG/EXR si nécessaire, fichiers source en calques sur demande, et assets prêts moteur pour les projets temps réel."
           }
         }
@@ -1457,14 +1457,14 @@
     },
     "ctaTitle": "Vous avez encore des questions ?",
     "ctaDesc": "Nous serons ravis d'échanger sur votre brief lors d'un appel.",
-    "ctaButton": "Contactez-nous"
+    "ctaButton": "Contactez nous"
   },
   "writeReviewPage": {
     "label": "Avis clients",
     "title": "ÉCRIVEZ LE VÔTRE",
     "subtitle": "Vous avez travaillé avec Starlights Visuals? Partagez votre expérience afin que d'autres marques puissent voir les résultats.",
     "name": "Votre nom",
-    "email": "E-mail",
+    "email": "E mail",
     "emailOptional": "Facultatif, non affiché publiquement",
     "role": "Votre rôle",
     "company": "Entreprise",
@@ -1472,7 +1472,7 @@
     "headline": "Titre",
     "headlinePlaceholder": "Une ligne courte qui capture votre expérience",
     "quote": "Votre avis",
-    "quotePlaceholder": "Parlez-nous de la collaboration, de la communication, de la qualité et des résultats…",
+    "quotePlaceholder": "Parlez nous de la collaboration, de la communication, de la qualité et des résultats…",
     "submit": "Envoyer l'avis",
     "submitting": "Soumission…",
     "successTitle": "Merci",
@@ -1508,8 +1508,8 @@
     "login": {
       "script": "Accès aux studios",
       "title": "Connexion administrateur",
-      "subtitle": "Connectez-vous avec un e-mail d'administrateur autorisé.",
-      "email": "E-mail",
+      "subtitle": "Connectez vous avec un e mail d'administrateur autorisé.",
+      "email": "E mail",
       "password": "Mot de passe",
       "signIn": "Se connecter",
       "signUp": "Créer un compte",
@@ -1519,7 +1519,7 @@
       "backHome": "Retour au site",
       "notConfigured": "La Supabase n'est pas configurée.",
       "failed": "L'authentification a échoué",
-      "confirmEmail": "Compte créé. Vérifiez votre courrier électronique pour confirmer, puis connectez-vous.",
+      "confirmEmail": "Compte créé. Vérifiez votre courrier électronique pour confirmer, puis connectez vous.",
       "notAuthorized": "Non autorisé en tant qu'administrateur"
     },
     "dashboard": {
@@ -1627,14 +1627,14 @@
     },
     "admins": {
       "title": "Administrateurs",
-      "subtitle": "E-mails autorisés à accéder au CMS.",
+      "subtitle": "E mails autorisés à accéder au CMS.",
       "add": "Ajouter",
       "emailPlaceholder": "admin@example.com",
-      "colEmail": "E-mail",
+      "colEmail": "E mail",
       "colAdded": "Ajouté",
       "colActions": "Actes",
       "you": "Toi",
-      "cannotDeleteSelf": "Vous ne pouvez pas supprimer votre propre adresse e-mail d'administrateur.",
+      "cannotDeleteSelf": "Vous ne pouvez pas supprimer votre propre adresse e mail d'administrateur.",
       "deleteConfirm": "Supprimer {{email}} des administrateurs ?",
       "loadError": "Échec du chargement des administrateurs",
       "addError": "Échec de l'ajout de l'administrateur",
@@ -1645,12 +1645,12 @@
     "metaDescription": "Tableau de bord de gestion de contenu Starlights Visuals.",
     "contacts": {
       "title": "Contacts",
-      "subtitle": "E-mails des clients provenant des formulaires de contact et des inscriptions à la newsletter. Envoyez-leur un message depuis la boîte de réception du studio.",
+      "subtitle": "E mails des clients provenant des formulaires de contact et des inscriptions à la newsletter. Envoyez leur un message depuis la boîte de réception du studio.",
       "loadError": "Échec du chargement des contacts",
       "deleteConfirm": "Supprimer cette soumission ?",
       "deleted": "Soumission supprimée.",
       "deleteError": "Échec de la suppression de la soumission",
-      "unauthorized": "Connectez-vous à nouveau pour envoyer des messages.",
+      "unauthorized": "Connectez vous à nouveau pour envoyer des messages.",
       "subjectRequired": "Le sujet est obligatoire.",
       "messageRequired": "Un message est requis.",
       "sendSuccess": "Envoyé {{sent}} message(s) sur {{total}}.",
@@ -1664,12 +1664,12 @@
       "colWhen": "Quand",
       "colKind": "Taper",
       "colName": "Nom",
-      "colEmail": "E-mail",
+      "colEmail": "E mail",
       "colDetails": "Détails",
       "colActions": "Actes",
       "customersTitle": "Clients",
-      "customersCount": "{{count}} e-mails uniques",
-      "noCustomers": "Aucun e-mail client pour l'instant.",
+      "customersCount": "{{count}} e mails uniques",
+      "noCustomers": "Aucun e mail client pour l'instant.",
       "unknownName": "Inconnu",
       "composeTitle": "Envoyer un message",
       "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
@@ -1677,7 +1677,7 @@
       "allCustomers": "Tous les clients",
       "subject": "Sujet",
       "message": "Message",
-      "send": "Envoyer un e-mail",
+      "send": "Envoyer un e mail",
       "sending": "Envoi…"
     }
   },
@@ -1686,41 +1686,41 @@
     "metaDescription": "Découvrez quelles informations Starlights Visuals collecte, pourquoi elles sont utilisées et comment elles sont protégées.",
     "label": "Votre vie privée",
     "title": "POLITIQUE DE CONFIDENTIALITÉ",
-    "subtitle": "Comment notre studio basé aux États-Unis gère les informations des clients et des visiteurs du monde entier.",
+    "subtitle": "Comment notre studio basé aux États Unis gère les informations des clients et des visiteurs du monde entier.",
     "updated": "Dernière mise à jour : 2026",
-    "summary": "Nous servons des clients dans le monde entier, avec un accent important sur l'Europe et l'Allemagne. Nous ne vendons, ne louons ni n'échangeons d'informations personnelles et nous ne partageons jamais les informations d'un client avec un autre client aux États-Unis, en Allemagne, en Europe ou ailleurs.",
+    "summary": "Nous servons des clients dans le monde entier, avec un accent important sur l'Europe et l'Allemagne. Nous ne vendons, ne louons ni n'échangeons d'informations personnelles et nous ne partageons jamais les informations d'un client avec un autre client aux États Unis, en Allemagne, en Europe ou ailleurs.",
     "sections": {
       "information": {
         "title": "Informations que nous collectons",
-        "body": "Nous collectons uniquement les informations que vous soumettez volontairement. Une demande de projet peut inclure votre nom, votre adresse e-mail, le service sélectionné et votre message. Une inscription à la newsletter inclut votre adresse e-mail. Un avis soumis peut inclure votre nom, votre adresse e-mail, votre rôle, votre entreprise, votre note, votre titre et le texte de l'avis.\n\nNos fournisseurs d'hébergement et de services peuvent également traiter des données techniques de base, telles que l'adresse IP, le type de navigateur, les informations sur l'appareil, l'heure de la demande et les journaux d'erreurs, pour faire fonctionner et sécuriser le site Web."
+        "body": "Nous collectons uniquement les informations que vous soumettez volontairement. Une demande de projet peut inclure votre nom, votre adresse e mail, le service sélectionné et votre message. Une inscription à la newsletter inclut votre adresse e mail. Un avis soumis peut inclure votre nom, votre adresse e mail, votre rôle, votre entreprise, votre note, votre titre et le texte de l'avis. Nos fournisseurs d'hébergement et de services peuvent également traiter des données techniques de base, telles que l'adresse IP, le type de navigateur, les informations sur l'appareil, l'heure de la demande et les journaux d'erreurs, pour faire fonctionner et sécuriser le site Web."
       },
       "use": {
         "title": "Comment nous utilisons les informations",
-        "body": "Nous utilisons les informations soumises pour répondre aux demandes de renseignements, préparer ou fournir les services créatifs demandés, envoyer des réponses transactionnelles, gérer les communications par newsletter, examiner et publier des témoignages avec approbation, maintenir la sécurité du site Web, prévenir les abus et nous conformer à la loi applicable.\n\nNous n'utilisons pas les détails du projet client ou les informations personnelles à des fins indépendantes."
+        "body": "Nous utilisons les informations soumises pour répondre aux demandes de renseignements, préparer ou fournir les services créatifs demandés, envoyer des réponses transactionnelles, gérer les communications par newsletter, examiner et publier des témoignages avec approbation, maintenir la sécurité du site Web, prévenir les abus et nous conformer à la loi applicable. Nous n'utilisons pas les détails du projet client ou les informations personnelles à des fins indépendantes."
       },
       "sharing": {
         "title": "Quand les informations sont partagées",
-        "body": "Nous ne vendons ni ne louons d'informations personnelles et ne divulguons pas les informations d'un client à des clients dans un autre pays. L'accès est limité à Starlights Visuals et aux prestataires de services qui ont besoin de ces informations pour exploiter le site Web, communiquer avec vous ou effectuer le travail demandé. Les fournisseurs actuels incluent Supabase pour les services de base de données, Resend pour la livraison d'e-mails et notre fournisseur d'hébergement de sites Web. Toute divulgation requise par la loi est traitée conformément aux normes de demande du gouvernement et des autorités ci-dessous."
+        "body": "Nous ne vendons ni ne louons d'informations personnelles et ne divulguons pas les informations d'un client à des clients dans un autre pays. L'accès est limité à Starlights Visuals et aux prestataires de services qui ont besoin de ces informations pour exploiter le site Web, communiquer avec vous ou effectuer le travail demandé. Les fournisseurs actuels incluent Supabase pour les services de base de données, Resend pour la livraison d'e mails et notre fournisseur d'hébergement de sites Web. Toute divulgation requise par la loi est traitée conformément aux normes de demande du gouvernement et des autorités ci dessous."
       },
       "international": {
         "title": "Clientèle mondiale et transferts internationaux",
-        "body": "Starlights Visuals opère depuis les États-Unis et travaille avec des personnes dans le monde entier, notamment en Europe et en Allemagne. Les informations des clients américains ne sont pas partagées avec des clients allemands ou européens, et les informations des clients allemands ou européens ne sont pas partagées avec des clients américains.\n\nCette séparation des clients ne signifie pas que les données restent toujours dans un seul pays. Notre équipe agréée et nos fournisseurs de cloud peuvent traiter des informations aux États-Unis, dans l'Espace économique européen, en Allemagne ou dans d'autres endroits où ils opèrent. Lorsque des données personnelles européennes sont transférées en dehors de l'Espace économique européen, nous utilisons un mécanisme de transfert légal applicable lorsque cela est nécessaire, tel qu'une décision d'adéquation, les clauses contractuelles types de l'UE ou une autre garantie reconnue par la loi. Consultez notre avis RGPD de l'UE pour plus de détails."
+        "body": "Starlights Visuals opère depuis les États Unis et travaille avec des personnes dans le monde entier, notamment en Europe et en Allemagne. Les informations des clients américains ne sont pas partagées avec des clients allemands ou européens, et les informations des clients allemands ou européens ne sont pas partagées avec des clients américains. Cette séparation des clients ne signifie pas que les données restent toujours dans un seul pays. Notre équipe agréée et nos fournisseurs de cloud peuvent traiter des informations aux États Unis, dans l'Espace économique européen, en Allemagne ou dans d'autres endroits où ils opèrent. Lorsque des données personnelles européennes sont transférées en dehors de l'Espace économique européen, nous utilisons un mécanisme de transfert légal applicable lorsque cela est nécessaire, tel qu'une décision d'adéquation, les clauses contractuelles types de l'UE ou une autre garantie reconnue par la loi. Consultez notre avis RGPD de l'UE pour plus de détails."
       },
       "storage": {
         "title": "Cookies et stockage local",
         "body": "Ce site Web n'utilise actuellement pas de cookies publicitaires ni d'analyses tierces. Il utilise le stockage local du navigateur pour mémoriser votre choix de langue, vos préférences d'invite de traduction et vos préférences de thème. Ces informations restent sur votre appareil jusqu'à ce que votre navigateur les efface. L'infrastructure de services essentiels peut utiliser le stockage technique ou les journaux nécessaires à la sécurité et au fonctionnement."
       },
       "retention": {
-        "title": "Combien de temps conservons-nous les informations",
+        "title": "Combien de temps conservons nous les informations",
         "body": "Nous conservons les informations relatives aux demandes et aux projets uniquement aussi longtemps que cela est raisonnablement nécessaire pour répondre, fournir des services, tenir des registres commerciaux, résoudre des litiges et respecter nos obligations légales. Les informations de la newsletter sont conservées jusqu'à votre désinscription ou jusqu'à ce que vous nous demandiez de les supprimer. Les informations de révision sont conservées pendant que la révision est en attente ou publiée, à moins que la suppression ne soit demandée ou que la conservation ne soit légalement requise."
       },
       "rights": {
         "title": "Vos choix et droits à la vie privée",
-        "body": "Nous travaillons avec des gens du monde entier. Où que vous viviez, vous pouvez demander à accéder, corriger ou supprimer les informations personnelles que nous détenons à votre sujet, ou vous opposer à certaines utilisations. Vous pouvez vous désinscrire des e-mails marketing à tout moment en nous contactant ou en utilisant une option de désabonnement lorsqu'elle est proposée. Des droits supplémentaires peuvent s'appliquer en vertu des lois sur la confidentialité de votre pays ou région. Les personnes vivant dans l’Espace économique européen, en Allemagne et au Royaume-Uni peuvent également bénéficier des droits décrits dans notre Avis RGPD de l’UE. Nous vérifions et répondons aux demandes conformément à la loi applicable et ne discriminons personne pour l'exercice de ses droits à la vie privée."
+        "body": "Nous travaillons avec des gens du monde entier. Où que vous viviez, vous pouvez demander à accéder, corriger ou supprimer les informations personnelles que nous détenons à votre sujet, ou vous opposer à certaines utilisations. Vous pouvez vous désinscrire des e mails marketing à tout moment en nous contactant ou en utilisant une option de désabonnement lorsqu'elle est proposée. Des droits supplémentaires peuvent s'appliquer en vertu des lois sur la confidentialité de votre pays ou région. Les personnes vivant dans l’Espace économique européen, en Allemagne et au Royaume Uni peuvent également bénéficier des droits décrits dans notre Avis RGPD de l’UE. Nous vérifions et répondons aux demandes conformément à la loi applicable et ne discriminons personne pour l'exercice de ses droits à la vie privée."
       },
       "children": {
         "title": "La vie privée des enfants",
-        "body": "Ce site Web et nos services ne sont pas destinés aux enfants de moins de 13 ans et nous ne collectons pas sciemment d'informations personnelles auprès d'enfants de moins de 13 ans. Si vous pensez qu'un enfant a fourni des informations, contactez-nous afin que nous puissions les supprimer."
+        "body": "Ce site Web et nos services ne sont pas destinés aux enfants de moins de 13 ans et nous ne collectons pas sciemment d'informations personnelles auprès d'enfants de moins de 13 ans. Si vous pensez qu'un enfant a fourni des informations, contactez nous afin que nous puissions les supprimer."
       },
       "security": {
         "title": "Sécurité et traitement international",
@@ -1731,12 +1731,12 @@
         "body": "Nous pouvons mettre à jour cette politique lorsque nos services, fournisseurs ou obligations légales changent. La version mise à jour apparaîtra sur cette page avec une date révisée."
       },
       "contact": {
-        "title": "Contactez-nous",
-        "body": "Pour toute question ou demande relative à la confidentialité, envoyez un e-mail à info@starlightvisualstudio.de. Veuillez décrire votre demande et l'adresse e-mail associée aux informations afin que nous puissions y répondre."
+        "title": "Contactez nous",
+        "body": "Pour toute question ou demande relative à la confidentialité, envoyez un e mail à info@starlightvisualstudio.de. Veuillez décrire votre demande et l'adresse e mail associée aux informations afin que nous puissions y répondre."
       },
       "governmentRequests": {
         "title": "Demandes du gouvernement et des autorités",
-        "body": "Nous ne partageons pas volontairement les informations des clients américains avec les autorités allemandes ou européennes, et nous ne partageons pas volontairement les informations des clients allemands ou européens avec les autorités américaines. Si un gouvernement, un régulateur, un tribunal ou un organisme chargé de l'application de la loi demande des informations personnelles, nous les divulguons uniquement lorsque nous pensons raisonnablement que la demande est valide, juridiquement contraignante, relevant de l'autorité légale de l'organisme demandeur et applicable à nous.\n\nLorsque la loi le permet et que cela est raisonnablement pratique, nous examinons la demande, contestons les demandes qui semblent illégales ou excessives, ne divulguons que les informations minimales légalement requises et informons la personne concernée avant la divulgation. La loi peut nous interdire de fournir un avis. Rien dans cette politique n'empêche une divulgation nécessaire pour protéger une personne contre un préjudice grave ou pour établir, exercer ou défendre des réclamations légales."
+        "body": "Nous ne partageons pas volontairement les informations des clients américains avec les autorités allemandes ou européennes, et nous ne partageons pas volontairement les informations des clients allemands ou européens avec les autorités américaines. Si un gouvernement, un régulateur, un tribunal ou un organisme chargé de l'application de la loi demande des informations personnelles, nous les divulguons uniquement lorsque nous pensons raisonnablement que la demande est valide, juridiquement contraignante, relevant de l'autorité légale de l'organisme demandeur et applicable à nous. Lorsque la loi le permet et que cela est raisonnablement pratique, nous examinons la demande, contestons les demandes qui semblent illégales ou excessives, ne divulguons que les informations minimales légalement requises et informons la personne concernée avant la divulgation. La loi peut nous interdire de fournir un avis. Rien dans cette politique n'empêche une divulgation nécessaire pour protéger une personne contre un préjudice grave ou pour établir, exercer ou défendre des réclamations légales."
       }
     }
   },
@@ -1747,7 +1747,7 @@
     "title": "AVIS RGPD DE L'UE",
     "subtitle": "Informations destinées aux personnes vivant dans l'Espace économique européen et en Allemagne.",
     "updated": "Dernière mise à jour : 2026",
-    "summary": "Starlights Visuals est basé aux États-Unis et sert des clients dans le monde entier, notamment en Europe et en Allemagne. Cet avis complète notre politique de confidentialité et explique comment nous traitons les données personnelles couvertes par le règlement général sur la protection des données de l'Union européenne.",
+    "summary": "Starlights Visuals est basé aux États Unis et sert des clients dans le monde entier, notamment en Europe et en Allemagne. Cet avis complète notre politique de confidentialité et explique comment nous traitons les données personnelles couvertes par le règlement général sur la protection des données de l'Union européenne.",
     "sections": {
       "scope": {
         "title": "Portée",
@@ -1755,11 +1755,11 @@
       },
       "controller": {
         "title": "Responsable du traitement des données",
-        "body": "Starlights Visuals\nÉtats-Unis\nCourriel : info@starlightvisualstudio.de\n\nStarlights Visuals détermine pourquoi et comment les données personnelles soumises via ce site Web sont traitées. Les demandes de confidentialité et de RGPD peuvent être envoyées à l'adresse e-mail ci-dessus."
+        "body": "Starlights Visuals\nÉtats Unis\nCourriel : info@starlightvisualstudio.de Starlights Visuals détermine pourquoi et comment les données personnelles soumises via ce site Web sont traitées. Les demandes de confidentialité et de RGPD peuvent être envoyées à l'adresse e mail ci dessus."
       },
       "data": {
         "title": "Données personnelles que nous traitons",
-        "body": "En fonction de votre interaction, nous pouvons traiter votre nom, votre adresse e-mail, votre entreprise, votre rôle, votre type de projet, votre message de projet, vos préférences de newsletter, le contenu et l'évaluation des avis, votre correspondance et des données techniques de base telles que l'adresse IP, les détails du navigateur, les informations sur l'appareil, les horodatages et les journaux de sécurité. Nous vous demandons de ne pas envoyer de données personnelles sensibles sauf si cela est nécessaire et spécifiquement demandé."
+        "body": "En fonction de votre interaction, nous pouvons traiter votre nom, votre adresse e mail, votre entreprise, votre rôle, votre type de projet, votre message de projet, vos préférences de newsletter, le contenu et l'évaluation des avis, votre correspondance et des données techniques de base telles que l'adresse IP, les détails du navigateur, les informations sur l'appareil, les horodatages et les journaux de sécurité. Nous vous demandons de ne pas envoyer de données personnelles sensibles sauf si cela est nécessaire et spécifiquement demandé."
       },
       "purposes": {
         "title": "Finalités du traitement",
@@ -1771,11 +1771,11 @@
       },
       "recipients": {
         "title": "Séparation des destinataires et des clients",
-        "body": "Nous ne vendons pas de données personnelles. Nous ne partageons pas les informations d'un client américain avec des clients en Allemagne ou en Europe, et nous ne partageons pas les informations d'un client allemand ou européen avec des clients aux États-Unis. Les données personnelles ne sont disponibles qu'au personnel et aux fournisseurs autorisés de Starlights Visuals qui en ont besoin dans un but déclaré, y compris Supabase pour les services de base de données, Resend pour l'envoi de courriers électroniques et notre fournisseur d'hébergement de sites Web. Les fournisseurs sont censés traiter les données uniquement selon les instructions et garanties appropriées."
+        "body": "Nous ne vendons pas de données personnelles. Nous ne partageons pas les informations d'un client américain avec des clients en Allemagne ou en Europe, et nous ne partageons pas les informations d'un client allemand ou européen avec des clients aux États Unis. Les données personnelles ne sont disponibles qu'au personnel et aux fournisseurs autorisés de Starlights Visuals qui en ont besoin dans un but déclaré, y compris Supabase pour les services de base de données, Resend pour l'envoi de courriers électroniques et notre fournisseur d'hébergement de sites Web. Les fournisseurs sont censés traiter les données uniquement selon les instructions et garanties appropriées."
       },
       "transfers": {
         "title": "Transferts hors Europe",
-        "body": "Étant donné que Starlights Visuals est basé aux États-Unis et utilise des services cloud internationaux, les données personnelles européennes peuvent être transférées vers ou accessibles depuis des pays en dehors de l'Espace économique européen, y compris les États-Unis. La séparation des clients n’empêche pas ces transferts de services nécessaires. Lorsque le RGPD exige une garantie de transfert, nous nous appuyons sur une décision d'adéquation applicable, sur les clauses contractuelles types de l'UE, sur le cadre de confidentialité des données de l'UE aux États-Unis pour un fournisseur participant ou sur un autre mécanisme légal. Vous pouvez nous contacter pour obtenir des informations sur la protection de vos données."
+        "body": "Étant donné que Starlights Visuals est basé aux États Unis et utilise des services cloud internationaux, les données personnelles européennes peuvent être transférées vers ou accessibles depuis des pays en dehors de l'Espace économique européen, y compris les États Unis. La séparation des clients n’empêche pas ces transferts de services nécessaires. Lorsque le RGPD exige une garantie de transfert, nous nous appuyons sur une décision d'adéquation applicable, sur les clauses contractuelles types de l'UE, sur le cadre de confidentialité des données de l'UE aux États Unis pour un fournisseur participant ou sur un autre mécanisme légal. Vous pouvez nous contacter pour obtenir des informations sur la protection de vos données."
       },
       "retention": {
         "title": "Rétention",
@@ -1795,11 +1795,11 @@
       },
       "contact": {
         "title": "Contact",
-        "body": "Pour des questions sur le RGPD, des demandes de droits, des informations de protection des transferts ou des problèmes de confidentialité, envoyez un e-mail à info@starlightvisualstudio.de."
+        "body": "Pour des questions sur le RGPD, des demandes de droits, des informations de protection des transferts ou des problèmes de confidentialité, envoyez un e mail à info@starlightvisualstudio.de."
       },
       "governmentRequests": {
         "title": "Accès du gouvernement et des autorités",
-        "body": "Nous ne fournissons pas volontairement les données des clients européens ou allemands aux autorités américaines, et nous ne fournissons pas volontairement les données des clients américains aux autorités allemandes ou européennes. Une demande d’autorité transfrontalière ne donne pas automatiquement accès aux données personnelles.\n\nAvant de répondre, nous évaluons raisonnablement si la demande est valide, juridiquement contraignante, proportionnée, relevant de la compétence de l'autorité et applicable à nous. Lorsque la loi le permet et que cela est raisonnablement pratique, nous contestons les demandes illégales ou excessives, ne divulguons que le minimum d'informations légalement requis, documentons la demande et la réponse et informons la personne concernée. La notification peut être retardée ou interdite par la loi. Ces pratiques complètent, mais ne remplacent pas, les garanties de transfert requises par le RGPD."
+        "body": "Nous ne fournissons pas volontairement les données des clients européens ou allemands aux autorités américaines, et nous ne fournissons pas volontairement les données des clients américains aux autorités allemandes ou européennes. Une demande d’autorité transfrontalière ne donne pas automatiquement accès aux données personnelles. Avant de répondre, nous évaluons raisonnablement si la demande est valide, juridiquement contraignante, proportionnée, relevant de la compétence de l'autorité et applicable à nous. Lorsque la loi le permet et que cela est raisonnablement pratique, nous contestons les demandes illégales ou excessives, ne divulguons que le minimum d'informations légalement requis, documentons la demande et la réponse et informons la personne concernée. La notification peut être retardée ou interdite par la loi. Ces pratiques complètent, mais ne remplacent pas, les garanties de transfert requises par le RGPD."
       }
     }
   },
@@ -1818,7 +1818,7 @@
         "founderName": "Boluwaji Ominiran",
         "addresses": {
           "us": {
-            "label": "Siège social (États-Unis)",
+            "label": "Siège social (États Unis)",
             "lines": "6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States"
           },
           "be": {
@@ -1826,7 +1826,7 @@
             "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
           },
           "uk": {
-            "label": "Adresse professionnelle au Royaume-Uni",
+            "label": "Adresse professionnelle au Royaume Uni",
             "lines": "4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nUnited Kingdom"
           }
         },
@@ -1844,11 +1844,11 @@
             "value": "+44 7348 550667"
           },
           "email": {
-            "label": "E-mail",
+            "label": "E mail",
             "value": "info@starlightvisualstudio.de"
           }
         },
-        "note": "Pour les demandes de renseignements sur un projet, les avis juridiques ou les demandes de confidentialité, veuillez utiliser les détails ci-dessus."
+        "note": "Pour les demandes de renseignements sur un projet, les avis juridiques ou les demandes de confidentialité, veuillez utiliser les détails ci dessus."
       },
       "responsibility": {
         "title": "Responsabilité du contenu",

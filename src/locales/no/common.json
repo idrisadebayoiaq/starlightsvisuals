@@ -47,27 +47,27 @@
     "emailPlaceholder": "din@epost.no",
     "join": "Bli med",
     "subscribed": "✦ Du er med. Velkommen til Starlights.",
-    "tagline": "Et kreativt studio som bringer fantasien til live gjennom kinomatisk 2D-animasjon, høykvalitets 3D-opplevelser og VFX.",
+    "tagline": "Et kreativt studio som bringer fantasien til live gjennom kinomatisk 2D animasjon, høykvalitets 3D opplevelser og VFX.",
     "explore": "Utforsk",
     "follow": "Følg",
     "social": "Lenke til sosiale medier",
     "copyright": "© {{year}} Starlights Visuals. Skapt med lys & kode.",
     "joining": "Blir med …",
-    "subscribeError": "Kunne ikke abonnere akkurat nå. Vennligst prøv igjen eller send oss ​​en e-post direkte.",
+    "subscribeError": "Kunne ikke abonnere akkurat nå. Vennligst prøv igjen eller send oss ​​en e post direkte.",
     "adminLogin": "Admin",
-    "emailRequired": "Vennligst skriv inn e-postadressen din.",
-    "emailInvalid": "Vennligst skriv inn en gyldig e-postadresse.",
+    "emailRequired": "Vennligst skriv inn e postadressen din.",
+    "emailInvalid": "Vennligst skriv inn en gyldig e postadresse.",
     "privacy": "Personvernerklæring",
     "euGdpr": "EU GDPR",
     "imprint": "Avtrykk"
   },
   "home": {
     "metaTitle": "Starlights Visuals | Animasjon og VFX Studio",
-    "metaDescription": "Et kreativt studio for 2D- og 3D-animasjon, VFX og filmatisk historiefortelling. Vi bringer verdener, karakterer og filmer til live.",
+    "metaDescription": "Et kreativt studio for 2D- og 3D animasjon, VFX og filmatisk historiefortelling. Vi bringer verdener, karakterer og filmer til live.",
     "heroScript": "Historier i bevegelse —",
     "heroTitle1": "ANIMASJON",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals bringer historier til live med animasjon og visuelle effekter som fenger publikum og løfter hver eneste frame. Vi animerer fantasy-skapninger, menneskelige karakterer, kjøretøy, miljøer, rekvisitter og hard-surface-objekter — for film, serier, reklame og merkevarekampanjer.",
+    "heroBody": "Starlights Visuals bringer historier til live med animasjon og visuelle effekter som fenger publikum og løfter hver eneste frame. Vi animerer fantasy skapninger, menneskelige karakterer, kjøretøy, miljøer, rekvisitter og hard surface objekter — for film, serier, reklame og merkevarekampanjer.",
     "heroAlt": "Starlights Visuals kinohelt",
     "seePortfolio": "Se Portefølje",
     "startProject": "Start et prosjekt",
@@ -85,7 +85,7 @@
     "services": {
       "01": {
         "title": "Animasjon og VFX",
-        "desc": "Kinematisk 2D- og 3D-animasjon, karakterrigger og visuelle effekter for film, serier og merkevarer."
+        "desc": "Kinematisk 2D- og 3D animasjon, karakterrigger og visuelle effekter for film, serier og merkevarer."
       },
       "02": {
         "title": "Produktanimasjon",
@@ -93,25 +93,25 @@
       },
       "03": {
         "title": "Konsept & Karakter Art",
-        "desc": "Originale karakterer, skapninger, miljøer og rekvisitter som forankrer IP-en din."
+        "desc": "Originale karakterer, skapninger, miljøer og rekvisitter som forankrer IP en din."
       },
       "04": {
         "title": "Kinematiske trailere",
-        "desc": "Historiedrevne trailere bygget for å lansere merker, IP-er og kampanjer."
+        "desc": "Historiedrevne trailere bygget for å lansere merker, IP er og kampanjer."
       }
     },
     "showcase": {
       "character": {
-        "tag": "3D-animasjon",
-        "title": "3D-animasjon"
+        "tag": "3D animasjon",
+        "title": "3D animasjon"
       },
       "gameArt": {
         "tag": "Bevegelsesgrafikk",
         "title": "Bevegelsesgrafikk"
       },
       "animation2d": {
-        "tag": "2D-animasjon",
-        "title": "2D-animasjon"
+        "tag": "2D animasjon",
+        "title": "2D animasjon"
       },
       "cinematic": {
         "tag": "VFX",
@@ -151,27 +151,27 @@
     "items": {
       "hauke": {
         "headline": "Effektiv, pålitelig og sterkt anbefalt",
-        "quote": "Starlight Visuals støttet oss i å lage en CGI-video for SmarAct Automation, med målet om å presentere vår kjernekompetanse på en tydelig, profesjonell og visuelt engasjerende måte. Samarbeidet var svært effektivt og pålitelig fra start til slutt. Vi satte spesielt pris på den raske responstiden, rask behandling, sterk kommunikasjon og pålitelig levering av de endelige filene. Våre krav ble forstått raskt og implementert profesjonelt. Vi er veldig fornøyd med resultatet og kan trygt anbefale Starlight Visuals for høykvalitets CGI- og visuelt innholdsprosjekter.",
+        "quote": "Starlight Visuals støttet oss i å lage en CGI video for SmarAct Automation, med målet om å presentere vår kjernekompetanse på en tydelig, profesjonell og visuelt engasjerende måte. Samarbeidet var svært effektivt og pålitelig fra start til slutt. Vi satte spesielt pris på den raske responstiden, rask behandling, sterk kommunikasjon og pålitelig levering av de endelige filene. Våre krav ble forstått raskt og implementert profesjonelt. Vi er veldig fornøyd med resultatet og kan trygt anbefale Starlight Visuals for høykvalitets CGI- og visuelt innholdsprosjekter.",
         "role": "Digital markedsføring og innholdsansvarlig"
       },
       "jeremy": {
         "headline": "Fra skisser til ferdig hjelmfilm",
-        "quote": "Å jobbe med Starlight Visuals var en flott opplevelse fra start til slutt. De skapte ikke bare en animasjon, de var involvert gjennom hele prosessen, fra å finpusse våre første skisser til å støtte CAD-utviklingen og levere en endelig hjelmanimasjon som gjorde konseptet vårt til live. Det som skilte seg mest ut var hvor raskt de forsto produktet og oversatte tekniske detaljer til bilder som var både nøyaktige og engasjerende. Den endelige presentasjonsvideoen ga oss en profesjonell måte å vise frem hjelmdesignet vårt til partnere og interessenter. De var responsive, lette å samarbeide med og brydde seg oppriktig om å få alle detaljer riktige. Jeg vil gjerne anbefale dem til alle som leter etter produktanimasjon og visualisering av høy kvalitet.",
+        "quote": "Å jobbe med Starlight Visuals var en flott opplevelse fra start til slutt. De skapte ikke bare en animasjon, de var involvert gjennom hele prosessen, fra å finpusse våre første skisser til å støtte CAD utviklingen og levere en endelig hjelmanimasjon som gjorde konseptet vårt til live. Det som skilte seg mest ut var hvor raskt de forsto produktet og oversatte tekniske detaljer til bilder som var både nøyaktige og engasjerende. Den endelige presentasjonsvideoen ga oss en profesjonell måte å vise frem hjelmdesignet vårt til partnere og interessenter. De var responsive, lette å samarbeide med og brydde seg oppriktig om å få alle detaljer riktige. Jeg vil gjerne anbefale dem til alle som leter etter produktanimasjon og visualisering av høy kvalitet.",
         "role": "Grunnlegger"
       },
       "raiv": {
         "headline": "De brydde seg oppriktig om hver karakter",
-        "quote": "Jeg likte veldig godt å jobbe med teamet. Det føltes som om de virkelig brydde seg om prosjektet og ønsket at karakterene skulle se ut og føles riktige. Kommunikasjonen var alltid enkel, de var åpne for tilbakemeldinger, og hver revisjon ble håndtert uten problemer. Det var spennende å se NSFW-karakterene våre komme til live.",
+        "quote": "Jeg likte veldig godt å jobbe med teamet. Det føltes som om de virkelig brydde seg om prosjektet og ønsket at karakterene skulle se ut og føles riktige. Kommunikasjonen var alltid enkel, de var åpne for tilbakemeldinger, og hver revisjon ble håndtert uten problemer. Det var spennende å se NSFW karakterene våre komme til live.",
         "role": "Spillesjef"
       },
       "ilija": {
         "headline": "Klare bilder for elbilteknologi",
-        "quote": "De bidro til å forme PHR-konseptet vårt kreativt og levere fantastisk video som sørget for at det visuelle tydelig kommuniserer hvordan elbilteknologien vår fungerer. Deres oppmerksomhet på detaljer, kreativitet og vilje til å iterere gjorde hele prosessen jevn. Den endelige animasjonen ga oss en mye klarere måte å presentere produktet vårt for partnere og interessenter.",
+        "quote": "De bidro til å forme PHR konseptet vårt kreativt og levere fantastisk video som sørget for at det visuelle tydelig kommuniserer hvordan elbilteknologien vår fungerer. Deres oppmerksomhet på detaljer, kreativitet og vilje til å iterere gjorde hele prosessen jevn. Den endelige animasjonen ga oss en mye klarere måte å presentere produktet vårt for partnere og interessenter.",
         "role": "Grunnlegger"
       },
       "luigi": {
         "headline": "Akkurat det vi trengte for M12 og B12",
-        "quote": "Vi trengte en tydelig måte å vise forskjellene mellom M12- og B12-produktene våre på, og Starlight Visuals leverte akkurat det vi lette etter. Animasjonene var av høy kvalitet, enkle å forstå og fanget opp alle viktige detaljer.",
+        "quote": "Vi trengte en tydelig måte å vise forskjellene mellom M12- og B12 produktene våre på, og Starlight Visuals leverte akkurat det vi lette etter. Animasjonene var av høy kvalitet, enkle å forstå og fanget opp alle viktige detaljer.",
         "role": "Produksjonssjef"
       },
       "jason": {
@@ -205,7 +205,7 @@
   },
   "servicesPage": {
     "metaTitle": "Tjenester | Starlights Visuals",
-    "metaDescription": "2D-animasjon, 3D-animasjon, karakterdesign, bevegelsesgrafikk, VFX, produktanimasjon og filmtrailere.",
+    "metaDescription": "2D animasjon, 3D animasjon, karakterdesign, bevegelsesgrafikk, VFX, produktanimasjon og filmtrailere.",
     "label": "Hva vi bygger",
     "title": "TJENESTER",
     "subtitle": "Ett studio, hvert trinn i produksjonen, fra første skisse til siste piksel.",
@@ -216,11 +216,11 @@
     "ctaButton": "Ta kontakt",
     "items": {
       "2d": {
-        "title": "2D-animasjon",
+        "title": "2D animasjon",
         "desc": "Ramme for ramme og rigget 2D for serier, kortfilmer, forklaringer og merkefilmer. Vi blander klassisk håndverk med digitale rørledninger."
       },
       "3d": {
-        "title": "3D-animasjon",
+        "title": "3D animasjon",
         "desc": "Stilisert og fotorealistisk 3D, karakterer, miljøer og fulle kinosekvenser med kvalitetspolering."
       },
       "character": {
@@ -229,15 +229,15 @@
       },
       "motion": {
         "title": "Bevegelsesgrafikk",
-        "desc": "Merket bevegelse, UI-animasjon, kringkastingspakker og forklaringsvideoer med filmisk polering."
+        "desc": "Merket bevegelse, UI animasjon, kringkastingspakker og forklaringsvideoer med filmisk polering."
       },
       "vfx": {
         "title": "Visuelle effekter (VFX)",
-        "desc": "Compositing, partikkel FX og CG-integrasjon for film, reklame og digitale kampanjer."
+        "desc": "Compositing, partikkel FX og CG integrasjon for film, reklame og digitale kampanjer."
       },
       "trailer": {
         "title": "Kinematiske trailere",
-        "desc": "Historiedrevne trailere bygget for å lansere merkevarer, IP-er og kampanjer med maksimal effekt."
+        "desc": "Historiedrevne trailere bygget for å lansere merkevarer, IP er og kampanjer med maksimal effekt."
       }
     }
   },
@@ -279,7 +279,7 @@
   },
   "contactPage": {
     "metaTitle": "Kontakt | Starlights Visuals",
-    "metaDescription": "Ta kontakt med Starlights Visuals for 2D- og 3D-animasjon, bevegelsesgrafikk, VFX, produktanimasjon og filmiske trailerprosjekter.",
+    "metaDescription": "Ta kontakt med Starlights Visuals for 2D- og 3D animasjon, bevegelsesgrafikk, VFX, produktanimasjon og filmiske trailerprosjekter.",
     "label": "La oss snakke",
     "title": "KONTAKT",
     "subtitle": "Produksjonsforespørsler, samarbeid eller bare hei, send oss et signal.",
@@ -298,21 +298,21 @@
     "responseTime": "SVARTID",
     "responseDesc": "Innen 24 timer, man, fre.",
     "projectTypes": {
-      "2d": "2D-animasjon",
-      "3d": "3D-animasjon",
+      "2d": "2D animasjon",
+      "3d": "3D animasjon",
       "trailer": "Kinematisk trailer",
       "character": "Karakterdesign",
       "motion": "Motion Graphics og VFX",
       "other": "Annen"
     },
     "sending": "Sender …",
-    "errorGeneric": "Kunne ikke sende meldingen. Send oss ​​en e-post direkte eller prøv igjen.",
+    "errorGeneric": "Kunne ikke sende meldingen. Send oss ​​en e post direkte eller prøv igjen.",
     "sentToast": "Meldingen ble sendt.",
     "sendAnother": "Send en ny melding",
     "errors": {
       "nameRequired": "Vennligst skriv inn navnet ditt.",
-      "emailRequired": "Vennligst skriv inn e-postadressen din.",
-      "emailInvalid": "Vennligst skriv inn en gyldig e-postadresse.",
+      "emailRequired": "Vennligst skriv inn e postadressen din.",
+      "emailInvalid": "Vennligst skriv inn en gyldig e postadresse.",
       "serviceRequired": "Vennligst velg en tjeneste.",
       "messageRequired": "Vennligst skriv inn en melding."
     }
@@ -336,9 +336,9 @@
         "desc": "Helt hovedpersonark."
       },
       "2d": {
-        "tag": "2D-animasjon",
+        "tag": "2D animasjon",
         "title": "Neon Skyline",
-        "desc": "Anime-inspirert pilotepisode."
+        "desc": "Anime inspirert pilotepisode."
       },
       "creature": {
         "tag": "Creature Design",
@@ -380,8 +380,8 @@
         "readTime": "6 min lesing"
       },
       "character-design-for-ip": {
-        "title": "Karakterdesign som forankrer IP-en din på tvers av hver kanal",
-        "excerpt": "Fra silhuettlesbarhet til merch-readarounds, sjekklisten vi bruker før en helt går i produksjon.",
+        "title": "Karakterdesign som forankrer IP en din på tvers av hver kanal",
+        "excerpt": "Fra silhuettlesbarhet til merch readarounds, sjekklisten vi bruker før en helt går i produksjon.",
         "category": "Håndverk",
         "date": "3. mai 2026",
         "readTime": "5 min lesing"
@@ -394,8 +394,8 @@
         "readTime": "4 min lesing"
       },
       "2d-animation-in-2026": {
-        "title": "2D-animasjon i 2026: hybridrørledninger som fortsatt føles håndlagde",
-        "excerpt": "Kombinerer rigget effektivitet med ramme for ramme-aksenter, når du skal presse hver teknikk for førsteklasses resultater.",
+        "title": "2D animasjon i 2026: hybridrørledninger som fortsatt føles håndlagde",
+        "excerpt": "Kombinerer rigget effektivitet med ramme for ramme aksenter, når du skal presse hver teknikk for førsteklasses resultater.",
         "category": "Animasjon",
         "date": "29. mars 2026",
         "readTime": "7 min lest"
@@ -430,7 +430,7 @@
   },
   "meta": {
     "rootTitle": "Starlights Visuals | Animasjon og VFX Studio",
-    "rootDescription": "Starlights Visuals er et kreativt studio som spesialiserer seg på filmisk 2D-animasjon, høykvalitets 3D-animasjon og VFX.",
+    "rootDescription": "Starlights Visuals er et kreativt studio som spesialiserer seg på filmisk 2D animasjon, høykvalitets 3D animasjon og VFX.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -465,14 +465,14 @@
     "portfolioHubDesc": "Utforsk arbeid etter kategori, animasjon, VFX, bevegelse og mer.",
     "categories": {
       "2d-animation": {
-        "title": "2D-animasjon",
+        "title": "2D animasjon",
         "tagline": "Ramme for ramme håndverk for kampanjer og serier",
-        "description": "Karakterdrevet 2D-animasjon for reklamefilmer, forklaringer og episodisk innhold med dristige bevegelser og filmisk timing."
+        "description": "Karakterdrevet 2D animasjon for reklamefilmer, forklaringer og episodisk innhold med dristige bevegelser og filmisk timing."
       },
       "3d-animation": {
-        "title": "3D-animasjon",
+        "title": "3D animasjon",
         "tagline": "Stilisert og fotorealistisk 3D for film og merkevarer",
-        "description": "Høykvalitets 3D-karakter, produkt og kinoanimasjon med polering på funksjonsnivå for kampanjer og serier."
+        "description": "Høykvalitets 3D karakter, produkt og kinoanimasjon med polering på funksjonsnivå for kampanjer og serier."
       },
       "motion-graphics": {
         "title": "Bevegelsesgrafikk",
@@ -482,17 +482,17 @@
       "vfx": {
         "title": "Visuelle effekter (VFX)",
         "tagline": "Komposisjon, FX og filmisk etterbehandling",
-        "description": "Visuelle effekter for trailere, produktfilmer og merkeinnhold, fra opprydding til full CG-integrasjon."
+        "description": "Visuelle effekter for trailere, produktfilmer og merkeinnhold, fra opprydding til full CG integrasjon."
       }
     },
     "showcase": {
       "2d-animation": {
-        "tag": "2D-animasjon",
-        "title": "2D-animasjon"
+        "tag": "2D animasjon",
+        "title": "2D animasjon"
       },
       "3d-animation": {
-        "tag": "3D-animasjon",
-        "title": "3D-animasjon"
+        "tag": "3D animasjon",
+        "title": "3D animasjon"
       },
       "motion-graphics": {
         "tag": "Bevegelsesgrafikk",
@@ -516,10 +516,10 @@
         "chibi-art": {
           "name": "CHIBI ART",
           "industry": "Karakter og animasjon",
-          "description": "Chibi-stil 2D karakteranimasjon med uttrykksfulle scener og bak kulissene å lage prosessfilmer.",
+          "description": "Chibi stil 2D karakteranimasjon med uttrykksfulle scener og bak kulissene å lage prosessfilmer.",
           "timeline": "2025",
           "services": {
-            "0": "2D-animasjon",
+            "0": "2D animasjon",
             "1": "Chibi Art",
             "2": "Karakteranimasjon"
           },
@@ -532,12 +532,12 @@
         "vtuber-animation": {
           "name": "VTUBER ANIMATION",
           "industry": "VTuber og karakter",
-          "description": "VTuber-karakterkunst og 2D-animasjon med modelleringsprosessfilmer, polerte prøver og Live2D-stil.",
+          "description": "VTuber karakterkunst og 2D animasjon med modelleringsprosessfilmer, polerte prøver og Live2D stil.",
           "timeline": "2025",
           "services": {
-            "0": "VTuber-animasjon",
-            "1": "2D-karakter",
-            "2": "Live2D-stil"
+            "0": "VTuber animasjon",
+            "1": "2D karakter",
+            "2": "Live2D stil"
           },
           "tools": {
             "0": "Live2D",
@@ -553,7 +553,7 @@
           "services": {
             "0": "Live2D",
             "1": "Rigging",
-            "2": "2D-karakteranimasjon"
+            "2": "2D karakteranimasjon"
           },
           "tools": {
             "0": "Live2D kubisme",
@@ -563,8 +563,8 @@
         },
         "2d-anime-animation": {
           "name": "2D ANIME ANIMATION",
-          "industry": "Anime og 2D-animasjon",
-          "description": "Høykvalitets 2D-animasjon og musikkvideoer med uttrykksfulle karakterer og filmisk bevegelse.",
+          "industry": "Anime og 2D animasjon",
+          "description": "Høykvalitets 2D animasjon og musikkvideoer med uttrykksfulle karakterer og filmisk bevegelse.",
           "timeline": "2025",
           "services": {
             "0": "2D Anime",
@@ -614,10 +614,10 @@
         "3d-explainer-video": {
           "name": "3D EXPLAINER VIDEO",
           "industry": "Produkt & Forklaring",
-          "description": "3D-forklarings- og produktpresentasjonsfilmer som dekker merkevarefortelling, 360-produktvisninger og kommersiell animasjon.",
+          "description": "3D forklarings- og produktpresentasjonsfilmer som dekker merkevarefortelling, 360 produktvisninger og kommersiell animasjon.",
           "timeline": "2025",
           "services": {
-            "0": "3D-forklarer",
+            "0": "3D forklarer",
             "1": "Produktpresentasjon",
             "2": "360 produktvisning"
           },
@@ -646,10 +646,10 @@
         "3d-anime-character": {
           "name": "3D ANIME CHARACTER",
           "industry": "Karakter og anime",
-          "description": "3D-anime-karaktermodellering og klientfremvisningsfilmer med stiliserte materialer og polert presentasjon.",
+          "description": "3D anime karaktermodellering og klientfremvisningsfilmer med stiliserte materialer og polert presentasjon.",
           "timeline": "2025",
           "services": {
-            "0": "3D-karakter",
+            "0": "3D karakter",
             "1": "Anime CGI",
             "2": "Kundeutstilling"
           },
@@ -664,12 +664,12 @@
         "watch-animation": {
           "name": "WATCH ANIMATION",
           "industry": "Luksus klokker",
-          "description": "Photoreal 3D se produktanimasjon og filmatiske packshot-filmer for luksuriøse ur.",
+          "description": "Photoreal 3D se produktanimasjon og filmatiske packshot filmer for luksuriøse ur.",
           "timeline": "2025",
           "services": {
-            "0": "3D-produktanimasjon",
+            "0": "3D produktanimasjon",
             "1": "Se CGI",
-            "2": "Packshot-filmer"
+            "2": "Packshot filmer"
           },
           "tools": {
             "0": "Kino 4D",
@@ -680,12 +680,12 @@
         "ryse-drink-3d-product-animation": {
           "name": "RYSE DRINK 3D PRODUCT ANIMATION",
           "industry": "Drikke og produkt CGI",
-          "description": "Fotorealistisk 3D-drikkeproduktanimasjon for Ryse-drink- og limonadekampanjer med filmatisk pakkebilde-finish.",
+          "description": "Fotorealistisk 3D drikkeproduktanimasjon for Ryse drink- og limonadekampanjer med filmatisk pakkebilde finish.",
           "timeline": "2025",
           "services": {
-            "0": "3D-produktanimasjon",
+            "0": "3D produktanimasjon",
             "1": "Drikke CGI",
-            "2": "Packshot-filmer"
+            "2": "Packshot filmer"
           },
           "tools": {
             "0": "Kino 4D",
@@ -696,12 +696,12 @@
         "3d-perfume-animation": {
           "name": "3D PERFUME ANIMATION",
           "industry": "Skjønnhet og duft",
-          "description": "Photoreal 3D-parfymeproduktanimasjon for luksusduftlanseringer og kampanjeheltefilmer.",
+          "description": "Photoreal 3D parfymeproduktanimasjon for luksusduftlanseringer og kampanjeheltefilmer.",
           "timeline": "2025",
           "services": {
-            "0": "3D-produktanimasjon",
+            "0": "3D produktanimasjon",
             "1": "Duft CGI",
-            "2": "Packshot-filmer"
+            "2": "Packshot filmer"
           },
           "tools": {
             "0": "Kino 4D",
@@ -712,12 +712,12 @@
         "3d-gadget-animation": {
           "name": "3D GADGET ANIMATION",
           "industry": "Forbrukerelektronikk",
-          "description": "Fotorealistisk 3D-gadget og øreplugg-produktanimasjon med studiobelysning, materialdetaljer og kampanjeklar bevegelse.",
+          "description": "Fotorealistisk 3D gadget og øreplugg produktanimasjon med studiobelysning, materialdetaljer og kampanjeklar bevegelse.",
           "timeline": "2025",
           "services": {
-            "0": "3D-produktanimasjon",
+            "0": "3D produktanimasjon",
             "1": "Gadget CGI",
-            "2": "Packshot-filmer"
+            "2": "Packshot filmer"
           },
           "tools": {
             "0": "Kino 4D",
@@ -728,12 +728,12 @@
         "vape-animation": {
           "name": "VAPE ANIMATION",
           "industry": "Forbrukerprodukter",
-          "description": "Photoreal 3D vape-produktanimasjon med studiobelysning, materialdetaljer og kampanjeklare packshot-filmer.",
+          "description": "Photoreal 3D vape produktanimasjon med studiobelysning, materialdetaljer og kampanjeklare packshot filmer.",
           "timeline": "2025",
           "services": {
-            "0": "3D-produktanimasjon",
+            "0": "3D produktanimasjon",
             "1": "Vape CGI",
-            "2": "Packshot-filmer"
+            "2": "Packshot filmer"
           },
           "tools": {
             "0": "Kino 4D",
@@ -744,12 +744,12 @@
         "bag-suitcase-animation": {
           "name": "BAG/SUITCASE ANIMATION",
           "industry": "Reise og livsstil",
-          "description": "Realistisk 3D-produktanimasjon for vesker og kofferter med filmatisk pakkebildefinish.",
+          "description": "Realistisk 3D produktanimasjon for vesker og kofferter med filmatisk pakkebildefinish.",
           "timeline": "2025",
           "services": {
-            "0": "3D-produktanimasjon",
+            "0": "3D produktanimasjon",
             "1": "Bag CGI",
-            "2": "Packshot-filmer"
+            "2": "Packshot filmer"
           },
           "tools": {
             "0": "Kino 4D",
@@ -760,10 +760,10 @@
         "drop-band-animation": {
           "name": "DROP BAND ANIMATION",
           "industry": "Wearables og tilbehør",
-          "description": "Drop Band-produktanimasjon som dekker produksjonsprosessfilmer og endelige polerte resultater.",
+          "description": "Drop Band produktanimasjon som dekker produksjonsprosessfilmer og endelige polerte resultater.",
           "timeline": "2025",
           "services": {
-            "0": "3D-produktanimasjon",
+            "0": "3D produktanimasjon",
             "1": "Prosessfilm",
             "2": "Bærbar CGI"
           },
@@ -776,12 +776,12 @@
         "3d-bed-animation": {
           "name": "3D BED ANIMATION",
           "industry": "Møbler og sengetøy",
-          "description": "Photoreal 3D-madrass- og sengeproduktanimasjon for møbelmerker med filmisk packshot-finish.",
+          "description": "Photoreal 3D madrass- og sengeproduktanimasjon for møbelmerker med filmisk packshot finish.",
           "timeline": "2025",
           "services": {
-            "0": "3D-produktanimasjon",
+            "0": "3D produktanimasjon",
             "1": "Møbler CGI",
-            "2": "Packshot-filmer"
+            "2": "Packshot filmer"
           },
           "tools": {
             "0": "Kino 4D",
@@ -810,7 +810,7 @@
         "mintec": {
           "name": "MINTEC",
           "industry": "Industriell produksjon",
-          "description": "MinTec-industriens produktutstilling og prosessfilmer for industriell 3D-animasjon.",
+          "description": "MinTec industriens produktutstilling og prosessfilmer for industriell 3D animasjon.",
           "timeline": "2025",
           "services": {
             "0": "Industriell animasjon",
@@ -842,7 +842,7 @@
         "credex": {
           "name": "CREDEX",
           "industry": "Rengjøringsutstyr",
-          "description": "CREDEX tepperensmaskin industriell animasjon med filmisk SFX-finish.",
+          "description": "CREDEX tepperensmaskin industriell animasjon med filmisk SFX finish.",
           "timeline": "2025",
           "services": {
             "0": "Industriell animasjon",
@@ -906,7 +906,7 @@
         "autoz-crave": {
           "name": "AUTOZ CRAVE",
           "industry": "Bil og mekanisk",
-          "description": "Autoz Crave industriell animasjon for mekaniske og tekniske 3D-produktfilmer.",
+          "description": "Autoz Crave industriell animasjon for mekaniske og tekniske 3D produktfilmer.",
           "timeline": "2025",
           "services": {
             "0": "Industriell animasjon",
@@ -924,7 +924,7 @@
     "projects": {
       "chibi-art-p1": {
         "title": "Chibi Art Scene 1",
-        "description": "Ekspressiv chibi-karakterscene med polert 2D-animasjon og kampanjeklar bevegelse.",
+        "description": "Ekspressiv chibi karakterscene med polert 2D animasjon og kampanjeklar bevegelse.",
         "tags": {
           "0": "Chibi",
           "1": "Scene"
@@ -932,7 +932,7 @@
       },
       "chibi-art-p2": {
         "title": "Chibi Art Scene 2",
-        "description": "Andre chibi-karakterscene som viser frem personlighet, timing og fargerik 2D-ytelse.",
+        "description": "Andre chibi karakterscene som viser frem personlighet, timing og fargerik 2D ytelse.",
         "tags": {
           "0": "Chibi",
           "1": "Scene"
@@ -940,7 +940,7 @@
       },
       "chibi-art-p3": {
         "title": "Lage prosessfilm",
-        "description": "Se bak kulissene på chibi-kunsten og arbeidsflyten for animasjon fra skisse til siste bevegelse.",
+        "description": "Se bak kulissene på chibi kunsten og arbeidsflyten for animasjon fra skisse til siste bevegelse.",
         "tags": {
           "0": "Behandle",
           "1": "Arbeidsflyt"
@@ -948,47 +948,47 @@
       },
       "vtuber-animation-p1": {
         "title": "Vtuber Modeling Creation",
-        "description": "VTuber-figurmodelleringsfilm som dekker kunstretning og bygge arbeidsflyt.",
+        "description": "VTuber figurmodelleringsfilm som dekker kunstretning og bygge arbeidsflyt.",
         "tags": {
           "0": "VTuber",
           "1": "Modellering"
         }
       },
       "vtuber-animation-p2": {
-        "title": "Vtuber 2D-videoresultater",
-        "description": "Ferdige 2D VTuber-animasjonsresultater med uttrykksfull ytelse og polert bevegelse.",
+        "title": "Vtuber 2D videoresultater",
+        "description": "Ferdige 2D VTuber animasjonsresultater med uttrykksfull ytelse og polert bevegelse.",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p3": {
-        "title": "Prinsesse Vtuber-modellering",
-        "description": "Prinsesse VTuber-modelleksempel som viser karakterdesign og animert ytelse.",
+        "title": "Prinsesse Vtuber modellering",
+        "description": "Prinsesse VTuber modelleksempel som viser karakterdesign og animert ytelse.",
         "tags": {
           "0": "VTuber",
           "1": "Prinsesse"
         }
       },
       "vtuber-animation-p4": {
-        "title": "Vtuber 2D-video",
-        "description": "Kinematisk 2D VTuber-animasjon med dynamisk karakterbevegelse og uttrykksfull skuespill.",
+        "title": "Vtuber 2D video",
+        "description": "Kinematisk 2D VTuber animasjon med dynamisk karakterbevegelse og uttrykksfull skuespill.",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p5": {
-        "title": "Vtuber-eksempel 2",
-        "description": "Andre VTuber-animasjonseksempel med dristig karakterskuespill og polert bevegelse.",
+        "title": "Vtuber eksempel 2",
+        "description": "Andre VTuber animasjonseksempel med dristig karakterskuespill og polert bevegelse.",
         "tags": {
           "0": "VTuber",
           "1": "Prøve"
         }
       },
       "vtuber-animation-p6": {
-        "title": "Vtuber-eksempel 3",
-        "description": "Utvidet VTuber-karakterutstilling med filmatisk pacing og uttrykksfull 2D-animasjon.",
+        "title": "Vtuber eksempel 3",
+        "description": "Utvidet VTuber karakterutstilling med filmatisk pacing og uttrykksfull 2D animasjon.",
         "tags": {
           "0": "VTuber",
           "1": "Prøve"
@@ -996,23 +996,23 @@
       },
       "vtuber-animation-p7": {
         "title": "Vtuber videoprosess",
-        "description": "Bak kulissene VTuber-animasjonsprosessen fra kunst til rigging og endelig bevegelse.",
+        "description": "Bak kulissene VTuber animasjonsprosessen fra kunst til rigging og endelig bevegelse.",
         "tags": {
           "0": "Behandle",
           "1": "Arbeidsflyt"
         }
       },
       "live2d-animation-p1": {
-        "title": "Live2D-fremstillingsprosess",
-        "description": "Bak kulissene Live2D-arbeidsflyt fra kunst til endelig animert ytelse.",
+        "title": "Live2D fremstillingsprosess",
+        "description": "Bak kulissene Live2D arbeidsflyt fra kunst til endelig animert ytelse.",
         "tags": {
           "0": "Live2D",
           "1": "Behandle"
         }
       },
       "live2d-animation-p2": {
-        "title": "Live2D-eksempel",
-        "description": "Ferdig Live2D-karaktereksempel med uttrykksfull posering og polert bevegelse.",
+        "title": "Live2D eksempel",
+        "description": "Ferdig Live2D karaktereksempel med uttrykksfull posering og polert bevegelse.",
         "tags": {
           "0": "Live2D",
           "1": "Prøve"
@@ -1027,8 +1027,8 @@
         }
       },
       "live2d-animation-p4": {
-        "title": "Eksempel på Live2D-rigging",
-        "description": "Prøv Live2D-riggingdemonstrasjon med ren parameterkontroll og ansiktshandling.",
+        "title": "Eksempel på Live2D rigging",
+        "description": "Prøv Live2D riggingdemonstrasjon med ren parameterkontroll og ansiktshandling.",
         "tags": {
           "0": "Live2D",
           "1": "Rigging"
@@ -1036,23 +1036,23 @@
       },
       "live2d-animation-p5": {
         "title": "Live2D rigging resultat",
-        "description": "Det endelige Live2D-riggingsresultatet viser jevn bevegelse og uttrykksfull karakterytelse.",
+        "description": "Det endelige Live2D riggingsresultatet viser jevn bevegelse og uttrykksfull karakterytelse.",
         "tags": {
           "0": "Live2D",
           "1": "Resultat"
         }
       },
       "live2d-animation-p6": {
-        "title": "Live2D-film",
-        "description": "Kinematisk Live2D-animasjon med dynamisk karakterbevegelse og polert presentasjon.",
+        "title": "Live2D film",
+        "description": "Kinematisk Live2D animasjon med dynamisk karakterbevegelse og polert presentasjon.",
         "tags": {
           "0": "Live2D",
           "1": "Film"
         }
       },
       "2d-anime-animation-p1": {
-        "title": "2D-anime i japansk stil",
-        "description": "Japansk anime-stil 2D-animasjon med dynamisk posering, uttrykksfull skuespill og polert linjearbeid.",
+        "title": "2D anime i japansk stil",
+        "description": "Japansk anime stil 2D animasjon med dynamisk posering, uttrykksfull skuespill og polert linjearbeid.",
         "tags": {
           "0": "Anime",
           "1": "2D"
@@ -1067,8 +1067,8 @@
         }
       },
       "2d-anime-animation-p3": {
-        "title": "Meme-sanganimasjon",
-        "description": "Leken 2D-animekarakteranimasjon timet til en memesang med dristige bevegelser og humor.",
+        "title": "Meme sanganimasjon",
+        "description": "Leken 2D animekarakteranimasjon timet til en memesang med dristige bevegelser og humor.",
         "tags": {
           "0": "Anime",
           "1": "Musikk"
@@ -1083,8 +1083,8 @@
         }
       },
       "kids-learning-animation-p2": {
-        "title": "Egendefinert 2D-karakter",
-        "description": "Egendefinert 2D-karakteranimasjon med uttrykksfulle skuespill og fargerik stilisert design.",
+        "title": "Egendefinert 2D karakter",
+        "description": "Egendefinert 2D karakteranimasjon med uttrykksfulle skuespill og fargerik stilisert design.",
         "tags": {
           "0": "Karakter",
           "1": "2D"
@@ -1107,7 +1107,7 @@
         }
       },
       "3d-cartoon-animation-p2": {
-        "title": "Søt 3D-tegneseriefigur",
+        "title": "Søt 3D tegneseriefigur",
         "description": "Søt 3D tegneseriefigur video utstillingsvindu med vennlig personlighet og polert bevegelse.",
         "tags": {
           "0": "Karakter",
@@ -1115,7 +1115,7 @@
         }
       },
       "3d-explainer-video-p1": {
-        "title": "Winergy 3D-presentasjon",
+        "title": "Winergy 3D presentasjon",
         "description": "Winergy 3D merkevarepresentasjon med filmatisk kameraarbeid og polert produkthistoriefortelling.",
         "tags": {
           "0": "Forklarer",
@@ -1124,23 +1124,23 @@
       },
       "3d-explainer-video-p2": {
         "title": "Popper Product 360 Display",
-        "description": "Popper-produkt 360-skjermfilm som viser form, materialer og innpakningsdetaljer.",
+        "description": "Popper produkt 360 skjermfilm som viser form, materialer og innpakningsdetaljer.",
         "tags": {
           "0": "360",
           "1": "Popper"
         }
       },
       "3d-explainer-video-p3": {
-        "title": "Popper-animasjon",
-        "description": "Popper 3D-produktanimasjon med dynamisk bevegelse og kommersiell presentasjon.",
+        "title": "Popper animasjon",
+        "description": "Popper 3D produktanimasjon med dynamisk bevegelse og kommersiell presentasjon.",
         "tags": {
           "0": "Produkt",
           "1": "Popper"
         }
       },
       "3d-explainer-video-p4": {
-        "title": "Popper-animasjon 2",
-        "description": "Alternativt Popper-animasjonspass med raffinert belysning og kampanjeklar tempo.",
+        "title": "Popper animasjon 2",
+        "description": "Alternativt Popper animasjonspass med raffinert belysning og kampanjeklar tempo.",
         "tags": {
           "0": "Produkt",
           "1": "Popper"
@@ -1148,14 +1148,14 @@
       },
       "3d-explainer-video-p5": {
         "title": "Klientvideo av Poppes",
-        "description": "Kundevendt Poppes-video som presenterer produktet med tydelig historiefortelling og polert CGI.",
+        "description": "Kundevendt Poppes video som presenterer produktet med tydelig historiefortelling og polert CGI.",
         "tags": {
           "0": "Klient",
           "1": "Poppes"
         }
       },
       "3d-medical-animation-p1": {
-        "title": "Høykvalitets 3D medisinsk anatomi-animasjon",
+        "title": "Høykvalitets 3D medisinsk anatomi animasjon",
         "description": "Høykvalitets 3D medisinsk animasjon med detaljert anatomivisualisering og polert filmpresentasjon.",
         "tags": {
           "0": "Medisinsk",
@@ -1172,7 +1172,7 @@
       },
       "3d-anime-character-p1": {
         "title": "3D Anime Character Showcase til klienten",
-        "description": "3D-anime-karakterer viser frem film som presenterer modellering, materialer og polert stilisert ytelse for klientgjennomgang.",
+        "description": "3D anime karakterer viser frem film som presenterer modellering, materialer og polert stilisert ytelse for klientgjennomgang.",
         "tags": {
           "0": "Anime",
           "1": "Karakter"
@@ -1180,7 +1180,7 @@
       },
       "watch-animation-p1": {
         "title": "Se produktfilm",
-        "description": "Kinematisk 3D-klokkeanimasjon med studiobelysning, materialdetaljer og førsteklasses packshot-finish.",
+        "description": "Kinematisk 3D klokkeanimasjon med studiobelysning, materialdetaljer og førsteklasses packshot finish.",
         "tags": {
           "0": "Klokke",
           "1": "Produkt"
@@ -1196,14 +1196,14 @@
       },
       "watch-animation-p3": {
         "title": "Steel Reef armbåndsur",
-        "description": "Steel Reef armbåndsur-animasjon med førsteklasses materialer, belysning og kampanjeklar bevegelse.",
+        "description": "Steel Reef armbåndsur animasjon med førsteklasses materialer, belysning og kampanjeklar bevegelse.",
         "tags": {
           "0": "Klokke",
           "1": "Stålrev"
         }
       },
       "ryse-drink-3d-product-animation-p1": {
-        "title": "Ryse Drink 3D-produktanimasjon",
+        "title": "Ryse Drink 3D produktanimasjon",
         "description": "Kinematisk 3D Ryse drikkeproduktanimasjon med studiobelysning, materialdetaljer og kommersiell finish.",
         "tags": {
           "0": "Drikke",
@@ -1212,7 +1212,7 @@
       },
       "ryse-drink-3d-product-animation-p2": {
         "title": "Lemonade produktfilm",
-        "description": "Fotorealistisk limonade-produktanimasjon med flytende bevegelser, glassmaterialer og kampanjeklar presentasjon.",
+        "description": "Fotorealistisk limonade produktanimasjon med flytende bevegelser, glassmaterialer og kampanjeklar presentasjon.",
         "tags": {
           "0": "Lemonade",
           "1": "Produkt"
@@ -1220,7 +1220,7 @@
       },
       "3d-perfume-animation-p1": {
         "title": "Anabomfim 3D parfymevideo",
-        "description": "Kinematisk 3D Anabomfim-parfymeanimasjon med studiobelysning, glassmaterialer og førsteklasses packshot-finish.",
+        "description": "Kinematisk 3D Anabomfim parfymeanimasjon med studiobelysning, glassmaterialer og førsteklasses packshot finish.",
         "tags": {
           "0": "Parfyme",
           "1": "Anabomfim"
@@ -1235,8 +1235,8 @@
         }
       },
       "3d-perfume-animation-p3": {
-        "title": "Soul of Amir 3D-animasjon",
-        "description": "Soul of Amir 3D-duftanimasjon med filmatisk kameraarbeid og kampanjeklar polering.",
+        "title": "Soul of Amir 3D animasjon",
+        "description": "Soul of Amir 3D duftanimasjon med filmatisk kameraarbeid og kampanjeklar polering.",
         "tags": {
           "0": "Parfyme",
           "1": "Amirs sjel"
@@ -1252,7 +1252,7 @@
       },
       "3d-gadget-animation-p2": {
         "title": "Hodetelefon Øreplugg Produktfilm",
-        "description": "3D-hodetelefon- og øreplugger-produktanimasjon med dynamiske kamerabevegelser og premium packshot-presentasjon.",
+        "description": "3D hodetelefon- og øreplugger produktanimasjon med dynamiske kamerabevegelser og premium packshot presentasjon.",
         "tags": {
           "0": "Hodetelefoner",
           "1": "Produkt"
@@ -1260,7 +1260,7 @@
       },
       "vape-animation-p1": {
         "title": "Jojo Vape",
-        "description": "Kinematisk 3D Jojo vape-produktanimasjon med raffinerte materialer og kommersiell finish.",
+        "description": "Kinematisk 3D Jojo vape produktanimasjon med raffinerte materialer og kommersiell finish.",
         "tags": {
           "0": "Vape",
           "1": "Jojo"
@@ -1268,14 +1268,14 @@
       },
       "vape-animation-p2": {
         "title": "Juicy tranebærvape",
-        "description": "Saftig tranebærvape-produktfilm med levende farger, belysning og kampanjeklar presentasjon.",
+        "description": "Saftig tranebærvape produktfilm med levende farger, belysning og kampanjeklar presentasjon.",
         "tags": {
           "0": "Vape",
           "1": "Tranebær"
         }
       },
       "bag-suitcase-animation-p1": {
-        "title": "Realistisk 3D-produktanimasjon for vesker",
+        "title": "Realistisk 3D produktanimasjon for vesker",
         "description": "Fotoreal 3D veske og koffert produktanimasjon med førsteklasses materialer og kommersiell presentasjon.",
         "tags": {
           "0": "Bag",
@@ -1283,24 +1283,24 @@
         }
       },
       "drop-band-animation-p1": {
-        "title": "Drop Band-animasjonsprosess",
-        "description": "Bak kulissene Drop Band-animasjonsprosessen fra referanse til siste bevegelse.",
+        "title": "Drop Band animasjonsprosess",
+        "description": "Bak kulissene Drop Band animasjonsprosessen fra referanse til siste bevegelse.",
         "tags": {
           "0": "Behandle",
           "1": "Drop Band"
         }
       },
       "drop-band-animation-p2": {
-        "title": "Drop Band-animasjonsresultat",
-        "description": "Final Drop Band-produktanimasjon med raffinerte materialer, belysning og kampanjeklar finish.",
+        "title": "Drop Band animasjonsresultat",
+        "description": "Final Drop Band produktanimasjon med raffinerte materialer, belysning og kampanjeklar finish.",
         "tags": {
           "0": "Produkt",
           "1": "Drop Band"
         }
       },
       "3d-bed-animation-p1": {
-        "title": "Realistisk 3D-madrassanimasjon",
-        "description": "Realistisk 3D-madrassproduktanimasjon med myke materialer, belysning og kampanjeklar presentasjon.",
+        "title": "Realistisk 3D madrassanimasjon",
+        "description": "Realistisk 3D madrassproduktanimasjon med myke materialer, belysning og kampanjeklar presentasjon.",
         "tags": {
           "0": "Madrass",
           "1": "Produkt"
@@ -1308,15 +1308,15 @@
       },
       "3d-bed-animation-p2": {
         "title": "Simba Bed Animasjon",
-        "description": "Simba-sengeanimasjon med filmisk kameraarbeid, materialdetaljer og kommersiell finish.",
+        "description": "Simba sengeanimasjon med filmisk kameraarbeid, materialdetaljer og kommersiell finish.",
         "tags": {
           "0": "Seng",
           "1": "Simba"
         }
       },
       "ronix-p1": {
-        "title": "Ronix 3D industriell animasjon | Power Tool CGI-produktutstilling",
-        "description": "Kinematisk Ronix-elektroverktøy CGI-utstillingsvindu med tekniske detaljer og kommersiell polering.",
+        "title": "Ronix 3D industriell animasjon | Power Tool CGI produktutstilling",
+        "description": "Kinematisk Ronix elektroverktøy CGI utstillingsvindu med tekniske detaljer og kommersiell polering.",
         "tags": {
           "0": "Industriell",
           "1": "Ronix"
@@ -1324,14 +1324,14 @@
       },
       "mintec-p1": {
         "title": "MinTec Industries produktutstilling",
-        "description": "MinTec-industriens produktutstilling med teknisk historiefortelling og polert CGI.",
+        "description": "MinTec industriens produktutstilling med teknisk historiefortelling og polert CGI.",
         "tags": {
           "0": "Industriell",
           "1": "MinTec"
         }
       },
       "mintec-p2": {
-        "title": "Prosess for å lage MinTec 3D-animasjon",
+        "title": "Prosess for å lage MinTec 3D animasjon",
         "description": "Se bak kulissene på arbeidsflyten for produksjon av MinTec 3D industriell animasjon.",
         "tags": {
           "0": "Behandle",
@@ -1356,7 +1356,7 @@
       },
       "credex-p1": {
         "title": "Credex støvsuger med SFX",
-        "description": "Endelig høyoppløselig CREDEX-støvsugeranimasjon med lyddesign og kommersiell polering.",
+        "description": "Endelig høyoppløselig CREDEX støvsugeranimasjon med lyddesign og kommersiell polering.",
         "tags": {
           "0": "Industriell",
           "1": "Credex"
@@ -1408,15 +1408,15 @@
         "items": {
           "01": {
             "question": "Hvilke typer prosjekter jobber dere med?",
-            "answer": "Vi produserer animasjon, VFX, kino, bevegelsesgrafikk, produktfilmer og merkefilmer for film, serier, reklame og DTC-merker. Truser spenner fra enkelthelteinnhold til fulle kampanjepakker."
+            "answer": "Vi produserer animasjon, VFX, kino, bevegelsesgrafikk, produktfilmer og merkefilmer for film, serier, reklame og DTC merker. Truser spenner fra enkelthelteinnhold til fulle kampanjepakker."
           },
           "02": {
             "question": "Hvor holder Starlights Visuals til?",
-            "answer": "Vi er et remote-first studio med teammedlemmer på tvers av flere tidssoner. Vi samarbeider med kunder globalt og leverer produksjonsklare assets gjennom strukturerte asynkrone arbeidsflyter og live reviews."
+            "answer": "Vi er et remote first studio med teammedlemmer på tvers av flere tidssoner. Vi samarbeider med kunder globalt og leverer produksjonsklare assets gjennom strukturerte asynkrone arbeidsflyter og live reviews."
           },
           "03": {
             "question": "Hvordan starter jeg et prosjekt?",
-            "answer": "Ta kontakt via kontaktskjemaet med brief, tidslinje og referanselenker. Vi setter opp en discovery-samtale, avklarer scope og sender et forslag med milepæler og deliverables."
+            "answer": "Ta kontakt via kontaktskjemaet med brief, tidslinje og referanselenker. Vi setter opp en discovery samtale, avklarer scope og sender et forslag med milepæler og deliverables."
           }
         }
       },
@@ -1425,10 +1425,10 @@
         "items": {
           "01": {
             "question": "Hvilke tjenester tilbyr dere?",
-            "answer": "Våre kjernetjenester inkluderer 2D- og 3D-animasjon, VFX, karakter- og konseptkunst, bevegelsesgrafikk, produktanimasjon og filmtrailere. Vi kan håndtere individuelle disipliner eller full rørledningsproduksjon."
+            "answer": "Våre kjernetjenester inkluderer 2D- og 3D animasjon, VFX, karakter- og konseptkunst, bevegelsesgrafikk, produktanimasjon og filmtrailere. Vi kan håndtere individuelle disipliner eller full rørledningsproduksjon."
           },
           "02": {
-            "question": "Jobber dere med indie-team og store studioer?",
+            "question": "Jobber dere med indie team og store studioer?",
             "answer": "Ja. Vi samarbeider med indieskapere, mellomstore studioer og globale merkevarer. Omfang og teamstørrelse fleksibel for å matche budsjettet og tidslinjen uten å gå på akkord med håndverket."
           },
           "03": {
@@ -1446,11 +1446,11 @@
           },
           "02": {
             "question": "Hvordan fungerer revisjoner?",
-            "answer": "Hver milepæl inkluderer et definert antall revisjonsrunder. Vi samler tilbakemeldinger i strukturerte review-økter slik at endringer holder seg effektive og på plan."
+            "answer": "Hver milepæl inkluderer et definert antall revisjonsrunder. Vi samler tilbakemeldinger i strukturerte review økter slik at endringer holder seg effektive og på plan."
           },
           "03": {
             "question": "Hvilke filformater leverer dere?",
-            "answer": "Vi leverer formatklare eksporter for pipeline-en deres — MP4/MOV for video, PNG/EXR-sekvenser ved behov, lagdelte kildefiler på forespørsel og engine-ready assets for sanntidsprosjekter."
+            "answer": "Vi leverer formatklare eksporter for pipeline en deres — MP4/MOV for video, PNG/EXR sekvenser ved behov, lagdelte kildefiler på forespørsel og engine ready assets for sanntidsprosjekter."
           }
         }
       }
@@ -1464,7 +1464,7 @@
     "title": "SKRIV DIN",
     "subtitle": "Har du jobbet med Starlights Visuals? Del opplevelsen din slik at andre merker kan se resultatene.",
     "name": "Navnet ditt",
-    "email": "E-post",
+    "email": "E post",
     "emailOptional": "Valgfritt, ikke vist offentlig",
     "role": "Din rolle",
     "company": "Bedrift",
@@ -1508,8 +1508,8 @@
     "login": {
       "script": "Adgang til ettromsleilighet",
       "title": "Admin pålogging",
-      "subtitle": "Logg på med en autorisert admin-e-postadresse.",
-      "email": "E-post",
+      "subtitle": "Logg på med en autorisert admin e postadresse.",
+      "email": "E post",
       "password": "Passord",
       "signIn": "Logg på",
       "signUp": "Opprett konto",
@@ -1519,12 +1519,12 @@
       "backHome": "Tilbake til nettstedet",
       "notConfigured": "Supabase er ikke konfigurert.",
       "failed": "Autentisering mislyktes",
-      "confirmEmail": "Konto opprettet. Sjekk e-posten din for å bekrefte, og logg deretter på.",
+      "confirmEmail": "Konto opprettet. Sjekk e posten din for å bekrefte, og logg deretter på.",
       "notAuthorized": "Ikke autorisert som admin"
     },
     "dashboard": {
       "title": "Dashbord",
-      "subtitle": "Oversikt over CMS-innhold.",
+      "subtitle": "Oversikt over CMS innhold.",
       "blogs": "Blogginnlegg",
       "videos": "Porteføljevideoer",
       "pendingReviews": "Venter på anmeldelser",
@@ -1550,7 +1550,7 @@
       "readTime": "Lesetid",
       "author": "Forfatter",
       "sortOrder": "Sorteringsrekkefølge",
-      "imageUrl": "Bilde-URL",
+      "imageUrl": "Bilde URL",
       "uploading": "Laster opp …",
       "sections": "Seksjoner",
       "addSection": "Legg til seksjon",
@@ -1627,14 +1627,14 @@
     },
     "admins": {
       "title": "Administratorer",
-      "subtitle": "E-poster har tilgang til CMS.",
+      "subtitle": "E poster har tilgang til CMS.",
       "add": "Legge til",
       "emailPlaceholder": "admin@example.com",
-      "colEmail": "E-post",
+      "colEmail": "E post",
       "colAdded": "Lagt til",
       "colActions": "Handlinger",
       "you": "Du",
-      "cannotDeleteSelf": "Du kan ikke fjerne din egen admin-e-postadresse.",
+      "cannotDeleteSelf": "Du kan ikke fjerne din egen admin e postadresse.",
       "deleteConfirm": "Vil du fjerne {{email}} fra administratorer?",
       "loadError": "Kunne ikke laste inn administratorer",
       "addError": "Kunne ikke legge til admin",
@@ -1645,7 +1645,7 @@
     "metaDescription": "Starlights Visuals dashbord for innholdsadministrasjon.",
     "contacts": {
       "title": "Kontakter",
-      "subtitle": "Kunde-e-post fra kontaktskjemaer og nyhetsbrevregistreringer. Send melding til dem fra studioinnboksen.",
+      "subtitle": "Kunde e post fra kontaktskjemaer og nyhetsbrevregistreringer. Send melding til dem fra studioinnboksen.",
       "loadError": "Kunne ikke laste inn kontakter",
       "deleteConfirm": "Vil du slette denne innsendingen?",
       "deleted": "Innlevering slettet.",
@@ -1664,12 +1664,12 @@
       "colWhen": "Når",
       "colKind": "Type",
       "colName": "Navn",
-      "colEmail": "E-post",
+      "colEmail": "E post",
       "colDetails": "Detaljer",
       "colActions": "Handlinger",
       "customersTitle": "Kunder",
-      "customersCount": "{{count}} unike e-poster",
-      "noCustomers": "Ingen kunde-e-post ennå.",
+      "customersCount": "{{count}} unike e poster",
+      "noCustomers": "Ingen kunde e post ennå.",
       "unknownName": "Ukjent",
       "composeTitle": "Send melding",
       "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
@@ -1677,7 +1677,7 @@
       "allCustomers": "Alle kunder",
       "subject": "Tema",
       "message": "Beskjed",
-      "send": "Send e-post",
+      "send": "Send e post",
       "sending": "Sender …"
     }
   },
@@ -1686,25 +1686,25 @@
     "metaDescription": "Finn ut hvilken informasjon Starlights Visuals samler inn, hvorfor den brukes og hvordan den er beskyttet.",
     "label": "Ditt personvern",
     "title": "PERSONVERN",
-    "subtitle": "Hvordan vårt USA-baserte studio håndterer informasjon fra kunder og besøkende over hele verden.",
+    "subtitle": "Hvordan vårt USA baserte studio håndterer informasjon fra kunder og besøkende over hele verden.",
     "updated": "Sist oppdatert: 2026",
     "summary": "Vi betjener kunder over hele verden, med et viktig fokus på Europa og Tyskland. Vi selger, leier eller bytter ikke med personlig informasjon, og vi deler aldri en klients informasjon med en annen klient i USA, Tyskland, Europa eller andre steder.",
     "sections": {
       "information": {
         "title": "Informasjon vi samler inn",
-        "body": "Vi samler kun inn informasjon du frivillig sender inn. En prosjektforespørsel kan inneholde navn, e-postadresse, valgt tjeneste og melding. Påmelding til nyhetsbrev inkluderer e-postadressen din. En innsendt anmeldelse kan inneholde navn, e-postadresse, rolle, selskap, vurdering, overskrift og anmeldelsestekst.\n\nVåre verts- og tjenesteleverandører kan også behandle grunnleggende tekniske data, som IP-adresse, nettlesertype, enhetsinformasjon, forespørselstid og feillogger, for å drive og sikre nettstedet."
+        "body": "Vi samler kun inn informasjon du frivillig sender inn. En prosjektforespørsel kan inneholde navn, e postadresse, valgt tjeneste og melding. Påmelding til nyhetsbrev inkluderer e postadressen din. En innsendt anmeldelse kan inneholde navn, e postadresse, rolle, selskap, vurdering, overskrift og anmeldelsestekst. Våre verts- og tjenesteleverandører kan også behandle grunnleggende tekniske data, som IP adresse, nettlesertype, enhetsinformasjon, forespørselstid og feillogger, for å drive og sikre nettstedet."
       },
       "use": {
         "title": "Hvordan vi bruker informasjon",
-        "body": "Vi bruker innsendt informasjon til å besvare forespørsler, forberede eller tilby forespurte kreative tjenester, sende transaksjonssvar, administrere nyhetsbrevkommunikasjon, gjennomgå og publisere attester med godkjenning, opprettholde nettstedssikkerhet, forhindre misbruk og overholde gjeldende lov.\n\nVi bruker ikke klientprosjektdetaljer eller personlig informasjon til urelaterte formål."
+        "body": "Vi bruker innsendt informasjon til å besvare forespørsler, forberede eller tilby forespurte kreative tjenester, sende transaksjonssvar, administrere nyhetsbrevkommunikasjon, gjennomgå og publisere attester med godkjenning, opprettholde nettstedssikkerhet, forhindre misbruk og overholde gjeldende lov. Vi bruker ikke klientprosjektdetaljer eller personlig informasjon til urelaterte formål."
       },
       "sharing": {
         "title": "Når informasjon deles",
-        "body": "Vi selger eller leier ikke ut personlig informasjon og avslører ikke en klients informasjon til klienter i et annet land. Tilgangen er begrenset til Starlights Visuals og tjenesteleverandører som trenger informasjonen for å betjene nettstedet, kommunisere med deg eller levere etterspurt arbeid. Nåværende leverandører inkluderer Supabase for databasetjenester, Resend for e-postlevering, og vår vertsleverandør for nettstedet. Enhver offentliggjøring som kreves av loven, håndteres i henhold til standardene for myndighetene og myndighetenes forespørsler nedenfor."
+        "body": "Vi selger eller leier ikke ut personlig informasjon og avslører ikke en klients informasjon til klienter i et annet land. Tilgangen er begrenset til Starlights Visuals og tjenesteleverandører som trenger informasjonen for å betjene nettstedet, kommunisere med deg eller levere etterspurt arbeid. Nåværende leverandører inkluderer Supabase for databasetjenester, Resend for e postlevering, og vår vertsleverandør for nettstedet. Enhver offentliggjøring som kreves av loven, håndteres i henhold til standardene for myndighetene og myndighetenes forespørsler nedenfor."
       },
       "international": {
         "title": "Globale kunder og internasjonale overføringer",
-        "body": "Starlights Visuals opererer fra USA og jobber med mennesker over hele verden, spesielt i Europa og Tyskland. Kundeinformasjon i USA deles ikke med tyske eller europeiske kunder, og tysk eller europeisk kundeinformasjon deles ikke med kunder i USA.\n\nDenne klientseparasjonen betyr ikke at data alltid forblir i ett land. Vårt autoriserte team og skyleverandører kan behandle informasjon i USA, Det europeiske økonomiske samarbeidsområdet, Tyskland eller andre steder der de opererer. Når europeiske personopplysninger overføres utenfor det europeiske økonomiske samarbeidsområdet, bruker vi en gjeldende juridisk overføringsmekanisme der det er nødvendig, for eksempel en tilstrekkelighetsbeslutning, EUs standardkontraktsklausuler eller en annen beskyttelse som er anerkjent av loven. Se vår EU GDPR-melding for ytterligere detaljer."
+        "body": "Starlights Visuals opererer fra USA og jobber med mennesker over hele verden, spesielt i Europa og Tyskland. Kundeinformasjon i USA deles ikke med tyske eller europeiske kunder, og tysk eller europeisk kundeinformasjon deles ikke med kunder i USA. Denne klientseparasjonen betyr ikke at data alltid forblir i ett land. Vårt autoriserte team og skyleverandører kan behandle informasjon i USA, Det europeiske økonomiske samarbeidsområdet, Tyskland eller andre steder der de opererer. Når europeiske personopplysninger overføres utenfor det europeiske økonomiske samarbeidsområdet, bruker vi en gjeldende juridisk overføringsmekanisme der det er nødvendig, for eksempel en tilstrekkelighetsbeslutning, EUs standardkontraktsklausuler eller en annen beskyttelse som er anerkjent av loven. Se vår EU GDPR melding for ytterligere detaljer."
       },
       "storage": {
         "title": "Informasjonskapsler og lokal lagring",
@@ -1716,7 +1716,7 @@
       },
       "rights": {
         "title": "Dine valg og personvernrettigheter",
-        "body": "Vi jobber med mennesker over hele verden. Uansett hvor du bor, kan du be om å få tilgang til, korrigere eller slette personlig informasjon vi har om deg, eller protestere mot visse bruksområder. Du kan melde deg av markedsførings-e-poster når som helst ved å kontakte oss eller bruke et avmeldingsalternativ når det er gitt. Ytterligere rettigheter kan gjelde under personvernlovene i ditt land eller din region. Personer i Det europeiske økonomiske samarbeidsområdet, Tyskland og Storbritannia kan også ha rettighetene beskrevet i vår EU GDPR-erklæring. Vi verifiserer og svarer på forespørsler som kreves av gjeldende lov og diskriminerer ikke noen for å utøve personvernrettigheter."
+        "body": "Vi jobber med mennesker over hele verden. Uansett hvor du bor, kan du be om å få tilgang til, korrigere eller slette personlig informasjon vi har om deg, eller protestere mot visse bruksområder. Du kan melde deg av markedsførings e poster når som helst ved å kontakte oss eller bruke et avmeldingsalternativ når det er gitt. Ytterligere rettigheter kan gjelde under personvernlovene i ditt land eller din region. Personer i Det europeiske økonomiske samarbeidsområdet, Tyskland og Storbritannia kan også ha rettighetene beskrevet i vår EU GDPR erklæring. Vi verifiserer og svarer på forespørsler som kreves av gjeldende lov og diskriminerer ikke noen for å utøve personvernrettigheter."
       },
       "children": {
         "title": "Barns privatliv",
@@ -1732,17 +1732,17 @@
       },
       "contact": {
         "title": "Kontakt oss",
-        "body": "For spørsmål eller forespørsler om personvern, send e-post til info@starlightvisualstudio.de. Vennligst beskriv forespørselen din og e-postadressen knyttet til informasjonen slik at vi kan svare."
+        "body": "For spørsmål eller forespørsler om personvern, send e post til info@starlightvisualstudio.de. Vennligst beskriv forespørselen din og e postadressen knyttet til informasjonen slik at vi kan svare."
       },
       "governmentRequests": {
         "title": "Forespørsler fra myndigheter og myndigheter",
-        "body": "Vi deler ikke frivillig amerikansk kundeinformasjon med tyske eller andre europeiske myndigheter, og vi deler ikke frivillig tysk eller europeisk klientinformasjon med amerikanske myndigheter. Hvis en regjering, regulator, domstol eller rettshåndhevelsesorgan ber om personopplysninger, avslører vi den bare når vi med rimelighet mener at forespørselen er gyldig, juridisk bindende, innenfor det anmodende organets lovlige myndighet og gjelder oss.\n\nDer det er lovlig tillatt og rimelig praktisk, gjennomgår vi forespørselen, utfordrer forespørsler som virker ulovlige eller overdrevne, avslører bare minimumsinformasjonen som er lovpålagt, og varsler den berørte personen før avsløring. Vi kan være forbudt ved lov fra å varsle. Ingenting i denne policyen forhindrer en avsløring som er nødvendig for å beskytte en person mot alvorlig skade eller for å etablere, utøve eller forsvare juridiske krav."
+        "body": "Vi deler ikke frivillig amerikansk kundeinformasjon med tyske eller andre europeiske myndigheter, og vi deler ikke frivillig tysk eller europeisk klientinformasjon med amerikanske myndigheter. Hvis en regjering, regulator, domstol eller rettshåndhevelsesorgan ber om personopplysninger, avslører vi den bare når vi med rimelighet mener at forespørselen er gyldig, juridisk bindende, innenfor det anmodende organets lovlige myndighet og gjelder oss. Der det er lovlig tillatt og rimelig praktisk, gjennomgår vi forespørselen, utfordrer forespørsler som virker ulovlige eller overdrevne, avslører bare minimumsinformasjonen som er lovpålagt, og varsler den berørte personen før avsløring. Vi kan være forbudt ved lov fra å varsle. Ingenting i denne policyen forhindrer en avsløring som er nødvendig for å beskytte en person mot alvorlig skade eller for å etablere, utøve eller forsvare juridiske krav."
       }
     }
   },
   "euGdprPage": {
-    "metaTitle": "EU GDPR-varsel | JURIDISK BESKYTTET0",
-    "metaDescription": "GDPR-informasjon for personer i Det europeiske økonomiske samarbeidsområdet og Tyskland som samhandler med Starlights Visuals.",
+    "metaTitle": "EU GDPR varsel | JURIDISK BESKYTTET0",
+    "metaDescription": "GDPR informasjon for personer i Det europeiske økonomiske samarbeidsområdet og Tyskland som samhandler med Starlights Visuals.",
     "label": "Europeisk databeskyttelse",
     "title": "EU GDPR MERKNAD",
     "subtitle": "Informasjon for personer i Det europeiske økonomiske samarbeidsområdet og Tyskland.",
@@ -1755,11 +1755,11 @@
       },
       "controller": {
         "title": "Behandlingsansvarlig",
-        "body": "Starlights Visuals\nUSA\nE-post: info@starlightvisualstudio.de\n\nStarlights Visuals bestemmer hvorfor og hvordan personopplysninger som sendes inn via denne nettsiden behandles. Forespørsler om personvern og GDPR kan sendes til e-postadressen ovenfor."
+        "body": "Starlights Visuals\nUSA\nE post: info@starlightvisualstudio.de Starlights Visuals bestemmer hvorfor og hvordan personopplysninger som sendes inn via denne nettsiden behandles. Forespørsler om personvern og GDPR kan sendes til e postadressen ovenfor."
       },
       "data": {
         "title": "Personopplysninger vi behandler",
-        "body": "Avhengig av interaksjonen din, kan vi behandle navn, e-postadresse, firma, rolle, prosjekttype, prosjektmelding, nyhetsbrevpreferanse, vurderingsinnhold og vurdering, korrespondanse og grunnleggende tekniske data som IP-adresse, nettleserdetaljer, enhetsinformasjon, tidsstempler og sikkerhetslogger. Vi ber deg om ikke å sende sensitive personopplysninger med mindre det er nødvendig og spesifikt etterspurt."
+        "body": "Avhengig av interaksjonen din, kan vi behandle navn, e postadresse, firma, rolle, prosjekttype, prosjektmelding, nyhetsbrevpreferanse, vurderingsinnhold og vurdering, korrespondanse og grunnleggende tekniske data som IP adresse, nettleserdetaljer, enhetsinformasjon, tidsstempler og sikkerhetslogger. Vi ber deg om ikke å sende sensitive personopplysninger med mindre det er nødvendig og spesifikt etterspurt."
       },
       "purposes": {
         "title": "Formål med behandlingen",
@@ -1771,7 +1771,7 @@
       },
       "recipients": {
         "title": "Mottakere og klientseparasjon",
-        "body": "Vi selger ikke personopplysninger. Vi deler ikke en amerikansk klients informasjon med klienter i Tyskland eller Europa, og vi deler ikke en tysk eller europeisk klients informasjon med klienter i USA. Personopplysninger er kun tilgjengelig for autorisert Starlights Visuals-personell og leverandører som trenger dem for et uttalt formål, inkludert Supabase for databasetjenester, Resend for e-postlevering og vår vertsleverandør for nettstedet. Leverandører forventes å behandle data kun under passende instruksjoner og sikkerhetstiltak."
+        "body": "Vi selger ikke personopplysninger. Vi deler ikke en amerikansk klients informasjon med klienter i Tyskland eller Europa, og vi deler ikke en tysk eller europeisk klients informasjon med klienter i USA. Personopplysninger er kun tilgjengelig for autorisert Starlights Visuals personell og leverandører som trenger dem for et uttalt formål, inkludert Supabase for databasetjenester, Resend for e postlevering og vår vertsleverandør for nettstedet. Leverandører forventes å behandle data kun under passende instruksjoner og sikkerhetstiltak."
       },
       "transfers": {
         "title": "Overføringer utenfor Europa",
@@ -1782,12 +1782,12 @@
         "body": "Vi oppbevarer personopplysninger bare så lenge det er rimelig nødvendig for formålet som samles inn, inkludert å svare på forespørsler, utføre tjenester, vedlikeholde forretnings- og skatteregister, løse tvister og oppfylle juridiske forpliktelser. Nyhetsbrevdata oppbevares til du melder deg av eller ber om sletting. Gjennomgangsdata oppbevares mens de venter eller publiseres med mindre fjerning blir bedt om eller oppbevaring er lovpålagt."
       },
       "rights": {
-        "title": "Dine GDPR-rettigheter",
-        "body": "Med forbehold om juridiske betingelser og unntak, kan du be om tilgang til dine personopplysninger, retting, sletting, begrensning av behandling, dataportabilitet eller innvendinger mot behandling basert på legitime interesser eller direkte markedsføring. Du kan trekke tilbake samtykket når som helst. For å utøve en rett, send e-post til info@starlightvisualstudio.de. Vi kan be om informasjon som er nødvendig for å bekrefte identiteten din, og vil svare innen lovens krav."
+        "title": "Dine GDPR rettigheter",
+        "body": "Med forbehold om juridiske betingelser og unntak, kan du be om tilgang til dine personopplysninger, retting, sletting, begrensning av behandling, dataportabilitet eller innvendinger mot behandling basert på legitime interesser eller direkte markedsføring. Du kan trekke tilbake samtykket når som helst. For å utøve en rett, send e post til info@starlightvisualstudio.de. Vi kan be om informasjon som er nødvendig for å bekrefte identiteten din, og vil svare innen lovens krav."
       },
       "complaints": {
         "title": "Rett til å klage",
-        "body": "Du kan sende inn en klage til en tilsynsmyndighet for databeskyttelse, spesielt i EU-medlemsstaten der du bor, jobber eller tror at en overtredelse har skjedd. Folk i Tyskland kan kontakte den kompetente tyske forbundsstatens databeskyttelsesmyndighet."
+        "body": "Du kan sende inn en klage til en tilsynsmyndighet for databeskyttelse, spesielt i EU medlemsstaten der du bor, jobber eller tror at en overtredelse har skjedd. Folk i Tyskland kan kontakte den kompetente tyske forbundsstatens databeskyttelsesmyndighet."
       },
       "decisions": {
         "title": "Automatiserte beslutninger og nødvendige data",
@@ -1795,11 +1795,11 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": "For GDPR-spørsmål, rettighetsforespørsler, overføring av beskyttelsesinformasjon eller personvernproblemer, send e-post til info@starlightvisualstudio.de."
+        "body": "For GDPR spørsmål, rettighetsforespørsler, overføring av beskyttelsesinformasjon eller personvernproblemer, send e post til info@starlightvisualstudio.de."
       },
       "governmentRequests": {
         "title": "Myndighets- og myndighetsadgang",
-        "body": "Vi gir ikke frivillig europeiske eller tyske klientdata til amerikanske myndigheter, og vi gir ikke frivillige amerikanske klientdata til tyske eller andre europeiske myndigheter. En grenseoverskridende myndighetsforespørsel får ikke automatisk tilgang til personopplysninger.\n\nFør vi svarer, vurderer vi med rimelighet om forespørselen er gyldig, juridisk bindende, forholdsmessig, innenfor myndighetens jurisdiksjon og gjelder oss. Der det er lovlig tillatt og rimelig praktisk, utfordrer vi ulovlige eller overdrevne forespørsler, avslører bare minimumsinformasjonen som er lovpålagt, dokumenterer forespørselen og svaret og varsler den berørte personen. Varsel kan bli forsinket eller forbudt ved lov. Disse praksisene supplerer, men erstatter ikke, eventuelle overføringssikringer som kreves av GDPR."
+        "body": "Vi gir ikke frivillig europeiske eller tyske klientdata til amerikanske myndigheter, og vi gir ikke frivillige amerikanske klientdata til tyske eller andre europeiske myndigheter. En grenseoverskridende myndighetsforespørsel får ikke automatisk tilgang til personopplysninger. Før vi svarer, vurderer vi med rimelighet om forespørselen er gyldig, juridisk bindende, forholdsmessig, innenfor myndighetens jurisdiksjon og gjelder oss. Der det er lovlig tillatt og rimelig praktisk, utfordrer vi ulovlige eller overdrevne forespørsler, avslører bare minimumsinformasjonen som er lovpålagt, dokumenterer forespørselen og svaret og varsler den berørte personen. Varsel kan bli forsinket eller forbudt ved lov. Disse praksisene supplerer, men erstatter ikke, eventuelle overføringssikringer som kreves av GDPR."
       }
     }
   },
@@ -1813,7 +1813,7 @@
       "operator": {
         "title": "Operatør- og bedriftsadresser",
         "company": "Starlights Visuals",
-        "tagline": "Kreativ animasjon og VFX-studio",
+        "tagline": "Kreativ animasjon og VFX studio",
         "founderLabel": "Grunnlegger og administrerende direktør",
         "founderName": "Boluwaji Ominiran",
         "addresses": {
@@ -1844,7 +1844,7 @@
             "value": "+44 7348 550667"
           },
           "email": {
-            "label": "E-post",
+            "label": "E post",
             "value": "info@starlightvisualstudio.de"
           }
         },
@@ -1864,9 +1864,9 @@
       },
       "privacy": {
         "title": "Personvern og databeskyttelse",
-        "body": "Informasjon om hvordan vi samler inn, bruker, beskytter og overfører personopplysninger er tilgjengelig i personvernerklæringen vår og den supplerende EU GDPR-erklæringen.",
+        "body": "Informasjon om hvordan vi samler inn, bruker, beskytter og overfører personopplysninger er tilgjengelig i personvernerklæringen vår og den supplerende EU GDPR erklæringen.",
         "privacyLink": "Se personvernerklæringen",
-        "gdprLink": "Se EUs GDPR-varsel"
+        "gdprLink": "Se EUs GDPR varsel"
       }
     }
   }

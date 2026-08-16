@@ -47,7 +47,7 @@
     "emailPlaceholder": "sähköposti@esimerkki.fi",
     "join": "Liity",
     "subscribed": "✦ Olet mukana. Tervetuloa Starlightsiin.",
-    "tagline": "Luova studio, joka herättää mielikuvituksen eloon elokuvamaisen 2D-animoinnin, korkealaatuisten 3D-kokemusten ja VFX:n avulla.",
+    "tagline": "Luova studio, joka herättää mielikuvituksen eloon elokuvamaisen 2D animoinnin, korkealaatuisten 3D kokemusten ja VFX:n avulla.",
     "explore": "Tutustu",
     "follow": "Seuraa",
     "social": "Linkki sosiaaliseen mediaan",
@@ -63,11 +63,11 @@
   },
   "home": {
     "metaTitle": "Starlights Visuals | Animaatio & VFX Studio",
-    "metaDescription": "Luova studio 2D- ja 3D-animaatioille, VFX:lle ja elokuvamaiselle tarinankerronnalle. Elävöimme maailmoja, hahmoja ja elokuvia.",
+    "metaDescription": "Luova studio 2D- ja 3D animaatioille, VFX:lle ja elokuvamaiselle tarinankerronnalle. Elävöimme maailmoja, hahmoja ja elokuvia.",
     "heroScript": "Tarinoita liikkeessä —",
     "heroTitle1": "ANIMAATIO",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals herättää tarinat eloon animaatiolla ja visuaalisilla efeteillä, jotka vangitsevat yleisön ja nostavat jokaisen ruudun tasoa. Animoimme fantasiaolentoja, ihmishahmoja, ajoneuvoja, ympäristöjä, rekvisiittaa ja hard-surface-objekteja — elokuviin, sarjoihin, mainontaan ja brändikampanjoihin.",
+    "heroBody": "Starlights Visuals herättää tarinat eloon animaatiolla ja visuaalisilla efeteillä, jotka vangitsevat yleisön ja nostavat jokaisen ruudun tasoa. Animoimme fantasiaolentoja, ihmishahmoja, ajoneuvoja, ympäristöjä, rekvisiittaa ja hard surface objekteja — elokuviin, sarjoihin, mainontaan ja brändikampanjoihin.",
     "heroAlt": "Starlights Visualsin elokuvallinen sankari",
     "seePortfolio": "Katso Portfolio",
     "startProject": "Aloita projekti",
@@ -85,33 +85,33 @@
     "services": {
       "01": {
         "title": "Animaatio ja VFX",
-        "desc": "Elokuvamaista 2D- ja 3D-animaatiota, hahmolaitteita ja visuaalisia tehosteita elokuville, sarjoille ja brändeille."
+        "desc": "Elokuvamaista 2D- ja 3D animaatiota, hahmolaitteita ja visuaalisia tehosteita elokuville, sarjoille ja brändeille."
       },
       "02": {
         "title": "Tuoteanimaatio",
-        "desc": "Photoreal-tuotefilmit, pakettikuvat ja CGI, jotka tekevät jokaisesta yksityiskohdasta myytävän."
+        "desc": "Photoreal tuotefilmit, pakettikuvat ja CGI, jotka tekevät jokaisesta yksityiskohdasta myytävän."
       },
       "03": {
         "title": "Concept & Character Art",
-        "desc": "Alkuperäiset hahmot, olennot, ympäristöt ja rekvisiitta, jotka ankkuroivat IP-osoitteesi."
+        "desc": "Alkuperäiset hahmot, olennot, ympäristöt ja rekvisiitta, jotka ankkuroivat IP osoitteesi."
       },
       "04": {
         "title": "Elokuvaperäiset trailerit",
-        "desc": "Tarinapohjaiset trailerit, jotka on suunniteltu julkaisemaan brändejä, IP-osoitteita ja kampanjoita."
+        "desc": "Tarinapohjaiset trailerit, jotka on suunniteltu julkaisemaan brändejä, IP osoitteita ja kampanjoita."
       }
     },
     "showcase": {
       "character": {
-        "tag": "3D-animaatio",
-        "title": "3D-animaatio"
+        "tag": "3D animaatio",
+        "title": "3D animaatio"
       },
       "gameArt": {
         "tag": "Liikegrafiikka",
         "title": "Liikegrafiikka"
       },
       "animation2d": {
-        "tag": "2D-animaatio",
-        "title": "2D-animaatio"
+        "tag": "2D animaatio",
+        "title": "2D animaatio"
       },
       "cinematic": {
         "tag": "VFX",
@@ -151,27 +151,27 @@
     "items": {
       "hauke": {
         "headline": "Tehokas, luotettava ja erittäin suositeltava",
-        "quote": "Starlight Visuals tuki meitä CGI-videon luomisessa SmarAct Automationille, jonka tavoitteena oli esitellä ydinosaamistamme selkeällä, ammattimaisella ja visuaalisesti kiinnostavalla tavalla. Yhteistyö oli erittäin tehokasta ja luotettavaa alusta loppuun. Arvostamme erityisesti nopeita vastausaikoja, nopeaa toimitusta, vahvaa viestintää ja lopullisten tiedostojen luotettavaa toimitusta. Vaatimuksemme ymmärrettiin nopeasti ja toteutettiin ammattitaidolla. Olemme erittäin tyytyväisiä tulokseen ja voimme luottavaisesti suositella Starlight Visualsia korkealaatuisiin CGI- ja visuaalisen sisällön projekteihin.",
+        "quote": "Starlight Visuals tuki meitä CGI videon luomisessa SmarAct Automationille, jonka tavoitteena oli esitellä ydinosaamistamme selkeällä, ammattimaisella ja visuaalisesti kiinnostavalla tavalla. Yhteistyö oli erittäin tehokasta ja luotettavaa alusta loppuun. Arvostamme erityisesti nopeita vastausaikoja, nopeaa toimitusta, vahvaa viestintää ja lopullisten tiedostojen luotettavaa toimitusta. Vaatimuksemme ymmärrettiin nopeasti ja toteutettiin ammattitaidolla. Olemme erittäin tyytyväisiä tulokseen ja voimme luottavaisesti suositella Starlight Visualsia korkealaatuisiin CGI- ja visuaalisen sisällön projekteihin.",
         "role": "Digitaalinen markkinointi ja sisällönhallinta"
       },
       "jeremy": {
         "headline": "Luonnoksista valmiiksi kypäräfilmiksi",
-        "quote": "Työskentely Starlight Visualsin kanssa oli hieno kokemus alusta loppuun. He eivät vain luoneet animaatiota, vaan olivat mukana koko prosessin ajan alustavien luonnosten hiomisesta CAD-kehityksen tukemiseen ja lopullisen kypäräanimaatioon, joka herätti konseptimme henkiin. Eniten erottui siitä, kuinka nopeasti he ymmärsivät tuotteen ja muuttivat tekniset yksityiskohdat visuaaleiksi, jotka olivat sekä tarkkoja että mukaansatempaavia. Viimeinen esittelyvideo antoi meille ammattimaisen tavan esitellä kypäräsuunnitteluamme kumppaneille ja sidosryhmille. He olivat reagoivia, heidän kanssaan oli helppo tehdä yhteistyötä ja he välittivät aidosti jokaisen yksityiskohdan saamisesta oikein. Suosittelen niitä mielelläni kaikille, jotka etsivät korkealaatuista tuoteanimaatiota ja visualisointia.",
+        "quote": "Työskentely Starlight Visualsin kanssa oli hieno kokemus alusta loppuun. He eivät vain luoneet animaatiota, vaan olivat mukana koko prosessin ajan alustavien luonnosten hiomisesta CAD kehityksen tukemiseen ja lopullisen kypäräanimaatioon, joka herätti konseptimme henkiin. Eniten erottui siitä, kuinka nopeasti he ymmärsivät tuotteen ja muuttivat tekniset yksityiskohdat visuaaleiksi, jotka olivat sekä tarkkoja että mukaansatempaavia. Viimeinen esittelyvideo antoi meille ammattimaisen tavan esitellä kypäräsuunnitteluamme kumppaneille ja sidosryhmille. He olivat reagoivia, heidän kanssaan oli helppo tehdä yhteistyötä ja he välittivät aidosti jokaisen yksityiskohdan saamisesta oikein. Suosittelen niitä mielelläni kaikille, jotka etsivät korkealaatuista tuoteanimaatiota ja visualisointia.",
         "role": "Perustaja"
       },
       "raiv": {
         "headline": "He välittivät aidosti jokaisesta hahmosta",
-        "quote": "Nautin todella työskentelystä joukkueen kanssa. Tuntui, että he aidosti välittivät projektista ja halusivat hahmojen näyttävän ja tuntuvan oikealta. Viestintä oli aina helppoa, he olivat avoimia palautteelle ja jokainen korjaus hoitui ilman vaivaa. NSFW-hahmojemme herääminen henkiin oli jännittävää.",
+        "quote": "Nautin todella työskentelystä joukkueen kanssa. Tuntui, että he aidosti välittivät projektista ja halusivat hahmojen näyttävän ja tuntuvan oikealta. Viestintä oli aina helppoa, he olivat avoimia palautteelle ja jokainen korjaus hoitui ilman vaivaa. NSFW hahmojemme herääminen henkiin oli jännittävää.",
         "role": "Pelin johtaja"
       },
       "ilija": {
         "headline": "Selkeät grafiikat sähköajoneuvoteknologiasta",
-        "quote": "He auttoivat muotoilemaan PHR-konseptimme luovasti ja tuottamaan hämmästyttäviä videoita varmistaen, että visuaalit kertovat selkeästi sähköajoneuvoteknologiamme toiminnasta. Heidän huomionsa yksityiskohtiin, luovuutensa ja halukkuutensa iteroida tekivät koko prosessista sujuvan. Viimeinen animaatio antoi meille paljon selkeämmän tavan esitellä tuotettamme kumppaneille ja sidosryhmille.",
+        "quote": "He auttoivat muotoilemaan PHR konseptimme luovasti ja tuottamaan hämmästyttäviä videoita varmistaen, että visuaalit kertovat selkeästi sähköajoneuvoteknologiamme toiminnasta. Heidän huomionsa yksityiskohtiin, luovuutensa ja halukkuutensa iteroida tekivät koko prosessista sujuvan. Viimeinen animaatio antoi meille paljon selkeämmän tavan esitellä tuotettamme kumppaneille ja sidosryhmille.",
         "role": "Perustaja"
       },
       "luigi": {
         "headline": "Juuri mitä tarvitsimme M12:lle ja B12:lle",
-        "quote": "Tarvitsimme selkeän tavan näyttää erot M12- ja B12-tuotteidemme välillä, ja Starlight Visuals toimitti juuri sen, mitä etsimme. Animaatiot olivat laadukkaita, helppoja ymmärtää ja niissä oli kaikki tärkeät yksityiskohdat.",
+        "quote": "Tarvitsimme selkeän tavan näyttää erot M12- ja B12 tuotteidemme välillä, ja Starlight Visuals toimitti juuri sen, mitä etsimme. Animaatiot olivat laadukkaita, helppoja ymmärtää ja niissä oli kaikki tärkeät yksityiskohdat.",
         "role": "Tuotantopäällikkö"
       },
       "jason": {
@@ -205,7 +205,7 @@
   },
   "servicesPage": {
     "metaTitle": "Palvelut | Starlights Visuals",
-    "metaDescription": "2D-animaatio, 3D-animaatio, hahmosuunnittelu, liikegrafiikka, VFX, tuoteanimaatio ja elokuvaperäiset trailerit.",
+    "metaDescription": "2D animaatio, 3D animaatio, hahmosuunnittelu, liikegrafiikka, VFX, tuoteanimaatio ja elokuvaperäiset trailerit.",
     "label": "Mitä Rakennamme",
     "title": "PALVELUT",
     "subtitle": "Yksi studio, jokaisessa tuotantovaiheessa, ensimmäisestä luonnoksesta lopulliseen pikseliin.",
@@ -216,11 +216,11 @@
     "ctaButton": "Ota yhteyttä",
     "items": {
       "2d": {
-        "title": "2D-animaatio",
+        "title": "2D animaatio",
         "desc": "Kuva ruudulta ja takoitettu 2D sarjoille, shortseille, selityksille ja merkkielokuville. Yhdistelemme klassista käsityötä digitaalisiin putkiin."
       },
       "3d": {
-        "title": "3D-animaatio",
+        "title": "3D animaatio",
         "desc": "Tyylitelty ja fotorealistinen 3D, hahmot, ympäristöt ja täydelliset elokuvalliset jaksot laadukkaalla viimeistelyllä."
       },
       "character": {
@@ -233,21 +233,21 @@
       },
       "vfx": {
         "title": "Visuaaliset tehosteet (VFX)",
-        "desc": "Kompositio, hiukkasten FX- ja CG-integrointi elokuviin, mainontaan ja digitaalisiin kampanjoihin."
+        "desc": "Kompositio, hiukkasten FX- ja CG integrointi elokuviin, mainontaan ja digitaalisiin kampanjoihin."
       },
       "trailer": {
         "title": "Elokuvaperäiset trailerit",
-        "desc": "Tarinapohjaiset trailerit, jotka on suunniteltu julkaisemaan brändejä, IP-osoitteita ja kampanjoita mahdollisimman tehokkaasti."
+        "desc": "Tarinapohjaiset trailerit, jotka on suunniteltu julkaisemaan brändejä, IP osoitteita ja kampanjoita mahdollisimman tehokkaasti."
       }
     }
   },
   "aboutPage": {
     "metaTitle": "Tietoja | Starlights Visuals",
-    "metaDescription": "Starlight Visuals on maailmanluokan animaatiostudio, joka luo poikkeuksellisia visuaalisia kokemuksia teollisuustuoteanimaatiosta, pelianimaatiosta, tuotevisualisoinnista sekä 2D- ja 3D-hahmoanimaatiosta.",
+    "metaDescription": "Starlight Visuals on maailmanluokan animaatiostudio, joka luo poikkeuksellisia visuaalisia kokemuksia teollisuustuoteanimaatiosta, pelianimaatiosta, tuotevisualisoinnista sekä 2D- ja 3D hahmoanimaatiosta.",
     "label": "Keitä olemme",
     "title1": "PÄÄLLE RAKENNETTU STUDIO",
     "title2": "VALO, KOODI JA TARINA",
-    "p1": "Starlight Visuals on maailmanluokan animaatiostudio, joka luo poikkeuksellisia visuaalisia kokemuksia teollisuustuoteanimaatiosta, pelianimaatiosta, tuotevisualisoinnista sekä 2D- ja 3D-hahmoanimaatiosta. Yhdistämme taiteellisen huippuosaamisen huipputeknologiaan muuttaaksemme ideat visuaaleiksi, jotka kiehtovat, kouluttavat ja inspiroivat. Suunnitteluvetoisista teollisista animaatioista ja fotorealistisista tuoterenderöijistä tyyliteltyihin sarjakuviin, ilmeikkäisiin hahmoesityksiin ja elokuvamaisiin pelisarjoihin luomme animaatioita, jotka tuottavat sekä visuaalisen vaikutuksen että merkityksellisiä tuloksia.",
+    "p1": "Starlight Visuals on maailmanluokan animaatiostudio, joka luo poikkeuksellisia visuaalisia kokemuksia teollisuustuoteanimaatiosta, pelianimaatiosta, tuotevisualisoinnista sekä 2D- ja 3D hahmoanimaatiosta. Yhdistämme taiteellisen huippuosaamisen huipputeknologiaan muuttaaksemme ideat visuaaleiksi, jotka kiehtovat, kouluttavat ja inspiroivat. Suunnitteluvetoisista teollisista animaatioista ja fotorealistisista tuoterenderöijistä tyyliteltyihin sarjakuviin, ilmeikkäisiin hahmoesityksiin ja elokuvamaisiin pelisarjoihin luomme animaatioita, jotka tuottavat sekä visuaalisen vaikutuksen että merkityksellisiä tuloksia.",
     "p2": "Olipa kyseessä tuotteen innovaation esittely, peliuniversumin herättäminen henkiin tai ikimuistoisten animaatiohahmojen luominen, jokainen kehys on suunniteltu tarkoituksenmukaisesti ja tarkasti. Monitieteinen animaattoreista, teknisistä taiteilijoista, mallintajista, riggereistä, liikesuunnittelijoista ja visuaalisista tarinankertojista koostuva tiimimme tekee saumattomasti yhteistyötä tuottaakseen töitä, jotka täyttävät korkeimmat luovat ja tekniset standardit. Uskomme, että upea animaatio tekee muutakin kuin näyttää kauniilta, se välittää monimutkaisia ​​ideoita, vahvistaa brändejä ja luo kestäviä tunneyhteyksiä.",
     "p3": "Teemme yhteistyötä valmistajien, tuoteyritysten, pelikehittäjien, luovien toimistojen ja maailmanlaajuisten brändien kanssa tarjotaksemme ensiluokkaista animaatiota markkinointiin, tuotelanseerauksiin, koulutukseen, viihteeseen, mainontaan ja digitaalisiin kokemuksiin. Jokaista projektia ohjaavat innovaatiot, ammattitaito ja tinkimätön sitoutuminen laatuun. Starlight Visualsilla emme vain animoi, vaan suunnittelemme elämyksiä, rakennamme unohtumattomia hahmoja ja luomme kuvia, jotka vievät ihmisiä ja yrityksiä eteenpäin.",
     "valuesLabel": "Perusarvot",
@@ -279,7 +279,7 @@
   },
   "contactPage": {
     "metaTitle": "Yhteys | Starlights Visuals",
-    "metaDescription": "Ota yhteyttä Starlights Visualsiin 2D- ja 3D-animaatioita, liikegrafiikkaa, VFX:ää, tuoteanimaatioita ja elokuvamaisia ​​traileriprojekteja varten.",
+    "metaDescription": "Ota yhteyttä Starlights Visualsiin 2D- ja 3D animaatioita, liikegrafiikkaa, VFX:ää, tuoteanimaatioita ja elokuvamaisia ​​traileriprojekteja varten.",
     "label": "Puhutaan",
     "title": "YHTEYS",
     "subtitle": "Tuotantokyselyt, yhteistyöt tai pelkkä hei, lähetä signaali.",
@@ -298,8 +298,8 @@
     "responseTime": "VASTAUSAIKA",
     "responseDesc": "24 tunnissa, ma, pe.",
     "projectTypes": {
-      "2d": "2D-animaatio",
-      "3d": "3D-animaatio",
+      "2d": "2D animaatio",
+      "3d": "3D animaatio",
       "trailer": "Elokuvallinen traileri",
       "character": "Hahmon suunnittelu",
       "motion": "Liikegrafiikka ja VFX",
@@ -319,7 +319,7 @@
   },
   "portfolioPage": {
     "metaTitle": "Portfolio | Starlights Visuals",
-    "metaDescription": "Valitut projektit: Starlights Visualsin animaatiosarjat, elokuvaperäiset trailerit, hahmosuunnittelut ja studion showcase-rullat.",
+    "metaDescription": "Valitut projektit: Starlights Visualsin animaatiosarjat, elokuvaperäiset trailerit, hahmosuunnittelut ja studion showcase rullat.",
     "label": "Valikoitua työtä",
     "title1": "PORTTI",
     "title2": "FOLIO",
@@ -336,14 +336,14 @@
         "desc": "Arkki sankarin päähenkilöstä."
       },
       "2d": {
-        "tag": "2D-animaatio",
+        "tag": "2D animaatio",
         "title": "Neon Skyline",
-        "desc": "Anime-vaikutteinen pilottijakso."
+        "desc": "Anime vaikutteinen pilottijakso."
       },
       "creature": {
         "tag": "Creature Design",
         "title": "Crystal Wyrm",
-        "desc": "Pomo-olentokonsepti."
+        "desc": "Pomo olentokonsepti."
       },
       "motion": {
         "tag": "Liikegrafiikka",
@@ -369,18 +369,18 @@
     "startProject": "Aloita projekti",
     "moreFromJournal": "Lisää journalista",
     "postBody1": "Starlights Visualsilla käsittelemme jokaista framea konversiomahdollisuutena, ei pelkkänä kauniina kuvana. Tämä artikkeli avaa {{category}}-työmme taustalla olevaa ajattelua ja päätöksiä, jotka erottavat hyvän luovan työn lanseerausvalmiista.",
-    "postBody2": "Olitpa sitten lähettämässä traileria, skaalaamassa brändin liikejärjestelmää tai rakentamassa kampanjavisuaalia live-tuotteelle, sama periaate pätee: tarinan selkeys ensin, kiillotus sitten ja armoton editointi viimeisenä. Tämä kurinalaisuus on se, kuinka joukkueet lyövät määräaikoja ilman, että tunnet melkein valmiiksi.",
+    "postBody2": "Olitpa sitten lähettämässä traileria, skaalaamassa brändin liikejärjestelmää tai rakentamassa kampanjavisuaalia live tuotteelle, sama periaate pätee: tarinan selkeys ensin, kiillotus sitten ja armoton editointi viimeisenä. Tämä kurinalaisuus on se, kuinka joukkueet lyövät määräaikoja ilman, että tunnet melkein valmiiksi.",
     "postBody3": "Haluatko soveltaa tätä ajattelua seuraavaan projektiisi? Kuulemme mielellämme, mitä rakennat, lähetä brief, niin kartoitamme elokuvamaisen polun konseptista toimitukseen.",
     "posts": {
       "cinematic-trailers-that-convert": {
-        "title": "Miksi elokuvaperäiset trailerit muuntuvat paremmin kuin tuote-esittelyt?",
+        "title": "Miksi elokuvaperäiset trailerit muuntuvat paremmin kuin tuote esittelyt?",
         "excerpt": "Tarinan ensimmäiset julkaisuelokuvat rakentavat emotionaalisia panoksia ennen CTA:ta. Näin rakennamme koukut, tahdistuksen ja tason maksimaalisen säilymisen saavuttamiseksi.",
         "category": "strategia",
         "date": "12. toukokuuta 2026",
         "readTime": "6 min lukeminen"
       },
       "character-design-for-ip": {
-        "title": "Hahmosuunnittelu, joka kiinnittää IP-osoitteesi jokaiseen kanavaan",
+        "title": "Hahmosuunnittelu, joka kiinnittää IP osoitteesi jokaiseen kanavaan",
         "excerpt": "Siluetin luettavuudesta kauppatavaravalmiisiin käännöksiin – tarkistuslista, jota käytämme ennen kuin sankari siirtyy tuotantoon.",
         "category": "Käsityö",
         "date": "3. toukokuuta 2026",
@@ -394,7 +394,7 @@
         "readTime": "4 min lukeminen"
       },
       "2d-animation-in-2026": {
-        "title": "2D-animaatio vuonna 2026: hybridiputket, jotka tuntuvat edelleen käsintehdyiltä",
+        "title": "2D animaatio vuonna 2026: hybridiputket, jotka tuntuvat edelleen käsintehdyiltä",
         "excerpt": "Yhdistämällä tehokkaan tehokkuuden kehys kerrallaan korostettuihin korostuksiin, kun jokainen tekniikka on hyödynnettävä huipputulosten saavuttamiseksi.",
         "category": "Animaatio",
         "date": "29. maaliskuuta 2026",
@@ -430,7 +430,7 @@
   },
   "meta": {
     "rootTitle": "Starlights Visuals | Animaatio & VFX Studio",
-    "rootDescription": "Starlights Visuals on luova studio, joka on erikoistunut elokuvalliseen 2D-animaatioon, korkealaatuiseen 3D-animaatioon ja VFX:ään.",
+    "rootDescription": "Starlights Visuals on luova studio, joka on erikoistunut elokuvalliseen 2D animaatioon, korkealaatuiseen 3D animaatioon ja VFX:ään.",
     "siteName": "Starlights Visuals"
   },
   "videoModal": {
@@ -465,34 +465,34 @@
     "portfolioHubDesc": "Tutustu työhön kategorian, animaation, VFX:n, liikkeen ja muiden mukaan.",
     "categories": {
       "2d-animation": {
-        "title": "2D-animaatio",
+        "title": "2D animaatio",
         "tagline": "Askartelu kehys kehykseltä kampanjoihin ja sarjoihin",
         "description": "Hahmovetoinen 2D animaatio mainoksille, selityksille ja jaksoittaiselle sisällölle rohkealla liikkeellä ja elokuvamaisella ajoituksella."
       },
       "3d-animation": {
-        "title": "3D-animaatio",
+        "title": "3D animaatio",
         "tagline": "Tyylitelty ja fotoreal 3D elokuville ja tuotemerkeille",
-        "description": "Laadukas 3D-hahmo-, tuote- ja elokuvaanimaatio ominaisuustason kiillotuksella kampanjoihin ja sarjoihin."
+        "description": "Laadukas 3D hahmo-, tuote- ja elokuvaanimaatio ominaisuustason kiillotuksella kampanjoihin ja sarjoihin."
       },
       "motion-graphics": {
         "title": "Liikegrafiikka",
-        "tagline": "Suunnittele led-liikejärjestelmiä laukaisuihin ja brändimaailmoihin",
-        "description": "Suunnittele led-liikejärjestelmiä lanseerauksiin, kojelaudoihin ja brändimaailmoihin, jotka skaalautuvat eri kanaviin."
+        "tagline": "Suunnittele led liikejärjestelmiä laukaisuihin ja brändimaailmoihin",
+        "description": "Suunnittele led liikejärjestelmiä lanseerauksiin, kojelaudoihin ja brändimaailmoihin, jotka skaalautuvat eri kanaviin."
       },
       "vfx": {
         "title": "Visuaaliset tehosteet (VFX)",
         "tagline": "Kompositio, FX ja elokuvamainen viimeistely",
-        "description": "Visuaaliset tehosteet trailereihin, tuoteelokuviin ja merkkisisältöön siivouksista täydelliseen CG-integraatioon."
+        "description": "Visuaaliset tehosteet trailereihin, tuoteelokuviin ja merkkisisältöön siivouksista täydelliseen CG integraatioon."
       }
     },
     "showcase": {
       "2d-animation": {
-        "tag": "2D-animaatio",
-        "title": "2D-animaatio"
+        "tag": "2D animaatio",
+        "title": "2D animaatio"
       },
       "3d-animation": {
-        "tag": "3D-animaatio",
-        "title": "3D-animaatio"
+        "tag": "3D animaatio",
+        "title": "3D animaatio"
       },
       "motion-graphics": {
         "tag": "Liikegrafiikka",
@@ -516,10 +516,10 @@
         "chibi-art": {
           "name": "CHIBI ART",
           "industry": "Hahmo ja animaatio",
-          "description": "Chibi-tyylinen 2D-hahmoanimaatio ilmeikkäillä kohtauksilla ja prosessielokuvien kulissien takana.",
+          "description": "Chibi tyylinen 2D hahmoanimaatio ilmeikkäillä kohtauksilla ja prosessielokuvien kulissien takana.",
           "timeline": "2025",
           "services": {
-            "0": "2D-animaatio",
+            "0": "2D animaatio",
             "1": "Chibi Art",
             "2": "Hahmoanimaatio"
           },
@@ -532,12 +532,12 @@
         "vtuber-animation": {
           "name": "VTUBER ANIMATION",
           "industry": "VTuber ja hahmo",
-          "description": "VTuber-hahmotaidetta ja 2D-animaatiota mallinnusprosessifilmeillä, kiillotetuilla näytteillä ja Live2D-tyylillä.",
+          "description": "VTuber hahmotaidetta ja 2D animaatiota mallinnusprosessifilmeillä, kiillotetuilla näytteillä ja Live2D tyylillä.",
           "timeline": "2025",
           "services": {
-            "0": "VTuber-animaatio",
-            "1": "2D-hahmo",
-            "2": "Live2D-tyyli"
+            "0": "VTuber animaatio",
+            "1": "2D hahmo",
+            "2": "Live2D tyyli"
           },
           "tools": {
             "0": "Live2D",
@@ -548,23 +548,23 @@
         "live2d-animation": {
           "name": "LIVE2D ANIMATION",
           "industry": "Live2D ja hahmot",
-          "description": "Live2D-hahmotaide, takila ja animaatio prosessielokuvien tekemisestä hienoihin näyteesityksiin.",
+          "description": "Live2D hahmotaide, takila ja animaatio prosessielokuvien tekemisestä hienoihin näyteesityksiin.",
           "timeline": "2025",
           "services": {
             "0": "Live2D",
             "1": "Takila",
-            "2": "2D-hahmoanimaatio"
+            "2": "2D hahmoanimaatio"
           },
           "tools": {
-            "0": "Live2D-kubismi",
+            "0": "Live2D kubismi",
             "1": "After Effects",
             "2": "Photoshop"
           }
         },
         "2d-anime-animation": {
           "name": "2D ANIME ANIMATION",
-          "industry": "Anime & 2D-animaatio",
-          "description": "Laadukkaita 2D-anime-animaatioita ja musiikkivideoita ilmeikkäillä hahmoilla ja elokuvamaisella liikkeellä.",
+          "industry": "Anime & 2D animaatio",
+          "description": "Laadukkaita 2D anime animaatioita ja musiikkivideoita ilmeikkäillä hahmoilla ja elokuvamaisella liikkeellä.",
           "timeline": "2025",
           "services": {
             "0": "2D anime",
@@ -598,10 +598,10 @@
         "3d-cartoon-animation": {
           "name": "3D CARTOON ANIMATION",
           "industry": "Hahmo ja animaatio",
-          "description": "Tyylitelty 3D-sarjakuvahahmoanimaatio ja showcase-elokuvia leikkisällä liikkeellä ja hienostuneella esityksellä.",
+          "description": "Tyylitelty 3D sarjakuvahahmoanimaatio ja showcase elokuvia leikkisällä liikkeellä ja hienostuneella esityksellä.",
           "timeline": "2025",
           "services": {
-            "0": "3D-sarjakuva-animaatio",
+            "0": "3D sarjakuva animaatio",
             "1": "Hahmon esittely",
             "2": "Tyylitelty CGI"
           },
@@ -614,7 +614,7 @@
         "3d-explainer-video": {
           "name": "3D EXPLAINER VIDEO",
           "industry": "Tuote ja selittäjä",
-          "description": "3D-selitys- ja tuoteesityselokuvat, jotka kattavat brändin tarinankerronta, 360-tuotenäytökset ja kaupalliset animaatiot.",
+          "description": "3D selitys- ja tuoteesityselokuvat, jotka kattavat brändin tarinankerronta, 360 tuotenäytökset ja kaupalliset animaatiot.",
           "timeline": "2025",
           "services": {
             "0": "3D selittäjä",
@@ -630,7 +630,7 @@
         "3d-medical-animation": {
           "name": "3D MEDICAL ANIMATION",
           "industry": "Terveydenhuolto ja lääketieteellinen visualisointi",
-          "description": "Laadukas 3D-lääketieteellinen animaatio, joka kattaa anatomian, kirurgiset toimenpiteet ja lääketieteellisten laitteiden visualisoinnin.",
+          "description": "Laadukas 3D lääketieteellinen animaatio, joka kattaa anatomian, kirurgiset toimenpiteet ja lääketieteellisten laitteiden visualisoinnin.",
           "timeline": "2025",
           "services": {
             "0": "Lääketieteellinen animaatio",
@@ -646,10 +646,10 @@
         "3d-anime-character": {
           "name": "3D ANIME CHARACTER",
           "industry": "Hahmo & Anime",
-          "description": "3D-anime-hahmojen mallinnus ja asiakasesittelyfilmit tyylitellyillä materiaaleilla ja hienostuneella esityksellä.",
+          "description": "3D anime hahmojen mallinnus ja asiakasesittelyfilmit tyylitellyillä materiaaleilla ja hienostuneella esityksellä.",
           "timeline": "2025",
           "services": {
-            "0": "3D-hahmo",
+            "0": "3D hahmo",
             "1": "Anime CGI",
             "2": "Asiakasesittely"
           },
@@ -664,12 +664,12 @@
         "watch-animation": {
           "name": "WATCH ANIMATION",
           "industry": "Luksuskellot",
-          "description": "Photoreal 3D katsella tuoteanimaatioita ja elokuvamaisia ​​packshot-filmejä luksuskelloille.",
+          "description": "Photoreal 3D katsella tuoteanimaatioita ja elokuvamaisia ​​packshot filmejä luksuskelloille.",
           "timeline": "2025",
           "services": {
-            "0": "3D-tuoteanimaatio",
+            "0": "3D tuoteanimaatio",
             "1": "Katso CGI",
-            "2": "Packshot-elokuvat"
+            "2": "Packshot elokuvat"
           },
           "tools": {
             "0": "Elokuva 4D",
@@ -680,12 +680,12 @@
         "ryse-drink-3d-product-animation": {
           "name": "RYSE DRINK 3D PRODUCT ANIMATION",
           "industry": "Juomat ja tuotteet CGI",
-          "description": "Photoreal 3D-juomatuoteanimaatio Ryse-juoma- ja limonadikampanjoihin elokuvamaisella pakettikuvalla.",
+          "description": "Photoreal 3D juomatuoteanimaatio Ryse juoma- ja limonadikampanjoihin elokuvamaisella pakettikuvalla.",
           "timeline": "2025",
           "services": {
-            "0": "3D-tuoteanimaatio",
+            "0": "3D tuoteanimaatio",
             "1": "Juoma CGI",
-            "2": "Packshot-elokuvat"
+            "2": "Packshot elokuvat"
           },
           "tools": {
             "0": "Elokuva 4D",
@@ -696,12 +696,12 @@
         "3d-perfume-animation": {
           "name": "3D PERFUME ANIMATION",
           "industry": "Kauneus & Tuoksu",
-          "description": "Photoreal 3D-hajuvesituoteanimaatio luksustuoksulanseerauksiin ja kampanjan sankarielokuviin.",
+          "description": "Photoreal 3D hajuvesituoteanimaatio luksustuoksulanseerauksiin ja kampanjan sankarielokuviin.",
           "timeline": "2025",
           "services": {
-            "0": "3D-tuoteanimaatio",
+            "0": "3D tuoteanimaatio",
             "1": "Tuoksu CGI",
-            "2": "Packshot-elokuvat"
+            "2": "Packshot elokuvat"
           },
           "tools": {
             "0": "Elokuva 4D",
@@ -712,12 +712,12 @@
         "3d-gadget-animation": {
           "name": "3D GADGET ANIMATION",
           "industry": "Kuluttajaelektroniikka",
-          "description": "Valokuvallinen 3D-laite ja nappikuulokkeiden tuoteanimaatio studiovaloilla, materiaaliyksityiskohtilla ja kampanjavalmiilla liiketoiminnoilla.",
+          "description": "Valokuvallinen 3D laite ja nappikuulokkeiden tuoteanimaatio studiovaloilla, materiaaliyksityiskohtilla ja kampanjavalmiilla liiketoiminnoilla.",
           "timeline": "2025",
           "services": {
-            "0": "3D-tuoteanimaatio",
+            "0": "3D tuoteanimaatio",
             "1": "Gadget CGI",
-            "2": "Packshot-elokuvat"
+            "2": "Packshot elokuvat"
           },
           "tools": {
             "0": "Elokuva 4D",
@@ -728,12 +728,12 @@
         "vape-animation": {
           "name": "VAPE ANIMATION",
           "industry": "Kuluttajatuotteet",
-          "description": "Photoreal 3D vape -tuoteanimaatio studiovalaistuksella, materiaalien yksityiskohdilla ja kampanjavalmiilla packshot-filmeillä.",
+          "description": "Photoreal 3D vape -tuoteanimaatio studiovalaistuksella, materiaalien yksityiskohdilla ja kampanjavalmiilla packshot filmeillä.",
           "timeline": "2025",
           "services": {
-            "0": "3D-tuoteanimaatio",
+            "0": "3D tuoteanimaatio",
             "1": "Vape CGI",
-            "2": "Packshot-elokuvat"
+            "2": "Packshot elokuvat"
           },
           "tools": {
             "0": "Elokuva 4D",
@@ -744,12 +744,12 @@
         "bag-suitcase-animation": {
           "name": "BAG/SUITCASE ANIMATION",
           "industry": "Matkailu ja elämäntapa",
-          "description": "Realistinen 3D-tuoteanimaatio laukkuille ja matkalaukuille elokuvamaisella pakkauskuvalla.",
+          "description": "Realistinen 3D tuoteanimaatio laukkuille ja matkalaukuille elokuvamaisella pakkauskuvalla.",
           "timeline": "2025",
           "services": {
-            "0": "3D-tuoteanimaatio",
+            "0": "3D tuoteanimaatio",
             "1": "Laukku CGI",
-            "2": "Packshot-elokuvat"
+            "2": "Packshot elokuvat"
           },
           "tools": {
             "0": "Elokuva 4D",
@@ -763,7 +763,7 @@
           "description": "Drop Band -tuoteanimaatio kattaa tuotantoprosessifilmit ja lopputulokset.",
           "timeline": "2025",
           "services": {
-            "0": "3D-tuoteanimaatio",
+            "0": "3D tuoteanimaatio",
             "1": "Prosessi elokuva",
             "2": "Käytettävä CGI"
           },
@@ -776,12 +776,12 @@
         "3d-bed-animation": {
           "name": "3D BED ANIMATION",
           "industry": "Huonekalut ja vuodevaatteet",
-          "description": "Photoreal 3D patja- ja sänkytuoteanimaatio huonekalumerkeille elokuvamaisella packshot-viimeistelyllä.",
+          "description": "Photoreal 3D patja- ja sänkytuoteanimaatio huonekalumerkeille elokuvamaisella packshot viimeistelyllä.",
           "timeline": "2025",
           "services": {
-            "0": "3D-tuoteanimaatio",
+            "0": "3D tuoteanimaatio",
             "1": "Huonekalut CGI",
-            "2": "Packshot-elokuvat"
+            "2": "Packshot elokuvat"
           },
           "tools": {
             "0": "Elokuva 4D",
@@ -810,7 +810,7 @@
         "mintec": {
           "name": "MINTEC",
           "industry": "Teollinen valmistus",
-          "description": "MinTec teollisuuden tuotteiden esittely- ja prosessifilmit 3D-teolliseen animaatioon.",
+          "description": "MinTec teollisuuden tuotteiden esittely- ja prosessifilmit 3D teolliseen animaatioon.",
           "timeline": "2025",
           "services": {
             "0": "Teollinen animaatio",
@@ -842,7 +842,7 @@
         "credex": {
           "name": "CREDEX",
           "industry": "Siivousvälineet",
-          "description": "CREDEX matonpesukoneen teollinen animaatio elokuvamaisella SFX-viimeistelyllä.",
+          "description": "CREDEX matonpesukoneen teollinen animaatio elokuvamaisella SFX viimeistelyllä.",
           "timeline": "2025",
           "services": {
             "0": "Teollinen animaatio",
@@ -890,7 +890,7 @@
         "prov-gap": {
           "name": "PROV GAP",
           "industry": "Teollinen valmistus",
-          "description": "Prov GAP 3D-teollinen animaatio tekniseen tuotetarinaan ja brändielokuviin.",
+          "description": "Prov GAP 3D teollinen animaatio tekniseen tuotetarinaan ja brändielokuviin.",
           "timeline": "2025",
           "services": {
             "0": "Teollinen animaatio",
@@ -906,7 +906,7 @@
         "autoz-crave": {
           "name": "AUTOZ CRAVE",
           "industry": "Autot ja mekaaniset",
-          "description": "Autoz Crave teollinen animaatio mekaanisiin ja teknisiin 3D-tuotefilmeihin.",
+          "description": "Autoz Crave teollinen animaatio mekaanisiin ja teknisiin 3D tuotefilmeihin.",
           "timeline": "2025",
           "services": {
             "0": "Teollinen animaatio",
@@ -923,16 +923,16 @@
     },
     "projects": {
       "chibi-art-p1": {
-        "title": "Chibi-taidekohtaus 1",
-        "description": "Ilmeikäs chibi-hahmokohtaus kiillotetulla 2D-animaatiolla ja kampanjavalmiilla liikkeellä.",
+        "title": "Chibi taidekohtaus 1",
+        "description": "Ilmeikäs chibi hahmokohtaus kiillotetulla 2D animaatiolla ja kampanjavalmiilla liikkeellä.",
         "tags": {
           "0": "Chibi",
           "1": "Näkymä"
         }
       },
       "chibi-art-p2": {
-        "title": "Chibi-taidekohtaus 2",
-        "description": "Toinen chibi-hahmokohtaus, joka esittelee persoonallisuutta, ajoitusta ja värikästä 2D-suoritusta.",
+        "title": "Chibi taidekohtaus 2",
+        "description": "Toinen chibi hahmokohtaus, joka esittelee persoonallisuutta, ajoitusta ja värikästä 2D suoritusta.",
         "tags": {
           "0": "Chibi",
           "1": "Näkymä"
@@ -940,15 +940,15 @@
       },
       "chibi-art-p3": {
         "title": "Prosessifilmin tekeminen",
-        "description": "Katso kulissien takana chibi-taiteen luomisen ja animaation työnkulkua luonnoksesta lopulliseen liikkeeseen.",
+        "description": "Katso kulissien takana chibi taiteen luomisen ja animaation työnkulkua luonnoksesta lopulliseen liikkeeseen.",
         "tags": {
           "0": "Käsitellä",
           "1": "Työnkulku"
         }
       },
       "vtuber-animation-p1": {
-        "title": "Vtuber-mallinnuksen luominen",
-        "description": "VTuber-hahmomallinnusfilmi, joka kattaa taiteen suunnan ja rakentamisen työnkulun.",
+        "title": "Vtuber mallinnuksen luominen",
+        "description": "VTuber hahmomallinnusfilmi, joka kattaa taiteen suunnan ja rakentamisen työnkulun.",
         "tags": {
           "0": "VTuber",
           "1": "Mallintaminen"
@@ -972,39 +972,39 @@
       },
       "vtuber-animation-p4": {
         "title": "Vtuber 2D video",
-        "description": "Elokuvamainen 2D VTuber-animaatio dynaamisella hahmoliikkeellä ja ilmeikkäillä näyttelijöillä.",
+        "description": "Elokuvamainen 2D VTuber animaatio dynaamisella hahmoliikkeellä ja ilmeikkäillä näyttelijöillä.",
         "tags": {
           "0": "VTuber",
           "1": "2D"
         }
       },
       "vtuber-animation-p5": {
-        "title": "Vtuber-näyte 2",
-        "description": "Toinen VTuber-animaationäyte rohkealla hahmonäytöksellä ja hienostuneella liikkeellä.",
+        "title": "Vtuber näyte 2",
+        "description": "Toinen VTuber animaationäyte rohkealla hahmonäytöksellä ja hienostuneella liikkeellä.",
         "tags": {
           "0": "VTuber",
           "1": "Näyte"
         }
       },
       "vtuber-animation-p6": {
-        "title": "Vtuber-näyte 3",
-        "description": "Laajennettu VTuber-hahmoesittely elokuvamaisella tahdilla ja ilmeikkäällä 2D-animaatiolla.",
+        "title": "Vtuber näyte 3",
+        "description": "Laajennettu VTuber hahmoesittely elokuvamaisella tahdilla ja ilmeikkäällä 2D animaatiolla.",
         "tags": {
           "0": "VTuber",
           "1": "Näyte"
         }
       },
       "vtuber-animation-p7": {
-        "title": "Vtuber-videoprosessi",
-        "description": "Kulissien takana VTuber-animaatioprosessi taiteesta takilaan ja viimeiseen liikkeeseen.",
+        "title": "Vtuber videoprosessi",
+        "description": "Kulissien takana VTuber animaatioprosessi taiteesta takilaan ja viimeiseen liikkeeseen.",
         "tags": {
           "0": "Käsitellä",
           "1": "Työnkulku"
         }
       },
       "live2d-animation-p1": {
-        "title": "Live2D-valmistusprosessi",
-        "description": "Kulissien takana Live2D-luonnin työnkulku taiteesta lopulliseen animoituun esitykseen.",
+        "title": "Live2D valmistusprosessi",
+        "description": "Kulissien takana Live2D luonnin työnkulku taiteesta lopulliseen animoituun esitykseen.",
         "tags": {
           "0": "Live2D",
           "1": "Käsitellä"
@@ -1012,31 +1012,31 @@
       },
       "live2d-animation-p2": {
         "title": "Live2D näyte",
-        "description": "Valmis Live2D-hahmonäyte ilmeikkäällä poseerauksella ja hiotulla liikkeellä.",
+        "description": "Valmis Live2D hahmonäyte ilmeikkäällä poseerauksella ja hiotulla liikkeellä.",
         "tags": {
           "0": "Live2D",
           "1": "Näyte"
         }
       },
       "live2d-animation-p3": {
-        "title": "Live2D-takilaprosessi",
-        "description": "Live2D-takilaprosessifilmi, jossa näkyy verkko, deformaattorit ja parametrien asetukset.",
+        "title": "Live2D takilaprosessi",
+        "description": "Live2D takilaprosessifilmi, jossa näkyy verkko, deformaattorit ja parametrien asetukset.",
         "tags": {
           "0": "Live2D",
           "1": "Takila"
         }
       },
       "live2d-animation-p4": {
-        "title": "Esimerkki Live2D-takilasta",
-        "description": "Esimerkki Live2D-takilaesittelystä puhtaalla parametriohjauksella ja kasvojen näyttämisellä.",
+        "title": "Esimerkki Live2D takilasta",
+        "description": "Esimerkki Live2D takilaesittelystä puhtaalla parametriohjauksella ja kasvojen näyttämisellä.",
         "tags": {
           "0": "Live2D",
           "1": "Takila"
         }
       },
       "live2d-animation-p5": {
-        "title": "Live2D-takilauksen tulos",
-        "description": "Lopullinen Live2D-takilatulos, joka esittelee sujuvaa liikettä ja ilmeikäs hahmojen suorituskykyä.",
+        "title": "Live2D takilauksen tulos",
+        "description": "Lopullinen Live2D takilatulos, joka esittelee sujuvaa liikettä ja ilmeikäs hahmojen suorituskykyä.",
         "tags": {
           "0": "Live2D",
           "1": "Tulos"
@@ -1044,15 +1044,15 @@
       },
       "live2d-animation-p6": {
         "title": "Live2D elokuva",
-        "description": "Elokuvamainen Live2D-animaatio dynaamisella hahmoliikkeellä ja hienostuneella esityksellä.",
+        "description": "Elokuvamainen Live2D animaatio dynaamisella hahmoliikkeellä ja hienostuneella esityksellä.",
         "tags": {
           "0": "Live2D",
           "1": "Elokuva"
         }
       },
       "2d-anime-animation-p1": {
-        "title": "Japanilaistyylinen 2D-anime",
-        "description": "Japanilainen anime-tyylinen 2D-animaatio dynaamisella poseerauksella, ilmeikkäillä näyttelijöillä ja hienostuneella linjatyöllä.",
+        "title": "Japanilaistyylinen 2D anime",
+        "description": "Japanilainen anime tyylinen 2D animaatio dynaamisella poseerauksella, ilmeikkäillä näyttelijöillä ja hienostuneella linjatyöllä.",
         "tags": {
           "0": "Anime",
           "1": "2D"
@@ -1060,15 +1060,15 @@
       },
       "2d-anime-animation-p2": {
         "title": "Anime musiikkivideo",
-        "description": "2D-anime-musiikkivideo hahmovetoisella tarinankerronnalla ja elokuvamaisella ajoituksella.",
+        "description": "2D anime musiikkivideo hahmovetoisella tarinankerronnalla ja elokuvamaisella ajoituksella.",
         "tags": {
           "0": "Musiikki Video",
           "1": "Anime"
         }
       },
       "2d-anime-animation-p3": {
-        "title": "Meemilaulu-animaatio",
-        "description": "Leikkisä 2D-anime-hahmoanimaatio, joka on ajoitettu meemikappaleeseen rohkealla liikkeellä ja huumorilla.",
+        "title": "Meemilaulu animaatio",
+        "description": "Leikkisä 2D anime hahmoanimaatio, joka on ajoitettu meemikappaleeseen rohkealla liikkeellä ja huumorilla.",
         "tags": {
           "0": "Anime",
           "1": "Musiikki"
@@ -1083,39 +1083,39 @@
         }
       },
       "kids-learning-animation-p2": {
-        "title": "Mukautettu 2D-hahmo",
-        "description": "Mukautettu 2D-hahmoanimaatio, jossa on ilmeikäs näytteleminen ja värikäs tyylitelty muotoilu.",
+        "title": "Mukautettu 2D hahmo",
+        "description": "Mukautettu 2D hahmoanimaatio, jossa on ilmeikäs näytteleminen ja värikäs tyylitelty muotoilu.",
         "tags": {
           "0": "Merkki",
           "1": "2D"
         }
       },
       "kids-learning-animation-p3": {
-        "title": "Söpö 2D-sarjakuvahahmo",
-        "description": "Söpö 2D-sarjakuvahahmoelokuva, jossa on ystävällinen persoonallisuus ja hienostunut lastensisältö.",
+        "title": "Söpö 2D sarjakuvahahmo",
+        "description": "Söpö 2D sarjakuvahahmoelokuva, jossa on ystävällinen persoonallisuus ja hienostunut lastensisältö.",
         "tags": {
           "0": "Sarjakuva",
           "1": "Lapset"
         }
       },
       "3d-cartoon-animation-p1": {
-        "title": "3D-sarjakuva-animaatio",
-        "description": "Tyylitelty 3D-sarjakuvaanimaatio, jossa on ilmeikäs hahmoesitys ja värikäs esitys.",
+        "title": "3D sarjakuva animaatio",
+        "description": "Tyylitelty 3D sarjakuvaanimaatio, jossa on ilmeikäs hahmoesitys ja värikäs esitys.",
         "tags": {
           "0": "Sarjakuva",
           "1": "3D"
         }
       },
       "3d-cartoon-animation-p2": {
-        "title": "Söpö 3D-sarjakuvahahmoesittely",
-        "description": "Söpö 3D-sarjakuvahahmovideo, jossa on ystävällinen persoonallisuus ja hienostunut liike.",
+        "title": "Söpö 3D sarjakuvahahmoesittely",
+        "description": "Söpö 3D sarjakuvahahmovideo, jossa on ystävällinen persoonallisuus ja hienostunut liike.",
         "tags": {
           "0": "Merkki",
           "1": "Showcase"
         }
       },
       "3d-explainer-video-p1": {
-        "title": "Winergy 3D-esitys",
+        "title": "Winergy 3D esitys",
         "description": "Winergy 3D -brändin esittely elokuvamaisella kameratyöllä ja hiotulla tuotetarinalla.",
         "tags": {
           "0": "Selittäjä",
@@ -1124,7 +1124,7 @@
       },
       "3d-explainer-video-p2": {
         "title": "Popper Product 360 -näyttö",
-        "description": "Popper-tuote 360 ​​-näyttökalvo, joka esittelee muodon, materiaalit ja pakkauksen yksityiskohdat.",
+        "description": "Popper tuote 360 ​​-näyttökalvo, joka esittelee muodon, materiaalit ja pakkauksen yksityiskohdat.",
         "tags": {
           "0": "360",
           "1": "Neppari"
@@ -1139,8 +1139,8 @@
         }
       },
       "3d-explainer-video-p4": {
-        "title": "Popper-animaatio 2",
-        "description": "Vaihtoehtoinen Popper-animaatiopassi hienostuneella valaistuksella ja kampanjavalmiilla tahdilla.",
+        "title": "Popper animaatio 2",
+        "description": "Vaihtoehtoinen Popper animaatiopassi hienostuneella valaistuksella ja kampanjavalmiilla tahdilla.",
         "tags": {
           "0": "Tuote",
           "1": "Neppari"
@@ -1148,7 +1148,7 @@
       },
       "3d-explainer-video-p5": {
         "title": "Poppesin asiakasvideo",
-        "description": "Asiakasta päin oleva Poppes-video esittelee tuotteen selkeällä tarinankerronnalla ja hienostuneella CGI:llä.",
+        "description": "Asiakasta päin oleva Poppes video esittelee tuotteen selkeällä tarinankerronnalla ja hienostuneella CGI:llä.",
         "tags": {
           "0": "Asiakas",
           "1": "Poppes"
@@ -1156,23 +1156,23 @@
       },
       "3d-medical-animation-p1": {
         "title": "Laadukas 3D Medical Anatomia -animaatio",
-        "description": "Laadukas 3D-lääketieteellinen animaatio yksityiskohtaisella anatomian visualisoinnilla ja hienostuneella elokuvallisella esityksellä.",
+        "description": "Laadukas 3D lääketieteellinen animaatio yksityiskohtaisella anatomian visualisoinnilla ja hienostuneella elokuvallisella esityksellä.",
         "tags": {
           "0": "Lääketieteellinen",
           "1": "Anatomia"
         }
       },
       "3d-medical-animation-p2": {
-        "title": "Lääketieteellinen 3D-animaatio 2",
-        "description": "Toinen lääketieteellisen 3D-animaationäyte, jossa on selkeä anatominen tarinankerronta ja kaupallinen viimeistely.",
+        "title": "Lääketieteellinen 3D animaatio 2",
+        "description": "Toinen lääketieteellisen 3D animaationäyte, jossa on selkeä anatominen tarinankerronta ja kaupallinen viimeistely.",
         "tags": {
           "0": "Lääketieteellinen",
           "1": "Terveydenhuolto"
         }
       },
       "3d-anime-character-p1": {
-        "title": "3D-anime-hahmojen esittely asiakkaalle",
-        "description": "3D-anime-hahmon esittelyelokuva, joka esittelee mallinnusta, materiaaleja ja kiillotettua tyyliteltyä esitystä asiakkaan arvioitavaksi.",
+        "title": "3D anime hahmojen esittely asiakkaalle",
+        "description": "3D anime hahmon esittelyelokuva, joka esittelee mallinnusta, materiaaleja ja kiillotettua tyyliteltyä esitystä asiakkaan arvioitavaksi.",
         "tags": {
           "0": "Anime",
           "1": "Merkki"
@@ -1180,7 +1180,7 @@
       },
       "watch-animation-p1": {
         "title": "Katso tuoteelokuva",
-        "description": "Elokuvamainen 3D-kellon animaatio studiovalaistuksella, materiaalin yksityiskohdilla ja ensiluokkaisella pakettikuvalla.",
+        "description": "Elokuvamainen 3D kellon animaatio studiovalaistuksella, materiaalin yksityiskohdilla ja ensiluokkaisella pakettikuvalla.",
         "tags": {
           "0": "Katsella",
           "1": "Tuote"
@@ -1235,8 +1235,8 @@
         }
       },
       "3d-perfume-animation-p3": {
-        "title": "Soul of Amir 3D-animaatio",
-        "description": "Soul of Amir 3D-tuoksuanimaatio elokuvamaisella kameratyöllä ja kampanjavalmiilla lakoilla.",
+        "title": "Soul of Amir 3D animaatio",
+        "description": "Soul of Amir 3D tuoksuanimaatio elokuvamaisella kameratyöllä ja kampanjavalmiilla lakoilla.",
         "tags": {
           "0": "Hajuvesi",
           "1": "Amirin sielu"
@@ -1252,7 +1252,7 @@
       },
       "3d-gadget-animation-p2": {
         "title": "Kuulokkeiden nappikuulokkeiden tuotekalvo",
-        "description": "3D-kuulokkeiden ja nappikuulokkeiden tuoteanimaatio dynaamisilla kameran liikkeillä ja ensiluokkaisella pakettikuvaesityksellä.",
+        "description": "3D kuulokkeiden ja nappikuulokkeiden tuoteanimaatio dynaamisilla kameran liikkeillä ja ensiluokkaisella pakettikuvaesityksellä.",
         "tags": {
           "0": "Kuulokkeet",
           "1": "Tuote"
@@ -1275,7 +1275,7 @@
         }
       },
       "bag-suitcase-animation-p1": {
-        "title": "Realistinen 3D-tuoteanimaatio laukkuille",
+        "title": "Realistinen 3D tuoteanimaatio laukkuille",
         "description": "Photoreal 3D laukku- ja matkalaukkutuoteanimaatio ensiluokkaisilla materiaaleilla ja kaupallisella esittelyllä.",
         "tags": {
           "0": "Laukku",
@@ -1299,8 +1299,8 @@
         }
       },
       "3d-bed-animation-p1": {
-        "title": "Realistinen 3D-patjaanimaatio",
-        "description": "Realistinen 3D-patjatuoteanimaatio pehmeillä materiaaleilla, valaistuksella ja kampanjavalmiilla esittelyillä.",
+        "title": "Realistinen 3D patjaanimaatio",
+        "description": "Realistinen 3D patjatuoteanimaatio pehmeillä materiaaleilla, valaistuksella ja kampanjavalmiilla esittelyillä.",
         "tags": {
           "0": "Patja",
           "1": "Tuote"
@@ -1308,15 +1308,15 @@
       },
       "3d-bed-animation-p2": {
         "title": "Simba Bed Animaatio",
-        "description": "Simba-sänky-animaatio elokuvamaisella kameratyöllä, materiaalin yksityiskohdilla ja kaupallisella viimeistelyllä.",
+        "description": "Simba sänky animaatio elokuvamaisella kameratyöllä, materiaalin yksityiskohdilla ja kaupallisella viimeistelyllä.",
         "tags": {
           "0": "Vuode",
           "1": "Simba"
         }
       },
       "ronix-p1": {
-        "title": "Ronix 3D Industrial Animation | Sähkötyökalujen CGI-tuoteesittely",
-        "description": "Elokuvamainen Ronix-sähkötyökalu CGI-vitriinissä teknisillä yksityiskohdilla ja kaupallisella kiillotuksella.",
+        "title": "Ronix 3D Industrial Animation | Sähkötyökalujen CGI tuoteesittely",
+        "description": "Elokuvamainen Ronix sähkötyökalu CGI vitriinissä teknisillä yksityiskohdilla ja kaupallisella kiillotuksella.",
         "tags": {
           "0": "Teollinen",
           "1": "Ronix"
@@ -1332,7 +1332,7 @@
       },
       "mintec-p2": {
         "title": "MinTec 3D -animaatioiden valmistusprosessi",
-        "description": "Kulissien taakse katso MinTecin 3D-teollisen animaation tuotannon työnkulku.",
+        "description": "Kulissien taakse katso MinTecin 3D teollisen animaation tuotannon työnkulku.",
         "tags": {
           "0": "Käsitellä",
           "1": "MinTec"
@@ -1355,8 +1355,8 @@
         }
       },
       "credex-p1": {
-        "title": "Credex-pölynimuri SFX:llä",
-        "description": "Viimeinen teräväpiirtoinen CREDEX-pölynimurin animaatio äänisuunnittelulla ja kaupallisella kiillotuksella.",
+        "title": "Credex pölynimuri SFX:llä",
+        "description": "Viimeinen teräväpiirtoinen CREDEX pölynimurin animaatio äänisuunnittelulla ja kaupallisella kiillotuksella.",
         "tags": {
           "0": "Teollinen",
           "1": "Credex"
@@ -1364,7 +1364,7 @@
       },
       "phr-1-p1": {
         "title": "PHR 1 Sähköinen voimansiirto",
-        "description": "Photoreal PHR 1 -sähkövoimansiirto-animaatio elokuvamaisella kameratyöllä ja teknisillä yksityiskohdilla.",
+        "description": "Photoreal PHR 1 -sähkövoimansiirto animaatio elokuvamaisella kameratyöllä ja teknisillä yksityiskohdilla.",
         "tags": {
           "0": "Teollinen",
           "1": "PHR 1"
@@ -1408,15 +1408,15 @@
         "items": {
           "01": {
             "question": "Millaisia projekteja teette?",
-            "answer": "Tuotamme animaatio-, VFX-, elokuvamusiikkia, liikegrafiikkaa, tuoteelokuvia ja brändielokuvia elokuva-, sarja-, mainos- ja DTC-brändeille. Alushousut vaihtelevat yksittäisistä sankareista kokonaisiin kampanjapaketteihin."
+            "answer": "Tuotamme animaatio-, VFX-, elokuvamusiikkia, liikegrafiikkaa, tuoteelokuvia ja brändielokuvia elokuva-, sarja-, mainos- ja DTC brändeille. Alushousut vaihtelevat yksittäisistä sankareista kokonaisiin kampanjapaketteihin."
           },
           "02": {
             "question": "Missä Starlights Visuals sijaitsee?",
-            "answer": "Olemme remote-first-studio, jonka tiimin jäsenet työskentelevät useilla aikavyöhykkeillä. Teemme yhteistyötä asiakkaiden kanssa globaalisti ja toimitamme tuotantovalmiit assetit rakenteisten asynkronisten työnkulkujen ja live-reviewiden kautta."
+            "answer": "Olemme remote first studio, jonka tiimin jäsenet työskentelevät useilla aikavyöhykkeillä. Teemme yhteistyötä asiakkaiden kanssa globaalisti ja toimitamme tuotantovalmiit assetit rakenteisten asynkronisten työnkulkujen ja live reviewiden kautta."
           },
           "03": {
             "question": "Miten aloitan projektin?",
-            "answer": "Ota yhteyttä yhteydenottolomakkeella ja lähetä briefisi, aikataulusi sekä referenssilinkit. Sovimme discovery-puhelun, määrittelemme scopin ja lähetämme ehdotuksen, jossa on milestonet ja deliverablesit."
+            "answer": "Ota yhteyttä yhteydenottolomakkeella ja lähetä briefisi, aikataulusi sekä referenssilinkit. Sovimme discovery puhelun, määrittelemme scopin ja lähetämme ehdotuksen, jossa on milestonet ja deliverablesit."
           }
         }
       },
@@ -1425,11 +1425,11 @@
         "items": {
           "01": {
             "question": "Mitä palveluja tarjoatte?",
-            "answer": "Ydinpalveluihimme kuuluvat 2D- ja 3D-animaatio, VFX, hahmo- ja konseptitaide, liikegrafiikka, tuoteanimaatio ja elokuvaperäiset trailerit. Voimme hoitaa yksittäisiä tieteenaloja tai koko putkituotannon."
+            "answer": "Ydinpalveluihimme kuuluvat 2D- ja 3D animaatio, VFX, hahmo- ja konseptitaide, liikegrafiikka, tuoteanimaatio ja elokuvaperäiset trailerit. Voimme hoitaa yksittäisiä tieteenaloja tai koko putkituotannon."
           },
           "02": {
-            "question": "Työskentelettekö indie-tiimien ja suurten studioiden kanssa?",
-            "answer": "Kyllä. Teemme yhteistyötä indie-tekijöiden, keskikokoisten studioiden ja maailmanlaajuisten tuotemerkkien kanssa. Laajuus ja tiimin koko sopivat budjettiisi ja aikajanaasi tinkimättä käsityöstä."
+            "question": "Työskentelettekö indie tiimien ja suurten studioiden kanssa?",
+            "answer": "Kyllä. Teemme yhteistyötä indie tekijöiden, keskikokoisten studioiden ja maailmanlaajuisten tuotemerkkien kanssa. Laajuus ja tiimin koko sopivat budjettiisi ja aikajanaasi tinkimättä käsityöstä."
           },
           "03": {
             "question": "Pystyttekö vastaamaan nykyistä taidetyyliämme?",
@@ -1446,11 +1446,11 @@
           },
           "02": {
             "question": "Miten revisiot toimivat?",
-            "answer": "Jokainen milestone sisältää määritellyn määrän revisiokierroksia. Yhdistämme palautteen rakenteisiin review-sessioihin, jotta muutokset pysyvät tehokkaina ja aikataulussa."
+            "answer": "Jokainen milestone sisältää määritellyn määrän revisiokierroksia. Yhdistämme palautteen rakenteisiin review sessioihin, jotta muutokset pysyvät tehokkaina ja aikataulussa."
           },
           "03": {
             "question": "Missä tiedostomuodoissa toimitatte materiaalit?",
-            "answer": "Toimitamme pipelineesi valmiit exportit — MP4/MOV videolle, tarvittaessa PNG/EXR-sekvenssit, pyynnöstä kerrokselliset lähdetiedostot sekä engine-ready assetit reaaliaikaisiin projekteihin."
+            "answer": "Toimitamme pipelineesi valmiit exportit — MP4/MOV videolle, tarvittaessa PNG/EXR sekvenssit, pyynnöstä kerrokselliset lähdetiedostot sekä engine ready assetit reaaliaikaisiin projekteihin."
           }
         }
       }
@@ -1524,7 +1524,7 @@
     },
     "dashboard": {
       "title": "Kojelauta",
-      "subtitle": "Yleiskatsaus CMS-sisällöstä.",
+      "subtitle": "Yleiskatsaus CMS sisällöstä.",
       "blogs": "Blogikirjoituksia",
       "videos": "Portfolion videoita",
       "pendingReviews": "Odottaa arvosteluja",
@@ -1550,7 +1550,7 @@
       "readTime": "Lukuaika",
       "author": "Tekijä",
       "sortOrder": "Lajittelujärjestys",
-      "imageUrl": "Kuvan URL-osoite",
+      "imageUrl": "Kuvan URL osoite",
       "uploading": "Ladataan…",
       "sections": "Osat",
       "addSection": "Lisää osio",
@@ -1583,8 +1583,8 @@
       "category": "Luokka",
       "clientSlug": "Asiakasetana",
       "clientName": "Asiakkaan nimi",
-      "videoUrl": "Videon URL-osoite",
-      "thumbnailUrl": "Pikkukuvan URL-osoite",
+      "videoUrl": "Videon URL osoite",
+      "thumbnailUrl": "Pikkukuvan URL osoite",
       "description": "Kuvaus",
       "year": "vuosi",
       "sortOrder": "Lajittelujärjestys",
@@ -1692,11 +1692,11 @@
     "sections": {
       "information": {
         "title": "Keräämämme tiedot",
-        "body": "Keräämme vain vapaaehtoisesti lähettämiäsi tietoja. Projektikysely voi sisältää nimesi, sähköpostiosoitteesi, valitsemasi palvelu ja viesti. Uutiskirjeen tilaus sisältää sähköpostiosoitteesi. Lähetetty arvostelu voi sisältää nimesi, sähköpostiosoitteesi, roolisi, yrityksesi, luokituksen, otsikon ja arvostelun tekstin.\n\nIsännöinti- ja palveluntarjoajamme voivat myös käsitellä teknisiä perustietoja, kuten IP-osoitetta, selaintyyppiä, laitetietoja, pyyntöaikaa ja virhelokeja, verkkosivuston käyttöä ja suojaamista varten."
+        "body": "Keräämme vain vapaaehtoisesti lähettämiäsi tietoja. Projektikysely voi sisältää nimesi, sähköpostiosoitteesi, valitsemasi palvelu ja viesti. Uutiskirjeen tilaus sisältää sähköpostiosoitteesi. Lähetetty arvostelu voi sisältää nimesi, sähköpostiosoitteesi, roolisi, yrityksesi, luokituksen, otsikon ja arvostelun tekstin. Isännöinti- ja palveluntarjoajamme voivat myös käsitellä teknisiä perustietoja, kuten IP osoitetta, selaintyyppiä, laitetietoja, pyyntöaikaa ja virhelokeja, verkkosivuston käyttöä ja suojaamista varten."
       },
       "use": {
         "title": "Kuinka käytämme tietoa",
-        "body": "Käytämme toimitettuja tietoja vastataksemme tiedusteluihin, valmistellaksemme tai tarjotaksemme pyydettyjä luovia palveluita, lähettääksemme transaktiovastauksia, hallinnoidaksemme uutiskirjeviestintää, tarkistaaksemme ja julkaistaksemme suosituksia hyväksytyllä tavalla, ylläpitääksemme verkkosivuston turvallisuutta, estääksemme väärinkäytöksiä ja noudattaaksemme sovellettavaa lakia.\n\nEmme käytä asiakasprojektin tietoja tai henkilötietoja asiaankuulumattomiin tarkoituksiin."
+        "body": "Käytämme toimitettuja tietoja vastataksemme tiedusteluihin, valmistellaksemme tai tarjotaksemme pyydettyjä luovia palveluita, lähettääksemme transaktiovastauksia, hallinnoidaksemme uutiskirjeviestintää, tarkistaaksemme ja julkaistaksemme suosituksia hyväksytyllä tavalla, ylläpitääksemme verkkosivuston turvallisuutta, estääksemme väärinkäytöksiä ja noudattaaksemme sovellettavaa lakia. Emme käytä asiakasprojektin tietoja tai henkilötietoja asiaankuulumattomiin tarkoituksiin."
       },
       "sharing": {
         "title": "Kun tietoa jaetaan",
@@ -1704,7 +1704,7 @@
       },
       "international": {
         "title": "Maailmanlaajuiset asiakkaat ja kansainväliset siirrot",
-        "body": "Starlights Visuals toimii Yhdysvalloista ja työskentelee ihmisten kanssa maailmanlaajuisesti, erityisesti Euroopassa ja Saksassa. Yhdysvaltalaisten asiakkaiden tietoja ei jaeta saksalaisten tai eurooppalaisten asiakkaiden kanssa, eikä saksalaisten tai eurooppalaisten asiakkaiden tietoja jaeta yhdysvaltalaisten asiakkaiden kanssa.\n\nTämä asiakkaiden erottelu ei tarkoita, että tiedot pysyvät aina yhden maan sisällä. Valtuutettu tiimimme ja pilvipalveluntarjoajamme voivat käsitellä tietoja Yhdysvalloissa, Euroopan talousalueella, Saksassa tai muissa paikoissa, joissa ne toimivat. Kun eurooppalaisia ​​henkilötietoja siirretään Euroopan talousalueen ulkopuolelle, käytämme tarvittaessa soveltuvaa laillista siirtomekanismia, kuten riittävyyspäätöstä, EU:n mallisopimuslausekkeita tai muuta laissa tunnustettua suojakeinoa. Katso lisätietoja EU:n GDPR-ilmoituksestamme."
+        "body": "Starlights Visuals toimii Yhdysvalloista ja työskentelee ihmisten kanssa maailmanlaajuisesti, erityisesti Euroopassa ja Saksassa. Yhdysvaltalaisten asiakkaiden tietoja ei jaeta saksalaisten tai eurooppalaisten asiakkaiden kanssa, eikä saksalaisten tai eurooppalaisten asiakkaiden tietoja jaeta yhdysvaltalaisten asiakkaiden kanssa. Tämä asiakkaiden erottelu ei tarkoita, että tiedot pysyvät aina yhden maan sisällä. Valtuutettu tiimimme ja pilvipalveluntarjoajamme voivat käsitellä tietoja Yhdysvalloissa, Euroopan talousalueella, Saksassa tai muissa paikoissa, joissa ne toimivat. Kun eurooppalaisia ​​henkilötietoja siirretään Euroopan talousalueen ulkopuolelle, käytämme tarvittaessa soveltuvaa laillista siirtomekanismia, kuten riittävyyspäätöstä, EU:n mallisopimuslausekkeita tai muuta laissa tunnustettua suojakeinoa. Katso lisätietoja EU:n GDPR ilmoituksestamme."
       },
       "storage": {
         "title": "Evästeet ja paikallinen tallennustila",
@@ -1712,19 +1712,19 @@
       },
       "retention": {
         "title": "Kuinka kauan säilytämme tietoja",
-        "body": "Säilytämme tiedustelu- ja projektitietoja vain niin kauan kuin on kohtuudella tarpeen vastataksemme, tarjotaksemme palveluja, ylläpitääksemme liiketoimintatietoja, ratkaistaksemme riita-asioita ja täyttääksemme lakisääteisiä velvoitteita. Uutiskirjeen tiedot säilytetään, kunnes peruutat tilauksen tai pyydät meitä poistamaan ne. Arvostelutiedot säilytetään, kun arvostelu on vireillä tai julkaistu, ellei poistamista pyydetä tai säilyttämistä ei vaadita lain mukaan."
+        "body": "Säilytämme tiedustelu- ja projektitietoja vain niin kauan kuin on kohtuudella tarpeen vastataksemme, tarjotaksemme palveluja, ylläpitääksemme liiketoimintatietoja, ratkaistaksemme riita asioita ja täyttääksemme lakisääteisiä velvoitteita. Uutiskirjeen tiedot säilytetään, kunnes peruutat tilauksen tai pyydät meitä poistamaan ne. Arvostelutiedot säilytetään, kun arvostelu on vireillä tai julkaistu, ellei poistamista pyydetä tai säilyttämistä ei vaadita lain mukaan."
       },
       "rights": {
         "title": "Sinun valintasi ja tietosuojaoikeutesi",
-        "body": "Työskentelemme ihmisten kanssa ympäri maailmaa. Missä tahansa asutkin, voit pyytää pääsyä hallussamme oleviin henkilötietoihin, korjata tai poistaa niitä tai vastustaa tiettyjä käyttöjä. Voit peruuttaa markkinointiviestien tilauksen milloin tahansa ottamalla meihin yhteyttä tai käyttämällä tilauksen peruutusvaihtoehtoa. Maasi tai alueesi tietosuojalakien alaisia ​​lisäoikeuksia voidaan soveltaa. Myös Euroopan talousalueella, Saksassa ja Isossa-Britanniassa asuvilla henkilöillä voi olla EU:n GDPR-ilmoituksessamme kuvatut oikeudet. Tarkistamme ja vastaamme pyyntöihin sovellettavan lain edellyttämällä tavalla emmekä syrji ketään yksityisyyden suojaa koskevien oikeuksien käyttämisen vuoksi."
+        "body": "Työskentelemme ihmisten kanssa ympäri maailmaa. Missä tahansa asutkin, voit pyytää pääsyä hallussamme oleviin henkilötietoihin, korjata tai poistaa niitä tai vastustaa tiettyjä käyttöjä. Voit peruuttaa markkinointiviestien tilauksen milloin tahansa ottamalla meihin yhteyttä tai käyttämällä tilauksen peruutusvaihtoehtoa. Maasi tai alueesi tietosuojalakien alaisia ​​lisäoikeuksia voidaan soveltaa. Myös Euroopan talousalueella, Saksassa ja Isossa Britanniassa asuvilla henkilöillä voi olla EU:n GDPR ilmoituksessamme kuvatut oikeudet. Tarkistamme ja vastaamme pyyntöihin sovellettavan lain edellyttämällä tavalla emmekä syrji ketään yksityisyyden suojaa koskevien oikeuksien käyttämisen vuoksi."
       },
       "children": {
         "title": "Lasten yksityisyys",
-        "body": "Tätä verkkosivustoa ja palveluitamme ei ole suunnattu alle 13-vuotiaille lapsille, emmekä tietoisesti kerää henkilötietoja alle 13-vuotiailta lapsilta. Jos uskot, että lapsi on antanut tietoja, ota meihin yhteyttä, jotta voimme poistaa ne."
+        "body": "Tätä verkkosivustoa ja palveluitamme ei ole suunnattu alle 13 vuotiaille lapsille, emmekä tietoisesti kerää henkilötietoja alle 13 vuotiailta lapsilta. Jos uskot, että lapsi on antanut tietoja, ota meihin yhteyttä, jotta voimme poistaa ne."
       },
       "security": {
         "title": "Turvallisuus ja kansainvälinen käsittely",
-        "body": "Käytämme kohtuullisia hallinnollisia ja teknisiä suojakeinoja, jotka on suunniteltu suojelemaan lähetettyä tietoa, mukaan lukien pääsyn rajoittaminen ihmisille ja palveluntarjoajille, jotka tarvitsevat niitä tiettyyn tarkoitukseen. Mikään Internet-lähetys- tai tallennusjärjestelmä ei voi olla täysin turvallista."
+        "body": "Käytämme kohtuullisia hallinnollisia ja teknisiä suojakeinoja, jotka on suunniteltu suojelemaan lähetettyä tietoa, mukaan lukien pääsyn rajoittaminen ihmisille ja palveluntarjoajille, jotka tarvitsevat niitä tiettyyn tarkoitukseen. Mikään Internet lähetys- tai tallennusjärjestelmä ei voi olla täysin turvallista."
       },
       "changes": {
         "title": "Muutoksia tähän käytäntöön",
@@ -1736,18 +1736,18 @@
       },
       "governmentRequests": {
         "title": "Hallituksen ja viranomaisten pyynnöt",
-        "body": "Emme jaa vapaaehtoisesti Yhdysvaltojen asiakastietoja Saksan tai muiden Euroopan viranomaisten kanssa, emmekä vapaaehtoisesti jaa Saksan tai Euroopan asiakastietoja Yhdysvaltojen viranomaisille. Jos hallitus, sääntelyviranomainen, tuomioistuin tai lainvalvontaelin pyytää henkilökohtaisia ​​tietoja, paljastamme ne vain, kun uskomme kohtuudella, että pyyntö on pätevä, oikeudellisesti sitova, pyynnön esittäneen elimen laillisten valtuuksien puitteissa ja sovellettavissa meihin.\n\nJos se on lain mukaan sallittua ja kohtuullisen käytännöllistä, tarkistamme pyynnön, kiistämme pyynnöt, jotka vaikuttavat laittomilta tai liiallisilta, paljastamme vain lakisääteiset vähimmäistiedot ja ilmoitamme asiasta henkilölle ennen paljastamista. Laki saattaa kieltää meidät antamasta ilmoitusta. Mikään tässä käytännössä ei estä paljastamasta, joka on tarpeen henkilön suojelemiseksi vakavalta vahingolta tai oikeudellisten vaatimusten esittämiseksi, esittämiseksi tai puolustamiseksi."
+        "body": "Emme jaa vapaaehtoisesti Yhdysvaltojen asiakastietoja Saksan tai muiden Euroopan viranomaisten kanssa, emmekä vapaaehtoisesti jaa Saksan tai Euroopan asiakastietoja Yhdysvaltojen viranomaisille. Jos hallitus, sääntelyviranomainen, tuomioistuin tai lainvalvontaelin pyytää henkilökohtaisia ​​tietoja, paljastamme ne vain, kun uskomme kohtuudella, että pyyntö on pätevä, oikeudellisesti sitova, pyynnön esittäneen elimen laillisten valtuuksien puitteissa ja sovellettavissa meihin. Jos se on lain mukaan sallittua ja kohtuullisen käytännöllistä, tarkistamme pyynnön, kiistämme pyynnöt, jotka vaikuttavat laittomilta tai liiallisilta, paljastamme vain lakisääteiset vähimmäistiedot ja ilmoitamme asiasta henkilölle ennen paljastamista. Laki saattaa kieltää meidät antamasta ilmoitusta. Mikään tässä käytännössä ei estä paljastamasta, joka on tarpeen henkilön suojelemiseksi vakavalta vahingolta tai oikeudellisten vaatimusten esittämiseksi, esittämiseksi tai puolustamiseksi."
       }
     }
   },
   "euGdprPage": {
-    "metaTitle": "EU:n GDPR-ilmoitus | OIKEUSSUOJATTU0",
-    "metaDescription": "GDPR-tiedot ihmisille Euroopan talousalueella ja Saksassa, jotka ovat vuorovaikutuksessa Starlights Visuals:n kanssa.",
+    "metaTitle": "EU:n GDPR ilmoitus | OIKEUSSUOJATTU0",
+    "metaDescription": "GDPR tiedot ihmisille Euroopan talousalueella ja Saksassa, jotka ovat vuorovaikutuksessa Starlights Visuals:n kanssa.",
     "label": "Euroopan tietosuoja",
-    "title": "EU:n GDPR-ILMOITUS",
+    "title": "EU:n GDPR ILMOITUS",
     "subtitle": "Tietoa Euroopan talousalueen ja Saksan asukkaille.",
     "updated": "Viimeksi päivitetty: 2026",
-    "summary": "Starlights Visuals sijaitsee Yhdysvalloissa ja palvelee asiakkaita maailmanlaajuisesti, erityisesti Euroopassa ja Saksassa. Tämä ilmoitus täydentää tietosuojakäytäntöämme ja selittää, kuinka käsittelemme Euroopan unionin yleisen tietosuoja-asetuksen kattamia henkilötietoja.",
+    "summary": "Starlights Visuals sijaitsee Yhdysvalloissa ja palvelee asiakkaita maailmanlaajuisesti, erityisesti Euroopassa ja Saksassa. Tämä ilmoitus täydentää tietosuojakäytäntöämme ja selittää, kuinka käsittelemme Euroopan unionin yleisen tietosuoja asetuksen kattamia henkilötietoja.",
     "sections": {
       "scope": {
         "title": "Laajuus",
@@ -1755,11 +1755,11 @@
       },
       "controller": {
         "title": "Rekisterinpitäjä",
-        "body": "Starlights Visuals\nYhdysvallat\nSähköposti: info@starlightvisualstudio.de\n\nStarlights Visuals määrittää, miksi ja miten tämän verkkosivuston kautta lähetettyjä henkilötietoja käsitellään. Tietosuoja- ja GDPR-pyynnöt voidaan lähettää yllä olevaan sähköpostiosoitteeseen."
+        "body": "Starlights Visuals\nYhdysvallat\nSähköposti: info@starlightvisualstudio.de Starlights Visuals määrittää, miksi ja miten tämän verkkosivuston kautta lähetettyjä henkilötietoja käsitellään. Tietosuoja- ja GDPR pyynnöt voidaan lähettää yllä olevaan sähköpostiosoitteeseen."
       },
       "data": {
         "title": "Käsittelemämme henkilötiedot",
-        "body": "Vuorovaikutuksestasi riippuen saatamme käsitellä nimeäsi, sähköpostiosoitettasi, yritystäsi, rooliasi, projektityyppiäsi, projektiviestiäsi, uutiskirjeen mieltymyksiäsi, tarkastelun sisältöä ja luokituksia, kirjeenvaihtoa ja teknisiä perustietoja, kuten IP-osoite, selaintiedot, laitetiedot, aikaleimat ja suojauslokit. Pyydämme sinua olemaan lähettämättä arkaluonteisia henkilötietoja, ellei se ole välttämätöntä ja erityisesti pyydetty."
+        "body": "Vuorovaikutuksestasi riippuen saatamme käsitellä nimeäsi, sähköpostiosoitettasi, yritystäsi, rooliasi, projektityyppiäsi, projektiviestiäsi, uutiskirjeen mieltymyksiäsi, tarkastelun sisältöä ja luokituksia, kirjeenvaihtoa ja teknisiä perustietoja, kuten IP osoite, selaintiedot, laitetiedot, aikaleimat ja suojauslokit. Pyydämme sinua olemaan lähettämättä arkaluonteisia henkilötietoja, ellei se ole välttämätöntä ja erityisesti pyydetty."
       },
       "purposes": {
         "title": "Käsittelyn tarkoitukset",
@@ -1771,7 +1771,7 @@
       },
       "recipients": {
         "title": "Vastaanottajien ja asiakkaiden erottelu",
-        "body": "Emme myy henkilötietoja. Emme jaa yhdysvaltalaisen asiakkaan tietoja Saksassa tai Euroopassa oleville asiakkaille, emmekä saksalaisten tai eurooppalaisten asiakkaiden tietoja Yhdysvalloissa oleville asiakkaille. Henkilötiedot ovat saatavilla vain valtuutetuille Starlights Visuals-henkilöstölle ja palveluntarjoajille, jotka tarvitsevat niitä tiettyyn tarkoitukseen, mukaan lukien Supabase tietokantapalveluihin, Resend sähköpostin toimittamiseen ja verkkosivustomme isännöintipalveluntarjoajamme. Palveluntarjoajien odotetaan käsittelevän tietoja vain asianmukaisten ohjeiden ja suojatoimien mukaisesti."
+        "body": "Emme myy henkilötietoja. Emme jaa yhdysvaltalaisen asiakkaan tietoja Saksassa tai Euroopassa oleville asiakkaille, emmekä saksalaisten tai eurooppalaisten asiakkaiden tietoja Yhdysvalloissa oleville asiakkaille. Henkilötiedot ovat saatavilla vain valtuutetuille Starlights Visuals henkilöstölle ja palveluntarjoajille, jotka tarvitsevat niitä tiettyyn tarkoitukseen, mukaan lukien Supabase tietokantapalveluihin, Resend sähköpostin toimittamiseen ja verkkosivustomme isännöintipalveluntarjoajamme. Palveluntarjoajien odotetaan käsittelevän tietoja vain asianmukaisten ohjeiden ja suojatoimien mukaisesti."
       },
       "transfers": {
         "title": "Siirrot Euroopan ulkopuolelle",
@@ -1782,7 +1782,7 @@
         "body": "Säilytämme henkilötietoja vain niin kauan kuin se on kohtuudella tarpeen kerättyyn tarkoitukseen, mukaan lukien tiedusteluihin vastaaminen, palveluiden suorittaminen, liiketoiminta- ja verokirjanpito, riitojen ratkaiseminen ja lakisääteisten velvoitteiden täyttäminen. Uutiskirjeen tietoja säilytetään, kunnes peruutat tilauksen tai pyydät poistamista. Tarkastustiedot säilytetään odottavan tai julkaistun ajan, ellei poistamista pyydetä tai säilyttämistä ei vaadita lain mukaan."
       },
       "rights": {
-        "title": "GDPR-oikeutesi",
+        "title": "GDPR oikeutesi",
         "body": "Oikeudellisin ehdoin ja poikkeuksin voit pyytää pääsyä henkilötietoihisi, oikaisua, poistamista, käsittelyn rajoittamista, tietojen siirrettävyyttä tai vastustaa käsittelyä oikeutetun edun tai suoramarkkinoinnin perusteella. Voit peruuttaa suostumuksen milloin tahansa. Käytä oikeutta lähettämällä sähköpostia info@starlightvisualstudio.de. Saatamme pyytää henkilöllisyytesi vahvistamiseen tarvittavia tietoja ja vastaamme lain edellyttämän ajan kuluessa."
       },
       "complaints": {
@@ -1795,11 +1795,11 @@
       },
       "contact": {
         "title": "Ota yhteyttä",
-        "body": "Jos sinulla on GDPR-kysymyksiä, oikeuspyyntöjä, siirtoa koskevia suojatietoja tai yksityisyyttä koskevia huolenaiheita, lähetä sähköpostia info@starlightvisualstudio.de."
+        "body": "Jos sinulla on GDPR kysymyksiä, oikeuspyyntöjä, siirtoa koskevia suojatietoja tai yksityisyyttä koskevia huolenaiheita, lähetä sähköpostia info@starlightvisualstudio.de."
       },
       "governmentRequests": {
         "title": "Hallituksen ja viranomaisten pääsy",
-        "body": "Emme luovuta vapaaehtoisesti eurooppalaisia tai saksalaisia asiakastietoja Yhdysvaltojen viranomaisille, emmekä vapaaehtoisesti luovuta Yhdysvaltojen asiakastietoja Saksan tai muille Euroopan viranomaisille. Rajat ylittävä viranomainenpyyntö ei saa automaattista pääsyä henkilötietoihin.\n\nEnnen vastaamista arvioimme kohtuudella, onko pyyntö pätevä, oikeudellisesti sitova, oikeasuhteinen, viranomaisen toimivaltaan kuuluva ja sovellettavissa meihin. Jos se on lain sallimaa ja kohtuullisen käytännöllistä, kiistämme laittomat tai liialliset pyynnöt, paljastamme vain lakisääteiset vähimmäistiedot, dokumentoimme pyynnön ja vastauksen ja ilmoitamme asiasta asianomaiselle henkilölle. Ilmoitus saattaa viivästyä tai olla lailla kielletty. Nämä käytännöt täydentävät, mutta eivät korvaa GDPR:n edellyttämiä siirtosuojatoimia."
+        "body": "Emme luovuta vapaaehtoisesti eurooppalaisia tai saksalaisia asiakastietoja Yhdysvaltojen viranomaisille, emmekä vapaaehtoisesti luovuta Yhdysvaltojen asiakastietoja Saksan tai muille Euroopan viranomaisille. Rajat ylittävä viranomainenpyyntö ei saa automaattista pääsyä henkilötietoihin. Ennen vastaamista arvioimme kohtuudella, onko pyyntö pätevä, oikeudellisesti sitova, oikeasuhteinen, viranomaisen toimivaltaan kuuluva ja sovellettavissa meihin. Jos se on lain sallimaa ja kohtuullisen käytännöllistä, kiistämme laittomat tai liialliset pyynnöt, paljastamme vain lakisääteiset vähimmäistiedot, dokumentoimme pyynnön ja vastauksen ja ilmoitamme asiasta asianomaiselle henkilölle. Ilmoitus saattaa viivästyä tai olla lailla kielletty. Nämä käytännöt täydentävät, mutta eivät korvaa GDPR:n edellyttämiä siirtosuojatoimia."
       }
     }
   },
@@ -1813,7 +1813,7 @@
       "operator": {
         "title": "Operaattorin ja yrityksen osoitteet",
         "company": "Starlights Visuals",
-        "tagline": "Luova animaatio ja VFX-studio",
+        "tagline": "Luova animaatio ja VFX studio",
         "founderLabel": "Perustaja ja toimitusjohtaja",
         "founderName": "Boluwaji Ominiran",
         "addresses": {
@@ -1864,9 +1864,9 @@
       },
       "privacy": {
         "title": "Yksityisyys ja tietosuoja",
-        "body": "Tietoja siitä, kuinka keräämme, käytämme, suojaamme ja siirrämme henkilötietoja, on saatavilla tietosuojakäytännössämme ja täydentävässä EU:n GDPR-ilmoituksessa.",
+        "body": "Tietoja siitä, kuinka keräämme, käytämme, suojaamme ja siirrämme henkilötietoja, on saatavilla tietosuojakäytännössämme ja täydentävässä EU:n GDPR ilmoituksessa.",
         "privacyLink": "Katso tietosuojakäytäntö",
-        "gdprLink": "Katso EU:n GDPR-ilmoitus"
+        "gdprLink": "Katso EU:n GDPR ilmoitus"
       }
     }
   }

@@ -1,0 +1,22 @@
+-- Optional: allow site_copy entity type if your cms_translations table
+-- restricts entity_type with a CHECK constraint. Run in the Supabase SQL editor
+-- only if admin site-copy saves fail with a constraint error.
+--
+-- Example (adjust to match your existing constraint name / definition):
+--
+-- ALTER TABLE public.cms_translations
+--   DROP CONSTRAINT IF EXISTS cms_translations_entity_type_check;
+--
+-- ALTER TABLE public.cms_translations
+--   ADD CONSTRAINT cms_translations_entity_type_check
+--   CHECK (entity_type = ANY (ARRAY[
+--     'blog_post',
+--     'portfolio_video',
+--     'portfolio_client',
+--     'portfolio_category',
+--     'testimonial',
+--     'site_copy'
+--   ]));
+--
+-- Singleton entity id used by the app for static site copy:
+-- aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee

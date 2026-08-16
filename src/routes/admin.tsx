@@ -4,6 +4,7 @@ import {
   FileText,
   FolderKanban,
   Home,
+  Languages,
   LayoutDashboard,
   LogOut,
   Mail,
@@ -28,6 +29,7 @@ const navItems: {
     | "/admin/videos"
     | "/admin/reviews"
     | "/admin/contacts"
+    | "/admin/translations"
     | "/admin/admins";
   labelKey: string;
   icon: typeof LayoutDashboard;
@@ -39,6 +41,7 @@ const navItems: {
   { to: "/admin/videos", labelKey: "admin.nav.videos", icon: Clapperboard },
   { to: "/admin/reviews", labelKey: "admin.nav.reviews", icon: MessageSquareQuote },
   { to: "/admin/contacts", labelKey: "admin.nav.contacts", icon: Mail },
+  { to: "/admin/translations", labelKey: "admin.nav.translations", icon: Languages },
   { to: "/admin/admins", labelKey: "admin.nav.admins", icon: Shield },
 ];
 

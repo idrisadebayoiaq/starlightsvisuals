@@ -55,8 +55,8 @@
     "joining": "Łączący…",
     "subscribeError": "Nie można teraz subskrybować. Spróbuj ponownie lub napisz do nas bezpośrednio.",
     "adminLogin": "Administrator",
-    "emailRequired": "Proszę podać swój adres e-mail.",
-    "emailInvalid": "Proszę podać prawidłowy adres e-mail.",
+    "emailRequired": "Proszę podać swój adres e mail.",
+    "emailInvalid": "Proszę podać prawidłowy adres e mail.",
     "privacy": "Polityka prywatności",
     "euGdpr": "RODO UE",
     "imprint": "Odcisk"
@@ -67,7 +67,7 @@
     "heroScript": "Historie w ruchu —",
     "heroTitle1": "ANIMACJA",
     "heroTitle2": "I VFX",
-    "heroBody": "Starlights Visuals ożywia historie animacją i efektami wizualnymi, które urzekają widzów i podnoszą każdą klatkę. Animujemy fantasy stworzenia, ludzkie postacie, pojazdy, środowiska, rekwizyty i obiekty hard-surface — na potrzeby filmu, seriali, reklam i kampanii marki.",
+    "heroBody": "Starlights Visuals ożywia historie animacją i efektami wizualnymi, które urzekają widzów i podnoszą każdą klatkę. Animujemy fantasy stworzenia, ludzkie postacie, pojazdy, środowiska, rekwizyty i obiekty hard surface — na potrzeby filmu, seriali, reklam i kampanii marki.",
     "heroAlt": "Bohater filmowy Starlights Visuals",
     "seePortfolio": "Zobacz portfolio",
     "startProject": "Rozpocznij projekt",
@@ -311,8 +311,8 @@
     "sendAnother": "Wyślij kolejną wiadomość",
     "errors": {
       "nameRequired": "Proszę wpisać swoje imię i nazwisko.",
-      "emailRequired": "Proszę podać swój adres e-mail.",
-      "emailInvalid": "Proszę podać prawidłowy adres e-mail.",
+      "emailRequired": "Proszę podać swój adres e mail.",
+      "emailInvalid": "Proszę podać prawidłowy adres e mail.",
       "serviceRequired": "Proszę wybrać usługę.",
       "messageRequired": "Proszę wpisać wiadomość."
     }
@@ -1412,7 +1412,7 @@
           },
           "02": {
             "question": "Gdzie działa Starlights Visuals?",
-            "answer": "Jesteśmy studiem remote-first z członkami zespołu w wielu strefach czasowych. Współpracujemy z klientami globalnie i dostarczamy assety gotowe do produkcji dzięki uporządkowanym workflow asynchronicznym oraz live review."
+            "answer": "Jesteśmy studiem remote first z członkami zespołu w wielu strefach czasowych. Współpracujemy z klientami globalnie i dostarczamy assety gotowe do produkcji dzięki uporządkowanym workflow asynchronicznym oraz live review."
           },
           "03": {
             "question": "Jak rozpocząć projekt?",
@@ -1464,7 +1464,7 @@
     "title": "NAPISZ SWOJE",
     "subtitle": "Pracowałeś z Starlights Visuals? Podziel się swoim doświadczeniem, aby inne marki mogły zobaczyć rezultaty.",
     "name": "Twoje imię",
-    "email": "E-mail",
+    "email": "E mail",
     "emailOptional": "Opcjonalne, nie pokazywane publicznie",
     "role": "Twoja rola",
     "company": "Firma",
@@ -1485,7 +1485,7 @@
     "metaDescription": "Podziel się doświadczeniem zdobytym podczas pracy z: Starlights Visuals. Napisz recenzję klienta, aby zapoznać się z naszymi referencjami."
   },
   "admin": {
-    "title": "CMS-a",
+    "title": "CMS a",
     "loading": "Załadunek…",
     "signOut": "Wyloguj się",
     "save": "Ratować",
@@ -1508,8 +1508,8 @@
     "login": {
       "script": "Dostęp do studia",
       "title": "Logowanie administratora",
-      "subtitle": "Zaloguj się przy użyciu adresu e-mail autoryzowanego administratora.",
-      "email": "E-mail",
+      "subtitle": "Zaloguj się przy użyciu adresu e mail autoryzowanego administratora.",
+      "email": "E mail",
       "password": "Hasło",
       "signIn": "Zalogować się",
       "signUp": "Utwórz konto",
@@ -1519,7 +1519,7 @@
       "backHome": "Powrót do serwisu",
       "notConfigured": "Supabase nie jest skonfigurowany.",
       "failed": "Uwierzytelnienie nie powiodło się",
-      "confirmEmail": "Konto utworzone. Sprawdź swoją skrzynkę e-mail, aby potwierdzić, a następnie zaloguj się.",
+      "confirmEmail": "Konto utworzone. Sprawdź swoją skrzynkę e mail, aby potwierdzić, a następnie zaloguj się.",
       "notAuthorized": "Brak uprawnień administratora"
     },
     "dashboard": {
@@ -1627,14 +1627,14 @@
     },
     "admins": {
       "title": "Administratorzy",
-      "subtitle": "E-maile mogą uzyskać dostęp do CMS.",
+      "subtitle": "E maile mogą uzyskać dostęp do CMS.",
       "add": "Dodać",
       "emailPlaceholder": "admin@example.com",
-      "colEmail": "E-mail",
+      "colEmail": "E mail",
       "colAdded": "W dodatku",
       "colActions": "Działania",
       "you": "Ty",
-      "cannotDeleteSelf": "Nie możesz usunąć własnego adresu e-mail administratora.",
+      "cannotDeleteSelf": "Nie możesz usunąć własnego adresu e mail administratora.",
       "deleteConfirm": "Usunąć {{email}} z administratorów?",
       "loadError": "Nie udało się załadować administratorów",
       "addError": "Nie udało się dodać administratora",
@@ -1645,7 +1645,7 @@
     "metaDescription": "Panel zarządzania treścią Starlights Visuals.",
     "contacts": {
       "title": "Łączność",
-      "subtitle": "E-maile klientów z formularzy kontaktowych i zapisów do newslettera. Wyślij im wiadomość ze skrzynki odbiorczej studia.",
+      "subtitle": "E maile klientów z formularzy kontaktowych i zapisów do newslettera. Wyślij im wiadomość ze skrzynki odbiorczej studia.",
       "loadError": "Nie udało się załadować kontaktów",
       "deleteConfirm": "Usunąć to zgłoszenie?",
       "deleted": "Zgłoszenie usunięte.",
@@ -1664,12 +1664,12 @@
       "colWhen": "Gdy",
       "colKind": "Typ",
       "colName": "Nazwa",
-      "colEmail": "E-mail",
+      "colEmail": "E mail",
       "colDetails": "Bliższe dane",
       "colActions": "Działania",
       "customersTitle": "Klienci",
-      "customersCount": "{{count}} unikalnych e-maili",
-      "noCustomers": "Nie ma jeszcze żadnych e-maili od klientów.",
+      "customersCount": "{{count}} unikalnych e maili",
+      "noCustomers": "Nie ma jeszcze żadnych e maili od klientów.",
       "unknownName": "Nieznany",
       "composeTitle": "Wyślij wiadomość",
       "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
@@ -1677,7 +1677,7 @@
       "allCustomers": "Wszyscy klienci",
       "subject": "Temat",
       "message": "Wiadomość",
-      "send": "Wyślij e-mail",
+      "send": "Wyślij e mail",
       "sending": "Przesyłka…"
     }
   },
@@ -1692,19 +1692,19 @@
     "sections": {
       "information": {
         "title": "Informacje, które zbieramy",
-        "body": "Gromadzimy wyłącznie informacje, które przekazujesz dobrowolnie. Zapytanie projektowe może zawierać Twoje imię i nazwisko, adres e-mail, wybraną usługę i wiadomość. Zapis do newslettera obejmuje Twój adres e-mail. Przesłana recenzja może zawierać Twoje imię i nazwisko, adres e-mail, rolę, firmę, ocenę, nagłówek i tekst recenzji.\n\nNasi dostawcy usług hostingowych i usług mogą również przetwarzać podstawowe dane techniczne, takie jak adres IP, typ przeglądarki, informacje o urządzeniu, czas żądania i dzienniki błędów, aby obsługiwać i zabezpieczać witrynę."
+        "body": "Gromadzimy wyłącznie informacje, które przekazujesz dobrowolnie. Zapytanie projektowe może zawierać Twoje imię i nazwisko, adres e mail, wybraną usługę i wiadomość. Zapis do newslettera obejmuje Twój adres e mail. Przesłana recenzja może zawierać Twoje imię i nazwisko, adres e mail, rolę, firmę, ocenę, nagłówek i tekst recenzji. Nasi dostawcy usług hostingowych i usług mogą również przetwarzać podstawowe dane techniczne, takie jak adres IP, typ przeglądarki, informacje o urządzeniu, czas żądania i dzienniki błędów, aby obsługiwać i zabezpieczać witrynę."
       },
       "use": {
         "title": "Jak wykorzystujemy informacje",
-        "body": "Wykorzystujemy przesłane informacje w celu odpowiadania na zapytania, przygotowywania lub świadczenia żądanych usług kreatywnych, wysyłania odpowiedzi transakcyjnych, zarządzania komunikacją w biuletynie, przeglądania i publikowania opinii za zgodą, utrzymywania bezpieczeństwa witryny, zapobiegania nadużyciom i przestrzegania obowiązującego prawa.\n\nNie wykorzystujemy szczegółów projektu klienta ani danych osobowych do niezwiązanych celów."
+        "body": "Wykorzystujemy przesłane informacje w celu odpowiadania na zapytania, przygotowywania lub świadczenia żądanych usług kreatywnych, wysyłania odpowiedzi transakcyjnych, zarządzania komunikacją w biuletynie, przeglądania i publikowania opinii za zgodą, utrzymywania bezpieczeństwa witryny, zapobiegania nadużyciom i przestrzegania obowiązującego prawa. Nie wykorzystujemy szczegółów projektu klienta ani danych osobowych do niezwiązanych celów."
       },
       "sharing": {
         "title": "Kiedy informacje są udostępniane",
-        "body": "Nie sprzedajemy ani nie wynajmujemy danych osobowych i nie ujawniamy danych klientów klientom w innym kraju. Dostęp jest ograniczony do Starlights Visuals i dostawców usług, którzy potrzebują informacji do obsługi witryny, komunikowania się z Tobą lub wykonywania żądanej pracy. Obecni dostawcy to Supabase do usług baz danych, Resend do dostarczania poczty e-mail oraz nasz dostawca hostingu witryn internetowych. Wszelkie ujawnienia wymagane przez prawo podlegają poniższym standardom dotyczącym żądań rządów i organów."
+        "body": "Nie sprzedajemy ani nie wynajmujemy danych osobowych i nie ujawniamy danych klientów klientom w innym kraju. Dostęp jest ograniczony do Starlights Visuals i dostawców usług, którzy potrzebują informacji do obsługi witryny, komunikowania się z Tobą lub wykonywania żądanej pracy. Obecni dostawcy to Supabase do usług baz danych, Resend do dostarczania poczty e mail oraz nasz dostawca hostingu witryn internetowych. Wszelkie ujawnienia wymagane przez prawo podlegają poniższym standardom dotyczącym żądań rządów i organów."
       },
       "international": {
         "title": "Klienci na całym świecie i przelewy międzynarodowe",
-        "body": "Starlights Visuals działa w Stanach Zjednoczonych i współpracuje z ludźmi na całym świecie, zwłaszcza w Europie i Niemczech. Informacje o klientach ze Stanów Zjednoczonych nie są udostępniane klientom z Niemiec ani Europy, a informacje o klientach z Niemiec i Europy nie są udostępniane klientom ze Stanów Zjednoczonych.\n\nTo oddzielenie klientów nie oznacza, że ​​dane zawsze pozostają w jednym kraju. Nasz autoryzowany zespół i dostawcy usług w chmurze mogą przetwarzać informacje w Stanach Zjednoczonych, Europejskim Obszarze Gospodarczym, Niemczech lub innych lokalizacjach, w których prowadzą działalność. Kiedy europejskie dane osobowe są przekazywane poza Europejski Obszar Gospodarczy, w razie potrzeby korzystamy z obowiązującego prawnego mechanizmu przekazywania danych, takiego jak decyzja stwierdzająca odpowiedni stopień ochrony, standardowe klauzule umowne UE lub inne zabezpieczenie uznane przez prawo. Dodatkowe szczegóły można znaleźć w naszym zawiadomieniu o RODO UE."
+        "body": "Starlights Visuals działa w Stanach Zjednoczonych i współpracuje z ludźmi na całym świecie, zwłaszcza w Europie i Niemczech. Informacje o klientach ze Stanów Zjednoczonych nie są udostępniane klientom z Niemiec ani Europy, a informacje o klientach z Niemiec i Europy nie są udostępniane klientom ze Stanów Zjednoczonych. To oddzielenie klientów nie oznacza, że ​​dane zawsze pozostają w jednym kraju. Nasz autoryzowany zespół i dostawcy usług w chmurze mogą przetwarzać informacje w Stanach Zjednoczonych, Europejskim Obszarze Gospodarczym, Niemczech lub innych lokalizacjach, w których prowadzą działalność. Kiedy europejskie dane osobowe są przekazywane poza Europejski Obszar Gospodarczy, w razie potrzeby korzystamy z obowiązującego prawnego mechanizmu przekazywania danych, takiego jak decyzja stwierdzająca odpowiedni stopień ochrony, standardowe klauzule umowne UE lub inne zabezpieczenie uznane przez prawo. Dodatkowe szczegóły można znaleźć w naszym zawiadomieniu o RODO UE."
       },
       "storage": {
         "title": "Pliki cookie i pamięć lokalna",
@@ -1716,7 +1716,7 @@
       },
       "rights": {
         "title": "Twoje wybory i prawa do prywatności",
-        "body": "Współpracujemy z ludźmi na całym świecie. Gdziekolwiek mieszkasz, możesz poprosić o dostęp do danych osobowych, które posiadamy na Twój temat, ich poprawienie lub usunięcie, a także sprzeciwić się niektórym sposobom ich wykorzystania. Możesz w każdej chwili zrezygnować z otrzymywania marketingowych wiadomości e-mail, kontaktując się z nami lub korzystając z opcji rezygnacji z subskrypcji, jeśli jest dostępna. Dodatkowe prawa mogą obowiązywać zgodnie z przepisami dotyczącymi prywatności obowiązującymi w Twoim kraju lub regionie. Mieszkańcy Europejskiego Obszaru Gospodarczego, Niemiec i Wielkiej Brytanii mogą również mieć prawa opisane w naszej Informacji o RODO UE. Weryfikujemy i odpowiadamy na żądania zgodnie z wymogami obowiązującego prawa i nie dyskryminujemy nikogo za korzystanie z praw do prywatności."
+        "body": "Współpracujemy z ludźmi na całym świecie. Gdziekolwiek mieszkasz, możesz poprosić o dostęp do danych osobowych, które posiadamy na Twój temat, ich poprawienie lub usunięcie, a także sprzeciwić się niektórym sposobom ich wykorzystania. Możesz w każdej chwili zrezygnować z otrzymywania marketingowych wiadomości e mail, kontaktując się z nami lub korzystając z opcji rezygnacji z subskrypcji, jeśli jest dostępna. Dodatkowe prawa mogą obowiązywać zgodnie z przepisami dotyczącymi prywatności obowiązującymi w Twoim kraju lub regionie. Mieszkańcy Europejskiego Obszaru Gospodarczego, Niemiec i Wielkiej Brytanii mogą również mieć prawa opisane w naszej Informacji o RODO UE. Weryfikujemy i odpowiadamy na żądania zgodnie z wymogami obowiązującego prawa i nie dyskryminujemy nikogo za korzystanie z praw do prywatności."
       },
       "children": {
         "title": "Prywatność dzieci",
@@ -1732,11 +1732,11 @@
       },
       "contact": {
         "title": "Skontaktuj się z nami",
-        "body": "Jeśli masz pytania lub prośby dotyczące prywatności, wyślij e-mail na adres info@starlightvisualstudio.de. Proszę opisać swoją prośbę i adres e-mail powiązany z informacjami, abyśmy mogli odpowiedzieć."
+        "body": "Jeśli masz pytania lub prośby dotyczące prywatności, wyślij e mail na adres info@starlightvisualstudio.de. Proszę opisać swoją prośbę i adres e mail powiązany z informacjami, abyśmy mogli odpowiedzieć."
       },
       "governmentRequests": {
         "title": "Żądania rządu i władz",
-        "body": "Nie udostępniamy dobrowolnie informacji o klientach ze Stanów Zjednoczonych władzom niemieckim ani innym organom europejskim ani dobrowolnie nie udostępniamy informacji o klientach niemieckich ani europejskich władzom Stanów Zjednoczonych. Jeśli rząd, organ regulacyjny, sąd lub organ egzekwowania prawa zażąda danych osobowych, ujawniamy je tylko wtedy, gdy mamy uzasadnione przekonanie, że żądanie jest ważne, prawnie wiążące, w ramach prawnych uprawnień organu wzywającego i ma do nas zastosowanie.\n\nJeżeli jest to prawnie dozwolone i rozsądnie praktyczne, rozpatrujemy wniosek, kwestionujemy żądania, które wydają się niezgodne z prawem lub nadmierne, ujawniamy jedynie minimum informacji wymaganych prawnie i powiadamiamy osobę, której to dotyczy, przed ujawnieniem. Prawo może zabraniać nam wysyłania powiadomień. Żadne z postanowień niniejszej polityki nie uniemożliwia ujawnienia informacji niezbędnych do ochrony danej osoby przed poważną krzywdą lub do ustalenia, dochodzenia lub obrony roszczeń prawnych."
+        "body": "Nie udostępniamy dobrowolnie informacji o klientach ze Stanów Zjednoczonych władzom niemieckim ani innym organom europejskim ani dobrowolnie nie udostępniamy informacji o klientach niemieckich ani europejskich władzom Stanów Zjednoczonych. Jeśli rząd, organ regulacyjny, sąd lub organ egzekwowania prawa zażąda danych osobowych, ujawniamy je tylko wtedy, gdy mamy uzasadnione przekonanie, że żądanie jest ważne, prawnie wiążące, w ramach prawnych uprawnień organu wzywającego i ma do nas zastosowanie. Jeżeli jest to prawnie dozwolone i rozsądnie praktyczne, rozpatrujemy wniosek, kwestionujemy żądania, które wydają się niezgodne z prawem lub nadmierne, ujawniamy jedynie minimum informacji wymaganych prawnie i powiadamiamy osobę, której to dotyczy, przed ujawnieniem. Prawo może zabraniać nam wysyłania powiadomień. Żadne z postanowień niniejszej polityki nie uniemożliwia ujawnienia informacji niezbędnych do ochrony danej osoby przed poważną krzywdą lub do ustalenia, dochodzenia lub obrony roszczeń prawnych."
       }
     }
   },
@@ -1755,11 +1755,11 @@
       },
       "controller": {
         "title": "Administrator danych",
-        "body": "Starlights Visuals\nStany Zjednoczone\nE-mail: info@starlightvisualstudio.de\n\nStarlights Visuals określa, dlaczego i w jaki sposób przetwarzane są dane osobowe przekazywane za pośrednictwem tej witryny. Żądania dotyczące prywatności i RODO można przesyłać na powyższy adres e-mail."
+        "body": "Starlights Visuals\nStany Zjednoczone\nE mail: info@starlightvisualstudio.de Starlights Visuals określa, dlaczego i w jaki sposób przetwarzane są dane osobowe przekazywane za pośrednictwem tej witryny. Żądania dotyczące prywatności i RODO można przesyłać na powyższy adres e mail."
       },
       "data": {
         "title": "Dane osobowe, które przetwarzamy",
-        "body": "W zależności od Twojej interakcji możemy przetwarzać Twoje imię i nazwisko, adres e-mail, firmę, rolę, rodzaj projektu, przesłanie projektu, preferencje dotyczące biuletynu, przeglądanie treści i ocen, korespondencję oraz podstawowe dane techniczne, takie jak adres IP, dane przeglądarki, informacje o urządzeniu, znaczniki czasu i dzienniki bezpieczeństwa. Prosimy o nieprzesyłanie wrażliwych danych osobowych, chyba że jest to konieczne i wyraźnie wymagane."
+        "body": "W zależności od Twojej interakcji możemy przetwarzać Twoje imię i nazwisko, adres e mail, firmę, rolę, rodzaj projektu, przesłanie projektu, preferencje dotyczące biuletynu, przeglądanie treści i ocen, korespondencję oraz podstawowe dane techniczne, takie jak adres IP, dane przeglądarki, informacje o urządzeniu, znaczniki czasu i dzienniki bezpieczeństwa. Prosimy o nieprzesyłanie wrażliwych danych osobowych, chyba że jest to konieczne i wyraźnie wymagane."
       },
       "purposes": {
         "title": "Cele przetwarzania",
@@ -1771,7 +1771,7 @@
       },
       "recipients": {
         "title": "Odbiorcy i separacja klientów",
-        "body": "Nie sprzedajemy danych osobowych. Nie udostępniamy danych klientów ze Stanów Zjednoczonych klientom w Niemczech ani w Europie ani nie udostępniamy danych klientów z Niemiec ani Europy klientom w Stanach Zjednoczonych. Dane osobowe są dostępne wyłącznie dla autoryzowanego personelu Starlights Visuals i dostawców, którzy potrzebują ich do określonego celu, w tym Supabase do usług baz danych, Resend do dostarczania poczty e-mail oraz naszego dostawcy usług hostingowych. Oczekuje się, że dostawcy będą przetwarzać dane wyłącznie zgodnie z odpowiednimi instrukcjami i zabezpieczeniami."
+        "body": "Nie sprzedajemy danych osobowych. Nie udostępniamy danych klientów ze Stanów Zjednoczonych klientom w Niemczech ani w Europie ani nie udostępniamy danych klientów z Niemiec ani Europy klientom w Stanach Zjednoczonych. Dane osobowe są dostępne wyłącznie dla autoryzowanego personelu Starlights Visuals i dostawców, którzy potrzebują ich do określonego celu, w tym Supabase do usług baz danych, Resend do dostarczania poczty e mail oraz naszego dostawcy usług hostingowych. Oczekuje się, że dostawcy będą przetwarzać dane wyłącznie zgodnie z odpowiednimi instrukcjami i zabezpieczeniami."
       },
       "transfers": {
         "title": "Transfery poza Europę",
@@ -1783,7 +1783,7 @@
       },
       "rights": {
         "title": "Twoje prawa RODO",
-        "body": "Z zastrzeżeniem warunków prawnych i wyjątków, możesz żądać dostępu do swoich danych osobowych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych lub sprzeciwu wobec przetwarzania na podstawie prawnie uzasadnionych interesów lub marketingu bezpośredniego. Zgodę możesz wycofać w dowolnym momencie. Aby skorzystać z prawa, wyślij e-mail na adres info@starlightvisualstudio.de. Możemy poprosić o informacje potrzebne do zweryfikowania Twojej tożsamości i odpowiemy w terminie wymaganym przez prawo."
+        "body": "Z zastrzeżeniem warunków prawnych i wyjątków, możesz żądać dostępu do swoich danych osobowych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych lub sprzeciwu wobec przetwarzania na podstawie prawnie uzasadnionych interesów lub marketingu bezpośredniego. Zgodę możesz wycofać w dowolnym momencie. Aby skorzystać z prawa, wyślij e mail na adres info@starlightvisualstudio.de. Możemy poprosić o informacje potrzebne do zweryfikowania Twojej tożsamości i odpowiemy w terminie wymaganym przez prawo."
       },
       "complaints": {
         "title": "Prawo do narzekania",
@@ -1795,11 +1795,11 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": "W przypadku pytań związanych z RODO, wniosków o prawa, informacji o zabezpieczeniu transferu lub problemów związanych z prywatnością, napisz e-mail info@starlightvisualstudio.de."
+        "body": "W przypadku pytań związanych z RODO, wniosków o prawa, informacji o zabezpieczeniu transferu lub problemów związanych z prywatnością, napisz e mail info@starlightvisualstudio.de."
       },
       "governmentRequests": {
         "title": "Dostęp rządu i władz",
-        "body": "Nie przekazujemy dobrowolnie danych klientów z Europy ani Niemiec władzom Stanów Zjednoczonych ani dobrowolnie nie przekazujemy danych klientów ze Stanów Zjednoczonych władzom Niemiec ani innych krajów europejskich. Wniosek organu transgranicznego nie zapewnia automatycznego dostępu do danych osobowych.\n\nPrzed udzieleniem odpowiedzi rozsądnie oceniamy, czy wniosek jest ważny, prawnie wiążący, proporcjonalny, podlega jurysdykcji danego organu i ma do nas zastosowanie. Jeżeli jest to prawnie dozwolone i racjonalnie praktyczne, kwestionujemy żądania niezgodne z prawem lub nadmierne, ujawniamy jedynie minimalne informacje wymagane prawnie, dokumentujemy wniosek i odpowiedź oraz powiadamiamy osobę, której to dotyczy. Zawiadomienie może zostać opóźnione lub zabronione przez prawo. Praktyki te uzupełniają, ale nie zastępują, wszelkich zabezpieczeń transferu wymaganych przez RODO."
+        "body": "Nie przekazujemy dobrowolnie danych klientów z Europy ani Niemiec władzom Stanów Zjednoczonych ani dobrowolnie nie przekazujemy danych klientów ze Stanów Zjednoczonych władzom Niemiec ani innych krajów europejskich. Wniosek organu transgranicznego nie zapewnia automatycznego dostępu do danych osobowych. Przed udzieleniem odpowiedzi rozsądnie oceniamy, czy wniosek jest ważny, prawnie wiążący, proporcjonalny, podlega jurysdykcji danego organu i ma do nas zastosowanie. Jeżeli jest to prawnie dozwolone i racjonalnie praktyczne, kwestionujemy żądania niezgodne z prawem lub nadmierne, ujawniamy jedynie minimalne informacje wymagane prawnie, dokumentujemy wniosek i odpowiedź oraz powiadamiamy osobę, której to dotyczy. Zawiadomienie może zostać opóźnione lub zabronione przez prawo. Praktyki te uzupełniają, ale nie zastępują, wszelkich zabezpieczeń transferu wymaganych przez RODO."
       }
     }
   },
@@ -1844,7 +1844,7 @@
             "value": "+44 7348 550667"
           },
           "email": {
-            "label": "E-mail",
+            "label": "E mail",
             "value": "info@starlightvisualstudio.de"
           }
         },

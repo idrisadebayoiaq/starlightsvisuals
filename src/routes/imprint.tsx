@@ -6,7 +6,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { pageHead, siteMeta } from "@/lib/site-meta";
 
 const ADDRESS_IDS = ["us", "be", "uk"] as const;
-const CONTACT_IDS = ["phone", "whatsapp", "email"] as const;
+const CONTACT_IDS = ["whatsapp", "phone", "email"] as const;
 const TEXT_SECTION_IDS = ["responsibility", "links", "copyright"] as const;
 
 const CONTACT_HREFS: Record<(typeof CONTACT_IDS)[number], (value: string) => string> = {

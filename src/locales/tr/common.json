@@ -53,9 +53,9 @@
     "social": "Sosyal medya bağlantısı",
     "copyright": "© {{year}} Starlights Visuals. Işık ve kodla üretildi.",
     "joining": "Katılıyor…",
-    "subscribeError": "Şu anda abone olunamıyor. Lütfen tekrar deneyin veya doğrudan bize e-posta gönderin.",
+    "subscribeError": "Şu anda abone olunamıyor. Lütfen tekrar deneyin veya doğrudan bize e posta gönderin.",
     "adminLogin": "Yönetici",
-    "emailRequired": "Lütfen e-posta adresinizi girin.",
+    "emailRequired": "Lütfen e posta adresinizi girin.",
     "emailInvalid": "Geçerli bir e.",
     "privacy": "Gizlilik Politikası",
     "euGdpr": "AB GDPR",
@@ -67,7 +67,7 @@
     "heroScript": "Hareket halindeki hikâyeler —",
     "heroTitle1": "ANİMASYON",
     "heroTitle2": "VE VFX",
-    "heroBody": "Starlights Visuals, izleyicileri büyüleyen ve her kareyi yükselten animasyon ve görsel efektlerle hikâyelere hayat verir. Fantastik yaratıklar, insan karakterler, araçlar, ortamlar, aksesuarlar ve hard-surface nesneleri canlandırıyoruz — film, dizi, reklam ve marka kampanyaları için.",
+    "heroBody": "Starlights Visuals, izleyicileri büyüleyen ve her kareyi yükselten animasyon ve görsel efektlerle hikâyelere hayat verir. Fantastik yaratıklar, insan karakterler, araçlar, ortamlar, aksesuarlar ve hard surface nesneleri canlandırıyoruz — film, dizi, reklam ve marka kampanyaları için.",
     "heroAlt": "Starlights Visuals sinematik kahramanı",
     "seePortfolio": "Portföyü Gör",
     "startProject": "Bir Proje Başlatın",
@@ -306,12 +306,12 @@
       "other": "Diğer"
     },
     "sending": "Gönderiliyor…",
-    "errorGeneric": "Mesajınız gönderilemedi. Lütfen doğrudan bize e-posta gönderin veya tekrar deneyin.",
+    "errorGeneric": "Mesajınız gönderilemedi. Lütfen doğrudan bize e posta gönderin veya tekrar deneyin.",
     "sentToast": "Mesaj başarıyla gönderildi.",
     "sendAnother": "Başka bir mesaj gönder",
     "errors": {
       "nameRequired": "Lütfen isminizi giriniz.",
-      "emailRequired": "Lütfen e-posta adresinizi girin.",
+      "emailRequired": "Lütfen e posta adresinizi girin.",
       "emailInvalid": "Geçerli bir e.",
       "serviceRequired": "Lütfen bir hizmet seçin.",
       "messageRequired": "Lütfen bir mesaj girin."
@@ -1412,7 +1412,7 @@
           },
           "02": {
             "question": "Starlights Visuals nerede konumlanıyor?",
-            "answer": "Farklı saat dilimlerine yayılmış ekip üyeleriyle remote-first çalışan bir stüdyoyuz. Küresel müşterilerle iş birliği yapıyor, yapılandırılmış asenkron süreçler ve canlı incelemelerle prodüksiyona hazır asset'ler teslim ediyoruz."
+            "answer": "Farklı saat dilimlerine yayılmış ekip üyeleriyle remote first çalışan bir stüdyoyuz. Küresel müşterilerle iş birliği yapıyor, yapılandırılmış asenkron süreçler ve canlı incelemelerle prodüksiyona hazır asset'ler teslim ediyoruz."
           },
           "03": {
             "question": "Bir projeye nasıl başlayabilirim?",
@@ -1450,7 +1450,7 @@
           },
           "03": {
             "question": "Hangi dosya formatlarında teslim ediyorsunuz?",
-            "answer": "Pipeline'ınıza uygun formatlarda teslim ediyoruz — video için MP4/MOV, gerektiğinde PNG/EXR sekansları, talep üzerine katmanlı kaynak dosyalar ve gerçek zamanlı projeler için engine-ready asset'ler."
+            "answer": "Pipeline'ınıza uygun formatlarda teslim ediyoruz — video için MP4/MOV, gerektiğinde PNG/EXR sekansları, talep üzerine katmanlı kaynak dosyalar ve gerçek zamanlı projeler için engine ready asset'ler."
           }
         }
       }
@@ -1464,7 +1464,7 @@
     "title": "KENDİNİZİ YAZIN",
     "subtitle": "Starlights Visuals'la mı çalıştınız? Deneyiminizi paylaşın ki diğer markalar da sonuçları görebilsin.",
     "name": "Adınız",
-    "email": "E-posta",
+    "email": "E posta",
     "emailOptional": "İsteğe bağlı, herkese açık olarak gösterilmiyor",
     "role": "Rolünüz",
     "company": "Şirket",
@@ -1508,8 +1508,8 @@
     "login": {
       "script": "Stüdyo erişimi",
       "title": "Yönetici girişi",
-      "subtitle": "Yetkili yönetici e-postasıyla oturum açın.",
-      "email": "E-posta",
+      "subtitle": "Yetkili yönetici e postasıyla oturum açın.",
+      "email": "E posta",
       "password": "Şifre",
       "signIn": "Oturum aç",
       "signUp": "Hesap oluşturmak",
@@ -1519,7 +1519,7 @@
       "backHome": "Siteye geri dön",
       "notConfigured": "Supabase yapılandırılmamış.",
       "failed": "Kimlik doğrulama başarısız oldu",
-      "confirmEmail": "Hesap oluşturuldu. Onaylamak için e-postanızı kontrol edin ve ardından oturum açın.",
+      "confirmEmail": "Hesap oluşturuldu. Onaylamak için e postanızı kontrol edin ve ardından oturum açın.",
       "notAuthorized": "Yönetici olarak yetkilendirilmedi"
     },
     "dashboard": {
@@ -1627,14 +1627,14 @@
     },
     "admins": {
       "title": "Yöneticiler",
-      "subtitle": "E-postaların CMS'ye erişmesine izin verildi.",
+      "subtitle": "E postaların CMS'ye erişmesine izin verildi.",
       "add": "Eklemek",
       "emailPlaceholder": "admin@example.com",
-      "colEmail": "E-posta",
+      "colEmail": "E posta",
       "colAdded": "Eklendi",
       "colActions": "Eylemler",
       "you": "Sen",
-      "cannotDeleteSelf": "Kendi yönetici e-postanızı kaldıramazsınız.",
+      "cannotDeleteSelf": "Kendi yönetici e postanızı kaldıramazsınız.",
       "deleteConfirm": "{{email}} yöneticilerden kaldırılsın mı?",
       "loadError": "Yöneticiler yüklenemedi",
       "addError": "Yönetici eklenemedi",
@@ -1645,7 +1645,7 @@
     "metaDescription": "Starlights Visuals içerik yönetimi kontrol paneli.",
     "contacts": {
       "title": "Kişiler",
-      "subtitle": "İletişim formlarından ve bülten kayıtlarından gelen müşteri e-postaları. Onlara stüdyonun gelen kutusundan mesaj gönderin.",
+      "subtitle": "İletişim formlarından ve bülten kayıtlarından gelen müşteri e postaları. Onlara stüdyonun gelen kutusundan mesaj gönderin.",
       "loadError": "Kişiler yüklenemedi",
       "deleteConfirm": "Bu gönderim silinsin mi?",
       "deleted": "Gönderim silindi.",
@@ -1664,12 +1664,12 @@
       "colWhen": "Ne zaman",
       "colKind": "Tip",
       "colName": "İsim",
-      "colEmail": "E-posta",
+      "colEmail": "E posta",
       "colDetails": "Detaylar",
       "colActions": "Eylemler",
       "customersTitle": "Müşteriler",
-      "customersCount": "{{count}} benzersiz e-posta",
-      "noCustomers": "Henüz müşteri e-postası yok.",
+      "customersCount": "{{count}} benzersiz e posta",
+      "noCustomers": "Henüz müşteri e postası yok.",
       "unknownName": "Bilinmiyor",
       "composeTitle": "Mesaj gönder",
       "composeHint": "Emails are sent from info@starlightvisualstudio.de in the Starlights Visuals brand template.",
@@ -1677,7 +1677,7 @@
       "allCustomers": "Tüm müşteriler",
       "subject": "Ders",
       "message": "Mesaj",
-      "send": "E-posta gönder",
+      "send": "E posta gönder",
       "sending": "Gönderiliyor…"
     }
   },
@@ -1692,19 +1692,19 @@
     "sections": {
       "information": {
         "title": "Topladığımız bilgiler",
-        "body": "Yalnızca gönüllü olarak gönderdiğiniz bilgileri topluyoruz. Bir proje sorgusu adınızı, e-posta adresinizi, seçtiğiniz hizmeti ve mesajınızı içerebilir. Bülten kaydı e-posta adresinizi içerir. Gönderilen inceleme adınızı, e-posta adresinizi, rolünüzü, şirketinizi, derecelendirmenizi, başlığınızı ve inceleme metninizi içerebilir.\n\nBarındırma ve hizmet sağlayıcılarımız ayrıca web sitesini işletmek ve güvenliğini sağlamak için IP adresi, tarayıcı türü, cihaz bilgileri, istek süresi ve hata kayıtları gibi temel teknik verileri de işleyebilir."
+        "body": "Yalnızca gönüllü olarak gönderdiğiniz bilgileri topluyoruz. Bir proje sorgusu adınızı, e posta adresinizi, seçtiğiniz hizmeti ve mesajınızı içerebilir. Bülten kaydı e posta adresinizi içerir. Gönderilen inceleme adınızı, e posta adresinizi, rolünüzü, şirketinizi, derecelendirmenizi, başlığınızı ve inceleme metninizi içerebilir. Barındırma ve hizmet sağlayıcılarımız ayrıca web sitesini işletmek ve güvenliğini sağlamak için IP adresi, tarayıcı türü, cihaz bilgileri, istek süresi ve hata kayıtları gibi temel teknik verileri de işleyebilir."
       },
       "use": {
         "title": "Bilgileri nasıl kullanıyoruz?",
-        "body": "Gönderilen bilgileri soruları yanıtlamak, talep edilen yaratıcı hizmetleri hazırlamak veya sağlamak, işlemsel yanıtlar göndermek, haber bülteni iletişimlerini yönetmek, referansları onaylayarak incelemek ve yayınlamak, web sitesi güvenliğini sağlamak, kötüye kullanımı önlemek ve geçerli yasalara uymak için kullanırız.\n\nMüşteri proje ayrıntılarını veya kişisel bilgilerini ilgisiz amaçlarla kullanmayız."
+        "body": "Gönderilen bilgileri soruları yanıtlamak, talep edilen yaratıcı hizmetleri hazırlamak veya sağlamak, işlemsel yanıtlar göndermek, haber bülteni iletişimlerini yönetmek, referansları onaylayarak incelemek ve yayınlamak, web sitesi güvenliğini sağlamak, kötüye kullanımı önlemek ve geçerli yasalara uymak için kullanırız. Müşteri proje ayrıntılarını veya kişisel bilgilerini ilgisiz amaçlarla kullanmayız."
       },
       "sharing": {
         "title": "Bilgi paylaşıldığında",
-        "body": "Kişisel bilgileri satmıyor veya kiralamıyoruz ve bir müşterinin bilgilerini başka bir ülkedeki müşterilere açıklamıyoruz. Erişim, Starlights Visuals ve web sitesini işletmek, sizinle iletişim kurmak veya talep edilen işi sunmak için bilgiye ihtiyaç duyan hizmet sağlayıcılarla sınırlıdır. Mevcut sağlayıcılar arasında veritabanı hizmetleri için Supabase, e-posta dağıtımı için Resend ve web sitesi barındırma sağlayıcımız bulunmaktadır. Yasaların gerektirdiği her türlü açıklama, aşağıdaki hükümet ve otorite talep standartlarına göre gerçekleştirilir."
+        "body": "Kişisel bilgileri satmıyor veya kiralamıyoruz ve bir müşterinin bilgilerini başka bir ülkedeki müşterilere açıklamıyoruz. Erişim, Starlights Visuals ve web sitesini işletmek, sizinle iletişim kurmak veya talep edilen işi sunmak için bilgiye ihtiyaç duyan hizmet sağlayıcılarla sınırlıdır. Mevcut sağlayıcılar arasında veritabanı hizmetleri için Supabase, e posta dağıtımı için Resend ve web sitesi barındırma sağlayıcımız bulunmaktadır. Yasaların gerektirdiği her türlü açıklama, aşağıdaki hükümet ve otorite talep standartlarına göre gerçekleştirilir."
       },
       "international": {
         "title": "Dünya çapındaki müşteriler ve uluslararası transferler",
-        "body": "Starlights Visuals, Amerika Birleşik Devletleri'nde faaliyet göstermektedir ve başta Avrupa ve Almanya olmak üzere dünya çapındaki insanlarla çalışmaktadır. Amerika Birleşik Devletleri müşteri bilgileri Alman veya Avrupalı ​​müşterilerle paylaşılmaz ve Alman veya Avrupalı ​​müşteri bilgileri Amerika Birleşik Devletleri müşterileriyle paylaşılmaz.\n\nBu müşteri ayrımı, verilerin her zaman tek bir ülkede kalacağı anlamına gelmez. Yetkili ekibimiz ve bulut sağlayıcılarımız bilgileri Amerika Birleşik Devletleri'nde, Avrupa Ekonomik Alanı'nda, Almanya'da veya faaliyet gösterdikleri diğer yerlerde işleyebilir. Avrupa'daki kişisel veriler Avrupa Ekonomik Alanı dışına aktarıldığında, gerektiğinde yeterlilik kararı, AB Standart Sözleşme Maddeleri veya yasalarca tanınan başka bir koruma gibi geçerli bir yasal aktarım mekanizması kullanırız. Ek ayrıntılar için AB GDPR Bildirimimize bakın."
+        "body": "Starlights Visuals, Amerika Birleşik Devletleri'nde faaliyet göstermektedir ve başta Avrupa ve Almanya olmak üzere dünya çapındaki insanlarla çalışmaktadır. Amerika Birleşik Devletleri müşteri bilgileri Alman veya Avrupalı ​​müşterilerle paylaşılmaz ve Alman veya Avrupalı ​​müşteri bilgileri Amerika Birleşik Devletleri müşterileriyle paylaşılmaz. Bu müşteri ayrımı, verilerin her zaman tek bir ülkede kalacağı anlamına gelmez. Yetkili ekibimiz ve bulut sağlayıcılarımız bilgileri Amerika Birleşik Devletleri'nde, Avrupa Ekonomik Alanı'nda, Almanya'da veya faaliyet gösterdikleri diğer yerlerde işleyebilir. Avrupa'daki kişisel veriler Avrupa Ekonomik Alanı dışına aktarıldığında, gerektiğinde yeterlilik kararı, AB Standart Sözleşme Maddeleri veya yasalarca tanınan başka bir koruma gibi geçerli bir yasal aktarım mekanizması kullanırız. Ek ayrıntılar için AB GDPR Bildirimimize bakın."
       },
       "storage": {
         "title": "Çerezler ve yerel depolama",
@@ -1716,7 +1716,7 @@
       },
       "rights": {
         "title": "Seçimleriniz ve gizlilik haklarınız",
-        "body": "Dünya çapında insanlarla çalışıyoruz. Nerede yaşarsanız yaşayın, hakkınızda tuttuğumuz kişisel bilgilere erişmeyi, bunları düzeltmeyi veya silmeyi isteyebilir veya belirli kullanımlara itiraz edebilirsiniz. İstediğiniz zaman bizimle iletişime geçerek veya sağlandığında abonelikten çıkma seçeneğini kullanarak pazarlama e-postalarının aboneliğinden çıkabilirsiniz. Ülkenizin veya bölgenizin gizlilik yasaları kapsamında ek haklar geçerli olabilir. Avrupa Ekonomik Alanı, Almanya ve Birleşik Krallık'taki kişiler de AB GDPR Bildirimimizde açıklanan haklara sahip olabilir. Talepleri geçerli yasaların gerektirdiği şekilde doğruluyor ve yanıtlıyoruz ve gizlilik haklarını kullanırken hiç kimseye ayrımcılık yapmıyoruz."
+        "body": "Dünya çapında insanlarla çalışıyoruz. Nerede yaşarsanız yaşayın, hakkınızda tuttuğumuz kişisel bilgilere erişmeyi, bunları düzeltmeyi veya silmeyi isteyebilir veya belirli kullanımlara itiraz edebilirsiniz. İstediğiniz zaman bizimle iletişime geçerek veya sağlandığında abonelikten çıkma seçeneğini kullanarak pazarlama e postalarının aboneliğinden çıkabilirsiniz. Ülkenizin veya bölgenizin gizlilik yasaları kapsamında ek haklar geçerli olabilir. Avrupa Ekonomik Alanı, Almanya ve Birleşik Krallık'taki kişiler de AB GDPR Bildirimimizde açıklanan haklara sahip olabilir. Talepleri geçerli yasaların gerektirdiği şekilde doğruluyor ve yanıtlıyoruz ve gizlilik haklarını kullanırken hiç kimseye ayrımcılık yapmıyoruz."
       },
       "children": {
         "title": "Çocukların mahremiyeti",
@@ -1732,11 +1732,11 @@
       },
       "contact": {
         "title": "Bize Ulaşın",
-        "body": "Gizlilikle ilgili sorularınız veya istekleriniz için info@starlightvisualstudio.de'e e-posta gönderin. Yanıt verebilmemiz için lütfen isteğinizi ve bilgilerin yer aldığı e-posta adresini açıklayın."
+        "body": "Gizlilikle ilgili sorularınız veya istekleriniz için info@starlightvisualstudio.de'e e posta gönderin. Yanıt verebilmemiz için lütfen isteğinizi ve bilgilerin yer aldığı e posta adresini açıklayın."
       },
       "governmentRequests": {
         "title": "Hükümet ve otorite talepleri",
-        "body": "Amerika Birleşik Devletleri müşteri bilgilerini gönüllü olarak Alman veya diğer Avrupalı yetkililerle paylaşmıyoruz ve Alman veya Avrupalı müşteri bilgilerini ABD yetkilileriyle gönüllü olarak paylaşmıyoruz. Bir hükümet, düzenleyici kurum, mahkeme veya kolluk kuvvetinin kişisel bilgi talep etmesi halinde, bu bilgiyi yalnızca talebin geçerli, yasal olarak bağlayıcı, talepte bulunan kurumun yasal yetkisi dahilinde ve bizim için geçerli olduğuna makul ölçüde inandığımızda açıklarız.\n\nYasal olarak izin verildiği ve makul ölçüde uygulanabilir olduğu durumlarda, talebi inceler, yasa dışı veya aşırı görünen taleplere itiraz eder, yalnızca yasal olarak gereken minimum bilgileri açıklar ve etkilenen kişiyi açıklamadan önce bilgilendiririz. Kanunen bildirimde bulunmamız yasaklanmış olabilir. Bu politikadaki hiçbir şey, bir kişiyi ciddi zarardan korumak veya yasal hak taleplerini oluşturmak, uygulamak veya savunmak için gerekli olan açıklamayı engellemez."
+        "body": "Amerika Birleşik Devletleri müşteri bilgilerini gönüllü olarak Alman veya diğer Avrupalı yetkililerle paylaşmıyoruz ve Alman veya Avrupalı müşteri bilgilerini ABD yetkilileriyle gönüllü olarak paylaşmıyoruz. Bir hükümet, düzenleyici kurum, mahkeme veya kolluk kuvvetinin kişisel bilgi talep etmesi halinde, bu bilgiyi yalnızca talebin geçerli, yasal olarak bağlayıcı, talepte bulunan kurumun yasal yetkisi dahilinde ve bizim için geçerli olduğuna makul ölçüde inandığımızda açıklarız. Yasal olarak izin verildiği ve makul ölçüde uygulanabilir olduğu durumlarda, talebi inceler, yasa dışı veya aşırı görünen taleplere itiraz eder, yalnızca yasal olarak gereken minimum bilgileri açıklar ve etkilenen kişiyi açıklamadan önce bilgilendiririz. Kanunen bildirimde bulunmamız yasaklanmış olabilir. Bu politikadaki hiçbir şey, bir kişiyi ciddi zarardan korumak veya yasal hak taleplerini oluşturmak, uygulamak veya savunmak için gerekli olan açıklamayı engellemez."
       }
     }
   },
@@ -1755,11 +1755,11 @@
       },
       "controller": {
         "title": "Veri denetleyicisi",
-        "body": "Starlights Visuals\nAmerika Birleşik Devletleri\nE-posta: info@starlightvisualstudio.de\n\nStarlights Visuals, bu web sitesi aracılığıyla gönderilen kişisel verilerin neden ve nasıl işlendiğini belirler. Gizlilik ve GDPR talepleri yukarıdaki e-posta adresine gönderilebilir."
+        "body": "Starlights Visuals\nAmerika Birleşik Devletleri\nE posta: info@starlightvisualstudio.de Starlights Visuals, bu web sitesi aracılığıyla gönderilen kişisel verilerin neden ve nasıl işlendiğini belirler. Gizlilik ve GDPR talepleri yukarıdaki e posta adresine gönderilebilir."
       },
       "data": {
         "title": "İşlediğimiz kişisel veriler",
-        "body": "Etkileşiminize bağlı olarak adınızı, e-posta adresinizi, şirketinizi, rolünüzü, proje türünüzü, proje mesajınızı, bülten tercihinizi, inceleme içeriğini ve derecelendirmenizi, yazışmalarınızı ve IP adresi, tarayıcı ayrıntıları, cihaz bilgileri, zaman damgaları ve güvenlik kayıtları gibi temel teknik verilerinizi işleyebiliriz. Gerekli olmadıkça ve özellikle talep edilmedikçe hassas kişisel verileri göndermemenizi rica ediyoruz."
+        "body": "Etkileşiminize bağlı olarak adınızı, e posta adresinizi, şirketinizi, rolünüzü, proje türünüzü, proje mesajınızı, bülten tercihinizi, inceleme içeriğini ve derecelendirmenizi, yazışmalarınızı ve IP adresi, tarayıcı ayrıntıları, cihaz bilgileri, zaman damgaları ve güvenlik kayıtları gibi temel teknik verilerinizi işleyebiliriz. Gerekli olmadıkça ve özellikle talep edilmedikçe hassas kişisel verileri göndermemenizi rica ediyoruz."
       },
       "purposes": {
         "title": "İşlemenin amaçları",
@@ -1771,7 +1771,7 @@
       },
       "recipients": {
         "title": "Alıcı ve müşteri ayrımı",
-        "body": "Kişisel verileri satmıyoruz. Amerika Birleşik Devletleri'ndeki bir müşterinin bilgilerini Almanya veya Avrupa'daki müşterilerle paylaşmayız ve bir Alman veya Avrupalı ​​müşterinin bilgilerini Amerika Birleşik Devletleri'ndeki müşterilerle paylaşmayız. Kişisel veriler yalnızca yetkili Starlights Visuals personeli ve veri tabanı hizmetleri için Supabase, e-posta dağıtımı için Resend ve web sitesi barındırma sağlayıcımız dahil olmak üzere belirtilen bir amaç için bunlara ihtiyaç duyan sağlayıcılar tarafından kullanılabilir. Sağlayıcıların verileri yalnızca uygun talimatlar ve güvenlik önlemleri altında işlemesi beklenir."
+        "body": "Kişisel verileri satmıyoruz. Amerika Birleşik Devletleri'ndeki bir müşterinin bilgilerini Almanya veya Avrupa'daki müşterilerle paylaşmayız ve bir Alman veya Avrupalı ​​müşterinin bilgilerini Amerika Birleşik Devletleri'ndeki müşterilerle paylaşmayız. Kişisel veriler yalnızca yetkili Starlights Visuals personeli ve veri tabanı hizmetleri için Supabase, e posta dağıtımı için Resend ve web sitesi barındırma sağlayıcımız dahil olmak üzere belirtilen bir amaç için bunlara ihtiyaç duyan sağlayıcılar tarafından kullanılabilir. Sağlayıcıların verileri yalnızca uygun talimatlar ve güvenlik önlemleri altında işlemesi beklenir."
       },
       "transfers": {
         "title": "Avrupa dışına transferler",
@@ -1783,7 +1783,7 @@
       },
       "rights": {
         "title": "GDPR haklarınız",
-        "body": "Yasal şartlara ve istisnalara tabi olarak, meşru menfaatlere veya doğrudan pazarlamaya dayalı olarak kişisel verilerinize erişim, düzeltme, silme, işlemenin kısıtlanması, veri taşınabilirliği veya işlemeye itiraz talebinde bulunabilirsiniz. Onayınızı istediğiniz zaman geri çekebilirsiniz. Bir hakkı kullanmak için info@starlightvisualstudio.de'e e-posta gönderin. Kimliğinizi doğrulamak için gerekli bilgileri talep edebiliriz ve yasaların gerektirdiği süre içinde yanıt vereceğiz."
+        "body": "Yasal şartlara ve istisnalara tabi olarak, meşru menfaatlere veya doğrudan pazarlamaya dayalı olarak kişisel verilerinize erişim, düzeltme, silme, işlemenin kısıtlanması, veri taşınabilirliği veya işlemeye itiraz talebinde bulunabilirsiniz. Onayınızı istediğiniz zaman geri çekebilirsiniz. Bir hakkı kullanmak için info@starlightvisualstudio.de'e e posta gönderin. Kimliğinizi doğrulamak için gerekli bilgileri talep edebiliriz ve yasaların gerektirdiği süre içinde yanıt vereceğiz."
       },
       "complaints": {
         "title": "Şikayet etme hakkı",
@@ -1795,11 +1795,11 @@
       },
       "contact": {
         "title": "Temas etmek",
-        "body": "GDPR soruları, hak talepleri, aktarım koruma bilgileri veya gizlilik endişeleri için info@starlightvisualstudio.de'e e-posta gönderin."
+        "body": "GDPR soruları, hak talepleri, aktarım koruma bilgileri veya gizlilik endişeleri için info@starlightvisualstudio.de'e e posta gönderin."
       },
       "governmentRequests": {
         "title": "Hükümet ve otorite erişimi",
-        "body": "Avrupa veya Alman müşteri verilerini ABD yetkililerine gönüllü olarak vermiyoruz ve ABD müşteri verilerini Alman veya diğer Avrupa yetkililerine gönüllü olarak vermiyoruz. Sınır ötesi yetkilinin talebi, kişisel verilere otomatik erişim sağlamaz.\n\nYanıt vermeden önce talebin geçerli, yasal olarak bağlayıcı, orantılı, yetkili makamın yetki alanı dahilinde ve bizim için geçerli olup olmadığını makul bir şekilde değerlendiriyoruz. Yasal olarak izin verildiği ve makul ölçüde uygulanabilir olduğu durumlarda, yasa dışı veya aşırı taleplere karşı çıkıyoruz, yalnızca yasal olarak gerekli olan minimum bilgileri açıklıyoruz, talebi ve yanıtı belgeliyoruz ve etkilenen kişiyi bilgilendiriyoruz. Bildirim gecikebilir veya kanunen yasaklanabilir. Bu uygulamalar, GDPR'nin gerektirdiği transfer önlemlerini tamamlar ancak bunların yerine geçmez."
+        "body": "Avrupa veya Alman müşteri verilerini ABD yetkililerine gönüllü olarak vermiyoruz ve ABD müşteri verilerini Alman veya diğer Avrupa yetkililerine gönüllü olarak vermiyoruz. Sınır ötesi yetkilinin talebi, kişisel verilere otomatik erişim sağlamaz. Yanıt vermeden önce talebin geçerli, yasal olarak bağlayıcı, orantılı, yetkili makamın yetki alanı dahilinde ve bizim için geçerli olup olmadığını makul bir şekilde değerlendiriyoruz. Yasal olarak izin verildiği ve makul ölçüde uygulanabilir olduğu durumlarda, yasa dışı veya aşırı taleplere karşı çıkıyoruz, yalnızca yasal olarak gerekli olan minimum bilgileri açıklıyoruz, talebi ve yanıtı belgeliyoruz ve etkilenen kişiyi bilgilendiriyoruz. Bildirim gecikebilir veya kanunen yasaklanabilir. Bu uygulamalar, GDPR'nin gerektirdiği transfer önlemlerini tamamlar ancak bunların yerine geçmez."
       }
     }
   },
@@ -1844,7 +1844,7 @@
             "value": "+44 7348 550667"
           },
           "email": {
-            "label": "E-posta",
+            "label": "E posta",
             "value": "info@starlightvisualstudio.de"
           }
         },
