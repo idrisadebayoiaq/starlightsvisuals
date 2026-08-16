@@ -64,10 +64,10 @@
   "home": {
     "metaTitle": "Vizuály Starlights | Studio animace a VFX",
     "metaDescription": "Kreativní studio pro 2D a 3D animaci, VFX a filmové vyprávění příběhů. Oživujeme světy, postavy a filmy.",
-    "heroScript": "Příběhy v pohybu —",
+    "heroScript": "Příběhy v pohybu,",
     "heroTitle1": "ANIMACE",
     "heroTitle2": "A VFX",
-    "heroBody": "Starlights Visuals oživuje příběhy animací a vizuálními efekty, které zaujmou publikum a pozvednou každý snímek. Animujeme fantasy bytosti, lidské postavy, vozidla, prostředí, rekvizity a hard surface objekty — pro film, seriály, reklamu a brandové kampaně.",
+    "heroBody": "Starlights Visuals oživuje příběhy animací a vizuálními efekty, které zaujmou publikum a pozvednou každý snímek. Animujeme fantasy bytosti, lidské postavy, vozidla, prostředí, rekvizity a hard surface objekty pro film, seriály, reklamu a brandové kampaně.",
     "heroAlt": "Filmový hrdina Starlights Visuals",
     "seePortfolio": "Viz Portfolio",
     "startProject": "Spusťte projekt",
@@ -1397,11 +1397,11 @@
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
-    "metaDescription": "Vše, co potřebujete vědět o spolupráci s námi — od prvního briefu po finální dodání.",
+    "metaTitle": "FAQ | Starlights Visuals",
+    "metaDescription": "Vše, co potřebujete vědět o spolupráci s námi, od prvního briefu po finální dodání.",
     "label": "Často kladené otázky",
     "title": "OTÁZKY A ODPOVĚDI",
-    "subtitle": "Vše, co potřebujete vědět o spolupráci s námi — od prvního briefu po finální dodání.",
+    "subtitle": "Vše, co potřebujete vědět o spolupráci s námi, od prvního briefu po finální dodání.",
     "sections": {
       "general": {
         "title": "Obecné",
@@ -1442,7 +1442,7 @@
         "items": {
           "01": {
             "question": "Jaké jsou typické časové rámce?",
-            "answer": "Časové rámce závisí na scope — social cutdown může trvat jeden až dva týdny, zatímco plná cinematic produkce může běžet čtyři až osm týdnů. V každé nabídce uvádíme jasné milníky."
+            "answer": "Časové rámce závisí na scope, social cutdown může trvat jeden až dva týdny, zatímco plná cinematic produkce může běžet čtyři až osm týdnů. V každé nabídce uvádíme jasné milníky."
           },
           "02": {
             "question": "Jak fungují revize?",
@@ -1450,7 +1450,7 @@
           },
           "03": {
             "question": "V jakých formátech souborů dodáváte?",
-            "answer": "Dodáváme exporty připravené pro váš pipeline — MP4/MOV pro video, PNG/EXR sekvence tam, kde je to potřeba, vrstvené source soubory na vyžádání a engine ready assety pro real time projekty."
+            "answer": "Dodáváme exporty připravené pro váš pipeline, MP4/MOV pro video, PNG/EXR sekvence tam, kde je to potřeba, vrstvené source soubory na vyžádání a engine ready assety pro real time projekty."
           }
         }
       }
@@ -1601,7 +1601,7 @@
       "selectClient": "Vyberte klienta…",
       "createNewClient": "+ Vytvořit nového klienta",
       "newClientHeading": "Podrobnosti nového klienta",
-      "noClientsHint": "V této kategorii zatím nejsou žádní klienti — zvolte „Vytvořit nového klienta“.",
+      "noClientsHint": "V této kategorii zatím nejsou žádní klienti, zvolte „Vytvořit nového klienta“.",
       "clientRequired": "Vyberte klienta.",
       "newClientRequired": "Zadejte název nového klienta.",
       "clientIndustry": "Průmysl",

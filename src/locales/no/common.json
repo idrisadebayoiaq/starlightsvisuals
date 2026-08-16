@@ -64,10 +64,10 @@
   "home": {
     "metaTitle": "Starlights Visuals | Animasjon og VFX Studio",
     "metaDescription": "Et kreativt studio for 2D- og 3D animasjon, VFX og filmatisk historiefortelling. Vi bringer verdener, karakterer og filmer til live.",
-    "heroScript": "Historier i bevegelse —",
+    "heroScript": "Historier i bevegelse,",
     "heroTitle1": "ANIMASJON",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals bringer historier til live med animasjon og visuelle effekter som fenger publikum og løfter hver eneste frame. Vi animerer fantasy skapninger, menneskelige karakterer, kjøretøy, miljøer, rekvisitter og hard surface objekter — for film, serier, reklame og merkevarekampanjer.",
+    "heroBody": "Starlights Visuals bringer historier til live med animasjon og visuelle effekter som fenger publikum og løfter hver eneste frame. Vi animerer fantasy skapninger, menneskelige karakterer, kjøretøy, miljøer, rekvisitter og hard surface objekter for film, serier, reklame og merkevarekampanjer.",
     "heroAlt": "Starlights Visuals kinohelt",
     "seePortfolio": "Se Portefølje",
     "startProject": "Start et prosjekt",
@@ -1397,11 +1397,11 @@
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
-    "metaDescription": "Alt du trenger å vite om å jobbe med oss — fra første brief til endelig levering.",
+    "metaTitle": "FAQ | Starlights Visuals",
+    "metaDescription": "Alt du trenger å vite om å jobbe med oss, fra første brief til endelig levering.",
     "label": "Ofte stilte spørsmål",
     "title": "SPØRSMÅL & SVAR",
-    "subtitle": "Alt du trenger å vite om å jobbe med oss — fra første brief til endelig levering.",
+    "subtitle": "Alt du trenger å vite om å jobbe med oss, fra første brief til endelig levering.",
     "sections": {
       "general": {
         "title": "Generelt",
@@ -1442,7 +1442,7 @@
         "items": {
           "01": {
             "question": "Hva er typiske tidslinjer?",
-            "answer": "Tidslinjer avhenger av omfang — en social cutdown kan ta én til to uker, mens en full cinematic kan ta fire til åtte uker. Vi setter tydelige milepæler i hvert forslag."
+            "answer": "Tidslinjer avhenger av omfang, en social cutdown kan ta én til to uker, mens en full cinematic kan ta fire til åtte uker. Vi setter tydelige milepæler i hvert forslag."
           },
           "02": {
             "question": "Hvordan fungerer revisjoner?",
@@ -1450,7 +1450,7 @@
           },
           "03": {
             "question": "Hvilke filformater leverer dere?",
-            "answer": "Vi leverer formatklare eksporter for pipeline en deres — MP4/MOV for video, PNG/EXR sekvenser ved behov, lagdelte kildefiler på forespørsel og engine ready assets for sanntidsprosjekter."
+            "answer": "Vi leverer formatklare eksporter for pipeline en deres, MP4/MOV for video, PNG/EXR sekvenser ved behov, lagdelte kildefiler på forespørsel og engine ready assets for sanntidsprosjekter."
           }
         }
       }

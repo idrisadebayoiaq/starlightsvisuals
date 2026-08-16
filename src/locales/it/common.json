@@ -64,10 +64,10 @@
   "home": {
     "metaTitle": "Immagini di Starlights | Studio di animazione e effetti visivi",
     "metaDescription": "Uno studio creativo per animazione 2D e 3D, VFX e narrazione cinematografica. Diamo vita a mondi, personaggi e film.",
-    "heroScript": "Storie in movimento —",
+    "heroScript": "Storie in movimento,",
     "heroTitle1": "ANIMAZIONE",
     "heroTitle2": "ed effetti visivi",
-    "heroBody": "Starlights Visuals dà vita alle storie con animazione ed effetti visivi che catturano il pubblico e valorizzano ogni fotogramma. Animi creature fantasy, personaggi umani, veicoli, ambienti, oggetti di scena e hard surface — per cinema, serie, pubblicità e campagne di brand.",
+    "heroBody": "Starlights Visuals dà vita alle storie con animazione ed effetti visivi che catturano il pubblico e valorizzano ogni fotogramma. Animi creature fantasy, personaggi umani, veicoli, ambienti, oggetti di scena e hard surface per cinema, serie, pubblicità e campagne di brand.",
     "heroAlt": "Eroe cinematografico di Starlights Visuals",
     "seePortfolio": "Vedi Portafoglio",
     "startProject": "Avvia un progetto",
@@ -1397,7 +1397,7 @@
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
+    "metaTitle": "FAQ | Starlights Visuals",
     "metaDescription": "Tutto ciò che devi sapere per lavorare con noi, dal primo brief alla consegna finale.",
     "label": "Domande frequenti",
     "title": "DOMANDE E RISPOSTE",
@@ -1450,7 +1450,7 @@
           },
           "03": {
             "question": "Quali formati file consegnate?",
-            "answer": "Consegniamo export pronti per la tua pipeline — MP4/MOV per video, sequenze PNG/EXR dove necessario, file sorgente a livelli su richiesta e asset pronti per engine per progetti in tempo reale."
+            "answer": "Consegniamo export pronti per la tua pipeline, MP4/MOV per video, sequenze PNG/EXR dove necessario, file sorgente a livelli su richiesta e asset pronti per engine per progetti in tempo reale."
           }
         }
       }

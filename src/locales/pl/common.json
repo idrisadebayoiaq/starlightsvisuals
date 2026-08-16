@@ -64,10 +64,10 @@
   "home": {
     "metaTitle": "Wizualizacje gwiazd | Studio animacji i efektów wizualnych",
     "metaDescription": "Kreatywne studio animacji 2D i 3D, efektów wizualnych i kinowego opowiadania historii. We bring worlds, characters and films to life.",
-    "heroScript": "Historie w ruchu —",
+    "heroScript": "Historie w ruchu,",
     "heroTitle1": "ANIMACJA",
     "heroTitle2": "I VFX",
-    "heroBody": "Starlights Visuals ożywia historie animacją i efektami wizualnymi, które urzekają widzów i podnoszą każdą klatkę. Animujemy fantasy stworzenia, ludzkie postacie, pojazdy, środowiska, rekwizyty i obiekty hard surface — na potrzeby filmu, seriali, reklam i kampanii marki.",
+    "heroBody": "Starlights Visuals ożywia historie animacją i efektami wizualnymi, które urzekają widzów i podnoszą każdą klatkę. Animujemy fantasy stworzenia, ludzkie postacie, pojazdy, środowiska, rekwizyty i obiekty hard surface na potrzeby filmu, seriali, reklam i kampanii marki.",
     "heroAlt": "Bohater filmowy Starlights Visuals",
     "seePortfolio": "Zobacz portfolio",
     "startProject": "Rozpocznij projekt",
@@ -247,7 +247,7 @@
     "label": "Kim jesteśmy",
     "title1": "STUDIO ZBUDOWANE NA",
     "title2": "ŚWIATŁO, KOD I HISTORIA",
-    "p1": "Starlight Visuals to światowej klasy studio animacji tworzące wyjątkowe doświadczenia wizualne w zakresie animacji produktów przemysłowych, animacji gier, wizualizacji produktów oraz animacji postaci 2D i 3D. Łączymy doskonałość artystyczną z najnowocześniejszą technologią, aby przekształcać pomysły w efekty wizualne, które urzekają, edukują i inspirują. Od animacji przemysłowych opartych na inżynierii i fotorealistycznych renderów produktów po stylizowane kreskówki, wyraziste występy postaci i kinowe sekwencje gier – tworzymy animacje, które zapewniają zarówno efekt wizualny, jak i znaczące rezultaty.",
+    "p1": "Starlight Visuals to światowej klasy studio animacji tworzące wyjątkowe doświadczenia wizualne w zakresie animacji produktów przemysłowych, animacji gier, wizualizacji produktów oraz animacji postaci 2D i 3D. Łączymy doskonałość artystyczną z najnowocześniejszą technologią, aby przekształcać pomysły w efekty wizualne, które urzekają, edukują i inspirują. Od animacji przemysłowych opartych na inżynierii i fotorealistycznych renderów produktów po stylizowane kreskówki, wyraziste występy postaci i kinowe sekwencje gier, tworzymy animacje, które zapewniają zarówno efekt wizualny, jak i znaczące rezultaty.",
     "p2": "Niezależnie od tego, czy chodzi o prezentację innowacji produktu, ożywienie uniwersum gry, czy tworzenie zapadających w pamięć animowanych postaci, każda klatka została zaprojektowana z myślą o celu i precyzji. Nasz multidyscyplinarny zespół animatorów, artystów technicznych, modelarzy, riggerów, projektantów ruchu i twórców historii wizualnych płynnie współpracuje, aby stworzyć prace spełniające najwyższe standardy kreatywne i techniczne. Wierzymy, że świetna animacja nie tylko pięknie wygląda, ale przekazuje złożone pomysły, wzmacnia marki i tworzy trwałe więzi emocjonalne.",
     "p3": "Współpracujemy z producentami, firmami produktowymi, twórcami gier, agencjami kreatywnymi i globalnymi markami, aby dostarczać animacje najwyższej jakości na potrzeby marketingu, premier produktów, szkoleń, rozrywki, reklamy i doświadczeń cyfrowych. Podstawą każdego projektu są innowacje, kunszt i bezkompromisowe zaangażowanie w jakość. W Starlight Visuals nie tylko animujemy, ale także projektujemy doświadczenia, budujemy niezapomniane postacie i tworzymy wizualizacje, które popychają ludzi i firmy do przodu.",
     "valuesLabel": "Podstawowe wartości",
@@ -381,7 +381,7 @@
       },
       "character-design-for-ip": {
         "title": "Projekt postaci, który zakotwicza Twoje IP w każdym kanale",
-        "excerpt": "Od czytelności sylwetki po gotowe produkty — lista kontrolna, z której korzystamy, zanim bohater wejdzie do produkcji.",
+        "excerpt": "Od czytelności sylwetki po gotowe produkty, lista kontrolna, z której korzystamy, zanim bohater wejdzie do produkcji.",
         "category": "Rzemiosło",
         "date": "3 maja 2026 r",
         "readTime": "5 minut czytania"
@@ -1397,11 +1397,11 @@
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
-    "metaDescription": "Wszystko, co trzeba wiedzieć o współpracy z nami — od pierwszego briefu po finalne dostarczenie.",
+    "metaTitle": "FAQ | Starlights Visuals",
+    "metaDescription": "Wszystko, co trzeba wiedzieć o współpracy z nami, od pierwszego briefu po finalne dostarczenie.",
     "label": "Najczęściej zadawane pytania",
     "title": "PYTANIA I ODPOWIEDZI",
-    "subtitle": "Wszystko, co trzeba wiedzieć o współpracy z nami — od pierwszego briefu po finalne dostarczenie.",
+    "subtitle": "Wszystko, co trzeba wiedzieć o współpracy z nami, od pierwszego briefu po finalne dostarczenie.",
     "sections": {
       "general": {
         "title": "Ogólne",
@@ -1442,7 +1442,7 @@
         "items": {
           "01": {
             "question": "Jakie są typowe terminy realizacji?",
-            "answer": "Terminy zależą od zakresu — social cutdown może zająć od jednego do dwóch tygodni, a pełna cinematica od czterech do ośmiu tygodni. W każdej ofercie wyznaczamy jasne kamienie milowe."
+            "answer": "Terminy zależą od zakresu, social cutdown może zająć od jednego do dwóch tygodni, a pełna cinematica od czterech do ośmiu tygodni. W każdej ofercie wyznaczamy jasne kamienie milowe."
           },
           "02": {
             "question": "Jak działają poprawki?",
@@ -1450,7 +1450,7 @@
           },
           "03": {
             "question": "W jakich formatach plików dostarczacie materiały?",
-            "answer": "Dostarczamy eksporty gotowe do Twojego pipeline — MP4/MOV dla wideo, sekwencje PNG/EXR tam, gdzie to potrzebne, warstwowe pliki źródłowe na życzenie oraz assety gotowe do silnika dla projektów realtime."
+            "answer": "Dostarczamy eksporty gotowe do Twojego pipeline, MP4/MOV dla wideo, sekwencje PNG/EXR tam, gdzie to potrzebne, warstwowe pliki źródłowe na życzenie oraz assety gotowe do silnika dla projektów realtime."
           }
         }
       }
@@ -1601,7 +1601,7 @@
       "selectClient": "Wybierz klienta…",
       "createNewClient": "+ Utwórz nowego klienta",
       "newClientHeading": "Nowe dane klienta",
-      "noClientsHint": "Nie ma jeszcze klientów w tej kategorii — wybierz „Utwórz nowego klienta”.",
+      "noClientsHint": "Nie ma jeszcze klientów w tej kategorii, wybierz „Utwórz nowego klienta”.",
       "clientRequired": "Wybierz klienta.",
       "newClientRequired": "Wprowadź nazwę nowego klienta.",
       "clientIndustry": "Przemysł",

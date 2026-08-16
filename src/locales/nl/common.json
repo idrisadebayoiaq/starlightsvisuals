@@ -64,10 +64,10 @@
   "home": {
     "metaTitle": "Starlights Visuals | Animatie- en VFX studio",
     "metaDescription": "Een creatieve studio voor 2D- en 3D animatie, VFX en filmische verhalen. Wij brengen werelden, personages en films tot leven.",
-    "heroScript": "Verhalen in beweging —",
+    "heroScript": "Verhalen in beweging,",
     "heroTitle1": "ANIMATIE",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals brengt verhalen tot leven met animatie en visuele effecten die het publiek boeien en elk frame verheffen. We animeren fantasy wezens, menselijke personages, voertuigen, omgevingen, props en hard surface objecten — voor film, series, reclame en merkcampagnes.",
+    "heroBody": "Starlights Visuals brengt verhalen tot leven met animatie en visuele effecten die het publiek boeien en elk frame verheffen. We animeren fantasy wezens, menselijke personages, voertuigen, omgevingen, props en hard surface objecten voor film, series, reclame en merkcampagnes.",
     "heroAlt": "Starlights Visuals filmheld",
     "seePortfolio": "Zie Portefeuille",
     "startProject": "Start een project",
@@ -1397,11 +1397,11 @@
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
-    "metaDescription": "Alles wat je moet weten over samenwerken met ons — van eerste briefing tot finale oplevering.",
+    "metaTitle": "FAQ | Starlights Visuals",
+    "metaDescription": "Alles wat je moet weten over samenwerken met ons, van eerste briefing tot finale oplevering.",
     "label": "Veelgestelde vragen",
     "title": "VRAGEN & ANTWOORDEN",
-    "subtitle": "Alles wat je moet weten over samenwerken met ons — van eerste briefing tot finale oplevering.",
+    "subtitle": "Alles wat je moet weten over samenwerken met ons, van eerste briefing tot finale oplevering.",
     "sections": {
       "general": {
         "title": "Algemeen",
@@ -1442,7 +1442,7 @@
         "items": {
           "01": {
             "question": "Wat zijn gebruikelijke doorlooptijden?",
-            "answer": "De timing hangt af van de scope — een social cutdown kan één tot twee weken duren, terwijl een volledige cinematic vier tot acht weken kan lopen. In elk voorstel nemen we duidelijke mijlpalen op."
+            "answer": "De timing hangt af van de scope, een social cutdown kan één tot twee weken duren, terwijl een volledige cinematic vier tot acht weken kan lopen. In elk voorstel nemen we duidelijke mijlpalen op."
           },
           "02": {
             "question": "Hoe werken revisies?",
@@ -1450,7 +1450,7 @@
           },
           "03": {
             "question": "Welke bestandsformaten leveren jullie op?",
-            "answer": "We leveren formatklare exports voor jullie pipeline — MP4/MOV voor video, PNG/EXR sequenties waar nodig, gelaagde bronbestanden op aanvraag en engine ready assets voor real time projecten."
+            "answer": "We leveren formatklare exports voor jullie pipeline, MP4/MOV voor video, PNG/EXR sequenties waar nodig, gelaagde bronbestanden op aanvraag en engine ready assets voor real time projecten."
           }
         }
       }
@@ -1601,7 +1601,7 @@
       "selectClient": "Selecteer een klant…",
       "createNewClient": "+ Nieuwe klant aanmaken",
       "newClientHeading": "Nieuwe klantgegevens",
-      "noClientsHint": "Nog geen klanten in deze categorie — kies “Nieuwe klant aanmaken”.",
+      "noClientsHint": "Nog geen klanten in deze categorie, kies “Nieuwe klant aanmaken”.",
       "clientRequired": "Selecteer een klant.",
       "newClientRequired": "Voer een naam in voor de nieuwe klant.",
       "clientIndustry": "Industrie",

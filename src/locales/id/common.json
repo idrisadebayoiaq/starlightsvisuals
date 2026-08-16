@@ -64,10 +64,10 @@
   "home": {
     "metaTitle": "Visual Cahaya Bintang | Studio Animasi & VFX",
     "metaDescription": "Studio kreatif untuk animasi 2D dan 3D, VFX, dan penceritaan sinematik. Kami menghidupkan dunia, karakter, dan film.",
-    "heroScript": "Cerita bergerak —",
+    "heroScript": "Cerita bergerak,",
     "heroTitle1": "ANIMASI",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals menghidupkan cerita dengan animasi dan efek visual yang memikat audiens dan mengangkat setiap frame. Kami menganimasikan makhluk fantasi, karakter manusia, kendaraan, lingkungan, properti, dan objek hard surface — untuk film, serial, iklan, dan kampanye merek.",
+    "heroBody": "Starlights Visuals menghidupkan cerita dengan animasi dan efek visual yang memikat audiens dan mengangkat setiap frame. Kami menganimasikan makhluk fantasi, karakter manusia, kendaraan, lingkungan, properti, dan objek hard surface untuk film, serial, iklan, dan kampanye merek.",
     "heroAlt": "Pahlawan sinematik Starlights Visuals",
     "seePortfolio": "Lihat Portofolio",
     "startProject": "Mulai Proyek",
@@ -1397,11 +1397,11 @@
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
-    "metaDescription": "Semua yang perlu Anda ketahui untuk bekerja dengan kami — dari brief awal hingga pengiriman akhir.",
+    "metaTitle": "FAQ | Starlights Visuals",
+    "metaDescription": "Semua yang perlu Anda ketahui untuk bekerja dengan kami, dari brief awal hingga pengiriman akhir.",
     "label": "Pertanyaan umum",
     "title": "PERTANYAAN & JAWABAN",
-    "subtitle": "Semua yang perlu Anda ketahui untuk bekerja dengan kami — dari brief awal hingga pengiriman akhir.",
+    "subtitle": "Semua yang perlu Anda ketahui untuk bekerja dengan kami, dari brief awal hingga pengiriman akhir.",
     "sections": {
       "general": {
         "title": "Umum",
@@ -1442,7 +1442,7 @@
         "items": {
           "01": {
             "question": "Berapa timeline yang umum?",
-            "answer": "Timeline bergantung pada scope — social cutdown bisa memakan waktu satu hingga dua minggu, sedangkan sinematik penuh bisa berlangsung empat hingga delapan minggu. Kami menetapkan milestone yang jelas di setiap proposal."
+            "answer": "Timeline bergantung pada scope, social cutdown bisa memakan waktu satu hingga dua minggu, sedangkan sinematik penuh bisa berlangsung empat hingga delapan minggu. Kami menetapkan milestone yang jelas di setiap proposal."
           },
           "02": {
             "question": "Bagaimana proses revisi?",
@@ -1450,7 +1450,7 @@
           },
           "03": {
             "question": "Format file apa yang Anda kirimkan?",
-            "answer": "Kami mengirim export siap pakai untuk pipeline Anda — MP4/MOV untuk video, urutan PNG/EXR bila diperlukan, source file berlapis atas permintaan, serta asset siap engine untuk proyek real time."
+            "answer": "Kami mengirim export siap pakai untuk pipeline Anda, MP4/MOV untuk video, urutan PNG/EXR bila diperlukan, source file berlapis atas permintaan, serta asset siap engine untuk proyek real time."
           }
         }
       }
@@ -1601,7 +1601,7 @@
       "selectClient": "Pilih klien…",
       "createNewClient": "+ Buat klien baru",
       "newClientHeading": "Detail klien baru",
-      "noClientsHint": "Belum ada klien dalam kategori ini — pilih “Buat klien baru”.",
+      "noClientsHint": "Belum ada klien dalam kategori ini, pilih “Buat klien baru”.",
       "clientRequired": "Silakan pilih klien.",
       "newClientRequired": "Masukkan nama untuk klien baru.",
       "clientIndustry": "Industri",

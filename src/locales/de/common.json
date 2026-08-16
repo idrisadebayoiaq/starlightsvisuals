@@ -64,10 +64,10 @@
   "home": {
     "metaTitle": "Starlights Visuals | Animations- und VFX Studio",
     "metaDescription": "Ein Kreativstudio für 2D- und 3D Animation, VFX und filmisches Storytelling. Wir erwecken Welten, Charaktere und Filme zum Leben.",
-    "heroScript": "Geschichten in Bewegung —",
+    "heroScript": "Geschichten in Bewegung,",
     "heroTitle1": "ANIMATIONEN",
     "heroTitle2": "UND VFX",
-    "heroBody": "Starlights Visuals erweckt Geschichten mit Animation und visuellen Effekten zum Leben, die Publikum fesseln und jeden Frame aufwerten. Wir animieren Fantasy Kreaturen, menschliche Charaktere, Fahrzeuge, Umgebungen, Requisiten und Hard Surface Objekte — für Film, Serien, Werbung und Markenkampagnen.",
+    "heroBody": "Starlights Visuals erweckt Geschichten mit Animation und visuellen Effekten zum Leben, die Publikum fesseln und jeden Frame aufwerten. Wir animieren Fantasy Kreaturen, menschliche Charaktere, Fahrzeuge, Umgebungen, Requisiten und Hard Surface Objekte für Film, Serien, Werbung und Markenkampagnen.",
     "heroAlt": "Filmheld von Starlights Visuals",
     "seePortfolio": "Siehe Portfolio",
     "startProject": "Starten Sie ein Projekt",
@@ -248,7 +248,7 @@
     "title1": "EIN AUFBAUTES STUDIO",
     "title2": "LICHT, CODE & GESCHICHTE",
     "p1": "Starlight Visuals ist ein erstklassiges Animationsstudio, das außergewöhnliche visuelle Erlebnisse in den Bereichen Industrieproduktanimation, Spieleanimation, Produktvisualisierung sowie 2D- und 3D Charakteranimation schafft. Wir kombinieren künstlerische Exzellenz mit modernster Technologie, um Ideen in Bilder umzuwandeln, die fesseln, lehren und inspirieren. Von technisch orientierten Industrieanimationen und fotorealistischen Produktdarstellungen bis hin zu stilisierten Cartoons, ausdrucksstarken Charakterdarbietungen und filmischen Spielsequenzen erstellen wir Animationen, die sowohl visuelle Wirkung als auch aussagekräftige Ergebnisse liefern.",
-    "p2": "Ganz gleich, ob Sie die Innovation eines Produkts präsentieren, ein Spieluniversum zum Leben erwecken oder unvergessliche animierte Charaktere erschaffen möchten – jeder Rahmen ist mit Zweckmäßigkeit und Präzision gestaltet. Unser multidisziplinäres Team aus Animatoren, technischen Künstlern, Modellbauern, Riggern, Motion Designern und visuellen Geschichtenerzählern arbeitet nahtlos zusammen, um Arbeiten zu produzieren, die den höchsten kreativen und technischen Standards entsprechen. Wir glauben, dass großartige Animationen nicht nur schön aussehen, sondern auch komplexe Ideen vermitteln, Marken stärken und dauerhafte emotionale Verbindungen schaffen.",
+    "p2": "Ganz gleich, ob Sie die Innovation eines Produkts präsentieren, ein Spieluniversum zum Leben erwecken oder unvergessliche animierte Charaktere erschaffen möchten, jeder Rahmen ist mit Zweckmäßigkeit und Präzision gestaltet. Unser multidisziplinäres Team aus Animatoren, technischen Künstlern, Modellbauern, Riggern, Motion Designern und visuellen Geschichtenerzählern arbeitet nahtlos zusammen, um Arbeiten zu produzieren, die den höchsten kreativen und technischen Standards entsprechen. Wir glauben, dass großartige Animationen nicht nur schön aussehen, sondern auch komplexe Ideen vermitteln, Marken stärken und dauerhafte emotionale Verbindungen schaffen.",
     "p3": "Wir arbeiten mit Herstellern, Produktunternehmen, Spieleentwicklern, Kreativagenturen und globalen Marken zusammen, um erstklassige Animationen für Marketing, Produkteinführungen, Schulungen, Unterhaltung, Werbung und digitale Erlebnisse bereitzustellen. Hinter jedem Projekt stehen Innovation, handwerkliches Können und ein kompromissloses Bekenntnis zur Qualität. Bei Starlight Visuals animieren wir nicht einfach nur, wir konstruieren Erlebnisse, bauen unvergessliche Charaktere und erstellen Visuals, die Menschen und Unternehmen voranbringen.",
     "valuesLabel": "Grundwerte",
     "valuesTitle": "Was uns antreibt",
@@ -381,7 +381,7 @@
       },
       "character-design-for-ip": {
         "title": "Charakterdesign, das Ihre IP auf allen Kanälen verankert",
-        "excerpt": "Von der Lesbarkeit der Silhouette bis hin zu Merch bereiten Turnarounds – die Checkliste, die wir verwenden, bevor ein Held in Produktion geht.",
+        "excerpt": "Von der Lesbarkeit der Silhouette bis hin zu Merch bereiten Turnarounds, die Checkliste, die wir verwenden, bevor ein Held in Produktion geht.",
         "category": "Handwerk",
         "date": "3. Mai 2026",
         "readTime": "5 Minuten gelesen"
@@ -647,11 +647,11 @@
     "projectsTitle": "Projektbeispiele",
     "relatedProjects": "Verwandte Projekte",
     "closePreview": "Vorschau schließen",
-    "ctaScript": "Bereit, wenn Sie es sind —",
+    "ctaScript": "Bereit, wenn Sie es sind,",
     "ctaTitle": "Starten Sie Ihr Projekt mit uns",
     "ctaDesc": "Erzählen Sie uns von Marke, Zeitplan und Zielen.",
     "ctaButton": "Projekt starten",
-    "portfolioHubDesc": "Entdecken Sie Arbeiten nach Kategorie — Animation, VFX, Motion und mehr.",
+    "portfolioHubDesc": "Entdecken Sie Arbeiten nach Kategorie, Animation, VFX, Motion und mehr.",
     "categories": {
       "2d-animation": {
         "title": "2D Animation",
@@ -1586,11 +1586,11 @@
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
-    "metaDescription": "Alles, was Sie über die Zusammenarbeit mit uns wissen müssen – vom ersten Briefing bis zur finalen Lieferung.",
+    "metaTitle": "FAQ | Starlights Visuals",
+    "metaDescription": "Alles, was Sie über die Zusammenarbeit mit uns wissen müssen, vom ersten Briefing bis zur finalen Lieferung.",
     "label": "Häufige Fragen",
     "title": "FRAGEN & ANTWORTEN",
-    "subtitle": "Alles, was Sie über die Zusammenarbeit mit uns wissen müssen – vom ersten Briefing bis zur finalen Lieferung.",
+    "subtitle": "Alles, was Sie über die Zusammenarbeit mit uns wissen müssen, vom ersten Briefing bis zur finalen Lieferung.",
     "sections": {
       "general": {
         "title": "Allgemein",
@@ -1631,7 +1631,7 @@
         "items": {
           "01": {
             "question": "Wie sehen typische Zeitpläne aus?",
-            "answer": "Zeitpläne hängen vom Umfang ab – ein Social Cutdown kann ein bis zwei Wochen dauern, während eine vollständige Cinematic vier bis acht Wochen laufen kann. In jedem Angebot definieren wir klare Meilensteine."
+            "answer": "Zeitpläne hängen vom Umfang ab, ein Social Cutdown kann ein bis zwei Wochen dauern, während eine vollständige Cinematic vier bis acht Wochen laufen kann. In jedem Angebot definieren wir klare Meilensteine."
           },
           "02": {
             "question": "Wie funktionieren Revisionen?",
@@ -1639,7 +1639,7 @@
           },
           "03": {
             "question": "Welche Dateiformate liefert ihr?",
-            "answer": "Wir liefern formatfertige Exporte für Ihre Pipeline – MP4/MOV für Video, PNG/EXR Sequenzen bei Bedarf, auf Wunsch gelayerte Quelldateien sowie engine fertige Assets für Echtzeitprojekte."
+            "answer": "Wir liefern formatfertige Exporte für Ihre Pipeline, MP4/MOV für Video, PNG/EXR Sequenzen bei Bedarf, auf Wunsch gelayerte Quelldateien sowie engine fertige Assets für Echtzeitprojekte."
           }
         }
       }
@@ -1772,14 +1772,14 @@
       "colActions": "Aktionen",
       "fieldTitle": "Titel",
       "slug": "Slug",
-      "slugHint": "URL Pfad unter /works/ — nach dem Erstellen gesperrt.",
+      "slugHint": "URL Pfad unter /works/, nach dem Erstellen gesperrt.",
       "tagline": "Unterzeile",
       "description": "Beschreibung",
       "showcaseTag": "Showcase Tag",
       "showcaseTagHint": "Kleines Label auf den Startseiten Karten (z. B. 3D, VFX).",
       "coverImage": "Cover / Thumbnail",
       "coverHint": "Empfohlene Größe: {{size}}. Breite {{width}}px × Höhe {{height}}px.",
-      "coverSizeBadge": "Beste Passform: {{size}} — Hochformat 4:5 für Showcase Karten",
+      "coverSizeBadge": "Beste Passform: {{size}}, Hochformat 4:5 für Showcase Karten",
       "uploadButton": "Thumbnail hochladen",
       "uploading": "Hochladen…",
       "sortOrder": "Sortierreihenfolge",
@@ -1827,7 +1827,7 @@
       "selectClient": "Wählen Sie einen Kunden aus…",
       "createNewClient": "+ Neuen Kunden erstellen",
       "newClientHeading": "Neukundendaten",
-      "noClientsHint": "Noch keine Kunden in dieser Kategorie – wählen Sie „Neuen Kunden erstellen“.",
+      "noClientsHint": "Noch keine Kunden in dieser Kategorie, wählen Sie „Neuen Kunden erstellen“.",
       "clientRequired": "Bitte wählen Sie einen Kunden aus.",
       "newClientRequired": "Geben Sie einen Namen für den neuen Client ein.",
       "clientIndustry": "Industrie",

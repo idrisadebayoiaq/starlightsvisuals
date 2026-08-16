@@ -64,10 +64,10 @@
   "home": {
     "metaTitle": "Yıldız Işıkları Görselleri | Animasyon ve VFX Stüdyosu",
     "metaDescription": "2D ve 3D animasyon, VFX ve sinematik hikaye anlatımına yönelik yaratıcı bir stüdyo. Dünyalara, karakterlere ve filmlere hayat veriyoruz.",
-    "heroScript": "Hareket halindeki hikâyeler —",
+    "heroScript": "Hareket halindeki hikâyeler,",
     "heroTitle1": "ANİMASYON",
     "heroTitle2": "VE VFX",
-    "heroBody": "Starlights Visuals, izleyicileri büyüleyen ve her kareyi yükselten animasyon ve görsel efektlerle hikâyelere hayat verir. Fantastik yaratıklar, insan karakterler, araçlar, ortamlar, aksesuarlar ve hard surface nesneleri canlandırıyoruz — film, dizi, reklam ve marka kampanyaları için.",
+    "heroBody": "Starlights Visuals, izleyicileri büyüleyen ve her kareyi yükselten animasyon ve görsel efektlerle hikâyelere hayat verir. Fantastik yaratıklar, insan karakterler, araçlar, ortamlar, aksesuarlar ve hard surface nesneleri canlandırıyoruz film, dizi, reklam ve marka kampanyaları için.",
     "heroAlt": "Starlights Visuals sinematik kahramanı",
     "seePortfolio": "Portföyü Gör",
     "startProject": "Bir Proje Başlatın",
@@ -1397,7 +1397,7 @@
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
+    "metaTitle": "FAQ | Starlights Visuals",
     "metaDescription": "İlk brief'ten nihai teslimata kadar bizimle çalışmak hakkında bilmeniz gereken her şey.",
     "label": "Sıkça sorulan sorular",
     "title": "SORULAR & CEVAPLAR",
@@ -1442,7 +1442,7 @@
         "items": {
           "01": {
             "question": "Tipik zaman çizelgeleri nasıl oluyor?",
-            "answer": "Süreler kapsama göre değişir — sosyal medya için kısa bir versiyon bir ila iki hafta sürebilirken, tam bir sinematik dört ila sekiz hafta sürebilir. Her teklifte net kilometre taşları belirliyoruz."
+            "answer": "Süreler kapsama göre değişir, sosyal medya için kısa bir versiyon bir ila iki hafta sürebilirken, tam bir sinematik dört ila sekiz hafta sürebilir. Her teklifte net kilometre taşları belirliyoruz."
           },
           "02": {
             "question": "Revizyon süreci nasıl işliyor?",
@@ -1450,7 +1450,7 @@
           },
           "03": {
             "question": "Hangi dosya formatlarında teslim ediyorsunuz?",
-            "answer": "Pipeline'ınıza uygun formatlarda teslim ediyoruz — video için MP4/MOV, gerektiğinde PNG/EXR sekansları, talep üzerine katmanlı kaynak dosyalar ve gerçek zamanlı projeler için engine ready asset'ler."
+            "answer": "Pipeline'ınıza uygun formatlarda teslim ediyoruz, video için MP4/MOV, gerektiğinde PNG/EXR sekansları, talep üzerine katmanlı kaynak dosyalar ve gerçek zamanlı projeler için engine ready asset'ler."
           }
         }
       }
@@ -1601,7 +1601,7 @@
       "selectClient": "Bir müşteri seçin…",
       "createNewClient": "+ Yeni müşteri oluştur",
       "newClientHeading": "Yeni müşteri ayrıntıları",
-      "noClientsHint": "Bu kategoride henüz müşteri yok — \"Yeni müşteri oluştur\"u seçin.",
+      "noClientsHint": "Bu kategoride henüz müşteri yok, \"Yeni müşteri oluştur\"u seçin.",
       "clientRequired": "Lütfen bir müşteri seçin.",
       "newClientRequired": "Yeni istemci için bir ad girin.",
       "clientIndustry": "Endüstri",

@@ -64,10 +64,10 @@
   "home": {
     "metaTitle": "Visuais das luzes das estrelas | Estúdio de animação e efeitos visuais",
     "metaDescription": "Um estúdio criativo para animação 2D e 3D, efeitos visuais e narrativa cinematográfica. Damos vida a mundos, personagens e filmes.",
-    "heroScript": "Histórias em movimento —",
+    "heroScript": "Histórias em movimento,",
     "heroTitle1": "ANIMAÇÃO",
     "heroTitle2": "e efeitos visuais",
-    "heroBody": "A Starlights Visuals dá vida a histórias com animação e efeitos visuais que cativam o público e elevam cada frame. Animamos criaturas fantásticas, personagens humanos, veículos, ambientes, adereços e objetos hard surface — para cinema, séries, publicidade e campanhas de marca.",
+    "heroBody": "A Starlights Visuals dá vida a histórias com animação e efeitos visuais que cativam o público e elevam cada frame. Animamos criaturas fantásticas, personagens humanos, veículos, ambientes, adereços e objetos hard surface para cinema, séries, publicidade e campanhas de marca.",
     "heroAlt": "Herói cinematográfico Starlights Visuals",
     "seePortfolio": "Ver portfólio",
     "startProject": "Iniciar um projeto",
@@ -1397,11 +1397,11 @@
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
-    "metaDescription": "Tudo o que você precisa saber para trabalhar conosco — do briefing inicial à entrega final.",
+    "metaTitle": "FAQ | Starlights Visuals",
+    "metaDescription": "Tudo o que você precisa saber para trabalhar conosco, do briefing inicial à entrega final.",
     "label": "Perguntas frequentes",
     "title": "PERGUNTAS E RESPOSTAS",
-    "subtitle": "Tudo o que você precisa saber para trabalhar conosco — do briefing inicial à entrega final.",
+    "subtitle": "Tudo o que você precisa saber para trabalhar conosco, do briefing inicial à entrega final.",
     "sections": {
       "general": {
         "title": "Geral",
@@ -1442,7 +1442,7 @@
         "items": {
           "01": {
             "question": "Quais são os prazos típicos?",
-            "answer": "Os prazos dependem do escopo — um corte para redes sociais pode levar de uma a duas semanas, enquanto uma cinemática completa pode levar de quatro a oito semanas. Definimos marcos claros em toda proposta."
+            "answer": "Os prazos dependem do escopo, um corte para redes sociais pode levar de uma a duas semanas, enquanto uma cinemática completa pode levar de quatro a oito semanas. Definimos marcos claros em toda proposta."
           },
           "02": {
             "question": "Como funcionam as revisões?",
@@ -1450,7 +1450,7 @@
           },
           "03": {
             "question": "Quais formatos de arquivo vocês entregam?",
-            "answer": "Entregamos exportações prontas para o seu pipeline — MP4/MOV para vídeo, sequências PNG/EXR quando necessário, arquivos fonte em camadas sob solicitação e assets prontos para engine em projetos em tempo real."
+            "answer": "Entregamos exportações prontas para o seu pipeline, MP4/MOV para vídeo, sequências PNG/EXR quando necessário, arquivos fonte em camadas sob solicitação e assets prontos para engine em projetos em tempo real."
           }
         }
       }
@@ -1601,7 +1601,7 @@
       "selectClient": "Selecione um cliente…",
       "createNewClient": "+ Criar novo cliente",
       "newClientHeading": "Detalhes do novo cliente",
-      "noClientsHint": "Ainda não há clientes nesta categoria — escolha “Criar novo cliente”.",
+      "noClientsHint": "Ainda não há clientes nesta categoria, escolha “Criar novo cliente”.",
       "clientRequired": "Selecione um cliente.",
       "newClientRequired": "Insira um nome para o novo cliente.",
       "clientIndustry": "Indústria",

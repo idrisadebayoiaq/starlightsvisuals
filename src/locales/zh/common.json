@@ -64,7 +64,7 @@
   "home": {
     "metaTitle": "星光视觉 |动画和视觉特效工作室",
     "metaDescription": "一家致力于 2D 和 3D 动画、视觉特效和电影叙事的创意工作室。我们将世界、人物和电影带入生活。",
-    "heroScript": "故事在动 —",
+    "heroScript": "故事在动，",
     "heroTitle1": "动画",
     "heroTitle2": "& 视觉特效",
     "heroBody": "Starlights Visuals 用动画与视觉特效让故事鲜活起来，吸引观众并提升每一帧。我们为电影、剧集、广告与品牌活动制作奇幻生物、人物、载具、环境、道具与硬表面物体的动画。",
@@ -1397,7 +1397,7 @@
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
+    "metaTitle": "FAQ | Starlights Visuals",
     "metaDescription": "从首次需求简报到最终交付，这里汇总了与我们合作所需了解的一切。",
     "label": "常见问题",
     "title": "问题与解答",
@@ -1442,7 +1442,7 @@
         "items": {
           "01": {
             "question": "常见项目周期是多久？",
-            "answer": "周期取决于项目范围——社媒短剪通常需要 1 到 2 周，完整电影化内容通常需要 4 到 8 周。我们会在每份提案中明确里程碑。"
+            "answer": "周期取决于项目范围，社媒短剪通常需要 1 到 2 周，完整电影化内容通常需要 4 到 8 周。我们会在每份提案中明确里程碑。"
           },
           "02": {
             "question": "修改流程如何进行？",

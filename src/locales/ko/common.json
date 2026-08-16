@@ -64,10 +64,10 @@
   "home": {
     "metaTitle": "별빛 비주얼 | 애니메이션 및 VFX 스튜디오",
     "metaDescription": "2D 및 3D 애니메이션, VFX, 영화 스토리텔링을 위한 크리에이티브 스튜디오입니다. 우리는 세계, 캐릭터, 영화에 생명을 불어넣습니다.",
-    "heroScript": "움직이는 이야기 —",
+    "heroScript": "움직이는 이야기,",
     "heroTitle1": "애니메이션",
     "heroTitle2": "& 시각 효과",
-    "heroBody": "Starlights Visuals는 애니메이션과 시각 효과로 이야기에 생명을 불어넣어 관객을 사로잡고 모든 프레임을 한층 끌어올립니다. 판타지 생물, 인간 캐릭터, 차량, 환경, 소품, 하드 서페이스 오브젝트를 애니메이션화합니다 — 영화, 시리즈, 광고, 브랜드 캠페인을 위해.",
+    "heroBody": "Starlights Visuals는 애니메이션과 시각 효과로 이야기에 생명을 불어넣어 관객을 사로잡고 모든 프레임을 한층 끌어올립니다. 판타지 생물, 인간 캐릭터, 차량, 환경, 소품, 하드 서페이스 오브젝트를 애니메이션화합니다 영화, 시리즈, 광고, 브랜드 캠페인을 위해.",
     "heroAlt": "Starlights Visuals 영화 영웅",
     "seePortfolio": "포트폴리오 보기",
     "startProject": "프로젝트 시작",
@@ -1397,7 +1397,7 @@
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
+    "metaTitle": "FAQ | Starlights Visuals",
     "metaDescription": "첫 브리프부터 최종 납품까지, 저희와 협업할 때 알아야 할 모든 내용을 안내합니다.",
     "label": "FAQ",
     "title": "질문과 답변",

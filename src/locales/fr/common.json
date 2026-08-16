@@ -64,10 +64,10 @@
   "home": {
     "metaTitle": "Visuels Starlights | Studio d'animation et d'effets visuels",
     "metaDescription": "Un studio de création pour l'animation 2D et 3D, les VFX et la narration cinématographique. Nous donnons vie à des mondes, des personnages et des films.",
-    "heroScript": "Des histoires en mouvement —",
+    "heroScript": "Des histoires en mouvement,",
     "heroTitle1": "ANIMATION",
     "heroTitle2": "& effets visuels",
-    "heroBody": "Starlights Visuals donne vie aux histoires grâce à l'animation et aux effets visuels qui captivent le public et subliment chaque image. Nous animons créatures fantastiques, personnages humains, véhicules, environnements, accessoires et objets hard surface — pour le cinéma, la série, la publicité et les campagnes de marque.",
+    "heroBody": "Starlights Visuals donne vie aux histoires grâce à l'animation et aux effets visuels qui captivent le public et subliment chaque image. Nous animons créatures fantastiques, personnages humains, véhicules, environnements, accessoires et objets hard surface pour le cinéma, la série, la publicité et les campagnes de marque.",
     "heroAlt": "Héros cinématographique de Starlights Visuals",
     "seePortfolio": "Voir le portefeuille",
     "startProject": "Démarrer un projet",
@@ -458,11 +458,11 @@
     "projectsTitle": "Exemples de projets",
     "relatedProjects": "Projets associés",
     "closePreview": "Fermer l'aperçu",
-    "ctaScript": "Prêt quand vous l'êtes —",
+    "ctaScript": "Prêt quand vous l'êtes,",
     "ctaTitle": "Lancez votre projet avec nous",
     "ctaDesc": "Parlez nous de votre marque, de vos délais et de vos objectifs.",
     "ctaButton": "Démarrer un projet",
-    "portfolioHubDesc": "Explorez nos travaux par catégorie — animation, VFX, motion et plus.",
+    "portfolioHubDesc": "Explorez nos travaux par catégorie, animation, VFX, motion et plus.",
     "categories": {
       "2d-animation": {
         "title": "Animations 2D",
@@ -1397,11 +1397,11 @@
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
-    "metaDescription": "Tout ce qu'il faut savoir pour travailler avec nous — du premier brief à la livraison finale.",
+    "metaTitle": "FAQ | Starlights Visuals",
+    "metaDescription": "Tout ce qu'il faut savoir pour travailler avec nous, du premier brief à la livraison finale.",
     "label": "Foire aux questions",
     "title": "QUESTIONS & RÉPONSES",
-    "subtitle": "Tout ce qu'il faut savoir pour travailler avec nous — du premier brief à la livraison finale.",
+    "subtitle": "Tout ce qu'il faut savoir pour travailler avec nous, du premier brief à la livraison finale.",
     "sections": {
       "general": {
         "title": "Général",
@@ -1442,7 +1442,7 @@
         "items": {
           "01": {
             "question": "Quels sont les délais habituels ?",
-            "answer": "Les délais dépendent du périmètre — un cutdown social peut prendre une à deux semaines, tandis qu'une cinématique complète peut durer de quatre à huit semaines. Nous définissons des jalons clairs dans chaque proposition."
+            "answer": "Les délais dépendent du périmètre, un cutdown social peut prendre une à deux semaines, tandis qu'une cinématique complète peut durer de quatre à huit semaines. Nous définissons des jalons clairs dans chaque proposition."
           },
           "02": {
             "question": "Comment fonctionnent les révisions ?",
@@ -1450,7 +1450,7 @@
           },
           "03": {
             "question": "Quels formats de fichiers livrez vous ?",
-            "answer": "Nous livrons des exports adaptés à votre pipeline — MP4/MOV pour la vidéo, séquences PNG/EXR si nécessaire, fichiers source en calques sur demande, et assets prêts moteur pour les projets temps réel."
+            "answer": "Nous livrons des exports adaptés à votre pipeline, MP4/MOV pour la vidéo, séquences PNG/EXR si nécessaire, fichiers source en calques sur demande, et assets prêts moteur pour les projets temps réel."
           }
         }
       }
@@ -1601,7 +1601,7 @@
       "selectClient": "Sélectionnez un client…",
       "createNewClient": "+ Créer un nouveau client",
       "newClientHeading": "Détails du nouveau client",
-      "noClientsHint": "Aucun client dans cette catégorie pour l'instant — choisissez « Créer un nouveau client ».",
+      "noClientsHint": "Aucun client dans cette catégorie pour l'instant, choisissez « Créer un nouveau client ».",
       "clientRequired": "Veuillez sélectionner un client.",
       "newClientRequired": "Entrez un nom pour le nouveau client.",
       "clientIndustry": "Industrie",

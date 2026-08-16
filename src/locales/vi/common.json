@@ -64,10 +64,10 @@
   "home": {
     "metaTitle": "Hình ảnh ánh sao | Xưởng hoạt hình & VFX",
     "metaDescription": "Một studio sáng tạo dành cho hoạt hình 2D và 3D, VFX và kể chuyện điện ảnh. Chúng tôi mang thế giới, nhân vật và phim vào cuộc sống.",
-    "heroScript": "Câu chuyện trong chuyển động —",
+    "heroScript": "Câu chuyện trong chuyển động,",
     "heroTitle1": "HOẠT HÌNH",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals thổi sức sống vào câu chuyện bằng hoạt hình và hiệu ứng hình ảnh thu hút khán giả và nâng tầm từng khung hình. Chúng tôi tạo hoạt hình cho sinh vật fantasy, nhân vật con người, phương tiện, môi trường, đạo cụ và vật thể hard surface — cho phim, series, quảng cáo và chiến dịch thương hiệu.",
+    "heroBody": "Starlights Visuals thổi sức sống vào câu chuyện bằng hoạt hình và hiệu ứng hình ảnh thu hút khán giả và nâng tầm từng khung hình. Chúng tôi tạo hoạt hình cho sinh vật fantasy, nhân vật con người, phương tiện, môi trường, đạo cụ và vật thể hard surface cho phim, series, quảng cáo và chiến dịch thương hiệu.",
     "heroAlt": "Anh hùng điện ảnh Starlights Visuals",
     "seePortfolio": "Xem danh mục đầu tư",
     "startProject": "Bắt đầu một dự án",
@@ -1397,11 +1397,11 @@
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
-    "metaDescription": "Mọi điều bạn cần biết khi làm việc với chúng tôi — từ brief ban đầu đến bàn giao cuối cùng.",
+    "metaTitle": "FAQ | Starlights Visuals",
+    "metaDescription": "Mọi điều bạn cần biết khi làm việc với chúng tôi, từ brief ban đầu đến bàn giao cuối cùng.",
     "label": "FAQ",
     "title": "CÂU HỎI & TRẢ LỜI",
-    "subtitle": "Mọi điều bạn cần biết khi làm việc với chúng tôi — từ brief ban đầu đến bàn giao cuối cùng.",
+    "subtitle": "Mọi điều bạn cần biết khi làm việc với chúng tôi, từ brief ban đầu đến bàn giao cuối cùng.",
     "sections": {
       "general": {
         "title": "Tổng quan",
@@ -1442,7 +1442,7 @@
         "items": {
           "01": {
             "question": "Thời gian thực hiện thường là bao lâu?",
-            "answer": "Timeline phụ thuộc vào phạm vi — một social cutdown có thể mất 1 2 tuần, còn một cinematic đầy đủ có thể kéo dài 4 8 tuần. Chúng tôi luôn nêu rõ milestone trong mọi proposal."
+            "answer": "Timeline phụ thuộc vào phạm vi, một social cutdown có thể mất 1 2 tuần, còn một cinematic đầy đủ có thể kéo dài 4 8 tuần. Chúng tôi luôn nêu rõ milestone trong mọi proposal."
           },
           "02": {
             "question": "Quy trình chỉnh sửa diễn ra như thế nào?",
@@ -1450,7 +1450,7 @@
           },
           "03": {
             "question": "Bạn bàn giao những định dạng tệp nào?",
-            "answer": "Chúng tôi bàn giao bản export sẵn sàng cho pipeline của bạn — MP4/MOV cho video, chuỗi PNG/EXR khi cần, source file theo lớp nếu yêu cầu và asset sẵn sàng cho engine ở các dự án thời gian thực."
+            "answer": "Chúng tôi bàn giao bản export sẵn sàng cho pipeline của bạn, MP4/MOV cho video, chuỗi PNG/EXR khi cần, source file theo lớp nếu yêu cầu và asset sẵn sàng cho engine ở các dự án thời gian thực."
           }
         }
       }

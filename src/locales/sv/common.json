@@ -64,10 +64,10 @@
   "home": {
     "metaTitle": "Starlights Visuals | Animation & VFX Studio",
     "metaDescription": "En kreativ studio för 2D- och 3D animation, VFX och filmiskt berättande. Vi väcker världar, karaktärer och filmer till liv.",
-    "heroScript": "Berättelser i rörelse —",
+    "heroScript": "Berättelser i rörelse,",
     "heroTitle1": "ANIMATION",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals väcker berättelser till liv med animation och visuella effekter som fängslar publiken och lyfter varje bildruta. Vi animerar fantasy varelser, mänskliga karaktärer, fordon, miljöer, rekvisita och hard surface objekt — för film, serier, reklam och varumärkeskampanjer.",
+    "heroBody": "Starlights Visuals väcker berättelser till liv med animation och visuella effekter som fängslar publiken och lyfter varje bildruta. Vi animerar fantasy varelser, mänskliga karaktärer, fordon, miljöer, rekvisita och hard surface objekt för film, serier, reklam och varumärkeskampanjer.",
     "heroAlt": "Starlights Visuals filmhjälte",
     "seePortfolio": "Se Portfölj",
     "startProject": "Starta ett projekt",
@@ -1397,11 +1397,11 @@
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
-    "metaDescription": "Allt du behöver veta om att arbeta med oss — från första brief till slutleverans.",
+    "metaTitle": "FAQ | Starlights Visuals",
+    "metaDescription": "Allt du behöver veta om att arbeta med oss, från första brief till slutleverans.",
     "label": "Vanliga frågor",
     "title": "FRÅGOR & SVAR",
-    "subtitle": "Allt du behöver veta om att arbeta med oss — från första brief till slutleverans.",
+    "subtitle": "Allt du behöver veta om att arbeta med oss, från första brief till slutleverans.",
     "sections": {
       "general": {
         "title": "Allmänt",
@@ -1442,7 +1442,7 @@
         "items": {
           "01": {
             "question": "Vilka tidsramar är typiska?",
-            "answer": "Tidsramar beror på omfattning — en social cutdown kan ta en till två veckor, medan en full cinematic kan ta fyra till åtta veckor. Vi sätter tydliga milstolpar i varje förslag."
+            "answer": "Tidsramar beror på omfattning, en social cutdown kan ta en till två veckor, medan en full cinematic kan ta fyra till åtta veckor. Vi sätter tydliga milstolpar i varje förslag."
           },
           "02": {
             "question": "Hur fungerar revisioner?",
@@ -1450,7 +1450,7 @@
           },
           "03": {
             "question": "Vilka filformat levererar ni?",
-            "answer": "Vi levererar formatklara exporter för er pipeline — MP4/MOV för video, PNG/EXR sekvenser vid behov, lagerbaserade källfiler på begäran och engine ready assets för realtidsprojekt."
+            "answer": "Vi levererar formatklara exporter för er pipeline, MP4/MOV för video, PNG/EXR sekvenser vid behov, lagerbaserade källfiler på begäran och engine ready assets för realtidsprojekt."
           }
         }
       }

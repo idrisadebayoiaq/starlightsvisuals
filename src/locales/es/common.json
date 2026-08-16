@@ -64,10 +64,10 @@
   "home": {
     "metaTitle": "Imágenes visuales de luces de estrellas | Estudio de animación y efectos visuales",
     "metaDescription": "Un estudio creativo para animación 2D y 3D, VFX y narración cinematográfica. Damos vida a mundos, personajes y películas.",
-    "heroScript": "Historias en movimiento —",
+    "heroScript": "Historias en movimiento,",
     "heroTitle1": "ANIMACIÓN",
     "heroTitle2": "Y VFX",
-    "heroBody": "Starlights Visuals da vida a las historias con animación y efectos visuales que cautivan al público y elevan cada fotograma. Animamos criaturas fantásticas, personajes humanos, vehículos, entornos, utilería y objetos de superficie dura — para cine, series, publicidad y campañas de marca.",
+    "heroBody": "Starlights Visuals da vida a las historias con animación y efectos visuales que cautivan al público y elevan cada fotograma. Animamos criaturas fantásticas, personajes humanos, vehículos, entornos, utilería y objetos de superficie dura para cine, series, publicidad y campañas de marca.",
     "heroAlt": "Héroe cinematográfico de Starlights Visuals",
     "seePortfolio": "Ver Portafolio",
     "startProject": "Iniciar un proyecto",
@@ -458,11 +458,11 @@
     "projectsTitle": "Muestras de proyectos",
     "relatedProjects": "Proyectos relacionados",
     "closePreview": "Cerrar vista previa",
-    "ctaScript": "Listos cuando tú lo estés —",
+    "ctaScript": "Listos cuando tú lo estés,",
     "ctaTitle": "Inicia tu proyecto con nosotros",
     "ctaDesc": "Cuéntanos tu marca, plazos y objetivos.",
     "ctaButton": "Iniciar un proyecto",
-    "portfolioHubDesc": "Explora el trabajo por categoría — animación, VFX, motion y más.",
+    "portfolioHubDesc": "Explora el trabajo por categoría, animación, VFX, motion y más.",
     "categories": {
       "2d-animation": {
         "title": "Animación 2D",
@@ -1397,7 +1397,7 @@
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
+    "metaTitle": "FAQ | Starlights Visuals",
     "metaDescription": "Todo lo que necesitas saber para trabajar con nosotros, desde el primer brief hasta la entrega final.",
     "label": "Preguntas frecuentes",
     "title": "PREGUNTAS Y RESPUESTAS",

@@ -64,10 +64,10 @@
   "home": {
     "metaTitle": "Starlights Visuals | Animaatio & VFX Studio",
     "metaDescription": "Luova studio 2D- ja 3D animaatioille, VFX:lle ja elokuvamaiselle tarinankerronnalle. Elävöimme maailmoja, hahmoja ja elokuvia.",
-    "heroScript": "Tarinoita liikkeessä —",
+    "heroScript": "Tarinoita liikkeessä,",
     "heroTitle1": "ANIMAATIO",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals herättää tarinat eloon animaatiolla ja visuaalisilla efeteillä, jotka vangitsevat yleisön ja nostavat jokaisen ruudun tasoa. Animoimme fantasiaolentoja, ihmishahmoja, ajoneuvoja, ympäristöjä, rekvisiittaa ja hard surface objekteja — elokuviin, sarjoihin, mainontaan ja brändikampanjoihin.",
+    "heroBody": "Starlights Visuals herättää tarinat eloon animaatiolla ja visuaalisilla efeteillä, jotka vangitsevat yleisön ja nostavat jokaisen ruudun tasoa. Animoimme fantasiaolentoja, ihmishahmoja, ajoneuvoja, ympäristöjä, rekvisiittaa ja hard surface objekteja elokuviin, sarjoihin, mainontaan ja brändikampanjoihin.",
     "heroAlt": "Starlights Visualsin elokuvallinen sankari",
     "seePortfolio": "Katso Portfolio",
     "startProject": "Aloita projekti",
@@ -381,7 +381,7 @@
       },
       "character-design-for-ip": {
         "title": "Hahmosuunnittelu, joka kiinnittää IP osoitteesi jokaiseen kanavaan",
-        "excerpt": "Siluetin luettavuudesta kauppatavaravalmiisiin käännöksiin – tarkistuslista, jota käytämme ennen kuin sankari siirtyy tuotantoon.",
+        "excerpt": "Siluetin luettavuudesta kauppatavaravalmiisiin käännöksiin, tarkistuslista, jota käytämme ennen kuin sankari siirtyy tuotantoon.",
         "category": "Käsityö",
         "date": "3. toukokuuta 2026",
         "readTime": "5 min lukeminen"
@@ -1397,11 +1397,11 @@
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
-    "metaDescription": "Kaikki mitä tarvitset tietää yhteistyöstä kanssamme — ensimmäisestä briefistä lopulliseen toimitukseen.",
+    "metaTitle": "FAQ | Starlights Visuals",
+    "metaDescription": "Kaikki mitä tarvitset tietää yhteistyöstä kanssamme, ensimmäisestä briefistä lopulliseen toimitukseen.",
     "label": "Usein kysytyt kysymykset",
     "title": "KYSYMYKSET & VASTAUKSET",
-    "subtitle": "Kaikki mitä tarvitset tietää yhteistyöstä kanssamme — ensimmäisestä briefistä lopulliseen toimitukseen.",
+    "subtitle": "Kaikki mitä tarvitset tietää yhteistyöstä kanssamme, ensimmäisestä briefistä lopulliseen toimitukseen.",
     "sections": {
       "general": {
         "title": "Yleistä",
@@ -1442,7 +1442,7 @@
         "items": {
           "01": {
             "question": "Mitkä ovat tyypilliset aikataulut?",
-            "answer": "Aikataulut riippuvat scopesta — some cutdown voi kestää yhdestä kahteen viikkoa, kun taas täysi cinematic voi kestää neljästä kahdeksaan viikkoa. Määrittelemme selkeät milestonet jokaisessa ehdotuksessa."
+            "answer": "Aikataulut riippuvat scopesta, some cutdown voi kestää yhdestä kahteen viikkoa, kun taas täysi cinematic voi kestää neljästä kahdeksaan viikkoa. Määrittelemme selkeät milestonet jokaisessa ehdotuksessa."
           },
           "02": {
             "question": "Miten revisiot toimivat?",
@@ -1450,7 +1450,7 @@
           },
           "03": {
             "question": "Missä tiedostomuodoissa toimitatte materiaalit?",
-            "answer": "Toimitamme pipelineesi valmiit exportit — MP4/MOV videolle, tarvittaessa PNG/EXR sekvenssit, pyynnöstä kerrokselliset lähdetiedostot sekä engine ready assetit reaaliaikaisiin projekteihin."
+            "answer": "Toimitamme pipelineesi valmiit exportit, MP4/MOV videolle, tarvittaessa PNG/EXR sekvenssit, pyynnöstä kerrokselliset lähdetiedostot sekä engine ready assetit reaaliaikaisiin projekteihin."
           }
         }
       }
@@ -1601,7 +1601,7 @@
       "selectClient": "Valitse asiakas…",
       "createNewClient": "+ Luo uusi asiakas",
       "newClientHeading": "Uudet asiakastiedot",
-      "noClientsHint": "Tässä luokassa ei vielä asiakkaita – valitse \"Luo uusi asiakas\".",
+      "noClientsHint": "Tässä luokassa ei vielä asiakkaita, valitse \"Luo uusi asiakas\".",
       "clientRequired": "Valitse asiakas.",
       "newClientRequired": "Anna uudelle asiakkaalle nimi.",
       "clientIndustry": "Teollisuus",
