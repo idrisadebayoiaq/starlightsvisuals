@@ -100,8 +100,8 @@ function ImprintPage() {
               {CONTACT_IDS.map((id) => {
                 const value = t(`imprintPage.sections.contact.items.${id}.value`);
                 return (
-                  <div key={id} className="sm:flex sm:items-baseline sm:gap-6">
-                    <dt className="font-display text-xs uppercase tracking-[0.2em] text-neon-green sm:w-32 sm:shrink-0">
+                  <div key={id} className="sm:flex sm:items-baseline sm:gap-8">
+                    <dt className="font-display text-xs uppercase tracking-[0.2em] text-neon-green sm:w-52 sm:shrink-0">
                       {t(`imprintPage.sections.contact.items.${id}.label`)}
                     </dt>
                     <dd className="mt-2 text-base sm:mt-0">
