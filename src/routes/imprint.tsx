@@ -86,7 +86,7 @@ function ImprintPage() {
               ))}
             </dl>
 
-            <p className="mt-8 border-t border-border/40 pt-6 text-base leading-7 text-muted-foreground">
+            <p className="mt-8 border-t border-border/40 pt-6 text-base font-semibold leading-7 text-foreground">
               {t("imprintPage.sections.operator.remote")}
             </p>
           </section>

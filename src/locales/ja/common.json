@@ -1822,7 +1822,7 @@
             "lines": "6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States"
           },
           "be": {
-            "label": "ヨーロッパの通信アドレス (Wise 経由)",
+            "label": "ヨーロッパの連絡先住所",
             "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
           },
           "uk": {
@@ -1836,11 +1836,11 @@
         "title": "お問い合わせ",
         "items": {
           "phone": {
-            "label": "電話",
+            "label": "電話/WhatsApp",
             "value": "+1 (317) 339-6029"
           },
           "whatsapp": {
-            "label": "WhatsApp",
+            "label": "WhatsApp（メイン）",
             "value": "+44 7348 550667"
           },
           "email": {

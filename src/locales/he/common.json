@@ -1822,7 +1822,7 @@
             "lines": "6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States"
           },
           "be": {
-            "label": "כתובת התכתבות אירופית (דרך ווייז)",
+            "label": "כתובת אירופית להתכתבות",
             "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
           },
           "uk": {
@@ -1836,11 +1836,11 @@
         "title": "צור קשר",
         "items": {
           "phone": {
-            "label": "טֵלֵפוֹן",
+            "label": "טלפון/WhatsApp",
             "value": "+1 (317) 339-6029"
           },
           "whatsapp": {
-            "label": "WhatsApp",
+            "label": "WhatsApp (ראשי)",
             "value": "+44 7348 550667"
           },
           "email": {

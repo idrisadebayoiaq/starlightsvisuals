@@ -1822,7 +1822,7 @@
             "lines": "6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States"
           },
           "be": {
-            "label": "Europejski adres korespondencyjny (za pośrednictwem Wise)",
+            "label": "Europejski adres korespondencyjny",
             "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
           },
           "uk": {
@@ -1836,11 +1836,11 @@
         "title": "Kontakt",
         "items": {
           "phone": {
-            "label": "Telefon",
+            "label": "Telefon/WhatsApp",
             "value": "+1 (317) 339-6029"
           },
           "whatsapp": {
-            "label": "WhatsApp",
+            "label": "WhatsApp (główny)",
             "value": "+44 7348 550667"
           },
           "email": {
