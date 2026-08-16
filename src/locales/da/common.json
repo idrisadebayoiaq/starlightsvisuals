@@ -1805,18 +1805,18 @@
   },
   "imprintPage": {
     "metaTitle": "Aftryk | LOVBESKYTTET0",
-    "metaDescription": "Forretnings- og kontaktoplysninger for operatøren af ​​Starlights Visuals-webstedet.",
+    "metaDescription": "Operatør, grundlægger, kontoradresser, kontaktoplysninger og juridiske oplysninger for Starlights Visuals.",
     "label": "Juridisk meddelelse",
     "title": "AFTRYK",
-    "subtitle": "Forretnings- og kontaktoplysninger til denne hjemmeside.",
+    "subtitle": "Operatør, ledelse, adresser, kontaktoplysninger og juridisk information for denne hjemmeside.",
     "sections": {
       "operator": {
-        "title": "Hjemmesideoperatør",
-        "body": "Starlights Visuals\nKreativ animation og VFX-studie\nUSA\nFjerntliggende første studie, der betjener kunder internationalt"
+        "title": "Operatør- og virksomhedsadresser",
+        "body": "Starlights Visuals\nKreativ animation og VFX-studie\nGrundlægger og administrerende direktør: Boluwaji Ominiran\n\nPrimært fysisk kontor:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUSA\n\nEuropæisk korrespondanceadresse (via Wise):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nForretningsadresse i Storbritannien:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nStorbritannien\n\nVi opererer eksternt og arbejder med kunder i alle lande."
       },
       "contact": {
         "title": "Kontakte",
-        "body": "E-mail: info@starlightvisualstudio.de\nFor projektforespørgsler, juridiske meddelelser eller anmodninger om beskyttelse af personlige oplysninger, bedes du kontakte os via e-mail."
+        "body": "Telefon: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nE-mail: info@starlightvisualstudio.de\n\nFor projektforespørgsler, juridiske meddelelser eller anmodninger om beskyttelse af personlige oplysninger, kontakt os ved at bruge oplysningerne ovenfor."
       },
       "responsibility": {
         "title": "Ansvar for indhold",
@@ -1829,6 +1829,12 @@
       "copyright": {
         "title": "Copyright",
         "body": "Medmindre andet er angivet, ejes teksten, designet, animationen, kunstværket, videoen og andet originalt indhold på denne hjemmeside af Starlights Visuals eller bruges med tilladelse. Reproduktion, distribution eller kommerciel brug kræver forudgående skriftlig tilladelse, medmindre gældende lovgivning tillader andet."
+      },
+      "privacy": {
+        "title": "Privatliv og databeskyttelse",
+        "body": "Oplysninger om, hvordan vi indsamler, bruger, beskytter og overfører personlige data, er tilgængelig i vores privatlivspolitik og supplerende EU GDPR-meddelelse.",
+        "privacyLink": "Se privatlivspolitik",
+        "gdprLink": "Se EU GDPR-meddelelse"
       }
     }
   }

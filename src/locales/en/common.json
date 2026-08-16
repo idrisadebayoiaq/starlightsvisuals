@@ -1584,18 +1584,18 @@
   },
   "imprintPage": {
     "metaTitle": "Imprint | Starlights Visuals",
-    "metaDescription": "Business and contact information for the operator of the Starlights Visuals website.",
+    "metaDescription": "Operator, founder, office addresses, contact details, and legal information for Starlights Visuals.",
     "label": "Legal notice",
     "title": "IMPRINT",
-    "subtitle": "Business and contact information for this website.",
+    "subtitle": "Operator, management, addresses, contact details, and legal information for this website.",
     "sections": {
       "operator": {
-        "title": "Website operator",
-        "body": "Starlights Visuals\nCreative animation and VFX studio\nUnited States\nRemote first studio serving clients internationally"
+        "title": "Operator and business addresses",
+        "body": "Starlights Visuals\nCreative animation and VFX studio\nFounder & Managing Director: Boluwaji Ominiran\n\nPrimary physical office:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States\n\nEuropean correspondence address (via Wise):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nUnited Kingdom business address:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nUnited Kingdom\n\nWe operate remotely and work with clients in all countries."
       },
       "contact": {
         "title": "Contact",
-        "body": "Email: info@starlightvisualstudio.de\nFor project inquiries, legal notices, or privacy requests, please contact us by email."
+        "body": "Phone: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nEmail: info@starlightvisualstudio.de\n\nFor project inquiries, legal notices, or privacy requests, contact us using the details above."
       },
       "responsibility": {
         "title": "Responsibility for content",
@@ -1608,6 +1608,12 @@
       "copyright": {
         "title": "Copyright",
         "body": "Unless otherwise stated, the text, design, animation, artwork, video, and other original content on this website are owned by Starlights Visuals or used with permission. Reproduction, distribution, or commercial use requires prior written permission, except where applicable law allows otherwise."
+      },
+      "privacy": {
+        "title": "Privacy and data protection",
+        "body": "Information about how we collect, use, protect, and transfer personal data is available in our Privacy Policy and supplementary EU GDPR Notice.",
+        "privacyLink": "View Privacy Policy",
+        "gdprLink": "View EU GDPR Notice"
       }
     }
   },

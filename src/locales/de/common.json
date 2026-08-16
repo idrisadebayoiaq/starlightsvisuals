@@ -540,18 +540,18 @@
   },
   "imprintPage": {
     "metaTitle": "Impressum | Starlights Visuals",
-    "metaDescription": "Unternehmens- und Kontaktdaten des Betreibers der Website von Starlights Visuals.",
+    "metaDescription": "Betreiber, Gründer, Geschäftsadressen, Kontaktdaten und rechtliche Informationen zu Starlights Visuals.",
     "label": "Rechtliche Hinweise",
     "title": "IMPRESSUM",
-    "subtitle": "Unternehmens- und Kontaktdaten zu dieser Website.",
+    "subtitle": "Betreiber, Geschäftsführung, Adressen, Kontaktdaten und rechtliche Informationen zu dieser Website.",
     "sections": {
       "operator": {
-        "title": "Websitebetreiber",
-        "body": "Starlights Visuals\nKreativstudio für Animation und VFX\nVereinigte Staaten\nRemote First Studio mit internationalen Kunden"
+        "title": "Betreiber und Geschäftsadressen",
+        "body": "Starlights Visuals\nKreativstudio für Animation und VFX\nGründer und Geschäftsführer: Boluwaji Ominiran\n\nPhysisches Hauptbüro:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nVereinigte Staaten\n\nEuropäische Korrespondenzadresse (über Wise):\nWise, Rue du Trône 100, 3rd floor\n1050 Brüssel, Belgien\n\nGeschäftsadresse im Vereinigten Königreich:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nVereinigtes Königreich\n\nWir arbeiten remote mit Kunden in allen Ländern."
       },
       "contact": {
         "title": "Kontakt",
-        "body": "E-Mail: info@starlightvisualstudio.de\nFür Projektanfragen, rechtliche Hinweise oder Datenschutzanfragen kontaktieren Sie uns bitte per E-Mail."
+        "body": "Telefon: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nE-Mail: info@starlightvisualstudio.de\n\nFür Projektanfragen, rechtliche Hinweise oder Datenschutzanfragen nutzen Sie bitte die oben genannten Kontaktdaten."
       },
       "responsibility": {
         "title": "Verantwortung für Inhalte",
@@ -564,6 +564,12 @@
       "copyright": {
         "title": "Urheberrecht",
         "body": "Sofern nicht anders angegeben, sind Texte, Design, Animationen, Kunstwerke, Videos und andere Originalinhalte dieser Website Eigentum von Starlights Visuals oder werden mit Genehmigung verwendet. Vervielfältigung, Verbreitung oder kommerzielle Nutzung erfordern eine vorherige schriftliche Genehmigung, soweit das geltende Recht nichts anderes erlaubt."
+      },
+      "privacy": {
+        "title": "Datenschutz",
+        "body": "Informationen darüber, wie wir personenbezogene Daten erheben, verwenden, schützen und übermitteln, finden Sie in unserer Datenschutzerklärung und dem ergänzenden Hinweis zur EU DSGVO.",
+        "privacyLink": "Datenschutzerklärung ansehen",
+        "gdprLink": "EU DSGVO Hinweis ansehen"
       }
     }
   },

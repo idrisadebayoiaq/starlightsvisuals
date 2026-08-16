@@ -1805,18 +1805,18 @@
   },
   "imprintPage": {
     "metaTitle": "Jälki | OIKEUSSUOJATTU0",
-    "metaDescription": "Starlights Visuals-verkkosivuston ylläpitäjän yritys- ja yhteystiedot.",
+    "metaDescription": "Starlights Visuals:n operaattori, perustaja, toimistoosoitteet, yhteystiedot ja juridiset tiedot.",
     "label": "Oikeudellinen huomautus",
     "title": "JÄDIN",
-    "subtitle": "Tämän sivuston yritys- ja yhteystiedot.",
+    "subtitle": "Tämän verkkosivuston operaattori, hallinta, osoitteet, yhteystiedot ja lakitiedot.",
     "sections": {
       "operator": {
-        "title": "Verkkosivuston ylläpitäjä",
-        "body": "Starlights Visuals\nLuova animaatio ja VFX-studio\nYhdysvallat\nEnsimmäinen etästudio, joka palvelee asiakkaita kansainvälisesti"
+        "title": "Operaattorin ja yrityksen osoitteet",
+        "body": "Starlights Visuals\nLuova animaatio ja VFX-studio\nPerustaja ja toimitusjohtaja: Boluwaji Ominiran\n\nEnsisijainen fyysinen toimisto:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nYhdysvallat\n\nEurooppalainen kirjeenvaihtoosoite (Wisen kautta):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nYhdistyneen kuningaskunnan yrityksen osoite:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nYhdistynyt kuningaskunta\n\nToimimme etänä ja työskentelemme asiakkaiden kanssa kaikissa maissa."
       },
       "contact": {
         "title": "Ota yhteyttä",
-        "body": "Sähköposti: info@starlightvisualstudio.de\nOta yhteyttä sähköpostitse, jos sinulla on projektikyselyjä, oikeudellisia huomautuksia tai tietosuojapyyntöjä."
+        "body": "Puhelin: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nSähköposti: info@starlightvisualstudio.de\n\nOta meihin yhteyttä yllä olevien yhteystietojen avulla, jos sinulla on projektikyselyjä, oikeudellisia huomautuksia tai tietosuojapyyntöjä."
       },
       "responsibility": {
         "title": "Vastuu sisällöstä",
@@ -1829,6 +1829,12 @@
       "copyright": {
         "title": "Tekijänoikeus",
         "body": "Ellei toisin mainita, tämän verkkosivuston teksti, suunnittelu, animaatiot, taideteokset, videot ja muu alkuperäinen sisältö ovat Starlights Visuals:n omaisuutta tai niitä käytetään luvalla. Kopiointi, jakelu tai kaupallinen käyttö edellyttää kirjallista etukäteislupaa, ellei sovellettava laki toisin määrää."
+      },
+      "privacy": {
+        "title": "Yksityisyys ja tietosuoja",
+        "body": "Tietoja siitä, kuinka keräämme, käytämme, suojaamme ja siirrämme henkilötietoja, on saatavilla tietosuojakäytännössämme ja täydentävässä EU:n GDPR-ilmoituksessa.",
+        "privacyLink": "Katso tietosuojakäytäntö",
+        "gdprLink": "Katso EU:n GDPR-ilmoitus"
       }
     }
   }

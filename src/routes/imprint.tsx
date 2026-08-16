@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 
 import { SiteFooter } from "@/components/SiteFooter";
@@ -46,6 +46,28 @@ function ImprintPage() {
               </p>
             </section>
           ))}
+          <section className="rounded-xl border border-neon-green/25 bg-card/30 p-6 md:p-8">
+            <h2 className="font-display text-xl uppercase tracking-wide text-neon-green md:text-2xl">
+              {t("imprintPage.sections.privacy.title")}
+            </h2>
+            <p className="mt-4 text-base leading-8 text-muted-foreground">
+              {t("imprintPage.sections.privacy.body")}
+            </p>
+            <div className="mt-5 flex flex-wrap gap-4">
+              <Link
+                to="/privacy"
+                className="font-display text-sm uppercase tracking-wider text-neon-green transition hover:text-foreground"
+              >
+                {t("imprintPage.sections.privacy.privacyLink")}
+              </Link>
+              <Link
+                to="/eu-gdpr"
+                className="font-display text-sm uppercase tracking-wider text-neon-green transition hover:text-foreground"
+              >
+                {t("imprintPage.sections.privacy.gdprLink")}
+              </Link>
+            </div>
+          </section>
         </div>
       </main>
 

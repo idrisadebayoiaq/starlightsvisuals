@@ -1805,18 +1805,18 @@
   },
   "imprintPage": {
     "metaTitle": "Impressum | WETTELIJK BESCHERMD0",
-    "metaDescription": "Bedrijfs- en contactinformatie voor de exploitant van de Starlights Visuals-website.",
+    "metaDescription": "Operator, oprichter, kantooradressen, contactgegevens en juridische informatie voor Starlights Visuals.",
     "label": "Juridische mededeling",
     "title": "AFDRUK",
-    "subtitle": "Bedrijfs- en contactinformatie voor deze website.",
+    "subtitle": "Exploitant, management, adressen, contactgegevens en juridische informatie voor deze website.",
     "sections": {
       "operator": {
-        "title": "Website-exploitant",
-        "body": "Starlights Visuals\nCreatieve animatie- en VFX-studio\nVerenigde Staten\nEerste studio op afstand die klanten internationaal bedient"
+        "title": "Operator- en bedrijfsadressen",
+        "body": "Starlights Visuals\nCreatieve animatie- en VFX-studio\nOprichter en algemeen directeur: Boluwaji Ominiran\n\nPrimair fysiek kantoor:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nVerenigde Staten\n\nEuropees correspondentieadres (via Wise):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nZakelijk adres in Groot-Brittannië:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nVerenigd Koninkrijk\n\nWij opereren op afstand en werken met klanten in alle landen."
       },
       "contact": {
         "title": "Contact",
-        "body": "E-mail: info@starlightvisualstudio.de\nVoor projectvragen, juridische kennisgevingen of privacyverzoeken kunt u per e-mail contact met ons opnemen."
+        "body": "Telefoon: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nE-mail: info@starlightvisualstudio.de\n\nVoor projectvragen, juridische kennisgevingen of privacyverzoeken kunt u contact met ons opnemen via de bovenstaande gegevens."
       },
       "responsibility": {
         "title": "Verantwoordelijkheid voor de inhoud",
@@ -1829,6 +1829,12 @@
       "copyright": {
         "title": "Copyright",
         "body": "Tenzij anders vermeld, zijn de tekst, het ontwerp, de animatie, het artwork, de video en andere originele inhoud op deze website eigendom van Starlights Visuals of worden ze met toestemming gebruikt. Voor reproductie, distributie of commercieel gebruik is voorafgaande schriftelijke toestemming vereist, tenzij de toepasselijke wetgeving anders toestaat."
+      },
+      "privacy": {
+        "title": "Privacy en gegevensbescherming",
+        "body": "Informatie over hoe we persoonlijke gegevens verzamelen, gebruiken, beschermen en overdragen is beschikbaar in ons Privacybeleid en de aanvullende EU AVG-kennisgeving.",
+        "privacyLink": "Bekijk privacybeleid",
+        "gdprLink": "Bekijk de EU AVG-kennisgeving"
       }
     }
   }

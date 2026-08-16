@@ -1805,18 +1805,18 @@
   },
   "imprintPage": {
     "metaTitle": "Odcisk | OCHRONA PRAWNA0",
-    "metaDescription": "Informacje biznesowe i kontaktowe operatora serwisu Starlights Visuals.",
+    "metaDescription": "Operator, założyciel, adresy biur, dane kontaktowe i informacje prawne dotyczące Starlights Visuals.",
     "label": "Nota prawna",
     "title": "ODCISK",
-    "subtitle": "Informacje biznesowe i kontaktowe dotyczące tej witryny.",
+    "subtitle": "Operator, kierownictwo, adresy, dane kontaktowe i informacje prawne dotyczące tej witryny.",
     "sections": {
       "operator": {
-        "title": "Operator strony internetowej",
-        "body": "Starlights Visuals\nStudio animacji kreatywnej i efektów specjalnych\nStany Zjednoczone\nPierwsze zdalne studio obsługujące klientów na arenie międzynarodowej"
+        "title": "Adresy operatorów i firm",
+        "body": "Starlights Visuals\nStudio animacji kreatywnej i efektów specjalnych\nZałożyciel i dyrektor zarządzający: Boluwaji Ominiran\n\nGłówne biuro fizyczne:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nStany Zjednoczone\n\nEuropejski adres korespondencyjny (za pośrednictwem Wise):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nAdres firmy w Wielkiej Brytanii:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nWielka Brytania\n\nDziałamy zdalnie i współpracujemy z klientami we wszystkich krajach."
       },
       "contact": {
         "title": "Kontakt",
-        "body": "E-mail: info@starlightvisualstudio.de\nW przypadku zapytań dotyczących projektów, informacji prawnych lub próśb o prywatność prosimy o kontakt e-mailem."
+        "body": "Telefon: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nE-mail: info@starlightvisualstudio.de\n\nW przypadku zapytań dotyczących projektów, informacji prawnych lub próśb o prywatność prosimy o kontakt, korzystając z powyższych danych."
       },
       "responsibility": {
         "title": "Odpowiedzialność za treść",
@@ -1829,6 +1829,12 @@
       "copyright": {
         "title": "Prawo autorskie",
         "body": "O ile nie zaznaczono inaczej, tekst, projekt, animacja, grafika, wideo i inna oryginalna zawartość tej witryny są własnością Starlights Visuals lub są wykorzystywane za zgodą. Powielanie, dystrybucja lub wykorzystanie komercyjne wymaga uprzedniej pisemnej zgody, chyba że obowiązujące prawo stanowi inaczej."
+      },
+      "privacy": {
+        "title": "Prywatność i ochrona danych",
+        "body": "Informacje o tym, jak gromadzimy, wykorzystujemy, chronimy i przekazujemy dane osobowe, są dostępne w naszej Polityce prywatności i dodatkowej Informacji o RODO UE.",
+        "privacyLink": "Zobacz Politykę prywatności",
+        "gdprLink": "Zobacz zawiadomienie o RODO UE"
       }
     }
   }

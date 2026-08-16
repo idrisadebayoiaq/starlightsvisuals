@@ -1805,18 +1805,18 @@
   },
   "imprintPage": {
     "metaTitle": "Dấu ấn | ĐƯỢC BẢO VỆ PHÁP LUẬT0",
-    "metaDescription": "Thông tin doanh nghiệp và liên hệ của nhà điều hành trang web Starlights Visuals.",
+    "metaDescription": "Người điều hành, người sáng lập, địa chỉ văn phòng, chi tiết liên hệ và thông tin pháp lý cho Starlights Visuals.",
     "label": "Thông báo pháp lý",
     "title": "DẤU",
-    "subtitle": "Thông tin doanh nghiệp và liên hệ cho trang web này.",
+    "subtitle": "Nhà điều hành, quản lý, địa chỉ, chi tiết liên hệ và thông tin pháp lý cho trang web này.",
     "sections": {
       "operator": {
-        "title": "Nhà điều hành trang web",
-        "body": "Starlights Visuals\nStudio hoạt hình sáng tạo và VFX\nHoa Kỳ\nStudio đầu tiên từ xa phục vụ khách hàng quốc tế"
+        "title": "Địa chỉ điều hành và kinh doanh",
+        "body": "Starlights Visuals\nStudio hoạt hình sáng tạo và VFX\nNgười sáng lập & Giám đốc điều hành: Boluwaji Ominiran\n\nVăn phòng vật lý chính:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nHoa Kỳ\n\nĐịa chỉ thư từ ở Châu Âu (thông qua Wise):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nĐịa chỉ kinh doanh tại Vương quốc Anh:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nVương quốc Anh\n\nChúng tôi hoạt động từ xa và làm việc với khách hàng ở tất cả các quốc gia."
       },
       "contact": {
         "title": "Liên hệ",
-        "body": "Email: info@starlightvisualstudio.de\nNếu có thắc mắc về dự án, thông báo pháp lý hoặc yêu cầu về quyền riêng tư, vui lòng liên hệ với chúng tôi qua email."
+        "body": "Điện thoại: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nEmail: info@starlightvisualstudio.de\n\nNếu có thắc mắc về dự án, thông báo pháp lý hoặc yêu cầu về quyền riêng tư, hãy liên hệ với chúng tôi bằng cách sử dụng thông tin chi tiết ở trên."
       },
       "responsibility": {
         "title": "Trách nhiệm về nội dung",
@@ -1829,6 +1829,12 @@
       "copyright": {
         "title": "Bản quyền",
         "body": "Trừ khi có quy định khác, văn bản, thiết kế, hoạt ảnh, tác phẩm nghệ thuật, video và nội dung gốc khác trên trang web này thuộc quyền sở hữu của Starlights Visuals hoặc được sử dụng với sự cho phép. Việc sao chép, phân phối hoặc sử dụng vì mục đích thương mại cần có sự cho phép trước bằng văn bản, trừ khi luật hiện hành cho phép khác."
+      },
+      "privacy": {
+        "title": "Quyền riêng tư và bảo vệ dữ liệu",
+        "body": "Thông tin về cách chúng tôi thu thập, sử dụng, bảo vệ và truyền dữ liệu cá nhân có sẵn trong Chính sách quyền riêng tư và Thông báo GDPR bổ sung của EU.",
+        "privacyLink": "Xem chính sách bảo mật",
+        "gdprLink": "Xem Thông báo GDPR của EU"
       }
     }
   }

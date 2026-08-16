@@ -1805,18 +1805,18 @@
   },
   "imprintPage": {
     "metaTitle": "Künye | YASAL KORUMA0",
-    "metaDescription": "Starlights Visuals web sitesinin operatörünün iş ve iletişim bilgileri.",
+    "metaDescription": "Starlights Visuals'nin operatörü, kurucusu, ofis adresleri, iletişim bilgileri ve yasal bilgiler.",
     "label": "Yasal uyarı",
     "title": "KÜNYE",
-    "subtitle": "Bu web sitesinin iş ve iletişim bilgileri.",
+    "subtitle": "Bu web sitesinin operatörü, yönetimi, adresleri, iletişim bilgileri ve yasal bilgileri.",
     "sections": {
       "operator": {
-        "title": "Web sitesi operatörü",
-        "body": "Starlights Visuals\nYaratıcı animasyon ve VFX stüdyosu\nAmerika Birleşik Devletleri\nUluslararası müşterilere hizmet veren uzaktan ilk stüdyo"
+        "title": "Operatör ve iş adresleri",
+        "body": "Starlights Visuals\nYaratıcı animasyon ve VFX stüdyosu\nKurucu ve Genel Müdür: Boluwaji Ominiran\n\nBirincil fiziksel ofis:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nAmerika Birleşik Devletleri\n\nAvrupa yazışma adresi (Wise aracılığıyla):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nBirleşik Krallık iş adresi:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nBirleşik Krallık\n\nUzaktan çalışıyoruz ve tüm ülkelerdeki müşterilerimizle çalışıyoruz."
       },
       "contact": {
         "title": "Temas etmek",
-        "body": "E-posta: info@starlightvisualstudio.de\nProje soruları, yasal bildirimler veya gizlilik talepleri için lütfen bizimle e-posta yoluyla iletişime geçin."
+        "body": "Telefon: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nE-posta: info@starlightvisualstudio.de\n\nProje soruları, yasal bildirimler veya gizlilik talepleri için yukarıdaki bilgileri kullanarak bizimle iletişime geçin."
       },
       "responsibility": {
         "title": "İçerik sorumluluğu",
@@ -1829,6 +1829,12 @@
       "copyright": {
         "title": "Telif hakkı",
         "body": "Aksi belirtilmediği sürece bu web sitesindeki metin, tasarım, animasyon, çizim, video ve diğer orijinal içerik Starlights Visuals'a aittir veya izin alınarak kullanılmaktadır. Yürürlükteki yasaların aksine izin verdiği durumlar dışında, çoğaltılması, dağıtılması veya ticari kullanımı önceden yazılı izin gerektirir."
+      },
+      "privacy": {
+        "title": "Gizlilik ve veri koruma",
+        "body": "Kişisel verileri nasıl topladığımız, kullandığımız, koruduğumuz ve aktardığımıza ilişkin bilgileri Gizlilik Politikamızda ve ek AB GDPR Bildirimimizde bulabilirsiniz.",
+        "privacyLink": "Gizlilik Politikasını Görüntüle",
+        "gdprLink": "AB GDPR Bildirimini Görüntüle"
       }
     }
   }

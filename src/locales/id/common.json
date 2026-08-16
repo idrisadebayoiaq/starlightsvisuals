@@ -1805,18 +1805,18 @@
   },
   "imprintPage": {
     "metaTitle": "Jejak | DILINDUNGI HUKUM0",
-    "metaDescription": "Informasi bisnis dan kontak untuk operator situs web Starlights Visuals.",
+    "metaDescription": "Operator, pendiri, alamat kantor, rincian kontak, dan informasi hukum untuk Starlights Visuals.",
     "label": "Pemberitahuan hukum",
     "title": "JEJAK",
-    "subtitle": "Informasi bisnis dan kontak untuk situs web ini.",
+    "subtitle": "Operator, manajemen, alamat, rincian kontak, dan informasi hukum untuk situs web ini.",
     "sections": {
       "operator": {
-        "title": "Operator situs web",
-        "body": "Starlights Visuals\nAnimasi kreatif dan studio VFX\nAmerika Serikat\nStudio jarak jauh pertama yang melayani klien internasional"
+        "title": "Alamat operator dan bisnis",
+        "body": "Starlights Visuals\nAnimasi kreatif dan studio VFX\nPendiri & Direktur Pelaksana: Boluwaji Ominiran\n\nKantor fisik utama:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nAmerika Serikat\n\nAlamat korespondensi Eropa (melalui Wise):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nAlamat bisnis Inggris:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nInggris Raya\n\nKami beroperasi dari jarak jauh dan bekerja dengan klien di semua negara."
       },
       "contact": {
         "title": "Kontak",
-        "body": "Email: info@starlightvisualstudio.de\nUntuk pertanyaan proyek, pemberitahuan hukum, atau permintaan privasi, silakan hubungi kami melalui email."
+        "body": "Telepon: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nSurel: info@starlightvisualstudio.de\n\nUntuk pertanyaan proyek, pemberitahuan hukum, atau permintaan privasi, hubungi kami menggunakan detail di atas."
       },
       "responsibility": {
         "title": "Tanggung jawab atas konten",
@@ -1829,6 +1829,12 @@
       "copyright": {
         "title": "Hak cipta",
         "body": "Kecuali dinyatakan lain, teks, desain, animasi, karya seni, video, dan konten asli lainnya di situs web ini adalah milik Starlights Visuals atau digunakan dengan izin. Reproduksi, distribusi, atau penggunaan komersial memerlukan izin tertulis sebelumnya, kecuali jika hukum yang berlaku mengizinkan sebaliknya."
+      },
+      "privacy": {
+        "title": "Privasi dan perlindungan data",
+        "body": "Informasi tentang cara kami mengumpulkan, menggunakan, melindungi, dan mentransfer data pribadi tersedia di Kebijakan Privasi kami dan Pemberitahuan GDPR UE tambahan.",
+        "privacyLink": "Lihat Kebijakan Privasi",
+        "gdprLink": "Lihat Pemberitahuan GDPR UE"
       }
     }
   }

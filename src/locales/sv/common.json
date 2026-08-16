@@ -1805,18 +1805,18 @@
   },
   "imprintPage": {
     "metaTitle": "Avtryck | RÄTTSSKYDDAD0",
-    "metaDescription": "Affärs- och kontaktinformation för operatören av webbplatsen Starlights Visuals.",
+    "metaDescription": "Operatör, grundare, kontorsadresser, kontaktuppgifter och juridisk information för Starlights Visuals.",
     "label": "Rättsligt meddelande",
     "title": "AVTRYCK",
-    "subtitle": "Affärs- och kontaktinformation för denna webbplats.",
+    "subtitle": "Operatör, ledning, adresser, kontaktuppgifter och juridisk information för denna webbplats.",
     "sections": {
       "operator": {
-        "title": "Webbplatsoperatör",
-        "body": "Starlights Visuals\nKreativ animation och VFX-studio\nUSA\nAvlägsen första studio som betjänar kunder internationellt"
+        "title": "Operatörs- och företagsadresser",
+        "body": "Starlights Visuals\nKreativ animation och VFX-studio\nGrundare och verkställande direktör: Boluwaji Ominiran\n\nPrimärt fysiskt kontor:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUSA\n\nEuropeisk korrespondensadress (via Wise):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nFöretagsadress i Storbritannien:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nStorbritannien\n\nVi arbetar på distans och arbetar med kunder i alla länder."
       },
       "contact": {
         "title": "Kontakta",
-        "body": "E-post: info@starlightvisualstudio.de\nFör projektförfrågningar, juridiska meddelanden eller sekretessförfrågningar, vänligen kontakta oss via e-post."
+        "body": "Telefon: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nE-post: info@starlightvisualstudio.de\n\nFör projektförfrågningar, juridiska meddelanden eller sekretessförfrågningar, kontakta oss med hjälp av informationen ovan."
       },
       "responsibility": {
         "title": "Ansvar för innehåll",
@@ -1829,6 +1829,12 @@
       "copyright": {
         "title": "Upphovsrätt",
         "body": "Om inget annat anges ägs texten, designen, animationen, konstverken, videon och annat originalinnehåll på denna webbplats av Starlights Visuals eller används med tillstånd. Reproduktion, distribution eller kommersiell användning kräver skriftligt tillstånd i förväg, utom där tillämplig lag tillåter annat."
+      },
+      "privacy": {
+        "title": "Integritet och dataskydd",
+        "body": "Information om hur vi samlar in, använder, skyddar och överför personuppgifter finns i vår integritetspolicy och kompletterande EU GDPR-meddelande.",
+        "privacyLink": "Se integritetspolicy",
+        "gdprLink": "Se EU:s GDPR-meddelande"
       }
     }
   }

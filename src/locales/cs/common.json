@@ -1805,18 +1805,18 @@
   },
   "imprintPage": {
     "metaTitle": "Otisk | PRÁVNÍ CHRÁNĚNO0",
-    "metaDescription": "Obchodní a kontaktní údaje na provozovatele webu Starlights Visuals.",
+    "metaDescription": "Provozovatel, zakladatel, adresy kanceláře, kontaktní údaje a právní informace pro Starlights Visuals.",
     "label": "Právní upozornění",
     "title": "OTISK",
-    "subtitle": "Obchodní a kontaktní informace pro tento web.",
+    "subtitle": "Provozovatel, vedení, adresy, kontaktní údaje a právní informace pro tento web.",
     "sections": {
       "operator": {
-        "title": "Provozovatel webu",
-        "body": "Starlights Visuals\nKreativní animace a VFX studio\nSpojené státy americké\nPrvní vzdálené studio obsluhující klienty mezinárodně"
+        "title": "Provozovatel a obchodní adresy",
+        "body": "Starlights Visuals\nKreativní animace a VFX studio\nZakladatel a výkonný ředitel: Boluwaji Ominiran\n\nPrimární fyzická kancelář:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nSpojené státy americké\n\nEvropská korespondenční adresa (přes Wise):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\nObchodní adresa Spojeného království:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nSpojené království\n\nPůsobíme na dálku a spolupracujeme s klienty ve všech zemích."
       },
       "contact": {
         "title": "Kontakt",
-        "body": "E-mail: info@starlightvisualstudio.de\nV případě dotazů na projekt, právních upozornění nebo požadavků na ochranu osobních údajů nás prosím kontaktujte e-mailem."
+        "body": "Telefon: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\nE-mail: info@starlightvisualstudio.de\n\nV případě dotazů na projekt, právních upozornění nebo požadavků na ochranu osobních údajů nás kontaktujte pomocí výše uvedených údajů."
       },
       "responsibility": {
         "title": "Zodpovědnost za obsah",
@@ -1829,6 +1829,12 @@
       "copyright": {
         "title": "Copyright",
         "body": "Pokud není uvedeno jinak, text, design, animace, umělecká díla, video a další originální obsah na této webové stránce jsou ve vlastnictví Starlights Visuals nebo jsou používány se svolením. Reprodukce, distribuce nebo komerční použití vyžaduje předchozí písemné svolení, pokud příslušné zákony nepovolují jinak."
+      },
+      "privacy": {
+        "title": "Ochrana soukromí a dat",
+        "body": "Informace o tom, jak shromažďujeme, používáme, chráníme a přenášíme osobní údaje, jsou k dispozici v našich Zásadách ochrany osobních údajů a v doplňkovém oznámení EU GDPR.",
+        "privacyLink": "Zobrazit Zásady ochrany osobních údajů",
+        "gdprLink": "Zobrazit oznámení EU GDPR"
       }
     }
   }

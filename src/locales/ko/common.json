@@ -1805,18 +1805,18 @@
   },
   "imprintPage": {
     "metaTitle": "인쇄물 | 법적으로 보호됨0",
-    "metaDescription": "Starlights Visuals 웹사이트 운영자의 비즈니스 및 연락처 정보입니다.",
+    "metaDescription": "Starlights Visuals의 운영자, 설립자, 사무실 주소, 연락처 및 법적 정보.",
     "label": "법적 고지",
     "title": "날인",
-    "subtitle": "이 웹사이트의 비즈니스 및 연락처 정보입니다.",
+    "subtitle": "이 웹사이트의 운영자, 경영진, 주소, 연락처 및 법적 정보를 제공합니다.",
     "sections": {
       "operator": {
-        "title": "웹사이트 운영자",
-        "body": "Starlights Visuals\n창의적인 애니메이션 및 VFX 스튜디오\n미국\n국제적으로 고객에게 서비스를 제공하는 원격 최초의 스튜디오"
+        "title": "운영자 및 회사 주소",
+        "body": "Starlights Visuals\n창의적인 애니메이션 및 VFX 스튜디오\n창립자 겸 전무이사: Boluwaji Ominiran\n\n주요 실제 사무실:\n6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\n미국\n\n유럽 통신 주소(Wise를 통해):\nWise, Rue du Trône 100, 3rd floor\n1050 Brussels, Belgium\n\n영국 사업장 주소:\n4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\n영국\n\n우리는 원격으로 운영하며 모든 국가의 고객과 협력합니다."
       },
       "contact": {
         "title": "연락하다",
-        "body": "이메일: info@starlightvisualstudio.de\n프로젝트 문의, 법적 고지 또는 개인 정보 보호 요청은 이메일로 문의해 주세요."
+        "body": "전화: +1 (317) 339-6029\nWhatsApp: +44 7348 550667\n이메일: info@starlightvisualstudio.de\n\n프로젝트 문의, 법적 고지 또는 개인정보 보호 요청은 위의 세부정보를 사용하여 문의해 주세요."
       },
       "responsibility": {
         "title": "콘텐츠에 대한 책임",
@@ -1829,6 +1829,12 @@
       "copyright": {
         "title": "저작권",
         "body": "달리 명시하지 않는 한, 이 웹사이트의 텍스트, 디자인, 애니메이션, 삽화, 비디오 및 기타 원본 콘텐츠는 Starlights Visuals의 소유이거나 허가를 받아 사용됩니다. 복제, 배포 또는 상업적 사용에는 해당 법률에서 달리 허용하는 경우를 제외하고 사전 서면 허가가 필요합니다."
+      },
+      "privacy": {
+        "title": "개인정보 보호 및 데이터 보호",
+        "body": "당사가 개인 데이터를 수집, 사용, 보호 및 전송하는 방법에 대한 정보는 개인 정보 보호 정책 및 추가 EU GDPR 고지에서 확인할 수 있습니다.",
+        "privacyLink": "개인정보 보호정책 보기",
+        "gdprLink": "EU GDPR 공지 보기"
       }
     }
   }
