@@ -19,13 +19,15 @@ export function SiteFooter() {
 
   const exploreLinks = useMemo(
     () => [
-      { to: "/about", label: t("nav.about") },
+      { to: "/industries", label: t("nav.industries") },
       { to: "/services", label: t("nav.services") },
-      { to: "/portfolio", label: t("nav.portfolio") },
+      { to: "/portfolio", label: t("nav.work") },
+      { to: "/case-studies", label: t("nav.caseStudies") },
+      { to: "/about", label: t("nav.about") },
       { to: "/blog", label: t("nav.blog") },
       { to: "/faq", label: t("nav.faq") },
-      { to: "/write-review", label: t("nav.writeReview") },
       { to: "/contact", label: t("nav.contact") },
+      { to: "/services/entertainment", label: t("footer.entertainmentLink") },
     ],
     [t],
   );

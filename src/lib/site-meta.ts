@@ -46,6 +46,14 @@ export const siteMeta = {
     title: de.imprintPage.metaTitle,
     description: de.imprintPage.metaDescription,
   },
+  industries: {
+    title: de.industries.metaTitle,
+    description: de.industries.metaDescription,
+  },
+  caseStudies: {
+    title: de.caseStudies.metaTitle,
+    description: de.caseStudies.metaDescription,
+  },
   siteName: de.brand.name,
 } as const;
 

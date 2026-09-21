@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useState, type FormEvent } from "react
 import { useTranslation } from "react-i18next";
 
 import { workCategories } from "@/data/portfolio-works";
+import { INDUSTRY_SLUGS } from "@/data/industries";
 import { useCmsCategories } from "@/hooks/use-cms-categories";
 import { slugify } from "@/hooks/use-cms-videos";
 import { uploadMediaFile } from "@/lib/cms-media";
@@ -42,6 +43,7 @@ type NewClientForm = {
   name: string;
   slug: string;
   industry: string;
+  industries: string;
   description: string;
 };
 
@@ -65,6 +67,7 @@ const emptyNewClient = (): NewClientForm => ({
   name: "",
   slug: "",
   industry: "",
+  industries: "",
   description: "",
 });
 
@@ -249,6 +252,10 @@ function AdminVideosPage() {
           slug,
           name,
           industry: newClient.industry.trim(),
+          industries: newClient.industries
+            .split(",")
+            .map((s) => s.trim())
+            .filter((s) => INDUSTRY_SLUGS.includes(s as (typeof INDUSTRY_SLUGS)[number])),
           description: newClient.description.trim(),
           published: true,
           updated_at: new Date().toISOString(),
@@ -555,6 +562,24 @@ function AdminVideosPage() {
                       className={inputClass}
                       placeholder="Product / Brand"
                     />
+                  </Field>
+                  <Field
+                    label={t("admin.videos.clientIndustries", {
+                      defaultValue: "Industry tags (slugs)",
+                    })}
+                    className="sm:col-span-2"
+                  >
+                    <input
+                      value={newClient.industries}
+                      onChange={(e) =>
+                        setNewClient((c) => ({ ...c, industries: e.target.value }))
+                      }
+                      className={inputClass}
+                      placeholder="robotics-automation, industrial-machinery"
+                    />
+                    <p className="mt-1 text-[10px] text-muted-foreground">
+                      {INDUSTRY_SLUGS.join(", ")}
+                    </p>
                   </Field>
                   <Field label={t("admin.videos.clientDescription")} className="sm:col-span-2">
                     <textarea

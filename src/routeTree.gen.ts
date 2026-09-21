@@ -13,17 +13,26 @@ import { Route as WriteReviewRouteImport } from './routes/write-review'
 import { Route as ServicesRouteImport } from './routes/services'
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as PortfolioRouteImport } from './routes/portfolio'
+import { Route as IndustriesRouteImport } from './routes/industries'
 import { Route as ImprintRouteImport } from './routes/imprint'
 import { Route as FaqRouteImport } from './routes/faq'
 import { Route as EuGdprRouteImport } from './routes/eu-gdpr'
 import { Route as ContactRouteImport } from './routes/contact'
+import { Route as CaseStudiesRouteImport } from './routes/case-studies'
 import { Route as BlogRouteImport } from './routes/blog'
 import { Route as AdminRouteImport } from './routes/admin'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ServicesIndexRouteImport } from './routes/services.index'
+import { Route as IndustriesIndexRouteImport } from './routes/industries.index'
+import { Route as CaseStudiesIndexRouteImport } from './routes/case-studies.index'
 import { Route as BlogIndexRouteImport } from './routes/blog.index'
 import { Route as AdminIndexRouteImport } from './routes/admin.index'
 import { Route as WorksCategoryRouteImport } from './routes/works.$category'
+import { Route as ServicesEntertainmentRouteImport } from './routes/services.entertainment'
+import { Route as ServicesSlugRouteImport } from './routes/services.$slug'
+import { Route as IndustriesSlugRouteImport } from './routes/industries.$slug'
+import { Route as CaseStudiesSlugRouteImport } from './routes/case-studies.$slug'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as AdminVideosRouteImport } from './routes/admin.videos'
 import { Route as AdminTranslationsRouteImport } from './routes/admin.translations'
@@ -56,6 +65,11 @@ const PortfolioRoute = PortfolioRouteImport.update({
   path: '/portfolio',
   getParentRoute: () => rootRouteImport,
 } as any)
+const IndustriesRoute = IndustriesRouteImport.update({
+  id: '/industries',
+  path: '/industries',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ImprintRoute = ImprintRouteImport.update({
   id: '/imprint',
   path: '/imprint',
@@ -74,6 +88,11 @@ const EuGdprRoute = EuGdprRouteImport.update({
 const ContactRoute = ContactRouteImport.update({
   id: '/contact',
   path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CaseStudiesRoute = CaseStudiesRouteImport.update({
+  id: '/case-studies',
+  path: '/case-studies',
   getParentRoute: () => rootRouteImport,
 } as any)
 const BlogRoute = BlogRouteImport.update({
@@ -96,6 +115,21 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ServicesIndexRoute = ServicesIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => ServicesRoute,
+} as any)
+const IndustriesIndexRoute = IndustriesIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => IndustriesRoute,
+} as any)
+const CaseStudiesIndexRoute = CaseStudiesIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => CaseStudiesRoute,
+} as any)
 const BlogIndexRoute = BlogIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -110,6 +144,26 @@ const WorksCategoryRoute = WorksCategoryRouteImport.update({
   id: '/works/$category',
   path: '/works/$category',
   getParentRoute: () => rootRouteImport,
+} as any)
+const ServicesEntertainmentRoute = ServicesEntertainmentRouteImport.update({
+  id: '/entertainment',
+  path: '/entertainment',
+  getParentRoute: () => ServicesRoute,
+} as any)
+const ServicesSlugRoute = ServicesSlugRouteImport.update({
+  id: '/$slug',
+  path: '/$slug',
+  getParentRoute: () => ServicesRoute,
+} as any)
+const IndustriesSlugRoute = IndustriesSlugRouteImport.update({
+  id: '/$slug',
+  path: '/$slug',
+  getParentRoute: () => IndustriesRoute,
+} as any)
+const CaseStudiesSlugRoute = CaseStudiesSlugRouteImport.update({
+  id: '/$slug',
+  path: '/$slug',
+  getParentRoute: () => CaseStudiesRoute,
 } as any)
 const BlogSlugRoute = BlogSlugRouteImport.update({
   id: '/$slug',
@@ -172,13 +226,15 @@ export interface FileRoutesByFullPath {
   '/about': typeof AboutRoute
   '/admin': typeof AdminRouteWithChildren
   '/blog': typeof BlogRouteWithChildren
+  '/case-studies': typeof CaseStudiesRouteWithChildren
   '/contact': typeof ContactRoute
   '/eu-gdpr': typeof EuGdprRoute
   '/faq': typeof FaqRoute
   '/imprint': typeof ImprintRoute
+  '/industries': typeof IndustriesRouteWithChildren
   '/portfolio': typeof PortfolioRoute
   '/privacy': typeof PrivacyRoute
-  '/services': typeof ServicesRoute
+  '/services': typeof ServicesRouteWithChildren
   '/write-review': typeof WriteReviewRoute
   '/admin/admins': typeof AdminAdminsRoute
   '/admin/blogs': typeof AdminBlogsRoute
@@ -189,9 +245,16 @@ export interface FileRoutesByFullPath {
   '/admin/translations': typeof AdminTranslationsRoute
   '/admin/videos': typeof AdminVideosRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/case-studies/$slug': typeof CaseStudiesSlugRoute
+  '/industries/$slug': typeof IndustriesSlugRoute
+  '/services/$slug': typeof ServicesSlugRoute
+  '/services/entertainment': typeof ServicesEntertainmentRoute
   '/works/$category': typeof WorksCategoryRouteWithChildren
   '/admin/': typeof AdminIndexRoute
   '/blog/': typeof BlogIndexRoute
+  '/case-studies/': typeof CaseStudiesIndexRoute
+  '/industries/': typeof IndustriesIndexRoute
+  '/services/': typeof ServicesIndexRoute
   '/works/$category/$client': typeof WorksCategoryClientRoute
   '/works/$category/': typeof WorksCategoryIndexRoute
 }
@@ -204,7 +267,6 @@ export interface FileRoutesByTo {
   '/imprint': typeof ImprintRoute
   '/portfolio': typeof PortfolioRoute
   '/privacy': typeof PrivacyRoute
-  '/services': typeof ServicesRoute
   '/write-review': typeof WriteReviewRoute
   '/admin/admins': typeof AdminAdminsRoute
   '/admin/blogs': typeof AdminBlogsRoute
@@ -215,8 +277,15 @@ export interface FileRoutesByTo {
   '/admin/translations': typeof AdminTranslationsRoute
   '/admin/videos': typeof AdminVideosRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/case-studies/$slug': typeof CaseStudiesSlugRoute
+  '/industries/$slug': typeof IndustriesSlugRoute
+  '/services/$slug': typeof ServicesSlugRoute
+  '/services/entertainment': typeof ServicesEntertainmentRoute
   '/admin': typeof AdminIndexRoute
   '/blog': typeof BlogIndexRoute
+  '/case-studies': typeof CaseStudiesIndexRoute
+  '/industries': typeof IndustriesIndexRoute
+  '/services': typeof ServicesIndexRoute
   '/works/$category/$client': typeof WorksCategoryClientRoute
   '/works/$category': typeof WorksCategoryIndexRoute
 }
@@ -226,13 +295,15 @@ export interface FileRoutesById {
   '/about': typeof AboutRoute
   '/admin': typeof AdminRouteWithChildren
   '/blog': typeof BlogRouteWithChildren
+  '/case-studies': typeof CaseStudiesRouteWithChildren
   '/contact': typeof ContactRoute
   '/eu-gdpr': typeof EuGdprRoute
   '/faq': typeof FaqRoute
   '/imprint': typeof ImprintRoute
+  '/industries': typeof IndustriesRouteWithChildren
   '/portfolio': typeof PortfolioRoute
   '/privacy': typeof PrivacyRoute
-  '/services': typeof ServicesRoute
+  '/services': typeof ServicesRouteWithChildren
   '/write-review': typeof WriteReviewRoute
   '/admin/admins': typeof AdminAdminsRoute
   '/admin/blogs': typeof AdminBlogsRoute
@@ -243,9 +314,16 @@ export interface FileRoutesById {
   '/admin/translations': typeof AdminTranslationsRoute
   '/admin/videos': typeof AdminVideosRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/case-studies/$slug': typeof CaseStudiesSlugRoute
+  '/industries/$slug': typeof IndustriesSlugRoute
+  '/services/$slug': typeof ServicesSlugRoute
+  '/services/entertainment': typeof ServicesEntertainmentRoute
   '/works/$category': typeof WorksCategoryRouteWithChildren
   '/admin/': typeof AdminIndexRoute
   '/blog/': typeof BlogIndexRoute
+  '/case-studies/': typeof CaseStudiesIndexRoute
+  '/industries/': typeof IndustriesIndexRoute
+  '/services/': typeof ServicesIndexRoute
   '/works/$category/$client': typeof WorksCategoryClientRoute
   '/works/$category/': typeof WorksCategoryIndexRoute
 }
@@ -256,10 +334,12 @@ export interface FileRouteTypes {
     | '/about'
     | '/admin'
     | '/blog'
+    | '/case-studies'
     | '/contact'
     | '/eu-gdpr'
     | '/faq'
     | '/imprint'
+    | '/industries'
     | '/portfolio'
     | '/privacy'
     | '/services'
@@ -273,9 +353,16 @@ export interface FileRouteTypes {
     | '/admin/translations'
     | '/admin/videos'
     | '/blog/$slug'
+    | '/case-studies/$slug'
+    | '/industries/$slug'
+    | '/services/$slug'
+    | '/services/entertainment'
     | '/works/$category'
     | '/admin/'
     | '/blog/'
+    | '/case-studies/'
+    | '/industries/'
+    | '/services/'
     | '/works/$category/$client'
     | '/works/$category/'
   fileRoutesByTo: FileRoutesByTo
@@ -288,7 +375,6 @@ export interface FileRouteTypes {
     | '/imprint'
     | '/portfolio'
     | '/privacy'
-    | '/services'
     | '/write-review'
     | '/admin/admins'
     | '/admin/blogs'
@@ -299,8 +385,15 @@ export interface FileRouteTypes {
     | '/admin/translations'
     | '/admin/videos'
     | '/blog/$slug'
+    | '/case-studies/$slug'
+    | '/industries/$slug'
+    | '/services/$slug'
+    | '/services/entertainment'
     | '/admin'
     | '/blog'
+    | '/case-studies'
+    | '/industries'
+    | '/services'
     | '/works/$category/$client'
     | '/works/$category'
   id:
@@ -309,10 +402,12 @@ export interface FileRouteTypes {
     | '/about'
     | '/admin'
     | '/blog'
+    | '/case-studies'
     | '/contact'
     | '/eu-gdpr'
     | '/faq'
     | '/imprint'
+    | '/industries'
     | '/portfolio'
     | '/privacy'
     | '/services'
@@ -326,9 +421,16 @@ export interface FileRouteTypes {
     | '/admin/translations'
     | '/admin/videos'
     | '/blog/$slug'
+    | '/case-studies/$slug'
+    | '/industries/$slug'
+    | '/services/$slug'
+    | '/services/entertainment'
     | '/works/$category'
     | '/admin/'
     | '/blog/'
+    | '/case-studies/'
+    | '/industries/'
+    | '/services/'
     | '/works/$category/$client'
     | '/works/$category/'
   fileRoutesById: FileRoutesById
@@ -338,13 +440,15 @@ export interface RootRouteChildren {
   AboutRoute: typeof AboutRoute
   AdminRoute: typeof AdminRouteWithChildren
   BlogRoute: typeof BlogRouteWithChildren
+  CaseStudiesRoute: typeof CaseStudiesRouteWithChildren
   ContactRoute: typeof ContactRoute
   EuGdprRoute: typeof EuGdprRoute
   FaqRoute: typeof FaqRoute
   ImprintRoute: typeof ImprintRoute
+  IndustriesRoute: typeof IndustriesRouteWithChildren
   PortfolioRoute: typeof PortfolioRoute
   PrivacyRoute: typeof PrivacyRoute
-  ServicesRoute: typeof ServicesRoute
+  ServicesRoute: typeof ServicesRouteWithChildren
   WriteReviewRoute: typeof WriteReviewRoute
   WorksCategoryRoute: typeof WorksCategoryRouteWithChildren
 }
@@ -379,6 +483,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PortfolioRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/industries': {
+      id: '/industries'
+      path: '/industries'
+      fullPath: '/industries'
+      preLoaderRoute: typeof IndustriesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/imprint': {
       id: '/imprint'
       path: '/imprint'
@@ -405,6 +516,13 @@ declare module '@tanstack/react-router' {
       path: '/contact'
       fullPath: '/contact'
       preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/case-studies': {
+      id: '/case-studies'
+      path: '/case-studies'
+      fullPath: '/case-studies'
+      preLoaderRoute: typeof CaseStudiesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/blog': {
@@ -435,6 +553,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/services/': {
+      id: '/services/'
+      path: '/'
+      fullPath: '/services/'
+      preLoaderRoute: typeof ServicesIndexRouteImport
+      parentRoute: typeof ServicesRoute
+    }
+    '/industries/': {
+      id: '/industries/'
+      path: '/'
+      fullPath: '/industries/'
+      preLoaderRoute: typeof IndustriesIndexRouteImport
+      parentRoute: typeof IndustriesRoute
+    }
+    '/case-studies/': {
+      id: '/case-studies/'
+      path: '/'
+      fullPath: '/case-studies/'
+      preLoaderRoute: typeof CaseStudiesIndexRouteImport
+      parentRoute: typeof CaseStudiesRoute
+    }
     '/blog/': {
       id: '/blog/'
       path: '/'
@@ -455,6 +594,34 @@ declare module '@tanstack/react-router' {
       fullPath: '/works/$category'
       preLoaderRoute: typeof WorksCategoryRouteImport
       parentRoute: typeof rootRouteImport
+    }
+    '/services/entertainment': {
+      id: '/services/entertainment'
+      path: '/entertainment'
+      fullPath: '/services/entertainment'
+      preLoaderRoute: typeof ServicesEntertainmentRouteImport
+      parentRoute: typeof ServicesRoute
+    }
+    '/services/$slug': {
+      id: '/services/$slug'
+      path: '/$slug'
+      fullPath: '/services/$slug'
+      preLoaderRoute: typeof ServicesSlugRouteImport
+      parentRoute: typeof ServicesRoute
+    }
+    '/industries/$slug': {
+      id: '/industries/$slug'
+      path: '/$slug'
+      fullPath: '/industries/$slug'
+      preLoaderRoute: typeof IndustriesSlugRouteImport
+      parentRoute: typeof IndustriesRoute
+    }
+    '/case-studies/$slug': {
+      id: '/case-studies/$slug'
+      path: '/$slug'
+      fullPath: '/case-studies/$slug'
+      preLoaderRoute: typeof CaseStudiesSlugRouteImport
+      parentRoute: typeof CaseStudiesRoute
     }
     '/blog/$slug': {
       id: '/blog/$slug'
@@ -574,6 +741,50 @@ const BlogRouteChildren: BlogRouteChildren = {
 
 const BlogRouteWithChildren = BlogRoute._addFileChildren(BlogRouteChildren)
 
+interface CaseStudiesRouteChildren {
+  CaseStudiesSlugRoute: typeof CaseStudiesSlugRoute
+  CaseStudiesIndexRoute: typeof CaseStudiesIndexRoute
+}
+
+const CaseStudiesRouteChildren: CaseStudiesRouteChildren = {
+  CaseStudiesSlugRoute: CaseStudiesSlugRoute,
+  CaseStudiesIndexRoute: CaseStudiesIndexRoute,
+}
+
+const CaseStudiesRouteWithChildren = CaseStudiesRoute._addFileChildren(
+  CaseStudiesRouteChildren,
+)
+
+interface IndustriesRouteChildren {
+  IndustriesSlugRoute: typeof IndustriesSlugRoute
+  IndustriesIndexRoute: typeof IndustriesIndexRoute
+}
+
+const IndustriesRouteChildren: IndustriesRouteChildren = {
+  IndustriesSlugRoute: IndustriesSlugRoute,
+  IndustriesIndexRoute: IndustriesIndexRoute,
+}
+
+const IndustriesRouteWithChildren = IndustriesRoute._addFileChildren(
+  IndustriesRouteChildren,
+)
+
+interface ServicesRouteChildren {
+  ServicesSlugRoute: typeof ServicesSlugRoute
+  ServicesEntertainmentRoute: typeof ServicesEntertainmentRoute
+  ServicesIndexRoute: typeof ServicesIndexRoute
+}
+
+const ServicesRouteChildren: ServicesRouteChildren = {
+  ServicesSlugRoute: ServicesSlugRoute,
+  ServicesEntertainmentRoute: ServicesEntertainmentRoute,
+  ServicesIndexRoute: ServicesIndexRoute,
+}
+
+const ServicesRouteWithChildren = ServicesRoute._addFileChildren(
+  ServicesRouteChildren,
+)
+
 interface WorksCategoryRouteChildren {
   WorksCategoryClientRoute: typeof WorksCategoryClientRoute
   WorksCategoryIndexRoute: typeof WorksCategoryIndexRoute
@@ -593,13 +804,15 @@ const rootRouteChildren: RootRouteChildren = {
   AboutRoute: AboutRoute,
   AdminRoute: AdminRouteWithChildren,
   BlogRoute: BlogRouteWithChildren,
+  CaseStudiesRoute: CaseStudiesRouteWithChildren,
   ContactRoute: ContactRoute,
   EuGdprRoute: EuGdprRoute,
   FaqRoute: FaqRoute,
   ImprintRoute: ImprintRoute,
+  IndustriesRoute: IndustriesRouteWithChildren,
   PortfolioRoute: PortfolioRoute,
   PrivacyRoute: PrivacyRoute,
-  ServicesRoute: ServicesRoute,
+  ServicesRoute: ServicesRouteWithChildren,
   WriteReviewRoute: WriteReviewRoute,
   WorksCategoryRoute: WorksCategoryRouteWithChildren,
 }

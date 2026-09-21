@@ -1,11 +1,12 @@
 import { Link } from "@tanstack/react-router";
-import { Menu, X } from "lucide-react";
-import { useMemo } from "react";
+import { ChevronDown, Menu, X } from "lucide-react";
+import { useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { SiteLogo } from "@/components/SiteLogo";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { industries } from "@/data/industries";
 import { useSidebar } from "@/contexts/sidebar-context";
 import { useTheme } from "@/contexts/theme-context";
 import { useIsMobile } from "@/hooks/use-mobile";
@@ -23,16 +24,25 @@ export function SiteHeader() {
     closeMobile,
     sidebarWidth,
   } = useSidebar();
+  const [industriesOpen, setIndustriesOpen] = useState(false);
+
+  const industryLinks = useMemo(
+    () =>
+      industries.map((item) => ({
+        slug: item.slug,
+        label: t(`industries.items.${item.slug}.navLabel`),
+      })),
+    [t],
+  );
 
   const nav = useMemo(
     () => [
-      { to: "/portfolio", label: t("nav.portfolio") },
       { to: "/services", label: t("nav.services") },
+      { to: "/portfolio", label: t("nav.work") },
+      { to: "/case-studies", label: t("nav.caseStudies") },
+      { to: "/about", label: t("nav.about") },
       { to: "/blog", label: t("nav.blog") },
-      { to: "/faq", label: t("nav.faq") },
-      { to: "/write-review", label: t("nav.writeReview") },
-      { to: "/about", label: t("nav.company") },
-      { to: "/contact", label: t("nav.contacts") },
+      { to: "/contact", label: t("nav.contact") },
     ],
     [t],
   );
@@ -95,7 +105,44 @@ export function SiteHeader() {
           )}
         </div>
 
-        <nav className="flex flex-col gap-3">
+        <nav className="flex flex-col gap-3 overflow-y-auto pr-1">
+          <div>
+            <button
+              type="button"
+              onClick={() => setIndustriesOpen((o) => !o)}
+              className="group flex w-full items-center justify-between font-display text-sm uppercase tracking-widest text-foreground/80 transition hover:text-foreground"
+              aria-expanded={industriesOpen}
+            >
+              <span>{t("nav.industries")}</span>
+              <ChevronDown
+                className={cn("h-4 w-4 transition", industriesOpen && "rotate-180")}
+                aria-hidden
+              />
+            </button>
+            {industriesOpen && (
+              <div className="mt-2 space-y-2 border-l border-border/60 pl-3">
+                <Link
+                  to="/industries"
+                  onClick={closeMobile}
+                  className="block font-display text-[11px] uppercase tracking-widest text-muted-foreground transition hover:text-neon-green"
+                >
+                  {t("industries.title")}
+                </Link>
+                {industryLinks.map((item) => (
+                  <Link
+                    key={item.slug}
+                    to="/industries/$slug"
+                    params={{ slug: item.slug }}
+                    onClick={closeMobile}
+                    className="block text-xs leading-snug text-foreground/70 transition hover:text-neon-green"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+
           {nav.map((n) => (
             <Link
               key={n.to}

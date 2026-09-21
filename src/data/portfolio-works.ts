@@ -478,6 +478,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "3d-medical-animation",
           name: "3D MEDICAL ANIMATION",
           industry: "Healthcare & Medical Visualization",
+          industries: ["medical-devices"],
           description:
             "High quality 3D medical animation covering anatomy, surgical procedures, and medical device visualization.",
           projectCount: 2,
@@ -893,9 +894,68 @@ const rawWorkCategories: WorkCategory[] = [
     clients: [
       client(
         {
+          slug: "smaract",
+          name: "SMARACT",
+          industry: "Robotics & Automation",
+          industries: ["robotics-automation"],
+          description:
+            "CGI and technical product animation for SmarAct precision automation and positioning systems.",
+          projectCount: 1,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["Technical Product Animation", "CAD-to-CGI", "Sales Explainer"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "SmarAct Automation CGI Film",
+              description:
+                "CGI film presenting SmarAct core automation competencies with clear technical storytelling.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Robotics", "Automation"],
+              year: 2025,
+            },
+          ],
+        },
+        "smaract",
+      ),
+      client(
+        {
+          slug: "novatorq",
+          name: "NOVATORQ",
+          industry: "EV / E-Mobility",
+          industries: ["automotive-components"],
+          description:
+            "Technical CGI for Novatorq electric vehicle powertrain and e-mobility product storytelling.",
+          projectCount: 1,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["Technical Product Animation", "CAD-to-CGI", "Sales Explainer"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "Novatorq EV Technology Film",
+              description:
+                "Animation communicating how Novatorq EV technology works for partners and stakeholders.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Automotive", "EV"],
+              year: 2025,
+            },
+          ],
+        },
+        "novatorq",
+      ),
+      client(
+        {
           slug: "ronix",
           name: "RONIX",
           industry: "Power Tools & Manufacturing",
+          industries: ["industrial-machinery"],
           description:
             "Ronix 3D industrial animation and power tool CGI product showcase films.",
           projectCount: 1,
@@ -924,6 +984,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "mintec",
           name: "MINTEC",
           industry: "Industrial Manufacturing",
+          industries: ["industrial-machinery", "industrial-electronics"],
           description:
             "MinTec industries product showcase and process films for 3D industrial animation.",
           projectCount: 2,
@@ -962,6 +1023,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "integra-pw",
           name: "INTEGRA PW",
           industry: "Industrial Products",
+          industries: ["industrial-machinery"],
           description:
             "Integra PW industrial animation from video making process through final cinematic results.",
           projectCount: 2,
@@ -1000,6 +1062,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "credex",
           name: "CREDEX",
           industry: "Cleaning Equipment",
+          industries: ["industrial-machinery"],
           description:
             "CREDEX carpet cleaning machine industrial animation with cinematic SFX finish.",
           projectCount: 1,
@@ -1028,6 +1091,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "phr-1",
           name: "PHR 1",
           industry: "Electric Powertrain",
+          industries: ["automotive-components"],
           description:
             "PHR 1 electric power train product animation with technical lighting and cinematic polish.",
           projectCount: 1,
@@ -1056,6 +1120,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "atx",
           name: "ATX",
           industry: "Industrial Manufacturing",
+          industries: ["industrial-machinery"],
           description:
             "ATX 3D industrial and technical product animation for manufacturing showcases.",
           projectCount: 1,
@@ -1084,6 +1149,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "prov-gap",
           name: "PROV GAP",
           industry: "Industrial Manufacturing",
+          industries: ["industrial-machinery"],
           description:
             "Prov GAP 3D industrial animation for technical product storytelling and brand films.",
           projectCount: 1,
@@ -1112,6 +1178,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "autoz-crave",
           name: "AUTOZ CRAVE",
           industry: "Automotive & Mechanical",
+          industries: ["automotive-components"],
           description:
             "Autoz Crave industrial animation for mechanical and technical 3D product films.",
           projectCount: 1,

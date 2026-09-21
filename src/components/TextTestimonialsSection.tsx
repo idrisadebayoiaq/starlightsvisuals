@@ -12,7 +12,18 @@ import { cn } from "@/lib/utils";
 
 const MARQUEE_COPIES = 2;
 
-export function TextTestimonialsSection() {
+type TextTestimonialsSectionProps = {
+  industrialOnly?: boolean;
+  entertainmentOnly?: boolean;
+  /** Limit to specific static testimonial ids (e.g. industry page) */
+  onlyIds?: readonly string[];
+};
+
+export function TextTestimonialsSection({
+  industrialOnly,
+  entertainmentOnly,
+  onlyIds,
+}: TextTestimonialsSectionProps = {}) {
   const { t, i18n } = useTranslation();
   const sectionRef = useRef<HTMLDivElement>(null);
   const inView = useInView(sectionRef, { once: true, margin: "-5% 0px" });
@@ -113,8 +124,21 @@ export function TextTestimonialsSection() {
         id: item.id || `client-${item.name}-${index}`,
       }))
       .filter((item) => !staticIds.has(item.id));
-    return [...staticTestimonials, ...uniqueClient];
-  }, [approvedFromClients, staticTestimonials]);
+    let list = [...staticTestimonials, ...uniqueClient];
+
+    if (onlyIds && onlyIds.length > 0) {
+      const set = new Set(onlyIds);
+      list = list.filter((item) => set.has(item.id));
+    } else if (industrialOnly) {
+      const set = new Set(["hauke", "ilija", "luigi", "burkhard"]);
+      list = list.filter((item) => set.has(item.id));
+    } else if (entertainmentOnly) {
+      const set = new Set(["jeremy", "raiv", "jason", "robert"]);
+      list = list.filter((item) => set.has(item.id));
+    }
+
+    return list;
+  }, [approvedFromClients, staticTestimonials, industrialOnly, entertainmentOnly, onlyIds]);
 
   return (
     <>

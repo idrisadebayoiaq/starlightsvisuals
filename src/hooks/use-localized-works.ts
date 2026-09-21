@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 
+import { industriesForClient } from "@/data/industries";
 import { workCategories as staticCategories } from "@/data/portfolio-works";
 import {
   mergeCmsCategoryCatalog,
@@ -9,7 +10,16 @@ import {
 import { mergeCmsPortfolioIntoCategories, useCmsClients, useCmsVideos } from "@/hooks/use-cms-videos";
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
-function localizeProject(t: (key: string, options?: { defaultValue?: string }) => string, project: WorkProject): WorkProject {
+function withIndustryTags(client: WorkClient): WorkClient {
+  if (client.industries && client.industries.length > 0) return client;
+  const mapped = industriesForClient(client.slug);
+  return mapped.length > 0 ? { ...client, industries: mapped } : client;
+}
+
+function localizeProject(
+  t: (key: string, options?: { defaultValue?: string }) => string,
+  project: WorkProject,
+): WorkProject {
   const base = `works.projects.${project.id}`;
   return {
     ...project,
@@ -27,22 +37,23 @@ function localizeClient(
   client: WorkClient,
 ): WorkClient {
   const base = `works.clients.${categorySlug}.${client.slug}`;
+  const tagged = withIndustryTags(client);
   return {
-    ...client,
-    name: t(`${base}.name`, { defaultValue: client.name }),
-    industry: t(`${base}.industry`, { defaultValue: client.industry }),
-    description: t(`${base}.description`, { defaultValue: client.description }),
-    testimonial: client.testimonial
-      ? t(`${base}.testimonial`, { defaultValue: client.testimonial })
+    ...tagged,
+    name: t(`${base}.name`, { defaultValue: tagged.name }),
+    industry: t(`${base}.industry`, { defaultValue: tagged.industry }),
+    description: t(`${base}.description`, { defaultValue: tagged.description }),
+    testimonial: tagged.testimonial
+      ? t(`${base}.testimonial`, { defaultValue: tagged.testimonial })
       : undefined,
-    timeline: t(`${base}.timeline`, { defaultValue: client.timeline }),
-    services: client.services.map((service, index) =>
+    timeline: t(`${base}.timeline`, { defaultValue: tagged.timeline }),
+    services: tagged.services.map((service, index) =>
       t(`${base}.services.${index}`, { defaultValue: service }),
     ),
-    tools: client.tools.map((tool, index) =>
+    tools: tagged.tools.map((tool, index) =>
       t(`${base}.tools.${index}`, { defaultValue: tool }),
     ),
-    projects: client.projects.map((project) => localizeProject(t, project)),
+    projects: tagged.projects.map((project) => localizeProject(t, project)),
   };
 }
 
@@ -78,7 +89,10 @@ export function useLocalizedCategory(slug: string): WorkCategory | undefined {
   return categories.find((category) => category.slug === slug);
 }
 
-export function useLocalizedClient(categorySlug: string, clientSlug: string): WorkClient | undefined {
+export function useLocalizedClient(
+  categorySlug: string,
+  clientSlug: string,
+): WorkClient | undefined {
   const category = useLocalizedCategory(categorySlug);
   return category?.clients.find((client) => client.slug === clientSlug);
 }
@@ -103,6 +117,18 @@ export function useLocalizedShowcaseCategories() {
       }),
     [t, i18n.language, categories, cmsRows],
   );
+}
+
+/** Flat list of clients across categories, optionally filtered by industry slug */
+export function useClientsByIndustry(industrySlug?: string | null) {
+  const categories = useLocalizedCategories();
+  return useMemo(() => {
+    const clients = categories.flatMap((cat) =>
+      cat.clients.map((client) => ({ ...client, categorySlug: cat.slug })),
+    );
+    if (!industrySlug) return clients;
+    return clients.filter((c) => c.industries?.includes(industrySlug));
+  }, [categories, industrySlug]);
 }
 
 export function getLocalizedCategoryTitle(

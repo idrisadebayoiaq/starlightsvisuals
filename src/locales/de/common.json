@@ -7,16 +7,19 @@
     "email": "info@starlightvisualstudio.de"
   },
   "nav": {
-    "portfolio": "Portfolio",
+    "portfolio": "Arbeiten",
     "services": "Leistungen",
     "blog": "Blog",
-    "company": "Unternehmen",
+    "company": "Über uns",
     "contacts": "Kontakt",
     "about": "Über uns",
     "contact": "Kontakt",
-    "portfolioCta": "Portfolio →",
+    "portfolioCta": "Arbeiten →",
     "faq": "FAQ",
-    "writeReview": "Schreiben Sie eine Rezension"
+    "writeReview": "Schreiben Sie eine Rezension",
+    "industries": "Branchen",
+    "caseStudies": "Fallstudien",
+    "work": "Arbeiten"
   },
   "header": {
     "closeMenu": "Menü schließen",
@@ -43,11 +46,11 @@
   "footer": {
     "newsletterTitle": "WERDE TEIL DER",
     "newsletterHighlight": "KONSTELLATION",
-    "newsletterDesc": "Behind the Scenes Drops, Projekt Reveals und Trailer Premieren.",
+    "newsletterDesc": "Projekteinblicke, industrielle CGI Beispiele und Studio Updates.",
     "emailPlaceholder": "ihre@email.com",
     "join": "Anmelden",
     "subscribed": "✦ Du bist dabei. Willkommen bei Starlights.",
-    "tagline": "Ein Kreativstudio, das Fantasie durch filmische 2D Animationen, hochwertige 3D Erlebnisse und VFX zum Leben erweckt.",
+    "tagline": "CGI und Animation für Maschinenbauer, Robotik und Medizintechnik, aus CAD und komplexen Mechanismen werden Produktfilme, die verkaufen.",
     "explore": "Entdecken",
     "follow": "Folgen",
     "social": "Social Media Link",
@@ -59,45 +62,54 @@
     "adminLogin": "Admin",
     "privacy": "Datenschutz",
     "euGdpr": "EU DSGVO",
-    "imprint": "Impressum"
+    "imprint": "Impressum",
+    "entertainmentLink": "Brand & Entertainment"
   },
   "home": {
-    "metaTitle": "Starlights Visuals | Animations- und VFX Studio",
-    "metaDescription": "Ein Kreativstudio für 2D- und 3D Animation, VFX und filmisches Storytelling. Wir erwecken Welten, Charaktere und Filme zum Leben.",
-    "heroScript": "Geschichten in Bewegung,",
-    "heroTitle1": "ANIMATIONEN",
-    "heroTitle2": "UND VFX",
-    "heroBody": "Starlights Visuals erweckt Geschichten mit Animation und visuellen Effekten zum Leben, die Publikum fesseln und jeden Frame aufwerten. Wir animieren Fantasy Kreaturen, menschliche Charaktere, Fahrzeuge, Umgebungen, Requisiten und Hard Surface Objekte für Film, Serien, Werbung und Markenkampagnen.",
+    "metaTitle": "Starlights Visuals | CGI & Animation für die Industrie",
+    "metaDescription": "CGI und Animation für Maschinenbauer, Robotik und Medizintechnik. CAD zu CGI Produktfilme, Explosionsdarstellungen und technische Erklärfilme.",
+    "heroScript": "Technische Visuals, die verkaufen,",
+    "heroTitle1": "CGI FÜR",
+    "heroTitle2": "DIE INDUSTRIE",
+    "heroBody": "CGI und Animation für Maschinenbauer, Robotik und Hersteller von Medizintechnik. Wir verwandeln CAD Daten und komplexe Mechanismen in Produktfilme, Explosionsanimationen und technische Erklärfilme, für Websites, Vertriebsteams und Messen.",
     "heroAlt": "Filmheld von Starlights Visuals",
-    "seePortfolio": "Siehe Portfolio",
-    "startProject": "Starten Sie ein Projekt",
-    "servicesLabel": "Was wir tun",
-    "servicesTitle": "DIENSTLEISTUNGEN",
-    "allServices": "Alle Dienstleistungen",
-    "showcaseLabel": "Aktuelle Arbeiten",
-    "showcaseTitle1": "AUSGEWÄHLT",
+    "seePortfolio": "Arbeiten ansehen",
+    "startProject": "Gespräch buchen",
+    "servicesLabel": "Industrielle Leistungen",
+    "servicesTitle": "LEISTUNGEN",
+    "allServices": "Alle Leistungen",
+    "showcaseLabel": "Ausgewählte Arbeiten",
+    "showcaseTitle1": "INDUSTRIE",
     "showcaseTitle2": "ARBEITEN",
-    "fullPortfolio": "Vollständiges Portfolio",
+    "fullPortfolio": "Alle Arbeiten",
     "viewAllFaq": "Alle FAQ anzeigen",
-    "ctaScript": "Lasst uns etwas bauen,",
-    "ctaTitle1": "BEREIT ZU",
-    "ctaTitle2": "ZUSAMMENARBEITEN?",
+    "ctaScript": "Bereit für die nächste Messe,",
+    "ctaTitle1": "LASS UNS",
+    "ctaTitle2": "IHR FILM BAUEN",
     "services": {
       "01": {
-        "title": "Animation und VFX",
-        "desc": "Filmische 2D- und 3D Animationen, Charakter Rigs und visuelle Effekte für Filme, Serien und Marken."
+        "title": "Technische Produktanimation",
+        "desc": "Zeigen, wie die Maschine innen und außen funktioniert, mit Genauigkeit, der Ingenieure vertrauen."
       },
       "02": {
-        "title": "Produktanimation",
-        "desc": "Fotorealistische Produktfilme, Packshots und CGI, die jedes Detail verkaufen."
+        "title": "Explosions und Montageanimation",
+        "desc": "Für Handbücher, Ersatzteile und Service Training, das Komplexität verständlich macht."
       },
       "03": {
-        "title": "Konzept- und Charakterkunst",
-        "desc": "Originalcharaktere, Kreaturen, Umgebungen und Requisiten, die Ihr geistiges Eigentum verankern."
+        "title": "Messefilme und CGI Renders",
+        "desc": "Ersetzen Sie teure Dreharbeiten vor Ort bei großen Maschinen durch fotorealistisches CGI für den Stand."
       },
       "04": {
-        "title": "Filmische Trailer",
-        "desc": "Storybasierte Trailer zur Einführung von Marken, IPs und Kampagnen."
+        "title": "CAD zu CGI Konvertierung",
+        "desc": "SolidWorks, CATIA, STEP und IGES, aus Engineering Daten werden marketingtaugliche Filme."
+      },
+      "05": {
+        "title": "Robotik und Bewegungssimulation",
+        "desc": "Automatisierte Abläufe, Cobots und Pick and Place für Sales Enablement visualisieren."
+      },
+      "06": {
+        "title": "Sales und Marketing Erklärfilme",
+        "desc": "Erklärfilme für Website, LinkedIn und Hannover Messe, die Ihr Team klar unterstützt."
       }
     },
     "showcase": {
@@ -204,16 +216,16 @@
     "tapToRead": "Tippen Sie hier, um die vollständige Rezension zu lesen"
   },
   "servicesPage": {
-    "metaTitle": "Dienstleistungen | Starlights Visuals",
-    "metaDescription": "2D Animation, 3D Animation, Charakterdesign, Bewegungsgrafiken, VFX, Produktanimation und Kinotrailer.",
-    "label": "Was wir bauen",
-    "title": "DIENSTLEISTUNGEN",
-    "subtitle": "Ein Studio, jede Produktionsphase, von der ersten Skizze bis zum endgültigen Pixel.",
-    "ctaTitle1": "HABE A",
-    "ctaTitle2": "PROJEKT",
-    "ctaTitle3": "IN DENKEN?",
-    "ctaDesc": "Sagen Sie uns Ihre Vision, wir bringen die Feuerkraft.",
-    "ctaButton": "Nehmen Sie Kontakt auf",
+    "metaTitle": "Industrielle CGI Leistungen | Starlights Visuals",
+    "metaDescription": "Technische Produktanimation, Explosionsansichten, Messefilme, Robotik Visuals, Sales Erklärfilme und CAD zu CGI.",
+    "label": "Industrielles CGI",
+    "title": "LEISTUNGEN",
+    "subtitle": "Ergebnisorientierte Deliverables für Maschinenbauer, Robotik Teams und Medizintechnik.",
+    "ctaTitle1": "BRAUCHEN SIE EINEN",
+    "ctaTitle2": "MESSE",
+    "ctaTitle3": "FILM?",
+    "ctaDesc": "Erzählen Sie uns von der Maschine, dem Deadline und dem verfügbaren CAD.",
+    "ctaButton": "Gespräch buchen",
     "items": {
       "2d": {
         "title": "2D Animation",
@@ -238,12 +250,198 @@
       "trailer": {
         "title": "Filmische Trailer",
         "desc": "Storybasierte Trailer, die darauf ausgelegt sind, Marken, IPs und Kampagnen mit maximaler Wirkung auf den Markt zu bringen."
+      },
+      "technical": {
+        "title": "Technische Produktanimation",
+        "desc": "Wie die Maschine funktioniert, Cutaways, innere Mechanismen und äußere Bewegung mit Engineering Genauigkeit."
+      },
+      "exploded": {
+        "title": "Explosions und Montageanimation",
+        "desc": "Für Handbücher, Ersatzteilkataloge und Service Training ohne Live Maschine vor Ort."
+      },
+      "tradeShow": {
+        "title": "CGI Renders und Messefilme",
+        "desc": "Standfertige Filme und Hero Renders statt teurer Drehs großer Anlagen."
+      },
+      "robotics": {
+        "title": "Robotik und Bewegungssimulation",
+        "desc": "Automatisierte Zellen, Cobots und Pick and Place für Vertrieb und Marketing."
+      },
+      "explainer": {
+        "title": "Sales und Marketing Erklärfilme",
+        "desc": "Website, LinkedIn und Messe Erklärfilme, die Produkt und Sales Teams klar kommunizieren lassen."
+      },
+      "cad": {
+        "title": "CAD zu CGI Konvertierung",
+        "desc": "STEP, IGES, SolidWorks und CATIA Exporte in fotorealistisches CGI Motion überführen."
+      }
+    },
+    "entertainmentCta": "Suchen Sie Character, VFX oder Brand Entertainment?",
+    "entertainmentLink": "Brand & Entertainment Leistungen",
+    "detailsNav": {
+      "back": "Alle Leistungen",
+      "outcomes": "Was Sie erhalten",
+      "audience": "Für wen es ist",
+      "process": "So arbeiten wir",
+      "related": "Verwandte Leistungen",
+      "readMore": "Mehr erfahren"
+    },
+    "details": {
+      "technical": {
+        "metaTitle": "Technische Produktanimation | Starlights Visuals",
+        "metaDescription": "Engineering genaue CGI Filme, die zeigen, wie Industriemaschinen innen und außen funktionieren.",
+        "intro": "Technische Produktanimation macht komplexe Mechanismen verständlich. Wir bauen Cutaways, Innenansichten und äußere Sequenzen, denen Ingenieure vertrauen und die Käufer verstehen.",
+        "outcomes": [
+          "Cutaways und transparente Ansichten für innere Mechanismen",
+          "Motion abgestimmt auf reale Betriebsabläufe",
+          "Assets für Website, Sales Decks und Messeloops",
+          "Review Schritte mit Ihrem Engineering Team vor der finalen Lieferung"
+        ],
+        "audience": [
+          "Maschinenbauer mit mehrstufigen Prozessen",
+          "Product Manager bei Launch neuer Serien oder Features",
+          "Sales Teams, wenn die Maschine nicht mitreisen kann",
+          "Marketing, das Genauigkeit ohne Live Dreh braucht"
+        ],
+        "steps": [
+          "Briefing und CAD Aufnahme unter NDA",
+          "Look Development und technisches Storyboard mit Ihren Engineers",
+          "Animation mit geplanten Accuracy Reviews",
+          "Finale Lieferung für Web, Stand und Sales Enablement"
+        ],
+        "ctaTitle": "Bereit zu zeigen, wie Ihre Maschine wirklich funktioniert?",
+        "ctaDesc": "Produkt, Deadline und CAD Status reichen. Antwort innerhalb von 24 Stunden."
+      },
+      "exploded": {
+        "metaTitle": "Explosionsanimation | Starlights Visuals",
+        "metaDescription": "Explosions und Montageanimationen für Ersatzteilhandbücher, Service Training und industriellen Vertrieb.",
+        "intro": "Explosions und Montagefilme machen Teilebeziehungen und Reihenfolge klar. Ideal für Handbücher, Ersatzteilportale und Techniker Onboarding.",
+        "outcomes": [
+          "BOM orientierte Teilegruppen passend zu Ihrer Dokumentation",
+          "Klare Montage und Demontage Reihenfolge in Motion",
+          "Stills und Film Exports für Handbücher und Trainingsportale",
+          "Lesbare Beschriftung und kamera Wege für den Service"
+        ],
+        "audience": [
+          "Service und Aftermarket Teams",
+          "Ersatzteil Marketing für Kits und Varianten",
+          "Training Leads für Remote Onboarding",
+          "Hersteller, die Support Tickets zu Baugruppen senken wollen"
+        ],
+        "steps": [
+          "CAD und BOM Review für Prioritätskapitel",
+          "Montage Storyboard mit Ihren Label Konventionen",
+          "Animation von Explode, Isolate und Reassemble",
+          "Export von Stills, Kurzfilmen und optionalen Frames"
+        ],
+        "ctaTitle": "Klarere Visuals für Ersatzteile und Service?",
+        "ctaDesc": "Sagen Sie uns, welche Baugruppen die meisten Fragen auslösen. Wir starten mit Ihrem CAD."
+      },
+      "trade-show": {
+        "metaTitle": "Messefilme und CGI Renders | Starlights Visuals",
+        "metaDescription": "Standfertige CGI Filme und Produktrenders für Industriemessen ohne teure Drehs vor Ort.",
+        "intro": "Große Maschinen sind teuer zu drehen und schwer zu inszenieren. CGI Renders und Messefilme liefern standfertige Motion mit Engineer Review.",
+        "outcomes": [
+          "Hero Filme für Stand Loops und LED Walls",
+          "Fotorealistische Renders für Print und Digital",
+          "Zeitpläne rückwärts vom Messetermin mit Meilensteinen",
+          "Formate auch für LinkedIn Cutdowns nach der Messe"
+        ],
+        "audience": [
+          "Aussteller für Hannover Messe und ähnliche Events",
+          "Teams, die die Maschine nicht zu jedem Venue bringen können",
+          "Agenturen mit Bedarf an industriellem CGI für den Stand",
+          "Sales Leader, die einen Loop Film mit Aufmerksamkeit brauchen"
+        ],
+        "steps": [
+          "Use Cases, Screen Größen und Must show Features definieren",
+          "CAD zu Look Development mit Marken Lighting",
+          "Master Film plus kurze Loops für Dauerbetrieb",
+          "Show ready Files inklusive Backup Formate für AV Teams"
+        ],
+        "ctaTitle": "Messedeadline vor der Tür?",
+        "ctaDesc": "Messedatum und Pflichtinhalte auf dem Screen. Wir planen Meilensteine rückwärts."
+      },
+      "robotics": {
+        "metaTitle": "Robotik Bewegungssimulation | Starlights Visuals",
+        "metaDescription": "CGI für Robotik Zellen, Cobots und Pick and Place Workflows für Sales und Marketing.",
+        "intro": "Robotik und Automationszellen sind schwer sauber zu filmen. Wir visualisieren Cobots, Pick and Place und Zellenlayouts, damit Prospects Durchsatz und Sicherheit verstehen.",
+        "outcomes": [
+          "Zellenlayouts und Motion Paths passend zu Integrator Drawings",
+          "Zyklus Storytelling für Takt und Throughput",
+          "Sicherheitszonen und Workflow Klarheit für Nicht Spezialisten",
+          "Filme für RFQs, LinkedIn und Stand Loops"
+        ],
+        "audience": [
+          "Automationsbauer und Systemintegratoren",
+          "Robotik OEMs vor der Installation",
+          "Sales Engineers bei komplexen RFQs",
+          "Marketing ohne Zugang zu Live Produktionszellen"
+        ],
+        "steps": [
+          "NDA und Layout Intake aus CAD oder Drawings",
+          "Motion Referenzen mit Ihrem Applications Team",
+          "Simulationsnahe Animation mit Accuracy Reviews",
+          "Hero Film und Kurzclips für digitale Kanäle"
+        ],
+        "ctaTitle": "Automationszelle klar zeigen?",
+        "ctaDesc": "Layouts oder CAD unter NDA und die Workflows, die Käufer verstehen müssen."
+      },
+      "explainer": {
+        "metaTitle": "Sales und Marketing Erklärfilme | Starlights Visuals",
+        "metaDescription": "Industrielle Erklärfilme für Website, LinkedIn und Messen, die Teams helfen, komplexe Produkte zu verkaufen.",
+        "intro": "Sales und Marketing Erklärfilme übersetzen technischen Nutzen in einen kurzen Film, den Ihr Team senden, einbetten und am Stand spielen kann.",
+        "outcomes": [
+          "Skript und Struktur entlang von Käuferfragen",
+          "Technische Genauigkeit ohne die Botschaft zu begraben",
+          "Versionen für Web, Social und Messescreens",
+          "Klare CTAs in Richtung Sales Gespräch"
+        ],
+        "audience": [
+          "Product Marketing bei Feature oder SKU Launches",
+          "Sales Teams mit Bedarf an teilbarer Produktstory",
+          "Founder für Partner und Investor Pitches",
+          "Distributoren mit späterem Lokalisierungsbedarf"
+        ],
+        "steps": [
+          "Discovery zu Audience, Offer und Proof Points",
+          "Skript und Visual Outline zur Freigabe",
+          "Produktion mit optionalen CAD Produktshots",
+          "Cutdowns und Captions für Ihre Hauptkanäle"
+        ],
+        "ctaTitle": "Erklärfilm, den Sales wirklich nutzt?",
+        "ctaDesc": "Produktstory und Einsatzorte. Wir scopen ein praktisches Paket."
+      },
+      "cad": {
+        "metaTitle": "CAD zu CGI Konvertierung | Starlights Visuals",
+        "metaDescription": "SolidWorks, CATIA, STEP und IGES Daten in fotorealistische CGI Produktfilme für industrielles Marketing überführen.",
+        "intro": "CAD zu CGI ist die Brücke von Engineering Daten zu marketingtauglicher Motion. Wir nehmen gängige Formate an und machen daraus fotorealistische Filme.",
+        "outcomes": [
+          "Support für STEP, IGES, SolidWorks und CATIA Exporte",
+          "Cleanup und Optimierung schwerer Assemblies",
+          "Materials und Lighting wie echte Produktfotografie",
+          "Pfad von Roh CAD zu stand und website fertigen Files"
+        ],
+        "audience": [
+          "Hersteller mit CAD aber ohne Marketingfilm",
+          "Engineering Teams ohne Photoshoot Kapazität",
+          "Agenturen mit CAD Handoff für Industrie Kunden",
+          "Teams unter NDA mit unveröffentlichter Geometrie"
+        ],
+        "steps": [
+          "Sicherer CAD Handoff unter NDA und Format Check",
+          "Cleanup, Hierarchie und Material Look Development",
+          "Animation und Lighting mit Engineer Review",
+          "Finale CGI Lieferung plus optionale Stills"
+        ],
+        "ctaTitle": "CAD bereit für den Film?",
+        "ctaDesc": "Formate und Deadline. Wir bestätigen Kompatibilität vor Produktionsstart."
       }
     }
   },
   "aboutPage": {
-    "metaTitle": "Über | Starlights Visuals",
-    "metaDescription": "Starlight Visuals ist ein erstklassiges Animationsstudio, das außergewöhnliche visuelle Erlebnisse in den Bereichen Industrieproduktanimation, Spieleanimation, Produktvisualisierung sowie 2D- und 3D Charakteranimation schafft.",
+    "metaTitle": "Über uns | Starlights Visuals",
+    "metaDescription": "Industrielles CGI Studio für Maschinenbauer, Robotik und Medizintechnik, plus Brand und Entertainment Animation.",
     "label": "Wer wir sind",
     "title1": "EIN AUFBAUTES STUDIO",
     "title2": "LICHT, CODE & GESCHICHTE",
@@ -279,12 +477,12 @@
   },
   "contactPage": {
     "metaTitle": "Kontakt | Starlights Visuals",
-    "metaDescription": "Kontaktieren Sie Starlights Visuals für 2D- und 3D Animationen, Bewegungsgrafiken, VFX, Produktanimationen und filmische Trailerprojekte.",
+    "metaDescription": "Gespräch buchen für industrielles CGI, technische Produktanimation, CAD zu CGI und Messefilme.",
     "label": "Lass uns reden",
     "title": "KONTAKT",
-    "subtitle": "Produktionsanfragen, Kooperationen oder einfach Hallo sagen, senden Sie uns ein Signal.",
-    "formTitle": "PROJEKT STARTEN",
-    "formDesc": "Füllen Sie das Formular aus, wir melden uns innerhalb von 24 Stunden.",
+    "subtitle": "Anfragen für industrielles CGI, CAD zu Film Projekte oder Brand Work.",
+    "formTitle": "GESPRÄCH BUCHEN",
+    "formDesc": "Maschine, Timeline und CAD Status, Antwort innerhalb von 24 Stunden.",
     "name": "Name",
     "email": "E Mail",
     "projectType": "Projekttyp",
@@ -303,7 +501,14 @@
       "trailer": "Filmischer Trailer",
       "character": "Charakterdesign",
       "motion": "Motion Graphics und VFX",
-      "other": "Andere"
+      "other": "Sonstiges",
+      "technical": "Technische Produktanimation",
+      "exploded": "Explosions und Montageanimation",
+      "tradeShow": "Messefilm / CGI Renders",
+      "robotics": "Robotik und Bewegungssimulation",
+      "explainer": "Sales und Marketing Erklärfilm",
+      "cad": "CAD zu CGI Konvertierung",
+      "entertainment": "Brand und Entertainment"
     },
     "sending": "Senden…",
     "sentToast": "Nachricht erfolgreich gesendet.",
@@ -318,12 +523,12 @@
     }
   },
   "portfolioPage": {
-    "metaTitle": "Portfolio | Starlights Visuals",
-    "metaDescription": "Ausgewählte Projekte: Zeichentrickserien, Kinotrailer, Charakterdesigns und Studio Showcase Reels von Starlights Visuals.",
+    "metaTitle": "Arbeiten | Starlights Visuals",
+    "metaDescription": "Industrielles CGI und Animation, filtern nach Maschinenbau, Robotik, Medizintechnik, Automotive und mehr.",
     "label": "Ausgewählte Arbeiten",
-    "title1": "HAFEN",
-    "title2": "FOLIO",
-    "subtitle": "Ein Blick in die Welten, Charaktere und Geschichten, die wir zum Leben erweckt haben.",
+    "title1": "ARBEITEN",
+    "title2": "",
+    "subtitle": "Nach Branche filtern, so bewerten industrielle Käufer Partner.",
     "projects": {
       "trailer": {
         "tag": "Filmischer Trailer",
@@ -355,7 +560,11 @@
         "title": "Pulswelten",
         "desc": "Eindringliche Kunst im Markenumfeld."
       }
-    }
+    },
+    "filterAll": "Alle Branchen",
+    "filterIndustry": "Nach Branche filtern",
+    "byTechnique": "Nach Technik browsen",
+    "emptyIndustry": "Noch keine Projekte für diese Branche. Fallstudien ansehen oder Kontakt aufnehmen."
   },
   "blogPage": {
     "metaTitle": "Blog | Starlights Visuals",
@@ -1587,42 +1796,42 @@
   },
   "accordionPage": {
     "metaTitle": "FAQ | Starlights Visuals",
-    "metaDescription": "Alles, was Sie über die Zusammenarbeit mit uns wissen müssen, vom ersten Briefing bis zur finalen Lieferung.",
+    "metaDescription": "FAQ zu industriellem CGI, CAD Übergabe, NDAs, Engineer Review und Messe Timelines.",
     "label": "Häufige Fragen",
     "title": "FRAGEN & ANTWORTEN",
-    "subtitle": "Alles, was Sie über die Zusammenarbeit mit uns wissen müssen, vom ersten Briefing bis zur finalen Lieferung.",
+    "subtitle": "So arbeiten wir mit Herstellern, von CAD und NDA bis Engineer Review und Stand Deadline.",
     "sections": {
       "general": {
         "title": "Allgemein",
         "items": {
           "01": {
-            "question": "An welchen Projekttypen arbeitet ihr?",
-            "answer": "Wir produzieren Animationen, VFX, Cinematics, Motion Graphics, Produktfilme und Markenfilme für Film-, Serien-, Werbe- und DTC Marken. Die Briefings reichen von einzelnen Helden Assets bis hin zu kompletten Kampagnenpaketen."
+            "question": "An welchen Projekten arbeiten Sie?",
+            "answer": "Schwerpunkt industrielles CGI: technische Produktanimation, Explosionsansichten, Messefilme, Robotik Visuals und Sales Erklärfilme. Brand & Entertainment ist eine zweite Linie."
           },
           "02": {
-            "question": "Wo hat Starlights Visuals seinen Sitz?",
-            "answer": "Wir sind ein Remote First Studio mit Teammitgliedern über mehrere Zeitzonen hinweg. Wir arbeiten weltweit mit Kundinnen und Kunden zusammen und liefern produktionsreife Assets über strukturierte asynchrone Workflows und Live Reviews."
+            "question": "Wo ist Starlights Visuals ansässig?",
+            "answer": "Remote first Studio mit Kunden in Deutschland, Europa und weltweit, inklusive Messeterminen wie Hannover Messe."
           },
           "03": {
             "question": "Wie starte ich ein Projekt?",
-            "answer": "Kontaktieren Sie uns über das Kontaktformular mit Ihrem Briefing, Zeitplan und Referenzlinks. Wir vereinbaren ein Discovery Call, definieren den Umfang und senden ein Angebot mit Meilensteinen und Deliverables."
+            "answer": "Kontaktformular mit Produkt, Deadline und CAD Status (STEP/SolidWorks/CATIA unter NDA). Danach Discovery Call und Angebot mit Meilensteinen."
           }
         }
       },
       "services": {
-        "title": "Services & Umfang",
+        "title": "Leistungen & Umfang",
         "items": {
           "01": {
-            "question": "Welche Leistungen bietet ihr an?",
-            "answer": "Zu unseren Kerndienstleistungen gehören 2D- und 3D Animationen, VFX, Charakter- und Konzeptzeichnungen, Bewegungsgrafiken, Produktanimationen und Kinotrailer. Wir können einzelne Disziplinen oder die komplette Pipeline Produktion übernehmen."
+            "question": "Welche Leistungen für Industrie Kunden?",
+            "answer": "Technische Produktanimation, Explosions-/Montagefilme, CGI Renders und Messefilme, Robotik Simulation, Sales Erklärfilme und CAD zu CGI."
           },
           "02": {
-            "question": "Arbeitet ihr mit Indie Teams und großen Studios?",
-            "answer": "Ja. Wir arbeiten mit Indie Entwicklern, mittelgroßen Studios und globalen Marken zusammen. Umfang und Teamgröße passen sich Ihrem Budget und Zeitplan an, ohne Kompromisse beim Handwerk einzugehen."
+            "question": "Arbeiten Sie unter NDA mit proprietären Maschinen?",
+            "answer": "Ja. Klarer Vertraulichkeitsprozess vor Erhalt von CAD oder unveröffentlichten Produktdaten."
           },
           "03": {
-            "question": "Könnt ihr unseren bestehenden Art Style treffen?",
-            "answer": "Absolut. Wir beginnen mit Stilrahmen und einer Look Entwicklung, die an Ihren Markenrichtlinien oder Ihrer visuellen Welt ausgerichtet ist, bevor wir uns mit der vollständigen Produktion befassen."
+            "question": "Machen Sie noch Entertainment / Character Work?",
+            "answer": "Ja, siehe Brand & Entertainment. Industrielle Besucher sehen zuerst industrielle Botschaften."
           }
         }
       },
@@ -1630,16 +1839,16 @@
         "title": "Prozess & Lieferung",
         "items": {
           "01": {
-            "question": "Wie sehen typische Zeitpläne aus?",
-            "answer": "Zeitpläne hängen vom Umfang ab, ein Social Cutdown kann ein bis zwei Wochen dauern, während eine vollständige Cinematic vier bis acht Wochen laufen kann. In jedem Angebot definieren wir klare Meilensteine."
+            "question": "Typische Timelines für einen Messefilm?",
+            "answer": "Abhängig vom Scope, fokussierte Produktfilme in wenigen Wochen, größere Packages länger. Meilensteine gegen Ihren Stand- oder Launch Termin."
           },
           "02": {
-            "question": "Wie funktionieren Revisionen?",
-            "answer": "Jeder Meilenstein enthält eine festgelegte Anzahl an Revisionsrunden. Wir bündeln Feedback in strukturierten Review Sessions, damit Änderungen effizient und im Zeitplan bleiben."
+            "question": "Wie läuft die technische Freigabe?",
+            "answer": "Review Runden mit Ihren Ingenieuren, damit Mechanismen und Abläufe dem realen Produkt entsprechen."
           },
           "03": {
-            "question": "Welche Dateiformate liefert ihr?",
-            "answer": "Wir liefern formatfertige Exporte für Ihre Pipeline, MP4/MOV für Video, PNG/EXR Sequenzen bei Bedarf, auf Wunsch gelayerte Quelldateien sowie engine fertige Assets für Echtzeitprojekte."
+            "question": "Welche CAD Formate akzeptieren Sie?",
+            "answer": "STEP und IGES sowie SolidWorks und CATIA Exporte, wie sie Maschinenbauer und Gerätehersteller nutzen."
           }
         }
       }
@@ -1903,6 +2112,242 @@
       "message": "Nachricht",
       "send": "E Mail senden",
       "sending": "Senden…"
+    }
+  },
+  "trust": {
+    "label": "Für industrielle Entscheider",
+    "title": "VERTRAUEN & PROZESS",
+    "subtitle": "Worauf Hersteller achten, bevor sie einen CGI Partner briefen.",
+    "items": {
+      "cad": {
+        "title": "CAD Kompatibilität",
+        "desc": "SolidWorks, CATIA, STEP und IGES, wir arbeiten mit Ihren Engineering Daten, nicht mit Schätzungen."
+      },
+      "nda": {
+        "title": "NDA & Vertraulichkeit",
+        "desc": "Klarer NDA Prozess für proprietäre Maschinen, unveröffentlichte Produkte und sensible Baugruppen."
+      },
+      "review": {
+        "title": "Review mit Ingenieuren",
+        "desc": "Technische Freigabe mit Ihren Engineers vor der finalen Lieferung, keine Marketingfiktion."
+      },
+      "turnaround": {
+        "title": "Messedeadlines",
+        "desc": "Zeitpläne, die Stand, Launch und Go live Termine mit Meilensteinen treffen."
+      }
+    }
+  },
+  "entertainmentServicesPage": {
+    "metaTitle": "Brand & Entertainment | Starlights Visuals",
+    "metaDescription": "2D und 3D Character Animation, filmische Trailer, Motion Graphics und VFX für Brands und Entertainment.",
+    "label": "Zweite Geschäftslinie",
+    "title": "BRAND & ENTERTAINMENT",
+    "subtitle": "Wir produzieren weiterhin Character Animation, Trailer und VFX, parallel zu industriellem CGI.",
+    "backToIndustrial": "Zurück zu industriellen Leistungen",
+    "ctaButton": "Projekt starten",
+    "items": {
+      "2d": {
+        "title": "2D Animation",
+        "desc": "Frame by frame und geriggte 2D für Serien, Shorts, Erklärfilme und Brand Films."
+      },
+      "3d": {
+        "title": "3D Character & Welten",
+        "desc": "Stilisierte und fotorealistische Charaktere, Environments und filmische Sequenzen."
+      },
+      "character": {
+        "title": "Character Design",
+        "desc": "Originale Charaktere, Kreaturen und Concept Art für Ihr IP."
+      },
+      "motion": {
+        "title": "Motion Graphics",
+        "desc": "Branded Motion, UI Animation und Broadcast Packages mit filmischem Finish."
+      },
+      "vfx": {
+        "title": "Visual Effects (VFX)",
+        "desc": "Compositing, Particle FX und CG Integration für Film und Kampagnen."
+      },
+      "trailer": {
+        "title": "Filmische Trailer",
+        "desc": "Storybasierte Trailer für Brands, IPs und Kampagnen."
+      }
+    }
+  },
+  "industriesPage": {
+    "metaTitle": "Branchen | Starlights Visuals",
+    "metaDescription": "CGI und Animation für Maschinenbau, Robotik, Medizintechnik, Automotive Komponenten und mehr.",
+    "label": "Wen wir bedienen",
+    "title": "BRANCHEN",
+    "subtitle": "Eigene Seiten für Hersteller und Produktteams, die komplexe Technologie visuell verkaufen.",
+    "viewWork": "Verwandte Arbeiten",
+    "bookCall": "Gespräch buchen",
+    "painPoints": "Typische Herausforderungen",
+    "deliverables": "Typische Deliverables",
+    "relatedWork": "Verwandte Arbeiten",
+    "relatedCases": "Fallstudien",
+    "relatedIndustries": "Verwandte Branchen"
+  },
+  "caseStudiesPage": {
+    "metaTitle": "Fallstudien | Starlights Visuals",
+    "metaDescription": "Industrielle CGI Fallstudien, SmarAct, Novatorq, Mintec und INTEGRA-pw.",
+    "label": "Nachweis",
+    "title": "FALLSTUDIEN",
+    "subtitle": "Problem, Prozess, technische Constraints und Ergebnis, nicht nur Testimonials.",
+    "readCase": "Fallstudie lesen",
+    "problem": "Problem",
+    "process": "Prozess",
+    "constraints": "CAD & technische Constraints",
+    "result": "Ergebnis",
+    "watchFilm": "Film ansehen",
+    "backToIndex": "Alle Fallstudien",
+    "cta": "Ähnliches Projekt starten"
+  },
+  "industries": {
+    "metaTitle": "Branchen | Starlights Visuals",
+    "metaDescription": "CGI und Animation für Maschinenbau, Robotik, Medizintechnik, Automotive Komponenten und mehr.",
+    "label": "Wen wir bedienen",
+    "title": "BRANCHEN",
+    "subtitle": "Eigene Seiten für Hersteller und Produktteams, die komplexe Technologie visuell verkaufen.",
+    "viewWork": "Verwandte Arbeiten",
+    "bookCall": "Gespräch buchen",
+    "painPoints": "Typische Herausforderungen",
+    "deliverables": "Typische Deliverables",
+    "relatedWork": "Verwandte Arbeiten",
+    "relatedCases": "Fallstudien",
+    "relatedIndustries": "Verwandte Branchen",
+    "items": {
+      "industrial-machinery": {
+        "navLabel": "Maschinenbau & Anlagenbau",
+        "headline": "CGI Animation für Maschinenbauer",
+        "intro": "Komplexe Maschinen in klare Produktfilme verwandeln, für Vertrieb, Marketing und Distributoren ohne Live Demo.",
+        "pains": [
+          "Maschinen sind zu groß oder vertraulich für jeden Kampagnen Dreh vor Ort.",
+          "Käufer verstehen innere Mechanismen aus statischen CAD Screenshots schlecht.",
+          "Messestände brauchen Motion Assets, die Engineer Reviews standhalten.",
+          "Service und Ersatzteile brauchen Explosionsansichten passend zur realen Montage."
+        ]
+      },
+      "robotics-automation": {
+        "navLabel": "Robotik & Automation",
+        "headline": "CGI Animation für Robotik & Automation",
+        "intro": "Automatisierte Zellen, Präzisionspositionierung und Cobot Workflows in Bewegung zeigen.",
+        "pains": [
+          "Live Zellen sind schwer zu filmen, Produktion und IP.",
+          "Taktzeiten und Mehrachsbewegung sind in Stills schwer erklärbar.",
+          "Sales braucht Visuals für LinkedIn, RFQs und Stand Loops.",
+          "Integratoren müssen Zellenlayouts zeigen, bevor Hardware steht."
+        ]
+      },
+      "medical-devices": {
+        "navLabel": "Medizintechnik Hersteller",
+        "headline": "CGI Animation für Medizintechnik",
+        "intro": "Innere Mechanismen und Workflows visualisieren, ohne IP oder Regulatory Constraints zu verletzen.",
+        "pains": [
+          "Innereien zeigen, ohne proprietäre Designs unangemessen freizugeben.",
+          "Regulatory und Marketing brauchen abgestimmte, reviewbare Visuals.",
+          "Prototypen sind limitiert, teuer oder nicht kamera tauglich.",
+          "Kliniker und Einkauf brauchen Klarheit schneller als eine dichte IFU."
+        ]
+      },
+      "automotive-components": {
+        "navLabel": "Automotive Komponenten",
+        "headline": "CGI Animation für Automotive Komponenten",
+        "intro": "Antriebe, EV Subsysteme und mechanische Baugruppen mit technischem CGI erklären.",
+        "pains": [
+          "EV und Mechanik brauchen Cutaways und Motion.",
+          "OEM und Partner Präsentationen brauchen Genauigkeit plus Polish.",
+          "Prototypen sind nicht für jedes Meeting verfügbar.",
+          "Marketing Assets müssen von Engineering freigegeben werden."
+        ]
+      },
+      "packaging-machines": {
+        "navLabel": "Verpackungsmaschinen",
+        "headline": "CGI Animation für Verpackungsmaschinen",
+        "intro": "Formatwechsel, Durchsatz und Changeover zeigen, wenn die Linie nicht auf den Stand kommt.",
+        "pains": [
+          "Linien sind zu groß oder ausgelastet für jeden Marktdreh.",
+          "Changeovers brauchen klare Motion Storytelling.",
+          "Distributoren brauchen teilbare Filme für Kundengespräche."
+        ]
+      },
+      "cnc-machines": {
+        "navLabel": "CNC Maschinen",
+        "headline": "CGI Animation für CNC Hersteller",
+        "intro": "Mehrachs Toolpaths und Bearbeitungsvorteile erklären, ohne Live Maschine vor Ort.",
+        "pains": [
+          "Mehrachsbewegung ist in Fotos schwer vermittelbar.",
+          "Prospects können nicht immer Showroom oder Open House besuchen.",
+          "Messen brauchen Looping Filme, die technisch ehrlich bleiben."
+        ]
+      },
+      "industrial-pumps": {
+        "navLabel": "Industriepumpen",
+        "headline": "CGI Animation für Industriepumpen",
+        "intro": "Strömungswege, Dichtungen und Wartbarkeit mit Cutaways und Explosionsansichten zeigen.",
+        "pains": [
+          "Innere Strömung und Verschleißpunkte sind auf Produktfotos unsichtbar.",
+          "Service Handbücher brauchen klarere Montage Storytelling.",
+          "Sales braucht kurze Erklärfilme für komplexe SKUs."
+        ]
+      },
+      "industrial-electronics": {
+        "navLabel": "Industrieelektronik",
+        "headline": "CGI Animation für Industrieelektronik",
+        "intro": "Produktfilme und Erklärfilme für Steckverbinder, Module und Elektroniklinien mit Präzisionsvisuals.",
+        "pains": [
+          "Kleine Bauteile brauchen makroskopische Klarheit in Motion.",
+          "Produktfamilien Unterschiede müssen leicht vergleichbar sein.",
+          "Messe und Web Assets müssen zu Engineering Drawings passen."
+        ]
+      }
+    }
+  },
+  "caseStudies": {
+    "metaTitle": "Fallstudien | Starlights Visuals",
+    "metaDescription": "Industrielle CGI Fallstudien, SmarAct, Novatorq, Mintec und INTEGRA-pw.",
+    "label": "Nachweis",
+    "title": "FALLSTUDIEN",
+    "subtitle": "Problem, Prozess, technische Constraints und Ergebnis, nicht nur Testimonials.",
+    "readCase": "Fallstudie lesen",
+    "problem": "Problem",
+    "process": "Prozess",
+    "constraints": "CAD & technische Constraints",
+    "result": "Ergebnis",
+    "watchFilm": "Film ansehen",
+    "backToIndex": "Alle Fallstudien",
+    "cta": "Ähnliches Projekt starten",
+    "items": {
+      "smaract": {
+        "title": "SmarAct, Automations CGI für klare Kernkompetenzen",
+        "summary": "CGI Film, der Präzisionsautomation klar für Marketing und Sales darstellt.",
+        "problem": "SmarAct brauchte ein professionelles CGI Video, um Kernkompetenzen klar und visuell ansprechend zu präsentieren.",
+        "process": "Messaging abgestimmt, präzise Motion aus technischen Referenzen, schnelle Iteration mit Marketing, finale Files für digitale Kanäle.",
+        "constraints": "Präzisionsmechanismen erforderten visuelle Treue und schnelle, zuverlässige Lieferung.",
+        "result": "Klarer, professioneller CGI Film, mit schnellen Reaktionszeiten und verlässlicher Delivery laut Kundenfeedback."
+      },
+      "novatorq": {
+        "title": "Novatorq, EV Technologie, die Partner verstehen",
+        "summary": "Technische Animation, die erklärt, wie die EV Technologie funktioniert.",
+        "problem": "Novatorq brauchte Visuals, die Partnern klar zeigen, wie die EV / PHR Technologie funktioniert.",
+        "process": "Konzept mit Foundern geschärft, technische Storytelling Iterationen, Animation für Stakeholder Präsentationen.",
+        "constraints": "Engineering Genauigkeit und Klarheit für Nicht Spezialisten in einem Film.",
+        "result": "Klarere Präsentation für Partner und Stakeholder, reibungslose Zusammenarbeit."
+      },
+      "mintec": {
+        "title": "Mintec, M12 vs B12 Produktklarheit",
+        "summary": "Animationen, die Produktlinien Unterschiede für Käufer und Sales offensichtlich machen.",
+        "problem": "Mintec brauchte eine klare Darstellung der Unterschiede zwischen M12 und B12.",
+        "process": "Fokus auf kaufrelevante Details, hochwertige Animationen, lesbare Unterscheidungen.",
+        "constraints": "Produktvergleich musste akkurat und auf einen Blick verständlich bleiben.",
+        "result": "Animationen, die das Produktionsteam brauchte, klar, detailliert, sales ready."
+      },
+      "integra-pw": {
+        "title": "INTEGRA-pw, Komplexe Produkte leicht erklärt",
+        "summary": "Animation, die dem Vertrieb hilft, ein starkes Produkt selbstbewusst zu präsentieren.",
+        "problem": "Das Produkt war stark, es klar Kunden zu erklären blieb die Herausforderung.",
+        "process": "Verständnis der Funktionsweise, dann Animation die Aufmerksamkeit hält und klar kommuniziert.",
+        "constraints": "Technisches Storytelling musste treu und zugänglich bleiben.",
+        "result": "Professioneller Film für mehr Präsentationssicherheit im Sales, direkte Zusammenarbeit."
+      }
     }
   }
 }

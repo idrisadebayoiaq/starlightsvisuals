@@ -171,6 +171,8 @@ html.light {
     color: var(--color-foreground);
     font-family: var(--font-body);
     -webkit-font-smoothing: antialiased;
+    hyphens: none;
+    -webkit-hyphens: none;
   }
   h1, h2, h3, h4, .font-display {
     font-family: var(--font-display);

@@ -38,11 +38,13 @@ function ContactPage() {
 
   const projectTypes = useMemo(
     () => [
-      t("contactPage.projectTypes.2d"),
-      t("contactPage.projectTypes.3d"),
-      t("contactPage.projectTypes.trailer"),
-      t("contactPage.projectTypes.character"),
-      t("contactPage.projectTypes.motion"),
+      t("contactPage.projectTypes.technical"),
+      t("contactPage.projectTypes.exploded"),
+      t("contactPage.projectTypes.tradeShow"),
+      t("contactPage.projectTypes.robotics"),
+      t("contactPage.projectTypes.explainer"),
+      t("contactPage.projectTypes.cad"),
+      t("contactPage.projectTypes.entertainment"),
       t("contactPage.projectTypes.other"),
     ],
     [t],

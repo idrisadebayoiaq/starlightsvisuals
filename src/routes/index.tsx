@@ -1,37 +1,49 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
+import { ArrowRight, ArrowUpRight } from "lucide-react";
+
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { HomeBlogSection } from "@/components/HomeBlogSection";
 import { HomeFaqSection } from "@/components/HomeFaqSection";
 import { TextTestimonialsSection } from "@/components/TextTestimonialsSection";
 import { TrustedBySection } from "@/components/TrustedBySection";
-import { VideoTestimonialsSection } from "@/components/VideoTestimonialsSection";
+import { TrustSignalsSection } from "@/components/TrustSignalsSection";
 import { HeroBackgroundVideo } from "@/components/HeroBackgroundVideo";
 import { SelectedWorkCard } from "@/components/works/SelectedWorkCard";
 import { useLocalizedShowcaseCategories } from "@/hooks/use-localized-works";
+import { HOME_SERVICE_SLUGS } from "@/data/industrial-services";
 import { pageHead, siteMeta } from "@/lib/site-meta";
-import { ArrowRight, ArrowUpRight } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   head: () => pageHead(siteMeta.home),
   component: Home,
 });
 
+const INDUSTRIAL_SHOWCASE_SLUGS = ["branding", "video-editing", "3d-animation"] as const;
+
 function Home() {
   const { t, i18n } = useTranslation();
   const showcaseCategories = useLocalizedShowcaseCategories();
 
   const services = useMemo(
-    () => [
-      { num: "01", title: t("home.services.01.title"), desc: t("home.services.01.desc") },
-      { num: "02", title: t("home.services.02.title"), desc: t("home.services.02.desc") },
-      { num: "03", title: t("home.services.03.title"), desc: t("home.services.03.desc") },
-      { num: "04", title: t("home.services.04.title"), desc: t("home.services.04.desc") },
-    ],
+    () =>
+      (["01", "02", "03", "04", "05", "06"] as const).map((num, index) => ({
+        num,
+        slug: HOME_SERVICE_SLUGS[index],
+        title: t(`home.services.${num}.title`),
+        desc: t(`home.services.${num}.desc`),
+      })),
     [t, i18n.language],
   );
+
+  const industrialShowcase = useMemo(() => {
+    const preferred = INDUSTRIAL_SHOWCASE_SLUGS.map((slug) =>
+      showcaseCategories.find((c) => c.slug === slug),
+    ).filter(Boolean) as typeof showcaseCategories;
+    return preferred.length > 0 ? preferred : showcaseCategories.slice(0, 3);
+  }, [showcaseCategories]);
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -46,7 +58,7 @@ function Home() {
             {t("home.heroScript")}
           </p>
 
-          <h1 className="mt-6 font-display text-[14vw] leading-[0.9] tracking-tight text-white drop-shadow-[0_4px_28px_rgba(0,0,0,0.85)] md:text-[7.5rem] lg:text-[9rem]">
+          <h1 className="mt-6 font-display text-[12vw] leading-[0.9] tracking-tight text-white drop-shadow-[0_4px_28px_rgba(0,0,0,0.85)] md:text-[6.5rem] lg:text-[7.5rem]">
             <span className="block">{t("home.heroTitle1")}</span>
             <span className="block text-outline-hero">{t("home.heroTitle2")}</span>
           </h1>
@@ -62,7 +74,7 @@ function Home() {
             <path d="M5 50 C 80 5, 150 90, 230 40 S 380 10, 460 55 S 580 30, 595 45" />
           </svg>
 
-          <p className="mt-10 max-w-lg text-base leading-relaxed text-white/90 drop-shadow-[0_2px_14px_rgba(0,0,0,0.9)] md:text-lg">
+          <p className="mt-10 max-w-xl text-base leading-relaxed text-white/90 drop-shadow-[0_2px_14px_rgba(0,0,0,0.9)] md:text-lg">
             {t("home.heroBody")}
           </p>
 
@@ -107,11 +119,12 @@ function Home() {
             {services.map((s) => (
               <Link
                 key={s.num}
-                to="/services"
+                to="/services/$slug"
+                params={{ slug: s.slug }}
                 className="group grid grid-cols-1 items-center gap-4 py-8 md:grid-cols-[80px_1fr_1fr_40px] md:gap-10"
               >
                 <span className="font-display text-xs text-muted-foreground">{s.num}</span>
-                <h3 className="font-display text-3xl tracking-tight transition group-hover:text-neon-green md:text-5xl">
+                <h3 className="font-display text-2xl tracking-tight transition group-hover:text-neon-green md:text-4xl">
                   {s.title}
                 </h3>
                 <p className="text-sm text-muted-foreground md:text-base">{s.desc}</p>
@@ -121,6 +134,8 @@ function Home() {
           </div>
         </div>
       </section>
+
+      <TrustSignalsSection />
 
       <section className="border-b border-border/40">
         <div className="mx-auto max-w-7xl px-6 py-24 md:px-14">
@@ -141,7 +156,7 @@ function Home() {
           </div>
 
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {showcaseCategories.map((item, index) => (
+            {industrialShowcase.map((item, index) => (
               <SelectedWorkCard
                 key={item.slug}
                 slug={item.slug}
@@ -156,8 +171,7 @@ function Home() {
       </section>
 
       <HomeBlogSection />
-      <TextTestimonialsSection />
-      <VideoTestimonialsSection />
+      <TextTestimonialsSection industrialOnly />
       <HomeFaqSection />
 
       <section className="relative isolate overflow-hidden border-b border-border/40">

@@ -15,6 +15,8 @@ export type WorkClient = {
   slug: string;
   name: string;
   industry: string;
+  /** Industry taxonomy slugs for filtering (e.g. robotics-automation) */
+  industries?: string[];
   description: string;
   projectCount: number;
   testimonial?: string;

@@ -91,6 +91,7 @@ export type PortfolioClientRow = {
   slug: string;
   name: string;
   industry: string;
+  industries?: string[];
   description: string;
   logo_url: string;
   banner_url: string;

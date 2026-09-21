@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
+import { industriesForClient } from "@/data/industries";
 import { PROJECT_PLACEHOLDER } from "@/data/portfolio-placeholder";
 import {
   getSupabase,
@@ -11,6 +12,13 @@ import {
 import { resolveVideoEmbed } from "@/lib/youtube";
 import { ensureCmsTranslationsBatchFn, type CmsTranslationFields } from "@/server/cms-translations";
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
+
+function resolveClientIndustries(cmsClient: PortfolioClientRow): string[] {
+  if (cmsClient.industries && cmsClient.industries.length > 0) {
+    return cmsClient.industries;
+  }
+  return industriesForClient(cmsClient.slug);
+}
 
 const BATCH_SIZE = 40;
 
@@ -258,7 +266,17 @@ export function mergeCmsPortfolioIntoCategories(
       if (existingSlugs.has(cmsClient.slug)) {
         const index = mergedClients.findIndex((c) => c.slug === cmsClient.slug);
         if (index >= 0) {
-          mergedClients[index] = attachCmsProjects(mergedClients[index], clientVideos);
+          const attached = attachCmsProjects(mergedClients[index], clientVideos);
+          mergedClients[index] = {
+            ...attached,
+            industries: resolveClientIndustries(cmsClient).length
+              ? resolveClientIndustries(cmsClient)
+              : attached.industries,
+            industry: cmsClient.industry || attached.industry,
+            description: cmsClient.description || attached.description,
+            logo: cmsClient.logo_url || attached.logo,
+            banner: cmsClient.banner_url || attached.banner,
+          };
         }
         continue;
       }
@@ -286,6 +304,7 @@ export function mergeCmsPortfolioIntoCategories(
             slug,
             name,
             industry: "",
+            industries: industriesForClient(slug),
             description: "",
             logo_url: "",
             banner_url: "",
@@ -336,6 +355,7 @@ function cmsClientToWorkClient(
     slug: cmsClient.slug,
     name: cmsClient.name,
     industry: cmsClient.industry || "Animation",
+    industries: resolveClientIndustries(cmsClient),
     description: cmsClient.description || `${cmsClient.name} projects by Starlights Visuals.`,
     projectCount: projects.length,
     logo: cmsClient.logo_url || hero?.thumbnail || PROJECT_PLACEHOLDER,
