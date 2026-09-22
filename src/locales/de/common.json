@@ -1254,9 +1254,9 @@
           }
         },
         "phr-1": {
-          "name": "PHR 1",
-          "industry": "Elektrischer Antriebsstrang",
-          "description": "Produktanimation für den elektrischen Antriebsstrang PHR 1 mit technischer Beleuchtung und filmischem Feinschliff.",
+          "name": "PHR-1 · NOVATORQ",
+          "industry": "EV / E-Mobilität",
+          "description": "PHR-1 ist dasselbe CGI Projekt für den elektrischen Antriebsstrang, das wir für Novatorq umgesetzt haben, mit technischer Beleuchtung und filmischem Feinschliff.",
           "timeline": "2025",
           "services": {
             "0": "Industrielle Animation",
@@ -1761,11 +1761,12 @@
         }
       },
       "phr-1-p1": {
-        "title": "Elektrischer Antriebsstrang PHR 1",
-        "description": "Fotorealistische Animation des elektrischen Antriebsstrangs PHR 1 mit filmischer Kameraführung und technischen Details.",
+        "title": "PHR-1 · Novatorq Elektrischer Antriebsstrang",
+        "description": "Fotorealistische PHR-1 Antriebsstrang Animation für Novatorq mit filmischer Kameraführung und technischen Details.",
         "tags": {
           "0": "Industriell",
-          "1": "PHR 1"
+          "1": "Novatorq",
+          "2": "PHR-1"
         }
       },
       "atx-p1": {

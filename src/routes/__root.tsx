@@ -4,7 +4,6 @@ import {
   Link,
   createRootRouteWithContext,
   useRouter,
-  useRouterState,
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
@@ -13,9 +12,7 @@ import { useTranslation } from "react-i18next";
 import { I18nShell } from "@/components/I18nShell";
 import { Toaster } from "@/components/ui/sonner";
 import { AuthProvider } from "@/contexts/auth-context";
-import { SidebarProvider, useSidebar } from "@/contexts/sidebar-context";
 import { ThemeProvider, THEME_STORAGE_KEY } from "@/contexts/theme-context";
-import { cn } from "@/lib/utils";
 import appCss from "../styles.css?url";
 import { pageHead, siteMeta } from "@/lib/site-meta";
 import "@/i18n";
@@ -129,35 +126,16 @@ function RootShell({ children }: { children: React.ReactNode }) {
   );
 }
 
-function MainContent() {
-  const { desktopOpen } = useSidebar();
-  const pathname = useRouterState({ select: (s) => s.location.pathname });
-  const isAdmin = pathname.startsWith("/admin");
-
-  return (
-    <div
-      className={cn(
-        "transition-[padding-left] duration-300 ease-out",
-        !isAdmin && (desktopOpen ? "md:pl-[200px]" : "md:pl-0"),
-      )}
-    >
-      <Outlet />
-    </div>
-  );
-}
-
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
   return (
     <QueryClientProvider client={queryClient}>
       <ThemeProvider>
         <AuthProvider>
-          <SidebarProvider>
-            <I18nShell>
-              <MainContent />
-              <Toaster richColors position="top-right" />
-            </I18nShell>
-          </SidebarProvider>
+          <I18nShell>
+            <Outlet />
+            <Toaster richColors position="top-right" />
+          </I18nShell>
         </AuthProvider>
       </ThemeProvider>
     </QueryClientProvider>

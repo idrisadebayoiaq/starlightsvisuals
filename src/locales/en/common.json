@@ -1129,9 +1129,9 @@
           }
         },
         "phr-1": {
-          "name": "PHR 1",
-          "industry": "Electric Powertrain",
-          "description": "PHR 1 electric power train product animation with technical lighting and cinematic polish.",
+          "name": "PHR-1 · NOVATORQ",
+          "industry": "EV / E-Mobility",
+          "description": "PHR-1 is the same electric powertrain CGI project we produced for Novatorq, with technical lighting and cinematic polish.",
           "timeline": "2025",
           "services": {
             "0": "Industrial Animation",
@@ -1636,11 +1636,12 @@
         }
       },
       "phr-1-p1": {
-        "title": "PHR 1 Electric Power Train",
-        "description": "Photoreal PHR 1 electric power train animation with cinematic camera work and technical detail.",
+        "title": "PHR-1 · Novatorq Electric Powertrain",
+        "description": "Photoreal PHR-1 electric powertrain animation for Novatorq, with cinematic camera work and technical detail.",
         "tags": {
           "0": "Industrial",
-          "1": "PHR 1"
+          "1": "Novatorq",
+          "2": "PHR-1"
         }
       },
       "atx-p1": {

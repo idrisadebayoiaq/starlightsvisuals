@@ -894,64 +894,6 @@ const rawWorkCategories: WorkCategory[] = [
     clients: [
       client(
         {
-          slug: "smaract",
-          name: "SMARACT",
-          industry: "Robotics & Automation",
-          industries: ["robotics-automation"],
-          description:
-            "CGI and technical product animation for SmarAct precision automation and positioning systems.",
-          projectCount: 1,
-          logo: PROJECT_PLACEHOLDER,
-          banner: PROJECT_PLACEHOLDER,
-          services: ["Technical Product Animation", "CAD-to-CGI", "Sales Explainer"],
-          timeline: "2025",
-          tools: ["Cinema 4D", "Blender", "After Effects"],
-          projects: [
-            {
-              title: "SmarAct Automation CGI Film",
-              description:
-                "CGI film presenting SmarAct core automation competencies with clear technical storytelling.",
-              thumbnail: PROJECT_PLACEHOLDER,
-              mediaType: "video",
-              mediaSrc: "",
-              tags: ["Robotics", "Automation"],
-              year: 2025,
-            },
-          ],
-        },
-        "smaract",
-      ),
-      client(
-        {
-          slug: "novatorq",
-          name: "NOVATORQ",
-          industry: "EV / E-Mobility",
-          industries: ["automotive-components"],
-          description:
-            "Technical CGI for Novatorq electric vehicle powertrain and e-mobility product storytelling.",
-          projectCount: 1,
-          logo: PROJECT_PLACEHOLDER,
-          banner: PROJECT_PLACEHOLDER,
-          services: ["Technical Product Animation", "CAD-to-CGI", "Sales Explainer"],
-          timeline: "2025",
-          tools: ["Cinema 4D", "Blender", "After Effects"],
-          projects: [
-            {
-              title: "Novatorq EV Technology Film",
-              description:
-                "Animation communicating how Novatorq EV technology works for partners and stakeholders.",
-              thumbnail: PROJECT_PLACEHOLDER,
-              mediaType: "video",
-              mediaSrc: "",
-              tags: ["Automotive", "EV"],
-              year: 2025,
-            },
-          ],
-        },
-        "novatorq",
-      ),
-      client(
-        {
           slug: "ronix",
           name: "RONIX",
           industry: "Power Tools & Manufacturing",
@@ -978,6 +920,122 @@ const rawWorkCategories: WorkCategory[] = [
           ],
         },
         "ronix",
+      ),
+      client(
+        {
+          slug: "autoz-crave",
+          name: "AUTOZ CRAVE",
+          industry: "Automotive & Mechanical",
+          industries: ["automotive-components"],
+          description:
+            "Autoz Crave industrial animation for mechanical and technical 3D product films.",
+          projectCount: 1,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["Industrial Animation", "Mechanical CGI", "Technical Animation"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "Autoz Crave Industrial Animation",
+              description:
+                "Autoz Crave 3D industrial product video with mechanical technical animation and commercial polish.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Industrial", "Autoz Crave"],
+              year: 2025,
+            },
+          ],
+        },
+        "autoz-crave",
+      ),
+      client(
+        {
+          slug: "atx",
+          name: "ATX",
+          industry: "Industrial Manufacturing",
+          industries: ["industrial-machinery"],
+          description:
+            "ATX 3D industrial and technical product animation for manufacturing showcases.",
+          projectCount: 1,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["Industrial Animation", "Technical CGI", "Product Showcase"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "ATX 3D Industrial Animation",
+              description:
+                "ATX 3D industrial product animation with technical lighting and campaign ready finish.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Industrial", "ATX"],
+              year: 2025,
+            },
+          ],
+        },
+        "atx",
+      ),
+      client(
+        {
+          slug: "credex",
+          name: "CREDEX",
+          industry: "Cleaning Equipment",
+          industries: ["industrial-machinery"],
+          description:
+            "CREDEX carpet cleaning machine industrial animation with cinematic SFX finish.",
+          projectCount: 1,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["Industrial Animation", "Product CGI", "Sound Design"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "Credex Vacuum Cleaner with SFX",
+              description:
+                "Final high definition CREDEX vacuum cleaner animation with sound design and commercial polish.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Industrial", "Credex"],
+              year: 2025,
+            },
+          ],
+        },
+        "credex",
+      ),
+      client(
+        {
+          slug: "prov-gap",
+          name: "PROV GAP",
+          industry: "Industrial Manufacturing",
+          industries: ["industrial-machinery"],
+          description:
+            "Prov GAP 3D industrial animation for technical product storytelling and brand films.",
+          projectCount: 1,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["Industrial Animation", "Product CGI", "Technical Film"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "Prov GAP 3D Industrial Animation",
+              description:
+                "Prov GAP industrial product animation with mechanical detail and cinematic presentation.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Industrial", "Prov GAP"],
+              year: 2025,
+            },
+          ],
+        },
+        "prov-gap",
       ),
       client(
         {
@@ -1059,41 +1117,12 @@ const rawWorkCategories: WorkCategory[] = [
       ),
       client(
         {
-          slug: "credex",
-          name: "CREDEX",
-          industry: "Cleaning Equipment",
-          industries: ["industrial-machinery"],
-          description:
-            "CREDEX carpet cleaning machine industrial animation with cinematic SFX finish.",
-          projectCount: 1,
-          logo: PROJECT_PLACEHOLDER,
-          banner: PROJECT_PLACEHOLDER,
-          services: ["Industrial Animation", "Product CGI", "Sound Design"],
-          timeline: "2025",
-          tools: ["Cinema 4D", "Blender", "After Effects"],
-          projects: [
-            {
-              title: "Credex Vacuum Cleaner with SFX",
-              description:
-                "Final high definition CREDEX vacuum cleaner animation with sound design and commercial polish.",
-              thumbnail: PROJECT_PLACEHOLDER,
-              mediaType: "video",
-              mediaSrc: "",
-              tags: ["Industrial", "Credex"],
-              year: 2025,
-            },
-          ],
-        },
-        "credex",
-      ),
-      client(
-        {
           slug: "phr-1",
-          name: "PHR 1",
-          industry: "Electric Powertrain",
+          name: "PHR-1 · NOVATORQ",
+          industry: "EV / E-Mobility",
           industries: ["automotive-components"],
           description:
-            "PHR 1 electric power train product animation with technical lighting and cinematic polish.",
+            "PHR-1 is the same electric powertrain CGI project we produced for Novatorq, with technical lighting and cinematic polish.",
           projectCount: 1,
           logo: PROJECT_PLACEHOLDER,
           banner: PROJECT_PLACEHOLDER,
@@ -1102,13 +1131,13 @@ const rawWorkCategories: WorkCategory[] = [
           tools: ["Cinema 4D", "Blender", "After Effects"],
           projects: [
             {
-              title: "PHR 1 Electric Power Train",
+              title: "PHR-1 · Novatorq Electric Powertrain",
               description:
-                "Photoreal PHR 1 electric power train animation with cinematic camera work and technical detail.",
+                "Photoreal PHR-1 electric powertrain animation for Novatorq, with cinematic camera work and technical detail.",
               thumbnail: PROJECT_PLACEHOLDER,
               mediaType: "video",
               mediaSrc: "",
-              tags: ["Industrial", "PHR 1"],
+              tags: ["Industrial", "Novatorq", "PHR-1"],
               year: 2025,
             },
           ],
@@ -1117,90 +1146,61 @@ const rawWorkCategories: WorkCategory[] = [
       ),
       client(
         {
-          slug: "atx",
-          name: "ATX",
-          industry: "Industrial Manufacturing",
-          industries: ["industrial-machinery"],
+          slug: "smaract",
+          name: "SMARACT",
+          industry: "Robotics & Automation",
+          industries: ["robotics-automation"],
           description:
-            "ATX 3D industrial and technical product animation for manufacturing showcases.",
+            "CGI and technical product animation for SmarAct precision automation and positioning systems.",
           projectCount: 1,
           logo: PROJECT_PLACEHOLDER,
           banner: PROJECT_PLACEHOLDER,
-          services: ["Industrial Animation", "Technical CGI", "Product Showcase"],
+          services: ["Technical Product Animation", "CAD-to-CGI", "Sales Explainer"],
           timeline: "2025",
           tools: ["Cinema 4D", "Blender", "After Effects"],
           projects: [
             {
-              title: "ATX 3D Industrial Animation",
+              title: "SmarAct Automation CGI Film",
               description:
-                "ATX 3D industrial product animation with technical lighting and campaign ready finish.",
+                "CGI film presenting SmarAct core automation competencies with clear technical storytelling.",
               thumbnail: PROJECT_PLACEHOLDER,
               mediaType: "video",
               mediaSrc: "",
-              tags: ["Industrial", "ATX"],
+              tags: ["Robotics", "Automation"],
               year: 2025,
             },
           ],
         },
-        "atx",
+        "smaract",
       ),
       client(
         {
-          slug: "prov-gap",
-          name: "PROV GAP",
-          industry: "Industrial Manufacturing",
-          industries: ["industrial-machinery"],
-          description:
-            "Prov GAP 3D industrial animation for technical product storytelling and brand films.",
-          projectCount: 1,
-          logo: PROJECT_PLACEHOLDER,
-          banner: PROJECT_PLACEHOLDER,
-          services: ["Industrial Animation", "Product CGI", "Technical Film"],
-          timeline: "2025",
-          tools: ["Cinema 4D", "Blender", "After Effects"],
-          projects: [
-            {
-              title: "Prov GAP 3D Industrial Animation",
-              description:
-                "Prov GAP industrial product animation with mechanical detail and cinematic presentation.",
-              thumbnail: PROJECT_PLACEHOLDER,
-              mediaType: "video",
-              mediaSrc: "",
-              tags: ["Industrial", "Prov GAP"],
-              year: 2025,
-            },
-          ],
-        },
-        "prov-gap",
-      ),
-      client(
-        {
-          slug: "autoz-crave",
-          name: "AUTOZ CRAVE",
-          industry: "Automotive & Mechanical",
+          slug: "novatorq",
+          name: "NOVATORQ",
+          industry: "EV / E-Mobility",
           industries: ["automotive-components"],
           description:
-            "Autoz Crave industrial animation for mechanical and technical 3D product films.",
+            "Technical CGI for Novatorq electric vehicle powertrain and e-mobility product storytelling.",
           projectCount: 1,
           logo: PROJECT_PLACEHOLDER,
           banner: PROJECT_PLACEHOLDER,
-          services: ["Industrial Animation", "Mechanical CGI", "Technical Animation"],
+          services: ["Technical Product Animation", "CAD-to-CGI", "Sales Explainer"],
           timeline: "2025",
           tools: ["Cinema 4D", "Blender", "After Effects"],
           projects: [
             {
-              title: "Autoz Crave Industrial Animation",
+              title: "Novatorq EV Technology Film",
               description:
-                "Autoz Crave 3D industrial product video with mechanical technical animation and commercial polish.",
+                "Animation communicating how Novatorq EV technology works for partners and stakeholders.",
               thumbnail: PROJECT_PLACEHOLDER,
               mediaType: "video",
               mediaSrc: "",
-              tags: ["Industrial", "Autoz Crave"],
+              tags: ["Automotive", "EV"],
               year: 2025,
             },
           ],
         },
-        "autoz-crave",
+        "novatorq",
       ),
     ],
   },

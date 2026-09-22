@@ -7,23 +7,13 @@ import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { SiteLogo } from "@/components/SiteLogo";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { industries } from "@/data/industries";
-import { useSidebar } from "@/contexts/sidebar-context";
 import { useTheme } from "@/contexts/theme-context";
-import { useIsMobile } from "@/hooks/use-mobile";
 import { cn } from "@/lib/utils";
 
 export function SiteHeader() {
   const { t } = useTranslation();
-  const isMobile = useIsMobile();
   const { theme } = useTheme();
-  const {
-    desktopOpen,
-    mobileOpen,
-    toggleDesktop,
-    toggleMobile,
-    closeMobile,
-    sidebarWidth,
-  } = useSidebar();
+  const [mobileOpen, setMobileOpen] = useState(false);
   const [industriesOpen, setIndustriesOpen] = useState(false);
 
   const industryLinks = useMemo(
@@ -47,70 +37,101 @@ export function SiteHeader() {
     [t],
   );
 
-  const sidebarVisible = isMobile ? mobileOpen : desktopOpen;
+  function closeMobile() {
+    setMobileOpen(false);
+    setIndustriesOpen(false);
+  }
 
   return (
-    <>
-      {isMobile && mobileOpen && (
-        <button
-          type="button"
-          aria-label={t("header.closeMenu")}
-          className="fixed inset-0 z-40 bg-background/80 backdrop-blur-sm md:hidden"
-          onClick={closeMobile}
-        />
-      )}
+    <header className="relative z-40 border-b border-border/40 bg-background/90 backdrop-blur">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4 md:px-8">
+        <SiteLogo onClick={closeMobile} />
 
-      {!isMobile && (
-        <button
-          type="button"
-          onClick={toggleDesktop}
-          aria-label={desktopOpen ? t("header.closeSidebar") : t("header.openSidebar")}
-          aria-expanded={desktopOpen}
-          aria-controls="site-sidebar"
-          className={cn(
-            "fixed top-8 z-[60] hidden size-8 items-center justify-center rounded border border-border bg-background text-foreground shadow-sm backdrop-blur transition-[left] duration-300 ease-out hover:border-neon-green hover:text-neon-green md:flex",
-            desktopOpen ? "-translate-x-1/2" : "translate-x-0",
-          )}
-          style={{ left: desktopOpen ? sidebarWidth : 16 }}
-        >
-          {desktopOpen ? (
-            <X className="h-3.5 w-3.5" aria-hidden />
-          ) : (
-            <Menu className="h-3.5 w-3.5" aria-hidden />
-          )}
-        </button>
-      )}
-
-      <aside
-        id="site-sidebar"
-        style={{ width: sidebarWidth }}
-        className={cn(
-          "site-sidebar fixed left-0 top-0 z-50 flex h-screen flex-col justify-between border-r px-6 py-8 backdrop-blur transition-transform duration-300 ease-out md:px-7",
-          sidebarVisible ? "translate-x-0" : "-translate-x-full",
-          !sidebarVisible && "pointer-events-none",
-        )}
-        aria-hidden={!sidebarVisible}
-      >
-        <div className={cn("flex items-start gap-3", isMobile ? "justify-between" : "justify-start")}>
-          <SiteLogo onClick={closeMobile} className="pr-2" />
-          {isMobile && (
-            <button
-              type="button"
-              onClick={closeMobile}
-              aria-label={t("header.closeMenu")}
-              className="shrink-0 rounded border border-border p-2 text-foreground transition hover:border-neon-green hover:text-neon-green"
-            >
-              <X className="h-4 w-4" aria-hidden />
-            </button>
-          )}
-        </div>
-
-        <nav className="flex flex-col gap-3 overflow-y-auto pr-1">
-          <div>
+        <nav className="hidden items-center gap-6 lg:flex">
+          <div className="relative">
             <button
               type="button"
               onClick={() => setIndustriesOpen((o) => !o)}
-              className="group flex w-full items-center justify-between font-display text-sm uppercase tracking-widest text-foreground/80 transition hover:text-foreground"
+              className="group flex items-center gap-1 font-display text-xs uppercase tracking-widest text-foreground/80 transition hover:text-foreground"
+              aria-expanded={industriesOpen}
+            >
+              <span>{t("nav.industries")}</span>
+              <ChevronDown
+                className={cn("h-3.5 w-3.5 transition", industriesOpen && "rotate-180")}
+                aria-hidden
+              />
+            </button>
+            {industriesOpen && (
+              <div className="absolute left-0 top-full z-50 mt-3 min-w-[220px] rounded-xl border border-border/60 bg-background/95 p-3 shadow-xl backdrop-blur">
+                <Link
+                  to="/industries"
+                  onClick={closeMobile}
+                  className="block rounded-md px-3 py-2 font-display text-[11px] uppercase tracking-widest text-muted-foreground transition hover:bg-card hover:text-neon-green"
+                >
+                  {t("industries.title")}
+                </Link>
+                {industryLinks.map((item) => (
+                  <Link
+                    key={item.slug}
+                    to="/industries/$slug"
+                    params={{ slug: item.slug }}
+                    onClick={closeMobile}
+                    className="block rounded-md px-3 py-2 text-sm text-foreground/80 transition hover:bg-card hover:text-neon-green"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {nav.map((n) => (
+            <Link
+              key={n.to}
+              to={n.to}
+              className="group relative font-display text-xs uppercase tracking-widest text-foreground/80 transition hover:text-foreground"
+              activeProps={{ className: "text-foreground" }}
+            >
+              <span className="relative inline-block">
+                {n.label}
+                <span className="absolute -bottom-1 left-0 h-[2px] w-0 bg-neon-green transition-all duration-300 group-hover:w-full" />
+              </span>
+            </Link>
+          ))}
+        </nav>
+
+        <div className="flex items-center gap-2 md:gap-3">
+          <ThemeToggle />
+          <LanguageSwitcher theme={theme} />
+          <Link
+            to="/portfolio"
+            className="hidden font-script text-xl text-neon-green hover:text-glow sm:inline"
+          >
+            {t("nav.portfolioCta")}
+          </Link>
+          <button
+            type="button"
+            onClick={() => setMobileOpen((o) => !o)}
+            aria-label={mobileOpen ? t("header.closeMenu") : t("header.openMenu")}
+            aria-expanded={mobileOpen}
+            aria-controls="site-mobile-nav"
+            className="rounded border border-border p-2 text-foreground transition hover:border-neon-green hover:text-neon-green lg:hidden"
+          >
+            {mobileOpen ? <X className="h-4 w-4" aria-hidden /> : <Menu className="h-4 w-4" aria-hidden />}
+          </button>
+        </div>
+      </div>
+
+      {mobileOpen && (
+        <div
+          id="site-mobile-nav"
+          className="border-t border-border/40 bg-background px-5 py-4 lg:hidden"
+        >
+          <nav className="flex flex-col gap-3">
+            <button
+              type="button"
+              onClick={() => setIndustriesOpen((o) => !o)}
+              className="flex w-full items-center justify-between font-display text-sm uppercase tracking-widest text-foreground/80"
               aria-expanded={industriesOpen}
             >
               <span>{t("nav.industries")}</span>
@@ -120,7 +141,7 @@ export function SiteHeader() {
               />
             </button>
             {industriesOpen && (
-              <div className="mt-2 space-y-2 border-l border-border/60 pl-3">
+              <div className="space-y-2 border-l border-border/60 pl-3">
                 <Link
                   to="/industries"
                   onClick={closeMobile}
@@ -134,71 +155,26 @@ export function SiteHeader() {
                     to="/industries/$slug"
                     params={{ slug: item.slug }}
                     onClick={closeMobile}
-                    className="block text-xs leading-snug text-foreground/70 transition hover:text-neon-green"
+                    className="block text-sm text-foreground/80 transition hover:text-neon-green"
                   >
                     {item.label}
                   </Link>
                 ))}
               </div>
             )}
-          </div>
-
-          {nav.map((n) => (
-            <Link
-              key={n.to}
-              to={n.to}
-              onClick={closeMobile}
-              className="group relative font-display text-sm uppercase tracking-widest text-foreground/80 transition hover:text-foreground"
-              activeProps={{ className: "text-foreground" }}
-            >
-              <span className="relative inline-block">
+            {nav.map((n) => (
+              <Link
+                key={n.to}
+                to={n.to}
+                onClick={closeMobile}
+                className="font-display text-sm uppercase tracking-widest text-foreground/80 transition hover:text-neon-green"
+              >
                 {n.label}
-                <span className="absolute -bottom-1 left-0 h-[2px] w-0 bg-neon-green transition-all duration-300 group-hover:w-full" />
-              </span>
-            </Link>
-          ))}
-        </nav>
-
-        <div className="relative z-10 space-y-4">
-          <LanguageSwitcher
-            theme="dark"
-            menuPlacement="top"
-            className="w-full [&>button]:w-full [&>button]:justify-between"
-          />
-          <div className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-            © {new Date().getFullYear()}
-          </div>
+              </Link>
+            ))}
+          </nav>
         </div>
-      </aside>
-
-      <div className="fixed right-6 top-10 z-40 hidden items-center gap-3 md:flex">
-        <ThemeToggle />
-        <LanguageSwitcher theme={theme} />
-        <Link
-          to="/portfolio"
-          className="font-script text-2xl text-neon-green hover:text-glow"
-        >
-          {t("nav.portfolioCta")}
-        </Link>
-      </div>
-
-      <header className="sticky top-0 z-40 flex items-center justify-between gap-3 border-b border-border/40 bg-background/80 px-5 py-3 backdrop-blur md:hidden">
-        <SiteLogo imageClassName="w-[112px] drop-shadow-[0_0_12px_rgba(76,255,61,0.4)]" />
-        <div className="flex items-center gap-2">
-          <ThemeToggle />
-          <LanguageSwitcher theme={theme} />
-          <button
-            type="button"
-            onClick={toggleMobile}
-            aria-label={mobileOpen ? t("header.closeMenu") : t("header.openMenu")}
-            aria-expanded={mobileOpen}
-            aria-controls="site-sidebar"
-            className="rounded border border-border p-2 text-foreground transition hover:border-neon-green hover:text-neon-green"
-          >
-            {mobileOpen ? <X className="h-4 w-4" aria-hidden /> : <Menu className="h-4 w-4" aria-hidden />}
-          </button>
-        </div>
-      </header>
-    </>
+      )}
+    </header>
   );
 }
