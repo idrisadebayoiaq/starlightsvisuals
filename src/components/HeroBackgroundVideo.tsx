@@ -1,7 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 
-import heroVideo from "@/assets/hero-background.mp4";
 import { cn } from "@/lib/utils";
+
+/** Ronix industrial CGI (Vimeo 1210047470) — served from /public for deploy. */
+const HERO_VIDEO_SRC = "/hero-background.mp4";
 
 type HeroBackgroundVideoProps = {
   className?: string;
@@ -34,7 +36,7 @@ export function HeroBackgroundVideo({ className }: HeroBackgroundVideoProps) {
     const video = videoRef.current;
     if (!video) return;
 
-    video.src = heroVideo;
+    video.src = HERO_VIDEO_SRC;
     video.load();
   }, []);
 

@@ -39,6 +39,9 @@ dist-ssr
 
 scripts/translation-cache.json
 
+# Local download / encode tooling
+tools/
+
 # Hosted sample media (portfolio uses YouTube links instead)
 public/portfolio/
 public/showcase/
