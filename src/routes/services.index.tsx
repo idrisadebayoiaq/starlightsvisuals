@@ -6,6 +6,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { TrustSignalsSection } from "@/components/TrustSignalsSection";
 import { industrialServices, serviceItemKey } from "@/data/industrial-services";
+import { getServiceMedia } from "@/data/service-media";
 import { pageHead, siteMeta } from "@/lib/site-meta";
 
 export const Route = createFileRoute("/services/")({
@@ -48,7 +49,7 @@ function ServicesPage() {
               >
                 <div className="relative aspect-[16/10] overflow-hidden">
                   <img
-                    src={s.image}
+                    src={getServiceMedia(s.slug)?.hero ?? s.image}
                     alt=""
                     className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.04]"
                   />

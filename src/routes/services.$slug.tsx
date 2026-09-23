@@ -12,6 +12,8 @@ import {
   isIndustrialServiceSlug,
   serviceItemKey,
 } from "@/data/industrial-services";
+import { getServiceMedia } from "@/data/service-media";
+import { ServiceMediaGallery } from "@/components/ServiceMediaGallery";
 import { pageHead } from "@/lib/site-meta";
 import en from "@/locales/en/common.json";
 
@@ -54,6 +56,9 @@ function ServiceDetailPage() {
   const service = getIndustrialService(slug)!;
   const itemKey = serviceItemKey(slug);
   const Icon = service.icon;
+  const media = getServiceMedia(slug);
+  const heroImage = media?.hero ?? service.image;
+  const galleryItems = media?.gallery ?? [{ type: "image" as const, src: service.image }];
 
   const outcomes = useMemo(() => {
     const raw = t(`servicesPage.details.${slug}.outcomes`, { returnObjects: true });
@@ -78,7 +83,7 @@ function ServiceDetailPage() {
 
       <section className="relative isolate overflow-hidden border-b border-border/40">
         <img
-          src={service.image}
+          src={heroImage}
           alt=""
           className="absolute inset-0 -z-10 h-full w-full object-cover opacity-45"
         />
@@ -144,7 +149,7 @@ function ServiceDetailPage() {
 
       <section className="border-b border-border/40">
         <div className="mx-auto max-w-7xl px-6 py-16 md:px-14 md:py-24">
-          <div className="grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-center">
+          <div className="grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-start">
             <div>
               <h2 className="font-display text-3xl tracking-tight md:text-4xl">
                 {t("servicesPage.detailsNav.process")}
@@ -158,12 +163,11 @@ function ServiceDetailPage() {
                 ))}
               </ol>
             </div>
-            <div className="overflow-hidden rounded-2xl border border-border/50">
-              <img
-                src={service.image}
-                alt={t(`servicesPage.items.${itemKey}.title`)}
-                className="aspect-[16/11] w-full object-cover"
-              />
+            <div>
+              <h2 className="mb-6 font-display text-2xl tracking-tight md:text-3xl">
+                {t("servicesPage.detailsNav.gallery")}
+              </h2>
+              <ServiceMediaGallery items={galleryItems} />
             </div>
           </div>
         </div>
@@ -187,7 +191,7 @@ function ServiceDetailPage() {
                   className="group overflow-hidden rounded-xl border border-border/60 transition hover:border-neon-green"
                 >
                   <img
-                    src={item.image}
+                    src={getServiceMedia(item.slug)?.hero ?? item.image}
                     alt=""
                     className="aspect-[16/10] w-full object-cover transition duration-500 group-hover:scale-[1.03]"
                   />

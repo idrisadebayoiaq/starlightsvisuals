@@ -6,16 +6,12 @@ import { PROJECT_PLACEHOLDER } from "@/data/portfolio-placeholder";
 import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolio3d from "@/assets/portfolio-3d.jpg";
 import portfolioIndustrial from "@/assets/portfolio-industrial.jpg";
-import portfolioMotion from "@/assets/portfolio-motion.jpg";
 import portfolioProduct from "@/assets/portfolio-product.jpg";
-import portfolioTrailer from "@/assets/portfolio-trailer.jpg";
 
 export type WorkCategorySlug =
   | "2d-animation"
   | "3d-animation"
-  | "motion-graphics"
   | "video-editing"
-  | "vfx"
   | "branding";
 
 function projects(
@@ -543,15 +539,6 @@ const rawWorkCategories: WorkCategory[] = [
     ],
   },
   {
-    slug: "motion-graphics",
-    title: "Motion Graphics",
-    tagline: "Design led motion systems for launches and brand worlds",
-    description:
-      "Design led motion systems for launches, dashboards, and brand worlds that scale across channels.",
-    coverImage: portfolioMotion,
-    clients: [],
-  },
-  {
     slug: "video-editing",
     title: "Product Animation",
     tagline: "Photoreal product films and cinematic packshots",
@@ -876,15 +863,6 @@ const rawWorkCategories: WorkCategory[] = [
     ],
   },
   {
-    slug: "vfx",
-    title: "VFX",
-    tagline: "Compositing, FX, and cinematic finishing",
-    description:
-      "Visual effects for trailers, product films, and branded content, from cleanups to full CG integration.",
-    coverImage: portfolioTrailer,
-    clients: [],
-  },
-  {
     slug: "branding",
     title: "Industrial Animation",
     tagline: "Technical storytelling for products and manufacturing",
@@ -921,14 +899,44 @@ const rawWorkCategories: WorkCategory[] = [
         },
         "ronix",
       ),
+
+      client(
+        {
+          slug: "ijockey",
+          name: "IJOCKEY",
+          industry: "Brand & Industrial CGI",
+          industries: ["industrial-machinery", "brand-entertainment"],
+          description:
+            "iJockey CGI product renders and trade show style films combining branded storytelling with industrial product visualization.",
+          projectCount: 1,
+          logo: "/services/trade-show/ijockey-poster.jpg",
+          banner: "/services/trade-show/ijockey-poster.jpg",
+          services: ["CGI Product Renders", "Trade Show Films", "Brand CGI"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "iJockey CGI Product Film",
+              description:
+                "CGI product render and motion film for iJockey, built for trade show and brand presentation use.",
+              thumbnail: "/services/trade-show/ijockey-poster.jpg",
+              mediaType: "video",
+              mediaSrc: "/services/trade-show/ijockey.mp4",
+              tags: ["iJockey", "CGI", "Trade Show"],
+              year: 2025,
+            },
+          ],
+        },
+        "ijockey",
+      ),
       client(
         {
           slug: "autoz-crave",
-          name: "AUTOZ CRAVE",
+          name: "AUTOCRAZE",
           industry: "Automotive & Mechanical",
           industries: ["automotive-components"],
           description:
-            "Autoz Crave industrial animation for mechanical and technical 3D product films.",
+            "Autocraze industrial animation for mechanical and technical 3D product films.",
           projectCount: 1,
           logo: PROJECT_PLACEHOLDER,
           banner: PROJECT_PLACEHOLDER,
@@ -937,13 +945,13 @@ const rawWorkCategories: WorkCategory[] = [
           tools: ["Cinema 4D", "Blender", "After Effects"],
           projects: [
             {
-              title: "Autoz Crave Industrial Animation",
+              title: "Autocraze Industrial Animation",
               description:
-                "Autoz Crave 3D industrial product video with mechanical technical animation and commercial polish.",
+                "Autocraze 3D industrial product video with mechanical technical animation and commercial polish.",
               thumbnail: PROJECT_PLACEHOLDER,
               mediaType: "video",
               mediaSrc: "",
-              tags: ["Industrial", "Autoz Crave"],
+              tags: ["Industrial", "Autocraze"],
               year: 2025,
             },
           ],
@@ -1214,9 +1222,7 @@ const showcaseLabels: Record<
 > = {
   "2d-animation": { tag: "2D Animation", title: "2D Animation" },
   "3d-animation": { tag: "3D Animation", title: "3D Animation" },
-  "motion-graphics": { tag: "Motion Graphics", title: "Motion Graphics" },
   "video-editing": { tag: "3D", title: "Product Animation" },
-  vfx: { tag: "VFX", title: "VFX" },
   branding: { tag: "3D", title: "Industrial Animation" },
 };
 

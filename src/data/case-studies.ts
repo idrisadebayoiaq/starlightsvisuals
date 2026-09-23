@@ -1,6 +1,13 @@
 import type { IndustrySlug } from "@/data/industries";
 
-export type CaseStudySlug = "smaract" | "novatorq" | "mintec" | "integra-pw";
+export type CaseStudySlug =
+  | "smaract"
+  | "novatorq"
+  | "mintec"
+  | "integra-pw"
+  | "ijockey"
+  | "autoz-crave"
+  | "credex";
 
 export type CaseStudyDef = {
   slug: CaseStudySlug;
@@ -36,6 +43,27 @@ export const caseStudies: CaseStudyDef[] = [
     company: "INTEGRA-pw",
     industrySlugs: ["industrial-machinery"],
     workHref: "/works/branding/integra-pw",
+  },
+  {
+    slug: "ijockey",
+    company: "iJockey",
+    industrySlugs: ["industrial-machinery", "brand-entertainment"],
+    workHref: "/works/branding/ijockey",
+    youtubeId: undefined,
+  },
+  {
+    slug: "autoz-crave",
+    company: "Autocraze",
+    industrySlugs: ["automotive-components"],
+    workHref: "/works/branding/autoz-crave",
+    youtubeId: "Au_RJh88iSQ",
+  },
+  {
+    slug: "credex",
+    company: "Credex",
+    industrySlugs: ["industrial-machinery"],
+    workHref: "/works/branding/credex",
+    youtubeId: "jCvKcYOZN6Y",
   },
 ];
 

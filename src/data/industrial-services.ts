@@ -1,11 +1,7 @@
 import type { LucideIcon } from "lucide-react";
 import { Box, Clapperboard, Cog, Layers, ScanSearch, Sparkles } from "lucide-react";
 
-import portfolio3d from "@/assets/portfolio-3d.jpg";
-import portfolioIndustrial from "@/assets/portfolio-industrial.jpg";
-import portfolioMotion from "@/assets/portfolio-motion.jpg";
-import portfolioProduct from "@/assets/portfolio-product.jpg";
-import portfolioTrailer from "@/assets/portfolio-trailer.jpg";
+import { getServiceMedia } from "@/data/service-media";
 
 export type IndustrialServiceSlug =
   | "technical"
@@ -37,36 +33,40 @@ export type IndustrialServiceDef = {
   image: string;
 };
 
+function serviceHero(slug: IndustrialServiceSlug): string {
+  return getServiceMedia(slug)?.hero ?? `/services/${slug}/hero.jpg`;
+}
+
 export const industrialServices: IndustrialServiceDef[] = [
   {
     slug: "technical",
     icon: Cog,
-    image: portfolioIndustrial,
+    image: serviceHero("technical"),
   },
   {
     slug: "exploded",
     icon: Layers,
-    image: portfolioProduct,
+    image: serviceHero("exploded"),
   },
   {
     slug: "trade-show",
     icon: Clapperboard,
-    image: portfolioTrailer,
+    image: serviceHero("trade-show"),
   },
   {
     slug: "robotics",
     icon: Box,
-    image: portfolio3d,
+    image: serviceHero("robotics"),
   },
   {
     slug: "explainer",
     icon: Sparkles,
-    image: portfolioMotion,
+    image: serviceHero("explainer"),
   },
   {
     slug: "cad",
     icon: ScanSearch,
-    image: portfolioProduct,
+    image: serviceHero("cad"),
   },
 ];
 

@@ -28,7 +28,6 @@ export function TrustSignalsSection({ className }: { className?: string }) {
           <h2 className="mt-2 font-display text-4xl tracking-tight md:text-6xl">
             {t("trust.title")}
           </h2>
-          <p className="mt-4 text-muted-foreground">{t("trust.subtitle")}</p>
         </SectionReveal>
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

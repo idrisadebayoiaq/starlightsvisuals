@@ -284,7 +284,10 @@
       "audience": "Für wen es ist",
       "process": "So arbeiten wir",
       "related": "Verwandte Leistungen",
-      "readMore": "Mehr erfahren"
+      "readMore": "Mehr erfahren",
+      "prev": "Zurück",
+      "next": "Weiter",
+      "gallery": "Projektgalerie"
     },
     "details": {
       "technical": {
@@ -441,39 +444,32 @@
   },
   "aboutPage": {
     "metaTitle": "Über uns | Starlights Visuals",
-    "metaDescription": "Industrielles CGI Studio für Maschinenbauer, Robotik und Medizintechnik, plus Brand und Entertainment Animation.",
-    "label": "Wer wir sind",
-    "title1": "EIN AUFBAUTES STUDIO",
-    "title2": "LICHT, CODE & GESCHICHTE",
-    "p1": "Starlight Visuals ist ein erstklassiges Animationsstudio, das außergewöhnliche visuelle Erlebnisse in den Bereichen Industrieproduktanimation, Spieleanimation, Produktvisualisierung sowie 2D- und 3D Charakteranimation schafft. Wir kombinieren künstlerische Exzellenz mit modernster Technologie, um Ideen in Bilder umzuwandeln, die fesseln, lehren und inspirieren. Von technisch orientierten Industrieanimationen und fotorealistischen Produktdarstellungen bis hin zu stilisierten Cartoons, ausdrucksstarken Charakterdarbietungen und filmischen Spielsequenzen erstellen wir Animationen, die sowohl visuelle Wirkung als auch aussagekräftige Ergebnisse liefern.",
-    "p2": "Ganz gleich, ob Sie die Innovation eines Produkts präsentieren, ein Spieluniversum zum Leben erwecken oder unvergessliche animierte Charaktere erschaffen möchten, jeder Rahmen ist mit Zweckmäßigkeit und Präzision gestaltet. Unser multidisziplinäres Team aus Animatoren, technischen Künstlern, Modellbauern, Riggern, Motion Designern und visuellen Geschichtenerzählern arbeitet nahtlos zusammen, um Arbeiten zu produzieren, die den höchsten kreativen und technischen Standards entsprechen. Wir glauben, dass großartige Animationen nicht nur schön aussehen, sondern auch komplexe Ideen vermitteln, Marken stärken und dauerhafte emotionale Verbindungen schaffen.",
-    "p3": "Wir arbeiten mit Herstellern, Produktunternehmen, Spieleentwicklern, Kreativagenturen und globalen Marken zusammen, um erstklassige Animationen für Marketing, Produkteinführungen, Schulungen, Unterhaltung, Werbung und digitale Erlebnisse bereitzustellen. Hinter jedem Projekt stehen Innovation, handwerkliches Können und ein kompromissloses Bekenntnis zur Qualität. Bei Starlight Visuals animieren wir nicht einfach nur, wir konstruieren Erlebnisse, bauen unvergessliche Charaktere und erstellen Visuals, die Menschen und Unternehmen voranbringen.",
-    "valuesLabel": "Grundwerte",
-    "valuesTitle": "Was uns antreibt",
-    "values": {
-      "imagination": {
-        "title": "Fantasie zuerst",
-        "desc": "Jedes Projekt beginnt mit einer mutigen Idee und einer leeren Leinwand."
-      },
-      "craft": {
-        "title": "Vom Handwerk besessen",
-        "desc": "Bild für Bild, Pixel für Pixel, die Qualität ist nicht verhandelbar."
-      },
-      "energy": {
-        "title": "Filmische Energie",
-        "desc": "Wir jagen die Gänsehaut. Wenn es uns nicht bewegt, verfeinern wir."
-      },
-      "story": {
-        "title": "Storygetrieben",
-        "desc": "Technik dient der Geschichte. Stets."
-      }
-    },
-    "stats": {
-      "projects": "Ausgelieferte Projekte",
-      "clients": "Globale Kunden",
-      "awards": "Gewonnene Auszeichnungen",
-      "years": "Jahrelanges Basteln"
-    }
+    "metaDescription": "CGI und Animation für Maschinenbau, Robotik und Medizintechnik. CAD zu CGI Filme, denen Engineers und Vertrieb vertrauen.",
+    "label": "Über das Studio",
+    "title": "Starlight Visual Studio: CGI & Animation für Maschinenbau, Robotik und Medizintechnik",
+    "lead": "Wir verwandeln komplexe Maschinen, Automatisierungssysteme und technische Produkte in CGI Filme, denen Engineers vertrauen und die Vertriebsteams wirklich nutzen.",
+    "p1": "Aufgebaut auf jahrelanger Erfahrung mit technischen Animationen für Unternehmen wie SmarAct, Novatorq, Mintec und INTEGRA-pw wurde Starlight Visual Studio für einen Zweck gegründet: Industrieunternehmen helfen, genau zu zeigen, wie ihre Produkte von innen und außen funktionieren, ohne teure Drehs vor Ort, Stock Footage oder generische Marketing Visuals.",
+    "p2": "Wir arbeiten direkt aus Ihren CAD Daten, behandeln NDAs und IP Schutz als Standard und bauen jede Animation mit technischer Genauigkeit im Review mit Ihrem Engineering Team, weil in dieser Branche nah genug nicht gut genug ist.",
+    "p3": "Wenn Ihre Maschine, Ihr Produkt oder Ihr Prozess so gesehen werden soll, wie er verstanden werden muss, sprechen wir.",
+    "whoTitle": "Mit wem wir arbeiten",
+    "whatTitle": "Was wir tun",
+    "whoItems": [
+      "Hersteller industrieller Maschinen",
+      "Robotik und Automation Unternehmen",
+      "Medizintechnik Hersteller",
+      "Automotive Komponenten Zulieferer",
+      "Maschinenbauer und Verpackungsmaschinen Hersteller",
+      "CNC, Industriepumpen und Industrieelektronik Unternehmen"
+    ],
+    "whatItems": [
+      "CAD zu CGI Produktanimation",
+      "Explosions und Montage Animationen für Manuals und Ersatzteile",
+      "Technische Erklärfilme für Websites und Vertrieb",
+      "Messe und Product Launch Filme",
+      "Robotik und Automation Motion Visualization"
+    ],
+    "cta": "Gespräch buchen",
+    "website": "www.starlightvisualstudio.com"
   },
   "contactPage": {
     "metaTitle": "Kontakt | Starlights Visuals",
@@ -1317,6 +1313,24 @@
             "2": "After Effects"
           }
         }
+      },
+      "branding": {
+        "ijockey": {
+          "name": "IJOCKEY",
+          "industry": "Brand & Industrial CGI",
+          "description": "iJockey CGI Produktrender und messetaugliche Filme, die Brand Storytelling mit industrieller Produktvisualisierung verbinden.",
+          "timeline": "2025",
+          "services": {
+            "0": "CGI Produktrender",
+            "1": "Messefilme",
+            "2": "Brand CGI"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        }
       }
     },
     "projects": {
@@ -1792,6 +1806,15 @@
           "0": "Industriell",
           "1": "Autoz Crave"
         }
+      },
+      "ijockey-p1": {
+        "title": "iJockey CGI Produktfilm",
+        "description": "CGI Produktrender und Motion Film für iJockey, gebaut für Messe und Brand Präsentation.",
+        "tags": {
+          "0": "iJockey",
+          "1": "CGI",
+          "2": "Messe"
+        }
       }
     }
   },
@@ -2118,7 +2141,6 @@
   "trust": {
     "label": "Für industrielle Entscheider",
     "title": "VERTRAUEN & PROZESS",
-    "subtitle": "Worauf Hersteller achten, bevor sie einen CGI Partner briefen.",
     "items": {
       "cad": {
         "title": "CAD Kompatibilität",
@@ -2189,7 +2211,7 @@
   },
   "caseStudiesPage": {
     "metaTitle": "Fallstudien | Starlights Visuals",
-    "metaDescription": "Industrielle CGI Fallstudien, SmarAct, Novatorq, Mintec und INTEGRA-pw.",
+    "metaDescription": "Industrielle CGI Fallstudien: iJockey, Autocraze, Credex, SmarAct, Novatorq, Mintec und INTEGRA-pw.",
     "label": "Nachweis",
     "title": "FALLSTUDIEN",
     "subtitle": "Problem, Prozess, technische Constraints und Ergebnis, nicht nur Testimonials.",
@@ -2299,12 +2321,34 @@
           "Produktfamilien Unterschiede müssen leicht vergleichbar sein.",
           "Messe und Web Assets müssen zu Engineering Drawings passen."
         ]
+      },
+      "brand-entertainment": {
+        "navLabel": "Brand & Entertainment",
+        "headline": "CGI Animation für Brand & Entertainment",
+        "intro": "Character Animation, Cartoons, VTuber und Entertainment Filme für Marken, die expressive Motion jenseits industrieller Produktstories brauchen.",
+        "pains": [
+          "Kampagnen brauchen character driven Motion, die trotzdem premium und on brand wirkt.",
+          "Entertainment Assets müssen schnell für Social, Ads und Launch Filme geliefert werden.",
+          "Teams wollen ein Studio, das zwischen Industrial CGI und Brand Entertainment wechseln kann.",
+          "Style Exploration braucht klare Reviews ohne Tempo zu verlieren."
+        ]
+      },
+      "commercial-product": {
+        "navLabel": "Commercial Product",
+        "headline": "CGI Animation für Commercial Products",
+        "intro": "Produktanimation für Jewelry, Vapes, Gadgets, Packaging und Consumer Goods, photoreale Packshots und Launch Filme, die verkaufen.",
+        "pains": [
+          "Physische Shoots sind teuer für jede SKU, Finish und Colorway.",
+          "Käufer erwarten online filmische Produktdetails vor dem Kauf.",
+          "Marketing braucht Packshot und Hero Filme, die über Kanäle konsistent bleiben.",
+          "Launch Timelines lassen wenig Raum für Reshoots bei Materialänderungen."
+        ]
       }
     }
   },
   "caseStudies": {
     "metaTitle": "Fallstudien | Starlights Visuals",
-    "metaDescription": "Industrielle CGI Fallstudien, SmarAct, Novatorq, Mintec und INTEGRA-pw.",
+    "metaDescription": "Industrielle CGI Fallstudien: iJockey, Autocraze, Credex, SmarAct, Novatorq, Mintec und INTEGRA-pw.",
     "label": "Nachweis",
     "title": "FALLSTUDIEN",
     "subtitle": "Problem, Prozess, technische Constraints und Ergebnis, nicht nur Testimonials.",
@@ -2348,6 +2392,30 @@
         "process": "Verständnis der Funktionsweise, dann Animation die Aufmerksamkeit hält und klar kommuniziert.",
         "constraints": "Technisches Storytelling musste treu und zugänglich bleiben.",
         "result": "Professioneller Film für mehr Präsentationssicherheit im Sales, direkte Zusammenarbeit."
+      },
+      "ijockey": {
+        "title": "iJockey, CGI Produktrender für Brand und Stand",
+        "summary": "Messetaugliche CGI Produktvisualisierung mit Brand Storytelling und klarer Produktpräsenz.",
+        "problem": "iJockey brauchte Produktvisuals für Brand Präsentation und Messe, ohne schwere Live Produktion.",
+        "process": "Wir entwickelten CGI Produktrender und Motion mit Fokus auf Form, Finish und Brand Presence.",
+        "constraints": "Das Filmstück musste produkttreu bleiben und gleichzeitig Entertainment Polishing für Brand Kanäle tragen.",
+        "result": "Ein vielseitiger CGI Produktfilm für Präsentationen und Messestorytelling."
+      },
+      "autoz-crave": {
+        "title": "Autocraze, mechanische Produktanimation mit klarer Motion",
+        "summary": "Industrielle mechanische CGI, die zeigt, wie das Produkt bewegt und warum Engineering zählt.",
+        "problem": "Autocraze brauchte technische Produktanimation, die mechanische Funktion klar kommuniziert.",
+        "process": "Wir bauten mechanische Animation mit Fokus auf Lesbarkeit, Lighting und kommerziellem Pacing.",
+        "constraints": "Engineering Klarheit und kommerzielles Finish mussten in einem kurzen Film zusammenpassen.",
+        "result": "Ein mechanischer CGI Film für Sales Enablement und industrielle Produktpräsentation."
+      },
+      "credex": {
+        "title": "Credex, Reinigungsgeräte CGI mit filmischem SFX",
+        "summary": "Industrielle Produktanimation für Credex Teppichreinigungsgeräte mit Sound und Motion Finish.",
+        "problem": "Credex brauchte einen Produktfilm, der Gerätetalente mit kommerzieller Energie zeigt.",
+        "process": "Wir animierten die Maschine mit filmischer Kamera und SFX Finish für Marketing und Produktstory.",
+        "constraints": "Produktlesbarkeit musste dynamische Motion und Sound Design überstehen.",
+        "result": "Ein fertiger Industrieproduktfilm für digitale Kampagnen und Vertrieb."
       }
     }
   }
