@@ -32,7 +32,7 @@ export const Route = createFileRoute("/industries/$slug")({
   component: IndustryLandingPage,
 });
 
-const DELIVERABLE_KEYS = [
+const INDUSTRIAL_DELIVERABLE_KEYS = [
   "technical",
   "exploded",
   "tradeShow",
@@ -41,14 +41,22 @@ const DELIVERABLE_KEYS = [
   "cad",
 ] as const;
 
+const ENTERTAINMENT_INDUSTRIES = new Set(["brand-entertainment", "commercial-product"]);
+
 function IndustryLandingPage() {
   const { slug } = Route.useParams();
   const { t } = useTranslation();
   const industry = getIndustry(slug)!;
   const clients = useClientsByIndustry(slug);
+  const isEntertainment = ENTERTAINMENT_INDUSTRIES.has(slug);
 
   const pains = useMemo(() => {
     const raw = t(`industries.items.${slug}.pains`, { returnObjects: true });
+    return Array.isArray(raw) ? (raw as string[]) : [];
+  }, [t, slug]);
+
+  const customDeliverables = useMemo(() => {
+    const raw = t(`industries.items.${slug}.deliverables`, { returnObjects: true });
     return Array.isArray(raw) ? (raw as string[]) : [];
   }, [t, slug]);
 
@@ -112,27 +120,40 @@ function IndustryLandingPage() {
           <h2 className="font-display text-3xl tracking-tight md:text-4xl">
             {t("industries.deliverables")}
           </h2>
-          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {DELIVERABLE_KEYS.map((key) => {
-              const slug =
-                key === "tradeShow"
-                  ? "trade-show"
-                  : (key as "technical" | "exploded" | "robotics" | "explainer" | "cad");
-              return (
-                <Link
-                  key={key}
-                  to="/services/$slug"
-                  params={{ slug }}
-                  className="rounded-xl border border-border/50 p-5 transition hover:border-neon-green"
+          {customDeliverables.length > 0 ? (
+            <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {customDeliverables.map((item) => (
+                <li
+                  key={item}
+                  className="rounded-xl border border-border/50 bg-card/20 px-5 py-4 text-sm leading-relaxed text-muted-foreground"
                 >
-                  <h3 className="font-display text-lg">{t(`servicesPage.items.${key}.title`)}</h3>
-                  <p className="mt-2 text-sm text-muted-foreground">
-                    {t(`servicesPage.items.${key}.desc`)}
-                  </p>
-                </Link>
-              );
-            })}
-          </div>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {INDUSTRIAL_DELIVERABLE_KEYS.map((key) => {
+                const serviceSlug =
+                  key === "tradeShow"
+                    ? "trade-show"
+                    : (key as "technical" | "exploded" | "robotics" | "explainer" | "cad");
+                return (
+                  <Link
+                    key={key}
+                    to="/services/$slug"
+                    params={{ slug: serviceSlug }}
+                    className="rounded-xl border border-border/50 p-5 transition hover:border-neon-green"
+                  >
+                    <h3 className="font-display text-lg">{t(`servicesPage.items.${key}.title`)}</h3>
+                    <p className="mt-2 text-sm text-muted-foreground">
+                      {t(`servicesPage.items.${key}.desc`)}
+                    </p>
+                  </Link>
+                );
+              })}
+            </div>
+          )}
         </div>
       </section>
 
@@ -187,7 +208,11 @@ function IndustryLandingPage() {
         <TextTestimonialsSection onlyIds={industry.testimonialIds} />
       )}
 
-      <TrustSignalsSection />
+      {isEntertainment ? (
+        <TrustSignalsSection variant="entertainment" />
+      ) : (
+        <TrustSignalsSection />
+      )}
 
       <section className="border-b border-border/40">
         <div className="mx-auto max-w-7xl px-6 py-16 md:px-14">

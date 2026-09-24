@@ -1,32 +1,49 @@
+import { Clapperboard, Palette, Sparkles, Film } from "lucide-react";
 import { FileLock2, FolderKanban, Gauge, Layers } from "lucide-react";
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 
 import { SectionReveal } from "@/components/SectionReveal";
 
-const ICONS = [FolderKanban, FileLock2, Layers, Gauge] as const;
+const INDUSTRIAL_ICONS = [FolderKanban, FileLock2, Layers, Gauge] as const;
+const ENTERTAINMENT_ICONS = [Palette, Clapperboard, Sparkles, Film] as const;
 
-export function TrustSignalsSection({ className }: { className?: string }) {
+type TrustSignalsSectionProps = {
+  className?: string;
+  /** Industrial CAD/NDA process (default) or brand/entertainment craft signals */
+  variant?: "industrial" | "entertainment";
+};
+
+export function TrustSignalsSection({
+  className,
+  variant = "industrial",
+}: TrustSignalsSectionProps) {
   const { t } = useTranslation();
+  const isEntertainment = variant === "entertainment";
+  const icons = isEntertainment ? ENTERTAINMENT_ICONS : INDUSTRIAL_ICONS;
+  const keys = isEntertainment
+    ? (["style", "pipeline", "review", "delivery"] as const)
+    : (["cad", "nda", "review", "turnaround"] as const);
+  const ns = isEntertainment ? "trustEntertainment" : "trust";
 
   const items = useMemo(
     () =>
-      (["cad", "nda", "review", "turnaround"] as const).map((key, i) => ({
+      keys.map((key, i) => ({
         key,
-        icon: ICONS[i],
-        title: t(`trust.items.${key}.title`),
-        desc: t(`trust.items.${key}.desc`),
+        icon: icons[i],
+        title: t(`${ns}.items.${key}.title`),
+        desc: t(`${ns}.items.${key}.desc`),
       })),
-    [t],
+    [t, keys, icons, ns],
   );
 
   return (
     <section className={className ?? "border-b border-border/40"}>
       <div className="mx-auto max-w-7xl px-6 py-20 md:px-14 md:py-24">
         <SectionReveal className="mx-auto max-w-3xl text-center">
-          <p className="font-script text-2xl text-neon-green">{t("trust.label")}</p>
+          <p className="font-script text-2xl text-neon-green">{t(`${ns}.label`)}</p>
           <h2 className="mt-2 font-display text-4xl tracking-tight md:text-6xl">
-            {t("trust.title")}
+            {t(`${ns}.title`)}
           </h2>
         </SectionReveal>
 

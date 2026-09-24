@@ -7,7 +7,8 @@ export type CaseStudySlug =
   | "integra-pw"
   | "ijockey"
   | "autoz-crave"
-  | "credex";
+  | "credex"
+  | "3d-cartoon";
 
 export type CaseStudyDef = {
   slug: CaseStudySlug;
@@ -30,7 +31,8 @@ export const caseStudies: CaseStudyDef[] = [
     slug: "novatorq",
     company: "Novatorq",
     industrySlugs: ["automotive-components"],
-    workHref: "/works/branding/phr-1",
+    workHref: "/works/branding/novatorq",
+    youtubeId: "2T6xaLcR7j0",
   },
   {
     slug: "mintec",
@@ -47,9 +49,8 @@ export const caseStudies: CaseStudyDef[] = [
   {
     slug: "ijockey",
     company: "iJockey",
-    industrySlugs: ["industrial-machinery", "brand-entertainment"],
+    industrySlugs: ["industrial-machinery"],
     workHref: "/works/branding/ijockey",
-    youtubeId: undefined,
   },
   {
     slug: "autoz-crave",
@@ -64,6 +65,13 @@ export const caseStudies: CaseStudyDef[] = [
     industrySlugs: ["industrial-machinery"],
     workHref: "/works/branding/credex",
     youtubeId: "jCvKcYOZN6Y",
+  },
+  {
+    slug: "3d-cartoon",
+    company: "3D Cartoon Animation",
+    industrySlugs: ["brand-entertainment"],
+    workHref: "/works/3d-animation/3d-cartoon-animation",
+    youtubeId: undefined,
   },
 ];
 

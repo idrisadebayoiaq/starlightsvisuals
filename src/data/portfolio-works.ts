@@ -553,7 +553,7 @@ const rawWorkCategories: WorkCategory[] = [
           industry: "Luxury Watches",
           description:
             "Photoreal 3D watch product animation and cinematic packshot films for luxury timepieces.",
-          projectCount: 3,
+          projectCount: 2,
           logo: PROJECT_PLACEHOLDER,
           banner: PROJECT_PLACEHOLDER,
           services: ["3D Product Animation", "Watch CGI", "Packshot Films"],
@@ -568,16 +568,6 @@ const rawWorkCategories: WorkCategory[] = [
               mediaType: "video",
               mediaSrc: "",
               tags: ["Watch", "Product"],
-              year: 2025,
-            },
-            {
-              title: "Rifari Wrist Watch",
-              description:
-                "Photoreal Rifari wrist watch product film with refined reflections and commercial presentation.",
-              thumbnail: PROJECT_PLACEHOLDER,
-              mediaType: "video",
-              mediaSrc: "",
-              tags: ["Watch", "Rifari"],
               year: 2025,
             },
             {
@@ -905,7 +895,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "ijockey",
           name: "IJOCKEY",
           industry: "Brand & Industrial CGI",
-          industries: ["industrial-machinery", "brand-entertainment"],
+          industries: ["industrial-machinery"],
           description:
             "iJockey CGI product renders and trade show style films combining branded storytelling with industrial product visualization.",
           projectCount: 1,
@@ -1197,13 +1187,13 @@ const rawWorkCategories: WorkCategory[] = [
           tools: ["Cinema 4D", "Blender", "After Effects"],
           projects: [
             {
-              title: "Novatorq EV Technology Film",
+              title: "Novatorq EV Technology Film · PHR-1",
               description:
-                "Animation communicating how Novatorq EV technology works for partners and stakeholders.",
+                "PHR-1 electric powertrain animation for Novatorq, communicating EV technology for partners and stakeholders.",
               thumbnail: PROJECT_PLACEHOLDER,
               mediaType: "video",
               mediaSrc: "",
-              tags: ["Automotive", "EV"],
+              tags: ["Automotive", "EV", "PHR-1"],
               year: 2025,
             },
           ],

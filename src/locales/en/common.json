@@ -2192,6 +2192,28 @@
       }
     }
   },
+  "trustEntertainment": {
+    "label": "Built for brand & entertainment",
+    "title": "CRAFT & DELIVERY",
+    "items": {
+      "style": {
+        "title": "Style exploration",
+        "desc": "Look-dev and character direction that stays on brand across 2D and 3D."
+      },
+      "pipeline": {
+        "title": "Blender & 3D pipeline",
+        "desc": "Modeling, rigging, animation, and rendering with clean project files you can reuse."
+      },
+      "review": {
+        "title": "Creative review loops",
+        "desc": "Clear feedback rounds so acting, lighting, and timing land before final renders."
+      },
+      "delivery": {
+        "title": "Delivery-ready outputs",
+        "desc": "MP4, 4K video, Blender files, and render packages for social, ads, and launches."
+      }
+    }
+  },
   "entertainmentServicesPage": {
     "metaTitle": "Brand & Entertainment | Starlights Visuals",
     "metaDescription": "2D and 3D character animation, cinematic trailers, motion graphics, and VFX for brands and entertainment.",
@@ -2356,13 +2378,20 @@
       },
       "brand-entertainment": {
         "navLabel": "Brand & Entertainment",
-        "headline": "CGI Animation for Brand & Entertainment",
-        "intro": "Character animation, cartoons, VTuber, and entertainment films for brands that need expressive motion beyond industrial product storytelling.",
+        "headline": "2D/3D Animation for Brand & Entertainment",
+        "intro": "Character animation, cartoons, VTuber, and entertainment films for brands that need expressive 2D and 3D motion.",
         "pains": [
           "Campaigns need character-driven motion that still feels premium and on brand.",
           "Entertainment assets must ship fast across social, ads, and launch films.",
-          "Teams want one studio that can move between industrial CGI and brand entertainment.",
-          "Style exploration needs clear reviews without losing production speed."
+          "Teams want clear style exploration without losing production speed.",
+          "Characters and worlds need to stay consistent across every channel."
+        ],
+        "deliverables": [
+          "3D Blender files",
+          "MP4",
+          "4K video",
+          "3D characters modeling",
+          "3D rendering"
         ]
       },
       "commercial-product": {
@@ -2448,6 +2477,14 @@
         "process": "We animated the machine with cinematic camera work and SFX finish for marketing and product storytelling.",
         "constraints": "Product readability had to survive dynamic motion and sound design polish.",
         "result": "A finished industrial product film ready for digital campaigns and sales use."
+      },
+      "3d-cartoon": {
+        "title": "3D Cartoon Animation, characters that carry the brand",
+        "summary": "Stylized 3D cartoon character animation for brand and entertainment storytelling.",
+        "problem": "The brand needed expressive cartoon characters that feel premium on social, ads, and launch films.",
+        "process": "We modeled, rigged, and animated stylized 3D characters with clear acting, lighting, and delivery-ready renders.",
+        "constraints": "Style consistency and fast iteration across character looks without losing production polish.",
+        "result": "Cartoon-ready 3D character films and assets suited for entertainment and brand channels."
       }
     }
   }

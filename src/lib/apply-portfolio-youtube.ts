@@ -32,6 +32,11 @@ function mapProject(
     };
   }
 
+  // Keep local hosted video/poster when no YouTube/Vimeo sample is configured.
+  if (project.mediaSrc) {
+    return project;
+  }
+
   return {
     ...project,
     mediaType: "video",

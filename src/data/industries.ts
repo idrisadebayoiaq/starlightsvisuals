@@ -79,7 +79,7 @@ export const industries: IndustryDef[] = [
       "3d-anime-character",
     ],
     testimonialIds: ["jeremy", "raiv", "jason"],
-    caseStudySlugs: ["ijockey"],
+    caseStudySlugs: ["3d-cartoon"],
   },
   {
     slug: "commercial-product",
@@ -139,7 +139,7 @@ export const CLIENT_INDUSTRY_MAP: Record<string, IndustrySlug[]> = {
   credex: ["industrial-machinery"],
   atx: ["industrial-machinery"],
   "prov-gap": ["industrial-machinery"],
-  ijockey: ["industrial-machinery", "brand-entertainment"],
+  ijockey: ["industrial-machinery"],
   "3d-medical-animation": ["medical-devices"],
   "3d-gadget-animation": ["commercial-product", "industrial-electronics"],
   "3d-explainer-video": ["industrial-machinery"],

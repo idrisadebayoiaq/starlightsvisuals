@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Instagram, Youtube, Twitter, Linkedin, Loader2, Mail, Send } from "lucide-react";
+import { Youtube, Linkedin, Loader2, Mail, Send } from "lucide-react";
 import { useMemo, useState, type FormEvent } from "react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
@@ -145,11 +145,26 @@ export function SiteFooter() {
             {t("footer.follow")}
           </p>
           <div className="flex gap-3">
-            {[Instagram, Youtube, Twitter, Linkedin].map((Icon, i) => (
+            {(
+              [
+                {
+                  Icon: Youtube,
+                  href: "https://youtube.com/@sternlichtevisuals?si=gnTF-p_FKlTCorP2",
+                  label: "YouTube",
+                },
+                {
+                  Icon: Linkedin,
+                  href: "https://www.linkedin.com/company/starlight-visuals/",
+                  label: "LinkedIn",
+                },
+              ] as const
+            ).map(({ Icon, href, label }) => (
               <a
-                key={i}
-                href="#"
-                aria-label={t("footer.social")}
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={label}
                 className="rounded-md border border-border p-2 text-muted-foreground hover:text-neon-blue hover:border-neon-blue hover:glow-blue transition"
               >
                 <Icon className="h-4 w-4" />
