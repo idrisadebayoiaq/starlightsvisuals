@@ -4,15 +4,15 @@ import { useTranslation } from "react-i18next";
 
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { getCaseStudy, type CaseStudySlug } from "@/data/case-studies";
+import { caseStudies, getCaseStudy, type CaseStudySlug } from "@/data/case-studies";
 import { pageHead } from "@/lib/site-meta";
 import en from "@/locales/en/common.json";
 
-const SLUGS = new Set(["smaract", "novatorq", "mintec", "integra-pw"]);
+const SLUGS = new Set(caseStudies.map((c) => c.slug));
 
 export const Route = createFileRoute("/case-studies/$slug")({
   beforeLoad: ({ params }) => {
-    if (!SLUGS.has(params.slug)) throw notFound();
+    if (!SLUGS.has(params.slug as CaseStudySlug)) throw notFound();
   },
   head: ({ params }) => {
     const item = (en.caseStudies.items as Record<string, { title?: string; summary?: string }>)[
