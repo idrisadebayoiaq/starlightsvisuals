@@ -16,7 +16,10 @@
     "contact": "İletişim",
     "portfolioCta": "Portfolyo →",
     "faq": "SSS",
-    "writeReview": "Bir inceleme yazın"
+    "writeReview": "Bir inceleme yazın",
+    "industries": "Endüstriler",
+    "caseStudies": "Vaka Çalışmaları",
+    "work": "Work"
   },
   "header": {
     "closeMenu": "Menüyü kapat",
@@ -59,7 +62,8 @@
     "emailInvalid": "Geçerli bir e.",
     "privacy": "Gizlilik Politikası",
     "euGdpr": "AB GDPR",
-    "imprint": "Baskı"
+    "imprint": "Baskı",
+    "entertainmentLink": "Brand & Entertainment"
   },
   "home": {
     "metaTitle": "Yıldız Işıkları Görselleri | Animasyon ve VFX Stüdyosu",
@@ -98,6 +102,14 @@
       "04": {
         "title": "Sinematik Fragmanlar",
         "desc": "Markaları, IP'leri ve kampanyaları başlatmak için oluşturulmuş hikaye odaklı fragmanlar."
+      },
+      "05": {
+        "title": "Robotik ve Hareket Simülasyonu",
+        "desc": "Satış olanağı sağlamak için otomatik iş akışlarını, cobot'ları ve alma ve yerleştirme sıralarını görselleştirin."
+      },
+      "06": {
+        "title": "Satış ve Pazarlama Açıklayıcıları",
+        "desc": "Web sitesi, LinkedIn ve Hannover Messe ekibinizin yakınlaşmasına yardımcı olacak hazır açıklayıcılar."
       }
     },
     "showcase": {
@@ -240,190 +252,195 @@
         "desc": "Maksimum etkiye sahip markaları, fikri mülkiyet haklarını ve kampanyaları başlatmak için oluşturulmuş hikaye odaklı fragmanlar."
       },
       "technical": {
-        "title": "Technical Product Animation",
-        "desc": "How the machine works, cutaways, internal mechanisms, and external motion with engineering accuracy."
+        "title": "Teknik Ürün Animasyonu",
+        "desc": "Makinenin nasıl çalıştığı, kesitler, iç mekanizmalar ve dış hareketler mühendislik doğruluğuyla."
       },
       "exploded": {
-        "title": "Exploded View and Assembly Animation",
-        "desc": "For manuals, spare parts catalogs, and service training without a live machine on site."
+        "title": "Patlatılmış Görünüm ve Montaj Animasyonu",
+        "desc": "Sahada canlı bir makine olmadan kılavuzlar, yedek parça katalogları ve servis eğitimi için."
       },
       "tradeShow": {
-        "title": "CGI Product Renders and Trade Show Films",
-        "desc": "Booth ready films and hero renders that replace costly on site shoots of large equipment."
+        "title": "CGI Ürün Sunumları ve Ticari Fuar Filmleri",
+        "desc": "Büyük ekipmanların yerinde çekimlerinin yerini alan, kabinde hazır filmler ve kahraman görselleri."
       },
       "robotics": {
-        "title": "Robotics and Motion Simulation Visuals",
-        "desc": "Automated cells, cobots, and pick and place sequences for sales and marketing."
+        "title": "Robotik ve Hareket Simülasyonu Görselleri",
+        "desc": "Satış ve pazarlama için otomatik hücreler, cobot'lar ve alma ve yerleştirme işlemleri."
       },
       "explainer": {
-        "title": "Sales and Marketing Explainer Videos",
-        "desc": "Website, LinkedIn, and trade show explainers that help product and sales teams communicate clearly."
+        "title": "Satış ve Pazarlama Açıklayıcı Videolar",
+        "desc": "Ürün ve satış ekiplerinin net bir şekilde iletişim kurmasına yardımcı olan web sitesi, LinkedIn ve ticari fuar açıklayıcıları."
       },
       "cad": {
-        "title": "CAD to CGI Conversion",
-        "desc": "Ingest STEP, IGES, SolidWorks, and CATIA exports and convert them into photoreal CGI motion."
+        "title": "CAD'den CGI'ye Dönüştürme",
+        "desc": "STEP, IGES, SolidWorks ve CATIA dışa aktarımlarını alın ve bunları fotogerçekçi CGI hareketine dönüştürün."
       }
     },
     "detailsNav": {
-      "back": "All services",
-      "outcomes": "What you get",
-      "audience": "Who it is for",
-      "process": "How we work",
-      "related": "Related services",
-      "readMore": "Read more"
+      "back": "Tüm hizmetler",
+      "outcomes": "Ne elde edeceksin",
+      "audience": "Kimin için",
+      "process": "Nasıl çalışıyoruz?",
+      "related": "İlgili hizmetler",
+      "readMore": "Devamını oku",
+      "prev": "Öncesi",
+      "next": "Sonraki",
+      "gallery": "Proje galerisi"
     },
     "details": {
       "technical": {
-        "metaTitle": "Technical Product Animation | Starlights Visuals",
-        "metaDescription": "Engineering accurate CGI that shows how industrial machines work inside and out for sales, training, and marketing.",
-        "intro": "Technical product animation turns complex mechanisms into clear motion. We build cutaways, internal views, and external sequences that engineers trust and buyers understand.",
+        "metaTitle": "Teknik Ürün Animasyonu | Yıldız Işıkları Görselleri",
+        "metaDescription": "Endüstriyel makinelerin satış, eğitim ve pazarlama için içte ve dışta nasıl çalıştığını gösteren doğru CGI mühendisliği.",
+        "intro": "Teknik ürün animasyonu, karmaşık mekanizmaları net harekete dönüştürür. Mühendislerin güvendiği ve alıcıların anladığı kesitler, dahili görünümler ve harici sekanslar oluşturuyoruz.",
         "outcomes": [
-          "Cutaway and transparent views that reveal inner mechanisms without guessing",
-          "Motion timed to real operating sequences and cycle logic",
-          "Assets sized for websites, sales decks, and trade show loops",
-          "Review checkpoints with your engineering team before final delivery"
+          "Tahmin etmeden iç mekanizmaları ortaya çıkaran kesit ve şeffaf görünümler",
+          "Gerçek çalışma sıralarına ve döngü mantığına göre zamanlanmış hareket",
+          "Web siteleri, satış desteleri ve ticari fuar döngüleri için boyutlandırılmış varlıklar",
+          "Nihai teslimattan önce kontrol noktalarını mühendislik ekibinizle birlikte inceleyin"
         ],
         "audience": [
-          "Machine builders explaining multi stage processes",
-          "Product managers launching a new series or feature set",
-          "Sales teams who need a film when the machine cannot travel",
-          "Marketing leads who need accuracy without a live shoot"
+          "Makine imalatçıları çok aşamalı süreçleri açıklıyor",
+          "Ürün yöneticileri yeni bir seri veya özellik seti başlatıyor",
+          "Makine seyahat edemediğinde filme ihtiyaç duyan satış ekipleri",
+          "Canlı çekim olmadan doğruluğa ihtiyaç duyan pazarlama liderleri"
         ],
         "steps": [
-          "Brief and CAD intake under NDA, including the sequences that matter most",
-          "Look development and technical storyboard aligned to your engineers",
-          "Animation production with scheduled accuracy reviews",
-          "Final delivery in formats ready for web, booth, and sales enablement"
+          "En önemli sekanslar da dahil olmak üzere Gizlilik Anlaşması kapsamında kısa ve CAD alımı",
+          "Mühendislerinize uygun geliştirme ve teknik storyboard'a bakın",
+          "Planlanmış doğruluk incelemeleriyle animasyon üretimi",
+          "Web, stand ve satışa hazır formatlarda son teslimat"
         ],
-        "ctaTitle": "Ready to show how your machine really works?",
-        "ctaDesc": "Share your product, deadline, and CAD status. We reply within 24 hours."
+        "ctaTitle": "Makinenizin gerçekte nasıl çalıştığını göstermeye hazır mısınız?",
+        "ctaDesc": "Ürününüzü, son teslim tarihini ve CAD durumunu paylaşın. 24 saat içinde cevap veriyoruz."
       },
       "exploded": {
-        "metaTitle": "Exploded View Animation | Starlights Visuals",
-        "metaDescription": "Exploded view and assembly animations for spare parts manuals, service training, and industrial sales.",
-        "intro": "Exploded view and assembly films make part relationships and build order obvious. Ideal for manuals, spare parts portals, and technician onboarding.",
+        "metaTitle": "Patlatılmış Görünüm Animasyonu | Yıldız Işıkları Görselleri",
+        "metaDescription": "Yedek parça kılavuzları, servis eğitimi ve endüstriyel satışlar için ayrıntılı görünüm ve montaj animasyonları.",
+        "intro": "Patlatılmış görünüm ve montaj filmleri parça ilişkilerini ve yapı düzenini açıkça ortaya koyar. Kılavuzlar, yedek parça portalları ve teknisyen katılımı için idealdir.",
         "outcomes": [
-          "BOM aligned part groups that match your documentation",
-          "Clear assembly and disassembly order in motion",
-          "Stills and film exports for manuals and training portals",
-          "Readable labeling and camera paths that stay service friendly"
+          "Belgelerinizle eşleşen BOM uyumlu parça grupları",
+          "Hareket halindeyken montaj ve demontaj sırasını temizleyin",
+          "Kılavuzlar ve eğitim portalları için fotoğraf ve film aktarımları",
+          "Servis dostu olmaya devam eden okunabilir etiketleme ve kamera yolları"
         ],
         "audience": [
-          "Service and aftermarket teams writing manuals",
-          "Spare parts marketers explaining kits and variants",
-          "Training leads onboarding technicians remotely",
-          "Manufacturers reducing support tickets on complex assemblies"
+          "Servis ve satış sonrası ekipleri kılavuz yazıyor",
+          "Yedek parça pazarlamacıları kitleri ve çeşitleri açıklıyor",
+          "Eğitim, teknisyenlerin uzaktan işe alınmasına yol açar",
+          "Üreticiler karmaşık montajlarda destek taleplerini azaltıyor"
         ],
         "steps": [
-          "CAD and BOM review to define part groups and priority chapters",
-          "Assembly storyboard with labeling conventions your team uses",
-          "Animation of explode, isolate, and reassemble sequences",
-          "Export stills, short films, and optional interactive frames"
+          "Parça gruplarını ve öncelikli bölümleri tanımlamak için CAD ve BOM incelemesi",
+          "Ekibinizin kullandığı etiketleme kurallarını içeren montaj storyboard'u",
+          "Patlatma, izole etme ve yeniden birleştirme sekanslarının animasyonu",
+          "Durağan görüntüleri, kısa filmleri ve isteğe bağlı etkileşimli kareleri dışa aktarın"
         ],
-        "ctaTitle": "Need clearer spare parts and service visuals?",
-        "ctaDesc": "Tell us which assemblies drive the most questions. We start from your CAD."
+        "ctaTitle": "Daha net yedek parça ve servis görsellerine mi ihtiyacınız var?",
+        "ctaDesc": "Bize en çok soruyu hangi meclislerin yönelttiğini söyleyin. CAD'inizden başlıyoruz."
       },
       "trade-show": {
-        "metaTitle": "Trade Show Films and CGI Renders | Starlights Visuals",
-        "metaDescription": "Booth ready CGI films and product renders for industrial trade shows without expensive on site shoots.",
-        "intro": "Large machines are expensive to film and hard to stage. CGI product renders and trade show films deliver booth ready motion that stays accurate under engineer review.",
+        "metaTitle": "Ticari Fuar Filmleri ve CGI Gösterimleri | Yıldız Işıkları Görselleri",
+        "metaDescription": "Pahalı saha çekimleri gerektirmeden endüstriyel ticari fuarlar için standa hazır CGI filmleri ve ürün görselleri.",
+        "intro": "Büyük makinelerin filme alınması pahalıdır ve sahnelenmesi zordur. CGI ürün görselleri ve ticari fuar filmleri, mühendis incelemesi altında doğru kalan stand hazır hareketi sunar.",
         "outcomes": [
-          "Hero films sized for booth loops and LED walls",
-          "Photoreal product renders for print and digital collateral",
-          "Timelines scoped to your show deadline with milestone reviews",
-          "Formats ready for LinkedIn cutdowns after the event"
+          "Stand döngüleri ve LED duvarlar için boyutlandırılmış kahraman filmleri",
+          "Baskı ve dijital materyaller için fotogerçekçi ürün görselleri",
+          "Dönüm noktası incelemeleriyle gösterinizin son tarihine göre belirlenen zaman çizelgeleri",
+          "Etkinlik sonrasında LinkedIn kesintileri için hazır formatlar"
         ],
         "audience": [
-          "Exhibitors preparing for Hannover Messe and similar shows",
-          "Brand teams who cannot ship the machine to every venue",
-          "Agencies needing industrial CGI for a booth concept",
-          "Sales leaders who want a looping film that holds attention"
+          "Katılımcılar Hannover Messe ve benzeri fuarlara hazırlanıyor",
+          "Makinayı her mekana gönderemeyen marka ekipleri",
+          "Stand konsepti için endüstriyel CGI'ya ihtiyaç duyan ajanslar",
+          "Dikkat çeken, döngüsel bir film isteyen satış liderleri"
         ],
         "steps": [
-          "Define booth use cases, screen sizes, and must show features",
-          "CAD to look development with lighting matched to your brand",
-          "Produce the master film plus short loops for continuous play",
-          "Deliver show ready files with backup formats for AV teams"
+          "Stand kullanım durumlarını, ekran boyutlarını ve gösterilmesi gereken özellikleri tanımlayın",
+          "Markanıza uygun aydınlatma ile geliştirme görünümü için CAD",
+          "Ana filmi ve sürekli oynatma için kısa döngüleri üretin",
+          "AV ekipleri için yedekleme formatlarına sahip gösteriye hazır dosyalar sunun"
         ],
-        "ctaTitle": "Got a booth deadline coming up?",
-        "ctaDesc": "Share the show date and what must be on screen. We plan milestones backwards from open day."
+        "ctaTitle": "Standınızın son teslim tarihi yaklaşıyor mu?",
+        "ctaDesc": "Gösteri tarihini ve ekranda ne olması gerektiğini paylaşın. Kilometre taşlarını açık günden geriye doğru planlıyoruz."
       },
       "robotics": {
-        "metaTitle": "Robotics Motion Simulation Visuals | Starlights Visuals",
-        "metaDescription": "CGI for robotic cells, cobots, and pick and place workflows that sales and marketing can share.",
-        "intro": "Robotics and automation cells are hard to film cleanly. We visualize cobots, pick and place, and cell layouts so prospects grasp throughput and safety without a factory tour.",
+        "metaTitle": "Robotik Hareket Simülasyonu Görselleri | Yıldız Işıkları Görselleri",
+        "metaDescription": "Satış ve pazarlamanın paylaşabileceği robotik hücreler, cobot'lar ve alma ve yerleştirme iş akışları için CGI.",
+        "intro": "Robotik ve otomasyon hücrelerinin temiz bir şekilde filme alınması zordur. Potansiyel müşterilerin fabrika turuna gerek kalmadan verimi ve güvenliği kavraması için cobot'ları, toplama ve yerleştirmeyi ve hücre düzenlerini görselleştiriyoruz.",
         "outcomes": [
-          "Cell layouts and motion paths that match integrator drawings",
-          "Cycle storytelling that communicates takt and throughput",
-          "Safety zone and workflow clarity for non specialists",
-          "Films for RFQs, LinkedIn, and booth loops"
+          "Entegratör çizimleriyle eşleşen hücre düzenleri ve hareket yolları",
+          "Takt ve verimi ileten döngüsel hikaye anlatımı",
+          "Uzman olmayanlar için güvenlik bölgesi ve iş akışı netliği",
+          "RFQ'lar, LinkedIn ve stant döngüleri için filmler"
         ],
         "audience": [
-          "Automation builders and system integrators",
-          "Robotics OEMs explaining cell concepts before install",
-          "Sales engineers supporting complex RFQs",
-          "Marketing teams who cannot film live production cells"
+          "Otomasyon kurucuları ve sistem entegratörleri",
+          "Robotik OEM'ler kurulumdan önce hücre kavramlarını açıklıyor",
+          "Karmaşık RFQ'ları destekleyen satış mühendisleri",
+          "Canlı prodüksiyon hücrelerini çekemeyen pazarlama ekipleri"
         ],
         "steps": [
-          "NDA and layout intake from CAD or integrator drawings",
-          "Motion reference alignment with your applications team",
-          "Simulation style animation with accuracy review passes",
-          "Delivery of hero film and short clips for digital channels"
+          "CAD veya entegratör çizimlerinden gizlilik sözleşmesi ve düzen alımı",
+          "Uygulama ekibinizle hareket referansı hizalaması",
+          "Doğruluk inceleme geçişlerine sahip simülasyon tarzı animasyon",
+          "Dijital kanallar için kahraman filmi ve kısa kliplerin teslimi"
         ],
-        "ctaTitle": "Need to show your automation cell clearly?",
-        "ctaDesc": "Send layouts or CAD under NDA and the workflows buyers must understand."
+        "ctaTitle": "Otomasyon hücrenizi açıkça göstermeniz mi gerekiyor?",
+        "ctaDesc": "NDA kapsamında düzenleri veya CAD'yi ve alıcıların anlaması gereken iş akışlarını gönderin."
       },
       "explainer": {
-        "metaTitle": "Sales and Marketing Explainer Videos | Starlights Visuals",
-        "metaDescription": "Industrial explainer videos for websites, LinkedIn, and trade shows that help teams sell complex products.",
-        "intro": "Sales and marketing explainers translate technical value into a short film your team can send, embed, and play at the booth.",
+        "metaTitle": "Satış ve Pazarlama Açıklayıcı Videolar | Yıldız Işıkları Görselleri",
+        "metaDescription": "Ekiplerin karmaşık ürünleri satmasına yardımcı olan web siteleri, LinkedIn ve ticari fuarlar için endüstriyel açıklayıcı videolar.",
+        "intro": "Satış ve pazarlama açıklayıcıları, teknik değeri ekibinizin gönderebileceği, yerleştirebileceği ve standta oynatabileceği kısa bir filme dönüştürür.",
         "outcomes": [
-          "Script and structure built around buyer questions",
-          "Technical accuracy without burying the message",
-          "Versions for web, social, and trade show screens",
-          "Clear CTAs that hand off to sales conversations"
+          "Alıcı soruları etrafında oluşturulmuş senaryo ve yapı",
+          "Mesajı gömmeden teknik doğruluk",
+          "Web, sosyal ve ticari fuar ekranlarına yönelik sürümler",
+          "Satış görüşmelerine aktarılan CTA'ları temizleyin"
         ],
         "audience": [
-          "Product marketers launching features or SKUs",
-          "Sales teams needing a shareable product story",
-          "Founders pitching partners and investors",
-          "Distributors who need localized explainers later"
+          "Ürün pazarlamacıları özellikleri veya SKU'ları başlatıyor",
+          "Paylaşılabilir bir ürün hikayesine ihtiyaç duyan satış ekipleri",
+          "Kurucular ortaklara ve yatırımcılara sunum yapıyor",
+          "Daha sonra yerelleştirilmiş açıklayıcılara ihtiyaç duyan distribütörler"
         ],
         "steps": [
-          "Discovery on audience, offer, and proof points",
-          "Script and visual outline for stakeholder sign off",
-          "Production with optional CAD based product shots",
-          "Cutdowns and captions for the channels you use most"
+          "Hedef kitle, teklif ve kanıt noktalarına ilişkin keşif",
+          "Paydaşların onayı için senaryo ve görsel taslak",
+          "İsteğe bağlı CAD tabanlı ürün çekimleri ile üretim",
+          "En çok kullandığınız kanallar için kısa kesitler ve altyazılar"
         ],
-        "ctaTitle": "Want an explainer your sales team will actually use?",
-        "ctaDesc": "Tell us the product story and where the film will live. We scope a practical package."
+        "ctaTitle": "Satış ekibinizin gerçekten kullanacağı bir açıklayıcı mı istiyorsunuz?",
+        "ctaDesc": "Bize ürünün hikayesini ve filmin nerede yaşanacağını anlatın. Pratik bir paket kapsamına alıyoruz."
       },
       "cad": {
-        "metaTitle": "CAD to CGI Conversion | Starlights Visuals",
-        "metaDescription": "Convert SolidWorks, CATIA, STEP, and IGES data into photoreal CGI product films for industrial marketing.",
-        "intro": "CAD to CGI conversion is our bridge from engineering data to marketing ready motion. We ingest common formats and turn assemblies into photoreal films.",
+        "metaTitle": "CAD'den CGI'ye Dönüştürme | Yıldız Işıkları Görselleri",
+        "metaDescription": "SolidWorks, CATIA, STEP ve IGES verilerini endüstriyel pazarlama için fotogerçekçi CGI ürün filmlerine dönüştürün.",
+        "intro": "CAD'den CGI'ya dönüşüm, mühendislik verilerinden pazarlamaya hazır harekete giden köprümüzdür. Ortak formatları alıp montajları fotogerçekçi filmlere dönüştürüyoruz.",
         "outcomes": [
-          "Support for STEP, IGES, SolidWorks, and CATIA exports",
-          "Cleanup and optimization so heavy assemblies animate smoothly",
-          "Materials and lighting that read as real product photography",
-          "A path from raw CAD to booth and website ready files"
+          "STEP, IGES, SolidWorks ve CATIA dışa aktarma desteği",
+          "Temizleme ve optimizasyon sayesinde ağır montajlar sorunsuz bir şekilde canlandırılır",
+          "Gerçek ürün fotoğrafı gibi görünen malzemeler ve aydınlatma",
+          "Ham CAD'den stand ve web sitesi için hazır dosyalara giden yol"
         ],
         "audience": [
-          "Manufacturers with CAD but no marketing film",
-          "Engineering teams who need visuals without a photoshoot",
-          "Agencies handing off CAD for industrial clients",
-          "Anyone under NDA with unreleased product geometry"
+          "CAD'si olan ancak pazarlama filmi olmayan üreticiler",
+          "Fotoğraf çekimi olmadan görsellere ihtiyaç duyan mühendislik ekipleri",
+          "Ajanslar endüstriyel müşteriler için CAD dağıtıyor",
+          "Gizlilik sözleşmesi kapsamında yayınlanmamış ürün geometrisine sahip olan herkes"
         ],
         "steps": [
-          "Secure CAD handoff under NDA and format check",
-          "Cleanup, hierarchy, and material look development",
-          "Animation and lighting production with engineer review",
-          "Final CGI delivery plus optional still frames"
+          "Gizlilik sözleşmesi ve format kontrolü kapsamında güvenli CAD aktarımı",
+          "Temizleme, hiyerarşi ve malzeme görünümü geliştirme",
+          "Mühendis incelemesi ile animasyon ve aydınlatma prodüksiyonu",
+          "Nihai CGI teslimi artı isteğe bağlı sabit kareler"
         ],
-        "ctaTitle": "Have CAD ready to turn into a film?",
-        "ctaDesc": "Tell us your formats and deadline. We confirm compatibility before production starts."
+        "ctaTitle": "CAD filme dönüşmeye hazır mı?",
+        "ctaDesc": "Bize formatlarınızı ve son teslim tarihini bildirin. Üretim başlamadan önce uyumluluğu onaylıyoruz."
       }
-    }
+    },
+    "entertainmentCta": "Karakter, VFX veya marka eğlencesi çalışması mı arıyorsunuz?",
+    "entertainmentLink": "Marka ve Eğlence hizmetleri"
   },
   "aboutPage": {
     "metaTitle": "Hakkında | Yıldız Işıkları Görselleri",
@@ -439,27 +456,48 @@
     "values": {
       "imagination": {
         "title": "Önce Hayal Gücü",
-        "desc": "Her proje cesur bir fikir ve boş bir tuvalle başlar."
+        "desc": "Projesi cesur bir fikir ve boş bir tuvalle başlıyor."
       },
       "craft": {
         "title": "Zanaat Takıntılı",
-        "desc": "Kare kare, piksel piksel kalite tartışılamaz."
+        "desc": "Kare kare, piksel piksel kalitesi tartışılamaz."
       },
       "energy": {
         "title": "Sinematik Enerji",
-        "desc": "Tüylerimiz diken diken oluyor. Bizi harekete geçirmiyorsa, geliştiririz."
+        "desc": "Tüylerimiz diken diken oluyor. Bizi harekete geçirmiyorsa, geliştiriyoruz."
       },
       "story": {
-        "title": "Hikaye Odaklı",
-        "desc": "Teknoloji hikayeye hizmet ediyor. Her zaman."
+        "title": "Hikaye Odakli",
+        "desc": "Teknoloji hikayesine hizmet ediyor. Onun zamanı."
       }
     },
     "stats": {
       "projects": "Gönderilen Projeler",
       "clients": "Küresel Müşteriler",
       "awards": "Kazanılan Ödüller",
-      "years": "Yıllar süren işçilik"
-    }
+      "years": "Yıllar süren çalışma"
+    },
+    "title": "Starlight Visual Studio: Endüstriyel Makine, Robotik ve Tıbbi Cihaz Üreticileri için CGI ve Animasyon",
+    "lead": "Karmaşık makineleri, otomatik sistemleri ve teknik ürünleri, mühendislerin güvendiği ve satış ekiplerinin gerçekten kullandığı CGI filmlerine dönüştürüyoruz.",
+    "whoTitle": "Kiminle çalışıyoruz?",
+    "whatTitle": "ne yapıyoruz",
+    "whoItems": [
+      "Endüstriyel makine üreticileri",
+      "Robotik ve otomasyon şirketleri",
+      "Tıbbi cihaz üreticileri",
+      "Otomotiv bileşen tedarikçileri",
+      "Makine üreticileri ve paketleme makinesi üreticileri",
+      "CNC, endüstriyel pompalar ve endüstriyel elektronik şirketleri"
+    ],
+    "whatItems": [
+      "CAD'den CGI'ya ürün animasyonu",
+      "Kılavuzlar ve yedek parçalar için patlatılmış görünüm ve montaj animasyonları",
+      "Web siteleri ve satış ekipleri için teknik açıklayıcı videolar",
+      "Trade show and product launch films",
+      "Robotics & automation motion visualization"
+    ],
+    "cta": "Book a call",
+    "website": "www.starlightvisualstudio.com"
   },
   "contactPage": {
     "metaTitle": "İletişim | Starlights Visuals",
@@ -487,7 +525,14 @@
       "trailer": "Sinematik Fragman",
       "character": "Karakter Tasarımı",
       "motion": "Hareketli Grafik ve VFX",
-      "other": "Diğer"
+      "other": "Diğer",
+      "technical": "Technical Product Animation",
+      "exploded": "Exploded View / Assembly",
+      "tradeShow": "Trade Show Film / CGI Renders",
+      "robotics": "Robotics and Motion Simulation",
+      "explainer": "Sales and Marketing Explainer",
+      "cad": "CAD to CGI Conversion",
+      "entertainment": "Brand and Entertainment"
     },
     "sending": "Gönderiliyor…",
     "errorGeneric": "Mesajınız gönderilemedi. Lütfen doğrudan bize e posta gönderin veya tekrar deneyin.",
@@ -539,7 +584,11 @@
         "title": "Nabız Dünyaları",
         "desc": "Sürükleyici marka ortamı sanatı."
       }
-    }
+    },
+    "filterAll": "All industries",
+    "filterIndustry": "Filter by industry",
+    "byTechnique": "Browse by technique",
+    "emptyIndustry": "No projects tagged for this industry yet. Explore related case studies or get in touch."
   },
   "blogPage": {
     "metaTitle": "Blog | Yıldız Işıkları Görselleri",
@@ -1103,6 +1152,24 @@
             "2": "After Effects"
           }
         }
+      },
+      "branding": {
+        "ijockey": {
+          "name": "IJOCKEY",
+          "industry": "Brand & Industrial CGI",
+          "description": "iJockey CGI product renders and trade show style films combining branded storytelling with industrial product visualization.",
+          "timeline": "2025",
+          "services": {
+            "0": "CGI Product Renders",
+            "1": "Trade Show Films",
+            "2": "Brand CGI"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        }
       }
     },
     "projects": {
@@ -1551,7 +1618,8 @@
         "description": "Sinematik kamera çalışması ve teknik ayrıntılarla fotogerçekçi PHR 1 elektrikli güç aktarma sistemi animasyonu.",
         "tags": {
           "0": "Endüstriyel",
-          "1": "PHR 1"
+          "1": "PHR 1",
+          "2": "PHR-1"
         }
       },
       "atx-p1": {
@@ -1576,6 +1644,15 @@
         "tags": {
           "0": "Endüstriyel",
           "1": "Autoz Crave"
+        }
+      },
+      "ijockey-p1": {
+        "title": "iJockey CGI Product Film",
+        "description": "CGI product render and motion film for iJockey, built for trade show and brand presentation use.",
+        "tags": {
+          "0": "iJockey",
+          "1": "CGI",
+          "2": "Trade Show"
         }
       }
     }
@@ -1687,7 +1764,9 @@
       "videos": "Videolar",
       "reviews": "Yorumlar",
       "admins": "Yöneticiler",
-      "contacts": "Kişiler"
+      "contacts": "Kişiler",
+      "categories": "Categories",
+      "translations": "Translations"
     },
     "login": {
       "script": "Stüdyo erişimi",
@@ -1712,7 +1791,8 @@
       "blogs": "Blog gönderileri",
       "videos": "Portföy videoları",
       "pendingReviews": "Bekleyen incelemeler",
-      "contacts": "Potansiyel müşterilerle iletişime geçin"
+      "contacts": "Potansiyel müşterilerle iletişime geçin",
+      "categories": "Categories"
     },
     "blogs": {
       "title": "Blog gönderileri",
@@ -1863,6 +1943,70 @@
       "message": "Mesaj",
       "send": "E posta gönder",
       "sending": "Gönderiliyor…"
+    },
+    "categories": {
+      "title": "Categories",
+      "subtitle": "Add and edit portfolio categories, including cover thumbnails.",
+      "create": "New category",
+      "createTitle": "Create category",
+      "editTitle": "Edit category",
+      "empty": "No categories yet.",
+      "colThumb": "Thumb",
+      "colTitle": "Title",
+      "colStatus": "Status",
+      "colOrder": "Order",
+      "colActions": "Actions",
+      "fieldTitle": "Title",
+      "slug": "Slug",
+      "slugHint": "URL path under /works/, locked after create.",
+      "tagline": "Tagline",
+      "description": "Description",
+      "showcaseTag": "Showcase tag",
+      "showcaseTagHint": "Small label on home showcase cards (e.g. 3D, VFX).",
+      "coverImage": "Cover / thumbnail",
+      "coverHint": "Recommended size: {{size}}. Width {{width}}px × height {{height}}px.",
+      "coverSizeBadge": "Best fit: {{size}}, portrait 4:5 for showcase cards",
+      "uploadButton": "Upload thumbnail",
+      "uploading": "Uploading…",
+      "sortOrder": "Sort order",
+      "titleRequired": "Title is required.",
+      "deleteConfirm": "Delete this category? Videos using this slug will keep their data but the category page will disappear.",
+      "loadError": "Failed to load categories",
+      "saveError": "Failed to save category",
+      "deleteError": "Failed to delete category",
+      "uploadError": "Failed to upload thumbnail"
+    },
+    "translations": {
+      "title": "Translations",
+      "subtitle": "Edit public website copy and CMS content for every language. Manual saves are protected from automatic overwrite.",
+      "language": "Language",
+      "contentType": "Content type",
+      "types": {
+        "site_copy": "Site copy (pages, nav, legal)",
+        "blog_post": "Blog posts",
+        "portfolio_category": "Categories",
+        "portfolio_video": "Videos",
+        "portfolio_client": "Clients",
+        "testimonial": "Testimonials"
+      },
+      "search": "Search keys or text…",
+      "selectItem": "Select item",
+      "noItems": "No items found.",
+      "loadError": "Failed to load translations",
+      "saveError": "Failed to save translation",
+      "clearError": "Failed to reset translation",
+      "saved": "Saved. This language will not be overwritten by auto translate.",
+      "manualBadge": "Manually curated",
+      "autoBadge": "Auto or bundled",
+      "reset": "Reset to bundled / auto",
+      "resetConfirm": "Clear the curated translation for this language? Bundled or auto generated copy will be used again.",
+      "saving": "Saving…",
+      "save": "Save translation",
+      "fieldsHint": "Edit the text below, then save. Changes appear on the public site for this language.",
+      "section": "Section",
+      "loadingItems": "Loading items…",
+      "loadingFields": "Loading fields…",
+      "authRequired": "Sign in again to edit translations."
     }
   },
   "privacyPage": {
@@ -2051,6 +2195,287 @@
         "body": "Kişisel verileri nasıl topladığımız, kullandığımız, koruduğumuz ve aktardığımıza ilişkin bilgileri Gizlilik Politikamızda ve ek AB GDPR Bildirimimizde bulabilirsiniz.",
         "privacyLink": "Gizlilik Politikasını Görüntüle",
         "gdprLink": "AB GDPR Bildirimini Görüntüle"
+      }
+    }
+  },
+  "trust": {
+    "label": "Built for industrial buyers",
+    "title": "TRUST & PROCESS",
+    "items": {
+      "cad": {
+        "title": "CAD compatibility",
+        "desc": "SolidWorks, CATIA, STEP, and IGES import, we work from your engineering data, not guesswork."
+      },
+      "nda": {
+        "title": "NDA & confidentiality",
+        "desc": "Clear NDA process for proprietary machinery, unreleased products, and sensitive assemblies."
+      },
+      "review": {
+        "title": "Engineer review step",
+        "desc": "Technical accuracy reviews with your engineers before final delivery, no marketing fiction."
+      },
+      "turnaround": {
+        "title": "trade show deadlines",
+        "desc": "Scoped timelines that hit booth, launch, and LinkedIn go-live dates with milestone checkpoints."
+      }
+    }
+  },
+  "entertainmentServicesPage": {
+    "metaTitle": "Brand & Entertainment | Starlights Visuals",
+    "metaDescription": "2D and 3D character animation, cinematic trailers, motion graphics, and VFX for brands and entertainment.",
+    "label": "Secondary line of business",
+    "title": "BRAND & ENTERTAINMENT",
+    "subtitle": "We still produce character-driven animation, trailers, and VFX, this is our entertainment offering alongside industrial CGI.",
+    "backToIndustrial": "Back to industrial services",
+    "ctaButton": "Start a Project",
+    "items": {
+      "2d": {
+        "title": "2D Animation",
+        "desc": "Frame-by-frame and rigged 2D for series, shorts, explainers, and brand films."
+      },
+      "3d": {
+        "title": "3D Character & Worlds",
+        "desc": "Stylized and photoreal characters, environments, and cinematic sequences."
+      },
+      "character": {
+        "title": "Character Design",
+        "desc": "Original characters, creatures, and concept art that anchor your IP."
+      },
+      "motion": {
+        "title": "Motion Graphics",
+        "desc": "Branded motion, UI animation, and broadcast packages with cinematic polish."
+      },
+      "vfx": {
+        "title": "Visual Effects (VFX)",
+        "desc": "Compositing, particle FX, and CG integration for film and campaigns."
+      },
+      "trailer": {
+        "title": "Cinematic Trailers",
+        "desc": "Story-driven trailers to launch brands, IPs, and campaigns."
+      }
+    }
+  },
+  "industriesPage": {
+    "metaTitle": "Industries | Starlights Visuals",
+    "metaDescription": "CGI and animation for industrial machinery, robotics, medical devices, automotive components, and more.",
+    "label": "Who we serve",
+    "title": "INDUSTRIES",
+    "subtitle": "Dedicated pages for the manufacturers and product teams we help sell complex technology visually.",
+    "viewWork": "View related work",
+    "bookCall": "Book a call",
+    "painPoints": "Common challenges",
+    "deliverables": "Typical deliverables",
+    "relatedWork": "Related work",
+    "relatedCases": "Case studies",
+    "relatedIndustries": "Related industries"
+  },
+  "caseStudiesPage": {
+    "metaTitle": "Case Studies | Starlights Visuals",
+    "metaDescription": "Industrial CGI case studies: iJockey, Autocraze, Credex, SmarAct, Novatorq, Mintec, and INTEGRA-pw.",
+    "label": "Proof of work",
+    "title": "CASE STUDIES",
+    "subtitle": "Problem, process, technical constraints, and outcomes, not just a testimonial carousel.",
+    "readCase": "Read case study",
+    "problem": "Problem",
+    "process": "Process",
+    "constraints": "CAD & technical constraints",
+    "result": "Result",
+    "watchFilm": "Watch the film",
+    "backToIndex": "All case studies",
+    "cta": "Start a similar project"
+  },
+  "industries": {
+    "metaTitle": "Industries | Starlights Visuals",
+    "metaDescription": "CGI and animation for industrial machinery, robotics, medical devices, automotive components, and more.",
+    "label": "Who we serve",
+    "title": "INDUSTRIES",
+    "subtitle": "Dedicated pages for the manufacturers and product teams we help sell complex technology visually.",
+    "viewWork": "View related work",
+    "bookCall": "Book a call",
+    "painPoints": "Common challenges",
+    "deliverables": "Typical deliverables",
+    "relatedWork": "Related work",
+    "relatedCases": "Case studies",
+    "relatedIndustries": "Related industries",
+    "items": {
+      "industrial-machinery": {
+        "navLabel": "Industrial Machinery & Machine Building",
+        "headline": "CGI Animation for Machine Builders",
+        "intro": "Turn complex machines into clear product films that help sales, marketing, and distributors explain value without a live demo floor.",
+        "pains": [
+          "Machines are too large or confidential to film on site for every campaign.",
+          "Buyers struggle to understand internal mechanisms from static CAD screenshots.",
+          "trade show booths need motion assets that stay accurate under engineer scrutiny.",
+          "Service and spare-parts teams need exploded views that match the real assembly."
+        ]
+      },
+      "robotics-automation": {
+        "navLabel": "Robotics & Automation",
+        "headline": "CGI Animation for Robotics & Automation",
+        "intro": "Show automated cells, precision positioning, and cobot workflows in motion, so prospects grasp throughput and safety without a factory tour.",
+        "pains": [
+          "Live cells are hard to film cleanly amid production schedules and IP concerns.",
+          "Cycle times and multi-axis motion are difficult to explain in stills or slides.",
+          "Sales teams need visuals that work for LinkedIn, RFQs, and booth loops.",
+          "Integrators must communicate cell layouts before hardware is installed."
+        ]
+      },
+      "medical-devices": {
+        "navLabel": "Medical Device Manufacturers",
+        "headline": "CGI Animation for Medical Device Manufacturers",
+        "intro": "Visualize internal mechanisms and clinical workflows without violating IP or regulatory constraints, accurate enough for engineers, clear enough for buyers.",
+        "pains": [
+          "You need to show internals without exposing proprietary designs inappropriately.",
+          "Regulatory and marketing teams need aligned, reviewable visuals.",
+          "Physical prototypes are limited, expensive, or not camera-ready.",
+          "Clinicians and procurement need clarity faster than a dense IFU."
+        ]
+      },
+      "automotive-components": {
+        "navLabel": "Automotive Components",
+        "headline": "CGI Animation for Automotive Component Manufacturers",
+        "intro": "Explain powertrains, EV subsystems, and mechanical assemblies with technical CGI that partners and OEMs trust.",
+        "pains": [
+          "EV and mechanical systems are hard to show without cutaways and motion.",
+          "OEM and partner presentations need accuracy plus polish.",
+          "Prototypes may not be available for every sales meeting.",
+          "Marketing needs assets that engineering will approve."
+        ]
+      },
+      "packaging-machines": {
+        "navLabel": "Packaging Machines",
+        "headline": "CGI Animation for Packaging Machine Manufacturers",
+        "intro": "Demonstrate format changes, throughput, and changeover sequences when the line cannot come to the booth.",
+        "pains": [
+          "Lines are too large or busy to film for every market.",
+          "Changeovers and format flexibility need clear motion storytelling.",
+          "Distributors need shareable films for customer pitches."
+        ]
+      },
+      "cnc-machines": {
+        "navLabel": "CNC Machines",
+        "headline": "CGI Animation for CNC Machine Manufacturers",
+        "intro": "Explain multi-axis tool paths and machining advantages without a live machine on site.",
+        "pains": [
+          "Multi-axis motion is hard to convey in still photography.",
+          "Prospects cannot always visit a showroom or open house.",
+          "Trade shows need looping films that stay technically honest."
+        ]
+      },
+      "industrial-pumps": {
+        "navLabel": "Industrial Pumps",
+        "headline": "CGI Animation for Industrial Pump Manufacturers",
+        "intro": "Reveal flow paths, seals, and serviceability with cutaways and exploded assemblies.",
+        "pains": [
+          "Internal flow and wear points are invisible in product photos.",
+          "Service manuals need clearer assembly storytelling.",
+          "Sales teams need short explainers for complex SKUs."
+        ]
+      },
+      "industrial-electronics": {
+        "navLabel": "Industrial Electronics",
+        "headline": "CGI Animation for Industrial Electronics",
+        "intro": "Product films and explainers for connectors, modules, and industrial electronics lines that need precision visuals.",
+        "pains": [
+          "Small components need macro-level clarity in motion.",
+          "Product family differences (e.g. series variants) must be easy to compare.",
+          "trade show and web assets must stay consistent with engineering drawings."
+        ]
+      },
+      "brand-entertainment": {
+        "navLabel": "Brand & Entertainment",
+        "headline": "CGI Animation for Brand & Entertainment",
+        "intro": "Character animation, cartoons, VTuber, and entertainment films for brands that need expressive motion beyond industrial product storytelling.",
+        "pains": [
+          "Campaigns need character-driven motion that still feels premium and on brand.",
+          "Entertainment assets must ship fast across social, ads, and launch films.",
+          "Teams want one studio that can move between industrial CGI and brand entertainment.",
+          "Style exploration needs clear reviews without losing production speed."
+        ]
+      },
+      "commercial-product": {
+        "navLabel": "Commercial Product",
+        "headline": "CGI Animation for Commercial Products",
+        "intro": "Product animation for jewelry, vapes, gadgets, packaging, and consumer goods, photoreal packshots and launch films that sell the product.",
+        "pains": [
+          "Physical shoots are expensive for every SKU, finish, and colorway.",
+          "Buyers expect cinematic product detail online before they purchase.",
+          "Marketing needs packshot and hero films that stay consistent across channels.",
+          "Launch timelines leave little room for reshoots when materials change."
+        ]
+      }
+    }
+  },
+  "caseStudies": {
+    "metaTitle": "Case Studies | Starlights Visuals",
+    "metaDescription": "Industrial CGI case studies: iJockey, Autocraze, Credex, SmarAct, Novatorq, Mintec, and INTEGRA-pw.",
+    "label": "Proof of work",
+    "title": "CASE STUDIES",
+    "subtitle": "Problem, process, technical constraints, and outcomes, not just a testimonial carousel.",
+    "readCase": "Read case study",
+    "problem": "Problem",
+    "process": "Process",
+    "constraints": "CAD & technical constraints",
+    "result": "Result",
+    "watchFilm": "Watch the film",
+    "backToIndex": "All case studies",
+    "cta": "Start a similar project",
+    "items": {
+      "smaract": {
+        "title": "SmarAct, Automation CGI that clarifies core competencies",
+        "summary": "A CGI film presenting precision automation capabilities clearly for marketing and sales.",
+        "problem": "SmarAct needed a professional CGI video to present core competencies in a clear, visually engaging way, without relying solely on complex live setups.",
+        "process": "We aligned on messaging, built accurate motion from technical references, iterated quickly with the marketing team, and delivered final files ready for digital channels.",
+        "constraints": "Precision mechanisms required careful visual fidelity and a fast, reliable turnaround with strong communication throughout.",
+        "result": "A clear, professional CGI film the team could use confidently for high-quality visual content, with fast response times and dependable delivery praised by the client."
+      },
+      "novatorq": {
+        "title": "Novatorq, EV technology visuals partners understand",
+        "summary": "Technical animation that communicates how electric vehicle technology works to partners and stakeholders.",
+        "problem": "Novatorq needed visuals that clearly communicate how their EV / PHR technology works to partners, not just a stylized brand film.",
+        "process": "We refined the concept with the founders, iterated on technical storytelling, and delivered an animation suitable for stakeholder presentations.",
+        "constraints": "Engineering accuracy and clarity for non-specialist stakeholders had to coexist in one film.",
+        "result": "A clearer way to present the product to partners and stakeholders, with a smooth collaborative process."
+      },
+      "mintec": {
+        "title": "Mintec, M12 vs B12 product clarity",
+        "summary": "Animations that make product-line differences obvious for buyers and sales teams.",
+        "problem": "Mintec needed a clear way to show the differences between M12 and B12 products.",
+        "process": "We focused on the details that matter to buyers, produced high-quality animations, and kept every important distinction readable on screen.",
+        "constraints": "Product-line comparison had to stay accurate and easy to understand at a glance.",
+        "result": "Animations that matched what the production team needed, clear, detailed, and ready for sales enablement."
+      },
+      "integra-pw": {
+        "title": "INTEGRA-pw, Complex products made easy to explain",
+        "summary": "Animation that helps sales present a strong product with confidence.",
+        "problem": "The product was strong, but explaining it clearly to customers was the ongoing challenge.",
+        "process": "We took time to understand how everything works, then turned that into an animation that holds attention and communicates cleanly.",
+        "constraints": "Technical storytelling had to stay faithful while remaining accessible to customers.",
+        "result": "A professional film that helps the sales team present with more confidence, straightforward collaboration end to end."
+      },
+      "ijockey": {
+        "title": "iJockey, CGI product renders built for brand and booth",
+        "summary": "Trade show ready CGI product visualization that pairs branded storytelling with clear product presence.",
+        "problem": "iJockey needed product visuals that could work for brand presentation and trade show contexts without a heavy live production setup.",
+        "process": "We shaped CGI product renders and motion that highlighted form, finish, and brand presence, then delivered booth and digital ready outputs.",
+        "constraints": "The film had to stay product accurate while carrying entertainment grade polish for brand channels.",
+        "result": "A versatile CGI product film the team could use across presentations and trade show storytelling."
+      },
+      "autoz-crave": {
+        "title": "Autocraze, mechanical product animation that clarifies motion",
+        "summary": "Industrial mechanical CGI that shows how the product moves and why the engineering matters.",
+        "problem": "Autocraze needed technical product animation that communicated mechanical function clearly to partners and buyers.",
+        "process": "We built mechanical animation passes focused on motion readability, lighting, and commercial pacing for industrial storytelling.",
+        "constraints": "Engineering clarity and commercial finish had to coexist in one short film.",
+        "result": "A mechanical CGI film suited for sales enablement and industrial product presentation."
+      },
+      "credex": {
+        "title": "Credex, cleaning equipment CGI with cinematic SFX",
+        "summary": "Industrial product animation for Credex carpet cleaning equipment with polished sound and motion.",
+        "problem": "Credex needed a product film that showed equipment capability with commercial energy, not only a static render pack.",
+        "process": "We animated the machine with cinematic camera work and SFX finish for marketing and product storytelling.",
+        "constraints": "Product readability had to survive dynamic motion and sound design polish.",
+        "result": "A finished industrial product film ready for digital campaigns and sales use."
       }
     }
   }

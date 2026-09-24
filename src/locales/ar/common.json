@@ -16,7 +16,10 @@
     "contact": "تواصل",
     "portfolioCta": "معرض الأعمال ←",
     "faq": "الأسئلة الشائعة",
-    "writeReview": "اكتب مراجعة"
+    "writeReview": "اكتب مراجعة",
+    "industries": "الصناعات",
+    "caseStudies": "دراسات الحالة",
+    "work": "عمل"
   },
   "header": {
     "closeMenu": "إغلاق القائمة",
@@ -59,7 +62,8 @@
     "emailInvalid": "يرجى إدخال عنوان بريد إلكتروني صالح.",
     "privacy": "سياسة الخصوصية",
     "euGdpr": "الناتج المحلي الإجمالي للاتحاد الأوروبي",
-    "imprint": "بصمة"
+    "imprint": "بصمة",
+    "entertainmentLink": "العلامة التجارية والترفيه"
   },
   "home": {
     "metaTitle": "مرئيات أضواء النجوم | استوديو الرسوم المتحركة والمؤثرات البصرية",
@@ -98,6 +102,14 @@
       "04": {
         "title": "المقطورات السينمائية",
         "desc": "مقطورات مدفوعة بالقصة مصممة لإطلاق العلامات التجارية وعناوين IP والحملات."
+      },
+      "05": {
+        "title": "الروبوتات ومحاكاة الحركة",
+        "desc": "تصور سير العمل الآلي، والروبوتات التعاونية، وتسلسلات الاختيار والمكان لتمكين المبيعات."
+      },
+      "06": {
+        "title": "شرح المبيعات والتسويق",
+        "desc": "موقع الويب وLinkedIn وHannover Messe شرحات جاهزة تساعد فريقك على الإغلاق."
       }
     },
     "showcase": {
@@ -240,226 +252,252 @@
         "desc": "مقاطع دعائية مبنية على قصة مصممة لإطلاق العلامات التجارية وعناوين IP والحملات بأقصى قدر من التأثير."
       },
       "technical": {
-        "title": "Technical Product Animation",
-        "desc": "How the machine works, cutaways, internal mechanisms, and external motion with engineering accuracy."
+        "title": "الرسوم المتحركة الفنية للمنتج",
+        "desc": "كيفية عمل الآلة، القطع، الآليات الداخلية، والحركة الخارجية بدقة هندسية."
       },
       "exploded": {
-        "title": "Exploded View and Assembly Animation",
-        "desc": "For manuals, spare parts catalogs, and service training without a live machine on site."
+        "title": "عرض انفجرت والرسوم المتحركة التجميع",
+        "desc": "للحصول على الأدلة وكتالوجات قطع الغيار والتدريب على الخدمة بدون استخدام آلة مباشرة في الموقع."
       },
       "tradeShow": {
-        "title": "CGI Product Renders and Trade Show Films",
-        "desc": "Booth ready films and hero renders that replace costly on site shoots of large equipment."
+        "title": "عروض منتجات CGI وأفلام المعارض التجارية",
+        "desc": "أفلام جاهزة للعرض وعروض الأبطال التي تحل محل اللقطات المكلفة في الموقع للمعدات الكبيرة."
       },
       "robotics": {
-        "title": "Robotics and Motion Simulation Visuals",
-        "desc": "Automated cells, cobots, and pick and place sequences for sales and marketing."
+        "title": "الروبوتات وصور محاكاة الحركة",
+        "desc": "الخلايا الآلية والروبوتات التعاونية وتسلسلات الاختيار والمكان للمبيعات والتسويق."
       },
       "explainer": {
-        "title": "Sales and Marketing Explainer Videos",
-        "desc": "Website, LinkedIn, and trade show explainers that help product and sales teams communicate clearly."
+        "title": "فيديو توضيحي للمبيعات والتسويق",
+        "desc": "موقع الويب وLinkedIn والمعارض التجارية التي تساعد فرق المنتجات والمبيعات على التواصل بوضوح."
       },
       "cad": {
-        "title": "CAD to CGI Conversion",
-        "desc": "Ingest STEP, IGES, SolidWorks, and CATIA exports and convert them into photoreal CGI motion."
+        "title": "تحويل CAD إلى CGI",
+        "desc": "استيعاب تصدير STEP وIGES وSolidWorks وCATIA وتحويلها إلى حركة CGI صورية."
       }
     },
     "detailsNav": {
-      "back": "All services",
-      "outcomes": "What you get",
-      "audience": "Who it is for",
-      "process": "How we work",
-      "related": "Related services",
-      "readMore": "Read more"
+      "back": "جميع الخدمات",
+      "outcomes": "ما تحصل عليه",
+      "audience": "لمن هو",
+      "process": "كيف نعمل",
+      "related": "الخدمات ذات الصلة",
+      "readMore": "اقرأ المزيد",
+      "prev": "سابق",
+      "next": "التالي",
+      "gallery": "معرض المشروع"
     },
     "details": {
       "technical": {
-        "metaTitle": "Technical Product Animation | Starlights Visuals",
-        "metaDescription": "Engineering accurate CGI that shows how industrial machines work inside and out for sales, training, and marketing.",
-        "intro": "Technical product animation turns complex mechanisms into clear motion. We build cutaways, internal views, and external sequences that engineers trust and buyers understand.",
+        "metaTitle": "الرسوم المتحركة الفنية للمنتج | مرئيات ستارلايت",
+        "metaDescription": "هندسة CGI دقيقة توضح كيفية عمل الآلات الصناعية من الداخل والخارج للمبيعات والتدريب والتسويق.",
+        "intro": "الرسوم المتحركة الفنية للمنتج تحول الآليات المعقدة إلى حركة واضحة. نحن نبني مقاطع فيديو ووجهات نظر داخلية وتسلسلات خارجية يثق بها المهندسون ويفهمها المشترون.",
         "outcomes": [
-          "Cutaway and transparent views that reveal inner mechanisms without guessing",
-          "Motion timed to real operating sequences and cycle logic",
-          "Assets sized for websites, sales decks, and trade show loops",
-          "Review checkpoints with your engineering team before final delivery"
+          "مناظر مقطوعة وشفافة تكشف الآليات الداخلية دون تخمين",
+          "توقيت الحركة لتسلسلات التشغيل الحقيقية ومنطق الدورة",
+          "حجم الأصول مناسب لمواقع الويب، ومجموعات المبيعات، وحلقات المعارض التجارية",
+          "قم بمراجعة نقاط التفتيش مع فريقك الهندسي قبل التسليم النهائي"
         ],
         "audience": [
-          "Machine builders explaining multi stage processes",
-          "Product managers launching a new series or feature set",
-          "Sales teams who need a film when the machine cannot travel",
-          "Marketing leads who need accuracy without a live shoot"
+          "بناة الآلة يشرحون العمليات متعددة المراحل",
+          "يطلق مديرو المنتجات سلسلة أو مجموعة ميزات جديدة",
+          "فرق المبيعات التي تحتاج إلى فيلم عندما لا تتمكن الآلة من السفر",
+          "عملاء التسويق الذين يحتاجون إلى الدقة دون التصوير المباشر"
         ],
         "steps": [
-          "Brief and CAD intake under NDA, including the sequences that matter most",
-          "Look development and technical storyboard aligned to your engineers",
-          "Animation production with scheduled accuracy reviews",
-          "Final delivery in formats ready for web, booth, and sales enablement"
+          "تناول موجز وCAD بموجب NDA، بما في ذلك التسلسلات الأكثر أهمية",
+          "ابحث عن التطوير والقصة المصورة الفنية المتوافقة مع مهندسيك",
+          "إنتاج الرسوم المتحركة مع مراجعات الدقة المجدولة",
+          "التسليم النهائي بتنسيقات جاهزة للويب والمقصورة وتمكين المبيعات"
         ],
-        "ctaTitle": "Ready to show how your machine really works?",
-        "ctaDesc": "Share your product, deadline, and CAD status. We reply within 24 hours."
+        "ctaTitle": "هل أنت مستعد لإظهار كيف يعمل جهازك حقًا؟",
+        "ctaDesc": "شارك منتجك والموعد النهائي وحالة CAD. نقوم بالرد خلال 24 ساعة."
       },
       "exploded": {
-        "metaTitle": "Exploded View Animation | Starlights Visuals",
-        "metaDescription": "Exploded view and assembly animations for spare parts manuals, service training, and industrial sales.",
-        "intro": "Exploded view and assembly films make part relationships and build order obvious. Ideal for manuals, spare parts portals, and technician onboarding.",
+        "metaTitle": "انفجرت عرض الرسوم المتحركة | مرئيات ستارلايت",
+        "metaDescription": "عرض موسع ورسوم متحركة للتجميع لكتيبات قطع الغيار والتدريب على الخدمة والمبيعات الصناعية.",
+        "intro": "تجعل أفلام العرض والتجميع المنفجرة العلاقات الجزئية ونظام البناء واضحًا. مثالي للأدلة وبوابات قطع الغيار وإعداد الفنيين.",
         "outcomes": [
-          "BOM aligned part groups that match your documentation",
-          "Clear assembly and disassembly order in motion",
-          "Stills and film exports for manuals and training portals",
-          "Readable labeling and camera paths that stay service friendly"
+          "مجموعات أجزاء متوافقة مع BOM والتي تتطابق مع وثائقك",
+          "ترتيب واضح للتجميع والتفكيك أثناء الحركة",
+          "تصدير الصور الثابتة والأفلام للأدلة وبوابات التدريب",
+          "وضع العلامات ومسارات الكاميرا القابلة للقراءة والتي تظل سهلة الخدمة"
         ],
         "audience": [
-          "Service and aftermarket teams writing manuals",
-          "Spare parts marketers explaining kits and variants",
-          "Training leads onboarding technicians remotely",
-          "Manufacturers reducing support tickets on complex assemblies"
+          "تقوم فرق الخدمة وما بعد البيع بكتابة الأدلة",
+          "مسوقو قطع الغيار يشرحون الأطقم والمتغيرات",
+          "يؤدي التدريب إلى تأهيل الفنيين عن بعد",
+          "يقوم المصنعون بتخفيض تذاكر الدعم على التجميعات المعقدة"
         ],
         "steps": [
-          "CAD and BOM review to define part groups and priority chapters",
-          "Assembly storyboard with labeling conventions your team uses",
-          "Animation of explode, isolate, and reassemble sequences",
-          "Export stills, short films, and optional interactive frames"
+          "مراجعة CAD وBOM لتحديد مجموعات الأجزاء والفصول ذات الأولوية",
+          "تجميع القصة المصورة مع اصطلاحات التصنيف التي يستخدمها فريقك",
+          "الرسوم المتحركة لتسلسلات الانفجار والعزل وإعادة التجميع",
+          "تصدير الصور الثابتة والأفلام القصيرة والإطارات التفاعلية الاختيارية"
         ],
-        "ctaTitle": "Need clearer spare parts and service visuals?",
-        "ctaDesc": "Tell us which assemblies drive the most questions. We start from your CAD."
+        "ctaTitle": "هل تحتاج إلى قطع غيار وصور خدمة أكثر وضوحًا؟",
+        "ctaDesc": "أخبرنا ما هي التجمعات التي تثير معظم الأسئلة. نبدأ من CAD الخاص بك."
       },
       "trade-show": {
-        "metaTitle": "Trade Show Films and CGI Renders | Starlights Visuals",
-        "metaDescription": "Booth ready CGI films and product renders for industrial trade shows without expensive on site shoots.",
-        "intro": "Large machines are expensive to film and hard to stage. CGI product renders and trade show films deliver booth ready motion that stays accurate under engineer review.",
+        "metaTitle": "أفلام المعارض التجارية وعروض CGI | مرئيات ستارلايت",
+        "metaDescription": "قم بتجهيز أفلام CGI وعروض المنتجات للعروض التجارية الصناعية دون الحاجة إلى تصوير باهظ الثمن في الموقع.",
+        "intro": "الآلات الكبيرة مكلفة في التصوير ويصعب عرضها. تقدم عروض منتجات CGI وأفلام المعارض التجارية حركة جاهزة للمقصورة تظل دقيقة تحت مراجعة المهندس.",
         "outcomes": [
-          "Hero films sized for booth loops and LED walls",
-          "Photoreal product renders for print and digital collateral",
-          "Timelines scoped to your show deadline with milestone reviews",
-          "Formats ready for LinkedIn cutdowns after the event"
+          "أفلام البطل بحجم مناسب لحلقات الكابينة وجدران LED",
+          "يُعرض المنتج الصوري للطباعة والضمانات الرقمية",
+          "جداول زمنية محددة للموعد النهائي لعرضك مع مراجعات هامة",
+          "التنسيقات جاهزة لتخفيضات LinkedIn بعد الحدث"
         ],
         "audience": [
-          "Exhibitors preparing for Hannover Messe and similar shows",
-          "Brand teams who cannot ship the machine to every venue",
-          "Agencies needing industrial CGI for a booth concept",
-          "Sales leaders who want a looping film that holds attention"
+          "العارضون يستعدون لمعرض هانوفر والعروض المماثلة",
+          "فرق العلامات التجارية التي لا تستطيع شحن الماكينة إلى كل مكان",
+          "الوكالات التي تحتاج إلى CGI صناعية لمفهوم الكشك",
+          "قادة المبيعات الذين يريدون فيلمًا متكررًا يجذب الانتباه"
         ],
         "steps": [
-          "Define booth use cases, screen sizes, and must show features",
-          "CAD to look development with lighting matched to your brand",
-          "Produce the master film plus short loops for continuous play",
-          "Deliver show ready files with backup formats for AV teams"
+          "تحديد حالات استخدام الكشك، وأحجام الشاشة، ويجب إظهار الميزات",
+          "CAD للبحث عن التطوير باستخدام الإضاءة المطابقة لعلامتك التجارية",
+          "قم بإنتاج الفيلم الرئيسي بالإضافة إلى حلقات قصيرة للتشغيل المستمر",
+          "تسليم ملفات جاهزة للعرض بتنسيقات احتياطية لفرق AV"
         ],
-        "ctaTitle": "Got a booth deadline coming up?",
-        "ctaDesc": "Share the show date and what must be on screen. We plan milestones backwards from open day."
+        "ctaTitle": "حصلت على الموعد النهائي كشك القادمة؟",
+        "ctaDesc": "مشاركة تاريخ العرض وما يجب أن يكون على الشاشة. نحن نخطط للمعالم بشكل عكسي من اليوم المفتوح."
       },
       "robotics": {
-        "metaTitle": "Robotics Motion Simulation Visuals | Starlights Visuals",
-        "metaDescription": "CGI for robotic cells, cobots, and pick and place workflows that sales and marketing can share.",
-        "intro": "Robotics and automation cells are hard to film cleanly. We visualize cobots, pick and place, and cell layouts so prospects grasp throughput and safety without a factory tour.",
+        "metaTitle": "مرئيات محاكاة حركة الروبوتات | مرئيات ستارلايت",
+        "metaDescription": "CGI للخلايا الآلية والروبوتات التعاونية واختيار مسارات العمل التي يمكن للمبيعات والتسويق مشاركتها.",
+        "intro": "يصعب تصوير الخلايا الروبوتية والأتمتة بشكل نظيف. نحن نتصور الروبوتات التعاونية، والاختيار والمكان، وتخطيطات الخلايا حتى يتمكن العملاء المحتملون من فهم الإنتاجية والسلامة دون القيام بجولة في المصنع.",
         "outcomes": [
-          "Cell layouts and motion paths that match integrator drawings",
-          "Cycle storytelling that communicates takt and throughput",
-          "Safety zone and workflow clarity for non specialists",
-          "Films for RFQs, LinkedIn, and booth loops"
+          "تخطيطات الخلايا ومسارات الحركة التي تتطابق مع رسومات التكامل",
+          "دورة سرد القصص التي تنقل اللباقة والإنتاجية",
+          "منطقة الأمان ووضوح سير العمل لغير المتخصصين",
+          "أفلام لطلبات عروض الأسعار، وLinkedIn، وحلقات الكابينة"
         ],
         "audience": [
-          "Automation builders and system integrators",
-          "Robotics OEMs explaining cell concepts before install",
-          "Sales engineers supporting complex RFQs",
-          "Marketing teams who cannot film live production cells"
+          "بناة الأتمتة وتكامل الأنظمة",
+          "مصنعو المعدات الأصلية للروبوتات يشرحون مفاهيم الخلية قبل التثبيت",
+          "مهندسو المبيعات يدعمون طلبات عروض الأسعار المعقدة",
+          "فرق التسويق التي لا تستطيع تصوير خلايا الإنتاج الحية"
         ],
         "steps": [
-          "NDA and layout intake from CAD or integrator drawings",
-          "Motion reference alignment with your applications team",
-          "Simulation style animation with accuracy review passes",
-          "Delivery of hero film and short clips for digital channels"
+          "NDA وتناول التخطيط من رسومات CAD أو التكامل",
+          "محاذاة مرجع الحركة مع فريق التطبيقات الخاص بك",
+          "الرسوم المتحركة بأسلوب المحاكاة مع تمريرات مراجعة الدقة",
+          "تسليم الفيلم البطل والمقاطع القصيرة للقنوات الرقمية"
         ],
-        "ctaTitle": "Need to show your automation cell clearly?",
-        "ctaDesc": "Send layouts or CAD under NDA and the workflows buyers must understand."
+        "ctaTitle": "هل تحتاج إلى إظهار خلية الأتمتة الخاصة بك بوضوح؟",
+        "ctaDesc": "أرسل التخطيطات أو CAD بموجب NDA ويجب على المشترين فهم سير العمل."
       },
       "explainer": {
-        "metaTitle": "Sales and Marketing Explainer Videos | Starlights Visuals",
-        "metaDescription": "Industrial explainer videos for websites, LinkedIn, and trade shows that help teams sell complex products.",
-        "intro": "Sales and marketing explainers translate technical value into a short film your team can send, embed, and play at the booth.",
+        "metaTitle": "فيديوهات توضيحية للمبيعات والتسويق | مرئيات ستارلايت",
+        "metaDescription": "مقاطع فيديو توضيحية صناعية لمواقع الويب وLinkedIn والمعارض التجارية التي تساعد الفرق على بيع المنتجات المعقدة.",
+        "intro": "يقوم مفسرو المبيعات والتسويق بترجمة القيمة الفنية إلى فيلم قصير يمكن لفريقك إرساله وتضمينه وتشغيله في الجناح.",
         "outcomes": [
-          "Script and structure built around buyer questions",
-          "Technical accuracy without burying the message",
-          "Versions for web, social, and trade show screens",
-          "Clear CTAs that hand off to sales conversations"
+          "السيناريو والبنية مبنية على أسئلة المشتري",
+          "الدقة الفنية دون دفن الرسالة",
+          "إصدارات لشاشات الويب والشبكات الاجتماعية والمعارض التجارية",
+          "امسح عبارات الحث على اتخاذ إجراء التي يتم تسليمها إلى محادثات المبيعات"
         ],
         "audience": [
-          "Product marketers launching features or SKUs",
-          "Sales teams needing a shareable product story",
-          "Founders pitching partners and investors",
-          "Distributors who need localized explainers later"
+          "يطلق مسوقو المنتجات ميزات أو وحدات SKU",
+          "تحتاج فرق المبيعات إلى قصة منتج قابلة للمشاركة",
+          "المؤسسون يروجون للشركاء والمستثمرين",
+          "الموزعون الذين يحتاجون إلى شروحات محلية لاحقًا"
         ],
         "steps": [
-          "Discovery on audience, offer, and proof points",
-          "Script and visual outline for stakeholder sign off",
-          "Production with optional CAD based product shots",
-          "Cutdowns and captions for the channels you use most"
+          "اكتشاف الجمهور والعرض ونقاط الإثبات",
+          "السيناريو والمخطط المرئي لتوقيع أصحاب المصلحة",
+          "الإنتاج باستخدام لقطات المنتج الاختيارية المستندة إلى CAD",
+          "التخفيضات والتعليقات التوضيحية للقنوات التي تستخدمها أكثر من غيرها"
         ],
-        "ctaTitle": "Want an explainer your sales team will actually use?",
-        "ctaDesc": "Tell us the product story and where the film will live. We scope a practical package."
+        "ctaTitle": "هل تريد شرحًا سيستخدمه فريق المبيعات لديك بالفعل؟",
+        "ctaDesc": "أخبرنا بقصة المنتج وأين سيعيش الفيلم. نحن نطاق حزمة عملية."
       },
       "cad": {
-        "metaTitle": "CAD to CGI Conversion | Starlights Visuals",
-        "metaDescription": "Convert SolidWorks, CATIA, STEP, and IGES data into photoreal CGI product films for industrial marketing.",
-        "intro": "CAD to CGI conversion is our bridge from engineering data to marketing ready motion. We ingest common formats and turn assemblies into photoreal films.",
+        "metaTitle": "تحويل CAD إلى CGI | مرئيات ستارلايت",
+        "metaDescription": "قم بتحويل بيانات SolidWorks وCATIA وSTEP وIGES إلى أفلام منتجات CGI صورية للتسويق الصناعي.",
+        "intro": "إن تحويل CAD إلى CGI هو جسرنا من البيانات الهندسية إلى الحركة الجاهزة للتسويق. نحن نستوعب التنسيقات الشائعة ونحول التجميعات إلى أفلام حقيقية.",
         "outcomes": [
-          "Support for STEP, IGES, SolidWorks, and CATIA exports",
-          "Cleanup and optimization so heavy assemblies animate smoothly",
-          "Materials and lighting that read as real product photography",
-          "A path from raw CAD to booth and website ready files"
+          "دعم صادرات STEP وIGES وSolidWorks وCATIA",
+          "التنظيف والتحسين بحيث تتحرك التجميعات الثقيلة بسلاسة",
+          "المواد والإضاءة التي تعتبر تصويرًا حقيقيًا للمنتج",
+          "مسار من CAD الخام إلى الملفات الجاهزة للموقع والموقع"
         ],
         "audience": [
-          "Manufacturers with CAD but no marketing film",
-          "Engineering teams who need visuals without a photoshoot",
-          "Agencies handing off CAD for industrial clients",
-          "Anyone under NDA with unreleased product geometry"
+          "الشركات المصنعة مع CAD ولكن لا يوجد فيلم تسويقي",
+          "الفرق الهندسية التي تحتاج إلى صور مرئية بدون جلسة تصوير",
+          "تقوم الوكالات بتسليم CAD للعملاء الصناعيين",
+          "أي شخص ضمن اتفاقية عدم الإفشاء ولديه هندسة منتج لم يتم طرحها"
         ],
         "steps": [
-          "Secure CAD handoff under NDA and format check",
-          "Cleanup, hierarchy, and material look development",
-          "Animation and lighting production with engineer review",
-          "Final CGI delivery plus optional still frames"
+          "تسليم CAD آمن بموجب NDA والتحقق من التنسيق",
+          "التنظيف والتسلسل الهرمي وتطوير المظهر المادي",
+          "إنتاج الرسوم المتحركة والإضاءة بمراجعة المهندس",
+          "تسليم CGI النهائي بالإضافة إلى الإطارات الثابتة الاختيارية"
         ],
-        "ctaTitle": "Have CAD ready to turn into a film?",
-        "ctaDesc": "Tell us your formats and deadline. We confirm compatibility before production starts."
+        "ctaTitle": "هل CAD جاهز للتحول إلى فيلم؟",
+        "ctaDesc": "أخبرنا بالتنسيقات والموعد النهائي. نؤكد التوافق قبل بدء الإنتاج."
       }
-    }
+    },
+    "entertainmentCta": "هل تبحث عن عمل شخصي أو مؤثرات بصرية أو عمل ترفيهي يحمل علامة تجارية؟",
+    "entertainmentLink": "خدمات العلامة التجارية والترفيهية"
   },
   "aboutPage": {
     "metaTitle": "حول | مرئيات ستارلايت",
     "metaDescription": "Starlight Visuals هو استوديو للرسوم المتحركة على مستوى عالمي يقوم بإنشاء تجارب بصرية استثنائية عبر الرسوم المتحركة للمنتجات الصناعية، والرسوم المتحركة للألعاب، وتصور المنتجات، والرسوم المتحركة للشخصيات ثنائية وثلاثية الأبعاد.",
     "label": "من نحن",
-    "title1": "استوديو مبني عليه",
+    "title1": "الاستدامة عليه",
     "title2": "الضوء والرمز والقصة",
     "p1": "Starlight Visuals هو استوديو للرسوم المتحركة على مستوى عالمي يقوم بإنشاء تجارب بصرية استثنائية عبر الرسوم المتحركة للمنتجات الصناعية، والرسوم المتحركة للألعاب، وتصور المنتجات، والرسوم المتحركة للشخصيات ثنائية وثلاثية الأبعاد. نحن نجمع بين التميز الفني والتكنولوجيا المتطورة لتحويل الأفكار إلى صور تأسر وتعلم وتلهم. بدءًا من الرسوم المتحركة الصناعية المعتمدة على الهندسة وعرض المنتجات الواقعية وحتى الرسوم الكاريكاتورية المنمقة وعروض الشخصيات التعبيرية وتسلسلات الألعاب السينمائية، نقوم بإنشاء رسوم متحركة تقدم تأثيرًا بصريًا ونتائج ذات معنى.",
     "p2": "سواء كنت تعرض ابتكار منتج ما، أو تضفي الحيوية على عالم الألعاب، أو تصنع شخصيات متحركة لا تُنسى، فقد تم تصميم كل إطار بهدف ودقة. يتعاون فريقنا متعدد التخصصات من رسامي الرسوم المتحركة والفنانين التقنيين والمصممين والمصممين ومصممي الحركة ورواة القصص المرئية بسلاسة لإنتاج عمل يلبي أعلى المعايير الإبداعية والتقنية. نحن نؤمن بأن الرسوم المتحركة الرائعة تفعل أكثر من مجرد المظهر الجميل، فهي تنقل أفكارًا معقدة وتقوي العلامات التجارية وتخلق روابط عاطفية دائمة.",
     "p3": "نحن نتعاون مع الشركات المصنعة وشركات المنتجات ومطوري الألعاب والوكالات الإبداعية والعلامات التجارية العالمية لتقديم رسوم متحركة متميزة للتسويق وإطلاق المنتجات والتدريب والترفيه والإعلان والتجارب الرقمية. كل مشروع مدفوع بالابتكار والحرفية والالتزام الذي لا هوادة فيه بالجودة. في Starlight Visuals، نحن لا نقوم بالتحريك فحسب، بل نقوم بتصميم التجارب وبناء شخصيات لا تُنسى وإنشاء صور مرئية تدفع الأشخاص والشركات إلى الأمام.",
-    "valuesLabel": "القيم الأساسية",
-    "valuesTitle": "ما الذي يدفعنا؟",
+    "valuesLabel": "نظرة عامة",
+    "valuesTitle": "ما الذي دفعنا؟",
     "values": {
       "imagination": {
         "title": "الخيال أولا",
-        "desc": "يبدأ كل مشروع بفكرة جريئة ولوحة فارغة."
+        "desc": "يبدأ كل مشروع بفكرة جديدة ولوحة فارغة."
       },
       "craft": {
-        "title": "مهووسة بالحرفية",
-        "desc": "إطار بإطار، بكسل ببكسل، الجودة غير قابلة للتفاوض."
+        "title": "مهوسة بالحرفية",
+        "desc": "إطار بإطار، ببكسل، جودة غير قابلة للتفاوض."
       },
       "energy": {
-        "title": "الطاقة السينمائية",
-        "desc": "نحن نطارد القشعريرة. إذا لم يحركنا، فإننا نصقل."
+        "title": "فيلم الطاقة",
+        "desc": "نحن نطارد القشعريرة. إذا لم يحركنا، في مركز نصقل."
       },
       "story": {
-        "title": "قصة مدفوعة",
-        "desc": "التكنولوجيا تخدم القصة. دائماً."
+        "title": "قصة سكواد",
+        "desc": "تكنولوجيا القصة المصورة. دائما."
       }
     },
     "stats": {
       "projects": "المشاريع التي تم شحنها",
       "clients": "العملاء العالميين",
-      "awards": "الجوائز التي حصل عليها",
-      "years": "سنوات صياغة"
-    }
+      "awards": "الجوائز التي حصلوا عليها",
+      "years": "سنوات من العمل"
+    },
+    "title": "Starlight Visual Studio: الرسوم المتحركة وCGI لمصنعي الآلات الصناعية والروبوتات والأجهزة الطبية",
+    "lead": "نقوم بتحويل الآلات المعقدة والأنظمة الآلية والمنتجات التقنية إلى أفلام CGI يثق بها المهندسون وتستخدمها فرق المبيعات فعليًا.",
+    "whoTitle": "الذين نعمل معهم",
+    "whatTitle": "ماذا نفعل",
+    "whoItems": [
+      "مصنعي الآلات الصناعية",
+      "شركات الروبوتات والأتمتة",
+      "مصنعي الأجهزة الطبية",
+      "موردي مكونات السيارات",
+      "صانعو الآلات ومصنعو آلات التعبئة والتغليف",
+      "شركات CNC والمضخات الصناعية والالكترونيات الصناعية"
+    ],
+    "whatItems": [
+      "الرسوم المتحركة للمنتج من CAD إلى CGI",
+      "الرسوم المتحركة للعرض الموسع والتجميع للأدلة وقطع الغيار",
+      "فيديوهات توضيحية تقنية للمواقع الإلكترونية وفرق المبيعات",
+      "المعرض التجاري وأفلام إطلاق المنتجات",
+      "الروبوتات والأتمتة تصور الحركة"
+    ],
+    "cta": "احجز مكالمة",
+    "website": "www.starlightvisualstudio.com"
   },
   "contactPage": {
     "metaTitle": "تواصل | Starlights Visuals",
@@ -487,7 +525,14 @@
       "trailer": "مقطورة سينمائية",
       "character": "تصميم الشخصيات",
       "motion": "الرسوم المتحركة والمؤثرات البصرية",
-      "other": "آخر"
+      "other": "آخر",
+      "technical": "الرسوم المتحركة الفنية للمنتج",
+      "exploded": "عرض / تجميع انفجرت",
+      "tradeShow": "فيلم المعرض التجاري / عروض CGI",
+      "robotics": "الروبوتات ومحاكاة الحركة",
+      "explainer": "شرح المبيعات والتسويق",
+      "cad": "تحويل CAD إلى CGI",
+      "entertainment": "العلامة التجارية والترفيه"
     },
     "sending": "إرسال…",
     "errorGeneric": "لا يمكن إرسال رسالتك. يرجى مراسلتنا عبر البريد الإلكتروني مباشرة أو حاول مرة أخرى.",
@@ -539,7 +584,11 @@
         "title": "عوالم النبض",
         "desc": "فن بيئة العلامة التجارية الغامرة."
       }
-    }
+    },
+    "filterAll": "جميع الصناعات",
+    "filterIndustry": "تصفية حسب الصناعة",
+    "byTechnique": "تصفح حسب التقنية",
+    "emptyIndustry": "لا توجد مشاريع الموسومة لهذه الصناعة حتى الآن. استكشف دراسات الحالة ذات الصلة أو تواصل معنا."
   },
   "blogPage": {
     "metaTitle": "المدونة | Starlights Visuals",
@@ -1103,6 +1152,24 @@
             "2": "بعد التأثيرات"
           }
         }
+      },
+      "branding": {
+        "ijockey": {
+          "name": "IJOCKEY",
+          "industry": "العلامة التجارية والصناعية CGI",
+          "description": "يعرض منتج iJockey CGI أفلامًا على طراز المعارض التجارية تجمع بين رواية القصص ذات العلامات التجارية وتصور المنتجات الصناعية.",
+          "timeline": "2025",
+          "services": {
+            "0": "عروض منتجات CGI",
+            "1": "أفلام المعرض التجاري",
+            "2": "العلامة التجارية سي جي آي"
+          },
+          "tools": {
+            "0": "سينما 4 دي",
+            "1": "خلاط",
+            "2": "بعد التأثيرات"
+          }
+        }
       }
     },
     "projects": {
@@ -1551,7 +1618,8 @@
         "description": "Photoreal PHR 1 الرسوم المتحركة لمجموعة نقل الحركة الكهربائية مع عمل الكاميرا السينمائية والتفاصيل الفنية.",
         "tags": {
           "0": "صناعي",
-          "1": "الموارد البشرية 1"
+          "1": "الموارد البشرية 1",
+          "2": "فر-1"
         }
       },
       "atx-p1": {
@@ -1577,11 +1645,20 @@
           "0": "صناعي",
           "1": "أوتوز كريف"
         }
+      },
+      "ijockey-p1": {
+        "title": "فيلم منتج iJockey CGI",
+        "description": "عرض منتج CGI وفيلم متحرك لـ iJockey، مصمم للاستخدام في المعارض التجارية وعرض العلامات التجارية.",
+        "tags": {
+          "0": "iJockey",
+          "1": "CGI",
+          "2": "المعرض التجاري"
+        }
       }
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ | Starlights Visuals",
+    "metaTitle": "الأسئلة الشائعة | مرئيات ستارلايت",
     "metaDescription": "كل ما تحتاج معرفته للعمل معنا، من أول موجز حتى التسليم النهائي.",
     "label": "الأسئلة الشائعة",
     "title": "أسئلة وأجوبة",
@@ -1687,7 +1764,9 @@
       "videos": "فيديوهات",
       "reviews": "التعليقات",
       "admins": "المشرفين",
-      "contacts": "اتصالات"
+      "contacts": "اتصالات",
+      "categories": "فئات",
+      "translations": "ترجمات"
     },
     "login": {
       "script": "الوصول إلى الاستوديو",
@@ -1712,7 +1791,8 @@
       "blogs": "مشاركات المدونة",
       "videos": "فيديوهات المحفظة",
       "pendingReviews": "في انتظار المراجعات",
-      "contacts": "الاتصال يؤدي"
+      "contacts": "الاتصال يؤدي",
+      "categories": "فئات"
     },
     "blogs": {
       "title": "مشاركات المدونة",
@@ -1863,6 +1943,70 @@
       "message": "رسالة",
       "send": "إرسال البريد الإلكتروني",
       "sending": "إرسال…"
+    },
+    "categories": {
+      "title": "فئات",
+      "subtitle": "إضافة وتحرير فئات المحفظة، بما في ذلك الصور المصغرة للغلاف.",
+      "create": "فئة جديدة",
+      "createTitle": "إنشاء فئة",
+      "editTitle": "تحرير الفئة",
+      "empty": "لا توجد فئات بعد.",
+      "colThumb": "إبهام",
+      "colTitle": "عنوان",
+      "colStatus": "حالة",
+      "colOrder": "طلب",
+      "colActions": "الإجراءات",
+      "fieldTitle": "عنوان",
+      "slug": "سبيكة",
+      "slugHint": "مسار URL ضمن /works/، مقفل بعد الإنشاء.",
+      "tagline": "سطر الوصف",
+      "description": "وصف",
+      "showcaseTag": "علامة العرض",
+      "showcaseTagHint": "ملصق صغير على بطاقات العرض المنزلية (مثل ثلاثية الأبعاد والمؤثرات البصرية).",
+      "coverImage": "الغلاف / الصورة المصغرة",
+      "coverHint": "الحجم الموصى به: {{الحجم}}. العرض {{العرض}} بكسل × الارتفاع {{الارتفاع}} بكسل.",
+      "coverSizeBadge": "أفضل ملائمة: {{size}}، صورة شخصية 4:5 لبطاقات العرض",
+      "uploadButton": "تحميل الصورة المصغرة",
+      "uploading": "جارٍ التحميل…",
+      "sortOrder": "ترتيب الترتيب",
+      "titleRequired": "العنوان مطلوب.",
+      "deleteConfirm": "هل تريد حذف هذه الفئة؟ ستحتفظ مقاطع الفيديو التي تستخدم هذا الارتباط الثابت ببياناتها ولكن صفحة الفئة ستختفي.",
+      "loadError": "فشل تحميل الفئات",
+      "saveError": "فشل حفظ الفئة",
+      "deleteError": "فشل حذف الفئة",
+      "uploadError": "فشل تحميل الصورة المصغرة"
+    },
+    "translations": {
+      "title": "ترجمات",
+      "subtitle": "تحرير نسخة موقع الويب العام ومحتوى CMS لكل لغة. عمليات الحفظ اليدوية محمية من الكتابة الفوقية التلقائية.",
+      "language": "لغة",
+      "contentType": "نوع المحتوى",
+      "types": {
+        "site_copy": "نسخة الموقع (الصفحات، التنقل، القانوني)",
+        "blog_post": "مشاركات المدونة",
+        "portfolio_category": "فئات",
+        "portfolio_video": "فيديوهات",
+        "portfolio_client": "العملاء",
+        "testimonial": "الشهادات"
+      },
+      "search": "مفاتيح البحث أو النص...",
+      "selectItem": "حدد العنصر",
+      "noItems": "لم يتم العثور على أي عناصر.",
+      "loadError": "فشل تحميل الترجمات",
+      "saveError": "فشل في حفظ الترجمة",
+      "clearError": "فشل في إعادة تعيين الترجمة",
+      "saved": "أنقذ. لن يتم استبدال هذه اللغة بالترجمة التلقائية.",
+      "manualBadge": "منسقة يدويًا",
+      "autoBadge": "السيارات أو المجمعة",
+      "reset": "إعادة التعيين إلى المجمعة / التلقائي",
+      "resetConfirm": "هل تريد مسح الترجمة المنسقة لهذه اللغة؟ سيتم استخدام النسخة المجمعة أو التي تم إنشاؤها تلقائيًا مرة أخرى.",
+      "saving": "توفير…",
+      "save": "حفظ الترجمة",
+      "fieldsHint": "قم بتحرير النص أدناه، ثم احفظه. تظهر التغييرات على الموقع العام لهذه اللغة.",
+      "section": "قسم",
+      "loadingItems": "جارٍ تحميل العناصر…",
+      "loadingFields": "جارٍ تحميل الحقول...",
+      "authRequired": "قم بتسجيل الدخول مرة أخرى لتحرير الترجمات."
     }
   },
   "privacyPage": {
@@ -1999,19 +2143,19 @@
         "company": "Starlights Visuals",
         "tagline": "الرسوم المتحركة الإبداعية واستوديو VFX",
         "founderLabel": "المؤسس والمدير العام",
-        "founderName": "Boluwaji Ominiran",
+        "founderName": "بولوواجي أومينيران",
         "addresses": {
           "us": {
             "label": "المكتب الرئيسي (الولايات المتحدة)",
-            "lines": "6457 Wakefield Rd, Apt 524\nIndianapolis, IN 46254\nUnited States"
+            "lines": "6457 طريق ويكفيلد، شقة 524\nإنديانابوليس، إن 46254\nالولايات المتحدة"
           },
           "be": {
             "label": "عنوان المراسلات الأوروبي",
-            "lines": "Wise, Rue du Trône 100, 3rd floor\n1050 Brussels\nBelgium"
+            "lines": "وايز، شارع دو ترون 100، الطابق الثالث\n1050 بروكسل\nبلجيكا"
           },
           "uk": {
             "label": "عنوان العمل في المملكة المتحدة",
-            "lines": "4th Floor, Imperial House\n15 Kingsway\nLondon WC2B 6UN\nUnited Kingdom"
+            "lines": "الطابق الرابع، البيت الإمبراطوري\n15 كينغزواي\nلندن WC2B 6UN\nالمملكة المتحدة"
           }
         },
         "remote": "نحن نعمل عن بعد مع العملاء في كل بلد."
@@ -2051,6 +2195,287 @@
         "body": "تتوفر معلومات حول كيفية جمع البيانات الشخصية واستخدامها وحمايتها ونقلها في سياسة الخصوصية الخاصة بنا وإشعار اللائحة العامة لحماية البيانات التكميلي للاتحاد الأوروبي.",
         "privacyLink": "عرض سياسة الخصوصية",
         "gdprLink": "عرض إشعار اللائحة العامة لحماية البيانات في الاتحاد الأوروبي"
+      }
+    }
+  },
+  "trust": {
+    "label": "بنيت للمشترين الصناعيين",
+    "title": "الثقة والعملية",
+    "items": {
+      "cad": {
+        "title": "التوافق مع CAD",
+        "desc": "يتم استيراد SolidWorks وCATIA وSTEP وIGES، ونحن نعمل بناءً على بياناتك الهندسية، وليس التخمين."
+      },
+      "nda": {
+        "title": "التجمع الوطني الديمقراطي والسرية",
+        "desc": "عملية واضحة لاتفاقية عدم الإفشاء (NDA) للآلات المملوكة والمنتجات التي لم يتم إصدارها والتجمعات الحساسة."
+      },
+      "review": {
+        "title": "خطوة مراجعة المهندس",
+        "desc": "مراجعات الدقة الفنية مع مهندسيك قبل التسليم النهائي، لا يوجد خيال تسويقي."
+      },
+      "turnaround": {
+        "title": "المواعيد النهائية للمعرض التجاري",
+        "desc": "جداول زمنية محددة تصل إلى مواعيد العرض المباشر والإطلاق وLinkedIn مع نقاط تفتيش هامة."
+      }
+    }
+  },
+  "entertainmentServicesPage": {
+    "metaTitle": "العلامة التجارية والترفيه | مرئيات ستارلايت",
+    "metaDescription": "رسوم متحركة للشخصيات ثنائية وثلاثية الأبعاد، ومقاطع دعائية سينمائية، ورسومات متحركة، ومؤثرات بصرية للعلامات التجارية والترفيه.",
+    "label": "خط الأعمال الثانوي",
+    "title": "العلامة التجارية والترفيه",
+    "subtitle": "ما زلنا ننتج الرسوم المتحركة والمقاطع الدعائية والمؤثرات البصرية التي تعتمد على الشخصيات، وهذا هو عرضنا الترفيهي جنبًا إلى جنب مع CGI الصناعية.",
+    "backToIndustrial": "العودة إلى الخدمات الصناعية",
+    "ctaButton": "ابدأ مشروعًا",
+    "items": {
+      "2d": {
+        "title": "الرسوم المتحركة ثنائية الأبعاد",
+        "desc": "إطار بإطار وثنائي الأبعاد مُجهز للمسلسلات والأفلام القصيرة والشرحية والأفلام ذات العلامات التجارية."
+      },
+      "3d": {
+        "title": "شخصية وعوالم ثلاثية الأبعاد",
+        "desc": "شخصيات وبيئات وتسلسلات سينمائية منمقة وصورية."
+      },
+      "character": {
+        "title": "تصميم الشخصيات",
+        "desc": "الشخصيات والمخلوقات والمفاهيم الفنية الأصلية التي تثبت عنوان IP الخاص بك."
+      },
+      "motion": {
+        "title": "الرسوم المتحركة",
+        "desc": "الحركة ذات العلامات التجارية والرسوم المتحركة لواجهة المستخدم وحزم البث ذات الصقل السينمائي."
+      },
+      "vfx": {
+        "title": "المؤثرات البصرية (VFX)",
+        "desc": "تكامل التركيب والجسيمات FX وCG للأفلام والحملات."
+      },
+      "trailer": {
+        "title": "المقطورات السينمائية",
+        "desc": "مقطورات مبنية على القصص لإطلاق العلامات التجارية وعناوين IP والحملات."
+      }
+    }
+  },
+  "industriesPage": {
+    "metaTitle": "الصناعات | مرئيات ستارلايت",
+    "metaDescription": "CGI والرسوم المتحركة للآلات الصناعية والروبوتات والأجهزة الطبية ومكونات السيارات والمزيد.",
+    "label": "من نخدم",
+    "title": "الصناعات",
+    "subtitle": "صفحات مخصصة للمصنعين وفرق الإنتاج التي نساعد في بيع التكنولوجيا المعقدة بشكل مرئي.",
+    "viewWork": "عرض الأعمال ذات الصلة",
+    "bookCall": "احجز مكالمة",
+    "painPoints": "التحديات المشتركة",
+    "deliverables": "التسليمات النموذجية",
+    "relatedWork": "الأعمال ذات الصلة",
+    "relatedCases": "دراسات الحالة",
+    "relatedIndustries": "الصناعات ذات الصلة"
+  },
+  "caseStudiesPage": {
+    "metaTitle": "دراسات الحالة | مرئيات ستارلايت",
+    "metaDescription": "دراسات حالة CGI الصناعية: iJockey، وAutocraze، وCredex، وSmarAct، وNovatorq، وMintec، وINTEGRA-pw.",
+    "label": "إثبات العمل",
+    "title": "دراسات الحالة",
+    "subtitle": "المشكلة، والعملية، والقيود الفنية، والنتائج، وليس مجرد عرض دائري للشهادة.",
+    "readCase": "قراءة دراسة الحالة",
+    "problem": "مشكلة",
+    "process": "عملية",
+    "constraints": "CAD والقيود الفنية",
+    "result": "نتيجة",
+    "watchFilm": "شاهد الفيلم",
+    "backToIndex": "جميع دراسات الحالة",
+    "cta": "بدء مشروع مماثل"
+  },
+  "industries": {
+    "metaTitle": "الصناعات | مرئيات ستارلايت",
+    "metaDescription": "CGI والرسوم المتحركة للآلات الصناعية والروبوتات والأجهزة الطبية ومكونات السيارات والمزيد.",
+    "label": "من نخدم",
+    "title": "الصناعات",
+    "subtitle": "صفحات مخصصة للمصنعين وفرق الإنتاج التي نساعد في بيع التكنولوجيا المعقدة بشكل مرئي.",
+    "viewWork": "عرض الأعمال ذات الصلة",
+    "bookCall": "احجز مكالمة",
+    "painPoints": "التحديات المشتركة",
+    "deliverables": "التسليمات النموذجية",
+    "relatedWork": "الأعمال ذات الصلة",
+    "relatedCases": "دراسات الحالة",
+    "relatedIndustries": "الصناعات ذات الصلة",
+    "items": {
+      "industrial-machinery": {
+        "navLabel": "الآلات الصناعية وبناء الآلات",
+        "headline": "الرسوم المتحركة CGI لبناة الآلات",
+        "intro": "قم بتحويل الآلات المعقدة إلى أفلام منتجات واضحة تساعد المبيعات والتسويق والموزعين على شرح القيمة بدون عرض توضيحي مباشر.",
+        "pains": [
+          "الآلات كبيرة جدًا أو سرية جدًا بحيث لا يمكن تصويرها في الموقع لكل حملة.",
+          "يكافح المشترون لفهم الآليات الداخلية من لقطات شاشة CAD الثابتة.",
+          "تحتاج أكشاك المعارض التجارية إلى أصول متحركة تظل دقيقة تحت فحص المهندس.",
+          "تحتاج فرق الخدمة وقطع الغيار إلى عروض تفصيلية تتطابق مع عملية التجميع الحقيقية."
+        ]
+      },
+      "robotics-automation": {
+        "navLabel": "الروبوتات والأتمتة",
+        "headline": "الرسوم المتحركة CGI للروبوتات والأتمتة",
+        "intro": "اعرض الخلايا الآلية، وتحديد المواقع بدقة، وسير عمل الروبوتات أثناء الحركة، حتى يتمكن العملاء المحتملون من فهم الإنتاجية والسلامة دون القيام بجولة في المصنع.",
+        "pains": [
+          "من الصعب تصوير الخلايا الحية بشكل نظيف وسط جداول الإنتاج ومخاوف الملكية الفكرية.",
+          "من الصعب شرح أوقات الدورة والحركة متعددة المحاور في اللقطات أو الشرائح.",
+          "تحتاج فرق المبيعات إلى عناصر مرئية تناسب LinkedIn وطلبات عروض الأسعار وحلقات الكشك.",
+          "يجب على أدوات التكامل توصيل تخطيطات الخلايا قبل تثبيت الأجهزة."
+        ]
+      },
+      "medical-devices": {
+        "navLabel": "مصنعي الأجهزة الطبية",
+        "headline": "الرسوم المتحركة CGI لمصنعي الأجهزة الطبية",
+        "intro": "تصور الآليات الداخلية وسير العمل السريري دون انتهاك الملكية الفكرية أو القيود التنظيمية، ودقيق بما فيه الكفاية للمهندسين، وواضح بما فيه الكفاية للمشترين.",
+        "pains": [
+          "أنت بحاجة إلى إظهار العناصر الداخلية دون الكشف عن التصميمات الخاصة بشكل غير لائق.",
+          "تحتاج الفرق التنظيمية والتسويقية إلى صور مرئية متسقة وقابلة للمراجعة.",
+          "النماذج الأولية المادية محدودة أو باهظة الثمن أو غير جاهزة للكاميرا.",
+          "يحتاج الأطباء والمشتريات إلى الوضوح بشكل أسرع من وحدة IFU الكثيفة."
+        ]
+      },
+      "automotive-components": {
+        "navLabel": "مكونات السيارات",
+        "headline": "الرسوم المتحركة CGI لمصنعي مكونات السيارات",
+        "intro": "اشرح مجموعات الحركة والأنظمة الفرعية للمركبات الكهربائية والمجموعات الميكانيكية باستخدام CGI التقنية التي يثق بها الشركاء ومصنعو المعدات الأصلية.",
+        "pains": [
+          "من الصعب إظهار الأنظمة الكهربائية والميكانيكية دون وجود قطع وحركة.",
+          "تحتاج العروض التقديمية الخاصة بشركة OEM والشركاء إلى الدقة بالإضافة إلى الصقل.",
+          "قد لا تكون النماذج الأولية متاحة لكل اجتماع مبيعات.",
+          "يحتاج التسويق إلى أصول ستوافق عليها الهندسة."
+        ]
+      },
+      "packaging-machines": {
+        "navLabel": "ماكينات التعبئة والتغليف",
+        "headline": "الرسوم المتحركة CGI لمصنعي آلات التعبئة والتغليف",
+        "intro": "قم بتوضيح تغييرات التنسيق والإنتاجية وتسلسلات التغيير عندما لا يتمكن الخط من الوصول إلى الكشك.",
+        "pains": [
+          "الخطوط كبيرة جدًا أو مزدحمة جدًا بحيث لا يمكن تصويرها لكل سوق.",
+          "تحتاج التغييرات ومرونة التنسيق إلى سرد قصصي واضح للحركة.",
+          "يحتاج الموزعون إلى أفلام قابلة للمشاركة لعرضها على العملاء."
+        ]
+      },
+      "cnc-machines": {
+        "navLabel": "آلات التصنيع باستخدام الحاسب الآلي",
+        "headline": "الرسوم المتحركة CGI لمصنعي آلات CNC",
+        "intro": "اشرح مسارات الأدوات متعددة المحاور ومزايا التصنيع بدون وجود آلة حية في الموقع.",
+        "pains": [
+          "من الصعب نقل الحركة متعددة المحاور في التصوير الفوتوغرافي الثابت.",
+          "لا يمكن للعملاء المحتملين دائمًا زيارة صالة عرض أو منزل مفتوح.",
+          "تحتاج المعارض التجارية إلى أفلام متكررة تظل صادقة من الناحية الفنية."
+        ]
+      },
+      "industrial-pumps": {
+        "navLabel": "المضخات الصناعية",
+        "headline": "الرسوم المتحركة CGI لمصنعي المضخات الصناعية",
+        "intro": "اكشف عن مسارات التدفق، والأختام، وإمكانية الخدمة باستخدام القطع المقطوعة والمجموعات المنفجرة.",
+        "pains": [
+          "نقاط التدفق والتآكل الداخلية غير مرئية في صور المنتج.",
+          "تحتاج أدلة الخدمة إلى رواية قصة التجميع بشكل أوضح.",
+          "تحتاج فرق المبيعات إلى شرح قصير لوحدات SKU المعقدة."
+        ]
+      },
+      "industrial-electronics": {
+        "navLabel": "الالكترونيات الصناعية",
+        "headline": "الرسوم المتحركة CGI للإلكترونيات الصناعية",
+        "intro": "أفلام المنتجات وشروحات للموصلات والوحدات وخطوط الإلكترونيات الصناعية التي تحتاج إلى صور دقيقة.",
+        "pains": [
+          "تحتاج المكونات الصغيرة إلى الوضوح على المستوى الكلي أثناء الحركة.",
+          "يجب أن تكون الاختلافات في عائلة المنتج (مثل متغيرات السلسلة) سهلة المقارنة.",
+          "يجب أن تظل أصول المعرض التجاري والويب متسقة مع الرسومات الهندسية."
+        ]
+      },
+      "brand-entertainment": {
+        "navLabel": "العلامة التجارية والترفيه",
+        "headline": "الرسوم المتحركة CGI للعلامة التجارية والترفيه",
+        "intro": "الرسوم المتحركة للشخصيات، والرسوم المتحركة، وVTuber، والأفلام الترفيهية للعلامات التجارية التي تحتاج إلى حركة تعبيرية تتجاوز رواية قصص المنتجات الصناعية.",
+        "pains": [
+          "تحتاج الحملات إلى حركة تعتمد على الشخصية والتي لا تزال تشعر بأنها متميزة وعلى العلامة التجارية.",
+          "يجب أن يتم شحن الأصول الترفيهية بسرعة عبر وسائل التواصل الاجتماعي والإعلانات وإطلاق الأفلام.",
+          "تريد الفرق استوديوًا واحدًا يمكنه التنقل بين CGI الصناعي والترفيه الخاص بالعلامة التجارية.",
+          "يحتاج استكشاف الأسلوب إلى مراجعات واضحة دون فقدان سرعة الإنتاج."
+        ]
+      },
+      "commercial-product": {
+        "navLabel": "منتج تجاري",
+        "headline": "الرسوم المتحركة CGI للمنتجات التجارية",
+        "intro": "الرسوم المتحركة للمنتجات الخاصة بالمجوهرات والأبخرة والأدوات والتغليف والسلع الاستهلاكية ولقطات الصور الحقيقية وأفلام الإطلاق التي تبيع المنتج.",
+        "pains": [
+          "تعد عمليات التصوير المادية باهظة الثمن لكل SKU واللمسات النهائية والألوان.",
+          "يتوقع المشترون تفاصيل المنتج السينمائي عبر الإنترنت قبل الشراء.",
+          "يحتاج التسويق إلى أفلام مجمعة وأفلام بطولية تظل متسقة عبر القنوات.",
+          "لا تترك الجداول الزمنية للإطلاق مجالًا كبيرًا لإعادة التصوير عند تغيير المواد."
+        ]
+      }
+    }
+  },
+  "caseStudies": {
+    "metaTitle": "دراسات الحالة | مرئيات ستارلايت",
+    "metaDescription": "دراسات حالة CGI الصناعية: iJockey، وAutocraze، وCredex، وSmarAct، وNovatorq، وMintec، وINTEGRA-pw.",
+    "label": "إثبات العمل",
+    "title": "دراسات الحالة",
+    "subtitle": "المشكلة، والعملية، والقيود الفنية، والنتائج، وليس مجرد عرض دائري للشهادة.",
+    "readCase": "قراءة دراسة الحالة",
+    "problem": "مشكلة",
+    "process": "عملية",
+    "constraints": "CAD والقيود الفنية",
+    "result": "نتيجة",
+    "watchFilm": "شاهد الفيلم",
+    "backToIndex": "جميع دراسات الحالة",
+    "cta": "بدء مشروع مماثل",
+    "items": {
+      "smaract": {
+        "title": "SmarAct، Automation CGI الذي يوضح الكفاءات الأساسية",
+        "summary": "فيلم CGI يعرض قدرات الأتمتة الدقيقة بشكل واضح للتسويق والمبيعات.",
+        "problem": "كانت SmarAct بحاجة إلى فيديو CGI احترافي لتقديم الكفاءات الأساسية بطريقة واضحة وجذابة بصريًا، دون الاعتماد فقط على الإعدادات المباشرة المعقدة.",
+        "process": "لقد قمنا بالتوافق مع الرسائل، وقمنا ببناء حركة دقيقة من المراجع الفنية، وكررنا ذلك بسرعة مع فريق التسويق، وقمنا بتسليم الملفات النهائية الجاهزة للقنوات الرقمية.",
+        "constraints": "تتطلب الآليات الدقيقة الدقة البصرية الدقيقة والتحول السريع والموثوق مع التواصل القوي طوال الوقت.",
+        "result": "فيلم CGI واضح واحترافي يمكن للفريق استخدامه بثقة للحصول على محتوى مرئي عالي الجودة، مع أوقات استجابة سريعة وتسليم يمكن الاعتماد عليه أشاد به العميل."
+      },
+      "novatorq": {
+        "title": "Novatorq، شركاء صور تكنولوجيا EV يفهمون",
+        "summary": "الرسوم المتحركة الفنية التي تنقل كيفية عمل تكنولوجيا المركبات الكهربائية للشركاء وأصحاب المصلحة.",
+        "problem": "احتاجت شركة Novatorq إلى صور مرئية توضح بوضوح كيفية عمل تقنية EV / PHR الخاصة بها للشركاء، وليس مجرد فيلم علامة تجارية منمق.",
+        "process": "لقد قمنا بتحسين المفهوم مع المؤسسين، وكررنا السرد الفني وقدمنا ​​رسومًا متحركة مناسبة للعروض التقديمية لأصحاب المصلحة.",
+        "constraints": "كان لا بد من التعايش بين الدقة الهندسية والوضوح لأصحاب المصلحة غير المتخصصين في فيلم واحد.",
+        "result": "طريقة أكثر وضوحًا لتقديم المنتج إلى الشركاء وأصحاب المصلحة، من خلال عملية تعاونية سلسة."
+      },
+      "mintec": {
+        "title": "وضوح منتج Mintec وM12 وB12",
+        "summary": "الرسوم المتحركة التي تجعل اختلافات خط الإنتاج واضحة للمشترين وفرق المبيعات.",
+        "problem": "احتاجت شركة Mintec إلى طريقة واضحة لإظهار الاختلافات بين منتجات M12 وB12.",
+        "process": "لقد ركزنا على التفاصيل التي تهم المشترين، وأنتجنا رسومًا متحركة عالية الجودة، وأبقينا كل تمييز مهم قابلاً للقراءة على الشاشة.",
+        "constraints": "يجب أن تظل مقارنة خط الإنتاج دقيقة وسهلة الفهم في لمحة واحدة.",
+        "result": "الرسوم المتحركة المطابقة لما يحتاجه فريق الإنتاج واضحة ومفصلة وجاهزة لتمكين المبيعات."
+      },
+      "integra-pw": {
+        "title": "INTEGRA-pw، المنتجات المعقدة أصبحت سهلة الشرح",
+        "summary": "الرسوم المتحركة التي تساعد المبيعات على تقديم منتج قوي بثقة.",
+        "problem": "كان المنتج قويًا، لكن شرحه بوضوح للعملاء كان بمثابة التحدي المستمر.",
+        "process": "لقد استغرقنا بعض الوقت لفهم كيفية عمل كل شيء، ثم حولنا ذلك إلى رسوم متحركة تجذب الانتباه وتتواصل بشكل واضح.",
+        "constraints": "كان يجب أن يظل السرد الفني للقصص مخلصًا مع البقاء في متناول العملاء.",
+        "result": "فيلم احترافي يساعد فريق المبيعات على تقديم المزيد من الثقة والتعاون المباشر من البداية إلى النهاية."
+      },
+      "ijockey": {
+        "title": "يتم عرض منتج iJockey وCGI خصيصًا للعلامة التجارية والمقصورة",
+        "summary": "تصور منتج CGI جاهز للمعارض التجارية والذي يجمع بين سرد القصص ذات العلامات التجارية والحضور الواضح للمنتج.",
+        "problem": "كانت iJockey بحاجة إلى صور مرئية للمنتج يمكنها العمل في عرض العلامة التجارية وسياقات المعارض التجارية دون الحاجة إلى إعداد إنتاج مباشر كثيف.",
+        "process": "لقد قمنا بتشكيل عروض منتجات CGI وحركاتها التي سلطت الضوء على الشكل والتشطيب وحضور العلامة التجارية، ثم قمنا بتسليم كشك ومخرجات رقمية جاهزة.",
+        "constraints": "كان على الفيلم أن يحافظ على دقة المنتج بينما يحمل تلميعًا من الدرجة الترفيهية لقنوات العلامات التجارية.",
+        "result": "فيلم منتج CGI متعدد الاستخدامات يمكن للفريق استخدامه عبر العروض التقديمية وسرد قصص المعارض التجارية."
+      },
+      "autoz-crave": {
+        "title": "Autocraze، الرسوم المتحركة الميكانيكية للمنتج التي توضح الحركة",
+        "summary": "CGI ميكانيكية صناعية توضح كيفية تحرك المنتج وسبب أهمية الهندسة.",
+        "problem": "كانت شركة Autocraze بحاجة إلى رسوم متحركة فنية للمنتج تنقل الوظيفة الميكانيكية بوضوح إلى الشركاء والمشترين.",
+        "process": "قمنا ببناء ممرات رسوم متحركة ميكانيكية تركز على إمكانية قراءة الحركة والإضاءة والسرعة التجارية لسرد القصص الصناعية.",
+        "constraints": "كان لا بد من الجمع بين الوضوح الهندسي والتشطيب التجاري في فيلم قصير واحد.",
+        "result": "فيلم CGI ميكانيكي مناسب لتمكين المبيعات وعرض المنتجات الصناعية."
+      },
+      "credex": {
+        "title": "Credex، معدات التنظيف CGI مع SFX سينمائي",
+        "summary": "الرسوم المتحركة للمنتجات الصناعية لمعدات تنظيف السجاد Credex مع الصوت والحركة المصقولة.",
+        "problem": "احتاجت شركة Credex إلى فيلم منتج يُظهر قدرة المعدات بالطاقة التجارية، وليس فقط حزمة عرض ثابتة.",
+        "process": "لقد قمنا بتحريك الآلة باستخدام الكاميرا السينمائية وتشطيب SFX للتسويق وسرد قصص المنتج.",
+        "constraints": "كان على سهولة قراءة المنتج أن تصمد أمام الحركة الديناميكية وصقل تصميم الصوت.",
+        "result": "فيلم منتج صناعي نهائي جاهز للحملات الرقمية واستخدام المبيعات."
       }
     }
   }

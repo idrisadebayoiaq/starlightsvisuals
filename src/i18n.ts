@@ -8,7 +8,7 @@ import {
   normalizeLanguageCode,
   supportedLanguageCodes,
 } from "@/i18n/languages";
-import { deepMerge } from "@/lib/translation-utils";
+import { deepMerge, deepMergeMissing } from "@/lib/translation-utils";
 import { getPublicSiteCopyFn } from "@/server/cms-translations";
 
 import de from "@/locales/de/common.json";
@@ -75,7 +75,9 @@ export async function loadLocale(lang: string): Promise<void> {
     const loader = localeLoaders[code];
     if (loader) {
       const module = await loader();
-      i18n.addResourceBundle(code, "common", module.default as typeof en, true, true);
+      // Ensure new EN keys exist in lagging locale files (then fall back to EN text until translated).
+      const merged = deepMergeMissing(module.default as typeof en, en);
+      i18n.addResourceBundle(code, "common", merged, true, true);
       loadedLocales.add(code);
     }
   }
@@ -142,7 +144,7 @@ export async function applyStoredLanguage(): Promise<void> {
 
 void i18n.use(initReactI18next).init({
   resources: {
-    de: { common: de },
+    de: { common: deepMergeMissing(de, en) },
     en: { common: en },
   },
   lng: DEFAULT_LANGUAGE,

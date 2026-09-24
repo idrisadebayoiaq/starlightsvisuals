@@ -16,7 +16,10 @@
     "contact": "문의",
     "portfolioCta": "포트폴리오 →",
     "faq": "자주 묻는 질문",
-    "writeReview": "리뷰 작성"
+    "writeReview": "리뷰 작성",
+    "industries": "산업",
+    "caseStudies": "사례 연구",
+    "work": "Work"
   },
   "header": {
     "closeMenu": "메뉴 닫기",
@@ -59,7 +62,8 @@
     "emailInvalid": "유효한 이메일 주소를 입력하세요.",
     "privacy": "개인 정보 보호 정책",
     "euGdpr": "EU GDPR",
-    "imprint": "날인"
+    "imprint": "날인",
+    "entertainmentLink": "Brand & Entertainment"
   },
   "home": {
     "metaTitle": "별빛 비주얼 | 애니메이션 및 VFX 스튜디오",
@@ -98,6 +102,14 @@
       "04": {
         "title": "시네마틱 예고편",
         "desc": "브랜드, IP 및 캠페인을 출시하기 위해 제작된 스토리 중심 예고편입니다."
+      },
+      "05": {
+        "title": "로봇 공학 및 모션 시뮬레이션",
+        "desc": "판매 지원을 위해 자동화된 워크플로, 협동로봇, 선택 및 배치 순서를 시각화합니다."
+      },
+      "06": {
+        "title": "영업 및 마케팅 설명자",
+        "desc": "웹사이트, LinkedIn 및 하노버 메세(Hannover Messe)는 귀하의 팀이 마무리하는 데 도움이 되는 설명을 준비했습니다."
       }
     },
     "showcase": {
@@ -240,176 +252,179 @@
         "desc": "최대한의 영향력을 발휘하여 브랜드, IP 및 캠페인을 출시하기 위해 제작된 스토리 중심 예고편입니다."
       },
       "technical": {
-        "title": "Technical Product Animation",
-        "desc": "How the machine works, cutaways, internal mechanisms, and external motion with engineering accuracy."
+        "title": "기술 제품 애니메이션",
+        "desc": "엔지니어링 정확도를 갖춘 기계 작동 방식, 컷어웨이, 내부 메커니즘 및 외부 모션."
       },
       "exploded": {
-        "title": "Exploded View and Assembly Animation",
-        "desc": "For manuals, spare parts catalogs, and service training without a live machine on site."
+        "title": "분해도 및 조립 애니메이션",
+        "desc": "현장에 실제 기계가 없는 매뉴얼, 예비 부품 카탈로그 및 서비스 교육용입니다."
       },
       "tradeShow": {
-        "title": "CGI Product Renders and Trade Show Films",
-        "desc": "Booth ready films and hero renders that replace costly on site shoots of large equipment."
+        "title": "CGI 제품 렌더링 및 무역 박람회 영화",
+        "desc": "비용이 많이 드는 대형 장비 현장 촬영을 대체하는 부스 준비 영화 및 영웅 렌더링."
       },
       "robotics": {
-        "title": "Robotics and Motion Simulation Visuals",
-        "desc": "Automated cells, cobots, and pick and place sequences for sales and marketing."
+        "title": "로봇공학 및 모션 시뮬레이션 비주얼",
+        "desc": "판매 및 마케팅을 위한 자동화된 셀, 코봇, 선택 및 배치 순서."
       },
       "explainer": {
-        "title": "Sales and Marketing Explainer Videos",
-        "desc": "Website, LinkedIn, and trade show explainers that help product and sales teams communicate clearly."
+        "title": "영업 및 마케팅 설명 동영상",
+        "desc": "제품 및 영업 팀이 명확하게 의사소통하는 데 도움이 되는 웹 사이트, LinkedIn 및 무역 박람회 설명입니다."
       },
       "cad": {
-        "title": "CAD to CGI Conversion",
-        "desc": "Ingest STEP, IGES, SolidWorks, and CATIA exports and convert them into photoreal CGI motion."
+        "title": "CAD에서 CGI로의 변환",
+        "desc": "STEP, IGES, SolidWorks 및 CATIA 내보내기를 수집하고 이를 사실적인 CGI 모션으로 변환합니다."
       }
     },
     "detailsNav": {
-      "back": "All services",
-      "outcomes": "What you get",
-      "audience": "Who it is for",
-      "process": "How we work",
-      "related": "Related services",
-      "readMore": "Read more"
+      "back": "모든 서비스",
+      "outcomes": "당신이 얻는 것",
+      "audience": "누구를 위한 것인가",
+      "process": "우리가 일하는 방식",
+      "related": "관련 서비스",
+      "readMore": "더 읽어보세요",
+      "prev": "이전의",
+      "next": "다음",
+      "gallery": "프로젝트 갤러리"
     },
     "details": {
       "technical": {
-        "metaTitle": "Technical Product Animation | Starlights Visuals",
-        "metaDescription": "Engineering accurate CGI that shows how industrial machines work inside and out for sales, training, and marketing.",
-        "intro": "Technical product animation turns complex mechanisms into clear motion. We build cutaways, internal views, and external sequences that engineers trust and buyers understand.",
+        "metaTitle": "기술 제품 애니메이션 | 별빛 비주얼",
+        "metaDescription": "영업, 교육, 마케팅을 위해 산업용 기계가 내부와 외부에서 어떻게 작동하는지 보여주는 정확한 CGI를 엔지니어링합니다.",
+        "intro": "기술 제품 애니메이션은 복잡한 메커니즘을 명확한 동작으로 바꿔줍니다. 우리는 엔지니어가 신뢰하고 구매자가 이해할 수 있는 컷어웨이, 내부 뷰 및 외부 시퀀스를 구축합니다.",
         "outcomes": [
-          "Cutaway and transparent views that reveal inner mechanisms without guessing",
-          "Motion timed to real operating sequences and cycle logic",
-          "Assets sized for websites, sales decks, and trade show loops",
-          "Review checkpoints with your engineering team before final delivery"
+          "추측 없이 내부 메커니즘을 드러내는 컷어웨이 및 투명한 뷰",
+          "실제 작동 순서 및 사이클 로직에 맞춰 모션 시간 조정",
+          "웹사이트, 판매 자료 및 무역 박람회 루프에 맞게 크기가 조정된 자산",
+          "최종 배송 전 엔지니어링 팀과 체크포인트 검토"
         ],
         "audience": [
-          "Machine builders explaining multi stage processes",
-          "Product managers launching a new series or feature set",
-          "Sales teams who need a film when the machine cannot travel",
-          "Marketing leads who need accuracy without a live shoot"
+          "다단계 공정을 설명하는 기계 제작자",
+          "새로운 시리즈 또는 기능 세트를 출시하는 제품 관리자",
+          "기계가 이동할 수 없을 때 필름이 필요한 영업팀",
+          "라이브 촬영 없이 정확성이 필요한 마케팅 리드"
         ],
         "steps": [
-          "Brief and CAD intake under NDA, including the sequences that matter most",
-          "Look development and technical storyboard aligned to your engineers",
-          "Animation production with scheduled accuracy reviews",
-          "Final delivery in formats ready for web, booth, and sales enablement"
+          "가장 중요한 순서를 포함하여 NDA에 따른 간략한 CAD 내용",
+          "엔지니어에 맞춰 개발 및 기술 스토리보드를 살펴보세요.",
+          "예정된 정확성 검토를 통한 애니메이션 제작",
+          "웹, 부스, 판매 지원이 가능한 형식으로 최종 납품"
         ],
-        "ctaTitle": "Ready to show how your machine really works?",
-        "ctaDesc": "Share your product, deadline, and CAD status. We reply within 24 hours."
+        "ctaTitle": "귀하의 기계가 실제로 어떻게 작동하는지 보여줄 준비가 되셨습니까?",
+        "ctaDesc": "제품, 마감일, CAD 상태를 공유하세요. 우리는 24시간 이내에 답변을 드립니다."
       },
       "exploded": {
-        "metaTitle": "Exploded View Animation | Starlights Visuals",
-        "metaDescription": "Exploded view and assembly animations for spare parts manuals, service training, and industrial sales.",
-        "intro": "Exploded view and assembly films make part relationships and build order obvious. Ideal for manuals, spare parts portals, and technician onboarding.",
+        "metaTitle": "분해도 애니메이션 | 별빛 비주얼",
+        "metaDescription": "예비 부품 매뉴얼, 서비스 교육 및 산업 판매를 위한 분해도 및 조립 애니메이션입니다.",
+        "intro": "분해도 및 조립 필름을 통해 부품 관계와 제작 순서가 명확해집니다. 매뉴얼, 예비 부품 포털, 기술자 온보딩에 적합합니다.",
         "outcomes": [
-          "BOM aligned part groups that match your documentation",
-          "Clear assembly and disassembly order in motion",
-          "Stills and film exports for manuals and training portals",
-          "Readable labeling and camera paths that stay service friendly"
+          "문서와 일치하는 BOM 정렬 부품 그룹",
+          "동작 중 조립 및 분해 순서 지우기",
+          "매뉴얼 및 교육 포털을 위한 스틸 및 필름 내보내기",
+          "서비스 친화적인 읽기 쉬운 라벨링 및 카메라 경로"
         ],
         "audience": [
-          "Service and aftermarket teams writing manuals",
-          "Spare parts marketers explaining kits and variants",
-          "Training leads onboarding technicians remotely",
-          "Manufacturers reducing support tickets on complex assemblies"
+          "서비스 및 애프터마켓 팀이 매뉴얼 작성",
+          "키트 및 변형을 설명하는 예비 부품 마케팅 담당자",
+          "원격으로 기술자를 온보딩하는 교육 리드",
+          "복잡한 어셈블리에 대한 지원 티켓을 줄이는 제조업체"
         ],
         "steps": [
-          "CAD and BOM review to define part groups and priority chapters",
-          "Assembly storyboard with labeling conventions your team uses",
-          "Animation of explode, isolate, and reassemble sequences",
-          "Export stills, short films, and optional interactive frames"
+          "부품 그룹 및 우선순위 장을 정의하기 위한 CAD 및 BOM 검토",
+          "팀에서 사용하는 라벨 지정 규칙이 포함된 어셈블리 스토리보드",
+          "분해, 분리 및 재조립 시퀀스 애니메이션",
+          "스틸, 단편 영화 및 선택적 대화형 프레임 내보내기"
         ],
-        "ctaTitle": "Need clearer spare parts and service visuals?",
-        "ctaDesc": "Tell us which assemblies drive the most questions. We start from your CAD."
+        "ctaTitle": "보다 명확한 예비 부품과 서비스 시각적 자료가 필요하십니까?",
+        "ctaDesc": "어떤 어셈블리가 가장 많은 질문을 불러일으키는지 알려주세요. 우리는 귀하의 CAD부터 시작합니다."
       },
       "trade-show": {
-        "metaTitle": "Trade Show Films and CGI Renders | Starlights Visuals",
-        "metaDescription": "Booth ready CGI films and product renders for industrial trade shows without expensive on site shoots.",
-        "intro": "Large machines are expensive to film and hard to stage. CGI product renders and trade show films deliver booth ready motion that stays accurate under engineer review.",
+        "metaTitle": "무역 박람회 영화 및 CGI 렌더링 | 별빛 비주얼",
+        "metaDescription": "값비싼 현장 촬영 없이 산업 박람회를 위한 부스 준비 CGI 영화 및 제품 렌더링이 가능합니다.",
+        "intro": "대형 기계는 촬영 비용이 많이 들고 무대 연출도 어렵습니다. CGI 제품 렌더링 및 무역 박람회 영화는 엔지니어 검토 시 정확한 상태를 유지하는 부스 준비 모션을 제공합니다.",
         "outcomes": [
-          "Hero films sized for booth loops and LED walls",
-          "Photoreal product renders for print and digital collateral",
-          "Timelines scoped to your show deadline with milestone reviews",
-          "Formats ready for LinkedIn cutdowns after the event"
+          "부스 루프 및 LED 벽에 적합한 크기의 영웅 영화",
+          "인쇄 및 디지털 자료를 위한 실사 제품 렌더링",
+          "마일스톤 검토를 통해 쇼 마감일까지 범위가 지정된 타임라인",
+          "이벤트 후 LinkedIn 컷다운을 위한 형식 준비"
         ],
         "audience": [
-          "Exhibitors preparing for Hannover Messe and similar shows",
-          "Brand teams who cannot ship the machine to every venue",
-          "Agencies needing industrial CGI for a booth concept",
-          "Sales leaders who want a looping film that holds attention"
+          "하노버 박람회 및 유사 전시회를 준비하는 참가업체",
+          "모든 장소에 장비를 배송할 수 없는 브랜드 팀",
+          "부스 컨셉에 산업용 CGI가 필요한 대행사",
+          "관심을 끄는 반복 영화를 원하는 영업 리더"
         ],
         "steps": [
-          "Define booth use cases, screen sizes, and must show features",
-          "CAD to look development with lighting matched to your brand",
-          "Produce the master film plus short loops for continuous play",
-          "Deliver show ready files with backup formats for AV teams"
+          "부스 사용 사례, 화면 크기를 정의하고 기능을 표시해야 합니다.",
+          "귀하의 브랜드에 맞는 조명으로 개발 모습을 보여주는 CAD",
+          "연속 재생을 위한 짧은 루프와 함께 마스터 필름을 제작합니다.",
+          "AV 팀을 위한 백업 형식으로 상영 준비가 완료된 파일 제공"
         ],
-        "ctaTitle": "Got a booth deadline coming up?",
-        "ctaDesc": "Share the show date and what must be on screen. We plan milestones backwards from open day."
+        "ctaTitle": "부스 마감일이 다가오고 있나요?",
+        "ctaDesc": "상영 날짜와 화면에 표시되어야 하는 내용을 공유하세요. 우리는 오픈일부터 거꾸로 이정표를 계획합니다."
       },
       "robotics": {
-        "metaTitle": "Robotics Motion Simulation Visuals | Starlights Visuals",
-        "metaDescription": "CGI for robotic cells, cobots, and pick and place workflows that sales and marketing can share.",
-        "intro": "Robotics and automation cells are hard to film cleanly. We visualize cobots, pick and place, and cell layouts so prospects grasp throughput and safety without a factory tour.",
+        "metaTitle": "로봇공학 모션 시뮬레이션 비주얼 | 별빛 비주얼",
+        "metaDescription": "영업 및 마케팅이 공유할 수 있는 로봇 셀, 협동로봇, 픽앤플레이스 워크플로우를 위한 CGI입니다.",
+        "intro": "로봇공학과 자동화 셀은 깔끔하게 촬영하기 어렵습니다. 우리는 코봇, 픽 앤 플레이스, 셀 레이아웃을 시각화하여 잠재 고객이 공장 견학 없이도 처리량과 안전성을 파악할 수 있도록 합니다.",
         "outcomes": [
-          "Cell layouts and motion paths that match integrator drawings",
-          "Cycle storytelling that communicates takt and throughput",
-          "Safety zone and workflow clarity for non specialists",
-          "Films for RFQs, LinkedIn, and booth loops"
+          "통합 도면과 일치하는 셀 레이아웃 및 모션 경로",
+          "택트와 처리량을 소통하는 사이클 스토리텔링",
+          "비전문가를 위한 안전 영역 및 작업 흐름 명확성",
+          "RFQ, LinkedIn 및 부스 루프용 영화"
         ],
         "audience": [
-          "Automation builders and system integrators",
-          "Robotics OEMs explaining cell concepts before install",
-          "Sales engineers supporting complex RFQs",
-          "Marketing teams who cannot film live production cells"
+          "자동화 빌더 및 시스템 통합업체",
+          "설치 전 셀 개념을 설명하는 로봇 OEM",
+          "복잡한 RFQ를 지원하는 영업 엔지니어",
+          "라이브 프로덕션 셀을 촬영할 수 없는 마케팅 팀"
         ],
         "steps": [
-          "NDA and layout intake from CAD or integrator drawings",
-          "Motion reference alignment with your applications team",
-          "Simulation style animation with accuracy review passes",
-          "Delivery of hero film and short clips for digital channels"
+          "CAD 또는 통합업체 도면에서 NDA 및 레이아웃 적용",
+          "애플리케이션 팀과 모션 참조 정렬",
+          "정확성 검토를 통과한 시뮬레이션 스타일 애니메이션",
+          "디지털 채널용 영웅영화 및 단편 클립 제공"
         ],
-        "ctaTitle": "Need to show your automation cell clearly?",
-        "ctaDesc": "Send layouts or CAD under NDA and the workflows buyers must understand."
+        "ctaTitle": "자동화 셀을 명확하게 표시해야 합니까?",
+        "ctaDesc": "NDA 및 구매자가 이해해야 하는 워크플로에 따라 레이아웃이나 CAD를 보내세요."
       },
       "explainer": {
-        "metaTitle": "Sales and Marketing Explainer Videos | Starlights Visuals",
-        "metaDescription": "Industrial explainer videos for websites, LinkedIn, and trade shows that help teams sell complex products.",
-        "intro": "Sales and marketing explainers translate technical value into a short film your team can send, embed, and play at the booth.",
+        "metaTitle": "영업 및 마케팅 설명 동영상 | 별빛 비주얼",
+        "metaDescription": "팀이 복잡한 제품을 판매하는 데 도움이 되는 웹사이트, LinkedIn 및 무역 박람회에 대한 산업 설명 동영상입니다.",
+        "intro": "영업 및 마케팅 설명자는 기술적 가치를 팀이 보내고, 삽입하고, 부스에서 재생할 수 있는 단편 영화로 변환합니다.",
         "outcomes": [
-          "Script and structure built around buyer questions",
-          "Technical accuracy without burying the message",
-          "Versions for web, social, and trade show screens",
-          "Clear CTAs that hand off to sales conversations"
+          "구매자 질문을 중심으로 구축된 스크립트 및 구조",
+          "메시지를 묻지 않는 기술적 정확성",
+          "웹, 소셜 및 무역 박람회 화면용 버전",
+          "판매 대화로 이어지는 명확한 CTA"
         ],
         "audience": [
-          "Product marketers launching features or SKUs",
-          "Sales teams needing a shareable product story",
-          "Founders pitching partners and investors",
-          "Distributors who need localized explainers later"
+          "제품 마케팅 담당자가 기능 또는 SKU를 출시합니다.",
+          "공유 가능한 제품 스토리가 필요한 영업팀",
+          "파트너와 투자자를 소개하는 창업자",
+          "나중에 현지화된 설명이 필요한 유통업체"
         ],
         "steps": [
-          "Discovery on audience, offer, and proof points",
-          "Script and visual outline for stakeholder sign off",
-          "Production with optional CAD based product shots",
-          "Cutdowns and captions for the channels you use most"
+          "청중, 제안 및 증명 포인트에 대한 발견",
+          "이해관계자 승인을 위한 스크립트 및 시각적 개요",
+          "선택적인 CAD 기반 제품 사진을 사용한 생산",
+          "가장 많이 사용하는 채널의 컷다운 및 캡션"
         ],
-        "ctaTitle": "Want an explainer your sales team will actually use?",
-        "ctaDesc": "Tell us the product story and where the film will live. We scope a practical package."
+        "ctaTitle": "영업팀이 실제로 사용할 설명을 원하시나요?",
+        "ctaDesc": "제품 스토리와 영화가 방영될 장소를 알려주세요. 우리는 실용적인 패키지의 범위를 정합니다."
       },
       "cad": {
-        "metaTitle": "CAD to CGI Conversion | Starlights Visuals",
-        "metaDescription": "Convert SolidWorks, CATIA, STEP, and IGES data into photoreal CGI product films for industrial marketing.",
-        "intro": "CAD to CGI conversion is our bridge from engineering data to marketing ready motion. We ingest common formats and turn assemblies into photoreal films.",
+        "metaTitle": "CAD에서 CGI로 변환 | 별빛 비주얼",
+        "metaDescription": "SolidWorks, CATIA, STEP 및 IGES 데이터를 산업 마케팅용 실사 CGI 제품 필름으로 변환합니다.",
+        "intro": "CAD에서 CGI로의 변환은 엔지니어링 데이터에서 마케팅 준비 모션으로의 연결입니다. 우리는 일반적인 형식을 수집하고 어셈블리를 사실적인 영화로 변환합니다.",
         "outcomes": [
-          "Support for STEP, IGES, SolidWorks, and CATIA exports",
-          "Cleanup and optimization so heavy assemblies animate smoothly",
-          "Materials and lighting that read as real product photography",
-          "A path from raw CAD to booth and website ready files"
+          "STEP, IGES, SolidWorks 및 CATIA 내보내기 지원",
+          "무거운 어셈블리가 원활하게 애니메이션되도록 정리 및 최적화",
+          "실제 제품 사진처럼 읽히는 소재와 조명",
+          "원시 CAD에서 부스 및 웹사이트 지원 파일로의 경로"
         ],
         "audience": [
-          "Manufacturers with CAD but no marketing film",
+          "CAD는 있지만 마케팅 필름은 없는 제조업체",
           "Engineering teams who need visuals without a photoshoot",
           "Agencies handing off CAD for industrial clients",
           "Anyone under NDA with unreleased product geometry"
@@ -423,7 +438,9 @@
         "ctaTitle": "Have CAD ready to turn into a film?",
         "ctaDesc": "Tell us your formats and deadline. We confirm compatibility before production starts."
       }
-    }
+    },
+    "entertainmentCta": "Looking for character, VFX, or brand entertainment work?",
+    "entertainmentLink": "Brand & Entertainment services"
   },
   "aboutPage": {
     "metaTitle": "소개 | 별빛 비주얼",
@@ -459,7 +476,28 @@
       "clients": "글로벌 클라이언트",
       "awards": "수상 경력",
       "years": "제작년"
-    }
+    },
+    "title": "Starlight Visual Studio: CGI & Animation for Industrial Machinery, Robotics & Medical Device Manufacturers",
+    "lead": "We turn complex machines, automated systems, and technical products into CGI films that engineers trust and sales teams actually use.",
+    "whoTitle": "Who we work with",
+    "whatTitle": "What we do",
+    "whoItems": [
+      "Industrial machinery manufacturers",
+      "Robotics & automation companies",
+      "Medical device manufacturers",
+      "Automotive component suppliers",
+      "Machine builders & packaging machine manufacturers",
+      "CNC, industrial pumps & industrial electronics companies"
+    ],
+    "whatItems": [
+      "CAD-to-CGI product animation",
+      "Exploded-view & assembly animations for manuals and spare parts",
+      "Technical explainer videos for websites and sales teams",
+      "Trade show and product launch films",
+      "Robotics & automation motion visualization"
+    ],
+    "cta": "Book a call",
+    "website": "www.starlightvisualstudio.com"
   },
   "contactPage": {
     "metaTitle": "문의 | Starlights Visuals",
@@ -487,7 +525,14 @@
       "trailer": "시네마틱 예고편",
       "character": "캐릭터 디자인",
       "motion": "모션 그래픽 및 VFX",
-      "other": "다른"
+      "other": "다른",
+      "technical": "Technical Product Animation",
+      "exploded": "Exploded View / Assembly",
+      "tradeShow": "Trade Show Film / CGI Renders",
+      "robotics": "Robotics and Motion Simulation",
+      "explainer": "Sales and Marketing Explainer",
+      "cad": "CAD to CGI Conversion",
+      "entertainment": "Brand and Entertainment"
     },
     "sending": "배상…",
     "errorGeneric": "메시지를 보낼 수 없습니다. 직접 이메일을 보내시거나 다시 시도해 주세요.",
@@ -539,7 +584,11 @@
         "title": "펄스 월드",
         "desc": "몰입형 브랜드 환경 아트."
       }
-    }
+    },
+    "filterAll": "All industries",
+    "filterIndustry": "Filter by industry",
+    "byTechnique": "Browse by technique",
+    "emptyIndustry": "No projects tagged for this industry yet. Explore related case studies or get in touch."
   },
   "blogPage": {
     "metaTitle": "블로그 | Starlights Visuals",
@@ -1103,6 +1152,24 @@
             "2": "애프터 이펙트"
           }
         }
+      },
+      "branding": {
+        "ijockey": {
+          "name": "IJOCKEY",
+          "industry": "Brand & Industrial CGI",
+          "description": "iJockey CGI product renders and trade show style films combining branded storytelling with industrial product visualization.",
+          "timeline": "2025",
+          "services": {
+            "0": "CGI Product Renders",
+            "1": "Trade Show Films",
+            "2": "Brand CGI"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        }
       }
     },
     "projects": {
@@ -1551,7 +1618,8 @@
         "description": "영화 같은 카메라 작업과 기술적 세부 사항을 갖춘 실사 PHR 1 전기 동력전달장치 애니메이션.",
         "tags": {
           "0": "산업용",
-          "1": "PHR 1"
+          "1": "PHR 1",
+          "2": "PHR-1"
         }
       },
       "atx-p1": {
@@ -1576,6 +1644,15 @@
         "tags": {
           "0": "산업용",
           "1": "오토즈 크레이브"
+        }
+      },
+      "ijockey-p1": {
+        "title": "iJockey CGI Product Film",
+        "description": "CGI product render and motion film for iJockey, built for trade show and brand presentation use.",
+        "tags": {
+          "0": "iJockey",
+          "1": "CGI",
+          "2": "Trade Show"
         }
       }
     }
@@ -1687,7 +1764,9 @@
       "videos": "비디오",
       "reviews": "리뷰",
       "admins": "관리자",
-      "contacts": "콘택트 렌즈"
+      "contacts": "콘택트 렌즈",
+      "categories": "Categories",
+      "translations": "Translations"
     },
     "login": {
       "script": "스튜디오 이용",
@@ -1712,7 +1791,8 @@
       "blogs": "블로그 게시물",
       "videos": "포트폴리오 비디오",
       "pendingReviews": "리뷰 대기 중",
-      "contacts": "리드에게 연락하기"
+      "contacts": "리드에게 연락하기",
+      "categories": "Categories"
     },
     "blogs": {
       "title": "블로그 게시물",
@@ -1863,6 +1943,70 @@
       "message": "메시지",
       "send": "이메일 보내기",
       "sending": "배상…"
+    },
+    "categories": {
+      "title": "Categories",
+      "subtitle": "Add and edit portfolio categories, including cover thumbnails.",
+      "create": "New category",
+      "createTitle": "Create category",
+      "editTitle": "Edit category",
+      "empty": "No categories yet.",
+      "colThumb": "Thumb",
+      "colTitle": "Title",
+      "colStatus": "Status",
+      "colOrder": "Order",
+      "colActions": "Actions",
+      "fieldTitle": "Title",
+      "slug": "Slug",
+      "slugHint": "URL path under /works/, locked after create.",
+      "tagline": "Tagline",
+      "description": "Description",
+      "showcaseTag": "Showcase tag",
+      "showcaseTagHint": "Small label on home showcase cards (e.g. 3D, VFX).",
+      "coverImage": "Cover / thumbnail",
+      "coverHint": "Recommended size: {{size}}. Width {{width}}px × height {{height}}px.",
+      "coverSizeBadge": "Best fit: {{size}}, portrait 4:5 for showcase cards",
+      "uploadButton": "Upload thumbnail",
+      "uploading": "Uploading…",
+      "sortOrder": "Sort order",
+      "titleRequired": "Title is required.",
+      "deleteConfirm": "Delete this category? Videos using this slug will keep their data but the category page will disappear.",
+      "loadError": "Failed to load categories",
+      "saveError": "Failed to save category",
+      "deleteError": "Failed to delete category",
+      "uploadError": "Failed to upload thumbnail"
+    },
+    "translations": {
+      "title": "Translations",
+      "subtitle": "Edit public website copy and CMS content for every language. Manual saves are protected from automatic overwrite.",
+      "language": "Language",
+      "contentType": "Content type",
+      "types": {
+        "site_copy": "Site copy (pages, nav, legal)",
+        "blog_post": "Blog posts",
+        "portfolio_category": "Categories",
+        "portfolio_video": "Videos",
+        "portfolio_client": "Clients",
+        "testimonial": "Testimonials"
+      },
+      "search": "Search keys or text…",
+      "selectItem": "Select item",
+      "noItems": "No items found.",
+      "loadError": "Failed to load translations",
+      "saveError": "Failed to save translation",
+      "clearError": "Failed to reset translation",
+      "saved": "Saved. This language will not be overwritten by auto translate.",
+      "manualBadge": "Manually curated",
+      "autoBadge": "Auto or bundled",
+      "reset": "Reset to bundled / auto",
+      "resetConfirm": "Clear the curated translation for this language? Bundled or auto generated copy will be used again.",
+      "saving": "Saving…",
+      "save": "Save translation",
+      "fieldsHint": "Edit the text below, then save. Changes appear on the public site for this language.",
+      "section": "Section",
+      "loadingItems": "Loading items…",
+      "loadingFields": "Loading fields…",
+      "authRequired": "Sign in again to edit translations."
     }
   },
   "privacyPage": {
@@ -2051,6 +2195,287 @@
         "body": "당사가 개인 데이터를 수집, 사용, 보호 및 전송하는 방법에 대한 정보는 개인 정보 보호 정책 및 추가 EU GDPR 고지에서 확인할 수 있습니다.",
         "privacyLink": "개인정보 보호정책 보기",
         "gdprLink": "EU GDPR 공지 보기"
+      }
+    }
+  },
+  "trust": {
+    "label": "Built for industrial buyers",
+    "title": "TRUST & PROCESS",
+    "items": {
+      "cad": {
+        "title": "CAD compatibility",
+        "desc": "SolidWorks, CATIA, STEP, and IGES import, we work from your engineering data, not guesswork."
+      },
+      "nda": {
+        "title": "NDA & confidentiality",
+        "desc": "Clear NDA process for proprietary machinery, unreleased products, and sensitive assemblies."
+      },
+      "review": {
+        "title": "Engineer review step",
+        "desc": "Technical accuracy reviews with your engineers before final delivery, no marketing fiction."
+      },
+      "turnaround": {
+        "title": "trade show deadlines",
+        "desc": "Scoped timelines that hit booth, launch, and LinkedIn go-live dates with milestone checkpoints."
+      }
+    }
+  },
+  "entertainmentServicesPage": {
+    "metaTitle": "Brand & Entertainment | Starlights Visuals",
+    "metaDescription": "2D and 3D character animation, cinematic trailers, motion graphics, and VFX for brands and entertainment.",
+    "label": "Secondary line of business",
+    "title": "BRAND & ENTERTAINMENT",
+    "subtitle": "We still produce character-driven animation, trailers, and VFX, this is our entertainment offering alongside industrial CGI.",
+    "backToIndustrial": "Back to industrial services",
+    "ctaButton": "Start a Project",
+    "items": {
+      "2d": {
+        "title": "2D Animation",
+        "desc": "Frame-by-frame and rigged 2D for series, shorts, explainers, and brand films."
+      },
+      "3d": {
+        "title": "3D Character & Worlds",
+        "desc": "Stylized and photoreal characters, environments, and cinematic sequences."
+      },
+      "character": {
+        "title": "Character Design",
+        "desc": "Original characters, creatures, and concept art that anchor your IP."
+      },
+      "motion": {
+        "title": "Motion Graphics",
+        "desc": "Branded motion, UI animation, and broadcast packages with cinematic polish."
+      },
+      "vfx": {
+        "title": "Visual Effects (VFX)",
+        "desc": "Compositing, particle FX, and CG integration for film and campaigns."
+      },
+      "trailer": {
+        "title": "Cinematic Trailers",
+        "desc": "Story-driven trailers to launch brands, IPs, and campaigns."
+      }
+    }
+  },
+  "industriesPage": {
+    "metaTitle": "Industries | Starlights Visuals",
+    "metaDescription": "CGI and animation for industrial machinery, robotics, medical devices, automotive components, and more.",
+    "label": "Who we serve",
+    "title": "INDUSTRIES",
+    "subtitle": "Dedicated pages for the manufacturers and product teams we help sell complex technology visually.",
+    "viewWork": "View related work",
+    "bookCall": "Book a call",
+    "painPoints": "Common challenges",
+    "deliverables": "Typical deliverables",
+    "relatedWork": "Related work",
+    "relatedCases": "Case studies",
+    "relatedIndustries": "Related industries"
+  },
+  "caseStudiesPage": {
+    "metaTitle": "Case Studies | Starlights Visuals",
+    "metaDescription": "Industrial CGI case studies: iJockey, Autocraze, Credex, SmarAct, Novatorq, Mintec, and INTEGRA-pw.",
+    "label": "Proof of work",
+    "title": "CASE STUDIES",
+    "subtitle": "Problem, process, technical constraints, and outcomes, not just a testimonial carousel.",
+    "readCase": "Read case study",
+    "problem": "Problem",
+    "process": "Process",
+    "constraints": "CAD & technical constraints",
+    "result": "Result",
+    "watchFilm": "Watch the film",
+    "backToIndex": "All case studies",
+    "cta": "Start a similar project"
+  },
+  "industries": {
+    "metaTitle": "Industries | Starlights Visuals",
+    "metaDescription": "CGI and animation for industrial machinery, robotics, medical devices, automotive components, and more.",
+    "label": "Who we serve",
+    "title": "INDUSTRIES",
+    "subtitle": "Dedicated pages for the manufacturers and product teams we help sell complex technology visually.",
+    "viewWork": "View related work",
+    "bookCall": "Book a call",
+    "painPoints": "Common challenges",
+    "deliverables": "Typical deliverables",
+    "relatedWork": "Related work",
+    "relatedCases": "Case studies",
+    "relatedIndustries": "Related industries",
+    "items": {
+      "industrial-machinery": {
+        "navLabel": "Industrial Machinery & Machine Building",
+        "headline": "CGI Animation for Machine Builders",
+        "intro": "Turn complex machines into clear product films that help sales, marketing, and distributors explain value without a live demo floor.",
+        "pains": [
+          "Machines are too large or confidential to film on site for every campaign.",
+          "Buyers struggle to understand internal mechanisms from static CAD screenshots.",
+          "trade show booths need motion assets that stay accurate under engineer scrutiny.",
+          "Service and spare-parts teams need exploded views that match the real assembly."
+        ]
+      },
+      "robotics-automation": {
+        "navLabel": "Robotics & Automation",
+        "headline": "CGI Animation for Robotics & Automation",
+        "intro": "Show automated cells, precision positioning, and cobot workflows in motion, so prospects grasp throughput and safety without a factory tour.",
+        "pains": [
+          "Live cells are hard to film cleanly amid production schedules and IP concerns.",
+          "Cycle times and multi-axis motion are difficult to explain in stills or slides.",
+          "Sales teams need visuals that work for LinkedIn, RFQs, and booth loops.",
+          "Integrators must communicate cell layouts before hardware is installed."
+        ]
+      },
+      "medical-devices": {
+        "navLabel": "Medical Device Manufacturers",
+        "headline": "CGI Animation for Medical Device Manufacturers",
+        "intro": "Visualize internal mechanisms and clinical workflows without violating IP or regulatory constraints, accurate enough for engineers, clear enough for buyers.",
+        "pains": [
+          "You need to show internals without exposing proprietary designs inappropriately.",
+          "Regulatory and marketing teams need aligned, reviewable visuals.",
+          "Physical prototypes are limited, expensive, or not camera-ready.",
+          "Clinicians and procurement need clarity faster than a dense IFU."
+        ]
+      },
+      "automotive-components": {
+        "navLabel": "Automotive Components",
+        "headline": "CGI Animation for Automotive Component Manufacturers",
+        "intro": "Explain powertrains, EV subsystems, and mechanical assemblies with technical CGI that partners and OEMs trust.",
+        "pains": [
+          "EV and mechanical systems are hard to show without cutaways and motion.",
+          "OEM and partner presentations need accuracy plus polish.",
+          "Prototypes may not be available for every sales meeting.",
+          "Marketing needs assets that engineering will approve."
+        ]
+      },
+      "packaging-machines": {
+        "navLabel": "Packaging Machines",
+        "headline": "CGI Animation for Packaging Machine Manufacturers",
+        "intro": "Demonstrate format changes, throughput, and changeover sequences when the line cannot come to the booth.",
+        "pains": [
+          "Lines are too large or busy to film for every market.",
+          "Changeovers and format flexibility need clear motion storytelling.",
+          "Distributors need shareable films for customer pitches."
+        ]
+      },
+      "cnc-machines": {
+        "navLabel": "CNC Machines",
+        "headline": "CGI Animation for CNC Machine Manufacturers",
+        "intro": "Explain multi-axis tool paths and machining advantages without a live machine on site.",
+        "pains": [
+          "Multi-axis motion is hard to convey in still photography.",
+          "Prospects cannot always visit a showroom or open house.",
+          "Trade shows need looping films that stay technically honest."
+        ]
+      },
+      "industrial-pumps": {
+        "navLabel": "Industrial Pumps",
+        "headline": "CGI Animation for Industrial Pump Manufacturers",
+        "intro": "Reveal flow paths, seals, and serviceability with cutaways and exploded assemblies.",
+        "pains": [
+          "Internal flow and wear points are invisible in product photos.",
+          "Service manuals need clearer assembly storytelling.",
+          "Sales teams need short explainers for complex SKUs."
+        ]
+      },
+      "industrial-electronics": {
+        "navLabel": "Industrial Electronics",
+        "headline": "CGI Animation for Industrial Electronics",
+        "intro": "Product films and explainers for connectors, modules, and industrial electronics lines that need precision visuals.",
+        "pains": [
+          "Small components need macro-level clarity in motion.",
+          "Product family differences (e.g. series variants) must be easy to compare.",
+          "trade show and web assets must stay consistent with engineering drawings."
+        ]
+      },
+      "brand-entertainment": {
+        "navLabel": "Brand & Entertainment",
+        "headline": "CGI Animation for Brand & Entertainment",
+        "intro": "Character animation, cartoons, VTuber, and entertainment films for brands that need expressive motion beyond industrial product storytelling.",
+        "pains": [
+          "Campaigns need character-driven motion that still feels premium and on brand.",
+          "Entertainment assets must ship fast across social, ads, and launch films.",
+          "Teams want one studio that can move between industrial CGI and brand entertainment.",
+          "Style exploration needs clear reviews without losing production speed."
+        ]
+      },
+      "commercial-product": {
+        "navLabel": "Commercial Product",
+        "headline": "CGI Animation for Commercial Products",
+        "intro": "Product animation for jewelry, vapes, gadgets, packaging, and consumer goods, photoreal packshots and launch films that sell the product.",
+        "pains": [
+          "Physical shoots are expensive for every SKU, finish, and colorway.",
+          "Buyers expect cinematic product detail online before they purchase.",
+          "Marketing needs packshot and hero films that stay consistent across channels.",
+          "Launch timelines leave little room for reshoots when materials change."
+        ]
+      }
+    }
+  },
+  "caseStudies": {
+    "metaTitle": "Case Studies | Starlights Visuals",
+    "metaDescription": "Industrial CGI case studies: iJockey, Autocraze, Credex, SmarAct, Novatorq, Mintec, and INTEGRA-pw.",
+    "label": "Proof of work",
+    "title": "CASE STUDIES",
+    "subtitle": "Problem, process, technical constraints, and outcomes, not just a testimonial carousel.",
+    "readCase": "Read case study",
+    "problem": "Problem",
+    "process": "Process",
+    "constraints": "CAD & technical constraints",
+    "result": "Result",
+    "watchFilm": "Watch the film",
+    "backToIndex": "All case studies",
+    "cta": "Start a similar project",
+    "items": {
+      "smaract": {
+        "title": "SmarAct, Automation CGI that clarifies core competencies",
+        "summary": "A CGI film presenting precision automation capabilities clearly for marketing and sales.",
+        "problem": "SmarAct needed a professional CGI video to present core competencies in a clear, visually engaging way, without relying solely on complex live setups.",
+        "process": "We aligned on messaging, built accurate motion from technical references, iterated quickly with the marketing team, and delivered final files ready for digital channels.",
+        "constraints": "Precision mechanisms required careful visual fidelity and a fast, reliable turnaround with strong communication throughout.",
+        "result": "A clear, professional CGI film the team could use confidently for high-quality visual content, with fast response times and dependable delivery praised by the client."
+      },
+      "novatorq": {
+        "title": "Novatorq, EV technology visuals partners understand",
+        "summary": "Technical animation that communicates how electric vehicle technology works to partners and stakeholders.",
+        "problem": "Novatorq needed visuals that clearly communicate how their EV / PHR technology works to partners, not just a stylized brand film.",
+        "process": "We refined the concept with the founders, iterated on technical storytelling, and delivered an animation suitable for stakeholder presentations.",
+        "constraints": "Engineering accuracy and clarity for non-specialist stakeholders had to coexist in one film.",
+        "result": "A clearer way to present the product to partners and stakeholders, with a smooth collaborative process."
+      },
+      "mintec": {
+        "title": "Mintec, M12 vs B12 product clarity",
+        "summary": "Animations that make product-line differences obvious for buyers and sales teams.",
+        "problem": "Mintec needed a clear way to show the differences between M12 and B12 products.",
+        "process": "We focused on the details that matter to buyers, produced high-quality animations, and kept every important distinction readable on screen.",
+        "constraints": "Product-line comparison had to stay accurate and easy to understand at a glance.",
+        "result": "Animations that matched what the production team needed, clear, detailed, and ready for sales enablement."
+      },
+      "integra-pw": {
+        "title": "INTEGRA-pw, Complex products made easy to explain",
+        "summary": "Animation that helps sales present a strong product with confidence.",
+        "problem": "The product was strong, but explaining it clearly to customers was the ongoing challenge.",
+        "process": "We took time to understand how everything works, then turned that into an animation that holds attention and communicates cleanly.",
+        "constraints": "Technical storytelling had to stay faithful while remaining accessible to customers.",
+        "result": "A professional film that helps the sales team present with more confidence, straightforward collaboration end to end."
+      },
+      "ijockey": {
+        "title": "iJockey, CGI product renders built for brand and booth",
+        "summary": "Trade show ready CGI product visualization that pairs branded storytelling with clear product presence.",
+        "problem": "iJockey needed product visuals that could work for brand presentation and trade show contexts without a heavy live production setup.",
+        "process": "We shaped CGI product renders and motion that highlighted form, finish, and brand presence, then delivered booth and digital ready outputs.",
+        "constraints": "The film had to stay product accurate while carrying entertainment grade polish for brand channels.",
+        "result": "A versatile CGI product film the team could use across presentations and trade show storytelling."
+      },
+      "autoz-crave": {
+        "title": "Autocraze, mechanical product animation that clarifies motion",
+        "summary": "Industrial mechanical CGI that shows how the product moves and why the engineering matters.",
+        "problem": "Autocraze needed technical product animation that communicated mechanical function clearly to partners and buyers.",
+        "process": "We built mechanical animation passes focused on motion readability, lighting, and commercial pacing for industrial storytelling.",
+        "constraints": "Engineering clarity and commercial finish had to coexist in one short film.",
+        "result": "A mechanical CGI film suited for sales enablement and industrial product presentation."
+      },
+      "credex": {
+        "title": "Credex, cleaning equipment CGI with cinematic SFX",
+        "summary": "Industrial product animation for Credex carpet cleaning equipment with polished sound and motion.",
+        "problem": "Credex needed a product film that showed equipment capability with commercial energy, not only a static render pack.",
+        "process": "We animated the machine with cinematic camera work and SFX finish for marketing and product storytelling.",
+        "constraints": "Product readability had to survive dynamic motion and sound design polish.",
+        "result": "A finished industrial product film ready for digital campaigns and sales use."
       }
     }
   }

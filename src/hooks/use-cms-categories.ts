@@ -52,6 +52,8 @@ async function translateCategoryRows(
 /**
  * Overlay CMS category metadata onto the static catalog (and append new CMS-only categories).
  * When CMS has published rows, CMS order/title/cover win; static clients stay attached by slug.
+ * Categories removed from the static catalog (e.g. motion-graphics, vfx) stay hidden even if
+ * still published in CMS.
  */
 export function mergeCmsCategoryCatalog(
   staticCats: WorkCategory[],
@@ -60,17 +62,21 @@ export function mergeCmsCategoryCatalog(
   if (cmsCategories.length === 0) return staticCats;
 
   const staticBySlug = new Map(staticCats.map((c) => [c.slug, c]));
-  return cmsCategories.map((cms) => {
-    const base = staticBySlug.get(cms.slug);
-    return {
-      slug: cms.slug,
-      title: cms.title || base?.title || cms.slug,
-      tagline: cms.tagline || base?.tagline || "",
-      description: cms.description || base?.description || "",
-      coverImage: cms.cover_image_url || base?.coverImage || PROJECT_PLACEHOLDER,
-      clients: base?.clients ?? [],
-    };
-  });
+  const staticSlugs = new Set(staticCats.map((c) => c.slug));
+
+  return cmsCategories
+    .filter((cms) => staticSlugs.has(cms.slug))
+    .map((cms) => {
+      const base = staticBySlug.get(cms.slug);
+      return {
+        slug: cms.slug,
+        title: cms.title || base?.title || cms.slug,
+        tagline: cms.tagline || base?.tagline || "",
+        description: cms.description || base?.description || "",
+        coverImage: cms.cover_image_url || base?.coverImage || PROJECT_PLACEHOLDER,
+        clients: base?.clients ?? [],
+      };
+    });
 }
 
 export function useCmsCategories(options?: { includeDrafts?: boolean }) {

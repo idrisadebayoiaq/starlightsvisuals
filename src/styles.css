@@ -332,6 +332,11 @@ html.light {
   .testimonial-marquee-shell {
     overflow: visible;
   }
+  /* Pause while hovering/focusing so cards stay clickable mid-scroll */
+  .testimonial-marquee-shell:hover .testimonial-marquee-track,
+  .testimonial-marquee-shell:focus-within .testimonial-marquee-track {
+    animation-play-state: paused;
+  }
   .testimonial-marquee-card:hover {
     z-index: 5;
   }

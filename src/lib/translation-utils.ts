@@ -53,6 +53,32 @@ export function deepMerge<T>(target: T, source: unknown): T {
   return out as T;
 }
 
+/**
+ * Fill missing keys from source into target without overwriting existing values.
+ * Useful when locale JSON lags behind English for new industrial sections.
+ */
+export function deepMergeMissing<T>(target: T, source: unknown): T {
+  if (source === undefined || source === null) return target;
+  if (typeof source !== "object" || Array.isArray(source)) {
+    return target === undefined || target === null ? (structuredClone(source) as T) : target;
+  }
+  if (!target || typeof target !== "object" || Array.isArray(target)) {
+    return structuredClone(source) as T;
+  }
+
+  const out: Record<string, unknown> = { ...(target as Record<string, unknown>) };
+  for (const [key, value] of Object.entries(source as Record<string, unknown>)) {
+    if (!(key in out) || out[key] === undefined || out[key] === null) {
+      out[key] = structuredClone(value);
+    } else if (value && typeof value === "object" && !Array.isArray(value)) {
+      out[key] = deepMergeMissing(out[key], value);
+    } else if (Array.isArray(value) && (!Array.isArray(out[key]) || (out[key] as unknown[]).length < value.length)) {
+      out[key] = structuredClone(value);
+    }
+  }
+  return out as T;
+}
+
 export type FlatEntry = { path: string; value: string };
 
 /** Flatten nested locale JSON into dotted paths for the admin editor. */

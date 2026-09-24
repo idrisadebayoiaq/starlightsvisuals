@@ -228,11 +228,11 @@
     "ctaButton": "Gespräch buchen",
     "items": {
       "2d": {
-        "title": "2D Animation",
+        "title": "2D-Animation",
         "desc": "Bild für Bild und manipuliertes 2D für Serien, Kurzfilme, Erklärfilme und Markenfilme. Wir verbinden klassisches Handwerk mit digitalen Pipelines."
       },
       "3d": {
-        "title": "3D Animation",
+        "title": "3D-Animation",
         "desc": "Stilisiertes und fotorealistisches 3D, Charaktere, Umgebungen und vollständige Filmsequenzen mit ausgefeilter Feature Qualität."
       },
       "character": {
@@ -537,8 +537,8 @@
         "desc": "Helden Protagonistenblatt."
       },
       "2d": {
-        "tag": "2D Animation",
-        "title": "Neon Skyline",
+        "tag": "2D-Animation",
+        "title": "Neon-Skyline",
         "desc": "Anime inspirierte Pilotfolge."
       },
       "creature": {
@@ -2136,6 +2136,38 @@
       "message": "Nachricht",
       "send": "E Mail senden",
       "sending": "Senden…"
+    },
+    "translations": {
+      "title": "Translations",
+      "subtitle": "Edit public website copy and CMS content for every language. Manual saves are protected from automatic overwrite.",
+      "language": "Language",
+      "contentType": "Content type",
+      "types": {
+        "site_copy": "Site copy (pages, nav, legal)",
+        "blog_post": "Blog posts",
+        "portfolio_category": "Categories",
+        "portfolio_video": "Videos",
+        "portfolio_client": "Clients",
+        "testimonial": "Testimonials"
+      },
+      "search": "Search keys or text…",
+      "selectItem": "Select item",
+      "noItems": "No items found.",
+      "loadError": "Failed to load translations",
+      "saveError": "Failed to save translation",
+      "clearError": "Failed to reset translation",
+      "saved": "Saved. This language will not be overwritten by auto translate.",
+      "manualBadge": "Manually curated",
+      "autoBadge": "Auto or bundled",
+      "reset": "Reset to bundled / auto",
+      "resetConfirm": "Clear the curated translation for this language? Bundled or auto generated copy will be used again.",
+      "saving": "Saving…",
+      "save": "Save translation",
+      "fieldsHint": "Edit the text below, then save. Changes appear on the public site for this language.",
+      "section": "Section",
+      "loadingItems": "Loading items…",
+      "loadingFields": "Loading fields…",
+      "authRequired": "Sign in again to edit translations."
     }
   },
   "trust": {
@@ -2161,16 +2193,16 @@
     }
   },
   "entertainmentServicesPage": {
-    "metaTitle": "Brand & Entertainment | Starlights Visuals",
+    "metaTitle": "Marke & Unterhaltung | Starlights-Visuals",
     "metaDescription": "2D und 3D Character Animation, filmische Trailer, Motion Graphics und VFX für Brands und Entertainment.",
     "label": "Zweite Geschäftslinie",
-    "title": "BRAND & ENTERTAINMENT",
+    "title": "MARKE & UNTERHALTUNG",
     "subtitle": "Wir produzieren weiterhin Character Animation, Trailer und VFX, parallel zu industriellem CGI.",
     "backToIndustrial": "Zurück zu industriellen Leistungen",
     "ctaButton": "Projekt starten",
     "items": {
       "2d": {
-        "title": "2D Animation",
+        "title": "2D-Animation",
         "desc": "Frame by frame und geriggte 2D für Serien, Shorts, Erklärfilme und Brand Films."
       },
       "3d": {
@@ -2178,15 +2210,15 @@
         "desc": "Stilisierte und fotorealistische Charaktere, Environments und filmische Sequenzen."
       },
       "character": {
-        "title": "Character Design",
+        "title": "Charakterdesign",
         "desc": "Originale Charaktere, Kreaturen und Concept Art für Ihr IP."
       },
       "motion": {
-        "title": "Motion Graphics",
+        "title": "Bewegungsgrafiken",
         "desc": "Branded Motion, UI Animation und Broadcast Packages mit filmischem Finish."
       },
       "vfx": {
-        "title": "Visual Effects (VFX)",
+        "title": "Visuelle Effekte (VFX)",
         "desc": "Compositing, Particle FX und CG Integration für Film und Kampagnen."
       },
       "trailer": {
@@ -2323,7 +2355,7 @@
         ]
       },
       "brand-entertainment": {
-        "navLabel": "Brand & Entertainment",
+        "navLabel": "Marke & Unterhaltung",
         "headline": "CGI Animation für Brand & Entertainment",
         "intro": "Character Animation, Cartoons, VTuber und Entertainment Filme für Marken, die expressive Motion jenseits industrieller Produktstories brauchen.",
         "pains": [
@@ -2334,7 +2366,7 @@
         ]
       },
       "commercial-product": {
-        "navLabel": "Commercial Product",
+        "navLabel": "Kommerzielles Produkt",
         "headline": "CGI Animation für Commercial Products",
         "intro": "Produktanimation für Jewelry, Vapes, Gadgets, Packaging und Consumer Goods, photoreale Packshots und Launch Filme, die verkaufen.",
         "pains": [

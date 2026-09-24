@@ -201,14 +201,11 @@ export function TextTestimonialsSection({
                   {testimonials.map((item) => (
                     <div
                       key={`${copyIndex}-${item.id}`}
-                      className={cn(
-                        "testimonial-marquee-card shrink-0",
-                        copyIndex > 0 && "pointer-events-none",
-                      )}
+                      className="testimonial-marquee-card shrink-0"
                     >
                       <TestimonialCard
                         testimonial={item}
-                        onOpen={copyIndex === 0 ? () => setActive(item) : undefined}
+                        onOpen={() => setActive(item)}
                       />
                     </div>
                   ))}
