@@ -17,7 +17,7 @@ export type NewsletterPayload = {
 
 export type FormSubmitPayload = ContactFormPayload | NewsletterPayload;
 
-/** Studio public address shown on the site (not the Resend delivery target). */
+/** Studio address shown on the site and used for every inbound and outbound email. */
 export const STUDIO_EMAIL = "info@starlightvisualstudio.de";
 
 export async function submitStudioForm(payload: FormSubmitPayload) {

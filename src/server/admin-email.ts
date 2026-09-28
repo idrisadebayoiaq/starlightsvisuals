@@ -2,7 +2,7 @@ import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
 
 import { buildAdminCustomerEmail } from "@/lib/email-templates";
-import { getResendClient, RESEND_FROM } from "@/lib/resend.server";
+import { getResendClient, RESEND_FROM, RESEND_FROM_ADDRESS } from "@/lib/resend.server";
 import {
   assertAdminFromAccessToken,
   getAuthedSupabase,
@@ -70,6 +70,7 @@ export const sendAdminCustomerEmailFn = createServerFn({ method: "POST" })
           const result = await resend.emails.send({
             from: RESEND_FROM,
             to: email,
+            replyTo: RESEND_FROM_ADDRESS,
             subject: content.subject,
             text: content.text,
             html: content.html,
