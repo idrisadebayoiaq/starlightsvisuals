@@ -15,6 +15,12 @@ const FALLBACK_IMAGES = [
   portfolioIndustrial,
 ];
 
+/** Full-bleed covers with no white mat, so they sit cleanly on light or dark pages. */
+const CURATED_BLOG_COVERS: Record<string, string> = {
+  "medical-device-cgi-without-regulatory-risk":
+    "/blog-covers/medical-device-cgi-without-regulatory-risk.jpg",
+};
+
 function hashSlug(slug: string) {
   let hash = 0;
   for (let i = 0; i < slug.length; i += 1) {
@@ -24,6 +30,9 @@ function hashSlug(slug: string) {
 }
 
 export function resolveBlogImage(post: Pick<BlogPost, "slug" | "image"> & { image_url?: string }) {
+  const curated = CURATED_BLOG_COVERS[post.slug];
+  if (curated) return curated;
+
   const url = (post.image_url ?? post.image ?? "").trim();
   if (url) return url;
 

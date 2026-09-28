@@ -48,13 +48,13 @@ function BlogPage() {
               params={{ slug: featured.slug }}
               className="group grid overflow-hidden border border-border bg-card transition hover:border-neon-green lg:grid-cols-2"
             >
-              <div className="aspect-[16/10] overflow-hidden lg:aspect-auto lg:min-h-[360px]">
+              <div className="aspect-[16/10] overflow-hidden bg-card lg:aspect-auto lg:min-h-[360px]">
                 <img
                   src={featured.image}
                   alt=""
                   width={1280}
                   height={800}
-                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  className="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                 />
               </div>
               <div className="flex flex-col justify-center p-8 md:p-12">
@@ -82,14 +82,14 @@ function BlogPage() {
               className="group flex flex-col overflow-hidden border border-border bg-card transition hover:border-neon-green"
             >
               <Link to="/blog/$slug" params={{ slug: post.slug }} className="block">
-                <div className="aspect-[16/10] overflow-hidden">
+                <div className="aspect-[16/10] overflow-hidden bg-card">
                   <img
                     src={post.image}
                     alt=""
                     width={800}
                     height={500}
                     loading="lazy"
-                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
                 <div className="flex flex-1 flex-col p-6">

@@ -28,8 +28,14 @@ export function youTubeEmbedUrl(id: string): string {
   return `https://www.youtube.com/embed/${id}?autoplay=1&rel=0`;
 }
 
+/** Local stills cropped to the picture, without YouTube letterboxing or a white mat. */
+const LOCAL_YOUTUBE_THUMBS: Record<string, string> = {
+  _49zfG03G1U: "/blog-covers/medical-device-cgi-without-regulatory-risk.jpg",
+  "yfGZMp-JKnY": "/blog-covers/medical-animation-sample.jpg",
+};
+
 export function youTubeThumbnail(id: string): string {
-  return `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
+  return LOCAL_YOUTUBE_THUMBS[id] ?? `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
 }
 
 export function vimeoWatchUrl(id: string): string {

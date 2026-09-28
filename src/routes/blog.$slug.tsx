@@ -69,7 +69,7 @@ function BlogPostPage() {
           <img
             src={post.image}
             alt=""
-            className="absolute inset-0 -z-10 h-full w-full object-cover opacity-55"
+            className="absolute inset-0 -z-10 h-full w-full bg-card object-cover object-center opacity-55"
           />
           <div className="absolute inset-0 -z-10 bg-gradient-to-b from-black/50 via-black/35 to-background" />
           <div className="absolute inset-0 -z-10 grid-bg opacity-40" />

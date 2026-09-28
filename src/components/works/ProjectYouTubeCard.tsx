@@ -11,7 +11,7 @@ export function ProjectYouTubeCard({ poster }: ProjectYouTubeCardProps) {
       <img
         src={poster}
         alt=""
-        className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
+        className="absolute inset-0 h-full w-full bg-card object-cover object-center transition duration-500 group-hover:scale-105"
         loading="lazy"
       />
       <div
